@@ -1,0 +1,140 @@
+digraph root {
+	graph [bb="0,0,180.85,252"];
+	node [label="\N"];
+	subgraph G1 {
+		graph [bb="",
+			nodesep="",
+			rank="",
+			rankdir=LR,
+			ranksep=""
+		];
+		node [height="",
+			label="\N",
+			pos="",
+			shape="",
+			width=""
+		];
+		edge [constraint="",
+			pos="",
+			style=""
+		];
+		{
+			graph [bb="",
+				nodesep=0.1,
+				rank="",
+				rankdir=LR,
+				ranksep=0.1
+			];
+			node [height="",
+				label="\N",
+				pos="",
+				shape="",
+				width=""
+			];
+			edge [constraint="",
+				pos="",
+				style=""
+			];
+			{
+				graph [bb="",
+					nodesep=0.1,
+					rank=min,
+					rankdir=LR,
+					ranksep=0.1
+				];
+				node [height="",
+					label="\N",
+					pos="",
+					shape="",
+					width=""
+				];
+				edge [constraint="",
+					pos="",
+					style=""
+				];
+				legend1	[height=0.5,
+					label="depends on",
+					pos="102,102",
+					shape=plaintext,
+					width=1.1024];
+				legend2	[height=0.5,
+					label="required by",
+					pos="102,160",
+					shape=plaintext,
+					width=1.1131];
+			}
+			{
+				graph [bb="",
+					nodesep=0.1,
+					rank=same,
+					rankdir=LR,
+					ranksep=0.1
+				];
+				node [height="",
+					label="\N",
+					pos="",
+					shape="",
+					width=""
+				];
+				edge [constraint="",
+					pos="",
+					style=""
+				];
+				point1	[height=0.01,
+					pos="170,73",
+					shape=point,
+					width=0.01];
+				leg_trap1	[height=0.3,
+					label="",
+					pos="170,102",
+					shape=trapezium,
+					width=0.3];
+				point2	[height=0.01,
+					pos="170,131",
+					shape=point,
+					width=0.01];
+				leg_trap2	[height=0.3,
+					label="",
+					pos="170,160",
+					shape=trapezium,
+					width=0.3];
+			}
+			legend1 -> leg_trap1	[pos="e,161.39,102.36 140.71,102.36 143.9,102.36 147.04,102.36 149.99,102.36",
+				style=invis];
+			legend2 -> leg_trap2	[pos="e,161.05,160.36 141.09,160.36 144.04,160.36 146.94,160.36 149.69,160.36",
+				style=invis];
+			leg_trap1 -> point1	[constraint=false,
+				pos="e,170.05,73.813 170.05,91.209 170.05,89.216 170.05,87.222 170.05,85.229"];
+			point2 -> leg_trap2	[constraint=false,
+				pos="e,170.05,149.21 170.05,131.81 170.05,133.81 170.05,135.8 170.05,137.79"];
+		}
+	}
+	subgraph G3 {
+		graph [bb=""];
+		node [height="",
+			label="\N",
+			pos="",
+			shape=box,
+			width=""
+		];
+		edge [dir="",
+			pos=""
+		];
+		A	[height=0.5,
+			pos="27,234",
+			width=0.75];
+		B	[height=0.5,
+			pos="27,162",
+			width=0.75];
+		A -> B	[pos="e,27,180.1 27,215.7 27,208.41 27,199.73 27,191.54"];
+		C	[height=0.5,
+			pos="27,90",
+			width=0.75];
+		B -> C	[pos="e,27,108.1 27,143.7 27,136.41 27,127.73 27,119.54"];
+		D	[height=0.5,
+			pos="27,18",
+			width=0.75];
+		C -> D	[dir=back,
+			pos="s,27,71.697 27,60.24 27,52.041 27,43.369 27,36.104"];
+	}
+}

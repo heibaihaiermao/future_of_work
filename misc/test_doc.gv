@@ -1,0 +1,29 @@
+digraph G {
+    // Define document template in invisible subgraph
+    subgraph cluster_templates {
+        style=invis;
+        document_shape [shape=polygon,
+                       points="0.0,0.2 0.0,0.8 0.1,0.95 0.2,1.0 0.8,1.0 0.9,0.95 1.0,0.8 1.0,0.2 0.85,0.15 0.7,0.0 0.5,0.1 0.3,0.0 0.15,0.15 0.0,0.2",
+                       style=invis];
+    }
+    
+    // First document
+    doc1 [shape=polygon,
+          points="0.0,0.2 0.0,0.8 0.1,0.95 0.2,1.0 0.8,1.0 0.9,0.95 1.0,0.8 1.0,0.2 0.85,0.15 0.7,0.0 0.5,0.1 0.3,0.0 0.15,0.15 0.0,0.2",
+          style=filled,
+          fillcolor=white,
+          label="Document 1"];
+    
+    // Switch to circle
+    node [shape=circle];
+    circ1 [label="Circle 1"];
+    
+    // Another document
+    doc2 [shape=polygon,
+          points="0.0,0.2 0.0,0.8 0.1,0.95 0.2,1.0 0.8,1.0 0.9,0.95 1.0,0.8 1.0,0.2 0.85,0.15 0.7,0.0 0.5,0.1 0.3,0.0 0.15,0.15 0.0,0.2",
+          style=filled,
+          fillcolor=white,
+          label="Document 2"];
+    
+    doc1 -> circ1 -> doc2;
+}

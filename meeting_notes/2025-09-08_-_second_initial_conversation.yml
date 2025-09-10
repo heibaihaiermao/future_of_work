@@ -1,0 +1,239 @@
+meeting: TBS Consultation; Architecture discussion
+date: 2025-09-08
+attendees:
+ - Saeid Molladavoudi
+ - Leilah Gagnon
+ - Evan Thomas
+summary: |
+  This meeting was a preliminary discussion on analysis on future of work (FoW) for
+  national statistical agencies in the context of the GSBPM and a changing
+  technological environment.
+
+  Saeid Molladavoudi has been asked to give a presentation on FoW on November 12
+  or 16. He will present analysis on an updated GSBPM, and how it will identify
+  gaps or obsolesce in work descriptions. The analysis will have three phases.
+  Prior to any analysis a new SSC environment must be setup, for access to an LLM
+  API key, and no-code/low-code GenAI tools. The initial analysis will then distill
+  and systematize a moderate quantity of unstructured data from managerial
+  presentations and discussions on updates to the GSBPM activities. The resulting
+  structured content can then be leveraged for drafting updates for the GSBPM.
+  Following these updates, with subject matter expertise from HR, we will compare
+  the updated GSBPM activities and Statistics Canada work descriptions. Doing so
+  will illuminate any gaps or obsolete items in the work descriptions.
+background:
+  - topic: Saeid had initial meeting with CS to articulate future of work.
+    details:
+      - claims that each technological advancement brings a blurring of boundaries.
+    outstanding:
+      - Is this going to continue?
+      - If this continues, how will it affect the spectrum of skills employees need.
+      - What will the roles of employees look like in the future?
+discussion:
+  - topic: Project outline.
+    summary:
+      - phases:
+          - 1) Setup environment
+          - 2) Data-driven updates to GSBPM
+          - 3) Mapping updated GSBPM to future activities and skill gaps.
+      - deadlines:
+          - Experiments run by end of September.
+          - Presentation given on November 12th or 16th.
+    background: null
+    details:
+      - item: 1) Setup environment
+        summary: null
+        background: Need SSC subscription to access LLM API, GenAI env, etc.
+        details:
+          - Leilah already submitted 2025-09-05
+          - Revision request returned 2025-09-08
+        outstanding: null
+        todo: &todo1
+          - Ask LG if she needs assistance with setup.
+
+      - item: 2) Data-driven updates to GSBPM
+        summary: >
+          LLM to distill and systematize unstructured content for updates to GSBPM.
+        background:
+          - GSBPM provides "WHAT" of Statistical Offices, management provides "HOW"s.
+          - There was an excercise at tier 2 of management to identify "HOW"'s of
+            GSBPM.
+          - Examples of "HOW" include data collection. One might target data-mining
+            (nano-data) rather than focusing on collection through surveys
+            (micro-data).
+        details:
+          - Hypothesized "blurring of boundaries" due to technological advances,
+            therefore working to articulate impact this will have on StatCan and
+            future of work.
+          - Content created by management to be organized and evaluated for elements
+            for GSBPM (activities) update.
+          - SM described content as "a bunch of links" that need summarization.
+          - LG emphasized curating the update content for elements which we have
+            control over, such as updating job descriptions and not proposing new
+            job classifications.
+          - LG proposed analysis that directs what is done with classification, rather
+            than what new classifications might fill any identified gap. This aligns
+            with her observation that the same work descriptions are designed without
+            alignment with "activity" (GSBPM) and that work descriptions are used
+            differently across "domains".
+        outstanding:
+          - question: LG mentioned having broken down something into sub-elements..
+            answer: More granular phases are mentioned in the SSC intake form.
+        todo: &todo2
+          - Review input content.
+          - Follow-up with SM if there are concerns.
+
+      - item: 3) Mapping updated GSBPM to future activities and skill gaps.
+        summary: A comparison between updated GSBPM and existing job descriptions.
+        background: null
+        details:
+          - We will have SME support from HR with this task.
+        outstanding:
+          - question: Verify with LG, is matching to job descriptions or work descriptions?
+            answer: work descriptions.
+        todo: &todo3
+          - Collect content for mapping
+
+  - topic: Training Catalogue website
+    summary: Hold off until desktop icon is prepared.
+    background: null
+    details: null
+    outstanding:
+      - Short discussion with LG about if desktop icon is too invasive.
+    todo:
+      - Fix processing to pick standardized competency rather than LLM imputed skill.
+      - Redo mapping with updated competency framework.
+      - Consult with IT.
+
+  - topic: How Evan should be organizing his time moving forward
+    summary: 2 days/week FoW, 1 day/week Training catalogue, 2 days/week S2OS, 
+    background: null
+    details: null
+    outstanding: null
+    todo:
+      - ET and MS to meet with Marie-eve Bedard to discuss.
+
+outstanding:
+  - What is the difference between a job description and a work description?
+todo:
+  - *todo1
+  - *todo2
+  - *todo3
+raw: |
+    Future of Work
+     - Important to have "Exploration Environment"
+        - Like what Mihir had.
+        - LG; Already sent documentation Friday (pre 2025-09-08)
+    
+     - We want to be running the experiments.
+     - GSBPM (The "WHAT" of Statistical Offices)
+        - But doesn't tell them "HOW" to.
+        -
+     - Earlier this year there was an excercice at "tier 2 of management"
+       To come-up with the "HOW"s
+         - E.G. Determining whether data acquisition would be passive
+                (mining; nano-data) or active (surveys; Micro-data).
+    
+     - TODO
+        - Run experiments using LLMs to "organize" these (proposed) HOWs.
+        - Do a comparison, match them with existing job descriptions.
+       
+    
+    - Step-back
+       - This started w/ last year when CS asked SM to articulate FoW
+          - Blurring boundaries with every additional technological
+            advancement.
+          - IS THIS GOING TO CONTINUE?
+       - If so, how this affect the "spectrum of skills" individuals need?
+    
+     - ~ Let's reverse engineer GSBPM.
+    
+    1) Environment
+    2) First use AI to organize all of the "inputs" for the future HOW
+    3) (Harder) Mapping excercise job descriptions --> Future HOWs.
+         - Find discrepancies between the future HOWs and what is being
+           asked for in (work descriptions;; preceeded by ~standards~)
+    
+    LG;
+     - W/in our control;
+         - updating job descriptions
+         - not ___________
+    
+     - ~Broke ____ down into sub-/~projects~/
+        - MS; Looks good.
+    
+    
+    Presentation at SMC (November 12th/16th)
+    Experiments done by end of September.
+    
+    
+    Questions;
+     1) What are the "inputs" for the future HOW
+         - "A bunch of links"
+    
+     2)
+    
+    
+    
+    Current technology -> \
+    "Current" GSPMM -> \
+    ~Plan for reaching future GSPMM~ -> \
+    "Current" needs for future hiring.
+    
+    
+    LG;
+     - What is out of scope
+         - EG. making a new classification (not possible)
+    
+     - What are they doing with classification
+     - ____
+     
+     - individual work structure.
+    
+    
+    Inputs
+     - different activities
+     - Work descriptions
+        - (but designed without activity alignments... same work descriptions but with different ~domains~)
+            - Will have HR support for this.
+    
+     - describes groups
+        - Broken
+    
+    
+    TODO
+     1) Summarize all of the feedback on future of GSBPM
+     2) Summarize all feedback on collection.
+    	- Distill content into structured & systematized updates.
+     3)
+    
+    "GSBPM steps"
+    
+    
+    Website
+     - Hold-off until icon is ready.
+    
+    Talk with MEB
+     1) Future of Work
+        - (2 day/week)
+     2) DPMO stuff
+        - Training catalogue (1 day/week)
+     3) S2OS
+        - (2 day/week)
+     4) SDP
+     5) (MEB Other stuff)
+    
+    
+    (ALSO FINE TO JUST SPEND TIME ON THIS STUFF FOR 2-3 WEEKS).
+    
+    
+    
+    
+    
+    
+    
+    
+    TODO
+     0) Does LG need help with EnvSetup
+     1) Draft notes including summary of plan
+     2) Review "inputs"
+     3) Follow-up with any questions.

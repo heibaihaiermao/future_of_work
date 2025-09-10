@@ -1,0 +1,8 @@
+digraph G {
+    node [shape=polygon,
+          points="0.0,0.2 0.0,0.8 0.1,0.95 0.2,1.0 0.8,1.0 0.9,0.95 1.0,0.8 1.0,0.2 0.85,0.15 0.7,0.0 0.5,0.1 0.3,0.0 0.15,0.15 0.0,0.2",
+          style=filled,
+          fillcolor=white];
+    
+    doc1 [label="Document 1"];
+}

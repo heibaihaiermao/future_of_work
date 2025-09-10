@@ -1,0 +1,52 @@
+digraph workflow {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  node [shape=ellipse];
+  GSBPM [label="GSBPM"; rank="min"; pos="0,0!"];
+
+  LLM1 [label="Systematize\nby LLM";
+        rank="max";
+	shape=invtrapezium;
+	group=g1];
+
+
+  GSBPM -> LLM1;
+  {rank=same; agencyRequest; LLM1};
+  agencyRequest [label="Strategic Priority\nDecks"; rank="same"];
+  agencyRequest -> LLM1;
+  agencyRequest -> LLM1;
+
+  structAgencyReq [label="Strategy Template";
+  		  rank="max";
+  		  shape=rect;
+		  group=g3];
+  LLM1 -> structAgencyReq;
+  fieldFeedback [label="Program Area Input";
+  		 rank="same"];
+
+		 
+  LLM2 [label="Structuring\nby LLM"; shape=invtrapezium; rank="same"; group=g4];
+  {rank=same; fieldFeedback; LLM2};
+  fieldFeedback -> LLM2;
+  fieldFeedback -> LLM2;
+  fieldFeedback -> LLM2;
+  structAgencyReq -> LLM2;
+
+  structField [label="Structured Field Input"; shape=rect; group=g5];
+  LLM2 -> structField;
+
+  /* Analysis of common elements */
+  LLM3 [label="Synthesize\nby LLM"; shape=invtrapezium; group=g6];
+  {rank=same; structField; LLM3};
+  structField -> LLM3 [constraint=false];
+  structField -> LLM3 [constraint=false];
+  structField -> LLM3 [constraint=false];
+
+  /* Output content: Common elements */
+  commonEle [label="Common Elements"; shape=ellipse];
+  LLM3 -> commonEle;
+
+  labelloc="t";
+  label="Identify Common Elements for GSBPM Update";
+}

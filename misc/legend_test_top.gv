@@ -1,0 +1,39 @@
+digraph G1 {
+  rankdir=LR;
+  subgraph {
+        // Legend nodes
+        nodesep=0.1;
+        ranksep=0.1;
+
+
+
+        legend1 [shape=plaintext; label="depends on"];
+        point1 [shape=point; width=0.01];
+	
+        
+        // Trapezoid for legend
+        leg_trap1 [shape=trapezium; label=""; width=0.3; height=0.3];
+
+        legend2 [shape=plaintext; label="required by"];
+        point2 [shape=point; width=0.01];
+        leg_trap2 [shape=trapezium; label=""; width=0.3; height=0.3];
+        
+        //{rank=same; point2; leg_trap2}
+	{rank=min; legend1; legend2}
+        {rank=same; point1; leg_trap1; point2; leg_trap2}
+
+
+        //legend1 -> leg_trap1 [style=invis; maxlen=0.2; minlen=0.2];
+        //legend2 -> leg_trap2 [style=invis; maxlen=0.2; minlen=0.2];
+        legend1 -> leg_trap1 [style=invis];
+        legend2 -> leg_trap2 [style=invis];
+        // Legend arrows
+        leg_trap1 -> point1 [constraint=false];
+        point2 -> leg_trap2 [constraint=false];
+    }
+
+   
+    // Force legend items together in top right
+    //{rank=source; legend1 legend2 leg_trap1 leg_trap2}
+    //{rank=source; legend1; legend2}
+}
