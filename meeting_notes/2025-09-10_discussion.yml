@@ -1,0 +1,258 @@
+meeting: Future of Work Methodology Brainstorm
+date: 2025-09-08
+attendees:
+ - Leilah Gagnon
+ - Evan Thomas
+tags:
+  - Future of work
+  - FoW
+  - brainstorming
+  - SMC
+  - objectives
+summary:
+background:
+  - topic: Objective, Deliverables and low hanging fruit.
+    summary: null
+    background: null
+    details: null
+          - item: 4) Mapping key activities to substitute requirements (3 months)
+            summary: null
+            background: null
+            details: null
+            outstanding: &outstandingPhases4 null
+
+outstanding:
+  - *outstandingt1i1
+todo: null
+  - put notes on OneNote.
+  - remove AIA from inputs to LLM ./
+raw: |
+
+  New tool (parking lot)
+  ----------------------
+   - TBS has policy updates
+   - What are the downstream changes to StatCan policies.
+  
+   -> Appearently TC has a tool that does this...
+       - Reach out to see if we could leverage this.
+       - Text-analytics COP was working on this previously
+   
+   - High visiblitity, high impact
+       - We often reproduced policies created externally
+          - Put us on the backfoot. 
+  
+   - Accelerate this mapping.
+  
+  
+   - LG meeting with Victoria tomorrow (so she needs as much content as possible)
+      - to discuss what she can give us
+      - Victoria is assistant director of learning, development and leadership (HR)
+          - What can she provide for us
+             - Data
+             - Input
+             - Feedback loop
+             - Assistance (in ~parsing~)
+      - Victoria is planning on reviewing "the record of decision"
+  
+      - LG> notice that order of input has a big impact on LLM 
+  
+   - The project is supposed to be specific to fields
+       - Agency-wise vs fields
+       - Work-descriptions are very individualized-base
+       
+       - Will it imapct Areas? or specific-roles (cross-area).
+          - specific roles; EC-02 (operator) no longer involved in collections
+          - ~areas; maybe finance won't be involved in hiring
+  
+  
+   - "There is a global understanding that some areas are going to be "shifting" (everyone within specific areas)
+  
+   - LG needs meeting minutes and attendees for the meetings where this project was delegated.
+   - TODO; put notes on OneNote.
+   - TODO; remove AIA from inputs to LLM
+  
+  
+   - Are we supposed to be closing the gap between work-description and job-descriptions
+      - ET> This wasn't appearent in the ask from Saeid.
+      - ET> If anything it might be more useful to reformulate the work-descriptions to be sufficiently general to
+            facilitate
+            staffing justifiaction.
+  
+      
+  
+  
+      Refine milestones for SSC env application.
+       - Review
+  
+      Looking pin-down the ask.
+       - Concrete outputs
+       - What does sucess look like.
+       - Want to avoid the scope-creep (political reframing) with the prior IP.
+  
+       - The ask is a bit unrealistic -> first project into something realistic.
+  
+  
+      Deliverable IS A DECK. (we have that deck for SMC)
+       - There expecations for content such as;
+           - include what is in our control, but exclude what is not.
+               - (not excluded.. but as a sort of "crossed-out" line).
+  
+      Work after the deck (for Stratectic Management Committee (SMC))
+  
+      work breakdown structure; (step 1,2,3,4,5)
+      generic occupational group standards; ITs
+      specific work descriptions that pull from the group/classifications
+       - unique (kept in a private repository by our classification people).
+              - Might see evolution in these since these are custom
+       - generic (saved in a system)
+           - DS one is most up to date.
+  
+  
+      GSPPM is very similar to HR business processes (very hierarchical)
+       - broken down (eg)
+          - planning
+              - forecasting
+  
+      THE PROCESS AND THE KEY ACTIVITIES DON'T FOLLOW THE SAME LOGICAL~FLOW
+       - See OECD publication..
+       - See PSMAC publication for a previous attempt for what we're trying to do now (within HR)
+          - Looking to reduce "time-to-staff" by optimization _____
+  
+  
+       - ALSO CHECK WITH OTHER STATISTICAL OFFICES FOR WHAT THEY ARE DOING.
+  
+      GSPPM
+       - LG idea; collection & processing.
+  
+      Start with "one" that is known (for mapping)
+        - see chat
+  
+  
+      MAPPING TO WORK-DESCRIPTIONS.
+  
+      Directives include in the prompt, to indentify what elements are appropriate to do, and what aren't.
+  
+  
+      Low-hanging fruit
+       - Summarize SMC decks (SM has recieved alot).
+  
+  
+       INS
+       1) undertand processes
+       2) understand diretives
+       3) understand AIAs
+       4) Skills gap assesment.
+  
+       Then
+       4) Highlight key areas of focus (of the above/ inline with the above).
+       5)
+  
+      "Variety of how we define the work makes the mapping difficult".
+  
+  
+      A Work description includes key tasks, but is not exhaustive.. and are out of date.
+      (less 80% doesn't have to align with work description).
+  
+  
+      informal conversation w/ external partners (national statistics offices) for sanity check.
+  
+  
+      PULL SMC PRESENTATIONS FOR COMMON STYLE.
+       - or adhere to SME template (HR has one)
+       - or adhere to "most sucessful" template.
+  
+       - Ensure to include where each theme comes from.
+  
+  
+       - Break sources down into different meaningful information products.
+       - Start with direction provided...
+  
+      ---
+      1. GSBPM
+      2. Strategic priority deck (this is the "WHAT")
+      3. Program area input
+      4. Top core areas and themes (ideally test-case-studies)
+      5. Test with generic work discriptions.
+          - Looking at case studies & looking for generic work descriptions that are implicated in case study topics.
+  
+      ---
+  
+  
+      Keep provided case studies as test items.
+  
+      ~ What about field 6~
+  
+  
+      SMC OBJECTIVE
+       - PRE-ENDORSEMENT
+  
+  
+  
+      Sub-elements
+       - See intake form.
+  
+----
+
+
+First summarization is enough work to have to do well.
+ - Therefore LG to start laying ground work for pushing off adjustments to work-descriptions
+ - Therefore proof of concept on three hand picked work-descriptions.
+    - LG says hand picking doesn't have to be polically contencious.
+
+    - Role might not change but (number).
+
+
+ - Identify keywords that map onto SBP.
+
+
+
+--- 
+
+  - Work-descriptions
+Meeting with Victoria: tell them what is relevant information they can provide us To
+  - Looking for content that will bridge the gap between SBP and work-descriptions
+    - perforamnce objectives
+    - key activities (if they have a repo of this.)
+    - competency profile (EC competency profile is date 2008...)
+
+-> reference from you notes.
+    - business process flow
+
+
+Bridging
+ - Scrape work-descriptions of key activities
+     - Key activities are almost always
+     - Skills are typical
+     - Efforts
+
+     - Issues: difficult to seperate hard and soft skills...
+     {"key activities": "is summary",
+       "skills": "hard-skills",
+       "effort": "roughly soft skills (behavioural)",
+       "responsibility": "leadership"
+       "working conditions": null}
+
+  1. Summarize decks into GSBPM updates.
+  2. Bridge the gap between gsbpm and work descriptions (intermediate representation and metholodogy).
+      - Ask LLM to select all key activities neccesary to complete each sub-process
+         - Permit "Other" for validation
+  3. Work descriptions updates.
+  4. organizing that infomation.
+       
+
+ - Identify work descriptions that are likely to change by those that contain the key activities required for the
+   sub-process update.
+
+
+   ET> for each point have one data source. 
+
+
+  Skills gap survey
+   - Asked what do you expect of your staff today and in the future.
+   - Useful as a possible test/comparison what proposed changes to work-descriptions
+   - (ISSUE) not done in the context of GSBPM 
+       - Options:
+           - Apologist, identify common and qualitative themes
+           - Undermine the methodology as inadmissible
+       - Use for points of dicussion
+       - But the item has been raised it must be addressed.`

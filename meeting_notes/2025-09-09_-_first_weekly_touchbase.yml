@@ -1,17 +1,292 @@
-meeting: Future of Work Methodology Brainstorm
-date: 2025-09-08
+meeting: Future of Work SME initial touchbase
+date: 2025-09-09
 attendees:
- - Victoria Maamari
- - Marissa Van Der Velden
- - Saeid Molladavoudi
- - Leilah Gagnon
- - Evan Thomas
+  - person: Victoria Maamari
+    role: !fill null
+    contact:
+      email: victoria.maamari@statcan.gc.ca
+  - person: Marissa Van Der Velden
+    role: !fill null
+    contact:
+      email: Marissa.VanDerVelden@statcan.gc.ca
+  - person: Saeid Molladavoudi
+    role: Director of CAIRE
+    id: SM
+    contact:
+      email: saeid.molladavoudi@statcan.gc.ca
+  - person: Leilah Gagnon
+    role: Project lead
+    id: LG
+    contact:
+      email: leilah.gagnon@statcan.gc.ca
+  - person: Evan Thomas
+    role: Tech lead
+    id: ET
+    contact:
+      email: evan.thomas@statcan.gc.ca
 tags:
   - Future of work
   - FoW
   - Consultation
   - SMC
+  - Quality Analysis
+  - SME
+  - verification
+  - future work
+summary: |
+  This initial meeting with subject matter experts from HR was the first of a series of weekly consultations.
+  Key elements that progressed in this meeting were the role of SME, and sources of relevant data.
+  Following the meeting ET and LG had a major debrief that elaborated on the meeting contents and added important
+  context.
 
+description: |
+  Victoria Maamari and Marissa Van Der Velden provided expertise on what relevant information to use (data sources),
+  particular items of importance are the Skills-gap survey and work-descriptions. The Skills-gap survey documents a
+  previous effort to anticipate the future skills of employees, and the gap from their current skills. Analysis from
+  this survey broke responses down by job classification. Since the ultimate target of our analysis is
+  work-descriptions (which list skills), results from the Skills-gap survey might of provided a key source of
+  validation for both "technical" and "interpersonal" skills. However, the survey methodology is unknown, raising
+  risk of apples-to-oranges comparison. Moreover, without having been conducted with the context of updates to the
+  GSBPM, the survey likely "points" towards a different vision of the future. Nonetheless, having been raised by the
+  SME, the Skills-gap survey must be address in our final reporting.
+
+  We also had useful discussions regarding work-descriptions. Though work-descriptions are the ultimate target of
+  our analysis, there remains some disagreement regarding their quality, relevance, and whether they align with
+  employee activity. In our debrief LG pointed out that upto 80% of an employees work need not align with their work
+  description, and that many work-descriptions where published 10-20-30 years ago. There may be substantial need for
+  updates to the work-descriptions. On the other hand, in the meeting Victoria raised results from the Skills-gap
+  survey that suggested that the "top 5 [activities/skills?] consistently aligned with work-descriptions".
+  Ultimately however, LG proposed in the debrief that work-descriptions are written so generally
+  (for hiring expediency) that they cannot be used to reconstruct the SBP. This highlights an intelligence gap
+  between proposed changes to the GSBPM and the work-descriptions.
+
+  Lastly, there was some discussion about what outcomes we should anticipate, and how to appropriately map to an
+  ultimate target. It was raised that both fields and roles (work-descriptions) that were previously involved in 
+  a given SBP may not be in the future. This highlights a design decision, whether it is more appropriate to
+  map updates to the GSBPM to fields or to roles. Currently the project plan is to map onto roles (work-descriptions).
+  It still may be that we find mapping changes to field adjustments may be more strategically advantageous, since
+  roles are general and fields provide specific services. This question relates to the above mentioned "gap" between
+  GSBPM updates and work-descriptions.
+
+background:
+  - Saeid Molladavoudi has an SMC presentation on November 12th, and must got to HRC two weeks prior.
+  - The presentation will summarize updates to StatCan's Statistical Business Processes (within framework of GSBPM),
+    and propose strategic adjustments to existing work-descriptions.
+  - The underlying assumption is that work-descriptions reflect sub-activities of StatCan's SBPs.
+  - Since the analysis is mapping onto work-descriptions, SME from HR were brought in for consultation.
+  - !definition Job family, are categories of job. "work descriptions belong to /pronounced/ job families"
+details:
+  - topic: Data sources
+    summary: null
+    background: null
+    details:
+          - item: Skills-gap survey
+            summary: >
+              The Skills-gap survey identified anticipated changes to employees skills. The context and methodology
+              mean the survey is not a good alternative to our analysis. However our report must address the survey.
+            background:
+              - !verify Skills-gap survey sought to measure the discrepancies between an individual's
+                classification/skills and their work description.
+              - !verify The methodology relied on self reporting current and future expectations of employee's skills.
+              - It was found that there was large alignment, "top 5 ____ consistently matched work descriptions".
+            details: 
+              - The Skills-gap survey offers a point of comparison. It provides another effort in anticipating
+                changes to employees skills, a proxy for their activities. However the methodology of the survey
+                was not reviewed prior to deployment, and the data returned is all free text. 
+
+              - Furthermore the survey was done without the context of the GSBPM, therefore anticipated changes in
+                skills might reflect a variety of drivers (eg. SAS-to-Open-source).
+
+              - Having been suggested as a point of comparison, or input to our analysis, it must be addressed.
+
+              - Existing analysis breaks down the skills-gap data by classification/box. This includes interpersonal
+                skills
+            outstanding: &outstandingt1i1
+              - Is there any reason why interpersonal or "soft" skills must or should be treated differently than
+                other skills, either in our analysis or our reporting?
+              - Are the changes to the GSBPM only "technical" skills?
+
+          - item: Work descriptions
+            summary: >
+              Work descriptions are the ultimate target of our analysis. They may be used in additional ways, and have
+              some quality issues. (see details).
+            background:
+              - Work-descriptions are written broadly so they may be flexible used to justify staffing existing boxes.
+              - Many work-descriptions are outdated, and so may not be a safe object for validation.
+              - A maximum of 80% of an employees work may be unrelated to his job description.
+            details:
+              - work-descriptions may also be used to produce intermediate intelligence products. For example,
+                unique work-descriptions could be analyzed for trends in key activities.
+              - !validate work-descriptions for any given SBP are accessible on the ICN.
+
+          - item: Missing program area inputs from fields 1, 6, 8
+            summary: null
+            background: null
+            details:
+              - item: content from field 1 will provide information on "the future of how"
+            outstanding: &outstanding1t3i
+              - Is collecting information on field 6 a CoI?
+              - What is "the future of how", we need a better term for what we are drafting.
+
+          - item: Job descriptions or posters
+            summary: >
+              Job descriptions might serve to identify trends in hiring, however this would be without GSBPM context.
+
+  - topic: Role of SME
+    summary: >
+      Subject matter experts are expected to provide relevant sources of context, data for bootstrapping, and
+      human-in-the-loop validation of produced analysis.
+    background: null
+    details:
+      - Some relevant sources of information are gate-kept by SMEs. For example unique work-descriptions.
+      - SMEs can identify which fields are implicated each SBP. This can direct analysis on SBP updates, possibly
+        by limiting which fields input is used in the analysis for which SBP.
+      - !verify SMe can access who, involved in an SBP, is staffed; what field they work in,
+        what classification, what job description.
+
+      - ET> Have SME validate methodology, rather than outputs, so not to bias final results.
+    outstanding: &outstanding1t2i
+      - What are the data sources for determining which employees are involved in a given SBP?
+
+
+  - topic: Anticipated outcomes
+    summary: null
+    background: null
+    details:
+      - Fields currently involved in a SBP might no longer be.
+      - Roles (as determined by work-descriptions) currently involved in a SBP might no longer be.
+      - It can be argued whether or not fields or roles should be the analysis target.
+
+  - topic: !future Future projects
+    summary: >
+      Subsequent analysis could identify how SoMC be updated to reflect the forecasted changes to work-descriptions.
+
+  - topic: Project phases
+    summary: null
+    background: See 2025-09-09_-_analysis_methodology_brainstorm.yml, in the detail "Project phases"
+    details: null
+      - Marissa> "first use generic work-descriptions."
+      - SM> Future of GSBPM first.
+
+  - topic: SSC environment
+    summary: >
+      ET to setup SSC environment, and to onboard Marissa and Victoria.
+
+
+
+
+outstanding:
+  - *outstandingt1i1
+  - If we are synthesizing updates to SBP, shouldn't we have SME on these processes (or GSBPM)?
+  - What is HRC? Why does SM have to go to it?
+todo:
+  - put notes on OneNote.
+  - remove AIA from inputs to LLM ./
+ai:
+Generated by AI. Make sure to check for accuracy.
+  Project Infrastructure Setup and Onboarding: 
+    summary: Saeid and Evan discussed the successful setup of the SSC environment, outlined the onboarding process for team members including Marissa and Victoria, and coordinated with Ilyas for access management.
+    details:
+	Environment Setup: >
+          Saeid confirmed that the SSC environments were set up and operational as of the meeting date, enabling the
+          team to proceed with their work on the project.
+	Onboarding Process: >
+          Saeid and Evan agreed to onboard Marissa and Victoria to the environment, with Saeid requesting their email
+          addresses to be sent to Ilyas for access provisioning.
+	Access Coordination: >
+          Saeid clarified that only an email address was required for onboarding and delegated the task to Evan to
+          coordinate with Ilyas for Marissa and Victoria’s access.
+  GSPPM Future State Analysis and Workflow Planning:
+    summary: >
+      Saeid, Evan, and Leilah discussed the steps for organizing, validating, and analyzing the GSPPM’s future states,
+      focusing on matching job descriptions to envisioned roles and identifying gaps.
+    details:
+	Organizing Future States: >
+          Saeid proposed spending about a week to a week and a half organizing the envisioned future states for the
+          GSPPM, starting with available information and focusing on areas like collection.
+	Validation and Gap Analysis: >
+          The team agreed that after organizing the future states, the next steps would involve validating the
+          information and matching job descriptions to identify gaps between current and future requirements.
+	Handling Incomplete Data: >
+          Saeid noted that not all GSPPM boxes have defined future states, so the team will begin with those that do
+          and expand as more information becomes available.
+	Subject Matter Expertise: >
+          Saeid emphasized the need for subject matter expertise to determine which divisions are responsible for
+          specific functions like collection, and suggested leveraging system data and staffing colleagues for this
+          purpose.
+
+  LLM Workflow Design and Validation: 
+    summary: >
+      Evan and Saeid outlined the approach for breaking down the analysis into manageable workflow steps for the LLM,
+      emphasizing iterative validation and the importance of subject matter input.
+    details:
+	Workflow Breakdown: >
+          Evan described the strategy of decomposing the problem into smaller workflow steps that the LLM can handle,
+          rather than inputting all data at once.
+	Iterative Validation: >
+          Both Evan and Saeid stressed the need for step-by-step validation of LLM outputs,
+          involving subject matter experts to ensure accuracy and relevance.
+	Leveraging Past Experience: >
+          Evan referenced previous work with Leilah on a data science project, noting similarities in workflow but
+          cautioning that the current project is not a simple plug-and-play scenario.
+
+  Skill Survey Data Access and Analysis: 
+    summary: >
+      Leilah, Saeid, and Evan discussed the availability, structure, and potential use of the skill survey data,
+      including considerations for data protection and the inclusion of both technical and interpersonal skills.
+    details:
+	Skill Survey Content: >
+          Saeid explained that the skill survey focused on current technical skills and upskilling needs, with input
+          from both managers and employees, and included some project management and gap analysis elements.
+	Data Breakdown by Field: >
+          Leilah inquired about the possibility of breaking down survey data by field or program area, and Saeid
+          confirmed that such details might be available, pending confirmation with Melissa.
+	Data Access and Protection: >
+          Leilah asked about access to the raw survey data and any protection considerations; Saeid agreed to check
+          with Melissa regarding sharing the data and to ensure any necessary permissions or privacy considerations
+          are addressed.
+	Inclusion of Interpersonal Skills: >
+          Saeid noted that the survey also included questions on interpersonal skills, which were highlighted as
+          important during consultations, even if not central to the current analysis.
+
+  Job Description Versus Job Poster Analysis: 
+    summary: >
+      Leilah and Saeid debated the merits of analyzing job descriptions versus job posters to better reflect actual
+      duties and track the evolution of roles, considering time constraints and future validation steps.
+    details:
+	Analysis Scope: >
+          Leilah suggested that comparing job descriptions with job posters could reveal how roles have evolved,
+          especially with the integration of new skills like AI, and provide insights into organizational changes.
+	Time Constraints: >
+          Saeid recommended starting with standard job descriptions due to time limitations, with the possibility of
+          expanding to job posters and more detailed analysis in future phases.
+
+  Project Timeline and Next Steps: 
+    summary: > 
+    Saeid, Leilah, and Evan reviewed the project’s tight timeline, agreed on immediate deliverables, and
+    scheduled weekly meetings to monitor progress and adjust plans as needed.
+    details:
+	Timeline Review: >
+          Saeid outlined the need to complete initial analysis by the end of September, with a presentation
+          tentatively scheduled for November, and acknowledged the part-time commitment of team members.
+	Meeting Scheduling: >
+          The team agreed to hold weekly meetings on Tuesdays at 1:00 PM to coordinate efforts and track progress.
+	Immediate Actions: >
+          Saeid tasked Evan with onboarding Marissa and Victoria, and the team agreed to begin analysis with available 
+          job descriptions and skill survey data while awaiting further information from Kathryn Stevenson.
+
+  Follow-up tasks:
+    Onboarding to SSC Environment: >
+      Onboard Marissa and Victoria to the SSC environment by requesting Ilyas to add their email addresses. (Evan)
+    Skill Survey Data Sharing: >
+      Connect with Melissa to confirm if the raw skill survey data can be shared with Evan and, if permitted, provide
+      both the raw data and the presentation to Evan, ensuring Melissa is CC'd for any follow-up questions. (Saeid)
+    Field Identification in Skill Survey: >
+      Double-check whether the skill survey data includes field or group identification to support analysis by
+      program area. (Saeid)
+    Review of Previous Presentation and Timelines: >
+      Review previous presentation records or minutes to clarify the specific ASK and coordinate with Leilah and Evan
+      to determine timelines and deliverables for the current analysis. (Saeid)
 raw: |
   Catherine ~is in charge of future of work~
 
@@ -40,39 +315,35 @@ raw: |
         - There might be identification that some fields that previously were
           involved in collection might no longer be.
 
-        - They have access to see who, involved in collection, is staffed:
+        - They have access to see who, involved in collection, is staffed;
              - Where they are
              - What classification they are
              - What their job description is.
 
-             - Victoria: "We don't care where they are, only what box they occupy".
+             - Victoria; "We don't care where they are, only what box they occupy".
 
   - ~Classifications are on ICN already~
-      - 
 
   - More information coming from Field 1 on "the future of how"
-  - 
 
   - Misalignment between classification/skills and work-descriptions
      - (Victoria) largely aligned, "top 5 consistently match work descriptions"
-          - LG: In their *self* evaluation.
+          - LG; In their \*self\* evaluation.
   
   - We do have skills-gap breakdown by classification/box.
      - They mentioned that interpersonal skills are also represented in the data
         - ET> good! Theree is not need to discriminate against "soft skills".
 
-  - LG: Do we do job posters or job descriptions.
+  - LG; Do we do job posters or job descriptions.
         -  We might identify trends in hiring.
 
         - ET> LG also mentioned finding trends in unique work-descriptions.
 
 
-  Stretch (future) analysis:
+  Stretch (future) analysis;
     - identifyig changes to SOMCs to reflect forecast changes in roles.
 
-
-  Marissa: First, use generic work-decriptions...
-
+  Marissa; First, use generic work-decriptions...
 
 
 ---
@@ -122,4 +393,3 @@ raw: |
             - We used to have stenography.. talking about "manual routing"
   
         - WORK DESCRIPTONS BELONG TO ~PRENOUNCED~ JOB FAMILIES.
-  

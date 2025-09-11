@@ -167,8 +167,6 @@ background:
           value: >
             identify which elements of GSBPM are appropriate for automation or
             AI-assistance.
-        - item: Artificial intelligence Impact Assessments (AIA)
-          value: !fill null
         - item: Skills gap assessment
           background: !fill null
           value: !fill null

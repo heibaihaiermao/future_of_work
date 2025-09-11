@@ -8,7 +8,7 @@ $ErrorActionPreference = "Stop"
 #
 
 # AI says necessary to load base office assemblies first.
-Add-Type -Path "$env:WINDIR\assembly\GAC_MSIL\office\*\office.dll" -PassThru   
+$baseAssemblies = Add-Type -Path "$env:WINDIR\assembly\GAC_MSIL\office\*\office.dll" -PassThru   
 
 # Find Microsoft Word assemblies.
 $wdWTypes = Get-ChildItem -Path "$env:windir\assembly" -Recurse -Filter "Microsoft.Office.Interop.Word*" -File | ForEach-Object {
@@ -19,9 +19,9 @@ $wdWTypes = Get-ChildItem -Path "$env:windir\assembly" -Recurse -Filter "Microso
 $wdSaveFormat = $wdWTypes | Where {$_.Name -eq "wdSaveFormat"}
 
 # Get Default save format int.
-$wdSaveFormatInt = $wdSaveFormat::wdFormatDocumentDefault.value__
+#$wdSaveFormatInt = $wdSaveFormat::wdFormatDocumentDefault.value__
 # [ALT] save to HTML
-# $wdSaveFormatInt = $wdSaveFormat::wdFormatHTML.value__
+$wdSaveFormatInt = $wdSaveFormat::wdFormatHTML.value__
 
 
 
@@ -44,12 +44,13 @@ $word = New-Object -ComObject Word.application
 #$htmlsMissingDocxVersion=Get-ChildItem $reportsPath\*.mhtml 
 #| Where-Object {-not $existingExcelDocs.Contains($_.FullName.Replace("mhtml",'docx'))}
 $extensionEnd = ".pdf"
+$extensionIntermediate = ".html"
 $mhtmlDocs = Get-ChildItem -Recurse -Path .\data\ | Where-Object {$_.Extension.Equals("$extensionEnd")}
 echo $mhtmlDocs
 foreach ($doc in $mhtmlDocs) {
     echo $doc
     $documentPath = $doc.FullName
-    $wordOutputPath = $documentPath.Replace("$extensionEnd", ".docx")
+    $wordOutputPath = $documentPath.Replace("$extensionEnd", "$extensionIntermediate")
     $txtOutputPath = $documentPath.Replace("$extensionEnd", ".md")
     #$wordOutputPath = $documentPath.Replace(".html", ".docx")
 
@@ -60,7 +61,7 @@ foreach ($doc in $mhtmlDocs) {
     $document.Close()
 
     pandoc -f docx -t markdown_strict -o $txtOutputPath $wordOutputPath
-    rm $wordOutputPath
+    #rm $wordOutputPath
 }
 $word.quit()
 
