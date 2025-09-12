@@ -1,0 +1,12 @@
+'''
+Inputs: update-indexed implicated (s)BSPs w/ justification, structured GSPBM data
+Output: update-indexed implicated (s)BSPs w/ justification + description
+
+This processing script simply joins in the description of each
+(s)BSP associated with each update.
+
+>> DEV:: What other (generic or global) context should be
+         included for the subsequent layering-in of reasoning?
+
+ - (s)BSP: a phase or sub-phase from the GSBPM.
+'''

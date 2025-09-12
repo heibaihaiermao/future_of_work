@@ -45,13 +45,12 @@ $word = New-Object -ComObject Word.application
 #| Where-Object {-not $existingExcelDocs.Contains($_.FullName.Replace("mhtml",'docx'))}
 $extensionEnd = ".pdf"
 $extensionIntermediate = ".html"
-$mhtmlDocs = Get-ChildItem -Recurse -Path .\data\ | Where-Object {$_.Extension.Equals("$extensionEnd")}
-echo $mhtmlDocs
+$mhtmlDocs = Get-ChildItem -Recurse -Path .\data\raw\ | Where-Object {$_.Extension.Equals("$extensionEnd")}
 foreach ($doc in $mhtmlDocs) {
     echo $doc
     $documentPath = $doc.FullName
     $wordOutputPath = $documentPath.Replace("$extensionEnd", "$extensionIntermediate")
-    $txtOutputPath = $documentPath.Replace("$extensionEnd", ".md")
+    $txtOutputPath = $documentPath.Replace("$extensionEnd", ".md").replace("raw", "output")
     #$wordOutputPath = $documentPath.Replace(".html", ".docx")
 
     echo $wordOutputPath

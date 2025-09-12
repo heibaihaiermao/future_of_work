@@ -10,6 +10,138 @@ tags:
   - SMC
   - objectives
 summary:
+descriptions:
+discussion:
+  - topic: GSBPM updates to work-description mapping process design
+    summary: >
+      Scrape work-descriptions, do a reverse-mapping onto GSPBM processes, then flag
+      implicated work-desriptions.
+    background:
+      - work-descriptions are very generic.
+    details:
+      - item: architecture logic
+        summary: null
+        background: null
+        details:
+          - It is unlikely that the key-activities of work-descriptions (WDKA) would suffice
+            to reconstruct the SBP of the GSBPM.
+          - LLM could identify (WDKA) required for a given SBP.
+          - Work-descriptions with a key-activity identigied as necessary for a SBP are
+            implicated with that SBP.
+          - Changes to an SBP presents possible changes to its implicated work-descriptions.
+        outstanding: &outstanding1ti1
+          - The relationship between SBP update and key-activity update is ambigous.
+          - The relationship between SBP update and key-activity adjustment is likely
+            dependent on the role (work-description)
+          - Changes to SBP may be limited to a subset of key-activites. How to reliably
+            evaluate if a key-activity is implicated?
+
+      - item: Work-description key-activities (WDKA)
+        summary: Implicate a work-description with an SBP
+        background: key-activities in a work-description typically provide a summary.
+        details: null
+        outstanding: &outstanding1ti2
+          - Could other elements of work-descriptions (such as skills) implicate it with an
+            SBP? (consider analysis from the skills-gap survey.
+          - Would de-duplication of key-activities among work-descriptions be necessary?
+    outstanding:
+      - *outstanding1ti1
+      - *outstanding1ti2
+
+  - topic: Meeting with Victoria
+    summary: null
+    background: >
+      Victoria is the assistant director of learning, development and leadership (HR)
+    details:
+      - item: Objective
+        summary: >
+          Identify sources of data and information for the analysis, avenues for input,
+          what our feedback-loop with SME will be, and assistance in ~parsing~
+      - item: Topic
+        summary: >
+          Victoria is planning on reviewing the "record of decision"
+    outstanding: &outstanding2t
+      - What does "assistance with parsing" mean?
+      - What documents constitute the "record of decision"
+
+  - topic: Project Scope
+    summary: null
+    background: >
+      review previous "project scope" items in "2025-09-09_-_first_weekly_touchbase.yml"
+      and "2025-09-08_-_analysis_methodology_brainstorm.yml"
+    details:
+      - item: Analysis stratification or aggregation.
+        summary: >
+          There is a design decision to be made whether the results are agency-wide,
+          or applied to each field.
+        background: null
+        details:
+          - LG> Project is supposed to be specific to individual fields.
+          - !recall "2025-09-09_-_first_weekly_touchbase.yml" description discusses the
+            applicability of results to either fields or role (work-descriptions.)
+          - For example, if the analysis were applied to fields, one might find
+            something (hypothetically) like "finance will no longer be involved in hiring".
+            As a counter example, if analysis were applied to work-descriptions, one ight
+            find something (hypothetically) like "hiring will no longer involve finacial
+            analysts".
+
+          - The two previous examples are pretty cut-and-dry, since they have similar
+            conclusions. HOWEVER OUR PROBLEM IS WHEN THE RELATIONSHIP BETWEEN A ROLE
+            IS AMBIGOUS TO FIELD. For example data scientists are no longer needed for
+            data ingestion, and data injestion is only handled by "Field_X". This
+            obscures the conclusion that the responsibilities of "Field_X" must be
+            adjusted since data scientists are hired in many fields.
+
+          - Changes to work-descriptions might be a matter of magnitude rather than role,
+            with one persone leveraging AI to do the work of several.
+
+        outstanding: &outstanding3t
+          - Are fields a necessary intermediate between SBP and work-descriptions?
+          - How does doing field-wise analysis (mapping onto work-descriptions) compare
+            to mapping agency-wide updates to work-descriptions to field responsibilities?
+
+  - topic: Project Objective
+    summary: null
+    background: null
+    details:
+      - item: Limited scope
+        summary: >
+          Summarization of proposed changes to GSBPM is enough work to do well before
+          the end of september.
+        background: null
+        details:
+          - The summarization could serve as a proof of concept for future work.
+          - Impossible to tell prior to attempt.
+          - LG so start laying groundwork for pushing off second analysis
+            (work-description updates).
+          - Alternative is to limit results from work-description analysis to three
+            hand-picked descriptions. Doing so will reduce the amount of validation
+            required (at least for SME).
+           
+      - item: Closing misalignment between work-descriptions and job-descriptions
+        summary: >
+          Closing misalignment between work-descriptions and job-descriptions could be a
+          primary or secondary objective. Doing so may have unintended consequences for
+          hiring expediency.
+        background:
+          - Work-descriptions are largely outdated and there exists substantial misalignment
+            between work-descriptions and jobs.
+          - Work-descriptions are written in a very generic way, so to provide a flexible tool
+            for justifiying hiring into existing boxes. This is a feature, not a bug.
+          - The original request from Saeid did not mention closing the gap.
+        details:
+          - Closing the gap between work-descriptions and job-descriptions may come at a price
+            of loosing the generality of work-descriptions. This could cause consequences for
+            some (HR) since the generality is something they rely upon.
+
+          - Updates to work-descriptions don't have to remove generality.. they could just be
+            updated.
+        outstanding: &outstanding4ti1
+          - Is closing the gap between work-descriptions and job-descriptions an objective for
+            our analysis?
+
+
+        
 background:
   - topic: Objective, Deliverables and low hanging fruit.
     summary: null
@@ -79,120 +211,7 @@ raw: |
             staffing justifiaction.
   
       
-  
-  
-      Refine milestones for SSC env application.
-       - Review
-  
-      Looking pin-down the ask.
-       - Concrete outputs
-       - What does sucess look like.
-       - Want to avoid the scope-creep (political reframing) with the prior IP.
-  
-       - The ask is a bit unrealistic -> first project into something realistic.
-  
-  
-      Deliverable IS A DECK. (we have that deck for SMC)
-       - There expecations for content such as;
-           - include what is in our control, but exclude what is not.
-               - (not excluded.. but as a sort of "crossed-out" line).
-  
-      Work after the deck (for Stratectic Management Committee (SMC))
-  
-      work breakdown structure; (step 1,2,3,4,5)
-      generic occupational group standards; ITs
-      specific work descriptions that pull from the group/classifications
-       - unique (kept in a private repository by our classification people).
-              - Might see evolution in these since these are custom
-       - generic (saved in a system)
-           - DS one is most up to date.
-  
-  
-      GSPPM is very similar to HR business processes (very hierarchical)
-       - broken down (eg)
-          - planning
-              - forecasting
-  
-      THE PROCESS AND THE KEY ACTIVITIES DON'T FOLLOW THE SAME LOGICAL~FLOW
-       - See OECD publication..
-       - See PSMAC publication for a previous attempt for what we're trying to do now (within HR)
-          - Looking to reduce "time-to-staff" by optimization _____
-  
-  
-       - ALSO CHECK WITH OTHER STATISTICAL OFFICES FOR WHAT THEY ARE DOING.
-  
-      GSPPM
-       - LG idea; collection & processing.
-  
-      Start with "one" that is known (for mapping)
-        - see chat
-  
-  
-      MAPPING TO WORK-DESCRIPTIONS.
-  
-      Directives include in the prompt, to indentify what elements are appropriate to do, and what aren't.
-  
-  
-      Low-hanging fruit
-       - Summarize SMC decks (SM has recieved alot).
-  
-  
-       INS
-       1) undertand processes
-       2) understand diretives
-       3) understand AIAs
-       4) Skills gap assesment.
-  
-       Then
-       4) Highlight key areas of focus (of the above/ inline with the above).
-       5)
-  
-      "Variety of how we define the work makes the mapping difficult".
-  
-  
-      A Work description includes key tasks, but is not exhaustive.. and are out of date.
-      (less 80% doesn't have to align with work description).
-  
-  
-      informal conversation w/ external partners (national statistics offices) for sanity check.
-  
-  
-      PULL SMC PRESENTATIONS FOR COMMON STYLE.
-       - or adhere to SME template (HR has one)
-       - or adhere to "most sucessful" template.
-  
-       - Ensure to include where each theme comes from.
-  
-  
-       - Break sources down into different meaningful information products.
-       - Start with direction provided...
-  
-      ---
-      1. GSBPM
-      2. Strategic priority deck (this is the "WHAT")
-      3. Program area input
-      4. Top core areas and themes (ideally test-case-studies)
-      5. Test with generic work discriptions.
-          - Looking at case studies & looking for generic work descriptions that are implicated in case study topics.
-  
-      ---
-  
-  
-      Keep provided case studies as test items.
-  
-      ~ What about field 6~
-  
-  
-      SMC OBJECTIVE
-       - PRE-ENDORSEMENT
-  
-  
-  
-      Sub-elements
-       - See intake form.
-  
-----
-
+---  
 
 First summarization is enough work to have to do well.
  - Therefore LG to start laying ground work for pushing off adjustments to work-descriptions
