@@ -1,0 +1,97 @@
+digraph workflow {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  node [shape=ellipse];
+
+  subgraph {
+  {rank=same; deck; gsbpmStruc};
+  deck [label="Strategic\ndeck";
+        rank="min";
+				shape=note];
+  gsbpmStruc [label="structured\nGSBPM";
+              rank="min";
+							shape=cylinder];
+ 
+  /* LLM extract of updates */
+  extract [label="Extract updates, and list\nstated or deduced\nimplicated (s)SBPs";
+           rank=min
+					 shape=invtrapezium;
+					 margin=0;
+					 width=0.1];
+  deck -> extract;
+  gsbpmStruc -> extract;
+
+  /* output of LLM-extract */
+  updates [label="\nUpdate-indexed,\nimplicated (s)BSPs\n + justifications";
+           rank=min;
+					 shape=cylinder]
+  extract -> updates;
+  }
+
+	/* multiples of joining-in (s)BSP descriptions */
+	{rank="same"; p1; p2; joinDesc};
+	p1 [label="...";
+	    color="#00000000";
+			shape=plain]; 
+	p2 [label="...";
+	    color="#00000000";
+			shape=plain]; 
+	
+	joinDesc [label="Join-in descriptions of\neach implicated (s)BSP.";
+						rank=max;
+						shape=rect];
+	updates -> p1;
+	updates -> p2;
+	updates -> joinDesc;
+
+	/* Inter. output of I(s)BSP + justifications + descriptions */
+  updatesDesc [label="\nUpdate-indexed,\nimplicated (s)BSPs\n + justifications\n+ descriptions";
+           rank=min;
+					 shape=cylinder]
+  joinDesc -> updatesDesc;
+
+	/* Layer-in reasoning */
+	layerin [label="Layer-in reasoning how\neach description\nmust change,\n\"distributing\" the\nupdate across\nall I(s)BSPs";
+				   rank=max;
+					 shape=invtrapezium;
+					 margin=0];
+	updatesDesc -> layerin;
+
+
+	/* Reasoned updates */
+	rUpdates [label="\nUpdate-indexed,\nimplicated (s)BSPs\n + justifications\n+ descriptions\n+ reasoning";
+	  			  shape=cylinder];
+	layerin -> rUpdates;
+
+	transpose [label="Transpose and sort\nall updates, aggregating\nall applicable\nupdates per (s)BSP";
+						 shape=rect];
+	rUpdates -> transpose;
+
+	/* Aggregated updates with reasoning */
+	bsps [label="\n(s)BSPs with \n applicable updates and\nreasoning";
+	      shape=cylinder];
+	transpose -> bsps;
+	p1 -> bsps;
+	p2 -> bsps;
+	
+	/* Multiples of drafting (s)BSP */
+	/* multiples of joining-in (s)BSP descriptions */
+	{rank="same"; p3; p4; synth};
+	p3 [label="...";
+	    color="#00000000";
+			shape=plain]; 
+	p4 [label="...";
+	    color="#00000000";
+			shape=plain]; 
+	
+	synth [label="Synthesize draft\nfor (s)BSP",
+				 shape=invtrapezium];
+	bsps -> p3;
+	bsps -> p4;
+	bsps -> synth;
+
+	drafts [label="Draft (s)BSP\ndescriptions"]
+	synth -> drafts;
+
+}
