@@ -1,0 +1,40 @@
+digraph workflow {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  node [shape=ellipse];
+
+  subgraph {
+      {rank=same; deck; gsbpmStruc};
+      deck [label="Strategic\ndeck";
+            rank="min";
+            			shape=note];
+      gsbpmStruc [label="structured\nGSBPM";
+                  rank="min";
+            						shape=cylinder];
+ 
+      /* LLM extract of updates */
+      /*extract [label="Extract updates,\nand list\nstated or deduced\nimplicated (s)SBPs";
+               rank=min
+            				 shape=invtrapezium;
+            				 margin=0;
+            				 width=0.1];
+      deck -> extract;
+      gsbpmStruc -> extract;
+
+      */
+      /* output of LLM-extract */
+
+  }
+      {rank=same; oneShot; updates};
+      updates [label="\nGSBPM updates";
+               shape=cylinder];
+      deck -> updates;
+      gsbpmStruc -> updates;
+
+      oneShot [label="single-shot"; shape=ellipse];
+
+
+
+
+}

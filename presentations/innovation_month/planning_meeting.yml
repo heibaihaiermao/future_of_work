@@ -1,0 +1,305 @@
+date: 2025-10-23
+attendees:
+ - Leilah Gagnon (LG)
+ - Evan Thomas (ET)
+ - Elizabeth Handfield (EH)
+ - Emilie Senecal (ES)
+background: |
+  We are making two presentations during innovation week.
+  for the first presentation,
+summary: |
+
+  Our brainstorming meeting was to differentiate the between the two presentations
+  that we will do during innovation month. Both presentations will cover the content
+  from the previous "Using GPT for Day-to-Day Work" presentation.
+
+  The first presentation, "Reimagining Day-to-Day Work in the Public Sector with AI"
+  (roughly) is to be more accessible and higher level.
+
+   - Introduction
+      - Title slide
+      - Agenda
+      - About us
+
+   - Executive summary (First things first)
+      - Guiding principles
+      - Key Points
+      - Resources?
+
+   - Use cases
+       - Overview of experiments
+       - Validation (Human in the loop.)
+       - Mention Library (in pre-amble on environmental scan?)
+
+   - Demo
+      - Temp and Top-P? (NEED TOPIC)
+ 
+   - When to ask for help
+       - Decomposition..
+
+   - Training Catalog
+       - show what/how resources are available.
+       - Mention Library?
+
+   - Intake form
+       - Where and what resources can one use?
+       - Which tools are best suited for what sort of work?
+
+
+  The second presentation will consider topics more deeply, and intended for a more
+  technical audience (while remaining accessible).
+
+   - Library> "Training week", comp. profiles, use of LLMs.
+       - Training Catalog? (or for first presentation?)
+
+   - Training Catalog> Details of producing the Training catalog.
+
+
+
+details:
+  - item: presentation 1
+    summary: null
+    details:
+      - item: Presentation advertisement
+        summary: |
+          # Reimagining Day to Day Work in the Public Sector with AI #
+        
+            Join Statistics Canada's Center for AI Research and Excellence for a
+            practical exploration of how Large Language Models (LLMs) are
+            transforming everyday tasks. This session oferes a behind-the-scenese
+            look at how a multidisciplinary team tackled real-world challenges
+            while navigating questions of quality assurance, tool selection, and
+            when to seek support from our wealth of experts and adjacent program
+            areas. Discover how AI can bring efficiency and innovation to your
+            workflow.
+
+        details: null
+
+      - item: content
+        summary: null
+        details:
+          - item: Use cases
+            summary: Overview of experiments
+            details:
+              - item: Lit. Review
+                summary: null
+                details:
+                  - (Possible) pre-amble regarding the environmental scan
+
+              - item: SoMC mapping (possibly?)
+                summary: null
+                details:
+                  - Possibly need to drop SoMC mapping as it was
+                    orchestrated by code.
+
+              - item: Library
+                summay: curated list of resources, and that is value-added.
+
+
+          - item: Validation
+            summary: null
+            details: null
+
+          - item: Intake form
+            summary: Frame and compare the possible options.
+            details: null
+
+
+      - item: emphasis
+        summary: null
+        details:
+          - item: Building trust.
+            summary: null
+            details:
+              - Fix issues prior to presentation(?) 
+              - Focus on through-line (or connecting theme..?)
+              - Emphsize this is an AGILE project.
+              - Emphsize Human-in-the-Loop.
+            todo: &todo1i3i1i
+              - "Forward intention> [validation] Great plug for working group"
+              - Find and watch previous presentation.
+              - Address inconsistencies with past presentations (Yes, And).
+
+          - item: Library curated list of resources
+            summary: "value added"
+            details: null
+            outstanding:
+              - Was their list of curated resources the "BiblioScan"? (yes..)
+
+      - item: presentation
+        summary: null
+        details:
+          - Nov 5th
+          - ET presentation, EH support (Lit review in particular)
+          - "Keep slides mostly as is [style]"
+          - Slides 1,2 are good, adjust 3; 4,5 good; don't have to include 6.
+
+          - item: ~ drop SoMC mapping and focus on litreview
+            outstanding:
+              - Lit. Review was explained by Mihir as being orchestrated by code..
+                should we still be including it? Does this point stand?
+
+          - RAISE DECOMPOSITION AS THROUGH-LINE.
+
+
+
+
+todo:
+  - *todo1i3i1i
+  - item: Fix competencies.
+
+  - item: Add preamble on env
+    outstanding:
+      - "Env" as in compute platform or "Env" asin environmental scan?
+
+  - item: Drill down on specs (particularly on validation and Human-in-the-loop)
+
+
+raw: |
+  Two presentations
+
+  1) Use cases (shorter)
+     - Show;
+        - Lit. review.
+        - SoMC mapping
+
+     - Validation
+
+     - Tie to DSF*(?)
+        - * Has their own presentation, (directly before us??)
+     
+     - Intake form (IT)
+        - Frame the various options and costs
+
+  2) More technical
+      - coordinating with Emilie
+         - Experiments that are more relevant to the product(?)
+      - loop-in Training Catalogue?
+
+  Emilie
+    - Works for training
+
+  Presentation 2
+    - week 4
+    - Library is presenting before us
+       -> presenting use cases
+
+
+    - LG> Focus on how we used __ for competency profiles, the proficiency levels, then Onyxia
+
+    - LND
+
+    - Show ____ that result.
+
+
+    - THEN loop-in Training Catalogue
+        - Emilie content here>
+            - Could present what they are developing internally?
+            - But course is not yet available for registration...
+            - Don't want advertising for something that can't be accessed.
+
+
+        - Catalogue does not yet include internal training.
+
+---
+
+COP?
+ - too early
+ - LG> we have to go back to AI adoption, and want to solidfy prior to proceeeding with COP.
+
+
+---
+
+ - We develop slides for week 4,
+ - pass to Emilie, who will provide one additional slide
+ - TODO> add placeholder slide for Emilie.
+
+
+
+---
+
+ OG presentation
+  - 4 use cases
+    1) Lit review of environmental scan by/using Biblio Scan
+        -> lost staff, pivoted to using LLM.
+
+    2) Using web scraping (w/LLM?) provided base for distilling SoMC (*)
+        - validation of competencies
+        - NO validation of proficiency levels.
+
+    3) Mapping to competency and proficiency
+        - no validation> (future) consultations will provide validation
+
+ - Demon of LLM platform.
+     - Mihir spoke to Temp and Top-P.
+     - LG> sees gaps on validation.
+
+     - TODO> emphasize role of human-in-the-loop.
+
+
+ - TODO> check if...
+    - competency used?
+    - proficiency level for
+        - generated competency?
+        - our competnecy?
+    OR
+
+    - just picked DataCamp competency.
+
+---
+ EH> Important to build trust (*)
+
+     - concern (hearing workflow), garbage-in / garbage-out
+
+
+ ET> This is an Agile project..
+
+
+ Forward intention>
+    - Great plug for working group.
+
+
+ TODO (pre)
+   - fix competencies on Training Profile.
+
+
+ Nov 5th presentation
+  - ET present
+  - EH to support
+      - Lit review in particular.
+
+ 1) add preamble on env
+ 2) overview of experiments
+ 3) drill down on specs
+     - particularly on validation and human-in-the-loop (HitL)
+
+
+ *Emphasize*
+ Library> curated list of ressources and that was value-added
+
+ - Keep slides mostly as is.
+    - 1, 2, good.
+    - adjust 3
+    - 4,5,6, good.
+        - don't have to include joke slide 6?
+
+ - Drop SoMC mapping and focus on Lit review.
+     - Raise Decomposition as through-line.
+
+ - TODO> speak with Mihir
+
+ (*) There is a recording out there.. Genviève Dé_____.
+
+ LG> Catagories form 1st Mapping seemed very different that from 2nd
+
+ TODO> Look for inconsistencies from previous presentations given new
+       reality of code.
+          - Yes, and
+
+ (validation)
+
+
+
+    
+
+

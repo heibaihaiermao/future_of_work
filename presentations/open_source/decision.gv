@@ -1,0 +1,36 @@
+digraph mygraph {
+  forcelabels=true;
+  start[label="start"]
+
+  node [shape=diamond];
+
+  n2[label="Does your project\nneed access\nto AIEP?"]
+  n5[label="Does your project\nrequire substantial\ncompute?"]
+  n6[label="Your project requires\n_______\nautomation."]
+  n3[label="Does your project\nrequire a\n\"front end\"?"]
+  n4[label="Does your project\nrequire a dynamic\n\"front end\"?"]
+
+  node [shape=ellipse];
+  o5[label="CNP 2.0"]
+
+  start -> n2;
+  n2 -> n3 [label="yes"];
+  n2 -> n5 [label="no"];
+  n3 -> n4 [label="yes"];
+  n4 -> o5 [label="yes"];
+  n5 -> n6 [label="no"];
+
+  o1[label="AVD"]
+  o2[label="GitLab\nCI/CD"]
+  o3[label="The Zone"]
+  /*o4[label="The Zone cron job\n+\nGitLab CI/CD"]*/
+  o4[label="The Zone**\n+\nGitLab CI/CD"]
+
+  n5 -> o3 [label="yes"];
+  n6 -> o1 [label="no"];
+  n6 -> o2 [xlabel="on-demand"];
+  n6 -> o3 [label="scheduled"];
+  n3 -> o3 [label="no"];
+  n4 -> o4 [label="no"];
+
+}

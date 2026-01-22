@@ -1,0 +1,157 @@
+date: 2025-10-23
+attendees:
+ - Leilah Gagnon (LG)
+ - Evan Thomas (ET)
+ - Elizabeth Handfield (EH)
+ - Emilie Senecal (ES)
+background: >
+  We are making two presentations during innovation week.
+
+raw: |
+  Two presentations
+
+  1) Use cases (shorter)
+     - Show;
+        - Lit. review.
+        - SoMC mapping
+
+     - Validation
+
+     - Tie to DSF*(?)
+        - * Has their own presentation, (directly before us??)
+     
+     - Intake form (IT)
+        - Frame the various options and costs
+
+  2) More technical
+      - coordinating with Emilie
+         - Experiments that are more relevant to the product(?)
+      - loop-in Training Catalogue?
+
+  Emilie
+    - Works for training
+
+  Presentation 2
+    - week 4
+    - Library is presenting before us
+       -> presenting use cases
+
+
+    - LG> Focus on how we used __ for competency profiles, the proficiency levels, then Onyxia
+
+    - LND
+
+    - Show ____ that result.
+
+
+    - THEN loop-in Training Catalogue
+        - Emilie content here>
+            - Could present what they are developing internally?
+            - But course is not yet available for registration...
+            - Don't want advertising for something that can't be accessed.
+
+
+        - Catalogue does not yet include internal training.
+
+---
+
+COP?
+ - too early
+ - LG> we have to go back to AI adoption, and want to solidfy prior to proceeeding with COP.
+
+
+---
+
+ - We develop slides for week 4,
+ - pass to Emilie, who will provide one additional slide
+ - TODO> add placeholder slide for Emilie.
+
+
+
+---
+
+ OG presentation
+  - 4 use cases
+    1) Lit review of environmental scan by/using Biblio Scan
+        -> lost staff, pivoted to using LLM.
+
+    2) Using web scraping (w/LLM?) provided base for distilling SoMC (*)
+        - validation of competencies
+        - NO validation of proficiency levels.
+
+    3) Mapping to competency and proficiency
+        - no validation> (future) consultations will provide validation
+
+ - Demon of LLM platform.
+     - Mihir spoke to Temp and Top-P.
+     - LG> sees gaps on validation.
+
+     - TODO> emphasize role of human-in-the-loop.
+
+
+ - TODO> check if...
+    - competency used?
+    - proficiency level for
+        - generated competency?
+        - our competnecy?
+    OR
+
+    - just picked DataCamp competency.
+
+---
+ EH> Important to build trust (*)
+
+     - concern (hearing workflow), garbage-in / garbage-out
+
+
+ ET> This is an Agile project..
+
+
+ Forward intention>
+    - Great plug for working group.
+
+
+ TODO (pre)
+   - fix competencies on Training Profile.
+
+
+ Nov 5th presentation
+  - ET present
+  - EH to support
+      - Lit review in particular.
+
+ 1) add preamble on env
+ 2) overview of experiments
+ 3) drill down on specs
+     - particularly on validation and human-in-the-loop (HitL)
+
+
+ *Emphasize*
+ Library> curated list of ressources and that was value-added
+
+ - Keep slides mostly as is.
+    - 1, 2, good.
+    - adjust 3
+    - 4,5,6, good.
+        - don't have to include joke slide 6?
+
+ - Drop SoMC mapping and focus on Lit review.
+     - Raise Decomposition as through-line.
+
+ - TODO> speak with Mihir
+
+ (*) There is a recording out there.. Genviève Dé_____.
+
+ LG> Catagories form 1st Mapping seemed very different that from 2nd
+
+ TODO> Look for inconsistencies from previous presentations given new
+       reality of code.
+          - Yes, and
+
+ (validation)
+
+
+
+    
+
+

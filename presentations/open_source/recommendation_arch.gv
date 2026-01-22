@@ -1,0 +1,75 @@
+digraph mygraph {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  node [shape=ellipse];
+  subgraph {
+	rank = min; availableCourses;
+  	availableCourses [label="Available Courses", rank="min"]
+  }
+  node [shape=box];
+  availableCourses -> classifyCourses;
+  classifyCourses [label="Tag Courses"]
+  node [shape=diamond];
+  courseStruct [label="Structured \n Course \n Data"];
+  classifyCourses -> courseStruct;
+  subgraph {
+  	node [shape=ellipse];
+  	profile [label="User Profile"]
+	resume [label="User Resume"]
+	interview [label="ChatBot Interview"]
+  	rank = min; profile; resume; interview;
+	}
+  	node [shape=box];
+  	userStruct [label="Structure and standardize user data"];
+  	{profile resume interview} -> userStruct
+  	node [shape=diamond];
+	userSpec [label="Structured\nUser\nData"]
+	rank = max; userSpec;
+  	userStruct -> userSpec;
+  subgraph {
+  	node [shape=ellipse];
+	jobClass [label="Job Classification"];
+	jobPost [label="Job Posting"];
+	rank = min; jobClass; jobPost;
+  }
+  	node [shape=diamond];
+	rank = same; objectiveSpec; userSpec; courseStruct;
+	objectiveSpec [label="Structured\nObjective\nData"];
+	{jobClass jobPost} -> objectiveSpec;
+  /**/
+  node [shape=box];
+  {userSpec objectiveSpec} -> diffQuery;
+  diffQuery [label="Difference Query"];
+  node [shape=diamond];
+  diffQuery -> {skillsGap experienceGap individualAppraisal};
+  skillsGap [label="Skills \n Gap"]
+  experienceGap [label="Experience \n Gap"]
+  individualAppraisal [label="Individual \n Appraisal", shape=ellipse];
+  /**/
+  skillsGap -> courseSkillQuery;
+  courseSkillQuery [shape=box, label="Query skills among courses"];
+  /**/
+  subgraph {
+  	relevantCourses [label="Relevant \n Courses"];
+  	node [shape=box];
+  	projectPersona [label="Project \n Proposing \n Persona \n (LLM)"];
+  }
+  profile -> userSpec;
+  relevantCourses -> projectPersona;
+  courseSkillQuery -> relevantCourses;
+  experienceGap -> projectPersona;
+  individualAppraisal -> projectPersona;
+  /*
+  {relevantCourses experienceGap} -> projectPersona;
+*/
+  courseStruct -> courseSkillQuery;
+
+  /**/
+  node [shape=ellipse]
+  learningPlan[label="Individualized \n Learning \n Plan", rank="max"];
+  projectPersona -> learningPlan;
+
+
+
+}

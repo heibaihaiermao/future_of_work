@@ -1,0 +1,94 @@
+digraph workflow {
+  rankdir="LR";
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  node [shape=ellipse];
+  newrank="true";
+  overlap="true";
+
+  deck -> updates;
+  gsbpmStruc -> updates;
+  subgraph sources {
+      {rank=same; gsbpmStruc; updates; wdUpdates; customLP};
+      deck [label="Strategic\ndeck";
+            rank="min";
+            shape=note];
+      gsbpmStruc [label="structured\nGSBPM";
+                  rank="min";
+                  shape=cylinder];
+ 
+  }
+      updates [label="\nGSBPM updates";
+               shape=cylinder];
+
+      /*codeDriven -> oneShot;*/
+
+      updates -> {chatDriven; oneShot; codeDriven;};
+      oneShot -> chatDriven [style=invis;];
+      chatDriven -> codeDriven [style=invis;];
+  subgraph {
+     label="B's and C's";
+     rank="same"
+     oneShot [label="single-shot";
+	       shape=ellipse];
+      chatDriven [label="chat-driven\nstructured"; shape=ellipse];
+      codeDriven [label="code-driven\nfully-iterative"; shape=ellipse];
+
+    }
+  /*
+      updates -> oneShot;
+      updates -> codeDriven;
+  */
+
+  updates -> wdUpdates [nodesep=10, ranksep=10, minlen=10];
+
+  wdUpdates -> {chatDriven2; oneShot2; codeDriven2;};
+  oneShot2 -> chatDriven2 [style=invis;];
+  chatDriven2 -> codeDriven2 [style=invis;];
+  subgraph {
+     rank="same"
+     oneShot2 [label="single-shot";
+	       shape=ellipse];
+      chatDriven2 [label="chat-driven\nstructured"; shape=ellipse];
+      codeDriven2 [label="code-driven\nfully-iterative"; shape=ellipse];
+    }
+
+
+  wdUpdates [label="\nWork description\nupdates";
+             shape=cylinder];
+
+  workDescriptions -> wdUpdates
+
+  workDescriptions [label="Work\ndescriptions";
+                    rank="min";
+                    shape=note];
+
+
+  wdUpdates -> customLP[minlen=10];
+
+  customLP -> {chatDriven3; oneShot3; codeDriven3;};
+  oneShot3 -> chatDriven3 [style=invis;];
+  chatDriven3 -> codeDriven3 [style=invis;];
+  subgraph {
+     rank="same"
+     oneShot3 [label="single-shot";
+	       shape=ellipse];
+      chatDriven3 [label="chat-driven\nstructured"; shape=ellipse];
+      codeDriven3 [label="code-driven\nfully-iterative"; shape=ellipse];
+  }
+
+  customLP [label="\nCustomized\nlearning-plans";
+            shape=cylinder;];
+
+
+  trainingResources -> customLP
+
+  trainingResources [label="Training\nresources";
+                     rank="min";
+                     shape=note];
+
+
+
+
+}

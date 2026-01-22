@@ -1,0 +1,229 @@
+titles:
+  - "Open Source + AI: Ideas on the Road to Production.
+     (AI Training Catalogue Use Case from Experiment to Production)"
+
+  - 
+
+important contacts:
+  - name: Louis Simon Poirier
+    role: incharge of AIEP.
+
+
+questions for Ilyas:
+  - Path ways to production.
+  - Hard requirements.
+
+questions for Leilah:
+  - Given that "Production" is a trigger word for IT, and
+    that they control the process for this, is it appropriate
+    for us to be presenting on their work?
+
+details:
+  - item: >
+        For production OpenAI endpoints are _only_ accessible via
+        AIEP.
+    details:
+      - item: differences
+        details:
+          - Models available
+          - authentication.
+          - API access..
+          - Azure services..
+
+  - item: >
+      Currently AIEP is only accessible from CNP 2.0, and The Zone.
+
+    details:
+      - ".. SSC projecters were rebuilt in CNP 2.0"
+
+
+  - item: design
+    details:
+      - item: The Zone
+        summary: Gitlab CI/CD
+        details:
+          - items: overall
+
+          - CI/CD pipeline maintains scraped content.
+          - Workflow on The Zone could pull scraped content, then 
+            query via AIEP.
+          - Cronjob on The Zone could run script.
+             zone.pages.cloud.statcan.ca/docs/en/Scheduling/k8s-cronjobs
+
+          - AUTHENTICATION WITH AIEP TIMES-OUT, AND CAN'T BE 
+            AUTOMATED.
+          
+          - item: outline
+            details: |
+
+               1) The Zone cron job pushes ping to GitLab scraper/
+                  content repo.
+
+               2) GitLab CI/CD refreshes data sources, pushing to 
+                  static data repo.
+
+               3) [Sometime later] Second cron job on The Zone, 
+                  pulls scraped data from static data repo, then 
+                  runs inference, finally pushing to Training 
+                  Catalog repo.
+
+               4) Training Catalog repo CI/CD compiles website and 
+                  publishes changes to Gitlab pages.
+
+
+          - item: detailed outline.
+            details:
+
+              - One "ping" repo w/ CI/CD that scrapes, and 
+                refreshes data, then pushes to data repo.
+
+              - One "data" repo, contains learning resource data, 
+                fed by "ping" repo.
+
+              - One Training Catalog repo, that contains inference.
+
+              - One cron job to push "ping" to "ping repo", wait,
+                then pull data in from "data repo",
+                run inferene through AIEP....
+
+           
+
+
+
+raw:
+
+  ilyas notes: |
+
+    Open-Source Fair
+      - I got the go-ahead from my leads to move ahead with 
+        contributing to your booth if that’s something that makes 
+        sense for both our teams, so we can discuss more when you 
+        have the time
+
+      - I can speak to SSC and ask them if they’re interested in 
+        participating
+          - While they do allow (and encourage) open-source
+            projects on their environment, I notice the description
+            below in the email specified internal projects. Would
+            that mean SSC as an enabler wouldn’t be approved along
+            with your booth?
+
+    Statistics Canada Prod Options Analysis
+      - All of the projects that have successfully deployed at
+        Stats that utilize OpenAI were enabled by the AIEP team,
+        led by Louis-Simon.
+
+      - With the help of the AIEP team, the SSC projects were
+        rebuilt in CNP 2.0 (Cloud Native Platform 2.0)
+          - This is the Kubernetes-focused option I mentioned before
+
+      - In order to leverage OpenAI endpoints, AIEP is the
+        only option currently available
+          - You can either access these endpoints from The
+            Zone, or CNP 2.0, as mentioned earlier
+          - Both of these environments are Protected B
+          - CNP 2.0 has access to the internet, while The
+            Zone doesn’t
+              - If you need a front-end deployed as well,
+                then CNP 2.0 is also your only option
+
+          - You would be able to develop & deploy automated
+            applications that do not require internet access
+            via The Zone (best use case for The Zone)
+
+          - Outside of that, CNP 2.0 remains the best option
+            for Production workloads
+
+      - There does *not* exist a separate, non-protected Azure
+        OpenAI endpoint with internet access
+          - This means that developing your application on
+            the SSC platform (internet access, open dev
+            environment), then using your learnings to
+            deploy in the CNP 2.0 environment, is
+            currently the best method to build OpenAI
+            related applications that require internet access
+
+      - All of this is subject to change, as AIEP is rapidly
+        building & developing their enablement capabilities,
+        and have more services/options planned in next fiscal
+        most likely
+
+  notes from LG bilat: |
+    - "open-source & AI"
+  
+    - Being in person for open source booth?
+  
+    - Jan 28th.
+  
+    - Not too labour intensive
+  
+    - High-level viz. of us in experimental ~quest~
+  
+    - Viz. of pathway to production.
+  
+    - Follow-up with Ilyas and Louie-Simon
+  
+    - Message> "What does it take to move from experiment to 
+                production, using open-source."
+
+
+  notes from meeting with Ilyas:
+    - * What will production look like for both projects?
+
+    - Training catalog
+       - ability to automatically re-evaluate if competencies
+         change.
+
+       - Exploring The Zone before year end.
+
+       - ~Limits of Gitlab CI/CD~
+
+
+    - Ilyas experience
+       - Ingesting data options
+          1) Download and upload (manual) to azure storage
+          account. Accessed (through The Zone, cloud ____,
+                             kube. cluster, and Gitlab)
+
+              - Filling out a WIF (technically proB.)
+
+
+          2) The Zone Flow
+              - Open ticket on The Zone gitlab, they will fill
+                the WIF for you to open access for your data.
+
+              - CONTACT> Pat Legerwood,
+                  - Knows everything there is to know about
+                    The Zone.
+
+                  - Reach-out once we have clear picture of
+                    what we want.
+
+          2) Cloud native solution
+              - Gitlab repository, pushes to ARTIFACTORY,
+              - Helm chart
+                 - hurd processes,
+                 - octopus,(is a) kubernetes manager
+
+          3) Gitlab runners
+              - Have to have access to StatCan, Azure storage,
+                and internet.
+
+
+              - Need to connect to StatCan OpenAI endpoint
+                  -> will need WIF...
+
+              - WIF to connect to potential storage account.
+
+
+       - Requirements for in-production AI applications.
+          - ANY deployment of LLM (apps?) requires going 
+            through AI Exploration Environment / Portal / 
+            Platform (AI-EP)
+
+          - accessible from The Zone.
+
+          - Dev. AI-EP ~might~ be open in AVD.
+
+
+

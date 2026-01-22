@@ -1,0 +1,77 @@
+{
+  "description": "Prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.",
+  "updates": [
+    {
+      "element": {
+        "id": "7.1",
+        "title": "Update output systems",
+        "original description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination.",
+        "updated description": "This sub-process manages the update of output systems and databases for dissemination using automated, real-time loading of data and enriched metadata. Machine-actionable formatting, digital linkage, and metadata validation are built-in, ensuring that all disseminated products are AI- and API-consumable, searchable, and enriched with discoverability standards. Final checks for completeness and metadata enrichment are automatic, and all outputs are designed for seamless use by both human and digital consumers.",
+        "justification": "The 'Metadata Production and Dissemination Officer' ('prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.') will take primary responsibility for metadata completeness, tag consistency, and API-readiness at the point of output system update."
+      },
+      "reasoning": "The updated GSBPM Design phase emphasizes machine-actionable metadata, automation and AI-powered generation. The officer’s core activity of preparing and validating metadata will now involve reviewing and refining AI-generated outputs and ensuring automated pipelines correctly load and link metadata to systems.",
+      "status": "existing",
+      "update": "Prepares, reviews and refines machine-actionable statistical metadata generated via automated and AI-powered tools, and disseminates it—ensuring metadata is correctly loaded, linked and interoperable within the corporate metadata repository."
+    },
+    {
+      "element": {
+        "id": "7.1",
+        "title": "Update output systems",
+        "original description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination.",
+        "updated description": "This sub-process manages the update of output systems and databases for dissemination using automated, real-time loading of data and enriched metadata. Machine-actionable formatting, digital linkage, and metadata validation are built-in, ensuring that all disseminated products are AI- and API-consumable, searchable, and enriched with discoverability standards. Final checks for completeness and metadata enrichment are automatic, and all outputs are designed for seamless use by both human and digital consumers.",
+        "justification": "The 'Metadata Production and Dissemination Officer' ('prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.') will take primary responsibility for metadata completeness, tag consistency, and API-readiness at the point of output system update."
+      },
+      "reasoning": "The GSBPM update emphasizes automation, machine-actionability, APIs, and open formats for dissemination outputs. The metadata officer’s activity must now include ensuring metadata adhere to these digital standards and are configured for automated loading and API delivery.",
+      "status": "existing",
+      "update": "Prepares, edits, validates and disseminates standardized, richly described, machine-actionable statistical metadata, ensuring compatibility with automated pipelines, APIs, and open formats, and correctly loaded to the corporate metadata repository."
+    },
+    {
+      "element": {
+        "id": "7.1",
+        "title": "Update output systems",
+        "original description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination.",
+        "updated description": "This sub-process manages the update of output systems and databases for dissemination using automated, real-time loading of data and enriched metadata. Machine-actionable formatting, digital linkage, and metadata validation are built-in, ensuring that all disseminated products are AI- and API-consumable, searchable, and enriched with discoverability standards. Final checks for completeness and metadata enrichment are automatic, and all outputs are designed for seamless use by both human and digital consumers.",
+        "justification": "The 'Metadata Production and Dissemination Officer' ('prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.') will take primary responsibility for metadata completeness, tag consistency, and API-readiness at the point of output system update."
+      },
+      "reasoning": "The updated GSBPM sub-process 2.2 emphasizes machine-actionable metadata, full standards compliance (e.g., SDMX), lifecycle control through tools like Aria/Colectica, and AI/LLM-assisted generation. The officer’s core activity of preparing and validating metadata must explicitly include these new requirements.",
+      "status": "existing",
+      "update": "Prepares, edits, validates and disseminates statistical metadata in machine-actionable formats compliant with national and international standards (e.g., SDMX), using prescribed metadata management tools (such as Aria or Colectica) to ensure digital traceability and automation support."
+    },
+    {
+      "element": {
+        "id": "7.1",
+        "title": "Update output systems",
+        "original description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination.",
+        "updated description": "This sub-process manages the update of output systems and databases for dissemination using automated, real-time loading of data and enriched metadata. Machine-actionable formatting, digital linkage, and metadata validation are built-in, ensuring that all disseminated products are AI- and API-consumable, searchable, and enriched with discoverability standards. Final checks for completeness and metadata enrichment are automatic, and all outputs are designed for seamless use by both human and digital consumers.",
+        "justification": "The 'Metadata Production and Dissemination Officer' ('prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.') will take primary responsibility for metadata completeness, tag consistency, and API-readiness at the point of output system update."
+      },
+      "reasoning": "The updated GSBPM Finalise collection sub-process now embeds AI/ML-driven validation and enrichment routines and emphasizes machine-actionable metadata and audit-readiness. The officer’s core metadata validation role must explicitly include oversight of those automated routines and the resulting enriched metadata.",
+      "status": "existing",
+      "update": "Prepares, edits, validates and disseminates statistical metadata, including oversight of AI/ML-driven validation and enrichment routines, ensuring metadata repositories and IM tagging are machine-actionable, audit-ready and correctly loaded to the corporate metadata repository."
+    },
+    {
+      "element": {
+        "id": "7.1",
+        "title": "Update output systems",
+        "original description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination.",
+        "updated description": "This sub-process manages the update of output systems and databases for dissemination using automated, real-time loading of data and enriched metadata. Machine-actionable formatting, digital linkage, and metadata validation are built-in, ensuring that all disseminated products are AI- and API-consumable, searchable, and enriched with discoverability standards. Final checks for completeness and metadata enrichment are automatic, and all outputs are designed for seamless use by both human and digital consumers.",
+        "justification": "The 'Metadata Production and Dissemination Officer' ('prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.') will take primary responsibility for metadata completeness, tag consistency, and API-readiness at the point of output system update."
+      },
+      "reasoning": "The updated GSBPM sub-process requires final data files and their metadata to be fully standardized, machine-actionable, versioned and accompanied by audit trails. The officer’s core activity of preparing and validating metadata must now explicitly cover these new requirements.",
+      "status": "existing",
+      "update": "Expand this activity to: “Prepares, edits, validates and disseminates statistical metadata—ensuring it is fully standardized, machine-actionable, versioned, digitally logged with audit trails—and correctly loaded to the corporate metadata repository.”"
+    },
+    {
+      "element": {
+        "id": "7.1",
+        "title": "Update output systems",
+        "original description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination.",
+        "updated description": "This sub-process manages the update of output systems and databases for dissemination using automated, real-time loading of data and enriched metadata. Machine-actionable formatting, digital linkage, and metadata validation are built-in, ensuring that all disseminated products are AI- and API-consumable, searchable, and enriched with discoverability standards. Final checks for completeness and metadata enrichment are automatic, and all outputs are designed for seamless use by both human and digital consumers.",
+        "justification": "The 'Metadata Production and Dissemination Officer' ('prepares, edits, validates and disseminates statistical metadata, ensuring that it is correctly loaded to the corporate metadata repository.') will take primary responsibility for metadata completeness, tag consistency, and API-readiness at the point of output system update."
+      },
+      "reasoning": "With the update to sub-process 7.1 emphasizing automated, real-time loading, machine-actionable formatting, digital linkage and metadata validation, the Officer’s core activity of loading metadata must explicitly include these new requirements (API- and AI-consumability, discoverability standards, automated final checks).",
+      "status": "existing",
+      "update": "Prepares, edits, validates and disseminates statistical metadata using automated, real-time loading processes; ensures metadata is machine-actionable, enriched with discoverability standards, API- and AI-ready, and passes automated validation before publication to the corporate metadata repository."
+    }
+  ]
+}

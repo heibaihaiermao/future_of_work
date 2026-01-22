@@ -19,9 +19,9 @@ $wdWTypes = Get-ChildItem -Path "$env:windir\assembly" -Recurse -Filter "Microso
 $wdSaveFormat = $wdWTypes | Where {$_.Name -eq "wdSaveFormat"}
 
 # Get Default save format int.
-#$wdSaveFormatInt = $wdSaveFormat::wdFormatDocumentDefault.value__
+$wdSaveFormatInt = $wdSaveFormat::wdFormatDocumentDefault.value__
 # [ALT] save to HTML
-$wdSaveFormatInt = $wdSaveFormat::wdFormatHTML.value__
+#$wdSaveFormatInt = $wdSaveFormat::wdFormatHTML.value__
 
 
 
@@ -44,7 +44,7 @@ $word = New-Object -ComObject Word.application
 #$htmlsMissingDocxVersion=Get-ChildItem $reportsPath\*.mhtml 
 #| Where-Object {-not $existingExcelDocs.Contains($_.FullName.Replace("mhtml",'docx'))}
 $extensionEnd = ".pdf"
-$extensionIntermediate = ".html"
+$extensionIntermediate = ".docx"
 $mhtmlDocs = Get-ChildItem -Recurse -Path .\data\raw\ | Where-Object {$_.Extension.Equals("$extensionEnd")}
 foreach ($doc in $mhtmlDocs) {
     echo $doc
@@ -59,7 +59,7 @@ foreach ($doc in $mhtmlDocs) {
     $document.SaveAs($wordOutputPath, $wdSaveFormatInt)
     $document.Close()
 
-    pandoc -f docx -t markdown_strict -o $txtOutputPath $wordOutputPath
+    pandoc -t markdown_strict -o $txtOutputPath $wordOutputPath
     #rm $wordOutputPath
 }
 $word.quit()

@@ -1,0 +1,180 @@
+Objectives:
+  - Demonstrate acceleration of bureaucratic process using AI.
+  - Test technical skills required for responsible use.
+  - Identify training needs following from organizational adoption
+    of AI.
+
+Hypotheses:
+  - Hypothesis: >
+      LLM-integrated workflows permit accelerated bureaucratic
+      initiatives.
+
+  - Null-Hypothesis:
+      - Chat-driven workflow yeilds comparable results to
+        code-driven workflow.
+
+      - No technical knowledge required for comparable results.
+
+  - Null-Hypothesis: >
+      One-shot workflows yeild comparable results to structured
+      work-flow.
+
+slides:
+  - slide: Objectives (~Scope)
+    content:
+      - Update work-descriptions in a manner compatible with
+        Future-of-Work determined by GSBPM.
+
+      - (Possible) Identify value-added training resources,
+        customized by updated work-description
+
+      - Demonstrate AI-acceleration of administartive process.
+
+      - Research ~potential~ of non-technical application of AI,
+        identify best practices and practical limitations.
+
+  - slide: Hypothesies
+    content:
+      - hyp: second-step mapping won't reflect source
+        items:
+          - text: >
+             Generated work-descriptions will accurately reflect the
+             anticipated changes to the GSBPM.
+
+            nullhyp: >
+              Anticipated changes to the GSBPM will not be reflected
+              in the generated work descriptions
+
+          - text: >
+             Recommended training resources won't refect updates to work-descriptions,
+             OR the original GSBPM updates
+
+      - hyp: Decomposition of workflow improves results
+      - hyp: >
+          Decomposition eventually requires technical orchestration (code);
+          there are limitations to non-technical use of AI.
+             
+
+
+
+        
+
+  - slide: Assumptions & Exclusions (~Scope)
+    content:
+      - item: Assumptions
+        Theoretical:
+          - GSPBM v5.2 are reflected in existing work-descriptions.
+          - GSBPM framework sufficient to capture all elements of future-of-work.
+
+        Practical:
+          - Structure of GSBPM will remain the same.
+          - No new work-descriptions. No removed work-descriptions.
+          - Updates from deck are relevant to GSBPM v5.2.
+
+        Application:
+          - Work description updates are independent. (No iteration on updates)
+              - Updates to GSBPM phases were reverse-mapped, therefore updates were
+                applied coherently across phases/sub-processes.
+
+        Technical:
+          - Explict JSON structure effectively organizes distinct information.
+
+      - item: Exclusions
+        GSBPM: Updates were only applied to GSBPM phases/sub-processes, no other content.
+        work-descriptions: For proof-of-concept, only EC-02 work-descriptions were updated.
+
+
+
+          
+  - slide: Approaches overview
+    content:
+      - Single-shot
+      - Chat-driven
+      - Code-driven (not done)
+
+  - slide: (multi) results from each method
+    content:
+      - Single-shot:
+          - Accurate items pulled from some decks,
+          - hallucinations identified,
+          - items missed.
+      - Chat-driven:
+          - Human orchestrated
+          - Intermediate products available for validation
+          -  
+          
+  - slide: Comparison of results
+    content: 
+      - _Decomposition_ main dimension of variation.
+      - 
+  - slide: Conclusions
+
+  - slide: Results (returns)
+
+notes:
+ - item: \"low-hanging fruit\"
+   concepts:
+     - proof-of-concept
+     - easy wins
+     - AI-accerleration
+   details:
+     - item: proof-of-concept
+       details:
+         - assumptions..
+         - lessons learned.
+         - evaluation frameworks developed.
+
+     - item: easy wins
+       details:
+         - item: generality of process
+           summary: >
+             This can be repeated for different decks, revised for
+             different objectives, and repeated with different
+             configurations.
+
+         - item: Evaluation frameworks.
+           summary: lessons-learned from rubric
+           todo:
+             - loop-in Responsible AI team.
+
+ - item: Areas for deeper analysis
+   details:
+     - item: remaining levels
+       details:
+         - EC03-06
+         - MA*
+
+     - item: Extent which chat-driven workflow compares code-driven
+       details:
+         - rubric
+         - one-shot, vs. multi-step GSBPM updates, vs. code-driven
+       todo:
+         - Code driven GSBPM updates
+
+
+
+
+
+
+
+
+LG requirements: |
+  - Highlight low-hanging fruit and areas for deeper analysis
+  - Include:
+     - Assumptions (clearly listed)
+     - Validation caveats (SME/HR input)
+     - Scoping limitations for appropriate use
+
+     - Emphasize that this is an experiment, not a finalized
+       implementation.
+
+     - Present the way forward to expanding from skills
+       identification from work descriptions to training mapping.
+
+
+Suggested Presentation:
+  - Scope and objectives
+  - Assumptions
+  - Exclusions
+  - Approach
+  - Sources and outputs

@@ -31,10 +31,10 @@ digraph workflow {
 
 	/* multiples of joining-in (s)BSP descriptions */
 	{rank="same"; p1; p2; joinDesc};
-	p1 [label="...";
+	p1 [label="...\n";
 	    color="#00000000";
 			shape=plain]; 
-	p2 [label="...";
+	p2 [label="...\n";
 	    color="#00000000";
 			shape=plain]; 
 	
@@ -44,6 +44,7 @@ digraph workflow {
 	updates -> p1;
 	updates -> p2;
 	updates -> joinDesc;
+	gsbpmStruc -> joinDesc;
 
 	/* Inter. output of I(s)BSP + justifications + descriptions */
   updatesDesc [label="\nUpdate-indexed,\nimplicated (s)BSPs\n + justifications\n+ descriptions";
@@ -67,21 +68,20 @@ digraph workflow {
 	transpose [label="Transpose and sort\nall updates, aggregating\nall applicable\nupdates per (s)BSP";
 						 shape=rect];
 	rUpdates -> transpose;
+	p1 -> transpose;
+	p2 -> transpose;
 
 	/* Aggregated updates with reasoning */
 	bsps [label="\n(s)BSPs with \n applicable updates and\nreasoning";
 	      shape=cylinder];
 	transpose -> bsps;
-	p1 -> bsps;
-	p2 -> bsps;
 	
 	/* Multiples of drafting (s)BSP */
-	/* multiples of joining-in (s)BSP descriptions */
 	{rank="same"; p3; p4; synth};
-	p3 [label="...";
+	p3 [label="...\n";
 	    color="#00000000";
 			shape=plain]; 
-	p4 [label="...";
+	p4 [label="...\n";
 	    color="#00000000";
 			shape=plain]; 
 	
