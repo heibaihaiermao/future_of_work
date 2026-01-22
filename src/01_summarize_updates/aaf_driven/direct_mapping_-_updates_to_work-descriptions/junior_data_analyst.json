@@ -1,0 +1,32 @@
+[
+  {
+    "Group/Level": "EC-02",
+    "Position Title": "Junior Data Analyst",
+    "Key Activities": [
+      "Supports the conduct of studies and/or projects using established quantitative statistical data analysis methods and software such as Python, SAS, STATA, R, E-Views, SPSS or other similar software.",
+      "Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.",
+      "Organizes and consolidates information relevant to the defined objectives of studies. Maintains work files.",
+      "Attends Departmental meetings, and interdepartmental and stakeholder meetings (as required), to gather data/information.",
+      "Participates in project teams and working groups to support data management, research and analysis, and other unit activities."
+    ],
+    "technical activities, skills, responsibilities, or efforts": {
+      "Communication skills": [
+        "Communication skills are required to maintain networks across the branch and the federal community of practice to share best practices in advanced analytics.",
+        "Provides advice, information and guidance to data users and clients regarding governance concepts used to protect and optimize the utility of Statistics Canada’s data assets.",
+        "Writing skills are necessary to draft clear and simple analytical reports, briefings and presentation material using data visualization tools for managers and clients with varying levels of knowledge and understanding of data science. Information must be impartial and clearly presented to minimize the potential for misinterpretation.",
+        "As assigned, discusses data requirements with operations managers responsible for data collection, other subject matter and systems specialists, clients or service providers to comprehend and elaborate the conditions within which statistical development and operations will occur.",
+        "There is a requirement to liaise with other subject matter specialists and users to develop and translate subject matter requirements into specifications for data development, and to suggest improvements to ongoing programs."
+      ],
+      "Knowledge": [
+        "The work requires knowledge of data science and its life cycle, including data capture and acquisition, data extraction, warehousing, cleansing, processing, mining, clustering, modeling, summarization, reporting, visualization, business intelligence, and exploratory/ confirmatory, predictive analysis, regression, text mining, and qualitative analysis. This knowledge is required to optimize the use of the Statistics Canada’s data assets and to provide leading edge thinking and methodologies to data analytics.",
+        "The work requires knowledge of the theories, principles, practices, and methodologies of statistics and mathematics in order to conduct the requisite modelling that provides meaningful information for policy and program decisions by management.",
+        "Knowledge of techniques and methods of information collection and analysis, evolving information sources, survey methodologies, data risk assessment, impact and quantitative analysis in order to assess the quality of data and identify and mitigate risks to its integrity.",
+        "Data literacy skills are needed to derive meaningful information from data, including the knowledge needed to read, analyze, interpret, visualize and communicate data, as well as understand the use of data in decision-making. Data literacy includes data stewardship and the ability to assess the quality of data, protect and secure data, and safeguard their responsible use. This is needed to develop briefings, presentations and dashboards that contain valid and reliable data.",
+        "Basic knowledge of theories, principles and techniques of research is required including; hypothesis formulation and validation; model design and interpretation, experimental and comparative study designs; surveys, simulations, file reviews and case studies; qualitative and quantitative analysis including statistical sampling and cost benefit analysis; computer assisted analysis packages; and the strengths and weaknesses of these methods, tools and techniques in order to recommend and select project methodologies.",
+        "The work requires a basic knowledge of the mandate, vision, values, culture, organization, legislation, programs, business lines and operations of Statistics Canada. This is needed to ensure the alignment of the data analytics strategy with the department’s business intelligence requirements.",
+        "The work requires knowledge and understanding of the governance structures of Statistics Canada’s partnerships in order to assess data provided by other levels of government for validity and integrity.",
+        "Basic knowledge of Departmental, Central Agencies and Library and Archives Canada policies pertaining to the handling, tracking, filing and storing of sensitive and confidential material and information holdings, including electronic records."
+      ]
+    }
+  }
+]

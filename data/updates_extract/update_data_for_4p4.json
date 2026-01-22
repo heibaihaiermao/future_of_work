@@ -1,0 +1,83 @@
+{"input":{
+  "id": "4.4",
+  "text": "Finalise collection",
+  "description": "This sub-process includes loading the collected data and metadata into a suitable electronic environment for further processing. It may include manual or automatic data capture, for example, using clerical staff or optical character recognition tools to extract information from paper questionnaires, or converting the formats of files or encoding the variables received from other organisations. It may also include analysis of the metadata and paradata associated with collection to ensure the collection activities have met requirements. In cases where there is a physical collection instrument, such as a paper questionnaire, which is not needed for further processing, this subprocess manages the archiving of that material. When the collection instrument uses software such as an API or an app, this sub-process also includes the versioning and archiving of these.",
+  "updates": [
+    {
+      "reference": "8 - GSBPM Roadmap Data In",
+      "description": "Clear delineation sponsor (subject matter) roles and accountabilities, based on the minimum requirement that sponsors / subject matter are responsible for specification and certification (1.4, 1.5, 3.1, 4.4)",
+      "strategic priorities": [
+        "Accountabilities and roles and responsibilities related to data acquisition are defined based on function and are understood across the organization"
+      ],
+      "justification": "The update explicitly states that subject matter is responsible for 'certification' in this sub-process."
+    },
+    {
+      "reference": "8 - GSBPM Roadmap Data In",
+      "description": "Full transfer of accountabilities for activities and functions related to data acquisition and collection to suppliers",
+      "strategic priorities": [
+        "Accountabilities and roles and responsibilities related to data acquisition are defined based on function and are understood across the organization"
+      ],
+      "justification": "Finalizing data collection and loading collected data, when done by suppliers, is part of this sub-process."
+    },
+    {
+      "reference": "9 - GSBPM Roadmap Data In",
+      "description": "Creation of a “trusted environment” which allows for the ingestion and processing of “risky” data through the use of confidential computing and other emerging technologies",
+      "strategic priorities": [
+        "Confidentiality and privacy of data are ensured in the face of increasingly sensitive data holdings and new techniques for data integration and dissemination."
+      ],
+      "justification": "The ingestion of 'risky' data requires specific loading procedures and security considerations when finalizing collection, which this environment would address."
+    },
+    {
+      "reference": "9 - GSBPM Roadmap Data In",
+      "description": "Elimination of duplicative data holdings by ensuring that data ingested and processed in the “trusted environment” becomes the master copy of the data (4.4)",
+      "strategic priorities": [
+        "Data infrastructure is modernized to support the more efficient acquisition, processing and delivery of data and statistical products."
+      ],
+      "justification": "The update explicitly references GSBPM step 4.4, indicating that once data is ingested and processed in the trusted environment, it becomes the master copy at the finalisation of collection."
+    }
+  ]
+},
+"response":{
+  "id": "4.4",
+  "text": "Finalise collection",
+  "description": "This sub-process includes loading the collected data and metadata into a suitable electronic environment for further processing. It may include manual or automatic data capture, for example, using clerical staff or optical character recognition tools to extract information from paper questionnaires, or converting the formats of files or encoding the variables received from other organisations. It may also include analysis of the metadata and paradata associated with collection to ensure the collection activities have met requirements. In cases where there is a physical collection instrument, such as a paper questionnaire, which is not needed for further processing, this subprocess manages the archiving of that material. When the collection instrument uses software such as an API or an app, this sub-process also includes the versioning and archiving of these.",
+  "updates": [
+    {
+      "reference": "8 - GSBPM Roadmap Data In",
+      "description": "Clear delineation sponsor (subject matter) roles and accountabilities, based on the minimum requirement that sponsors / subject matter are responsible for specification and certification (1.4, 1.5, 3.1, 4.4)",
+      "strategic priorities": [
+        "Accountabilities and roles and responsibilities related to data acquisition are defined based on function and are understood across the organization"
+      ],
+      "justification": "The update explicitly states that subject matter is responsible for 'certification' in this sub-process.",
+      "reasoning": "The sub-phase description will need to be updated to explicitly state that this sub-process includes the formal 'certification' of the collected data by subject matter specialists, confirming its fitness for further processing and adherence to specified requirements. This adds a crucial quality assurance and accountability gate at the end of collection."
+    },
+    {
+      "reference": "8 - GSBPM Roadmap Data In",
+      "description": "Full transfer of accountabilities for activities and functions related to data acquisition and collection to suppliers",
+      "strategic priorities": [
+        "Accountabilities and roles and responsibilities related to data acquisition are defined based on function and are understood across the organization"
+      ],
+      "justification": "Finalizing data collection and loading collected data, when done by suppliers, is part of this sub-process.",
+      "reasoning": "The sub-phase description should be modified to acknowledge that activities like loading collected data and metadata into the processing environment, and potentially initial data capture, may now be the accountability of external 'suppliers'. This implies a need to describe managing or receiving data from these external parties and ensuring their processes align with requirements for finalisation."
+    },
+    {
+      "reference": "9 - GSBPM Roadmap Data In",
+      "description": "Creation of a “trusted environment” which allows for the ingestion and processing of “risky” data through the use of confidential computing and other emerging technologies",
+      "strategic priorities": [
+        "Confidentiality and privacy of data are ensured in the face of increasingly sensitive data holdings and new techniques for data integration and dissemination."
+      ],
+      "justification": "The ingestion of 'risky' data requires specific loading procedures and security considerations when finalizing collection, which this environment would address.",
+      "reasoning": "The sub-phase description will need to include specific language regarding the secure loading and handling of 'risky' or sensitive data, particularly mentioning the use of a 'trusted environment' and associated confidential computing technologies. This adds a layer of complexity and emphasis on security protocols during the finalisation of data ingress."
+    },
+    {
+      "reference": "9 - GSBPM Roadmap Data In",
+      "description": "Elimination of duplicative data holdings by ensuring that data ingested and processed in the “trusted environment” becomes the master copy of the data (4.4)",
+      "strategic priorities": [
+        "Data infrastructure is modernized to support the more efficient acquisition, processing and delivery of data and statistical products."
+      ],
+      "justification": "The update explicitly references GSBPM step 4.4, indicating that once data is ingested and processed in the trusted environment, it becomes the master copy at the finalisation of collection.",
+      "reasoning": "The sub-phase description will be updated to reflect that, for data ingested and processed in the trusted environment, this sub-process also includes the formal designation of this data as the 'master copy'. This highlights its role in eliminating data duplication and establishing authoritative data sources within the organization's infrastructure."
+    }
+  ]
+}
+}

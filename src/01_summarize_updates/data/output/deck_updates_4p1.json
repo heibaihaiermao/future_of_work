@@ -1,0 +1,217 @@
+[
+    {
+        "update": {
+            "reference": "Slide 4 - GSBPM Roadmap: Why update GSBPM?",
+            "description": "The GSBPM needs to be updated to reflect changes in the data ecosystem, methods, and technologies, as well as evolving user needs that demand more flexible, integrated approaches to statistical production.",
+            "strategic priorities": [
+                "Modernising statistical processes",
+                "Facilitating integration with new data sources"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Reflecting changes in data ecosystem, methods, and technologies requires updating nearly all phases and subphases for comprehensiveness and relevance.",
+                    "text": "All phases and subphases",
+                    "id": "1-8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 5 - GSBPM Roadmap: Strategic priorities",
+            "description": "\"The revision aims to support the integration of new data sources (including administrative sources and privately held data) and alignment with international standards and frameworks.\"",
+            "strategic priorities": [
+                "Integration of new data sources",
+                "Alignment with international standards"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Integration of new data sources affects phases like Specify needs (checking data availability), Design (collection and processing strategies), Collect (managing new sources), and Process (harmonising multiple sources).",
+                    "text": "Specify needs",
+                    "id": "1"
+                },
+                {
+                    "justification": "Designing statistical production to suit new source types extends to collection design and systems integration.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "Data from new sources must be effectively collected and harmonised.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Processing must accommodate integration and transformation from mixed sources.",
+                    "text": "Process",
+                    "id": "5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 7 - GSBPM Roadmap: Cross-cutting themes",
+            "description": "\"Greater emphasis on cross-cutting themes such as data governance, privacy, ethics, and statistical quality throughout the model.\"",
+            "strategic priorities": [
+                "Enhancing statistical quality",
+                "Upholding privacy and ethics",
+                "Strengthening data governance"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Cross-cutting themes must be considered in each phase and subphase to support quality, privacy, ethics, and governance.",
+                    "text": "All phases and subphases",
+                    "id": "1-8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 9 - GSBPM Roadmap: Proposed updates to GSBPM (summary)",
+            "description": "\"Strengthen the link between quality management and process improvement, including clearer evaluation sub-processes and feedback loops throughout production cycles.\"",
+            "strategic priorities": [
+                "Quality management",
+                "Process improvement"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Emphasizing evaluation and feedback requires updates to the Evaluate phase and stronger integration of evaluation outputs across other phases.",
+                    "text": "Evaluate",
+                    "id": "8"
+                },
+                {
+                    "justification": "Ensuring quality and feedback loops supports continuous improvement in all phases.",
+                    "text": "All other phases, with a focus on feedback mechanisms",
+                    "id": "1-7"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 10 - GSBPM Roadmap: Extended data sources",
+            "description": "\"Extend collection and integration sub-processes to better support administrative, privately held, and new forms of data such as geospatial and sensor data.\"",
+            "strategic priorities": [
+                "Support for diverse data sources"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Collect phase must be updated to support new data forms and sources.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Process phase must include more advanced integration capabilities for heterogeneous data.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Design phase coverage of methods for new source types ensures proper tools and operations.",
+                    "text": "Design",
+                    "id": "2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 11 - GSBPM Roadmap: Data acquisition vs. collection",
+            "description": "\"Clarify the distinction between 'data acquisition' and 'data collection' and ensure sub-processes account for acquisition scenarios, especially for administrative and third-party data sources.\"",
+            "strategic priorities": [
+                "Clarification of terminology",
+                "Improved process coverage"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Collect phase must distinguish and adapt for acquisition processes from third parties.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Design phase may need adjustments for instruments and systems suited to acquisition.",
+                    "text": "Design collection",
+                    "id": "2.3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 12 - GSBPM Roadmap: Metadata and data management",
+            "description": "\"Update the handling of metadata and data management to align with emerging standards, ensuring proper traceability, versioning, and interoperability across phases.\"",
+            "strategic priorities": [
+                "Metadata and data management",
+                "Interoperability"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "All phases handle metadata and may require updates for better management and interoperability.",
+                    "text": "All phases",
+                    "id": "1-8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 14 - GSBPM Roadmap: Enhanced user engagement",
+            "description": "\"Increase attentiveness to user engagement and feedback mechanisms, especially in Specify needs, Disseminate, and Evaluate phases.\"",
+            "strategic priorities": [
+                "User engagement",
+                "Feedback mechanisms"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Specify needs phase depends on effective user engagement to clarify requirements.",
+                    "text": "Specify needs",
+                    "id": "1"
+                },
+                {
+                    "justification": "Disseminate phase must provide avenues for user feedback and support.",
+                    "text": "Disseminate",
+                    "id": "7"
+                },
+                {
+                    "justification": "Evaluate phase leverages user feedback to improve production cycles.",
+                    "text": "Evaluate",
+                    "id": "8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 16 - GSBPM Roadmap: Terminology harmonisation",
+            "description": "\"Align terminology with the GAMSO and other international standards to reduce confusion and foster interoperability.\"",
+            "strategic priorities": [
+                "Consistency",
+                "Interoperability"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Terminology alignment applies across every phase and sub-phase.",
+                    "text": "All phases and subphases",
+                    "id": "1-8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 17 - GSBPM Roadmap: Modular approach",
+            "description": "\"Move towards a more modular approach, enabling adaptation to diverse production environments and evolving user needs.\"",
+            "strategic priorities": [
+                "Flexibility",
+                "Adaptability"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "A modular approach affects the overall structure of GSBPM, making it possible to adapt phases and subphases for specific contexts.",
+                    "text": "All phases and subphases",
+                    "id": "1-8"
+                }
+            ]
+        }
+    }
+]

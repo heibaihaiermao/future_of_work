@@ -1,0 +1,287 @@
+[
+    {
+        "update": {
+            "reference": "Slide 4 - GSBPM Roadmap: Ongoing & planned updates",
+            "description": "Digitalisation and fit for new uses: integration with digital transformation, new ways of producing and using statistics, AI, big data, new sources.",
+            "strategic priorities": [
+                "Modernization",
+                "Digital transformation"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The mention of integrating digital transformation, AI, and big data directly influences how data are identified, collected, processed, and outputs are prepared. This affects needs specification, data design, collection methods, and processing for analytical readiness.",
+                    "text": "Specify needs",
+                    "id": "1"
+                },
+                {
+                    "justification": "Designing processes, workflows, and systems for new types of data and digital sources requires changes in this phase.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "Collection may need new methods and tools for digital and big data acquisition.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Processing and analysis must adapt to integrate and interpret new data types such as big data and outputs influenced by AI.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Analysis must be enhanced to accommodate AI-supported and digital data.",
+                    "text": "Analyse",
+                    "id": "6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 4 - GSBPM Roadmap: Ongoing & planned updates",
+            "description": "Documentation and clarity: Better documentation of sub-processes and more clarity and guidance on the use and boundaries of GSBPM phases.",
+            "strategic priorities": [
+                "Quality",
+                "Transparency"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "This is a generic improvement affecting all phases and sub-phases, aiming to increase process transparency and usability.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 4 - GSBPM Roadmap: Ongoing & planned updates",
+            "description": "Clarify feedback loops: Strengthen description and guidance regarding iterative processes and feedback mechanisms between phases.",
+            "strategic priorities": [
+                "Quality",
+                "Efficiency"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Feedback loops and iteration may affect progression and evaluation across all phases, especially links between Evaluate and other process phases.",
+                    "text": "Evaluate",
+                    "id": "8"
+                },
+                {
+                    "justification": "Because feedback between phases must be explicit throughout the entire model, all phases are implicated.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 4 - GSBPM Roadmap: Ongoing & planned updates",
+            "description": "Harmonisation: Alignment with other models and frameworks, e.g. CSPA and GAMSO, enterprise architecture approaches, modernization reference frameworks.",
+            "strategic priorities": [
+                "Standardization",
+                "Interoperability"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Harmonisation of processes and alignment with other models affects all phases, as it relates to both conceptual and operational integration.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 5 - Ongoing updates (2023-2024): Enhance documentation of over-arching processes",
+            "description": "Improve documentation on Data Management and Metadata Management activities as cross-cutting with detailed examples.",
+            "strategic priorities": [
+                "Data stewardship",
+                "Quality"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Data Management and Metadata Management are described as overarching activities. Improved documentation will affect clarity of each phase with respect to these cross-cutting activities.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 6 - Ongoing updates (2023-2024): Foster digital transformation",
+            "description": "Introduce more explicit references to digital sources, digital data flows and digital processes throughout the model.",
+            "strategic priorities": [
+                "Digital transformation"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Digitalisation directly affects the way data are sourced, handled, and processed\u2014every phase from needs specification to dissemination needs modifications for digital readiness.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 7 - Ongoing updates (2023-2024): Clarify iteration and feedback loops",
+            "description": "Strengthen description of iteration between phases and feedback, especially the role of Evaluate, with graphical representation.",
+            "strategic priorities": [
+                "Quality",
+                "Continuous improvement"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Clarification of the Evaluate phase's feedback function affects both Evaluate itself and the cyclical relationship among all phases, specifically the interplay with Specify needs.",
+                    "text": "Evaluate",
+                    "id": "8"
+                },
+                {
+                    "justification": "Models/processes heavily reliant on feedback must have all phases reconsidered for iterative and cyclical operations.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 8 - Planned updates (2024-2025): Address new and emerging data sources",
+            "description": "Expand guidance and best practices for incorporating new data sources (e.g., sensor data, social media, administrative data, geospatial data, privately held data, etc.) into business processes.",
+            "strategic priorities": [
+                "Innovation",
+                "Data stewardship"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Identification, evaluation, and integration of new sources start from the needs assessment and carry through design, collection, process, and analysis.",
+                    "text": "Specify needs",
+                    "id": "1"
+                },
+                {
+                    "justification": "Guidance for how new sources feed into process design, collection, and integration.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "New modes of collection and data source acquisition will directly affect the Collect phase.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Integrating and processing new sources require updated data integration and processing steps.",
+                    "text": "Process",
+                    "id": "5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 8 - Planned updates (2024-2025): Support artificial intelligence and machine learning",
+            "description": "Develop clearer references, examples and use-cases for AI/ML in statistical business processes, especially for data processing, analysis and quality management.",
+            "strategic priorities": [
+                "Innovation",
+                "Efficiency"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "AI/ML can be used in data processing (e.g., coding, imputation, classification) and in analysis for generating insights.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Analysis phase may increasingly rely on AI to mine insights from data.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Quality monitoring may use AI/ML techniques in Evaluate.",
+                    "text": "Evaluate",
+                    "id": "8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 8 - Planned updates (2024-2025): Strengthen confidentiality and data ethics",
+            "description": "Provide expanded guidance on ethical considerations, confidentiality and privacy principles, especially for novel and linked data sources and AI-enabled processes.",
+            "strategic priorities": [
+                "Ethics",
+                "Trust"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Designing data collection, processing, and outputs in line with confidentiality, including ethical decisions around sources.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "Processing of linked and novel sources must explicitly consider confidentiality.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Specific sub-process for disclosure control within Analyse phase needs expanded guidance.",
+                    "text": "Apply disclosure control",
+                    "id": "6.4"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 8 - Planned updates (2024-2025): Deepen guidance on quality management",
+            "description": "Enhance advice on use of process and output quality indicators; integrate with Quality Management activities.",
+            "strategic priorities": [
+                "Quality",
+                "Transparency"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "All phases use quality indicators for process and output. Explicit integration with Quality Management is needed.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 9 - Planned updates (2024-2025): Foster clarity and ease of use",
+            "description": "Refine descriptions throughout to make GSBPM easier to use, including improved graphical representations and navigation.",
+            "strategic priorities": [
+                "Clarity",
+                "Usability"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Affects all users and process navigation; global improvement, not specific to any phase.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Slide 10 - Planned updates (2024-2025): Enhance alignment with GAMSO and CSPA",
+            "description": "Strengthen links to activities in GAMSO (e.g. Data stewardship, Capability and Capacity Management, and Corporate Support), and clarify integration with CSPA services.",
+            "strategic priorities": [
+                "Interoperability",
+                "Standardization"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Aligning the GSBPM with GAMSO and CSPA means updating cross-references and process linkage throughout the model.",
+                    "text": "All phases and sub-phases",
+                    "id": "ALL"
+                }
+            ]
+        }
+    }
+]
