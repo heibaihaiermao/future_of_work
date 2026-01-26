@@ -28,17 +28,17 @@ def read(path):
 input_data_path = "data/wd_update_input"
 pjoin = lambda f: "/".join((input_data_path, f))
 
-background = read("prompt_01_-_background_prompt.txt")
+background = read("prompts/prompt_01_-_background_prompt.txt")
 
-gsbpm_intro = read("prompt_02_-_GSBPM_context_intro.txt")
+gsbpm_intro = read("prompts/prompt_02_-_GSBPM_context_intro.txt")
 gsbpm = read(pjoin("2025-09-23_-_updated_GSBPM_descriptions.json"))
 
-wd_implications_intro = read("prompt_03_-_work-description_context_intro.txt")
+wd_implications_intro = read("prompts/prompt_03_-_work-description_context_intro.txt")
 wd_implicated_updates = loads(read(pjoin("implicated_GSBPM_updates_per_work-description_-_all.json")))
 
 work_descriptions = loads(read(pjoin("work_descriptions.json")))
 
-task = read("prompt_04_-_task_and_schema.txt")
+task = read("prompts/prompt_04_-_task_and_schema.txt")
 
 
 def find_work_description(work_descriptions, classification, title):
