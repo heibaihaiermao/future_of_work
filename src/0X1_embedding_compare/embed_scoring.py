@@ -64,7 +64,7 @@ def format_sc_tb_row(row):
 
 
 if __name__ == "__main__":
-    with open("../0X_update_work_descriptions/data/updated_wd_with_skills/Economist_-_Sociologist_2_-_proposed_updates.json", 'r') as fil:
+    with open("../05_forecast_skill_gaps_of_data/data/updated_wd_with_skills/Economist_-_Sociologist_2_-_proposed_updates.json", 'r') as fil:
         d = jload(fil)
     d = flatten_json(d)
     d = map(format_gap_skill, d)
