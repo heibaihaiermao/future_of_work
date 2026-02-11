@@ -33,8 +33,8 @@ def setup_azure(system_prompt, dotenv_path="../py.env"):
       api_version="2024-05-01-preview")
     
     assistant = client.beta.assistants.create(
-      #model="gpt-4.1-standard", # replace with model deployment name.
-      model="gpt-4.1", # replace with model deployment name.
+      model="gpt-4.1-standard", # replace with model deployment name.
+      #model="gpt-4.1", # replace with model deployment name.
       instructions=system_prompt,
       tools=[{"type":"file_search"}],
       #tool_resources={"file_search":{"vector_store_ids":["vs_uYZmeovSd2CrCoEzgEw4MA4h"]}},

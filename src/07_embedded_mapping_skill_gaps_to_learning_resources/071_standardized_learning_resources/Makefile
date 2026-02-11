@@ -2,6 +2,11 @@
 #rawDataCamp := "../../../../../generate-course-profiles/data/raw/all_courses.json"
 rawDataCamp := "data/raw/dataCamp.json"
 compProfile := data/competency_profile_cleaned.json
+
+standardize: data/standard/dataCamp.json \
+	     data/standard/onyxia.json \
+	     data/standard/csps.json
+
 data/standard/dataCamp.json: data/imputed/dataCamp.json
 	jq --slurpfile raw ${rawDataCamp} -f filterDataCamp.jq $^ \
 	| jq -c --slurpfile comps ${compProfile} \
@@ -25,9 +30,6 @@ data/standard/onyxia.json: data/imputed/onyxia.json
 	| jq -c --slurpfile comps ${compProfile} \
 	     -f join_competency_descriptions.jq > $@
 
-standardize: data/standard/dataCamp.json \
-	     data/standard/onyxia.json \
-	     data/standard/csps.json
 
 PHONY: standardize
 

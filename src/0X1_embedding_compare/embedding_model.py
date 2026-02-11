@@ -13,7 +13,7 @@ class embedding_model():
         endpoint = "https://futureofwork-aifoundry-resource.services.ai.azure.com/openai/v1/"
         deployment_name = "embed-v-4-0"
         
-        client = OpenAI(
+        self.client = OpenAI(
             base_url = endpoint,
             api_key = getenv("AZURE_EMBEDDING_API_KEY"))
         
@@ -23,7 +23,7 @@ class embedding_model():
         #    model = deployment_name
         #)
     
-        self.embedding_call = partial(client.embeddings.create,
+        self.embedding_call = partial(self.client.embeddings.create,
                                       model=deployment_name)
 
         self.get_embedding = attrgetter("embedding")
