@@ -1,143 +1,21 @@
-import os
-import json
-import atexit
 import numpy as np
 import pandas as pd
+from itertools import starmap, chain
 
-from itertools import tee, filterfalse
-from operator import itemgetter
-from openai import RateLimitError
-from dotenv import load_dotenv
-load_dotenv("embedding.env")
+from persistent_embedding import collect_embeddings
 
-from embedding_model import embedding_model
-def read_json_files(input_dir):
-    input_files = os.listdir(input_dir)
-    input_files = map(lambda s: input_dir+"/"+s, input_files)
-    for path in input_files:
-        with open(path, 'r', encoding="utf-8-sig") as fil:
-            input_data = map(json.loads, fil)
-            yield from input_data
-
-
-
-class embedding_collector():
-    def __init__(self, lr_dir, key_attribute="title"):
-        self.lr_dir = lr_dir
-        self.memory_path = f"{self.lr_dir.split(os.altsep)[-1]}_memory.json"
-        self.key_attribute = key_attribute
-
-        self.recommender = embedding_model()
-        atexit.register(self.recommender.client.close)
-
-
-    def load_memory(self):
-        try:
-            with open(self.memory_path, 'r', encoding="utf-8-sig") as fil:
-                self.lr_memory = json.load(fil)
-
-        except FileNotFoundError:
-            self.lr_memory = {}
-
-
-    def filter_unseen(self, lr_data):
-        try:
-            previous_keys = self.lr_memory.keys()
-
-        except AttributeError:
-            self.load_memory()
-            previous_keys = self.lr_memory.keys()
-
-        previously_embedded = previous_keys.__contains__
-        lr_data = filterfalse(lambda d: previously_embedded(d[self.key_attribute]),
-                              lr_data)
-        yield from lr_data
-
-
-    def load_unseen(self, lr_dir): #, memory_path=None):
-        lr_data = read_json_files(lr_dir)
-    
-        #if memory_path is None:
-        #    memory_path = f"{self.lr_dir.split(os.altsep)[-1])}_memory.json"
-    
-        lr_data = self.filter_unseen(lr_data) #, self.memory_path)
-        yield from lr_data
-
-
-    def embed_JSONs(self, lr_json):
-        #recommender = embedding_model()
-        #atexit.register(recommender.client.close)
-    
-        lr_str = map(json.dumps, lr_json)
-        lr_embed = self.recommender.embed(lr_str)
-        yield from lr_embed
-    
-    
-    def generate_unseen_embeddings(self, lr_dir):
-        lr_data = self.load_unseen(lr_dir)
-        lr_j , lr_label = tee(lr_data, 2)
-        lr_embed = self.embed_JSONs(lr_j)
-        
-        lr_dict = zip(lr_label, lr_embed)
-        lr_dict = ((j[self.key_attribute], {"data": j, "vec": v}) for j,v in lr_dict)
-        yield from lr_dict
-
-
-    def persistent_embed(self, lr_dir):
-        lr_embeddings = self.generate_unseen_embeddings(lr_dir)
-    
-        self.lr_dict = {}
-        while True:
-            try:
-                k, d = next(lr_embeddings)
-
-            except StopIteration:
-                break
-
-            except RateLimitError:
-        
-                #self.lr_memory = self.lr_memory.__or__(self.lr_dict)
-                self.lr_memory.update(self.lr_dict)
-                with open(self.memory_path, 'w', encoding="utf-8") as fil:
-                    json.dump(self.lr_memory, fil)
-        
-                break
-
-            self.lr_dict[k] = d 
-
-
-get_vec = itemgetter("vec")
-
-#def collect_embeddings
-
-lr_dir = "data/input/learning-resources"
-embbeder = embedding_collector(lr_dir, key_attribute="title")
-embbeder.persistent_embed(lr_dir)
-lre = embbeder.lr_memory
-
-lrdf = pd.DataFrame.from_dict(lre).T["vec"]
-
-lrm = np.matrix(list(map(get_vec, lre.values())))
-lrkl = list(lre.keys())
-
-gaps_dir = "data/input/gaps"
-embbeder = embedding_collector(gaps_dir, key_attribute="development area")
-embbeder.persistent_embed(gaps_dir)
-ge = embbeder.lr_memory
-
-gdf = pd.DataFrame.from_dict(ge).T["vec"]
-
-gm = np.matrix([ge[k]["vec"] for k in ge.keys()])
-#gkl = list(ge.keys())
-
-def create_cosine_similarity_df(column_series, row_series):
-    column_matrix = np.matrix(np.vstack(column_series))
+def cosine_similarity(column_matrix, row_matrix):
     column_norm = np.matrix(np.linalg.norm(column_matrix, axis=1))
-
-    row_matrix = np.matrix(np.vstack(row_series))
     row_norm = np.matrix(np.linalg.norm(row_matrix, axis=1))
 
     cosine_similarity_matrix = (row_matrix * column_matrix.T) / (row_norm.T * column_norm)
+    return cosine_similarity_matrix
+
+def create_cosine_similarity_df(column_series, row_series):
+    column_matrix = np.matrix(np.vstack(column_series))
+    row_matrix = np.matrix(np.vstack(row_series))
+
+    cosine_similarity_matrix = cosine_similarity(column_matrix, row_matrix)
 
     cosine_similarity_df = pd.DataFrame(cosine_similarity_matrix,
                                         columns=column_series.index,
@@ -145,39 +23,73 @@ def create_cosine_similarity_df(column_series, row_series):
 
     return cosine_similarity_df
 
-    
+
+def get_top_resources(name, series, N=10):
+    return (name, series.sort_values(ascending=False)[:N].to_dict())
+
+def get_recommendations(score_df):
+    recommends_per_col = starmap(get_top_resources, score_df.items())
+    return dict(recommends_per_col)
 
 
-# Define comparison matrix.
-cdf = pd.DataFrame(np.matrix(np.vstack(lrdf))*np.matrix(np.vstack(gdf)).T,
-                   columns = gdf.index,
-                   index=lrdf.index)
-comparison = lrm*gm.T 
-compn = comparison / (np.matrix(np.linalg.norm(lrm, axis=1)).T* np.matrix(np.linalg.norm(gm, axis=1)))
+def find_most_recommended(recommends):
+    resource_keys = (ki.keys() for ki in recommends.values())
+    resource_keys = list(chain.from_iterable(resource_keys))
 
-# Scale so that each course is has equal mean similarity.
-comparison2 = comparison / np.mean(comparison, axis=1)
+    resource_counts = [(resource_keys.count(ki), ki) for ki in set(resource_keys)]
+    resource_counts.sort()
+    return resource_counts
 
-# Remove bottom half before scaling.
-comparison[np.array(np.argsort(np.mean(comparison, axis=1).T)[:,:len(gkl)//2])[0]] = 0
+def order_recommends_by_self_similarity(resource_embeddings, recommends):
+    recommendation_embeddings = resource_embeddings[recommends.keys()]
+    embedded_recommendations_matrix = np.matrix(np.vstack(recommendation_embeddings))
 
-def get_recommendations_from_comps(comps):
-    rank_order = np.argsort(comps, axis=0)
-    ranked_indices = np.arange(len(lrm))[rank_order]
-    top_indices = ranked_indices[-10:, :][::-1]
-    
-    #recommendations = {gap_k: [lrkl[j]
-    recommendations = {gkl[i]: [{lrkl[j]:comps[j,i]} for j in gap_10_recommends] for i, gap_10_recommends in enumerate(top_indices.T)}
-    return recommendations
-    
-#with open("preliminary_recommendations.json", 'w', encoding="utf-8") as fil:
-#    json.dump(recommendations, fil, ensure_ascii=False, indent=4)
+    recommendations_similarity = cosine_similarity(embedded_recommendations_matrix,
+                                                   embedded_recommendations_matrix)
+
+    # DEV: Arguably the 1's along the diagonal should be removed..
+    mean_similarities = np.mean(recommendations_similarity, axis=0)
+    similarity_order = np.argsort(mean_similarities)[::-1]
+
+    ordered_recommendations = recommendation_embeddings.iloc[similarity_order.flat]
+    return ordered_recommendation
 
 
 
-#def cosine_similarity(u, v):
-#    mag_u = np.sqrt(np.vecdot(u, u))
-#    mag_v = np.sqrt(np.vecdot(v, v))
-#
-#    num = np.vecdot(u,v)
-#    return num / mag_u / mag_v
+
+
+
+if __name__ == "__main__":
+    lr_dir = "data/input/learning-resources"
+    lre = collect_embeddings(lr_dir, key_attribute="title")
+    lrdf = pd.DataFrame.from_dict(lre).T["vec"].apply(np.array)
+
+    gaps_dir = "data/input/gaps"
+    ge = collect_embeddings(gaps_dir, key_attribute="development area")
+    gdf = pd.DataFrame.from_dict(ge).T["vec"].apply(np.array)
+
+    cdf = create_cosine_similarity_df(gdf, lrdf)
+
+
+    standard_recommendations = get_recommendations(cdf)
+    lr_normalized_recommendations = get_recommendations((cdf.T / cdf.mean(axis=1)).T)
+
+    # Removed least-similar half in each column.
+    gap_mean_similarity = cdf.mean(axis=0)
+    upper_half = np.maximum(0, cdf - gap_mean_similarity)
+
+    # Restore most-similar half to original value.
+    upper_half = upper_half + np.sign(upper_half)*gap_mean_similarity
+
+    # Normalize remaining items by average similarity to all gaps.
+    upper_half_normalized = (upper_half.T / cdf.mean(axis=1)).T
+
+    # Get recommendations.
+    upper_half_normalized_recommends = get_recommendations(upper_half_normalized)
+
+    # Possible other metrics
+    #   - Probability of higher-rank elsewhere
+    #     This promotes those elements that are unusally similar to a particular gap,
+    #     relative to its ranking on all other gaps.
+    #       -> Worth investigating other statistical measure of outliers.
+
