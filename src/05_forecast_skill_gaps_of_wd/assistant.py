@@ -61,6 +61,7 @@ class Assistant():
 
 
     def delete(self):
+        self.client.beta.threads.delete(self.thread.id)
         self.client.beta.assistants.delete(self.assistant.id)
 
     def send_fresh(self, user_prompt):

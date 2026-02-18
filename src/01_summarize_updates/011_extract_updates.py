@@ -57,7 +57,7 @@ def make_file_id(file_stream):
 
 
 if __name__ == "__main__":
-    prompt_path = "001_extract_prompt.txt"
+    prompt_path = "prompts/01_extract_updates.txt"
     gsbpm_json_path = "data/input/GSBPM_v5_2.json"
 
     prompt_preamble = load_prompt(prompt_path)
@@ -91,8 +91,10 @@ if __name__ == "__main__":
     api_version = "2024-12-01-preview"
 
     raw_data_dir = "data/raw/"
-    raw_data_paths = map(raw_data_dir.__add__,
-                         listdir(raw_data_dir))
+    #raw_data_paths = map(raw_data_dir.__add__,
+    #                     listdir(raw_data_dir))
+    raw_data_paths = [raw_data_dir + x for x in ['1. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx']]
+
     #file_paths = map(glob, raw_data_paths)
     file_paths = raw_data_paths
     file_paths = list(file_paths)
