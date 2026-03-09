@@ -20,7 +20,7 @@ def load_prompt(path):
 
 if __name__ == "__main__":
     prompt_path = "gsbpm_extract_prompt.txt"
-    markdown_path  = "data/output/GSBPM_v5_2.md"
+    markdown_path  = "data/0002_output/GSBPM_v5_2.md"
     prompt_preamble = load_prompt(prompt_path)
     markdown_content = load_markdown_file(markdown_path)
 
@@ -72,7 +72,8 @@ if __name__ == "__main__":
     with open(json_path, 'w') as fil:
         json.dump(response_content,
                   fil,
-                  indent=4)
+                  indent=4,
+                  ensure_ascii=False)
 
 
 

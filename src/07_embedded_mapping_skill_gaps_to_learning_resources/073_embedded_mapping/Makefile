@@ -19,4 +19,12 @@ ${STAGING_DIR}/gaps/%_-_embedding_memory.json: ${INPUT_DIR}/gaps/%.json
 ${OUTPUT_DIR}/%_-_recommendations.json: ${STAGING_DIR}/gaps/%_-_proposed_updates_-_embedding_memory.json
 	python embedded_recommends_0732.py $<
 
+
+#output_file: input1.txt input2.txt
+#	python script.py $<
+#	python script.py input1.txt 
+#
+#	python script.py $^
+#	python script.py input1.txt input2.txt
+
 .PHONY: recommendations embedding

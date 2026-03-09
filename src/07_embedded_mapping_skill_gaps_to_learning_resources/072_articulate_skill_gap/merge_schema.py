@@ -27,13 +27,16 @@ json_files = list(json_files)
 
 # Generate set of unique schema
 schemas = map(identifier.generate_schema, json_files)
-schemas = set(map(json.dumps, schemas))
+schemas = set(map(json.dumps, schemas)) # set unique schemas.
+
 schemas = map(json.loads, schemas)
-schemas = list(schemas)
+schemas = list(schemas) # list of unique dictionary object (schemas)
 
 # Query Agent for code that applies a common schema.
 schematizer = Assistant("You are a highly methodical python coding agent that generates code to standardize JSON data into a common schema")
+
 code = schematizer.send_message(f"Given the following schema: \n```{json.dumps(schemas)}```\n decide whether they are compatible and if so, write python code so to standardize the data in both schema. Respond only with python code. Name the function which standardizes the data \"apply_common_schema\"")
+
 code = code.strip("```python")
 exec(code)
 schematizer.delete()
@@ -51,5 +54,7 @@ standard_json = map(apply_common_schema, json_data)
 # Write to output.
 for output_path_i, output_data_i in zip(output_files, standard_json):
     with open(output_path_i, 'w', encoding="utf-8") as fil:
-        json.dump(output_data_i, fil)
+        json.dump(output_data_i,
+                  fil,
+                  ensure_ascii=False)
 

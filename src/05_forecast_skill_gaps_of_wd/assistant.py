@@ -34,10 +34,8 @@ def setup_azure(system_prompt, dotenv_path="../py.env"):
     
     assistant = client.beta.assistants.create(
       model="gpt-4.1-standard", # replace with model deployment name.
-      #model="gpt-4.1", # replace with model deployment name.
       instructions=system_prompt,
       tools=[{"type":"file_search"}],
-      #tool_resources={"file_search":{"vector_store_ids":["vs_uYZmeovSd2CrCoEzgEw4MA4h"]}},
       temperature=0.2,
       top_p=1,
       name=f"PyAssistant - {today}")
@@ -45,9 +43,6 @@ def setup_azure(system_prompt, dotenv_path="../py.env"):
 
 
 class Assistant():
-#    def __init__(self, client, assistant):
-#        self.client = client
-#        self.assistant = assistant
     def __init__(self, system_prompt, dotenv_path="../py.env"):
         self.message_history = [{"system": system_prompt}]
         self.response_history = []

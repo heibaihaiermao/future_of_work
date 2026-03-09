@@ -28,8 +28,6 @@ if __name__ == "__main__":
     
     # Init getters.
     get_common_update_elements = dictgetter("title", "id", "description") 
-    #get_common_update_elements = itemgetter("title", "id", "description",
-    #                                   "update description", "justification")
     get_wd_specific_elements = dictgetter("justification") 
     
     

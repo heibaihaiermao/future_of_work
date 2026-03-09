@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from itertools import starmap, chain
 
-from persistent_embedding_0731 import collect_embeddings
+#from persistent_embedding_0731 import collect_embeddings
 
 def cosine_similarity(column_matrix, row_matrix):
     column_norm = np.matrix(np.linalg.norm(column_matrix, axis=1))
@@ -65,7 +65,6 @@ if __name__ == "__main__":
     import os
 
     #lr_dir = "data/0731_inputs/learning-resources"
-    #lre = collect_embeddings(lr_dir, key_attribute="title")
     with open("data/0732_embeddings/learning-resources_-_embedding_memory.json", 'r', encoding="utf-8") as fil:
         lre = json.load(fil)
     lrdf = pd.DataFrame.from_dict(lre).T["vec"].apply(np.array)
@@ -80,6 +79,7 @@ if __name__ == "__main__":
 
 
     standard_recommendations = get_recommendations(cdf)
+
     lr_normalized_recommendations = get_recommendations((cdf.T / cdf.mean(axis=1)).T)
 
     # Removed least-similar half in each column.
@@ -100,14 +100,16 @@ if __name__ == "__main__":
     #     This promotes those elements that are unusally similar to a particular gap,
     #     relative to its ranking on all other gaps.
     #       -> Worth investigating other statistical measure of outliers.
+    #
+    #   - Posterior probability as calculated by Bayes.
 
     output_path = gaps_path.replace("0732_embeddings", "0733_recommendations").replace(os.altsep+"gaps", "")
     output_path = output_path.split("_-_proposed_updates_-_embedding_memory.json")[0] + "_-_recommendations.json"
 
     output_recommendations = {k:list(v.keys()) for k,v in standard_recommendations.items()}
-    with open(output_path, 'w', encoding="utf-8") as fil:
-        json.dump(output_recommendations,
-                  fil,
-                  ensure_ascii=False,
-                  indent=4)
-
+#    with open(output_path, 'w', encoding="utf-8") as fil:
+#        json.dump(output_recommendations,
+#                  fil,
+#                  ensure_ascii=False,
+#                  indent=4)
+#

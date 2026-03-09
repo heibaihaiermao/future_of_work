@@ -1,6 +1,7 @@
 from itertools import islice, chain
 class embedding_model():
-    def __init__(self, pyenv_path="../py.env"):
+    #def __init__(self, pyenv_path="../py.env"):
+    def __init__(self, pyenv_path="embedding.env"):
         from openai import OpenAI
         from dotenv import load_dotenv
         from os import getenv
@@ -43,6 +44,8 @@ class embedding_model():
             yield from map(self.get_embedding, response.data)
 
             iterable_batch = islice(input_iterable, max_N)
+
+            # peak to see if batch is empty
             try:
                 first_item = next(iterable_batch)
 
@@ -51,10 +54,6 @@ class embedding_model():
 
             iterable_batch = prepend(first_item, iterable_batch)
             response = self.embedding_call(input=iterable_batch)
-        #yield from response.data
-        #return response
-
-        #print(response.data[0].embedding)
 
 def prepend(xi, x_iter):
     yield from chain.from_iterable(([xi], x_iter))

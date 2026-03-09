@@ -94,8 +94,6 @@ class embedding_collector():
 
 
     def embed_JSONs(self, lr_json):
-        #recommender = embedding_model()
-        #atexit.register(recommender.client.close)
     
         lr_str = map(json.dumps, lr_json)
         lr_embed = self.recommender.embed(lr_str)
@@ -114,7 +112,8 @@ class embedding_collector():
 
     def persistent_embed(self, lr_dir):
         lr_embeddings = self.generate_unseen_embeddings(lr_dir)
-    
+   
+        ## OPPORUNITY FOR DOCUMENTATION HERE: 
         self.lr_dict = {}
         while True:
             try:
@@ -135,13 +134,16 @@ class embedding_collector():
 
 
 def collect_embeddings(dir_path, key_attribute="title"):
+    ''' while loop, that collect embeddings, with an increasing cool-down time.'''
 
     embedder = embedding_collector(dir_path, key_attribute=key_attribute)
     embedder.persistent_embed(dir_path)
 
     backoff_wait_time = 1
+    ## OPPORUNITY FOR DOCUMENTATION HERE: 
+    #    - When/why does embedder.lr_memory be empty?
     while bool(embedder.lr_dict):
-        print(len(embedder.lr_memory))
+        #print(len(embedder.lr_memory))
         embedder.persistent_embed(dir_path)
         backoff_wait_time *=2
         sleep(backoff_wait_time)
