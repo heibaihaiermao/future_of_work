@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # Save full response
     from pickle import dump
     output_path = "/".join(("data",
-                            "output",
+                            "0002_output",
                         markdown_path.split("/")[-1].split(".")[0]+".pkl"))
     with open(output_path, 'wb') as fil:
         dump(response, fil)
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     # Save response content in JSON
     import json
     response_content = response.choices[0].message.content
-    response_content = response_content.lstrip("`json\n").rstrip("`\n")
+    response_content = response_content.lstrip("`json\n").rstrip("`\n").split("```")[:-1]
     response_content = json.loads(response_content)
 
     #from json import dump as jdump, 
@@ -79,3 +79,13 @@ if __name__ == "__main__":
 
 
     print(response.choices[0].message.content)
+
+
+def parse_JSON_content(response: String):
+    
+
+    return json_content
+
+
+def _test_parse_JSON_content():
+    assert parse_JSON_content('{"salute": "hello", "subject":["world"]}') == {"salute": "hello", "subject":["world"]}
