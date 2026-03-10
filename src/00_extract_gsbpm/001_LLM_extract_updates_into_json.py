@@ -2,6 +2,8 @@ from openai import AzureOpenAI
 from dotenv import load_dotenv
 from os import getenv
 
+from helper import parse_json_content
+
 def load_markdown_file(path):
     with open(path, 'r', encoding="utf-8") as fil:
         markdown_content = fil.read()
@@ -35,8 +37,9 @@ if __name__ == "__main__":
     endpoint = getenv("AZURE_OPENAI_ENDPOINT")
     subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")])
 
-    deployment = "gpt-4.1-standard"
-    api_version = "2024-12-01-preview"
+    deployment = "gpt-4.1"
+    # api_version = "2024-12-01-preview"
+    api_version = "2025-01-01-preview"
 
 
     with AzureOpenAI(api_version=api_version,
@@ -64,8 +67,9 @@ if __name__ == "__main__":
     # Save response content in JSON
     import json
     response_content = response.choices[0].message.content
-    response_content = response_content.lstrip("`json\n").rstrip("`\n").split("```")[:-1]
-    response_content = json.loads(response_content)
+    response_content = response_content.lstrip("`json\n").rstrip("`\n")
+    print(response_content)
+    response_content = parse_json_content(response_content)
 
     #from json import dump as jdump, 
     json_path = markdown_path.rstrip(".md")+".json"
