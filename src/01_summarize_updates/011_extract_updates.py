@@ -149,12 +149,10 @@ if __name__ == "__main__":
         response = client.beta.threads.messages.list(
                         thread_id = thread.id,
                         run_id = run.id)
-        1/0
+        # 1/0
         #TODO add code
         #reponse = messages[0].content[0].text
-        response  = message[0].content[0].text
-
-
+        response = response[0].content[0].text
 
 #        response = client.chat.completions.create(
 #                        messages = [system_prompt, user_prompt],

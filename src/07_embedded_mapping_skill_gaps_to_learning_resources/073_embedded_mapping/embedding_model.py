@@ -1,7 +1,7 @@
 from itertools import islice, chain
 class embedding_model():
-    #def __init__(self, pyenv_path="../py.env"):
-    def __init__(self, pyenv_path="embedding.env"):
+    def __init__(self, pyenv_path="../../py.env"):
+    # def __init__(self, pyenv_path="embedding.env"):
         from openai import OpenAI
         from dotenv import load_dotenv
         from os import getenv
@@ -12,7 +12,7 @@ class embedding_model():
 
         load_dotenv(pyenv_path)
         endpoint = "https://futureofwork-aifoundry-resource.services.ai.azure.com/openai/v1/"
-        endpoint = getenv(AZURE_EMBEDDING_ENDPOINT)
+        endpoint = getenv("AZURE_EMBEDDING_ENDPOINT")
         deployment_name = "embed-v-4-0"
         
         self.client = OpenAI(

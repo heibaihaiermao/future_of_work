@@ -64,7 +64,7 @@ reshape_dict = lambda ddijk: {"name": ddijk["name"],
  
 if __name__ == "__main__":
 
-    with open("data/updated_wd_with_skills/Economist_-_Sociologist_2_-_proposed_updates.json", 'r') as fil:
+    with open("../05_forecast_skill_gaps_of_wd/data/updated_wd_with_skills/Economist_-_Sociologist_2_-_proposed_updates.json", 'r') as fil:
         d = load(fil)
 
    
