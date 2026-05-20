@@ -118,7 +118,7 @@ if __name__ == "__main__":
         client.beta.threads.messages.create(
             thread_id=thread.id,
             role="user",
-            content="Extract updates from the uploaded PowerPoint."
+            content="Extract updates from the uploaded PowerPoint by following the system prompt."
         )
 
         run = client.beta.threads.runs.create_and_poll(
