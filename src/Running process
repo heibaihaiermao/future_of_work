@@ -1,0 +1,5 @@
+Miniforge:
+1.Enter miniforge prompt
+enter the folder
+conda activate dsBase
+pyhton 011_extract_updates.py

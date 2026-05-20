@@ -54,21 +54,11 @@ if __name__ == "__main__":
 
     full_prompt = (
         "You are an expert analyst.\n"
-        "Extract ALL update points from the PowerPoint.\n"
-        "Treat each distinct point as an update.\n\n"
+        "Following the instructions that provided after the gsbpm context.\n"
         "IMPORTANT:\n"
         "- Do NOT ask clarifying questions\n"
         "- Do NOT add explanations\n"
         "- Return ONLY valid JSON\n\n"
-        "JSON schema:\n"
-        "{\n"
-        '  "updates": [\n'
-        "    {\n"
-        '      "id": <int>,\n'
-        '      "description": <string>\n'
-        "    }\n"
-        "  ]\n"
-        "}\n\n"
         "GSBPM Context:\n"
         "```json\n"
         + gsbpm_text +
