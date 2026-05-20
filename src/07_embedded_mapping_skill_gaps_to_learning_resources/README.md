@@ -8,7 +8,7 @@ identified skill-gaps. In previous iterations of mapping in this project, LLMs h
 
 <ASK LLM>
 
-## Workflow overview
+## Workflow overview(note: implements identifying broad vs width)
 1) (as best as possible) standardize format, structure, and character of skill-gaps
 2) (as best as possible) standardize format, structure, content and character of skill-gaps, while providing sufficient context for recommendations.
 3) Embedded Mapping

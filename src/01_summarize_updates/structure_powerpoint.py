@@ -21,7 +21,7 @@ def load_prompt(path):
 
 
 if __name__ == "__main__":
-
+    # Load prompt, gsbpm 
     load_dotenv("../py.env")
     prompt_path = "prompts/01_extract_updates.txt"
     gsbpm_json_path = "data/input/GSBPM_v5_2.json"
@@ -32,15 +32,22 @@ if __name__ == "__main__":
     prompt_content = load_prompt("data/raw/1. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.txt")
     user_prompt = {"role": "user",
                    "content": "Here is the markdown content \n```markdown\n" + prompt_content + "\n```"}
-    
+    #pack the prompt into one, may causing the ai read it as a json input data
     buddy = Assistant(json.dumps([system_prompt,
                                   user_prompt]))
     atexit.register(buddy.delete)
     
+    #Maybe not pass the buddy argument as it's not theri when calling
     vs = buddy.client.vector_stores.create()
     def delete_vector_store(buddy):
         buddy.client.vector_stores.delete(vector_store_id=vs.id)
     atexit.register(delete_vector_store)
+
+    #def delete_vector_store():
+    #    buddy.client.vector_stores.delete(vector_store_id=vs.id)
+
+    #atexit.register(delete_vector_store)
+
     
     file_paths = ["data/raw/1. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2).pptx"]
     file_streams = [open(p, 'rb') for p in file_paths]

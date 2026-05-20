@@ -1,0 +1,448 @@
+{
+    "updates": [
+        {
+            "id": 1,
+            "description": "End-to-end process automation with minimal manual intervention."
+        },
+        {
+            "id": 2,
+            "description": "Automated, AI-powered data pipelines\u2014from acquisition to dissemination\u2014reduce manual effort, increase speed and quality, and enable real-time responsiveness across all stages of the statistical business process."
+        },
+        {
+            "id": 3,
+            "description": "Employee input focuses on higher value work, innovation, and interpretation, not execution."
+        },
+        {
+            "id": 4,
+            "description": "Surveys as a last resort, not first response."
+        },
+        {
+            "id": 5,
+            "description": "Exploiting existing data holdings is the first response for new/existing data needs."
+        },
+        {
+            "id": 6,
+            "description": "Admin data and alternative data is the second response for new/existing data needs."
+        },
+        {
+            "id": 7,
+            "description": "Surveys are only used if necessary and are optimized dynamically based on cost-benefit analysis."
+        },
+        {
+            "id": 8,
+            "description": "Designing, rendering and fielding a questionnaire is done using AI and takes no more than X time."
+        },
+        {
+            "id": 9,
+            "description": "Searchable, usable, actionable data assets."
+        },
+        {
+            "id": 10,
+            "description": "All data and metadata are standardized, richly described, and machine-actionable\u2014built for interoperability and reuse across tools, systems, and organizations."
+        },
+        {
+            "id": 11,
+            "description": "Discovery, understanding, and use are seamless for all types of users\u2014whether human or machine\u2014through APIs, metadata tagging, and open formats."
+        },
+        {
+            "id": 12,
+            "description": "Our data ecosystem empowers internal and external users to find, consume, and transform data into new insights, products, and services."
+        },
+        {
+            "id": 13,
+            "description": "Modular, reusable architecture and tools & services."
+        },
+        {
+            "id": 14,
+            "description": "The organization has modular tools and microservices to increase agility, maintainability, and reuse across programs."
+        },
+        {
+            "id": 15,
+            "description": "Business areas are empowered to prototype and develop smart solutions using supported self-service environments, with guardrails and shared libraries."
+        },
+        {
+            "id": 16,
+            "description": "Open-source tools are the default, and employees openly share their code."
+        },
+        {
+            "id": 17,
+            "description": "A modern, insight-driven workforce."
+        },
+        {
+            "id": 18,
+            "description": "Analysts and researchers focus on value-add insight, not operational tasks\u2014spending more time understanding context, building relationships, and generating actionable analysis."
+        },
+        {
+            "id": 19,
+            "description": "Teams are curious, agile, and versatile\u2014fluent in open-source tools, data science methods, and collaborative problem-solving across disciplines."
+        },
+        {
+            "id": 20,
+            "description": "Analysts work in multidisciplinary teams that integrate design, technology, and subject matter expertise to deliver user-centered solutions."
+        },
+        {
+            "id": 21,
+            "description": "Decisions are made by clearly designated owners\u2014not by group consensus\u2014but they are communicated and understood by those affected."
+        },
+        {
+            "id": 22,
+            "description": "By 2030, Process (GSBPM 5.0) will operate infrastructure leveraging AI, ML, and advanced technologies to provide programs with rules for their Data Pipelines."
+        },
+        {
+            "id": 23,
+            "description": "Resilient, auditable, and adaptive workflows will produce timely, trustworthy, and reproducible statistical outputs across all subject-matter areas."
+        },
+        {
+            "id": 24,
+            "description": "GSBPM 5 sub-processes are orchestrated in modular, event-driven frameworks that are automated and version-controlled by design."
+        },
+        {
+            "id": 25,
+            "description": "Analysts are no longer required to manually intervene, clean or manipulate files."
+        },
+        {
+            "id": 26,
+            "description": "AI-enabled modules handle 50% of manual interventions for activities such as classification, edits and imputation for administrative and survey data."
+        },
+        {
+            "id": 27,
+            "description": "Every processing pipeline is auditable, reproducible, and deployable across subject-matter domains."
+        },
+        {
+            "id": 28,
+            "description": "Meta-data driven and standardization are default by design."
+        },
+        {
+            "id": 29,
+            "description": "Data processing turnaround time has reduced by 50% across survey programs through automation and orchestration."
+        },
+        {
+            "id": 30,
+            "description": "Microservices are used to manage each processing function (e.g. integrate data, edit, derive new variables, aggregate), with clear input/output standards across surveys and subject-matter areas."
+        },
+        {
+            "id": 31,
+            "description": "Culture change: emphasis on the need for the right people to handle technical aspects and the importance of standardizing data formats."
+        },
+        {
+            "id": 32,
+            "description": "Data integration: focus on facilitating integration, with architecture and FAIR principles playing a key role."
+        },
+        {
+            "id": 33,
+            "description": "Self-service platforms and tools should make data pipelines transparent and user-friendly."
+        },
+        {
+            "id": 34,
+            "description": "Create role-based training for orchestration and automation (pipeline creation, usage and maintenance)."
+        },
+        {
+            "id": 35,
+            "description": "Embed knowledge-sharing practices (community of practice)."
+        },
+        {
+            "id": 36,
+            "description": "Redefine roles and responsibilities: centralized versus decentralized systems, modular approaches, and standardization."
+        },
+        {
+            "id": 37,
+            "description": "Agile governance: current governance structure is rigid, risk averse and slow for iterative digital innovation."
+        },
+        {
+            "id": 38,
+            "description": "Real-time access to validate data supports faster insights."
+        },
+        {
+            "id": 39,
+            "description": "Automated, reusable components reduce duplication."
+        },
+        {
+            "id": 40,
+            "description": "Version-controlled workflows provide traceability."
+        },
+        {
+            "id": 41,
+            "description": "Uniformity in data processing enhances reliability."
+        },
+        {
+            "id": 42,
+            "description": "Reproducible pipelines reduce process errors and streamline analytical operations."
+        },
+        {
+            "id": 43,
+            "description": "Transparent and systematic quality monitoring boosts data user confidence."
+        },
+        {
+            "id": 44,
+            "description": "By 2030, the Analyse (GSBPM 6.0) process will be modernized where analysts focus on delivering high-value outputs by leveraging their analytical expertise and subject matter knowledge."
+        },
+        {
+            "id": 45,
+            "description": "The Analyse process will use orchestration and embed technology (AI and automation) throughout."
+        },
+        {
+            "id": 46,
+            "description": "Support an event-driven creation of outputs, validation, user-friendly and robust disclosure control, and preparation of tables and reports for dissemination in a timely way."
+        },
+        {
+            "id": 47,
+            "description": "Analysts focus on value-added outputs such as interpretation and contextualization."
+        },
+        {
+            "id": 48,
+            "description": "Reproducible, standardized analytical pipelines are the norm."
+        },
+        {
+            "id": 49,
+            "description": "Publication preparation time is reduced by 50% leveraging AI and automation to facilitate output creation (e.g. Daily text) or validation."
+        },
+        {
+            "id": 50,
+            "description": "Disclosure control outputs turnaround time is reduced by 50%."
+        },
+        {
+            "id": 51,
+            "description": "FAIR-aligned data discovery platform enables better access and reuse."
+        },
+        {
+            "id": 52,
+            "description": "A searchable, metadata-driven data discovery platform is available to all analysts, enabling them to easily locate and access appropriate data sources."
+        },
+        {
+            "id": 53,
+            "description": "Implement AI-supported pipelines for auto-generated descriptive and exploratory analysis including daily write-ups, dashboards, and standardized analytical products."
+        },
+        {
+            "id": 54,
+            "description": "Build infrastructure and tooling that enable real-time analytical workflows with intelligent validation and anomaly detection."
+        },
+        {
+            "id": 55,
+            "description": "Use metadata repositories and FAIR standards for optimal integration into analytical pipelines."
+        },
+        {
+            "id": 56,
+            "description": "Standardize pipelines with embedded validation rules."
+        },
+        {
+            "id": 57,
+            "description": "Implement AI frameworks and ethical review processes to ensure human oversight, fairness, and trust in automated analysis."
+        },
+        {
+            "id": 58,
+            "description": "Redesign the Analysis 101 curriculum to proactively meet modern analytical profiles."
+        },
+        {
+            "id": 59,
+            "description": "Develop a unified, searchable metadata-supported platform to find and access the best available data for analytical questions."
+        },
+        {
+            "id": 60,
+            "description": "Orchestrated and automated workflows accelerate end-to-end analysis providing relevant outputs faster."
+        },
+        {
+            "id": 61,
+            "description": "Built-in validation, traceability, and cross-disciplinary input improve analytical robustness."
+        },
+        {
+            "id": 62,
+            "description": "FAIR-aligned data platforms make it easier to find, access, and use relevant data sources for confrontation."
+        },
+        {
+            "id": 63,
+            "description": "Automation and standardization reduce manual labour and operational overhead."
+        },
+        {
+            "id": 64,
+            "description": "Integrated workflows foster innovation, cross-functional teamwork, and faster uptake of new methods."
+        },
+        {
+            "id": 65,
+            "description": "Increased reuse and cross-functional application of existing data store."
+        },
+        {
+            "id": 66,
+            "description": "Business Development is defined as a program where employees outside of IT (programs, methodology, operations) are enabled to develop solutions using approved low-code/no-code platforms and/or approved sets of tools within IT supported, security assessed, AI-enabled business platforms."
+        },
+        {
+            "id": 67,
+            "description": "\"Business Development\" replaces the concept of \"Citizen Development\" (TBS)."
+        },
+        {
+            "id": 68,
+            "description": "Business Development is bound to the same security postures and digital guardrails as the usual software development \u2013 business development life cycle."
+        },
+        {
+            "id": 69,
+            "description": "Business Development is an important and necessary role for the Agency."
+        },
+        {
+            "id": 70,
+            "description": "Primary Data Collection business development: prototyping and exploration with business utilities."
+        },
+        {
+            "id": 71,
+            "description": "Once reached the operationalization stage, use corporate development to ensure operational rigor, repeatability, stability and support."
+        },
+        {
+            "id": 72,
+            "description": "Primary Data Collection business development includes paradata research and analysis."
+        },
+        {
+            "id": 73,
+            "description": "Primary Data Collection business development includes business process automation through established platforms - PowerApps, RPA etc."
+        },
+        {
+            "id": 74,
+            "description": "Primary Data Collection business development includes AI-enabled solutions within corporate AI environments/platforms/tools."
+        },
+        {
+            "id": 75,
+            "description": "Secondary Data Collection (alternative data sources) business development serves as entry point for processing and analytical pipelines."
+        },
+        {
+            "id": 76,
+            "description": "Business development for secondary data collection will follow patterns established for processing/analysis \u2013 including AI enablement."
+        },
+        {
+            "id": 77,
+            "description": "Develop data cleaning and transformation tools that handle inconsistencies across different data formats and sources."
+        },
+        {
+            "id": 78,
+            "description": "Leverage scalable computing resources that can quickly process large datasets."
+        },
+        {
+            "id": 79,
+            "description": "Provide tools for rapid iteration of models."
+        },
+        {
+            "id": 80,
+            "description": "Develop AI models for classification and other purposes and perform advanced analytics."
+        },
+        {
+            "id": 81,
+            "description": "Develop methodologic algorithms and statistical models."
+        },
+        {
+            "id": 82,
+            "description": "Support high code use cases and machine learning."
+        },
+        {
+            "id": 83,
+            "description": "Build and deploy data analytics solutions for oneself or others, following the Standard on Managing Data Analytics Solutions."
+        },
+        {
+            "id": 84,
+            "description": "Develop code, libraries, applications, etc. related to processing, modeling, visualization and analysis in statistical and administrative programs."
+        },
+        {
+            "id": 85,
+            "description": "Provide a low-code/no-code platform with intuitive interfaces for data manipulation, orchestration and visualization."
+        },
+        {
+            "id": 86,
+            "description": "Provide modern R and Python development tools like RStudio and VS Code that allow debugging, unit testing, etc. to improve code quality and productivity."
+        },
+        {
+            "id": 87,
+            "description": "Integrate data from all sources and generate accurate, timely reports, to provide reliable insights that guide strategic decisions."
+        },
+        {
+            "id": 88,
+            "description": "Run and support applications and pipeline built by others."
+        },
+        {
+            "id": 89,
+            "description": "Provide data integration tools that can connect to both legacy and modern systems."
+        },
+        {
+            "id": 90,
+            "description": "Create automated reporting pipelines that update data visualizations and dashboards in real-time."
+        },
+        {
+            "id": 91,
+            "description": "Provide capability to perform manual edits."
+        },
+        {
+            "id": 92,
+            "description": "Mostly done by IT: develop corporate solutions and enterprise grade platforms that are monitored, maintained, and supported through SLAs."
+        },
+        {
+            "id": 93,
+            "description": "Mostly done by IT: create enabling infrastructure (networking, AVDs, security monitoring, etc.)."
+        },
+        {
+            "id": 94,
+            "description": "Mostly done by IT: create web applications or highly complex systems/data analytics solutions using cloud technologies and cloud native platforms."
+        },
+        {
+            "id": 95,
+            "description": "Mostly done by IT: create applications or systems that impact multiple business areas, including mission critical programs."
+        },
+        {
+            "id": 96,
+            "description": "Mostly done by IT: follow corporate guidelines, policies, directives and SDLC practices."
+        },
+        {
+            "id": 97,
+            "description": "Mostly done by IT: follow SA&A process."
+        },
+        {
+            "id": 98,
+            "description": "Business development: develop data analytics solutions (business logic) within IT supported, security assessed, AI-enabled production platforms (the Zone, Fabric) while following the Standard on Managing Data Analytics Solutions."
+        },
+        {
+            "id": 99,
+            "description": "Business development: create data pipelines, R/Python scripts, modules and packages, visualizations and dashboards including use of AI methods."
+        },
+        {
+            "id": 100,
+            "description": "Business development: create data edit/capture interfaces within security assessed platforms to allow for manual edits and overrides."
+        },
+        {
+            "id": 101,
+            "description": "Business development: business process automation through established platforms - PowerApps, RPA etc."
+        },
+        {
+            "id": 102,
+            "description": "Business development: only allow access to what the user needs access to."
+        },
+        {
+            "id": 103,
+            "description": "Business development: follow corporate guidelines, policies, directives and Statistical Reproducible Framework practices - Data Analytics Solution development process."
+        },
+        {
+            "id": 104,
+            "description": "Preparation of dissemination outputs: dissemination vision calls for a set of rules what dissemination outputs should be created for the website \u2013 using corporate tools."
+        },
+        {
+            "id": 105,
+            "description": "Production of dissemination outputs will be the last step in the data pipelines."
+        },
+        {
+            "id": 106,
+            "description": "Programs/operations will use activity groups for processing/analysis, including retrieval of external data for confrontation."
+        },
+        {
+            "id": 107,
+            "description": "Processing/analysis activity groups will also be used to produce custom tabulations - design, certification, and production."
+        },
+        {
+            "id": 108,
+            "description": "PUMP creation will be done with the use of corporate tools and business development will use processing/analysis activity groups if custom PUMF production is required."
+        },
+        {
+            "id": 109,
+            "description": "Programs/operations will use corporate platform/toolkits to create and post outputs on the website \u2013 e.g., Drupal toolkit to create and post pages; data visualization platforms such as PowerBI."
+        },
+        {
+            "id": 110,
+            "description": "Disseminating outputs for AI consumption: use corporate platforms to publish statistical data in format expected by AI bots/search engines."
+        },
+        {
+            "id": 111,
+            "description": "Mission-critical dissemination processes \u2013 e.g., posting market moving data using embargo \u2013 will be done through platforms developed and maintained by IT."
+        }
+    ]
+}
