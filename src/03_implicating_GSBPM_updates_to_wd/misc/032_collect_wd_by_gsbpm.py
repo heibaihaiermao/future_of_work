@@ -6,7 +6,8 @@ with open("all.json", 'r', encoding="utf8") as fil:
 
 id_getter = itemgetter("id")
 
-key = list(data[0].keys())[-1]
+ #find the first dectionaly element of data, get the keys of the first element(dictionary), then find the last key from that dict
+key = list(data[0].keys())[-1] 
 phases_getter = itemgetter(key)
 #phases_getter = itemgetter('implicated phases and sub-processes')
 get_wd_ids = lambda x: (x['title'],
