@@ -9,7 +9,6 @@ INPUTS:
             - id
             - title
             - updated description
-
     2. Work Descriptions (Step 3 output)(sample input file name: all file under /prompt_construction)
         - contains:
             - title
