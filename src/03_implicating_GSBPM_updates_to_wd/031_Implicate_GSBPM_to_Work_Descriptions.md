@@ -10,7 +10,8 @@ System Prompt (Instructions):
  4) ["Data"] JSON-structured list of work-descriptions.
 
 
-User Prompt (Messages):
- - Providing the updates to GSBPM elements, one at a time,
+User Prompt:
+    Process all GSBPM phases and sub-processes together.
+    Identify which work descriptions are impacted by each element.
 
 Output: List of GSBPM-updates, each of which have "implicated" work-descriptions.

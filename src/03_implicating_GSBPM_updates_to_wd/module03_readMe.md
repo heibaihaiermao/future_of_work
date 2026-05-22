@@ -4,12 +4,12 @@ PURPOSE:
     Identify which work descriptions (roles) are impacted by updated GSBPM elements.
 
 INPUTS:
+
     1. Updated GSBPM (Step 2 output) (sample file name:2025-10-01_-_direct_mapping_-_GSBPM_updates_to_work-descriptions_-_prompt.py)
         - contains:
-            - id
+            - id Raw updates (Step 1 output)
             - title
             - updated description
-
     2. Work Descriptions (Step 3 output)(sample input file name: all file under /prompt_construction)
         - contains:
             - title
@@ -104,6 +104,7 @@ INPUT (from AI step):
     ]
 
 OUTPUT (after code step):
+    wd_to_id.json:
 
     {
         "2": ["Metadata Production Officer"],
