@@ -5,8 +5,8 @@ from openai import AzureOpenAI
 # CONFIGURATION
 # =========================
 
-API_KEY = "1vvQH8buM2Dd9ySuIESYQsZRPZiSdB5mrPcEMoBG4mnbN93PyPn4JQQJ99CEACREanaXJ3w3AAAAACOGFwGA"
-ENDPOINT = "https://fow-foundry-ming.cognitiveservices.azure.com/"
+API_KEY = ""
+ENDPOINT = "/"
 MODEL_NAME = "gpt-4.1"
 
 INPUT_GSBPM_FILE = "GSPBM_new.json"
