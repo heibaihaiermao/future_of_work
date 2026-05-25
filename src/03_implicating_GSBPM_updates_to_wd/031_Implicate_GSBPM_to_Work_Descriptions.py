@@ -14,10 +14,8 @@ INPUT_WD_FILE = "jobDescriptions.json"
 OUTPUT_FILE = "all.json"
 
 
-# =========================
-# LOAD GSBPM
-# =========================
 
+# LOAD GSBPM
 def load_and_clean_gsbpm(path):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -29,16 +27,14 @@ def load_and_clean_gsbpm(path):
         cleaned.append({
             "id": item.get("id"),
             "title": item.get("text"),
-            "desc": (item.get("updated description") or "")[:300]  # 🔥 limit size
+            "desc": (item.get("updated description") or "")[:300]  # limit size
         })
 
     return cleaned
 
 
-# =========================
-# LOAD & FLATTEN WD
-# =========================
 
+# LOAD & FLATTEN WD
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -55,9 +51,9 @@ def extract_positions(data):
     return all_positions
 
 
-# =========================
+
 # NORMALIZE WD
-# =========================
+
 
 def normalize_wd(wd):
     content_parts = []
@@ -65,7 +61,7 @@ def normalize_wd(wd):
     title = wd.get("Position Title") or "UNKNOWN"
 
     if title == "UNKNOWN":
-        print("⚠️ WD missing title:", wd.keys())
+        print(" WD missing title:", wd.keys())
 
     if "Key Activities" in wd:
         content_parts.append(" ".join(wd["Key Activities"]))
@@ -78,13 +74,13 @@ def normalize_wd(wd):
 
     return {
         "title": title,
-        "content": " ".join(content_parts)[:1500]  # 🔥 limit WD size
+        "content": " ".join(content_parts)[:1500]  #  limit WD size
     }
 
 
-# =========================
+
 # PROMPT
-# =========================
+
 
 SYSTEM_PROMPT = """
 TASK:
@@ -94,6 +90,7 @@ RULES:
 - You MUST return at least 1 ID
 - Do NOT return empty []
 - ONLY return valid JSON
+- DO NOT ASK FOLLOW UP QUESTION
 
 FORMAT:
 [
@@ -107,10 +104,8 @@ FORMAT:
 """
 
 
-# =========================
-# LLM CALL
-# =========================
 
+# LLM CALL
 def run_llm(system_prompt, user_prompt):
     client = AzureOpenAI(
         api_key=API_KEY,
@@ -139,17 +134,15 @@ def clean_llm_output(text):
     return text.strip()
 
 
-# =========================
-# MAIN
-# =========================
 
+# MAIN
 def main():
     print("Loading data...")
 
     gsbpm = load_and_clean_gsbpm(INPUT_GSBPM_FILE)
 
     wd_raw = load_json(INPUT_WD_FILE)
-    wd_raw = extract_positions(wd_raw)   # ✅ CRITICAL FIX
+    wd_raw = extract_positions(wd_raw)   #  CRITICAL FIX
 
     work_descriptions = [normalize_wd(wd) for wd in wd_raw]
 
@@ -187,7 +180,7 @@ Work Description:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
-    print(f"✅ Done. Output saved to {OUTPUT_FILE}")
+    print(f" Done. Output saved to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
