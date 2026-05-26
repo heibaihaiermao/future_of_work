@@ -1,123 +1,19 @@
-MODULE: Map Updated GSBPM to Work Descriptions
+module 3
+task: based on the imported GSPBM and job descriptions, generated the list of positions that will be impacted by the new updated gspbm
 
-PURPOSE:
-    Identify which work descriptions (roles) are impacted by updated GSBPM elements.
+File necessary to run:
+031_Implicate_GSBPM_to_Work_Descriptions.py
+GSPBM-new.json
+jobDescriptions.json
+03_prompt.txt
 
-INPUTS:
+how to run:
+1.enter into miniforge and cd to this folder
+2.start ur miniforge enviroment
+3.run python 031_Implicate_GSBPM_to_Work_Descriptions.py 
+note*: make sure u have two input files in the same folder
+note*: also, this might takes a few mnutes to run
 
-    1. Updated GSBPM (Step 2 output) (sample file name:2025-10-01_-_direct_mapping_-_GSBPM_updates_to_work-descriptions_-_prompt.py)
-        - contains:
-            - id Raw updates (Step 1 output)
-            - title
-            - updated description
-    2. Work Descriptions (Step 3 output)(sample input file name: all file under /prompt_construction)
-        - contains:
-            - title
-            - responsibilities / tasks
 
---------------------------------------------------
-
-STEP 1: AI STEP (Reasoning)
-
-    FUNCTION:
-        - Compare updated GSBPM elements with work descriptions
-        - Determine which roles are affected by which GSBPM elements
-
-    PROCESS:
-        for each GSBPM element:
-            for each work description:
-                evaluate impact
-                if impacted:
-                    record (work description → GSBPM id)
-
-    OUTPUT:
-        file: all.json
-
-    FORMAT:
-        [
-            {
-                "title": "Work Description Name",
-                "implicated phases and sub-processes": [
-                    { "id": 2 },
-                    { "id": 2.1 }
-                ]
-            }
-        ]
-
---------------------------------------------------
-
-STEP 2: CODE STEP (Data Transformation)
-
-    FILE:
-        collect_by_phase.py
-
-    FUNCTION:
-        - Reorganize mapping for downstream use
-
-    INPUT:
-        all.json
-
-    TRANSFORMATION:
-        from:
-            Work Description → [GSBPM IDs]
-
-        to:
-            GSBPM ID → [Work Descriptions]
-
-    PROCESS:
-        build dictionary:
-            wd_ids = {
-                WD_title: [id1, id2, ...]
-            }
-
-        for each id:
-            find all WD_title containing that id
-
-    OUTPUT:
-        {
-            "2": ["Metadata Production Officer"],
-            "2.1": ["Metadata Production Officer"],
-            "3": ["Data Analyst"]
-        }
-
---------------------------------------------------
-
-EXAMPLE (END-TO-END)
-
-INPUT (from AI step):
-    all.json
-
-    [
-        {
-            "title": "Metadata Production Officer",
-            "implicated phases and sub-processes": [
-                { "id": 2 },
-                { "id": 2.1 }
-            ]
-        },
-        {
-            "title": "Data Analyst",
-            "implicated phases and sub-processes": [
-                { "id": 3 }
-            ]
-        }
-    ]
-
-OUTPUT (after code step):
-    wd_to_id.json:
-
-    {
-        "2": ["Metadata Production Officer"],
-        "2.1": ["Metadata Production Officer"],
-        "3": ["Data Analyst"]
-    }
-
---------------------------------------------------
-
-SUMMARY:
-
-    Step 2 output + Step 3 output
-        → AI reasoning
-        → all.json
-        → Python script
-        → grouped mapping (GSBPM → roles)
+output:
+all.json, an example has been generated and should be in the same directory
