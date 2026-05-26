@@ -28,23 +28,25 @@ OUTPUT_FILE = "all.json"
 # LOAD GSBPM
 # =========================
 
-def load_and_clean_gsbpm(path):
+def load_gsbpm(path):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     phases = data.get("Phases and sub-proceeses", [])
 
-    return [
-        {
-            "id": item.get("id"),
-            "title": item.get("text"),
-            "description": item.get("updated description")
-        }
-        for item in phases
-    ]
+    cleaned = []
+    for p in phases:
+        cleaned.append({
+            "id": p.get("id"),
+            "title": p.get("text"),
+            "description": p.get("updated description")
+        })
+
+    return cleaned
+
 
 # =========================
-# LOAD RAW WORK DESCRIPTIONS ✅ (NO NORMALIZATION)
+# LOAD WORK DESCRIPTIONS
 # =========================
 
 def load_wd(path):
@@ -52,52 +54,60 @@ def load_wd(path):
         data = json.load(f)
 
     all_positions = []
-
     for group in data:
         for pos in group.get("Positions", []):
-            all_positions.append(pos)  # RAW JSON
+            all_positions.append({
+                "title": pos.get("Position Title"),
+                "classification": pos.get("Classification"),
+                "content": pos  # keep full structure (LLM can use it)
+            })
 
     return all_positions
 
 
-# PROMPT  FIXED
+# =========================
+# SYSTEM PROMPT (YOUR DESIGN FIXED)
+# =========================
 
 SYSTEM_PROMPT = """
 TASK:
+Map ONE GSBPM phase (or sub-process) to all directly implicated work-descriptions.
 
-direct update to wd mapping
-
-The task is to identify work-descriptions that are directly implicated with specific phases of the GSBPM.  
-
-The context for the task is the GSBPM. Understanding necessary for this task is embedded in the following JSON content
-
-The work-descriptions describe roles at an NSO. I will prompt you for each GSPBM phase and sub-phase, and you will then respond with a JSON object. The JSON response will list the "id", "title", and "description" of the GSBPM phase or sub-process, then will list implicated work-descriptions in an attribute called "implicated work-descriptions". Each element of the "implicated work-description" list will be a "work-description" object, that has the following attributes in the following order: "justification", "title", "id". In the "justification" attribute, begin by explaining what is the implicating aspect of the phase or sub-process, then explain what is needed for that element, then justify how the identified work description fills that need, ideally quoting from the work-description content.
 RULES:
 - Include ALL relevant work-descriptions
+- Each work-description MUST include:
+  - "justification"
+  - "title"
+  - "classification"
+- MUST NOT output null classification
+- MUST use classification EXACTLY as provided
 - DO NOT invent roles
 - ONLY use provided work-descriptions
-- ONLY output valid JSON (no text outside JSON)
+- ONLY output valid JSON
+- NO text outside JSON
 
-The JSON schema of the response is:
-```{json schema}
-[{"id": <GSBPM id>,
-  "title": <title of GSBPM phase/sub-process>,
-  "description": <quote of GSBPM JSON of phase/sub-process description>,
-  "implicated work-descriptions: [
-        {"justification": <explanation of implicating aspect, articulation of needs, justification of particular work-description",
-        "title": <title of work-description>,
-        "classification": <classification of role>},
-        <additional implicated work descriptions> ...]},
-<additional GSBPM phases and sub-processes>]
-
-JUSTIFICATION RULE:
-- Start with what makes the phase implicating
-- Explain what capability/need is required
-- Quote or reference WD content to justify
+OUTPUT FORMAT:
+[
+  {
+    "id": "<GSBPM id>",
+    "title": "<GSBPM title>",
+    "description": "<GSBPM description>",
+    "implicated work-descriptions": [
+      {
+        "justification": "...",
+        "title": "...",
+        "classification": "EC-02"
+      }
+    ]
+  }
+]
 """
 
 
+# =========================
 # LLM CALL
+# =========================
+
 def run_llm(system_prompt, user_prompt):
     client = AzureOpenAI(
         api_key=API_KEY,
@@ -128,20 +138,25 @@ def clean_llm_output(text):
     return text.strip()
 
 
-# MAIN  PHASE-FIRST
+# =========================
+# MAIN
+# =========================
 
 def main():
     print("Loading data...")
 
-    gsbpm = load_and_clean_gsbpm(INPUT_GSBPM_FILE)
+    gsbpm = load_gsbpm(INPUT_GSBPM_FILE)
     work_descriptions = load_wd(INPUT_WD_FILE)
 
-    print(f"GSBPM items: {len(gsbpm)}")
+    print(f"GSBPM elements: {len(gsbpm)}")
     print(f"Work descriptions: {len(work_descriptions)}")
 
     results = []
 
-    # LOOP THROUGH PHASES 
+    # =========================
+    # LOOP THROUGH GSBPM PHASES
+    # =========================
+
     for phase in gsbpm:
         print(f"Processing phase: {phase['id']} - {phase['title']}")
 
@@ -149,7 +164,7 @@ def main():
 GSBPM Phase:
 {json.dumps(phase, indent=2)}
 
-Work Descriptions (RAW JSON):
+Work Descriptions:
 {json.dumps(work_descriptions, indent=2)}
 """
 
@@ -162,14 +177,17 @@ Work Descriptions (RAW JSON):
             if isinstance(parsed, list):
                 results.extend(parsed)
             else:
-                print(" Unexpected output format:")
+                print(" Unexpected format:")
                 print(parsed)
 
         except Exception:
             print(" Failed parsing response:")
             print(output_text)
 
-    # SAVE OUTPUT  NO GROUPING STEP
+    # =========================
+    # SAVE FINAL OUTPUT
+    # =========================
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
