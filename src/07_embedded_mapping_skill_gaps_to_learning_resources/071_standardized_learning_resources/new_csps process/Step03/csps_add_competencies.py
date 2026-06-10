@@ -38,7 +38,7 @@ with open("csps_raw.json", "r", encoding="utf-8") as f:
 # Map raw by Identifier
 raw_map = {c["Identifier"]: c for c in raw_data}
 
-# ✅ Load indicator map
+#  Load indicator map
 with open("indicator_map.json", "r", encoding="utf-8") as f:
     INDICATOR_MAP = json.load(f)
 
@@ -85,7 +85,7 @@ COMPETENCIES = {
     }
 }
 
-# ✅ fallback indicators
+#  fallback indicators
 GENERIC_INDICATORS = [
     "Demonstrate basic understanding of the competency.",
     "Apply concepts in workplace scenarios.",
@@ -94,9 +94,9 @@ GENERIC_INDICATORS = [
 ]
 
 
-# -----------------------------
+
 # BUILD TEXT
-# -----------------------------
+
 def build_text(clean, raw):
     title = clean.get("title_en", "")
     desc = clean.get("description_en", "")
@@ -108,9 +108,9 @@ def build_text(clean, raw):
     return text, title.lower(), str(topics).lower()
 
 
-# -----------------------------
+
 # PROFICIENCY DETECTION
-# -----------------------------
+
 def detect_proficiency(text):
     if any(w in text for w in ["lead", "director", "executive"]):
         return "Lead"
@@ -122,9 +122,9 @@ def detect_proficiency(text):
         return "Foundational"
 
 
-# -----------------------------
+
 # COMPETENCY MATCHING
-# -----------------------------
+
 def match_competencies(text, title_text, topic_text):
     scores = defaultdict(int)
 

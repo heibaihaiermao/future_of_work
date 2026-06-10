@@ -34,8 +34,8 @@ if __name__ == "__main__":
     # Init. output element
     wd_summary = defaultdict(list)
     
-    for update_i in gsbpm_updates:
-        update_elements = get_common_update_elements(update_i)
+    for update_i in gsbpm_updates: # update_i look through input 
+        update_elements = get_common_update_elements(update_i) 
     
         for wd_i in update_i["implicated work-descriptions"]:
     
