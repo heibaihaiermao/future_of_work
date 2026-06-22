@@ -127,6 +127,7 @@ with sync_playwright() as p:
         url = clean_url(row.get("link\t"))
 
         if not is_valid_url(url):
+            print(f"[{idx}] Invalid URL: {url}")
             continue
 
         print(f"[{idx}] Scraping: {url}")
@@ -143,7 +144,8 @@ with sync_playwright() as p:
             clean_text = extract_main_content(html)
 
             if not is_valid_content(clean_text):
-                print(" -> Skipped (low-quality content)")
+                print(f"[{idx}] Skipped (low-quality content)")
+                print(clean_text[:300])
                 continue
 
             structure = extract_structure(html)

@@ -1,0 +1,581 @@
+[
+  {
+    "title": "OpenClassrooms – Apprenez les bases du langage Python",
+    "description": "Ce cours d’introduction permet aux débutants d’acquérir les bases du langage Python. Il couvre l’écriture de programmes simples, l’utilisation des variables, types de données, listes, dictionnaires, conditions, boucles et fonctions, ainsi qu’une initiation à l’importation de bibliothèques et à l’extraction de données du web pour automatiser des tâches simples.",
+    "duration": "6 heures",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to perform structured tasks with data and automation tools. At the foundational level, it includes using core programming constructs, basic data structures, and common libraries in an open-source language such as Python.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, clean, transform, and prepare data for analysis or operational use. At the foundational level, it includes working with common file formats, applying simple transformations, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing Initiative and Being Action Oriented is the ability to take practical steps to complete work efficiently, adapt to changing circumstances, and break tasks into manageable components. In this context, the course supports the use of Python to automate repetitive tasks and improve efficiency in day-to-day work.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tutoriel Python Officiel (FR)",
+    "description": "Ce tutoriel officiel en français présente les concepts fondamentaux du langage Python pour des personnes ayant déjà une base en programmation. Il couvre l’utilisation de l’interpréteur, la syntaxe de base, les structures de données, le contrôle de flux, les fonctions, les modules, les entrées et sorties, la gestion des erreurs et exceptions, les classes, la bibliothèque standard ainsi que les environnements virtuels et les paquets.",
+    "duration": "12 à 20 heures",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to perform computational tasks. At the foundational level, it includes using core programming constructs, working with common data structures, and applying a programming language such as Python to basic data manipulation and analysis activities.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and maintain code in a structured way that supports reuse and collaboration. At the foundational level, it includes understanding the purpose of version control and the importance of clear code documentation and consistent project structure.",
+        "indicators": [
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication is the ability to convey technical concepts clearly and appropriately for the intended audience. At the foundational level, it includes using correct technical terminology and explaining programming-related concepts in a clear and accessible manner.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Introduction à Python (YouTube)",
+    "description": "Ce cours d’introduction en français présente les fondements du langage Python, y compris l’installation de l’interpréteur, l’écriture de programmes simples, les variables, les types de données, les opérateurs, les structures de contrôle, les fonctions, la modularité, la gestion des erreurs, les structures de données natives et la lecture et l’écriture de fichiers. Il permet aux apprenants de développer une base pratique en programmation pour des tâches simples de traitement et de manipulation de données.",
+    "duration": "10 à 15 heures",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "La programmation correspond à la capacité d’écrire, de comprendre et de corriger du code pour exécuter des tâches simples de traitement de données et d’automatisation. À ce niveau, elle comprend l’utilisation des structures de base du langage, des fonctions, des structures de données courantes et d’un langage open source comme Python.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Le traitement des données consiste à charger, transformer et préparer des données dans des formats courants afin de les rendre utilisables pour l’analyse. À ce niveau, il comprend la lecture de fichiers, l’application de transformations simples et la compréhension des étapes de base du cycle de vie des données.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "La gestion du code renvoie à la compréhension des pratiques de base permettant d’organiser, documenter et maintenir du code dans un contexte de développement. À ce niveau, elle inclut la structuration élémentaire du code et la compréhension du rôle des outils de gestion de versions dans le travail collaboratif.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Requêtez une base de données avec SQL",
+    "description": "Ce cours d’introduction au SQL permet d’acquérir les bases de la modélisation relationnelle et de l’interrogation de bases de données. Les participantes et participants apprennent à structurer des données en tables liées, à identifier les clés primaires et étrangères, puis à écrire des requêtes SQL pour extraire, filtrer, trier, agréger et combiner des données utiles à l’analyse.",
+    "duration": "12 heures",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, prepare, transform, and organize data so it can be used reliably for analysis. At the foundational level, this includes working with common data sources, applying basic transformations, deriving useful variables, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to express data-related concepts and results clearly using appropriate terminology. At the foundational level, this includes using correct data language and communicating analytical outputs in a clear and understandable way.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems logically, identify relevant relationships, and develop sound conclusions based on available information. At the foundational level, this includes recognizing connections, framing questions clearly, and applying structured reasoning to resolve straightforward analytical problems.",
+        "indicators": [
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SQLBolt Français",
+    "description": "Ce tutoriel interactif d’introduction à SQL permet d’acquérir les bases des bases de données relationnelles et de la rédaction de requêtes pour interroger, manipuler et transformer des données. Le cours met l’accent sur la compréhension de la structure des tables, des schémas de données et de l’utilisation de SQL pour répondre à des questions simples à partir de données tabulaires, au moyen d’exercices pratiques réalisés dans le navigateur.",
+    "duration": "1 à 3 heures",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "La compétence en traitement des données consiste à charger, préparer et transformer des données de façon structurée afin de les rendre utilisables pour l’analyse. Dans ce contexte, elle comprend la compréhension des structures tabulaires et l’application de transformations de base sur des données relationnelles.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Cette compétence renvoie à la capacité d’analyser des questions de façon logique, de structurer les problèmes et d’utiliser les données pour formuler des réponses claires. Dans ce cours, elle se manifeste par l’utilisation de requêtes SQL pour répondre à des questions simples et tirer des conclusions à partir de données relationnelles.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Frame questions explicitly for data to inform answers.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "La communication technique consiste à utiliser correctement les concepts et le vocabulaire liés aux données afin d’expliquer clairement l’information et les résultats. Dans ce cours, cela se traduit par l’apprentissage des notions fondamentales des bases de données relationnelles, des tables et des requêtes SQL dans un langage structuré et accessible.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Formation Git (Grafikart)",
+    "description": "Cette formation présente les principes et les usages essentiels de Git pour gérer les versions d’un projet, suivre les modifications du code et collaborer dans un environnement de développement. Elle couvre l’installation, les commits, l’historique, les branches, les fusions, les dépôts distants, les pull requests et l’utilisation d’outils graphiques intégrés aux flux de travail de développement.",
+    "duration": "3h38",
+    "technology": "git",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management consiste à utiliser des pratiques de gestion de versions pour suivre les changements, structurer le travail de développement et soutenir la collaboration dans les projets techniques.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others involves contributing to shared work, exchanging relevant information and supporting collaborative approaches that help teams coordinate tasks and achieve common objectives.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Work with others to clearly define problems and identify suitable solutions."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing Initiative and Being Action Oriented refers to organizing work effectively, adapting to changing circumstances and completing tasks in a structured way to achieve expected results.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Respond to changes in organizational priority, revising own work when conditions change",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pro Git (Français)",
+    "description": "Ce livre officiel en français présente Git de façon complète, des concepts fondamentaux de gestion de version jusqu’aux usages avancés en environnement collaboratif et administré. Il permet d’apprendre à configurer Git, gérer des dépôts, suivre et fusionner des changements, travailler avec des branches et des dépôts distants, utiliser GitHub et GitLab, administrer un serveur Git et comprendre les mécanismes internes de l’outil.",
+    "duration": "25 à 40 heures",
+    "technology": "git",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "La gestion du code consiste à utiliser des pratiques et des outils de contrôle de version pour suivre les changements, structurer le travail collaboratif et maintenir l’intégrité du code dans le temps. Cette compétence comprend la compréhension du rôle de Git, l’exécution des commandes de base de gestion de versions et l’importance de la documentation et de l’organisation cohérente des fichiers.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Travailler efficacement avec les autres consiste à contribuer à un environnement de collaboration en partageant l’information pertinente, en participant à la résolution de problèmes et en soutenant le travail collectif. Dans le contexte de Git, cette compétence se manifeste par l’utilisation de flux de travail distribués, de dépôts distants et de plateformes collaboratives pour coordonner les contributions au sein d’une équipe.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Work with others to clearly define problems and identify suitable solutions.",
+          "Openly share data/findings to support other teams' work."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Réfléchir de manière approfondie consiste à analyser les problèmes de façon structurée, à comprendre les relations entre les éléments d’un système et à choisir des solutions logiques. Dans ce cours, cette compétence est mobilisée pour comprendre les branches, les fusions, les conflits, les protocoles d’accès, ainsi que les mécanismes internes de Git afin d’appliquer des approches adaptées selon le contexte technique.",
+        "indicators": [
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Documentation GitLab",
+    "description": "Cette ressource de référence présente l’utilisation de GitLab dans l’ensemble du cycle DevOps, y compris la gestion du code source avec Git, l’organisation des projets, la planification du travail, l’automatisation CI/CD, la sécurité applicative, le déploiement, la supervision, l’intégration d’outils et l’administration d’instances GitLab auto-hébergées.",
+    "duration": "12 à 20 heures",
+    "technology": "GitLab / DevOps / CI/CD",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use version control practices and basic repository management approaches to support collaborative software development. It includes understanding the purpose of version control, maintaining organized codebases, and applying core commands to track and share changes.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Intermediate",
+        "description": "Project Management is the ability to organize, monitor, and adjust work so that project activities, timelines, risks, and stakeholder expectations are managed effectively. In this context, it includes coordinating delivery workflows, tracking progress, and incorporating feedback throughout the implementation cycle.",
+        "indicators": [
+          "Independently manage smaller, less complex tasks within a project, ensuring deadlines and deliverables are met.",
+          "Monitor the progress of data science projects, ensuring the team stays on track, and adjust when necessary (e.g., reallocating resources or extending deadlines).",
+          "Identify and mitigate moderate risks in data science projects, including technical issues, resource shortages, or data availability concerns.",
+          "Provide regular updates to stakeholders on the status of the project, ensuring clear communication of timelines, issues, and changes.",
+          "Adjust work based on continuous user feedback."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others is the ability to collaborate with team members and stakeholders to support shared objectives. It includes sharing information, contributing to joint work, and helping teams define problems and identify practical solutions in collaborative delivery environments.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Work with others to clearly define problems and identify suitable solutions.",
+          "Openly share data/findings to support other teams' work."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Documentation Microsoft Fabric",
+    "description": "Cette ressource de documentation officielle présente Microsoft Fabric comme une plateforme unifiée de données et d’analytique. Elle permet de comprendre comment concevoir et exploiter des flux complets d’ingestion, de stockage, de transformation, d’analyse et de diffusion des données à l’aide de composants comme OneLake, Lakehouse, Data Factory, SQL, Spark et les outils de déploiement. Elle couvre également la sécurité, la gouvernance, la migration ainsi que les pratiques de gestion du cycle de vie, y compris Git et CI/CD.",
+    "duration": "8 à 12 heures",
+    "technology": "data engineering",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Advanced",
+        "description": "Data Processing is the ability to design, implement, and manage data workflows that prepare information for analysis, reporting, and operational use. This includes building scalable pipelines, structuring metadata, maintaining traceability, and selecting architectures that support secure, interoperable, and efficient data use across the full lifecycle.",
+        "indicators": [
+          "Plan, develop, and monitor data processing steps to ensure outputs meet requirements.",
+          "Design and optimize end-to-end data pipelines that extract, transform, and load (ETL) large datasets efficiently.",
+          "Maintain data lineage/audit trails.",
+          "Design architecture/infrastructure that is simple to use, interoperable, and secure."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Advanced",
+        "description": "Project Management is the ability to organize, coordinate, and deliver complex technical initiatives in a structured and results-oriented manner. In a data environment, it includes aligning stakeholders, planning implementation activities, incorporating user and operational requirements, and ensuring that solutions are tested, accessible, and sustainable throughout deployment.",
+        "indicators": [
+          "Lead coordination between cross-functional teams (data scientists, engineers, business stakeholders) to ensure alignment of project goals and seamless execution.",
+          "Work in a multidisciplinary team to inform problem framing with data.",
+          "Consider data use at the outset of a project.",
+          "Set analysis goals collaboratively with stakeholders.",
+          "Ensure that projects are accessible by design."
+        ]
+      },
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Foundational",
+        "description": "Demonstrating Integrity and Respect is the ability to apply ethical, privacy, security, and accessibility principles in the use of data and digital tools. It involves following established policies and safeguards, recognizing potential risks, and supporting responsible practices that protect people, information, and public trust.",
+        "indicators": [
+          "Adhere to the organization's legal, privacy and ethical frameworks (Privacy Act, Policy on Privacy Protection, etc.) and follow disclosure procedures.",
+          "Identify and proactively flag privacy/security/accessibility implications.",
+          "Ensure privacy/security is set at the right permission levels."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Parcours Microsoft Learn Fabric",
+    "description": "Ce parcours d’apprentissage Microsoft Learn propose des modules et exercices guidés pour découvrir Microsoft Fabric. Il permet de développer des bases en analyse de données, d’explorer les services de l’écosystème Microsoft et d’utiliser progressivement les fonctionnalités de Fabric selon différents rôles et niveaux d’apprentissage.",
+    "duration": "1 à 3 heures",
+    "technology": "Microsoft Fabric",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "La compétence en traitement des données consiste à charger, préparer et transformer des données afin de les rendre utilisables pour l’analyse. Dans ce parcours, l’apprenant développe des bases pratiques pour manipuler des données dans un environnement Microsoft Fabric.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "La communication technique consiste à présenter des résultats et concepts liés aux données de façon claire et accessible. Ce parcours soutient la capacité à comprendre et à communiquer des analyses de base dans un contexte technologique et analytique.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Le sens des affaires correspond à la capacité de comprendre comment les données et les outils analytiques soutiennent les objectifs opérationnels. Dans ce parcours, l’apprenant reconnaît la valeur des données et des services Microsoft Fabric comme actifs utiles à l’analyse et à la prise de décision.",
+        "indicators": [
+          "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+          "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+          "Recognize various data types and value as an organizational asset."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Learn Power BI",
+    "description": "This official Microsoft learning path develops practical skills in Power BI for connecting to data sources, cleaning and transforming data with Power Query, building data models with relationships and calculations, and creating interactive visualizations, reports, and dashboards. It supports learners in turning data into clear insights that can be shared to inform evidence-based decision-making.",
+    "duration": "10 to 20 hours",
+    "technology": "Power BI",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, structure, and document data so it can be reliably used for analysis and reporting. This includes combining data from multiple sources, cleaning and transforming datasets, and maintaining data in a form that supports accurate interpretation and reuse.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to organize and present analytical results in a clear, logical, and audience-appropriate manner. It includes creating effective visualizations and narratives that help stakeholders understand patterns, insights, and their relevance to decision-making.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience.",
+          "Develop data-driven narratives that directly link findings to business objectives, demonstrating how the insights impact strategy and decision-making."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Intermediate",
+        "description": "Business Acumen is the ability to connect data work to organizational objectives and decision-making needs. In this context, it involves using Power BI outputs to support business priorities, communicate the value of analysis, and ensure reporting products are relevant to operational and strategic goals.",
+        "indicators": [
+          "Collaborate with business teams to identify key business objectives and tailor data science projects to align with those objectives.",
+          "Assess the potential impact of data science solutions on business performance and communicate how the findings can influence business decisions.",
+          "Tie visualizations explicitly to business rationale and intended use."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Power BI – Outils et Fonctions",
+    "description": "This course develops practical capability in Microsoft Power BI for connecting and transforming data, building relational models, creating DAX measures and calculated columns, designing interactive visualizations and dashboards, and publishing and sharing reports. It also introduces report automation, collaboration through Microsoft services, and the use of varied data sources including local files, cloud platforms, and APIs.",
+    "duration": "2 to 3 weeks",
+    "technology": "Power BI",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it can be used reliably for analysis and reporting. It includes working with multiple data sources, performing structured transformations, and supporting data readiness for downstream analytical use.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to organize, present, and adapt analytical information so that it is clear, relevant, and actionable for different audiences. It includes building effective visualizations and linking insights to decision-making needs.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience.",
+          "Develop data-driven narratives that directly link findings to business objectives, demonstrating how the insights impact strategy and decision-making."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others is the ability to collaborate with colleagues and stakeholders by sharing information, contributing to joint work, and supporting collective outcomes. In this context, it includes sharing reports and collaborating on business intelligence products through team-based tools and services.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Openly share data/findings to support other teams' work."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tutoriel Shiny (L. Rouvière)",
+    "description": "Ce tutoriel en français présente la conception d’applications web interactives avec Shiny dans R. Il couvre la création d’une application à fichiers multiples, la définition de l’interface utilisateur et de la logique serveur, l’ajout d’entrées et de sorties, la structuration de l’application avec des onglets et des panneaux, l’intégration de graphiques interactifs, ainsi que l’utilisation de mécanismes réactifs comme reactive, isolate et observeEvent. Le contenu est axé sur le développement pratique d’outils de visualisation et de tableaux de bord à partir de jeux de données réels.",
+    "duration": "3 à 5 heures",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and adapt code to build functional data products and automate analytical tasks. In this course, learners develop foundational programming capability in R by creating Shiny applications, organizing code across user interface and server files, and implementing reactive behaviours and interactive features.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to present data, analysis, and technical outputs in a clear, structured, and audience-appropriate way. This course supports that competency by teaching learners to build interactive visualizations, organize outputs into coherent interfaces, and connect displayed results such as charts, summaries, and tables to user needs.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, transform, prepare, and present data so it can be used effectively in analysis and applications. In this tutorial, learners work with datasets in R, prepare variables for display, and connect processed data to tables, summaries, and visual outputs within Shiny applications.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Dashboards interactifs avec Shiny",
+    "description": "Ce guide présente les bases de la création de tableaux de bord interactifs avec Shiny en R. Il couvre la structure d’une application Shiny, la conception de l’interface utilisateur, la logique serveur, la réactivité, la visualisation dynamique des données, ainsi que des considérations de bonnes pratiques, de test, d’optimisation et de déploiement.",
+    "duration": "1 à 2 heures",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write and troubleshoot code to perform data-related tasks using appropriate programming structures, libraries, and tools. In this course, learners build basic Shiny applications in R, use functions and reactive logic, and manipulate data to produce interactive outputs.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to organize and present analytical information clearly for different audiences using effective narratives and visualizations. This course supports that competency by teaching learners to create interactive charts, tables, and dashboard layouts that help users explore and understand data.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, and manage data so it can be used effectively in analysis and applications. In this course, learners filter datasets, transform inputs for reactive use, and prepare structured data for display in interactive dashboards.",
+        "indicators": [
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing).",
+          "Retain/maintain original data for outcome comparison.",
+          "Provide transparent documentation and rationale for dataset fitness for use."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cours complet R Shiny",
+    "description": "Ce cours en français présente le développement d’applications web interactives avec R Shiny. Il couvre la structure d’une application, la conception de l’interface utilisateur, la logique serveur, la réactivité, les widgets, les visualisations, l’organisation de l’application, l’intégration de cartes interactives avec Leaflet et la personnalisation avec des thèmes, du HTML et du CSS. La ressource comprend également des exercices et des projets pratiques permettant de créer, tester et améliorer des applications Shiny dans RStudio.",
+    "duration": "8 à 12 heures",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and adapt code to build functional data and analytical solutions. In this course, learners use R and Shiny to create application components, connect user inputs to outputs, and implement interactive behaviour in a structured programming environment.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical communication is the ability to present analytical content in a clear, structured, and audience-appropriate way. This course emphasizes building user-facing interfaces, organizing outputs, and presenting data through interactive visuals, tables, text, and maps so that information is understandable and useful to different audiences.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Foundational",
+        "description": "Project management is the ability to organize work, structure deliverables, and maintain the materials needed to complete a technical product. This course supports foundational project management by teaching learners how to structure Shiny applications with appropriate files, folders, packages, and supporting assets while progressing through practical exercises and iterative testing.",
+        "indicators": [
+          "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+          "Understand and follow project timelines and task lists.",
+          "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+        ]
+      }
+    ]
+  }
+]
