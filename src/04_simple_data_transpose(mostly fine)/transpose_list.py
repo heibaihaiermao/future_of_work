@@ -40,11 +40,11 @@ if __name__ == "__main__":
         for wd_i in update_i["implicated work-descriptions"]:
     
             # collect essential items from work-description
-            wd_elements = get_wd_specific_elements(wd_i)
+            wd_elements = get_wd_specific_elements(wd_i) #<- get justification
     
             # Attribute these into a the list of relevant updates, according
             # to the work-description  title.
-            update_implication = update_elements.__or__(wd_elements)
+            update_implication = update_elements.__or__(wd_elements) #get basic job decription
     
             # Ensure correct ordering.
             update_implication = {key: update_implication[key] for key in ("title", "id", "description", "justification")}

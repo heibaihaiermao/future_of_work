@@ -1,0 +1,3327 @@
+[
+  {
+    "title": "Intro to Programming",
+    "profile": {
+      "summary": "An introductory Kaggle course that teaches basic Python programming for beginners with no prior coding experience. It covers core concepts such as arithmetic, variables, functions, data types, conditional logic, and lists through tutorials and exercises.",
+      "skills": [
+        "Python basics",
+        "Using variables",
+        "Writing functions",
+        "Working with data types",
+        "Conditional logic",
+        "Using lists",
+        "Basic problem solving"
+      ],
+      "tools": [
+        "Python",
+        "Kaggle Learn"
+      ],
+      "topics": [
+        "Arithmetic",
+        "Variables",
+        "Functions",
+        "Integers",
+        "Floats",
+        "Booleans",
+        "Strings",
+        "Conditions",
+        "Conditional statements",
+        "Lists"
+      ],
+      "learning_outcomes": [
+        "Perform basic calculations in Python",
+        "Create, update, and use variables",
+        "Write simple functions to organize code",
+        "Distinguish between common Python data types",
+        "Use conditional statements to control program behavior",
+        "Store and manage data in lists",
+        "Apply beginner programming concepts through hands-on exercises"
+      ],
+      "difficulty": "Beginner",
+      "technology": "Python",
+      "estimated_duration": "5 hours"
+    }
+  },
+  {
+    "title": "Python",
+    "profile": {
+      "summary": "An introductory Kaggle Learn course that teaches core Python programming for data science. It covers basic syntax, variables, functions, conditionals, lists, loops, list comprehensions, strings, dictionaries, and using external libraries through tutorials and exercises.",
+      "skills": [
+        "Python syntax",
+        "Variable assignment",
+        "Writing functions",
+        "Using documentation",
+        "Conditional logic",
+        "Working with lists",
+        "Looping",
+        "List comprehensions",
+        "String manipulation",
+        "Dictionary usage",
+        "Importing libraries"
+      ],
+      "tools": [
+        "Python",
+        "Kaggle Learn"
+      ],
+      "topics": [
+        "Python fundamentals",
+        "Data science programming",
+        "Functions",
+        "Booleans",
+        "Conditionals",
+        "Lists",
+        "Indexing and slicing",
+        "Loops",
+        "List comprehensions",
+        "Strings",
+        "Dictionaries",
+        "External libraries"
+      ],
+      "learning_outcomes": [
+        "Understand and write basic Python syntax for data science tasks",
+        "Define and call functions and use built-in help resources",
+        "Apply booleans and conditional statements to control program flow",
+        "Create and manipulate lists using indexing, slicing, and mutation",
+        "Use for and while loops to automate repetitive tasks",
+        "Write list comprehensions for concise data processing",
+        "Work with strings and dictionaries effectively",
+        "Import and use external Python libraries"
+      ],
+      "difficulty": "Beginner",
+      "technology": "Python for data science",
+      "estimated_duration": "5 hours"
+    }
+  },
+  {
+    "title": "Pandas",
+    "profile": {
+      "summary": "An introductory hands-on course on using Pandas for data manipulation and analysis with tabular datasets. It covers reading and writing data, selecting and indexing, summarizing data, grouping and sorting, handling data types and missing values, and combining datasets through short tutorials and exercises.",
+      "skills": [
+        "data manipulation",
+        "data analysis",
+        "reading tabular data",
+        "data indexing",
+        "data selection",
+        "data summarization",
+        "grouping data",
+        "sorting data",
+        "handling missing values",
+        "combining datasets"
+      ],
+      "tools": [
+        "Pandas",
+        "Kaggle"
+      ],
+      "topics": [
+        "creating data structures",
+        "reading and writing files",
+        "indexing and assigning values",
+        "summary functions",
+        "mapping values",
+        "groupby operations",
+        "sorting records",
+        "data types",
+        "missing data",
+        "renaming columns",
+        "concatenation and joins"
+      ],
+      "learning_outcomes": [
+        "Create, read, and write tabular datasets with Pandas.",
+        "Use indexing and selection to access and modify data.",
+        "Apply summary functions and mapping techniques to analyze datasets.",
+        "Group and sort data to uncover patterns and insights.",
+        "Identify and handle data type issues and missing values.",
+        "Rename fields and combine data from multiple sources."
+      ],
+      "difficulty": "Beginner",
+      "technology": "Python",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Data Cleaning",
+    "profile": {
+      "summary": "An introductory Kaggle course on cleaning messy real-world datasets. It covers practical workflows for handling missing values, scaling and normalizing numeric data, parsing dates, resolving character encoding issues, and fixing inconsistent data entry.",
+      "skills": [
+        "handle missing values",
+        "scale numeric features",
+        "normalize data",
+        "parse dates",
+        "fix encoding issues",
+        "clean inconsistent entries",
+        "prepare datasets"
+      ],
+      "tools": [
+        "Kaggle",
+        "Python",
+        "CSV files"
+      ],
+      "topics": [
+        "data cleaning",
+        "missing data",
+        "scaling",
+        "normalization",
+        "date parsing",
+        "character encodings",
+        "data consistency",
+        "typo correction"
+      ],
+      "learning_outcomes": [
+        "Identify and clean common issues in messy datasets.",
+        "Drop or impute missing values using practical workflows.",
+        "Apply scaling and normalization to numeric variables.",
+        "Convert date fields into usable structured formats.",
+        "Resolve character encoding problems when loading data files.",
+        "Detect and correct inconsistent data entry and typos."
+      ],
+      "difficulty": "beginner",
+      "technology": "Python data cleaning in Kaggle",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Data Visualization",
+    "profile": {
+      "summary": "An introductory Kaggle course on data visualization that teaches how to create effective charts and plots to explore data and communicate insights using coding. It covers core visualization types, styling, and practical application through exercises and a final project.",
+      "skills": [
+        "data visualization",
+        "exploratory data analysis",
+        "chart selection",
+        "trend analysis",
+        "categorical comparison",
+        "relationship analysis",
+        "distribution analysis",
+        "plot customization"
+      ],
+      "tools": [
+        "Kaggle",
+        "Jupyter Notebooks",
+        "Seaborn"
+      ],
+      "topics": [
+        "introduction to Seaborn",
+        "line charts",
+        "bar charts",
+        "heatmaps",
+        "scatter plots",
+        "histograms",
+        "density plots",
+        "choosing plot types",
+        "custom chart styles",
+        "notebook creation",
+        "final project"
+      ],
+      "learning_outcomes": [
+        "Create basic visualizations with Seaborn.",
+        "Use line charts to show trends over time.",
+        "Compare categories with bar charts and heatmaps.",
+        "Explore relationships between variables with scatter plots.",
+        "Visualize distributions with histograms and density plots.",
+        "Choose appropriate plot types for different data questions.",
+        "Customize chart appearance for clearer communication.",
+        "Apply visualization skills in notebooks and project-based work."
+      ],
+      "difficulty": "beginner",
+      "technology": "Python data visualization with Seaborn in Kaggle notebooks",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Feature Engineering",
+    "profile": {
+      "summary": "A Kaggle Learn course that teaches how to create and transform features to improve machine learning model performance. It covers core feature engineering principles, feature selection with mutual information, feature creation with Pandas, clustering-based features using K-Means, dimensionality reduction with PCA, and categorical enhancement through target encoding.",
+      "skills": [
+        "feature engineering",
+        "feature selection",
+        "data transformation",
+        "categorical encoding",
+        "dimensionality reduction",
+        "clustering",
+        "pandas data manipulation",
+        "machine learning preprocessing"
+      ],
+      "tools": [
+        "Kaggle",
+        "Python",
+        "Pandas",
+        "K-Means",
+        "Principal Component Analysis"
+      ],
+      "topics": [
+        "feature engineering fundamentals",
+        "mutual information",
+        "creating features with Pandas",
+        "clustering with K-Means",
+        "principal component analysis",
+        "target encoding",
+        "model improvement through better features"
+      ],
+      "learning_outcomes": [
+        "Explain the purpose and principles of feature engineering.",
+        "Identify promising features using mutual information.",
+        "Create and transform features with Pandas for machine learning tasks.",
+        "Use K-Means clustering to generate informative cluster-based features.",
+        "Apply PCA to derive new features from variation in the data.",
+        "Use target encoding to improve categorical feature representation.",
+        "Improve model performance by designing more meaningful input features."
+      ],
+      "difficulty": "intermediate",
+      "technology": "machine learning",
+      "estimated_duration": "5 hours"
+    }
+  },
+  {
+    "title": "Intro to SQL",
+    "profile": {
+      "summary": "An introductory Kaggle course that teaches the fundamentals of SQL using Google BigQuery. It covers writing basic queries, filtering data, aggregating results, sorting output, organizing queries for readability, and joining tables to analyze real-world datasets.",
+      "skills": [
+        "SQL querying",
+        "Data filtering",
+        "Data aggregation",
+        "Grouping results",
+        "Sorting query output",
+        "Using aliases and CTEs",
+        "Joining tables",
+        "Working with BigQuery"
+      ],
+      "tools": [
+        "SQL",
+        "Google BigQuery",
+        "Kaggle Learn"
+      ],
+      "topics": [
+        "SQL basics",
+        "SELECT, FROM, WHERE",
+        "GROUP BY",
+        "HAVING",
+        "COUNT",
+        "ORDER BY",
+        "AS",
+        "WITH",
+        "Joins",
+        "Database querying",
+        "Big data workflows"
+      ],
+      "learning_outcomes": [
+        "Write basic SQL queries to retrieve data from databases",
+        "Filter records using WHERE clauses",
+        "Summarize and aggregate data with GROUP BY, HAVING, and COUNT",
+        "Sort query results with ORDER BY",
+        "Improve query readability using aliases and WITH clauses",
+        "Combine multiple tables using joins",
+        "Use Google BigQuery to analyze large datasets"
+      ],
+      "difficulty": "Beginner",
+      "technology": "SQL with Google BigQuery",
+      "estimated_duration": "3 hours"
+    }
+  },
+  {
+    "title": "Advanced SQL",
+    "profile": {
+      "summary": "An intermediate SQL course that teaches advanced querying techniques, including combining tables with joins and unions, using analytic functions, querying nested and repeated data in BigQuery, and writing more efficient queries.",
+      "skills": [
+        "SQL joins",
+        "UNION operations",
+        "analytic functions",
+        "query optimization",
+        "BigQuery querying",
+        "nested data querying"
+      ],
+      "tools": [
+        "SQL",
+        "Google BigQuery",
+        "Kaggle"
+      ],
+      "topics": [
+        "JOINs and UNIONs",
+        "analytic functions",
+        "nested and repeated data",
+        "efficient query writing",
+        "advanced SQL querying"
+      ],
+      "learning_outcomes": [
+        "Combine data from multiple tables using joins and unions.",
+        "Use analytic functions to perform advanced calculations across groups of rows.",
+        "Query nested and repeated data structures in BigQuery.",
+        "Write SQL queries that run faster and process less data.",
+        "Apply advanced SQL techniques to more complex datasets."
+      ],
+      "difficulty": "Intermediate",
+      "technology": "SQL with Google BigQuery",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Intro to Machine Learning",
+    "profile": {
+      "summary": "An introductory Kaggle course covering the core concepts of machine learning, including how models work, exploring data, building a first model, validating performance, handling underfitting and overfitting, and using random forests. It also introduces learners to machine learning competitions.",
+      "skills": [
+        "data exploration",
+        "model building",
+        "model validation",
+        "performance evaluation",
+        "overfitting detection",
+        "underfitting detection",
+        "random forest modeling"
+      ],
+      "tools": [
+        "Kaggle"
+      ],
+      "topics": [
+        "machine learning fundamentals",
+        "how machine learning models work",
+        "basic data exploration",
+        "first machine learning model",
+        "model validation",
+        "underfitting and overfitting",
+        "random forests",
+        "machine learning competitions"
+      ],
+      "learning_outcomes": [
+        "Explain the basic idea of how machine learning models make predictions.",
+        "Load and explore a dataset to understand its structure and features.",
+        "Build a first machine learning model on structured data.",
+        "Validate model performance and compare alternative models.",
+        "Identify underfitting and overfitting in a model.",
+        "Improve predictive performance using random forest models.",
+        "Use Kaggle competitions as a way to practice machine learning skills."
+      ],
+      "difficulty": "beginner",
+      "technology": "machine learning",
+      "estimated_duration": "3 hours"
+    }
+  },
+  {
+    "title": "Intermediate Machine Learning",
+    "profile": {
+      "summary": "An intermediate Kaggle course on practical machine learning workflows for structured data, covering missing data handling, categorical encoding, pipelines, cross-validation, XGBoost, and detecting data leakage.",
+      "skills": [
+        "handle missing data",
+        "encode categorical variables",
+        "build ML pipelines",
+        "apply cross-validation",
+        "train XGBoost models",
+        "detect data leakage",
+        "tune models"
+      ],
+      "tools": [
+        "Kaggle",
+        "XGBoost",
+        "machine learning pipelines"
+      ],
+      "topics": [
+        "intermediate machine learning",
+        "missing values",
+        "categorical variables",
+        "pipelines",
+        "cross-validation",
+        "XGBoost",
+        "data leakage",
+        "model evaluation",
+        "structured data"
+      ],
+      "learning_outcomes": [
+        "Handle missing values in real-world datasets.",
+        "Work with non-numeric and categorical features in machine learning models.",
+        "Create reusable preprocessing and modeling pipelines.",
+        "Evaluate models more reliably with cross-validation.",
+        "Use XGBoost for structured data prediction tasks.",
+        "Identify and prevent data leakage in machine learning workflows.",
+        "Improve model performance through better validation and tuning practices."
+      ],
+      "difficulty": "intermediate",
+      "technology": "machine learning",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Machine Learning Explainability",
+    "profile": {
+      "summary": "A short Kaggle course on interpreting machine learning models and extracting human-understandable insights from predictions. It covers when explainability is useful and introduces key techniques such as permutation importance, partial dependence plots, and SHAP values for both global and individual prediction analysis.",
+      "skills": [
+        "model interpretation",
+        "feature importance analysis",
+        "partial dependence analysis",
+        "SHAP analysis",
+        "prediction explanation"
+      ],
+      "tools": [
+        "Kaggle",
+        "SHAP"
+      ],
+      "topics": [
+        "machine learning explainability",
+        "model insights",
+        "use cases for explainability",
+        "permutation importance",
+        "partial plots",
+        "SHAP values",
+        "global model interpretation",
+        "local prediction interpretation"
+      ],
+      "learning_outcomes": [
+        "Explain why model interpretability is important and identify when to use it.",
+        "Measure feature importance using permutation importance.",
+        "Analyze how features influence predictions with partial dependence plots.",
+        "Interpret individual predictions using SHAP values.",
+        "Use aggregated SHAP values to gain deeper model-level insights."
+      ],
+      "difficulty": "intermediate",
+      "technology": "machine learning",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Intro to Deep Learning",
+    "profile": {
+      "summary": "An introductory Kaggle course on deep learning that teaches how to build and train neural networks for structured data using TensorFlow and Keras. It covers core neural network concepts, training with stochastic gradient descent, model evaluation, regularization, and binary classification through tutorials and exercises.",
+      "skills": [
+        "Build neural networks",
+        "Train deep learning models",
+        "Use TensorFlow",
+        "Use Keras",
+        "Apply stochastic gradient descent",
+        "Prevent overfitting",
+        "Tune model capacity",
+        "Implement dropout",
+        "Use batch normalization",
+        "Perform binary classification"
+      ],
+      "tools": [
+        "TensorFlow",
+        "Keras",
+        "Kaggle"
+      ],
+      "topics": [
+        "Deep learning",
+        "Neural networks",
+        "Single neuron models",
+        "Deep neural networks",
+        "Hidden layers",
+        "Stochastic gradient descent",
+        "Overfitting",
+        "Underfitting",
+        "Early stopping",
+        "Dropout",
+        "Batch normalization",
+        "Binary classification",
+        "Structured data"
+      ],
+      "learning_outcomes": [
+        "Explain how a single neuron works as a linear unit",
+        "Build deep neural networks with hidden layers",
+        "Train a neural network using TensorFlow and Keras",
+        "Use stochastic gradient descent to optimize model parameters",
+        "Identify and address overfitting and underfitting",
+        "Improve model generalization with early stopping, dropout, and batch normalization",
+        "Apply deep learning methods to binary classification problems on structured data"
+      ],
+      "difficulty": "Beginner",
+      "technology": "TensorFlow and Keras for deep learning on structured data",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Computer Vision",
+    "profile": {
+      "summary": "An introductory Kaggle course on computer vision that teaches how to build and improve convolutional neural networks for image data using TensorFlow and Keras. It covers core CNN concepts such as convolution, ReLU, max pooling, stride, padding, custom network design, and data augmentation through tutorials and exercises.",
+      "skills": [
+        "building CNNs",
+        "image classification",
+        "feature extraction",
+        "designing convnets",
+        "data augmentation",
+        "using TensorFlow",
+        "using Keras"
+      ],
+      "tools": [
+        "TensorFlow",
+        "Keras",
+        "Kaggle"
+      ],
+      "topics": [
+        "computer vision",
+        "deep learning",
+        "convolutional neural networks",
+        "convolution layers",
+        "ReLU activation",
+        "max pooling",
+        "stride",
+        "padding",
+        "sliding window",
+        "custom CNN architectures",
+        "image data augmentation"
+      ],
+      "learning_outcomes": [
+        "Build a basic convolutional neural network in Keras.",
+        "Explain how convolution and ReLU layers extract image features.",
+        "Use max pooling to reduce spatial dimensions and improve feature learning.",
+        "Understand the effect of stride and padding in convolution operations.",
+        "Design a custom convolutional network for image tasks.",
+        "Apply data augmentation to improve model performance on image datasets."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "TensorFlow and Keras for deep learning-based computer vision",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Time Series",
+    "profile": {
+      "summary": "A Kaggle Learn course that teaches practical time series forecasting with machine learning. It covers core forecasting concepts such as lag features, time steps, trend modeling, seasonality, lag embeddings, hybrid forecasting models, and general machine learning strategies for time-based prediction tasks.",
+      "skills": [
+        "time series forecasting",
+        "feature engineering",
+        "trend analysis",
+        "seasonality modeling",
+        "lag feature creation",
+        "regression modeling",
+        "hybrid model design",
+        "machine learning for forecasting"
+      ],
+      "tools": [
+        "Kaggle",
+        "machine learning models",
+        "linear regression",
+        "moving averages",
+        "Fourier features"
+      ],
+      "topics": [
+        "time series",
+        "forecasting",
+        "lags",
+        "time steps",
+        "trend",
+        "moving averages",
+        "time dummy variables",
+        "seasonality",
+        "indicator variables",
+        "Fourier terms",
+        "lag embedding",
+        "hybrid forecasting models",
+        "forecasting strategies"
+      ],
+      "learning_outcomes": [
+        "Use lag features and time steps in time series models.",
+        "Model long-term trend with moving averages and time-based dummy variables.",
+        "Capture seasonality using indicator variables and Fourier features.",
+        "Transform historical observations into predictive features with lag embeddings.",
+        "Combine multiple forecasting approaches into hybrid models.",
+        "Apply machine learning methods to a range of real-world forecasting problems."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "time series forecasting with machine learning on Kaggle",
+      "estimated_duration": "5 hours"
+    }
+  },
+  {
+    "title": "Geospatial Analysis",
+    "profile": {
+      "summary": "A beginner-friendly Kaggle course on geospatial analysis that teaches how to visualize, manipulate, and analyze spatial data using Python tools. Learners create maps, work with coordinate reference systems, build interactive visualizations, join spatial datasets, geocode locations, and perform proximity-based analysis to uncover geographic patterns.",
+      "skills": [
+        "geospatial visualization",
+        "map creation",
+        "GeoPandas plotting",
+        "coordinate reference systems",
+        "interactive mapping",
+        "choropleth mapping",
+        "heatmap creation",
+        "geocoding",
+        "spatial joins",
+        "distance analysis",
+        "proximity analysis"
+      ],
+      "tools": [
+        "Python",
+        "GeoPandas",
+        "Kaggle"
+      ],
+      "topics": [
+        "geospatial analysis",
+        "spatial data",
+        "mapping",
+        "coordinate reference systems",
+        "interactive maps",
+        "heatmaps",
+        "choropleth maps",
+        "geocoding",
+        "spatial relationships",
+        "spatial joins",
+        "distance measurement",
+        "neighbor analysis"
+      ],
+      "learning_outcomes": [
+        "Create basic geospatial plots with GeoPandas.",
+        "Explain and apply coordinate reference systems in mapping workflows.",
+        "Build interactive maps such as heatmaps and choropleth maps.",
+        "Geocode place names into geographic locations.",
+        "Combine datasets using spatial joins and spatial relationships.",
+        "Measure distances between locations and analyze nearby points."
+      ],
+      "difficulty": "beginner",
+      "technology": "Python geospatial analysis",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "Intro to AI Ethics",
+    "profile": {
+      "summary": "An introductory Kaggle course on AI ethics that covers responsible AI design, human-centered design, bias detection, fairness concepts, and model cards through short tutorials and exercises.",
+      "skills": [
+        "ethical AI evaluation",
+        "bias identification",
+        "fairness assessment",
+        "human-centered design",
+        "model documentation",
+        "responsible AI thinking"
+      ],
+      "tools": [
+        "Kaggle Learn",
+        "tutorial exercises",
+        "model cards"
+      ],
+      "topics": [
+        "AI ethics",
+        "responsible AI",
+        "bias in machine learning",
+        "AI fairness",
+        "human-centered AI design",
+        "toxic text classification",
+        "credit decision models",
+        "model transparency"
+      ],
+      "learning_outcomes": [
+        "Explain core ideas in AI ethics and responsible AI use.",
+        "Apply human-centered design principles to AI systems.",
+        "Identify where bias can enter the machine learning pipeline.",
+        "Compare four common types of fairness in AI.",
+        "Evaluate simple AI examples involving toxic text and credit applications.",
+        "Use model cards to communicate important information about machine learning models."
+      ],
+      "difficulty": "beginner",
+      "technology": "artificial intelligence and machine learning",
+      "estimated_duration": "4 hours"
+    }
+  },
+  {
+    "title": "CS50: Introduction to Computer Science",
+    "profile": {
+      "summary": "Introductory computer science course from Harvard that teaches problem solving, computational thinking, programming fundamentals, and core CS concepts through hands-on weekly modules and a final project. It begins with Scratch and C, then progresses to Python, SQL, HTML, CSS, JavaScript, and Flask for web application development.",
+      "skills": [
+        "problem solving",
+        "computational thinking",
+        "algorithm design",
+        "programming fundamentals",
+        "debugging",
+        "memory management basics",
+        "data structure implementation",
+        "database querying",
+        "web development",
+        "final project development"
+      ],
+      "tools": [
+        "Scratch",
+        "C",
+        "Python",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Flask",
+        "Visual Studio Code",
+        "GitHub",
+        "edX",
+        "Ed Discussion"
+      ],
+      "topics": [
+        "computer science fundamentals",
+        "abstraction",
+        "algorithms",
+        "arrays",
+        "memory",
+        "data structures",
+        "functions",
+        "variables",
+        "conditionals",
+        "loops",
+        "correctness",
+        "design",
+        "programming style",
+        "databases",
+        "web applications",
+        "mobile app foundations"
+      ],
+      "learning_outcomes": [
+        "Solve computational problems with and without code.",
+        "Write programs using core constructs such as functions, variables, conditionals, and loops.",
+        "Explain how memory and lower-level programming concepts work in C.",
+        "Apply common algorithms and data structures to programming tasks.",
+        "Develop programs in Python using higher-level abstractions.",
+        "Store, query, and manage data with SQL databases.",
+        "Build interactive web applications with HTML, CSS, JavaScript, and Flask.",
+        "Learn new programming languages independently using foundational CS knowledge.",
+        "Design and complete a substantial final programming project."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "computer science and software development",
+      "estimated_duration": "11 weeks"
+    }
+  },
+  {
+    "title": "CS50's Introduction to Programming with Python",
+    "profile": {
+      "summary": "A beginner-friendly 10-week course focused entirely on learning Python programming. It teaches core programming concepts such as variables, functions, conditionals, loops, exceptions, testing, file handling, regular expressions, libraries, and object-oriented programming through hands-on practice, problem sets, and a final project.",
+      "skills": [
+        "Python programming",
+        "Reading and writing code",
+        "Debugging",
+        "Testing",
+        "Using functions",
+        "Working with variables",
+        "Control flow",
+        "Exception handling",
+        "File handling",
+        "Regular expressions",
+        "Object-oriented programming",
+        "Using libraries"
+      ],
+      "tools": [
+        "Python",
+        "Visual Studio Code",
+        "edX",
+        "Web browser",
+        "GitHub"
+      ],
+      "topics": [
+        "Functions and arguments",
+        "Return values",
+        "Variables and data types",
+        "Conditionals",
+        "Boolean expressions",
+        "Loops",
+        "Exceptions",
+        "Bug fixing",
+        "Unit tests",
+        "Third-party libraries",
+        "File I/O",
+        "Regular expressions",
+        "Classes and objects",
+        "Methods and properties",
+        "Final project"
+      ],
+      "learning_outcomes": [
+        "Write basic to intermediate Python programs.",
+        "Use functions, variables, conditionals, and loops to solve programming problems.",
+        "Test and debug code effectively.",
+        "Handle errors with exceptions.",
+        "Work with files for reading and writing data.",
+        "Use regular expressions to validate and extract information.",
+        "Incorporate third-party libraries into Python programs.",
+        "Model real-world concepts using classes, objects, methods, and properties.",
+        "Complete programming exercises and build a final Python project."
+      ],
+      "difficulty": "Beginner",
+      "technology": "Python",
+      "estimated_duration": "10 weeks"
+    }
+  },
+  {
+    "title": "CS50's Introduction to Programming with Scratch",
+    "profile": {
+      "summary": "An introductory course that teaches programming and computational thinking through Scratch, a visual block-based language. Learners build animations, games, art, and stories while learning core programming concepts that transfer to text-based languages like Java and Python.",
+      "skills": [
+        "computational thinking",
+        "block-based programming",
+        "problem solving",
+        "algorithmic thinking",
+        "debugging",
+        "interactive project design",
+        "basic programming logic"
+      ],
+      "tools": [
+        "Scratch",
+        "edX",
+        "Ed Discussion",
+        "CS50.ai"
+      ],
+      "topics": [
+        "Scratch programming",
+        "sprites",
+        "functions",
+        "events",
+        "values",
+        "return values",
+        "conditions",
+        "loops",
+        "variables",
+        "abstraction",
+        "animations",
+        "games",
+        "interactive art",
+        "storytelling",
+        "final project"
+      ],
+      "learning_outcomes": [
+        "Use Scratch to create interactive programs by combining graphical code blocks.",
+        "Explain and apply core programming concepts such as functions, conditions, loops, and variables.",
+        "Design simple animations, games, stories, and interactive art projects.",
+        "Develop computational thinking skills that transfer to text-based programming languages.",
+        "Break problems into smaller parts using abstraction and reusable logic.",
+        "Complete programming projects independently, including a final project."
+      ],
+      "difficulty": "beginner",
+      "technology": "Scratch visual programming language",
+      "estimated_duration": "9 weeks"
+    }
+  },
+  {
+    "title": "CS50's Introduction to Databases with SQL",
+    "profile": {
+      "summary": "An introductory course focused on SQL and relational databases. It teaches how to query, create, update, and delete data; design database schemas; model relationships; normalize data; use keys, constraints, triggers, views, and indexes; and connect SQL with languages like Python and Java. The course starts with SQLite and introduces PostgreSQL and MySQL, using practical assignments and a final project.",
+      "skills": [
+        "SQL querying",
+        "CRUD operations",
+        "Database design",
+        "Schema modeling",
+        "Data normalization",
+        "Table joins",
+        "Using primary and foreign keys",
+        "Creating views",
+        "Index optimization",
+        "Using constraints and triggers",
+        "Database analysis",
+        "Integrating SQL with Python and Java"
+      ],
+      "tools": [
+        "SQL",
+        "SQLite",
+        "PostgreSQL",
+        "MySQL",
+        "Python",
+        "Java",
+        "Visual Studio Code",
+        "edX"
+      ],
+      "topics": [
+        "Relational databases",
+        "Rows and columns",
+        "Tables",
+        "Entity relationship modeling",
+        "Data types",
+        "Constraints",
+        "Triggers",
+        "Normalization",
+        "Primary keys",
+        "Foreign keys",
+        "Joins",
+        "Views",
+        "Indexes",
+        "Database scalability",
+        "Real-world datasets",
+        "Final project"
+      ],
+      "learning_outcomes": [
+        "Write SQL queries to retrieve and analyze data from relational databases",
+        "Perform create, read, update, and delete operations on database records",
+        "Design tables that model real-world entities and relationships",
+        "Apply data types, constraints, and triggers to enforce data integrity",
+        "Normalize database schemas to reduce redundancy and errors",
+        "Use primary and foreign keys to relate tables and perform joins",
+        "Create views to simplify repeated queries",
+        "Use indexes to improve query performance",
+        "Compare SQLite, PostgreSQL, and MySQL for portability and scalability",
+        "Connect SQL databases with Python and Java applications",
+        "Build a database-focused final project using practical datasets"
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "SQL and relational database systems",
+      "estimated_duration": "7 weeks"
+    }
+  },
+  {
+    "title": "CS50's Web Programming with Python and JavaScript",
+    "profile": {
+      "summary": "An intermediate web development course that teaches how to design, build, and deploy web applications using Python, JavaScript, SQL, and modern frameworks such as Django, React, and Bootstrap. It emphasizes hands-on projects covering backend development, frontend interactivity, APIs, database design, testing, scalability, security, and deployment.",
+      "skills": [
+        "Web application development",
+        "Backend development",
+        "Frontend development",
+        "Database design",
+        "API development",
+        "UI development",
+        "Testing",
+        "CI/CD",
+        "Deployment",
+        "Security practices",
+        "Scalability planning",
+        "Framework-based development"
+      ],
+      "tools": [
+        "Python",
+        "JavaScript",
+        "SQL",
+        "Django",
+        "React",
+        "Bootstrap",
+        "GitHub",
+        "Heroku",
+        "Visual Studio Code"
+      ],
+      "topics": [
+        "HTML",
+        "CSS",
+        "Python web programming",
+        "JavaScript programming",
+        "Django framework",
+        "React",
+        "Bootstrap",
+        "SQL",
+        "Models and migrations",
+        "Database design",
+        "APIs",
+        "Interactive user interfaces",
+        "User experience",
+        "Testing",
+        "CI/CD",
+        "Scalability",
+        "Web security",
+        "Cloud deployment"
+      ],
+      "learning_outcomes": [
+        "Build full-stack web applications using Python and JavaScript",
+        "Design and manage relational databases with SQL, models, and migrations",
+        "Develop server-side applications with Django",
+        "Create interactive front-end interfaces with JavaScript and React",
+        "Use Bootstrap to build responsive user interfaces",
+        "Write and consume APIs in web applications",
+        "Apply testing and CI/CD practices to web projects",
+        "Incorporate security, scalability, and user experience principles into application design",
+        "Deploy web applications using cloud-based services such as GitHub and Heroku",
+        "Complete a final project demonstrating end-to-end web development skills"
+      ],
+      "difficulty": "Intermediate",
+      "technology": "Full-stack web development",
+      "estimated_duration": "9 weeks"
+    }
+  },
+  {
+    "title": "CS50's Introduction to Artificial Intelligence with Python",
+    "profile": {
+      "summary": "An introductory AI course that teaches core artificial intelligence concepts and algorithms through Python-based projects. It covers search, knowledge representation, uncertainty, optimization, machine learning, neural networks, language processing, and large language models, combining theory with hands-on implementation.",
+      "skills": [
+        "Python programming",
+        "Graph search",
+        "Knowledge representation",
+        "Probabilistic reasoning",
+        "Optimization",
+        "Classification",
+        "Machine learning",
+        "Neural network basics",
+        "Natural language processing",
+        "Building AI systems"
+      ],
+      "tools": [
+        "Python",
+        "Visual Studio Code",
+        "Machine learning libraries",
+        "edX",
+        "GitHub"
+      ],
+      "topics": [
+        "Artificial intelligence foundations",
+        "Search",
+        "Knowledge",
+        "Uncertainty",
+        "Optimization",
+        "Learning",
+        "Neural networks",
+        "Language",
+        "Large language models",
+        "Handwriting recognition",
+        "Machine translation",
+        "Game-playing systems"
+      ],
+      "learning_outcomes": [
+        "Explain foundational concepts and algorithms in modern artificial intelligence.",
+        "Implement search and optimization algorithms in Python.",
+        "Apply classification and machine learning techniques to practical problems.",
+        "Use machine learning libraries to build intelligent applications.",
+        "Understand neural networks and language-related AI methods.",
+        "Design and develop basic AI systems through hands-on projects."
+      ],
+      "difficulty": "Intermediate",
+      "technology": "Python-based artificial intelligence and machine learning",
+      "estimated_duration": "7 weeks"
+    }
+  },
+  {
+    "title": "CS50 for Lawyers",
+    "profile": {
+      "summary": "An introductory computer science course tailored for lawyers and law students that explains core technical concepts from a top-down perspective and connects them to legal analysis, client advising, and technology-driven decision-making. It combines case studies with hands-on work in Python and SQL to help learners understand how software, systems, security, privacy, and data practices affect legal outcomes.",
+      "skills": [
+        "technology issue spotting",
+        "computational thinking",
+        "legal analysis of technology",
+        "Python basics",
+        "SQL querying",
+        "data analysis",
+        "database concepts",
+        "cybersecurity awareness",
+        "privacy analysis",
+        "cloud and networking literacy"
+      ],
+      "tools": [
+        "Python",
+        "SQL",
+        "edX",
+        "CS50.ai",
+        "Ed Discussion",
+        "GitHub"
+      ],
+      "topics": [
+        "algorithms",
+        "data structures",
+        "programming languages",
+        "cryptography",
+        "cybersecurity",
+        "internet technologies",
+        "cloud computing",
+        "web development",
+        "database design",
+        "networking",
+        "privacy",
+        "scalability",
+        "artificial intelligence",
+        "law and technology"
+      ],
+      "learning_outcomes": [
+        "Explain major computer science concepts in language relevant to legal practice.",
+        "Assess the legal implications of technical design and implementation choices.",
+        "Participate more effectively in conversations with developers, clients, and technical teams.",
+        "Formulate technology-informed legal arguments and professional opinions.",
+        "Use Python and SQL to explore and analyze data.",
+        "Recognize how cybersecurity, privacy, databases, networks, and cloud systems affect clients and legal risk."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Computer science for legal professionals",
+      "estimated_duration": "10 weeks"
+    }
+  },
+  {
+    "title": "CS50's Computer Science for Business",
+    "profile": {
+      "summary": "An introductory computer science course for business professionals that explains core technology concepts from a top-down, decision-making perspective. It focuses on understanding how modern systems work so managers, founders, and product leaders can make informed choices about web, mobile, cloud, data, security, and scalability.",
+      "skills": [
+        "technology decision-making",
+        "interpreting technical concepts",
+        "algorithmic thinking",
+        "data modeling",
+        "basic programming",
+        "internet architecture understanding",
+        "web systems understanding",
+        "database fundamentals",
+        "security awareness",
+        "AI literacy"
+      ],
+      "tools": [
+        "edX",
+        "Ed Discussion",
+        "Zoom",
+        "GitHub",
+        "CS50.ai"
+      ],
+      "topics": [
+        "computer science for business",
+        "cloud computing",
+        "networking",
+        "privacy",
+        "scalability",
+        "security",
+        "web technologies",
+        "mobile technologies",
+        "algorithms",
+        "data structures",
+        "programming",
+        "artificial intelligence",
+        "internet technologies",
+        "web development",
+        "databases",
+        "systems design"
+      ],
+      "learning_outcomes": [
+        "Explain major computer science concepts in a business context.",
+        "Evaluate tradeoffs in technology choices for products and organizations.",
+        "Describe how cloud, web, mobile, and internet systems operate at a high level.",
+        "Interpret information about algorithms, data structures, and programming concepts.",
+        "Assess considerations related to privacy, security, and scalability.",
+        "Communicate more effectively with technical teams and stakeholders."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "General computer science and business technology",
+      "estimated_duration": "9 weeks"
+    }
+  },
+  {
+    "title": "Introduction to Data Science with Python",
+    "profile": {
+      "summary": "An introductory Python programming course that teaches core programming concepts, debugging, testing, file handling, regular expressions, object-oriented programming, and use of libraries through hands-on exercises and a final project.",
+      "skills": [
+        "Python programming",
+        "Debugging",
+        "Unit testing",
+        "Problem solving",
+        "File handling",
+        "Regular expressions",
+        "Object-oriented programming",
+        "Using libraries"
+      ],
+      "tools": [
+        "Python",
+        "Visual Studio Code",
+        "edX",
+        "CS50.ai"
+      ],
+      "topics": [
+        "Functions",
+        "Variables",
+        "Data types",
+        "Arguments and return values",
+        "Conditionals",
+        "Boolean expressions",
+        "Loops",
+        "Exceptions",
+        "Third-party libraries",
+        "Unit tests",
+        "File I/O",
+        "Regular expressions",
+        "Classes and objects",
+        "Methods and properties",
+        "Debugging"
+      ],
+      "learning_outcomes": [
+        "Read and write basic Python programs",
+        "Use functions, variables, conditionals, and loops to solve problems",
+        "Test code and debug programming errors",
+        "Handle exceptions and validate input data",
+        "Work with files for reading and writing data",
+        "Use regular expressions to extract structured information",
+        "Apply object-oriented programming concepts in Python",
+        "Build a final Python project using course concepts"
+      ],
+      "difficulty": "Beginner",
+      "technology": "Python",
+      "estimated_duration": "10 weeks"
+    }
+  },
+  {
+    "title": "Data Science: R Basics",
+    "profile": {
+      "summary": "An introductory course that teaches the fundamentals of R for data science. Learners build core programming skills in R, including syntax, data types, vectors, indexing, control flow, sorting, data wrangling with dplyr, and data visualization with ggplot2, using a real-world U.S. crime dataset.",
+      "skills": [
+        "R programming",
+        "Data wrangling",
+        "Data visualization",
+        "Vector operations",
+        "Data analysis",
+        "Control flow",
+        "Sorting data",
+        "Indexing"
+      ],
+      "tools": [
+        "R",
+        "dplyr",
+        "ggplot2",
+        "RStudio",
+        "Git",
+        "GitHub",
+        "UNIX/Linux"
+      ],
+      "topics": [
+        "Basic R syntax",
+        "R data types",
+        "Vectors and arithmetic",
+        "Indexing in R",
+        "Functions in R",
+        "Sorting",
+        "If-else statements",
+        "For loops",
+        "Data wrangling with dplyr",
+        "Plotting with ggplot2",
+        "Real-world dataset analysis",
+        "Foundations of data science"
+      ],
+      "learning_outcomes": [
+        "Write and understand basic R code for data analysis tasks.",
+        "Use R data types, vectors, arithmetic operations, and indexing effectively.",
+        "Apply functions, sorting, conditional logic, and loops in R.",
+        "Wrangle and transform data using dplyr.",
+        "Create basic data visualizations with ggplot2.",
+        "Analyze a real-world dataset to answer practical questions."
+      ],
+      "difficulty": "Introductory",
+      "technology": "R for data science",
+      "estimated_duration": "8 weeks, 1–2 hours per week"
+    }
+  },
+  {
+    "title": "Data Science: Wrangling",
+    "profile": {
+      "summary": "An introductory HarvardX course on data wrangling in R that teaches learners how to import, clean, transform, and organize raw data for analysis. The course covers working with multiple file formats, tidying data with the tidyverse, using dplyr for manipulation, processing strings with regular expressions, scraping and parsing web data, handling dates and times, and performing basic text mining.",
+      "skills": [
+        "Data cleaning",
+        "Data wrangling",
+        "Data import",
+        "Data tidying",
+        "Web scraping",
+        "String processing",
+        "Regular expressions",
+        "Data manipulation with dplyr",
+        "Date and time handling",
+        "Text mining",
+        "HTML parsing",
+        "Using tidyverse in R"
+      ],
+      "tools": [
+        "R",
+        "tidyverse",
+        "dplyr",
+        "regex",
+        "HTML"
+      ],
+      "topics": [
+        "Data science",
+        "Data wrangling",
+        "Data cleaning",
+        "Importing data from file formats",
+        "Tidy data",
+        "Web scraping",
+        "HTML parsing",
+        "String manipulation",
+        "Regular expressions",
+        "Dates and times",
+        "Text mining"
+      ],
+      "learning_outcomes": [
+        "Import data into R from different file formats",
+        "Convert raw datasets into tidy formats for analysis",
+        "Manipulate and transform data using dplyr",
+        "Process and clean text using regular expressions",
+        "Extract data from web pages through web scraping and HTML parsing",
+        "Work with date and time data effectively",
+        "Apply basic text mining techniques to unstructured text",
+        "Prepare messy real-world data for downstream analysis"
+      ],
+      "difficulty": "Introductory",
+      "technology": "R-based data science and wrangling",
+      "estimated_duration": "8 weeks, 1-2 hours per week"
+    }
+  },
+  {
+    "title": "Data Science: Linear Regression",
+    "profile": {
+      "summary": "An introductory self-paced course on linear regression in data science. Learners use R to model relationships between variables, understand the historical development of linear regression, detect and address confounding, and apply regression to practical case studies such as baseball analytics.",
+      "skills": [
+        "Linear regression",
+        "Statistical modeling",
+        "Confounding detection",
+        "Variable relationship analysis",
+        "Regression analysis in R",
+        "Data interpretation"
+      ],
+      "tools": [
+        "R",
+        "edX"
+      ],
+      "topics": [
+        "Linear regression",
+        "Statistical relationships",
+        "Confounding",
+        "Predictive modeling",
+        "Baseball analytics",
+        "Data science"
+      ],
+      "learning_outcomes": [
+        "Explain the origins and purpose of linear regression.",
+        "Implement linear regression models in R.",
+        "Analyze relationships between two or more variables using regression.",
+        "Identify confounding variables and detect spurious associations.",
+        "Use linear regression to adjust for confounding when appropriate.",
+        "Apply regression techniques to real-world data science case studies."
+      ],
+      "difficulty": "Introductory",
+      "technology": "R",
+      "estimated_duration": "8 weeks, 1-2 hours per week"
+    }
+  },
+  {
+    "title": "Data Science: Building Machine Learning Models",
+    "profile": {
+      "summary": "An introductory self-paced course on building predictive machine learning models with real-world data. Learners develop a movie recommendation system while studying core concepts such as training data, popular machine learning algorithms, cross-validation, overfitting prevention, regularization, and principal component analysis.",
+      "skills": [
+        "machine learning fundamentals",
+        "predictive modeling",
+        "cross-validation",
+        "overfitting prevention",
+        "regularization",
+        "recommendation systems",
+        "training models on data",
+        "principal component analysis"
+      ],
+      "tools": [
+        "edX"
+      ],
+      "topics": [
+        "machine learning",
+        "data science",
+        "predictive algorithms",
+        "training data",
+        "recommendation engines",
+        "cross-validation",
+        "overtraining",
+        "regularization",
+        "principal component analysis",
+        "movie recommendation systems"
+      ],
+      "learning_outcomes": [
+        "Explain the basic principles of machine learning.",
+        "Use training data to identify predictive relationships in datasets.",
+        "Apply cross-validation techniques to reduce overfitting.",
+        "Compare and use several common machine learning algorithms.",
+        "Build a movie recommendation system from real-world data.",
+        "Describe the purpose of regularization and when to use it.",
+        "Understand the role of principal component analysis in machine learning."
+      ],
+      "difficulty": "Introductory",
+      "technology": "Machine learning",
+      "estimated_duration": "8 weeks, 2-4 hours per week"
+    }
+  },
+  {
+    "title": "Data Science: Productivity Tools",
+    "profile": {
+      "summary": "An introductory data science course focused on productivity and workflow tools for organizing projects and creating reproducible reports. It teaches file management with Unix/Linux, version control with git, collaboration through GitHub, report writing with R Markdown, and project development in RStudio.",
+      "skills": [
+        "File system management",
+        "Version control",
+        "Repository setup",
+        "Project organization",
+        "Reproducible reporting",
+        "Collaboration workflows",
+        "R Markdown authoring",
+        "RStudio usage"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "Unix/Linux",
+        "RStudio",
+        "R Markdown",
+        "edX"
+      ],
+      "topics": [
+        "Data science workflows",
+        "Productivity tools",
+        "File and directory management",
+        "Version control with git",
+        "GitHub repositories",
+        "Collaborative development",
+        "Reproducible research",
+        "Report generation",
+        "Integrated development environments"
+      ],
+      "learning_outcomes": [
+        "Use Unix/Linux commands to manage files and directories effectively.",
+        "Track changes in code and reports using git.",
+        "Create and manage repositories on GitHub.",
+        "Organize data analysis projects for better productivity and collaboration.",
+        "Write reproducible reports that combine code and narrative using R Markdown.",
+        "Use RStudio to support data science workflows and reporting."
+      ],
+      "difficulty": "Introductory",
+      "technology": "Git, GitHub, Unix/Linux, RStudio, R Markdown, R",
+      "estimated_duration": "8 weeks, 1–2 hours per week"
+    }
+  },
+  {
+    "title": "Statistics and R",
+    "profile": {
+      "summary": "An intermediate course introducing core statistical concepts and their implementation in R for analyzing life sciences data. It covers probability distributions, statistical inference, exploratory data analysis, non-parametric methods, data visualization, and reproducible analysis using R scripts.",
+      "skills": [
+        "R programming",
+        "Statistical inference",
+        "Data analysis",
+        "Exploratory data analysis",
+        "Data visualization",
+        "Hypothesis testing",
+        "Confidence interval estimation",
+        "Non-parametric analysis",
+        "Reproducible research"
+      ],
+      "tools": [
+        "R",
+        "R scripts",
+        "edX"
+      ],
+      "topics": [
+        "Random variables",
+        "Probability distributions",
+        "P-values",
+        "Confidence intervals",
+        "Exploratory data analysis",
+        "Non-parametric statistics",
+        "Visualization techniques",
+        "Robust statistical methods",
+        "Life sciences data analysis",
+        "Reproducible research"
+      ],
+      "learning_outcomes": [
+        "Explain basic statistical concepts used in data analysis",
+        "Use R to perform introductory statistical analyses",
+        "Compute and interpret p-values and confidence intervals",
+        "Apply exploratory data analysis techniques to new datasets",
+        "Choose appropriate statistical approaches based on data characteristics",
+        "Use non-parametric and robust methods when standard assumptions are not met",
+        "Create visualizations to investigate and communicate data patterns",
+        "Write R scripts to support reproducible research workflows"
+      ],
+      "difficulty": "Intermediate",
+      "technology": "R",
+      "estimated_duration": "4 weeks, 2-4 hours per week"
+    }
+  },
+  {
+    "title": "Introduction to Probability",
+    "profile": {
+      "summary": "An introductory data science course that teaches core probability concepts through the case study of the 2007–2008 financial crisis. Learners study random variables, independence, Monte Carlo simulation, expected values, standard errors, and the Central Limit Theorem, with practical computation in R.",
+      "skills": [
+        "Probability fundamentals",
+        "Statistical reasoning",
+        "Monte Carlo simulation",
+        "Computing expected values",
+        "Calculating standard errors",
+        "Using R for probability analysis",
+        "Interpreting random variation"
+      ],
+      "tools": [
+        "R",
+        "edX"
+      ],
+      "topics": [
+        "Probability theory",
+        "Random variables",
+        "Independence",
+        "Monte Carlo methods",
+        "Expected value",
+        "Standard error",
+        "Central Limit Theorem",
+        "Statistical inference",
+        "Data science"
+      ],
+      "learning_outcomes": [
+        "Explain foundational concepts in probability theory relevant to data science.",
+        "Describe and work with random variables and independence.",
+        "Perform Monte Carlo simulations.",
+        "Compute expected values and standard errors in R.",
+        "Explain why the Central Limit Theorem is important in data analysis.",
+        "Use probability concepts to reason about uncertainty and chance in real-world data."
+      ],
+      "difficulty": "Introductory",
+      "technology": "R programming for probability and statistical computation in data science",
+      "estimated_duration": "8 weeks, 1–2 hours per week"
+    }
+  },
+  {
+    "title": "High-Dimensional Data Analysis",
+    "profile": {
+      "summary": "An online Harvard CS50 program overview covering foundational and specialized computer science learning paths. It emphasizes problem-solving, programming, algorithms, data structures, databases, web development, APIs, networks, and software development workflows through lectures, problem sets, and projects.",
+      "skills": [
+        "computational thinking",
+        "problem solving",
+        "programming",
+        "algorithm design",
+        "data structures",
+        "database querying",
+        "web development",
+        "API understanding",
+        "network fundamentals",
+        "software collaboration"
+      ],
+      "tools": [
+        "Scratch",
+        "C",
+        "Python",
+        "JavaScript",
+        "R",
+        "SQL",
+        "HTML",
+        "CSS",
+        "Django",
+        "Flask",
+        "GitHub",
+        "edX"
+      ],
+      "topics": [
+        "computer science fundamentals",
+        "algorithms",
+        "abstraction",
+        "data structures",
+        "database design",
+        "SQL",
+        "APIs",
+        "computer networks",
+        "scalable system design",
+        "web programming",
+        "software engineering workflows",
+        "artificial intelligence",
+        "cybersecurity"
+      ],
+      "learning_outcomes": [
+        "Apply computational thinking and abstraction to solve programming problems.",
+        "Implement algorithms and core data structures in code.",
+        "Design and query relational databases using SQL.",
+        "Explain how systems communicate through APIs and networks.",
+        "Build basic web applications with HTML, CSS, JavaScript, and Python frameworks.",
+        "Use programming languages across different problem domains.",
+        "Collaborate on coding projects using GitHub-based workflows.",
+        "Develop solutions with attention to efficiency, scale, and performance."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "computer science and software development",
+      "estimated_duration": "approximately 11 weeks for CS50x; varies for specialized courses"
+    }
+  },
+  {
+    "title": "Data Analysis: Basic Probability and Statistics",
+    "profile": {
+      "summary": "An introductory learning resource focused on basic probability and statistics for data analysis, presented within Harvard's CS50 ecosystem. It emphasizes foundational quantitative reasoning, statistical thinking, and practical analysis skills for beginners.",
+      "skills": [
+        "probability fundamentals",
+        "descriptive statistics",
+        "statistical reasoning",
+        "data interpretation",
+        "quantitative analysis"
+      ],
+      "tools": [
+        "R"
+      ],
+      "topics": [
+        "probability",
+        "statistics",
+        "data analysis",
+        "descriptive statistics",
+        "statistical inference",
+        "data science fundamentals"
+      ],
+      "learning_outcomes": [
+        "Understand core probability concepts used in data analysis.",
+        "Summarize and describe datasets using basic statistical measures.",
+        "Interpret statistical results in the context of real data.",
+        "Apply foundational probability and statistics techniques to analyze data.",
+        "Build a basis for further study in data science and quantitative methods."
+      ],
+      "difficulty": "beginner",
+      "technology": "data analysis and statistics",
+      "estimated_duration": "short course"
+    }
+  },
+  {
+    "title": "MLOps for Scaling TinyML",
+    "profile": {
+      "summary": "An overview of Harvard's CS50 online programs, highlighting foundational computer science learning through lectures, problem sets, and projects. The resource emphasizes problem-solving, programming fundamentals, algorithms, data structures, databases, web development, APIs, networking, and collaborative development workflows, with pathways for beginners and learners pursuing specialized topics such as Python, AI, cybersecurity, SQL, and web programming.",
+      "skills": [
+        "computational thinking",
+        "problem solving",
+        "programming fundamentals",
+        "algorithm design",
+        "data structures",
+        "database querying",
+        "web development",
+        "API usage",
+        "network fundamentals",
+        "version control",
+        "project development"
+      ],
+      "tools": [
+        "Scratch",
+        "C",
+        "Python",
+        "JavaScript",
+        "R",
+        "SQL",
+        "HTML",
+        "CSS",
+        "Django",
+        "Flask",
+        "GitHub",
+        "edX"
+      ],
+      "topics": [
+        "computer science fundamentals",
+        "algorithms",
+        "abstraction",
+        "data structures",
+        "database design",
+        "SQL",
+        "APIs",
+        "computer networks",
+        "scalable system design",
+        "web programming",
+        "software development workflows",
+        "artificial intelligence",
+        "cybersecurity",
+        "Python programming"
+      ],
+      "learning_outcomes": [
+        "Apply computational thinking and abstraction to solve programming problems.",
+        "Write code in multiple programming languages and adapt concepts across technologies.",
+        "Implement common algorithms and data structures.",
+        "Design and query relational databases using SQL.",
+        "Explain how systems communicate through APIs and networks.",
+        "Build basic web applications using HTML, CSS, JavaScript, and frameworks such as Django or Flask.",
+        "Use GitHub for development workflow and collaboration.",
+        "Design solutions with attention to performance and scalability.",
+        "Complete hands-on projects that demonstrate practical software development skills."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "general computer science and software development",
+      "estimated_duration": "approximately 11 weeks for CS50x; varies for other CS50 courses and certificate paths"
+    }
+  },
+  {
+    "title": "R4DS: Data Transformation",
+    "profile": {
+      "summary": "An introductory chapter from R for Data Science that teaches how to transform tabular data in R using dplyr and the tidyverse. It covers core data manipulation verbs for rows and columns, piping operations together, grouping data, and creating summaries using the nycflights13 dataset.",
+      "skills": [
+        "Filter rows",
+        "Sort data",
+        "Select columns",
+        "Create variables",
+        "Rename columns",
+        "Reorder columns",
+        "Find distinct values",
+        "Group data",
+        "Summarize data",
+        "Chain transformations",
+        "Inspect tibbles"
+      ],
+      "tools": [
+        "R",
+        "dplyr",
+        "tidyverse",
+        "nycflights13",
+        "ggplot2",
+        "tibble"
+      ],
+      "topics": [
+        "Data transformation",
+        "Tidyverse workflows",
+        "Tabular data manipulation",
+        "Tibbles",
+        "Row operations",
+        "Column operations",
+        "Pipes",
+        "Grouped operations",
+        "Aggregation",
+        "Exploratory data analysis"
+      ],
+      "learning_outcomes": [
+        "Use dplyr verbs to transform data frames in R.",
+        "Filter, arrange, and deduplicate rows based on conditions.",
+        "Select, rename, relocate, and create columns.",
+        "Combine multiple transformation steps with the pipe operator.",
+        "Group data by one or more variables and compute summaries.",
+        "Inspect tibble structure and understand basic column types.",
+        "Apply data transformation techniques to a real-world flights dataset."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "R tidyverse ecosystem",
+      "estimated_duration": "1-2 hours"
+    }
+  },
+  {
+    "title": "Automate the Boring Stuff with Python",
+    "profile": {
+      "summary": "A beginner-friendly Python book and companion workbook focused on learning programming through practical automation projects. It teaches core Python fundamentals and then applies them to real-world tasks such as file management, web scraping, spreadsheets, databases, document processing, notifications, scheduling, image handling, OCR, and desktop automation.",
+      "skills": [
+        "Python programming",
+        "Task automation",
+        "File handling",
+        "Web scraping",
+        "Spreadsheet automation",
+        "Text processing",
+        "Regular expressions",
+        "Debugging",
+        "Command-line scripting",
+        "Data parsing",
+        "Database basics",
+        "Email automation",
+        "Desktop automation"
+      ],
+      "tools": [
+        "Python",
+        "Regular Expressions",
+        "Excel",
+        "Google Sheets",
+        "SQLite",
+        "PDF files",
+        "Word documents",
+        "CSV",
+        "JSON",
+        "XML",
+        "Email services",
+        "Text notifications",
+        "OCR tools",
+        "Text-to-speech engines",
+        "Speech recognition engines",
+        "Keyboard and mouse automation tools"
+      ],
+      "topics": [
+        "Python basics",
+        "Flow control",
+        "Loops",
+        "Functions",
+        "Lists",
+        "Dictionaries",
+        "Strings",
+        "Text editing",
+        "Pattern matching",
+        "Reading and writing files",
+        "File organization",
+        "Command-line programs",
+        "Web scraping",
+        "Spreadsheet processing",
+        "Database access",
+        "Document processing",
+        "Data formats",
+        "Task scheduling",
+        "Notifications",
+        "Graphing",
+        "Image manipulation",
+        "Optical character recognition",
+        "GUI automation",
+        "Speech technologies"
+      ],
+      "learning_outcomes": [
+        "Write basic Python programs from scratch",
+        "Use variables, data structures, functions, loops, and conditionals effectively",
+        "Debug Python scripts and fix common errors",
+        "Read, write, organize, and manipulate files on a computer",
+        "Extract and transform text using regular expressions",
+        "Build command-line tools for everyday automation tasks",
+        "Scrape websites, download content, and automate form filling",
+        "Work with Excel and Google Sheets programmatically",
+        "Store and query data with SQLite",
+        "Process PDFs, Word documents, CSV, JSON, and XML files",
+        "Schedule tasks and launch programs automatically",
+        "Send emails, texts, and push notifications with Python",
+        "Create graphs and manipulate images",
+        "Recognize text in images using OCR",
+        "Automate keyboard and mouse interactions",
+        "Use text-to-speech and speech recognition in Python projects"
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Python",
+      "estimated_duration": "40-60 hours"
+    }
+  },
+  {
+    "title": "Back-End Development and APIs Certification",
+    "profile": {
+      "summary": "A certification course focused on the fundamentals of back-end development, including building server-side applications with Node.js and Express, working with APIs, and using databases. Learners complete five required projects and pass a certification exam.",
+      "skills": [
+        "Server-side programming",
+        "API development",
+        "REST API design",
+        "Node.js development",
+        "Express.js development",
+        "Database integration",
+        "Back-end architecture",
+        "Project-based implementation"
+      ],
+      "tools": [
+        "Node.js",
+        "Express",
+        "APIs",
+        "Databases"
+      ],
+      "topics": [
+        "Back-end development",
+        "Server-side applications",
+        "REST APIs",
+        "API design",
+        "Node.js",
+        "Express.js",
+        "Databases",
+        "Certification projects"
+      ],
+      "learning_outcomes": [
+        "Understand the core concepts of back-end development",
+        "Build server-side applications using Node.js and Express",
+        "Create and work with APIs",
+        "Design basic RESTful services",
+        "Connect back-end applications to databases",
+        "Complete practical back-end projects for certification readiness"
+      ],
+      "difficulty": "Intermediate",
+      "technology": "Node.js and Express-based back-end web development",
+      "estimated_duration": "40-60 hours"
+    }
+  },
+  {
+    "title": "Python Certification",
+    "profile": {
+      "summary": "A hands-on Python certification course that teaches core programming concepts, problem solving, and software development through theory lessons, labs, workshops, quizzes, and certification projects. Learners progress from Python basics to data structures, algorithms, object-oriented programming, and practical application building.",
+      "skills": [
+        "Python programming",
+        "Problem solving",
+        "Debugging",
+        "Writing functions",
+        "Using conditionals",
+        "Working with loops",
+        "String manipulation",
+        "Data modeling",
+        "Object-oriented programming",
+        "Error handling",
+        "Implementing data structures",
+        "Algorithm design"
+      ],
+      "tools": [
+        "Python",
+        "Python interpreter",
+        "freeCodeCamp learning platform"
+      ],
+      "topics": [
+        "Python fundamentals",
+        "Variables and data types",
+        "Strings",
+        "Numbers and arithmetic",
+        "Booleans and conditionals",
+        "Functions and scope",
+        "Loops and sequences",
+        "Dictionaries and sets",
+        "Error handling",
+        "Classes and objects",
+        "Object-oriented programming",
+        "Linear data structures",
+        "Hash tables",
+        "Algorithms",
+        "Graphs and trees",
+        "Dynamic programming",
+        "Python installation",
+        "Certification projects"
+      ],
+      "learning_outcomes": [
+        "Write basic Python programs using variables, data types, strings, and arithmetic operations.",
+        "Use conditionals, loops, and functions to solve programming problems.",
+        "Build small practical applications such as calculators, planners, and configuration tools.",
+        "Handle errors and organize code with scope-aware functions and reusable logic.",
+        "Create classes and objects using object-oriented programming principles.",
+        "Work with dictionaries, sets, and linear data structures in Python.",
+        "Implement foundational algorithms and data structures such as hash tables and Tower of Hanoi.",
+        "Apply Python skills in certification projects and prepare for a final certification exam."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Python",
+      "estimated_duration": "40-80 hours"
+    }
+  },
+  {
+    "title": "Relational Databases Certification",
+    "profile": {
+      "summary": "A beginner-friendly certification course that teaches the fundamentals of relational databases through SQL, PostgreSQL, Bash, Git, and hands-on projects. Learners build several database-driven applications and complete certification projects to demonstrate database design, querying, and command-line workflow skills.",
+      "skills": [
+        "SQL querying",
+        "PostgreSQL basics",
+        "Database design",
+        "Schema creation",
+        "Data modeling",
+        "Bash scripting",
+        "Command-line usage",
+        "Git version control",
+        "VS Code setup",
+        "Project-based development"
+      ],
+      "tools": [
+        "PostgreSQL",
+        "SQL",
+        "Bash",
+        "Git",
+        "Visual Studio Code",
+        "IDE"
+      ],
+      "topics": [
+        "Relational databases",
+        "SQL and PostgreSQL",
+        "Code editors and IDEs",
+        "Bash fundamentals",
+        "Bash scripting",
+        "SQL and Bash integration",
+        "Git workflows",
+        "Database projects",
+        "Certification exam preparation"
+      ],
+      "learning_outcomes": [
+        "Explain the fundamentals of relational databases and structured data storage.",
+        "Write SQL queries to create, read, update, and manage data in PostgreSQL.",
+        "Design and build relational database schemas for practical applications.",
+        "Use Bash and the command line to work with database-related tasks.",
+        "Set up and use Visual Studio Code or a similar IDE for local development.",
+        "Apply Git for tracking changes during database project development.",
+        "Build hands-on projects such as a celestial bodies database, world cup database, salon scheduler, periodic table database, and number guessing game.",
+        "Prepare for and complete a relational databases certification exam."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "SQL, PostgreSQL, Bash, Git, Visual Studio Code",
+      "estimated_duration": "40-60 hours"
+    }
+  },
+  {
+    "title": "React for Beginners Handbook",
+    "profile": {
+      "summary": "A beginner-friendly handbook that introduces the core concepts of React and shows how to set up a React development environment with Vite. It covers components, JSX, props, state, conditional rendering, event handling, styling approaches, forms, and basic network requests, helping learners build a foundation for creating interactive web interfaces.",
+      "skills": [
+        "Set up a React project",
+        "Create React components",
+        "Write JSX",
+        "Manage props",
+        "Manage state",
+        "Handle user events",
+        "Render conditionally",
+        "Build forms",
+        "Style React components",
+        "Make network requests",
+        "Inspect apps with DevTools"
+      ],
+      "tools": [
+        "React",
+        "Vite",
+        "Node.js",
+        "npm",
+        "Visual Studio Code",
+        "Chrome",
+        "React DevTools",
+        "ESLint",
+        "Fetch API",
+        "Axios",
+        "Tailwind CSS",
+        "CSS Modules"
+      ],
+      "topics": [
+        "React fundamentals",
+        "React project setup",
+        "Component-based UI",
+        "JSX syntax",
+        "Props and immutability",
+        "State with useState",
+        "Conditional rendering",
+        "Event handling",
+        "Rendering lists",
+        "Fragments",
+        "Comments in React",
+        "Component composition",
+        "CSS in React",
+        "Inline styles",
+        "Form handling",
+        "Form validation",
+        "Network requests",
+        "useEffect hook",
+        "ReactDOM rendering",
+        "Vite project structure"
+      ],
+      "learning_outcomes": [
+        "Explain what React is and why it is used for building user interfaces.",
+        "Install the required tools and create a new React application with Vite.",
+        "Understand the basic structure of a React project and key source files.",
+        "Build reusable components and compose them into larger interfaces.",
+        "Use JSX to render elements, lists, and attributes in React components.",
+        "Pass data through props and understand that props are immutable.",
+        "Use state to manage dynamic data and update the UI.",
+        "Apply conditional rendering techniques to show different UI states.",
+        "Respond to user interactions with event handlers.",
+        "Style React applications using CSS files, inline styles, CSS Modules, and Tailwind CSS.",
+        "Create forms, handle input and submission, and perform basic validation.",
+        "Fetch data in React and understand the role of the useEffect hook."
+      ],
+      "difficulty": "Beginner",
+      "technology": "React",
+      "estimated_duration": "6-10 hours"
+    }
+  },
+  {
+    "title": "Python Data Science Handbook",
+    "profile": {
+      "summary": "A comprehensive Python data science reference that teaches interactive computing with IPython, numerical computing with NumPy, data manipulation with Pandas, visualization with Matplotlib and Seaborn, and core machine learning concepts and workflows with Scikit-learn.",
+      "skills": [
+        "interactive Python workflows",
+        "array programming",
+        "data wrangling",
+        "data cleaning",
+        "data indexing",
+        "data aggregation",
+        "dataset merging",
+        "time series analysis",
+        "data visualization",
+        "plot customization",
+        "exploratory data analysis",
+        "feature engineering",
+        "model validation",
+        "supervised learning",
+        "unsupervised learning",
+        "debugging",
+        "performance profiling"
+      ],
+      "tools": [
+        "Python",
+        "IPython",
+        "Jupyter Notebook",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
+        "Basemap"
+      ],
+      "topics": [
+        "IPython commands and debugging",
+        "Python data types",
+        "NumPy arrays and ufuncs",
+        "broadcasting",
+        "boolean masking",
+        "fancy indexing",
+        "sorting arrays",
+        "structured arrays",
+        "Pandas Series and DataFrame",
+        "indexing and selection",
+        "missing data handling",
+        "hierarchical indexing",
+        "concat, append, merge, and join",
+        "grouping and aggregation",
+        "pivot tables",
+        "vectorized string operations",
+        "time series",
+        "Pandas eval and query",
+        "line and scatter plots",
+        "histograms and density plots",
+        "contour plots",
+        "subplots",
+        "annotations and ticks",
+        "stylesheets",
+        "3D plotting",
+        "geographic visualization",
+        "Seaborn visualization",
+        "machine learning fundamentals",
+        "hyperparameters",
+        "cross-validation",
+        "naive Bayes",
+        "linear regression",
+        "support vector machines",
+        "decision trees",
+        "random forests",
+        "principal component analysis",
+        "manifold learning",
+        "k-means clustering",
+        "Gaussian mixture models",
+        "kernel density estimation",
+        "face detection pipeline"
+      ],
+      "learning_outcomes": [
+        "Use IPython and Jupyter features to explore, debug, and profile Python code.",
+        "Work efficiently with NumPy arrays for numerical computation and vectorized operations.",
+        "Manipulate, clean, combine, and summarize tabular data using Pandas.",
+        "Analyze time series data and perform advanced indexing and grouping operations.",
+        "Create and customize a wide range of visualizations with Matplotlib and Seaborn.",
+        "Apply core machine learning workflows in Scikit-learn, including feature engineering and model validation.",
+        "Build and evaluate models for classification, regression, clustering, and dimensionality reduction.",
+        "Understand how Python libraries fit together in an end-to-end data science workflow."
+      ],
+      "difficulty": "intermediate",
+      "technology": "Python data science ecosystem",
+      "estimated_duration": "40-60 hours"
+    }
+  },
+  {
+    "title": "Python Official Tutorial",
+    "profile": {
+      "summary": "Official Python documentation tutorial that introduces programmers to the Python language, covering interpreter usage, core syntax, control flow, functions, data structures, modules, input/output, exceptions, classes, virtual environments, packages, and key parts of the standard library.",
+      "skills": [
+        "Writing Python scripts",
+        "Using the Python interpreter",
+        "Applying control flow",
+        "Defining functions",
+        "Working with data structures",
+        "Handling exceptions",
+        "Creating classes",
+        "Using modules and packages",
+        "Reading and writing files",
+        "Using standard library modules"
+      ],
+      "tools": [
+        "Python interpreter",
+        "Python standard library",
+        "Virtual environments",
+        "Python packages"
+      ],
+      "topics": [
+        "Python syntax",
+        "Numbers and strings",
+        "Lists, tuples, sets, and dictionaries",
+        "Conditional statements",
+        "Loops",
+        "range()",
+        "break and continue",
+        "match statements",
+        "Functions and parameters",
+        "Lambda expressions",
+        "Documentation strings",
+        "Function annotations",
+        "Coding style",
+        "Modules",
+        "Input and output",
+        "Errors and exceptions",
+        "Object-oriented programming",
+        "Classes",
+        "File handling",
+        "Command-line arguments",
+        "Operating system interface",
+        "Pattern matching",
+        "Mathematics utilities",
+        "Internet access",
+        "Dates and times",
+        "Data compression",
+        "Performance measurement",
+        "Quality control",
+        "Virtual environments",
+        "Package management",
+        "Floating-point arithmetic"
+      ],
+      "learning_outcomes": [
+        "Use the Python interpreter to run code interactively and from source files.",
+        "Write basic to intermediate Python programs using core syntax and built-in data types.",
+        "Control program execution with conditionals, loops, and pattern matching.",
+        "Define functions with default, keyword, positional-only, and keyword-only parameters.",
+        "Use common Python data structures effectively, including lists, tuples, sets, and dictionaries.",
+        "Organize code into modules and work with packages and virtual environments.",
+        "Read input, write output, and handle files in Python programs.",
+        "Handle runtime errors using exceptions.",
+        "Create and use classes in an object-oriented style.",
+        "Leverage commonly used modules from the Python standard library."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Python",
+      "estimated_duration": "12-20 hours"
+    }
+  },
+  {
+    "title": "Scikit-learn Documentation",
+    "profile": {
+      "summary": "Official scikit-learn documentation covering installation, getting started, examples, and the core machine learning workflows supported by the library, including classification, regression, clustering, dimensionality reduction, model selection, and preprocessing.",
+      "skills": [
+        "machine learning with Python",
+        "classification",
+        "regression",
+        "clustering",
+        "dimensionality reduction",
+        "model evaluation",
+        "hyperparameter tuning",
+        "data preprocessing",
+        "feature extraction"
+      ],
+      "tools": [
+        "scikit-learn",
+        "NumPy",
+        "SciPy",
+        "matplotlib",
+        "GitHub"
+      ],
+      "topics": [
+        "predictive data analysis",
+        "supervised learning",
+        "unsupervised learning",
+        "classification algorithms",
+        "regression algorithms",
+        "clustering algorithms",
+        "PCA",
+        "non-negative matrix factorization",
+        "feature selection",
+        "cross-validation",
+        "grid search",
+        "evaluation metrics",
+        "normalization",
+        "text feature extraction"
+      ],
+      "learning_outcomes": [
+        "Install and navigate the scikit-learn ecosystem and documentation.",
+        "Apply classification algorithms such as logistic regression, random forests, nearest neighbors, and gradient boosting.",
+        "Build regression models for continuous prediction tasks.",
+        "Use clustering methods to group similar observations.",
+        "Reduce feature dimensionality with techniques such as PCA and feature selection.",
+        "Evaluate and compare models using cross-validation and metrics.",
+        "Tune model parameters with grid search.",
+        "Preprocess and transform raw data for machine learning workflows."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "Python machine learning with scikit-learn",
+      "estimated_duration": "8-15 hours"
+    }
+  },
+  {
+    "title": "R for Data Science (R4DS)",
+    "profile": {
+      "summary": "A comprehensive, practice-oriented guide to doing data science in R. It covers the full workflow from importing, tidying, transforming, and visualizing data to exploratory analysis, modeling-related programming foundations, and communicating results with reproducible documents.",
+      "skills": [
+        "data wrangling",
+        "data visualization",
+        "exploratory data analysis",
+        "data import",
+        "data tidying",
+        "string manipulation",
+        "regular expressions",
+        "working with dates and times",
+        "handling missing data",
+        "joining datasets",
+        "writing functions",
+        "iteration",
+        "reproducible reporting",
+        "code style",
+        "project organization",
+        "web scraping",
+        "database querying"
+      ],
+      "tools": [
+        "R",
+        "ggplot2",
+        "Quarto",
+        "Arrow",
+        "spreadsheets",
+        "databases"
+      ],
+      "topics": [
+        "data science workflow",
+        "grammar of graphics",
+        "literate programming",
+        "reproducible research",
+        "data transformation",
+        "data visualization",
+        "exploratory data analysis",
+        "communication",
+        "logical vectors",
+        "numbers",
+        "strings",
+        "regular expressions",
+        "factors",
+        "dates and times",
+        "missing values",
+        "joins",
+        "spreadsheets",
+        "databases",
+        "hierarchical data",
+        "web scraping",
+        "functions",
+        "iteration",
+        "base R",
+        "scripts and projects",
+        "getting help",
+        "Quarto formats"
+      ],
+      "learning_outcomes": [
+        "Import data from files, spreadsheets, databases, web sources, and hierarchical formats into R.",
+        "Clean, tidy, and transform datasets into analysis-ready structures.",
+        "Create clear and informative visualizations using the grammar of graphics.",
+        "Perform exploratory data analysis to identify patterns, relationships, and anomalies.",
+        "Work effectively with common data types such as strings, factors, dates, and missing values.",
+        "Combine datasets using joins and manage data quality issues.",
+        "Write reusable R functions and use iteration to automate repetitive tasks.",
+        "Organize code with good style, scripts, and project workflows.",
+        "Produce reproducible reports and presentations with Quarto.",
+        "Apply best practices for communicating data insights in a clear and reproducible way."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "R",
+      "estimated_duration": "40-60 hours"
+    }
+  },
+  {
+    "title": "Hands-On Programming with R (HOPR)",
+    "profile": {
+      "summary": "A beginner-friendly, hands-on introduction to programming in R for non-programmers. The resource teaches core R concepts such as the user interface, objects, functions, scripts, packages, help pages, data structures, indexing, and data loading and saving, using practical projects like weighted dice and playing cards to build problem-solving skills for data science.",
+      "skills": [
+        "R programming",
+        "Writing functions",
+        "Using scripts",
+        "Working with vectors",
+        "Working with lists",
+        "Working with data frames",
+        "Indexing data",
+        "Loading and saving data",
+        "Installing packages",
+        "Using help documentation",
+        "Problem solving"
+      ],
+      "tools": [
+        "R",
+        "R packages",
+        "Help pages"
+      ],
+      "topics": [
+        "R user interface",
+        "Objects",
+        "Functions",
+        "Function arguments",
+        "Scripts",
+        "Packages",
+        "Help system",
+        "Atomic vectors",
+        "Data types",
+        "Attributes",
+        "Matrices",
+        "Arrays",
+        "Classes",
+        "Dates and times",
+        "Factors",
+        "Type coercion",
+        "Lists",
+        "Data frames",
+        "Data import",
+        "Data export",
+        "Indexing and subsetting",
+        "Environment system"
+      ],
+      "learning_outcomes": [
+        "Use the R interface to run code and manage basic workflows",
+        "Create and manipulate R objects and data structures",
+        "Write reusable functions with arguments",
+        "Use scripts to organize R code",
+        "Install and load packages in R",
+        "Find and interpret R help documentation",
+        "Work with vectors, matrices, arrays, lists, and data frames",
+        "Subset and access values using R notation",
+        "Load, save, assemble, and disassemble data objects",
+        "Apply R programming skills to practical data science problems"
+      ],
+      "difficulty": "Beginner",
+      "technology": "R",
+      "estimated_duration": "20-30 hours"
+    }
+  },
+  {
+    "title": "UCI Machine Learning Repository",
+    "profile": {
+      "summary": "The UCI Machine Learning Repository is a large public collection of real-world datasets used for machine learning, data mining, and statistical analysis. It provides benchmark datasets from many domains such as healthcare, finance, education, marketing, and retail, making it useful for practicing model development, evaluation, and exploratory data analysis.",
+      "skills": [
+        "dataset selection",
+        "data exploration",
+        "classification modeling",
+        "regression modeling",
+        "benchmarking models",
+        "feature analysis",
+        "statistical analysis",
+        "problem formulation"
+      ],
+      "tools": [
+        "UCI Machine Learning Repository"
+      ],
+      "topics": [
+        "machine learning datasets",
+        "supervised learning",
+        "classification",
+        "regression",
+        "benchmark datasets",
+        "healthcare data",
+        "finance data",
+        "education data",
+        "marketing analytics",
+        "retail transaction data"
+      ],
+      "learning_outcomes": [
+        "Identify suitable public datasets for machine learning and statistical projects.",
+        "Recognize common benchmark datasets used to evaluate classification and regression methods.",
+        "Compare datasets by features, instances, relevance, and domain.",
+        "Select datasets aligned with real-world prediction tasks such as diagnosis, income prediction, student performance, and customer response.",
+        "Use repository metadata to support dataset discovery and experimentation."
+      ],
+      "difficulty": "beginner",
+      "technology": "machine learning",
+      "estimated_duration": "30-60 minutes"
+    }
+  },
+  {
+    "title": "swirl (Learn R in R)",
+    "profile": {
+      "summary": "Introductory setup guide for students to start learning R with the swirl package. It explains how to install R, optionally install RStudio, install and launch swirl from the R console, and add interactive courses for guided practice in R and basic data science.",
+      "skills": [
+        "Installing R",
+        "Installing R packages",
+        "Using the R console",
+        "Launching R packages",
+        "Setting up RStudio",
+        "Installing swirl courses"
+      ],
+      "tools": [
+        "R",
+        "RStudio",
+        "swirl"
+      ],
+      "topics": [
+        "R programming",
+        "Data science learning",
+        "R environment setup",
+        "Package installation",
+        "Interactive coding exercises",
+        "Console-based learning"
+      ],
+      "learning_outcomes": [
+        "Install R version 3.1.0 or later.",
+        "Set up RStudio for a better R development experience.",
+        "Install the swirl package from CRAN.",
+        "Load the swirl package and start it from the R console.",
+        "Install an interactive swirl course.",
+        "Begin learning R through guided in-console exercises."
+      ],
+      "difficulty": "Beginner",
+      "technology": "R",
+      "estimated_duration": "15-30 minutes"
+    }
+  },
+  {
+    "title": "R Programming 101 (GeeksforGeeks)",
+    "profile": {
+      "summary": "Beginner-friendly introduction to R programming that covers setup with RStudio, core syntax, data types and structures, functions, control flow, package usage, data manipulation, visualization, statistical analysis, and selected advanced topics such as machine learning, time series analysis, R Markdown, and Shiny.",
+      "skills": [
+        "R programming",
+        "Using RStudio",
+        "Writing R scripts",
+        "Working with variables",
+        "Using data structures",
+        "Creating functions",
+        "Applying control flow",
+        "Installing packages",
+        "Data manipulation",
+        "Data visualization",
+        "Statistical analysis",
+        "Machine learning basics",
+        "Debugging R code",
+        "Version control with Git"
+      ],
+      "tools": [
+        "R",
+        "RStudio",
+        "CRAN",
+        "Bioconductor",
+        "ggplot2",
+        "dplyr",
+        "tidyr",
+        "Shiny",
+        "R Markdown",
+        "Git"
+      ],
+      "topics": [
+        "Introduction to R",
+        "R installation and setup",
+        "RStudio interface",
+        "R scripts",
+        "Variables and data types",
+        "Vectors",
+        "Matrices",
+        "Data frames",
+        "Lists",
+        "Functions in R",
+        "Conditional statements",
+        "Loops",
+        "R packages",
+        "Data wrangling",
+        "Tidy data",
+        "Base R plotting",
+        "ggplot2 visualization",
+        "Descriptive statistics",
+        "Correlation analysis",
+        "Regression analysis",
+        "Hypothesis testing",
+        "Time series analysis",
+        "Principal component analysis",
+        "Cluster analysis",
+        "Supervised learning",
+        "Unsupervised learning",
+        "R Markdown",
+        "Shiny applications",
+        "Code optimization",
+        "Debugging",
+        "Version control"
+      ],
+      "learning_outcomes": [
+        "Explain what R is and where it is used in data analysis and statistical computing.",
+        "Set up and navigate the RStudio environment for writing and running R code.",
+        "Use R variables, data types, and common data structures to store and manage data.",
+        "Write custom functions and apply control structures such as conditionals and loops.",
+        "Install and load R packages to extend functionality.",
+        "Manipulate and reshape datasets using dplyr and tidyr.",
+        "Create basic and advanced visualizations using base R and ggplot2.",
+        "Perform foundational statistical analyses including descriptive statistics, regression, correlation, and hypothesis testing.",
+        "Recognize advanced R applications such as time series analysis, PCA, clustering, and machine learning.",
+        "Use R Markdown and Shiny for reporting and interactive application development.",
+        "Apply basic best practices for efficient coding, debugging, and version control."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "R ecosystem",
+      "estimated_duration": "8-12 hours"
+    }
+  },
+  {
+    "title": "Microsoft Data Scientist Career Path",
+    "profile": {
+      "summary": "A structured Microsoft Learn career path for aspiring data scientists that introduces the role of a data scientist, core data science responsibilities, machine learning and statistical analysis concepts, and pathways to build skills through self-paced or instructor-led training with certification preparation. The roadmap emphasizes solving business problems with data using Azure-based learning resources.",
+      "skills": [
+        "data analysis",
+        "statistical analysis",
+        "machine learning",
+        "data interpretation",
+        "business problem solving",
+        "working with unstructured data",
+        "AI fundamentals",
+        "data science workflows"
+      ],
+      "tools": [
+        "Microsoft Learn",
+        "Microsoft Azure",
+        "Azure training",
+        "practice assessments",
+        "certification exams"
+      ],
+      "topics": [
+        "data science careers",
+        "role of a data scientist",
+        "data collection",
+        "data analysis",
+        "data interpretation",
+        "machine learning workflows",
+        "artificial intelligence",
+        "statistics",
+        "business acumen",
+        "certification preparation",
+        "professional networking"
+      ],
+      "learning_outcomes": [
+        "Explain the role and responsibilities of a data scientist.",
+        "Describe how data science combines statistics, computer science, and business knowledge.",
+        "Identify common data science skills sought by employers.",
+        "Understand how to work with large, messy, and unstructured datasets.",
+        "Recognize how machine learning, AI, and statistical analysis are used to solve business problems.",
+        "Choose between self-paced and instructor-led learning options for data science training.",
+        "Prepare for Microsoft data science certification through guided learning and practice assessments."
+      ],
+      "difficulty": "beginner to intermediate",
+      "technology": "Microsoft Azure and Microsoft Learn",
+      "estimated_duration": "multi-week career path"
+    }
+  },
+  {
+    "title": "Create Machine Learning Models (Microsoft Learn)",
+    "profile": {
+      "summary": "This Microsoft Learn learning path introduces the core principles of machine learning and shows how to create machine learning models using Azure. It covers foundational concepts, data exploration and analysis with Python, and key model types including regression, classification, clustering, and an introduction to deep learning, along with training and evaluation practices.",
+      "skills": [
+        "Machine learning fundamentals",
+        "Data exploration",
+        "Data analysis",
+        "Data visualization",
+        "Data manipulation",
+        "Model training",
+        "Model evaluation",
+        "Regression modeling",
+        "Classification modeling",
+        "Clustering",
+        "Deep learning basics",
+        "Python for data science",
+        "Azure machine learning"
+      ],
+      "tools": [
+        "Azure",
+        "Python"
+      ],
+      "topics": [
+        "Machine learning",
+        "Predictive modeling",
+        "Artificial intelligence",
+        "Data science",
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Deep learning",
+        "Model evaluation",
+        "Data exploration",
+        "Data visualization"
+      ],
+      "learning_outcomes": [
+        "Explain core machine learning concepts and their role in AI solutions.",
+        "Explore, visualize, and manipulate data using Python.",
+        "Train and evaluate machine learning models.",
+        "Build regression models to predict numeric values.",
+        "Build classification models to categorize data into classes.",
+        "Apply clustering techniques to group similar items.",
+        "Describe the basics of deep learning and neural networks.",
+        "Use Azure-based tools to create machine learning models."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Azure Machine Learning with Python",
+      "estimated_duration": "4-6 hours"
+    }
+  },
+  {
+    "title": "Explore and Analyze Data with Python (Microsoft Learn)",
+    "profile": {
+      "summary": "Introductory Microsoft Learn module on exploring and analyzing data with Python. It covers common data exploration and analysis tasks and demonstrates how to use NumPy, Pandas, and Matplotlib for working with, analyzing, and visualizing data.",
+      "skills": [
+        "Data exploration",
+        "Data analysis",
+        "Data manipulation",
+        "Data visualization",
+        "Python programming",
+        "Working in Jupyter notebooks"
+      ],
+      "tools": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Jupyter Notebook"
+      ],
+      "topics": [
+        "Exploratory data analysis",
+        "Python for data science",
+        "Tabular data processing",
+        "Numerical computing",
+        "Data visualization",
+        "Basic statistical and mathematical reasoning"
+      ],
+      "learning_outcomes": [
+        "Identify common tasks involved in data exploration and analysis.",
+        "Use Python to inspect, manipulate, and analyze datasets.",
+        "Apply NumPy for numerical data operations.",
+        "Use Pandas to work with structured and tabular data.",
+        "Create visualizations with Matplotlib to explore data patterns."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Python data science stack",
+      "estimated_duration": "1 hour"
+    }
+  },
+  {
+    "title": "Pandas Official Documentation",
+    "profile": {
+      "summary": "Official pandas documentation covering core data structures, data manipulation, cleaning, and analysis in Python, with beginner guides, in-depth conceptual explanations, and full API reference.",
+      "skills": [
+        "data manipulation",
+        "data cleaning",
+        "data analysis",
+        "working with DataFrames",
+        "using pandas API",
+        "Python data processing"
+      ],
+      "tools": [
+        "pandas",
+        "Python"
+      ],
+      "topics": [
+        "pandas basics",
+        "Series and DataFrame structures",
+        "data wrangling",
+        "data cleaning",
+        "indexing and selection",
+        "API reference",
+        "getting started guides",
+        "user guide",
+        "release notes",
+        "contributing to pandas"
+      ],
+      "learning_outcomes": [
+        "Understand the main concepts and data structures in pandas.",
+        "Use pandas to manipulate, clean, and analyze tabular data in Python.",
+        "Navigate the pandas user guide and API reference to apply library methods effectively.",
+        "Learn core workflows for working with Series and DataFrame objects.",
+        "Find version-specific changes and release information in pandas documentation.",
+        "Identify ways to contribute to pandas development and documentation."
+      ],
+      "difficulty": "Beginner to Advanced",
+      "technology": "Python data analysis with pandas",
+      "estimated_duration": "10-20 hours"
+    }
+  },
+  {
+    "title": "Create Machine Learning Models (Microsoft Learn)",
+    "profile": {
+      "summary": "This Microsoft Learn learning path introduces core machine learning concepts and shows how to create machine learning models using Azure. It covers the end-to-end workflow of exploring data, training models, and evaluating results across common machine learning approaches such as regression, classification, clustering, and an introduction to deep learning.",
+      "skills": [
+        "Data exploration",
+        "Data analysis",
+        "Data visualization",
+        "Python programming",
+        "Regression modeling",
+        "Classification modeling",
+        "Clustering",
+        "Model training",
+        "Model evaluation",
+        "Predictive modeling"
+      ],
+      "tools": [
+        "Azure",
+        "Python",
+        "Microsoft Learn"
+      ],
+      "topics": [
+        "Machine learning fundamentals",
+        "Predictive modeling",
+        "Data science workflow",
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Deep learning",
+        "Artificial intelligence",
+        "Model evaluation"
+      ],
+      "learning_outcomes": [
+        "Explain core machine learning principles and their role in AI solutions.",
+        "Explore, visualize, and manipulate data for machine learning tasks.",
+        "Train regression models to predict numeric values.",
+        "Build classification models to assign items to categories.",
+        "Use clustering techniques to group similar data points.",
+        "Evaluate machine learning models using common assessment approaches.",
+        "Recognize the purpose of deep learning and neural network-based models.",
+        "Use Azure-based tools and common frameworks to create machine learning models."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Azure machine learning with Python",
+      "estimated_duration": "6-8 hours"
+    }
+  },
+  {
+    "title": "Microsoft Certified PL-300 Study Guide (Power BI Data Analyst)",
+    "profile": {
+      "summary": "Official Microsoft study guide for Exam PL-300 that outlines the skills required for the Power BI Data Analyst role. It covers preparing and transforming data, building data models, creating DAX measures, designing reports and dashboards, analyzing data with visuals and AI features, and managing Power BI workspaces, refresh, security, and governance.",
+      "skills": [
+        "Data preparation",
+        "Data transformation",
+        "Data modeling",
+        "DAX calculations",
+        "Power Query",
+        "Report design",
+        "Data visualization",
+        "Business analysis",
+        "Performance optimization",
+        "Workspace management",
+        "Security configuration",
+        "Self-service analytics"
+      ],
+      "tools": [
+        "Microsoft Power BI",
+        "Power Query",
+        "DAX",
+        "Copilot",
+        "Performance Analyzer",
+        "DAX query view",
+        "Power BI gateway",
+        "Paginated reports"
+      ],
+      "topics": [
+        "Connecting to data sources",
+        "Import, DirectQuery, and DirectLake modes",
+        "Data quality and cleansing",
+        "Query parameters",
+        "Fact and dimension tables",
+        "Relationships and cardinality",
+        "Date tables",
+        "Calculated columns and tables",
+        "Measures and time intelligence",
+        "Calculation groups",
+        "Visual selection and formatting",
+        "Themes and conditional formatting",
+        "Slicers, filters, and drillthrough",
+        "Bookmarks and tooltips",
+        "Mobile and accessible report design",
+        "AI visuals and forecasting",
+        "Outlier and anomaly detection",
+        "Dashboards and apps",
+        "Workspace roles and permissions",
+        "Scheduled refresh",
+        "Row-level security",
+        "Sensitivity labels",
+        "Semantic model access"
+      ],
+      "learning_outcomes": [
+        "Connect Power BI to appropriate data sources and configure connection settings.",
+        "Clean, transform, and shape data by using Power Query.",
+        "Design star-schema models with fact tables, dimension tables, and relationships.",
+        "Create DAX measures, calculated columns, and time intelligence calculations.",
+        "Optimize model and report performance by using analysis tools and reducing unnecessary complexity.",
+        "Build effective reports with suitable visuals, filters, navigation, and storytelling features.",
+        "Use AI and Copilot features to enhance report creation and analysis.",
+        "Create dashboards, apps, and workspaces for content distribution.",
+        "Configure refresh, gateways, and semantic model access.",
+        "Implement Power BI security features including row-level security and sensitivity labels."
+      ],
+      "difficulty": "Intermediate",
+      "technology": "Microsoft Power BI",
+      "estimated_duration": "20-40 hours"
+    }
+  },
+  {
+    "title": "Pro Git (Official Book)",
+    "profile": {
+      "summary": "A comprehensive official book on Git that teaches version control fundamentals, everyday Git usage, branching and merging, remote collaboration, server setup, GitHub workflows, advanced tools, customization, migration, and Git internals.",
+      "skills": [
+        "Git setup",
+        "Repository management",
+        "Commit history inspection",
+        "Branching and merging",
+        "Rebasing",
+        "Remote collaboration",
+        "Tagging",
+        "Undoing changes",
+        "Workflow design",
+        "Git server setup",
+        "SSH key management",
+        "GitHub collaboration",
+        "Interactive staging",
+        "Stashing",
+        "History rewriting",
+        "Debugging with Git",
+        "Submodule management",
+        "Git customization",
+        "Hook configuration",
+        "Migration to Git",
+        "Git troubleshooting"
+      ],
+      "tools": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "GitWeb",
+        "Git Daemon",
+        "SSH",
+        "Libgit2",
+        "JGit",
+        "go-git",
+        "Dulwich",
+        "Visual Studio",
+        "Visual Studio Code",
+        "IntelliJ IDEA",
+        "PyCharm",
+        "WebStorm",
+        "PhpStorm",
+        "RubyMine",
+        "Sublime Text",
+        "Bash",
+        "Zsh",
+        "PowerShell"
+      ],
+      "topics": [
+        "Version control concepts",
+        "Git fundamentals",
+        "Command line usage",
+        "Repository creation and cloning",
+        "Tracking and committing changes",
+        "Viewing history",
+        "Remotes",
+        "Tags and aliases",
+        "Branches",
+        "Merging",
+        "Remote branches",
+        "Rebase",
+        "Distributed workflows",
+        "Project contribution",
+        "Project maintenance",
+        "Git hosting",
+        "Server protocols",
+        "Smart HTTP",
+        "SSH keys",
+        "GitHub",
+        "Interactive staging",
+        "Stashing and cleaning",
+        "Signing commits",
+        "Searching history",
+        "Rewriting history",
+        "Reset",
+        "Advanced merging",
+        "Rerere",
+        "Submodules",
+        "Credential storage",
+        "Git configuration",
+        "Git attributes",
+        "Git hooks",
+        "Migration from other systems",
+        "Git internals",
+        "Git objects",
+        "References and refspecs",
+        "Packfiles",
+        "Transfer protocols",
+        "Maintenance and data recovery",
+        "Embedding Git in applications",
+        "Git commands reference"
+      ],
+      "learning_outcomes": [
+        "Explain how Git works as a distributed version control system.",
+        "Install and configure Git for first-time use.",
+        "Create repositories, record changes, and inspect commit history.",
+        "Use branches, merges, and rebases to manage parallel development.",
+        "Collaborate with remote repositories and hosted platforms like GitHub and GitLab.",
+        "Apply distributed workflows for contributing to and maintaining projects.",
+        "Use advanced Git tools such as interactive staging, stashing, reset, and history rewriting.",
+        "Configure Git with aliases, attributes, hooks, and credential storage.",
+        "Set up and manage Git access on servers using SSH and HTTP-based protocols.",
+        "Understand Git internals including objects, references, packfiles, and transfer mechanisms.",
+        "Migrate projects from other version control systems to Git.",
+        "Use Git within common editors, IDEs, shells, and application libraries."
+      ],
+      "difficulty": "Beginner to advanced",
+      "technology": "Git version control ecosystem",
+      "estimated_duration": "25-40 hours"
+    }
+  },
+  {
+    "title": "GitLab Official Tutorials",
+    "profile": {
+      "summary": "A collection of official GitLab tutorials that guide learners through core platform capabilities, including Git basics, project planning, CI/CD, security scanning, AI-assisted workflows, deployment, infrastructure management, and integrations.",
+      "skills": [
+        "Git version control",
+        "Repository management",
+        "Project planning",
+        "Issue tracking",
+        "Agile workflow management",
+        "CI/CD pipeline setup",
+        "Application deployment",
+        "Security scanning",
+        "Compliance checks",
+        "GitOps workflows",
+        "Kubernetes deployment",
+        "Tool integration",
+        "AI-assisted development"
+      ],
+      "tools": [
+        "GitLab",
+        "Git",
+        "GitLab CI/CD",
+        "GitLab Duo",
+        "Kubernetes",
+        "GitOps"
+      ],
+      "topics": [
+        "GitLab fundamentals",
+        "Git basics",
+        "Repositories",
+        "Project workflows",
+        "Planning and tracking work",
+        "Agile boards",
+        "CI/CD fundamentals",
+        "Build automation",
+        "Dependency scanning",
+        "Compliance scanning",
+        "AI-native workflows",
+        "Deployment and release management",
+        "Infrastructure management",
+        "Third-party integrations"
+      ],
+      "learning_outcomes": [
+        "Navigate the GitLab interface and understand core product areas.",
+        "Use Git for basic version control tasks within GitLab.",
+        "Plan and track work using issues and agile boards.",
+        "Create and understand basic CI/CD pipelines for application builds.",
+        "Apply dependency and compliance scanning to improve application security.",
+        "Use GitLab Duo features to support development workflows.",
+        "Deploy and release applications using GitLab processes.",
+        "Manage infrastructure with GitOps practices and Kubernetes deployments.",
+        "Extend GitLab with external service integrations."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "GitLab DevSecOps platform",
+      "estimated_duration": "4-8 hours"
+    }
+  },
+  {
+    "title": "Learn Git Branching",
+    "profile": {
+      "summary": "Interactive, visual Git tutorial that teaches core and advanced version control concepts through guided levels and command-based exercises. It covers commits, branching, merging, rebasing, HEAD manipulation, and moving work across branches in a hands-on sandbox environment.",
+      "skills": [
+        "Git basics",
+        "Branching",
+        "Merging",
+        "Rebasing",
+        "Commit history navigation",
+        "HEAD management",
+        "Remote workflow",
+        "Command-line Git"
+      ],
+      "tools": [
+        "Git",
+        "Interactive terminal",
+        "Browser-based sandbox"
+      ],
+      "topics": [
+        "Git commits",
+        "Branches",
+        "Detached HEAD",
+        "Merge operations",
+        "Rebase workflows",
+        "Moving changes between branches",
+        "Remote repositories",
+        "Advanced Git commands"
+      ],
+      "learning_outcomes": [
+        "Understand how Git commits and branches are represented in repository history.",
+        "Create and switch branches to organize development work.",
+        "Use merge and rebase to combine or restructure commit history.",
+        "Recognize and work with detached HEAD states.",
+        "Move work between branches using common Git commands.",
+        "Practice Git workflows in an interactive command-line environment.",
+        "Build confidence with both beginner and advanced Git operations."
+      ],
+      "difficulty": "Beginner to advanced",
+      "technology": "Git version control",
+      "estimated_duration": "3-6 hours"
+    }
+  },
+  {
+    "title": "W3Schools SQL Tutorial",
+    "profile": {
+      "summary": "Beginner-friendly SQL tutorial that teaches how to store, retrieve, and manipulate data in relational databases. It uses examples, exercises, quizzes, and references to cover core SQL concepts and works across common database systems such as MySQL, SQL Server, Oracle, PostgreSQL, and MS Access.",
+      "skills": [
+        "writing SQL queries",
+        "retrieving data",
+        "filtering results",
+        "joining tables",
+        "manipulating database records",
+        "understanding SQL data types",
+        "using SQL functions",
+        "practicing with interactive exercises"
+      ],
+      "tools": [
+        "W3Schools SQL Editor",
+        "MySQL",
+        "SQL Server",
+        "Oracle",
+        "PostgreSQL",
+        "MS Access"
+      ],
+      "topics": [
+        "SQL basics",
+        "SELECT statements",
+        "data retrieval",
+        "filtering and conditions",
+        "table joins",
+        "database operations",
+        "SQL keywords",
+        "SQL functions",
+        "SQL data types",
+        "cross-database SQL usage",
+        "SQL exercises and quizzes",
+        "SQL reference materials"
+      ],
+      "learning_outcomes": [
+        "Understand what SQL is and how it is used to work with relational databases.",
+        "Write basic SQL statements to select and retrieve records from database tables.",
+        "Apply filtering conditions to narrow query results.",
+        "Use joins to combine data from multiple tables.",
+        "Perform common database operations for storing and manipulating data.",
+        "Recognize common SQL keywords, functions, and data types.",
+        "Practice SQL syntax using interactive examples and self-check exercises.",
+        "Build foundational SQL knowledge applicable across multiple database platforms."
+      ],
+      "difficulty": "beginner",
+      "technology": "SQL",
+      "estimated_duration": "8-12 hours"
+    }
+  },
+  {
+    "title": "Microsoft Learn SQL Server Resources",
+    "profile": {
+      "summary": "A Microsoft Learn collection of educational resources for SQL Server and Azure SQL covering tutorials, quickstarts, training, and architecture guidance. It includes foundational T-SQL work, connecting and querying with SSMS, backup and restore, monitoring with extended events, replication, availability groups, in-memory tables, security, performance tuning, and deployment options across on-premises, Azure VMs, Azure SQL Database, Azure SQL Managed Instance, and Linux.",
+      "skills": [
+        "Write T-SQL queries",
+        "Connect to SQL Server",
+        "Manage backups and restores",
+        "Configure replication",
+        "Set up availability groups",
+        "Monitor SQL Server",
+        "Tune database performance",
+        "Secure databases",
+        "Deploy SQL on Azure",
+        "Administer managed instances"
+      ],
+      "tools": [
+        "SQL Server Management Studio (SSMS)",
+        "SQL Server",
+        "Azure SQL Database",
+        "Azure SQL Managed Instance",
+        "Azure Virtual Machines",
+        "Azure Blob Storage",
+        "PowerShell",
+        "Database Tuning Advisor"
+      ],
+      "topics": [
+        "Transact-SQL (T-SQL)",
+        "SQL Server administration",
+        "Azure SQL",
+        "Backup and restore",
+        "Extended Events",
+        "Availability groups",
+        "Transactional replication",
+        "Merge replication",
+        "In-memory tables",
+        "Stored procedure signing",
+        "Database security",
+        "Performance tuning",
+        "SQL Server on Linux",
+        "SQL Server on Azure VM",
+        "PaaS vs IaaS data platforms"
+      ],
+      "learning_outcomes": [
+        "Connect to SQL Server and run queries using SSMS.",
+        "Write basic and intermediate Transact-SQL statements.",
+        "Configure backup and restore workflows for on-premises and Azure Blob Storage.",
+        "Use Extended Events to monitor and troubleshoot SQL Server activity.",
+        "Implement high availability with availability groups.",
+        "Set up transactional and merge replication scenarios.",
+        "Create and use in-memory tables.",
+        "Apply certificate-based signing to stored procedures.",
+        "Use Database Tuning Advisor to improve query and database performance.",
+        "Choose appropriate SQL deployment models across SQL Server, Azure SQL Database, Azure VMs, Linux, and Managed Instance.",
+        "Create and configure Azure SQL Managed Instance resources with the portal and PowerShell.",
+        "Secure Azure SQL Database and support geographically distributed application scenarios."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Microsoft SQL Server and Azure SQL",
+      "estimated_duration": "6-12 hours"
+    }
+  },
+  {
+    "title": "Oracle Dev Gym SQL Course",
+    "profile": {
+      "summary": "Free interactive Oracle SQL course covering core SQL concepts, including writing queries, working with joins, managing transactions, and understanding basic data modeling.",
+      "skills": [
+        "SQL querying",
+        "Table joins",
+        "Transaction handling",
+        "Data modeling",
+        "Database querying"
+      ],
+      "tools": [
+        "Oracle Dev Gym",
+        "Oracle SQL"
+      ],
+      "topics": [
+        "SQL fundamentals",
+        "SELECT statements",
+        "Joins",
+        "Transactions",
+        "Relational data modeling",
+        "Database concepts"
+      ],
+      "learning_outcomes": [
+        "Write basic and intermediate SQL queries.",
+        "Retrieve and filter data from relational tables.",
+        "Use joins to combine data from multiple tables.",
+        "Understand how database transactions work.",
+        "Apply foundational data modeling concepts in relational databases.",
+        "Practice SQL interactively in an Oracle learning environment."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Oracle Database / SQL",
+      "estimated_duration": "4-8 hours"
+    }
+  },
+  {
+    "title": "Microsoft OneLake Documentation",
+    "profile": {
+      "summary": "Official Microsoft documentation for OneLake, the unified logical data lake in Microsoft Fabric. It explains OneLake architecture, core concepts, shortcuts, Azure integration, deployment, and getting started guidance for storing and accessing organizational data without managing infrastructure.",
+      "skills": [
+        "Understanding OneLake architecture",
+        "Navigating Microsoft Fabric storage",
+        "Configuring OneLake shortcuts",
+        "Integrating OneLake with Azure",
+        "Deploying Fabric data storage",
+        "Managing unified data access"
+      ],
+      "tools": [
+        "Microsoft OneLake",
+        "Microsoft Fabric",
+        "Azure"
+      ],
+      "topics": [
+        "OneLake overview",
+        "Unified data lake architecture",
+        "Logical data lake",
+        "Microsoft Fabric platform",
+        "OneLake shortcuts",
+        "Azure integration",
+        "Deployment",
+        "Getting started",
+        "Data storage",
+        "Infrastructure-free data management"
+      ],
+      "learning_outcomes": [
+        "Explain the role of OneLake as the unified data lake in Microsoft Fabric.",
+        "Describe the core architecture and concepts behind OneLake.",
+        "Use OneLake shortcuts to access and organize data.",
+        "Identify how OneLake integrates with Azure services.",
+        "Set up and begin using OneLake within a Fabric tenant.",
+        "Understand deployment and management considerations for OneLake."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Microsoft Fabric OneLake",
+      "estimated_duration": "1-2 hours"
+    }
+  },
+  {
+    "title": "Microsoft Fabric Learning Labs",
+    "profile": {
+      "summary": "Hands-on Microsoft Fabric lab that teaches how to discover, access, and analyze data in OneLake. Learners create a workspace and lakehouse, load CSV data into a Delta table, use the OneLake catalog to find and inspect data assets, create cross-workspace shortcuts, query data through the SQL analytics endpoint, and build a semantic model for exploration.",
+      "skills": [
+        "Workspace creation",
+        "Lakehouse setup",
+        "Data ingestion",
+        "Delta table loading",
+        "Data discovery",
+        "Metadata inspection",
+        "Schema exploration",
+        "Shortcut creation",
+        "SQL querying",
+        "Semantic modeling"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "OneLake catalog",
+        "Lakehouse",
+        "SQL analytics endpoint",
+        "Semantic model",
+        "Power BI workspace",
+        "SQL Server Management Studio (SSMS)",
+        "Copilot"
+      ],
+      "topics": [
+        "OneLake data discovery",
+        "Microsoft Fabric workspaces",
+        "Lakehouse architecture",
+        "CSV file upload",
+        "Delta Lake tables",
+        "Parquet files",
+        "ACID transactions",
+        "Cross-workspace data access",
+        "Shortcuts in OneLake",
+        "T-SQL querying",
+        "Metadata and catalog browsing",
+        "Semantic models",
+        "Business intelligence exploration"
+      ],
+      "learning_outcomes": [
+        "Create and configure a Microsoft Fabric workspace and lakehouse.",
+        "Upload CSV data and load it into a queryable Delta table.",
+        "Use the OneLake catalog to discover data assets and review their metadata.",
+        "Inspect lakehouse tables, schema, and underlying file structure.",
+        "Create a shortcut to reference data from another workspace without copying it.",
+        "Query lakehouse data with T-SQL through the SQL analytics endpoint.",
+        "Build and explore a semantic model from lakehouse data.",
+        "Understand how OneLake supports centralized discovery and cross-team analytics workflows."
+      ],
+      "difficulty": "Beginner to intermediate",
+      "technology": "Microsoft Fabric / OneLake",
+      "estimated_duration": "30 minutes"
+    }
+  }
+]

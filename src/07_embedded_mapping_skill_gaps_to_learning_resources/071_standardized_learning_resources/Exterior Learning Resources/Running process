@@ -1,0 +1,8 @@
+Miniforge:
+1.Enter miniforge prompt
+enter the folder
+conda activate dsBase
+pyhton 011_extract_updates.py
+git add .
+git commit -m "Changing prompt to better generate the requried data structure"
+git push
