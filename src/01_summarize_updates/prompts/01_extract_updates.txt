@@ -26,4 +26,5 @@ Here's the JSON that details the GSBPM phases
 ```{JSON}
 {{gsbpm_structured.json}}
 ```
-Before you attempt the task, is this clear? ask any clarifying questions you have.
+
+RESPOND IN VALID JSON ONLY.

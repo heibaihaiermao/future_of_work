@@ -9,7 +9,7 @@ from get_schema import JSONSchemaIdentifier
 identifier = JSONSchemaIdentifier()
 
 from sys import path
-path.append("../../05_forecast_skill_gaps_of_wd")
+# path.append("../../05_forecast_skill_gaps_of_wd")
 from assistant import Assistant
 
 def load_json(path):

@@ -1,0 +1,39 @@
+## Task
+I will provide those elements of the GSBPM updates which are identified as affecting the work-description. Apply reasoning to how those updates will affect the elements of the work-description. Summarize how the updated work-description would differ from it's current state. Then, with those changes in mind, identify skills and knowledge gaps from what is currently expected in the work-description to those required for the future updated work-description. When identifying affected elements, reference specific bullet points within the categories 'Key Activities', 'Technical Activities', 'Skills', 'Responsibilities', and 'Efforts' as listed in the work-description. If an update impacts multiple categories, list each affected bullet point separately under its respective category header. If a skills/knowledge gap affects multiple work-description elements, summarize the gap once and cross-reference it in each relevant affected element. Distinguish unique gaps from those that are systemic or cross-cutting.
+
+The response is to follow a JSON structure. In sequential order, the JSON schema follows the progression of the task instructions:
+ - Per GSBPM update,
+ - apply reasoning on impact,
+ - identify elements impacted,
+ - apply reasoning on nature of element update,
+ - identify skills or knowledge gap required by update.
+
+If an update in one GSBPM phase causes further changes in subsequent phases or processes, note the dependent impacts within an 'interdependencies' field, and describe them in both affected update entries.
+
+Here is the JSON schema.
+```{JSON}
+
+[{"id": "<GSBPM PHASE OR SUB-PROCESS ID>",
+ "update description": "<DESCRIPTION OF THE GSBPM UPDATE>",
+ "interdependencies": ["IDs or titles of related updates or elements affected by cascading changes"],
+ "impact reasoning": "REASONING OF HOW THE WORK-DESCRIPTION WILL CHANGE PER WORK-DESCRIPTION",
+ "affected work-description elements": [
+     {"element": "KEY-ACTIVITY, RESPONSIBILITY, TECHNICAL ACTIVIES, SKILLS, RESPONSIBILITIES, or EFFORTS EFFECTED BY THE GSBPM UPDATE",
+      "element update reasoning": "REASON HOW THE ELEMENT WILL BE UPDATED",
+      "gaps": [
+          {
+           "justification": "PROCESS FOR IDENTIFYING THIS PARTICULAR SKILL OR KNOWLEDGE GAP.",
+           "type": "SKILL OR KNOWLEDGE",
+           "name": "NAME OF SKILL OR KNOWLEDGE",
+           "description": "DESCRIPTION OF SKILL OR KNOWLEDGE"},
+          ... <ADDITIONAL GAPS> ...
+     ... <ADDITIONAL ELEMENTS> ...
+}
+... <ADDITIONAL GSBPM UPDATES> ...
+```
+
+Here are some additional details:
+
+ - Format/Scope of GSBPM update element: I will provide structure JSON of the GSBPM update elements.
+
+ - Nature of 'impact': Include impact on direct operational adjustments, changes to skills and responsibilities, and possible recommendations for future role evolution.

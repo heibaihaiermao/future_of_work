@@ -2,6 +2,8 @@ from openai import AzureOpenAI
 from dotenv import load_dotenv
 from os import getenv
 
+# from helper import parse_json_content
+
 def load_markdown_file(path):
     with open(path, 'r', encoding="utf-8") as fil:
         markdown_content = fil.read()
@@ -35,8 +37,9 @@ if __name__ == "__main__":
     endpoint = getenv("AZURE_OPENAI_ENDPOINT")
     subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")])
 
-    deployment = "gpt-4.1-standard"
-    api_version = "2024-12-01-preview"
+    deployment = "gpt-4.1"
+    # api_version = "2024-12-01-preview"
+    api_version = "2025-01-01-preview"
 
 
     with AzureOpenAI(api_version=api_version,
@@ -56,7 +59,7 @@ if __name__ == "__main__":
     # Save full response
     from pickle import dump
     output_path = "/".join(("data",
-                            "output",
+                            "0002_output",
                         markdown_path.split("/")[-1].split(".")[0]+".pkl"))
     with open(output_path, 'wb') as fil:
         dump(response, fil)
@@ -65,7 +68,8 @@ if __name__ == "__main__":
     import json
     response_content = response.choices[0].message.content
     response_content = response_content.lstrip("`json\n").rstrip("`\n")
-    response_content = json.loads(response_content)
+    print(response_content)
+    response_content = parse_json_content(response_content)
 
     #from json import dump as jdump, 
     json_path = markdown_path.rstrip(".md")+".json"
@@ -79,3 +83,27 @@ if __name__ == "__main__":
 
 
     print(response.choices[0].message.content)
+
+
+def parse_JSON_content(response: String):
+    # TODO: only work under assumption of json string is wrapped by ``` and ``` in input
+    #       Should generalize it to any format of input string
+    
+    match = re.search(r'```(?:json)?\s*(.*?)\s*```', response, re.DOTALL)
+    if not match:
+        raise ValueError("No fenced JSON block found")
+
+    json_str = match.group(1).strip()
+    return json.loads(json_str)
+
+
+
+def _test_parse_JSON_content():
+    ## Test cases.
+    #   - Use ".split" and ".strip", ".rstrip" or ".lstrip"
+    #   - I don't anticipate much regex will be necessary here. It doesn't have to be a one-liner..
+
+    # assert parse_json_content('{"salute": "hello", "subject": ["world"]}') == {"salute": "hello", "subject": ["world"]}
+    assert parse_json_content('```json\n{"salute": "hello", "subject": ["world"]}```') == {"salute": "hello", "subject": ["world"]}
+    assert parse_json_content("""Here's the content you requested! ```{"salute": "hello", "subject": ["world"]}```""") == {"salute": "hello", "subject": ["world"]}
+    assert parse_json_content('```{"salute": "hello", "subject": ["world"]}```\n above this message is the content you requested!') == {"salute": "hello", "subject": ["world"]}

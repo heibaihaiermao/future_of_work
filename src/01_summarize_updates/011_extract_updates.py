@@ -84,11 +84,13 @@ if __name__ == "__main__":
     subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")])
     #endpoint = "https://evan-mfsqg9b6-eastus2.cognitiveservices.azure.com/"
     endpoint = "https://futureofwork-aifoundry-resource.cognitiveservices.azure.com/"
+    endpoint = getenv("AZURE_EXTRACT_ENDPOINT")
     #deployment = "gpt-4.1-standard"
     #deployment = "gpt-5-mini"
     #api_version = "2024-12-01-preview"
     deployment = "o3-mini"
     api_version = "2024-12-01-preview"
+    api_version = "2025-01-01-preview"
 
     raw_data_dir = "data/raw/"
     #raw_data_paths = map(raw_data_dir.__add__,
@@ -147,11 +149,10 @@ if __name__ == "__main__":
         response = client.beta.threads.messages.list(
                         thread_id = thread.id,
                         run_id = run.id)
-        1/0
+        # 1/0
+        #TODO add code
         #reponse = messages[0].content[0].text
-        response  = message[0].content[0].text
-
-
+        response = response[0].content[0].text
 
 #        response = client.chat.completions.create(
 #                        messages = [system_prompt, user_prompt],
