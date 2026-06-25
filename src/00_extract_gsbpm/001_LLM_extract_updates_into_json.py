@@ -26,6 +26,8 @@ if __name__ == "__main__":
     prompt_preamble = load_prompt(prompt_path)
     markdown_content = load_markdown_file(markdown_path)
 
+    load_dotenv()
+
     prompt_content = "\n".join((prompt_preamble,
                                 "```{Markdown}",
                                 markdown_content,
@@ -33,18 +35,22 @@ if __name__ == "__main__":
     user_prompt = {"role": "user",
                    "content": prompt_content}
 
-    load_dotenv("../py.env")
-    endpoint = getenv("AZURE_OPENAI_ENDPOINT")
-    subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")])
+    #load_dotenv("../py.env")
+    endpoint = getenv("AZURE_OPENAI_ENDPOINT") #getting the enviroment vatriabel
+    subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")]) #itemsized it
 
     deployment = "gpt-4.1"
+<<<<<<< HEAD
+    api_version = "2025-04-01-preview"
+=======
     # api_version = "2024-12-01-preview"
     api_version = "2025-01-01-preview"
+>>>>>>> origin/main
 
 
     with AzureOpenAI(api_version=api_version,
                      azure_endpoint=endpoint,
-                     api_key=next(subscription_key)) as client:
+                     api_key=next(subscription_key)) as client: #Loop obrt it?? don;t it only has one env variable now?
 
         response = client.chat.completions.create(
                         messages = [user_prompt],
@@ -73,11 +79,11 @@ if __name__ == "__main__":
 
     #from json import dump as jdump, 
     json_path = markdown_path.rstrip(".md")+".json"
-    with open(json_path, 'w') as fil:
+    with open(json_path, 'w', encoding="utf-8") as fil:
         json.dump(response_content,
-                  fil,
-                  indent=4,
-                  ensure_ascii=False)
+                fil,
+                indent=4,
+                ensure_ascii=False)
 
 
 

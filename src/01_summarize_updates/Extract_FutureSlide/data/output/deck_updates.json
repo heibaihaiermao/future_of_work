@@ -1,0 +1,1440 @@
+[
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cBy 2030, Process (GSBPM 5.0) will operate infrastructure leveraging AI, ML, and advanced technologies to provide programs with rules for their Data Pipelines. Resilient, auditable, and adaptive workflows will produce timely, trustworthy, and reproducible statistical outputs across all subject-matter areas.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services",
+                "Searchable, Usable, Actionable Data Assets"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly names \u201cProcess (GSBPM 5.0)\u201d and describes a transformed operating model for that phase using AI/ML and auditable adaptive workflows.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "\u201cData Pipelines\u201d and \u201cadaptive workflows\u201d imply upstream-to-downstream workflow design and orchestration changes, not only the inner processing tasks.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "AI/ML-enabled infrastructure and deployable pipeline components imply build and assembly of new processing components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "Auditable and adaptive workflows require configured end-to-end workflows in production.",
+                    "text": "Configure workflows",
+                    "id": "3.4"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cGSBPM 5 sub-processes are orchestrated in modular, event-driven frameworks that are automated and version-controlled by design.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly states that \u201cGSBPM 5 sub-processes\u201d are to be reworked through orchestration, automation, modularity, event-driven design, and version control.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "This sub-process is about designing methodology and process logic, which would need to support modular and orchestrated processing.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "The quote explicitly requires workflow-level orchestration and modular design by default.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Event-driven, modular, version-controlled processing requires reusable built components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "This is the sub-process where such workflows are configured in practice.",
+                    "text": "Configure workflows",
+                    "id": "3.4"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cAnalysts are no longer required to manually intervene, clean or manipulate files.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quoted change directly targets manual work currently performed within processing activities.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Manual cleaning and manipulation are core concerns of review/validation activities that the update seeks to reduce or eliminate.",
+                    "text": "Review and validate",
+                    "id": "5.3"
+                },
+                {
+                    "justification": "Manual intervention is especially common in editing and imputation; the update implies greater automation here.",
+                    "text": "Edit and impute",
+                    "id": "5.4"
+                },
+                {
+                    "justification": "File manipulation reduction also implies more automated assembly and handoff of final processed datasets.",
+                    "text": "Finalise data files",
+                    "id": "5.8"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cAI-enabled modules handle 50% of manual interventions for activities such as classification, edits and imputation for administrative and survey data.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly concerns activities housed in GSBPM phase 5 and specifies the target use of AI-enabled modules.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "\u201cclassification\u201d is explicitly named in the quote.",
+                    "text": "Classify and code",
+                    "id": "5.2"
+                },
+                {
+                    "justification": "\u201cedits\u201d and detection of issues are closely implicated in automated intervention reduction.",
+                    "text": "Review and validate",
+                    "id": "5.3"
+                },
+                {
+                    "justification": "\u201cimputation\u201d is explicitly named, and this sub-process directly covers edit and imputation actions.",
+                    "text": "Edit and impute",
+                    "id": "5.4"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cEvery processing pipeline is auditable, reproducible, and deployable across subject-matter domains.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly concerns \u201cprocessing pipeline[s]\u201d and defines new required qualities for the Process phase.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Deployability across domains implies design specifications for reusable methods and standards.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "Auditability and reproducibility at pipeline level imply workflow design across the production system.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Deployable pipelines require built reusable components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "This sub-process operationalizes coherent configured workflows across domains.",
+                    "text": "Configure workflows",
+                    "id": "3.4"
+                },
+                {
+                    "justification": "Auditability and reproducibility must be verified before production use.",
+                    "text": "Test production systems",
+                    "id": "3.5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cMeta-data driven and standardization are default by design.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The update explicitly says standardization is \u201cby design,\u201d pointing to design-stage changes rather than only runtime processing.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "Metadata-driven standardized processing directly affects the Process phase that consumes and generates metadata.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Variable and classification metadata are defined here and are foundational to metadata-driven standardization.",
+                    "text": "Design variables",
+                    "id": "2.2"
+                },
+                {
+                    "justification": "This sub-process defines methodology and standards that make processing metadata-driven.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "Standardized workflows and system design are directly implicated by the quote.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cData processing turnaround time has reduced by 50% across survey programs through automation and orchestration.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly targets the performance of data processing across survey programs.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Automation and orchestration gains imply redesigned processing/analysis methods.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "Orchestration is fundamentally a workflow design concern.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Configured workflows are where orchestration is implemented to reduce turnaround time.",
+                    "text": "Configure workflows",
+                    "id": "3.4"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Business Vision - Process",
+            "description": "\u201cMicroservices are used to manage each processing function (e.g. integrate data, edit, derive new variables, aggregate), with clear input/output standards across surveys and subject-matter areas.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "Searchable, Usable, Actionable Data Assets",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly references \u201ceach processing function\u201d and enumerates functions that are GSBPM 5 sub-processes.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "\u201cintegrate data\u201d is explicitly named.",
+                    "text": "Integrate data",
+                    "id": "5.1"
+                },
+                {
+                    "justification": "\u201cedit\u201d is explicitly named and maps to editing activities.",
+                    "text": "Edit and impute",
+                    "id": "5.4"
+                },
+                {
+                    "justification": "\u201cderive new variables\u201d is explicitly named.",
+                    "text": "Derive new variables and units",
+                    "id": "5.5"
+                },
+                {
+                    "justification": "\u201caggregate\u201d is explicitly named.",
+                    "text": "Calculate aggregates",
+                    "id": "5.7"
+                },
+                {
+                    "justification": "Use of microservices and clear I/O standards implies architectural and workflow design changes.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Microservice-based functions require corresponding built reusable processing components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Key Changes Required - Process",
+            "description": "\u201cData Integration: Focus on facilitating integration, with architecture and FAIR principles playing a key role.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly names data integration and links it to architecture and FAIR principles.",
+                    "text": "Integrate data",
+                    "id": "5.1"
+                },
+                {
+                    "justification": "Architecture and FAIR-based facilitation of integration must be designed upfront.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "Architectural arrangements for integration span the production workflow level.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Because FAIR principles depend on metadata and interoperable variables, this sub-process is also implicated.",
+                    "text": "Design variables",
+                    "id": "2.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Process - Key Changes Required - Process",
+            "description": "\u201cSelf-Service Platforms: Discussion on the role of self-service platforms and tools, making data pipelines transparent and user-friendly.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Transparent and user-friendly pipelines imply workflow and systems redesign, not only procedural changes.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Self-service data pipelines require built components and environments that users can operate.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "Transparency and usability at pipeline level are implemented through configured workflows.",
+                    "text": "Configure workflows",
+                    "id": "3.4"
+                },
+                {
+                    "justification": "The update is framed around data pipelines, so the Process phase is implicated as the main operational context.",
+                    "text": "Process",
+                    "id": "5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cBy 2030, the Analyse (GSBPM 6.0) process will be modernized where analysts focus on delivering high-value outputs by leveraging their analytical expertise and subject matter knowledge.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "A Modern, Insight-Driven Workforce",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly names \u201cAnalyse (GSBPM 6.0)\u201d and describes its proposed modernization.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "High-value analyst work most directly centers on interpretation and contextualization.",
+                    "text": "Interpret and explain outputs",
+                    "id": "6.3"
+                },
+                {
+                    "justification": "Delivering high-value outputs includes the production of analytical outputs and supporting material.",
+                    "text": "Prepare draft outputs",
+                    "id": "6.1"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cThe Analyse process will use orchestration and embed Technology (AI and automation) throughout, supporting an event-driven creation of outputs, validation, user-friendly and robust disclosure control, and preparation of tables and reports for dissemination in a timely way.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly states a cross-cutting redesign of the Analyse process using orchestration, AI, and automation.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "\u201cevent-driven creation of outputs\u201d directly implicates output preparation.",
+                    "text": "Prepare draft outputs",
+                    "id": "6.1"
+                },
+                {
+                    "justification": "\u201cvalidation\u201d is explicitly named.",
+                    "text": "Validate outputs",
+                    "id": "6.2"
+                },
+                {
+                    "justification": "\u201cuser-friendly and robust disclosure control\u201d is explicitly named.",
+                    "text": "Apply disclosure control",
+                    "id": "6.4"
+                },
+                {
+                    "justification": "\u201cpreparation of tables and reports for dissemination\u201d maps to finalizing analytical outputs for release.",
+                    "text": "Finalise outputs",
+                    "id": "6.5"
+                },
+                {
+                    "justification": "Because tables and reports are prepared for dissemination, the design of outputs and dissemination products is additionally implicated.",
+                    "text": "Design outputs and dissemination",
+                    "id": "2.1"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cAnalysts focus on value-added outputs such as interpretation and contextualization.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly redefines analyst effort within the Analyse phase.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "\u201cinterpretation and contextualization\u201d maps directly to this sub-process.",
+                    "text": "Interpret and explain outputs",
+                    "id": "6.3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cReproducible, standardized analytical pipelines are the norm.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly concerns the Analyse phase and its pipelines.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Reproducible and standardized analytical pipelines need methodological design.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "Pipeline reproducibility and standardization also require production workflow design.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Reusable analysis components are needed to make analytical pipelines standardized.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cPublication preparation time is reduced by 50% leveraging AI and automation to facilitate output creation (e.g. Daily text) or validation.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly targets output creation and validation within the Analyse process.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "\u201coutput creation\u201d directly implicates preparation of draft outputs.",
+                    "text": "Prepare draft outputs",
+                    "id": "6.1"
+                },
+                {
+                    "justification": "\u201cvalidation\u201d is explicitly mentioned.",
+                    "text": "Validate outputs",
+                    "id": "6.2"
+                },
+                {
+                    "justification": "Since publication preparation is accelerated, dissemination product production is also affected downstream.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cDisclosure control outputs turnaround time is reduced by 50%.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly targets disclosure control performance.",
+                    "text": "Apply disclosure control",
+                    "id": "6.4"
+                },
+                {
+                    "justification": "This performance change sits within the Analyse phase overall.",
+                    "text": "Analyse",
+                    "id": "6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Business Vision - Analyse",
+            "description": "\u201cFAIR-aligned data discovery platform enables better access and reuse. A searchable, metadata-driven data discovery platform is available to all analysts, enabling them to easily locate and access appropriate data sources.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly supports analysts in the Analyse phase through searchable metadata-driven access.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Access to appropriate data sources supports analysts\u2019 interpretation and explanation work.",
+                    "text": "Interpret and explain outputs",
+                    "id": "6.3"
+                },
+                {
+                    "justification": "Searchable metadata-driven access depends on well-defined variable and classification metadata.",
+                    "text": "Design variables",
+                    "id": "2.2"
+                },
+                {
+                    "justification": "Metadata-supported discoverability and access imply output system and metadata readiness for downstream use.",
+                    "text": "Update output systems",
+                    "id": "7.1"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Key Changes Required - Analyse",
+            "description": "\u201cAutomated Outputs: Implement AI-supported pipelines for auto-generated descriptive and exploratory analysis including daily write-ups, dashboards, and standardized analytical products.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote clearly targets analytical output generation within Analyse.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Auto-generated analysis, daily write-ups, dashboards, and standardized analytical products map directly to draft output preparation.",
+                    "text": "Prepare draft outputs",
+                    "id": "6.1"
+                },
+                {
+                    "justification": "Standardized analytical products additionally imply dissemination-oriented output design.",
+                    "text": "Design outputs and dissemination",
+                    "id": "2.1"
+                },
+                {
+                    "justification": "Dashboards and similar analytical products feed directly into dissemination product production.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Key Changes Required - Analyse",
+            "description": "\u201cReal-Time Analysis: Build infrastructure and tooling that enable real-time analytical workflows with intelligent validation and anomaly detection.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly calls for real-time analytical workflows under Analyse.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "\u201cintelligent validation\u201d directly implicates output validation.",
+                    "text": "Validate outputs",
+                    "id": "6.2"
+                },
+                {
+                    "justification": "Real-time analytical workflows require workflow and systems design.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Infrastructure and tooling imply built and reused processing/analysis components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Key Changes Required - Analyse",
+            "description": "\u201cPrivacy and Metadata Management: Use metadata repositories and FAIR standards for optimal integration into analytical pipelines.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly couples metadata repositories and FAIR standards to analytical pipelines.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Metadata and FAIR-enablement must be established in variable design.",
+                    "text": "Design variables",
+                    "id": "2.2"
+                },
+                {
+                    "justification": "Integration into analytical pipelines requires methodological and processing design choices.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                },
+                {
+                    "justification": "The privacy element also implicates confidentiality/disclosure handling in analysis.",
+                    "text": "Apply disclosure control",
+                    "id": "6.4"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Key Changes Required - Analyse",
+            "description": "\u201cQuality Assurance: Standardize pipelines with embedded validation rules.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly addresses analytical pipelines and validation standardization.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Embedded validation rules directly implicate output validation.",
+                    "text": "Validate outputs",
+                    "id": "6.2"
+                },
+                {
+                    "justification": "Standardization and embedded rules require design of processing and analysis methods.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Key Changes Required - Analyse",
+            "description": "\u201cTransparency and Trust in AI: Implement AI frameworks and ethical review processes to ensure human oversight, fairness, and trust in automated analysis.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly concerns \u201cautomated analysis,\u201d so Analyse is directly implicated.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Human oversight and fairness considerations are especially relevant when validating outputs produced through AI-supported analysis.",
+                    "text": "Validate outputs",
+                    "id": "6.2"
+                },
+                {
+                    "justification": "Ethical review and AI framework implementation imply methodological design changes for analysis.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Analyse - Key Changes Required - Analyse",
+            "description": "\u201cData Access and Discovery: Develop a unified, searchable metadata-supported platform to find and access the best available data for analytical questions.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The update is explicitly framed around data access for analytical questions, so Analyse is implicated.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Finding the best available data supports analysts\u2019 interpretive and explanatory work.",
+                    "text": "Interpret and explain outputs",
+                    "id": "6.3"
+                },
+                {
+                    "justification": "A searchable metadata-supported platform depends on structured variable metadata.",
+                    "text": "Design variables",
+                    "id": "2.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - What is Business Development",
+            "description": "\u201cWithin StatCan, Business Development is defined as a program where employees outside of IT (programs, methodology, operations) are enabled to develop solutions using approved low-code/no-code platforms (e.g. PowerAutomate, PowerApps) and/or approved sets of tools within IT supported, security assessed, AI-enabled business platforms\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "This update concerns who can build and configure operational solutions, which most directly affects the Build phase.",
+                    "text": "Build",
+                    "id": "3"
+                },
+                {
+                    "justification": "Low-code/no-code and approved development tooling imply new ways of building collection tools.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "The quote explicitly allows non-IT staff to develop solutions in supported platforms, affecting build of processing and analysis components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "Approved platforms and tools also shape how dissemination components get developed.",
+                    "text": "Reuse or build dissemination components",
+                    "id": "3.3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - What is Business Development",
+            "description": "\u201c\u2018Business Development\u2019 replaces the concept of \u2018Citizen Development\u2019 (TBS)\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "This is a governance/terminology reframing for development roles rather than a direct phase-specific operational change; it affects how build-related responsibilities are understood across the lifecycle.",
+                    "text": "Build",
+                    "id": "3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - What is Business Development",
+            "description": "\u201cBusiness Development is bound to the same security postures and digital guardrails as the usual software development \u2013 business development life cycle\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Security postures and digital guardrails affect how solutions are designed and built.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "The quote directly concerns the development lifecycle and therefore the Build phase.",
+                    "text": "Build",
+                    "id": "3"
+                },
+                {
+                    "justification": "Security-assessed workflows and systems need to be designed with these guardrails.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Production systems must be tested and signed off under the same security and guardrail expectations.",
+                    "text": "Test production systems",
+                    "id": "3.5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cPrimary Data Collection \u2013 activity groups for business development: Prototyping and exploration with business utilities\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly targets primary data collection activity groups.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Prototyping and exploration with business utilities implies experimentation in collection instrument development.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "Collection-stage business utilities would be prepared and operationalized here.",
+                    "text": "Set up collection",
+                    "id": "4.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cOnce reached the operationalization stage \u2013 use corporate development to ensure operational rigor, repeatability, stability and support\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly distinguishes experimentation from operationalization, which is a Build-phase concern.",
+                    "text": "Build",
+                    "id": "3"
+                },
+                {
+                    "justification": "Operational rigor, repeatability, and stability are verified through production-system testing.",
+                    "text": "Test production systems",
+                    "id": "3.5"
+                },
+                {
+                    "justification": "Moving operationalized solutions into supported production aligns with finalising production systems.",
+                    "text": "Finalise production systems",
+                    "id": "3.7"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cParadata research and analysis\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "Paradata is generated in collection and explicitly referenced here as an activity group.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Paradata is especially associated with running collection activities.",
+                    "text": "Run collection",
+                    "id": "4.3"
+                },
+                {
+                    "justification": "The collected paradata is also assessed when collection is finalized.",
+                    "text": "Finalise collection",
+                    "id": "4.4"
+                },
+                {
+                    "justification": "Paradata is a key input for evaluation and continuous improvement.",
+                    "text": "Gather evaluation inputs",
+                    "id": "8.1"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cBusiness process automation through established platforms - PowerApps, RPA etc.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly promotes automation of business processes using established platforms.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Automation platforms would shape how collection tools are built or reused.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "Collection setup is where such automated platforms would be prepared and configured.",
+                    "text": "Set up collection",
+                    "id": "4.2"
+                },
+                {
+                    "justification": "Automation is also applied during live collection operations.",
+                    "text": "Run collection",
+                    "id": "4.3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cAI-enabled solutions within corporate AI environments / platforms / tools\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote indicates AI-enabled solutions used in collection-related business development.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "AI-enabled collection solutions depend on the build of collection instruments.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "Corporate AI environments also affect collection setup and operational readiness.",
+                    "text": "Set up collection",
+                    "id": "4.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cSecondary Data Collection (alternative data sources) \u2013 activity groups for business development: Entry point for processing and analytical pipelines\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Surveys as a last resort, not first response",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly centers on secondary data collection and alternative data sources.",
+                    "text": "Check data availability and suitability",
+                    "id": "1.5"
+                },
+                {
+                    "justification": "It directly refers to secondary data collection as the entry point into downstream processing and analysis pipelines.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Alternative-source intake as entry point strongly implicates integration of collected data into processing.",
+                    "text": "Integrate data",
+                    "id": "5.1"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Collection",
+            "description": "\u201cBusiness development will follow patterns established for processing / analysis \u2013 including AI enablement\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly says collection-side business development will follow processing/analysis patterns.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "The referenced established patterns are those of processing.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "The quote explicitly includes analysis-side patterns as the model.",
+                    "text": "Analyse",
+                    "id": "6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Processing and Analysis Activity Groups \u2013 Corporate vs. Business Development",
+            "description": "\u201cDevelop data analytics solutions (business logic) within IT supported, security assessed, AI-enabled production platforms (the Zone, Fabric) while following the Standard on Managing Data Analytics Solutions\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly concerns development of business logic for processing and analysis.",
+                    "text": "Build",
+                    "id": "3"
+                },
+                {
+                    "justification": "These solutions are specifically for processing and analysis components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "Security-assessed AI-enabled production platforms also imply configured workflows for operational use.",
+                    "text": "Configure workflows",
+                    "id": "3.4"
+                },
+                {
+                    "justification": "Because the produced business logic serves processing activities, Process is implicated.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Because the produced business logic also serves analysis activities, Analyse is implicated.",
+                    "text": "Analyse",
+                    "id": "6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Processing and Analysis Activity Groups \u2013 Corporate vs. Business Development",
+            "description": "\u201cCreate data pipelines, R/Python scripts, modules and packages, visualizations and dashboards incl. use of AI methods\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly describes artifacts that implement processing and analysis work.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "\u201cdata pipelines\u201d directly affect processing.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "\u201cvisualizations and dashboards\u201d directly affect analysis outputs and analytical products.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "AI methods within these components imply methodological design updates.",
+                    "text": "Design processing and analysis",
+                    "id": "2.5"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Processing and Analysis Activity Groups \u2013 Corporate vs. Business Development",
+            "description": "\u201cCreate data edit / capture interfaces within security assessed platforms to allow for manual edits and overrides\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "\u201cdata edit / capture interfaces\u201d implies support for both collection capture and downstream editing.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Capture interfaces directly concern collection instruments.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "Manual edits and overrides directly map to edit/imputation operations.",
+                    "text": "Edit and impute",
+                    "id": "5.4"
+                },
+                {
+                    "justification": "These interfaces are built operational components in supported platforms.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Dissemination",
+            "description": "\u201cPreparation of Dissemination outputs \u2013 activity groups for business development: Dissemination vision calls for a set of rules what dissemination outputs should be created for the web-site \u2013 using corporate tools\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "Searchable, Usable, Actionable Data Assets"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly concerns what dissemination outputs should be created and with what tools.",
+                    "text": "Disseminate",
+                    "id": "7"
+                },
+                {
+                    "justification": "A rule-based definition of website outputs directly implicates dissemination design.",
+                    "text": "Design outputs and dissemination",
+                    "id": "2.1"
+                },
+                {
+                    "justification": "Preparation of dissemination outputs corresponds to product production.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Dissemination",
+            "description": "\u201cProduction of dissemination outputs will be the last step in the data pipelines \u2013 programs / operations will use activity groups for processing / analysis, incl. retrieval of external data for confrontation\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly embeds dissemination output production as the last step in data pipelines.",
+                    "text": "Disseminate",
+                    "id": "7"
+                },
+                {
+                    "justification": "It directly concerns production of dissemination outputs.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                },
+                {
+                    "justification": "Because dissemination is positioned as the final step in end-to-end pipelines, processing is implicated upstream.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "The quote explicitly says programs will use processing/analysis activity groups for this purpose.",
+                    "text": "Analyse",
+                    "id": "6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Dissemination",
+            "description": "\u201cProcessing / analysis activity groups will also be used to produce custom tabulations - design, certification, and production\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly links processing and analysis activity groups to custom tabulations.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "Tabulations depend on aggregate creation in processing.",
+                    "text": "Calculate aggregates",
+                    "id": "5.7"
+                },
+                {
+                    "justification": "Design, certification, and production of custom tabulations are also analytical output functions.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Custom tabulations are commonly disseminated as tailored products.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Dissemination",
+            "description": "\u201cPrograms / operations will use corporate platform / toolkits to create and post outputs on the website \u2013 e.g., Drupal toolkit to create and post pages; data visualization platforms such as PowerBI\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly concerns creation and posting of outputs on the website.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                },
+                {
+                    "justification": "Posting outputs on the website is part of release activities.",
+                    "text": "Release dissemination products",
+                    "id": "7.3"
+                },
+                {
+                    "justification": "Corporate platforms and toolkits for such posting need dissemination component support.",
+                    "text": "Reuse or build dissemination components",
+                    "id": "3.3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "GSBPM Roadmap Business Development - Business Development: Dissemination",
+            "description": "\u201cDisseminating outputs \u2013 for AI consumption: Use corporate platforms to publish statistical data in format expected by AI bots / search engines\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly concerns dissemination for machine consumption.",
+                    "text": "Disseminate",
+                    "id": "7"
+                },
+                {
+                    "justification": "Publishing data in specific machine-consumable formats directly affects product production.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                },
+                {
+                    "justification": "Machine-oriented publication formats need to be reflected in dissemination design.",
+                    "text": "Design outputs and dissemination",
+                    "id": "2.1"
+                },
+                {
+                    "justification": "Metadata/data readiness for machine consumption also implicates output system preparation.",
+                    "text": "Update output systems",
+                    "id": "7.1"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Agency-wide future state priorities",
+            "description": "\u201cAutomated, AI-powered data pipelines\u2014from acquisition to dissemination\u2014 reduce manual effort, increase speed and quality, and enable real-time responsiveness across all stages of the statistical business process. Employee input focuses on higher value work, innovation, and interpretation, not execution.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "End-to-End Process Automation with Minimal Manual Intervention",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly spans \u201cfrom acquisition to dissemination\u201d and \u201cacross all stages of the statistical business process,\u201d so it has end-to-end implications.",
+                    "text": "Collect",
+                    "id": "4"
+                },
+                {
+                    "justification": "Acquisition-to-dissemination pipelines necessarily include processing automation.",
+                    "text": "Process",
+                    "id": "5"
+                },
+                {
+                    "justification": "The shift to higher value work and interpretation directly affects analysis.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "The quote explicitly includes dissemination as the end of the pipeline.",
+                    "text": "Disseminate",
+                    "id": "7"
+                },
+                {
+                    "justification": "End-to-end AI-powered pipelines require workflow design across the process.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Agency-wide future state priorities",
+            "description": "\u201cExploiting existing data holdings is the first response for new/existing data needs. Admin data and alternative data is the second response for new/existing data needs. Surveys are only used if necessary and are optimized dynamically based on cost-benefit analysis. Designing, rendering and fielding a questionnaire is done using AI and takes no more than X time\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Surveys as a last resort, not first response",
+                "End-to-End Process Automation with Minimal Manual Intervention"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote directly reframes how data needs are met, privileging existing/admin/alternative data before surveys.",
+                    "text": "Specify needs",
+                    "id": "1"
+                },
+                {
+                    "justification": "The first-response choice among existing, admin, alternative, and survey sources directly implicates identifying and confirming needs.",
+                    "text": "Identify needs",
+                    "id": "1.1"
+                },
+                {
+                    "justification": "Using existing/admin/alternative data before surveys directly implicates checking source availability and suitability.",
+                    "text": "Check data availability and suitability",
+                    "id": "1.5"
+                },
+                {
+                    "justification": "Questionnaire design, rendering, and fielding using AI directly affect survey collection design.",
+                    "text": "Design collection",
+                    "id": "2.3"
+                },
+                {
+                    "justification": "AI-assisted questionnaire creation also affects the build of collection instruments.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "Fielding questionnaires is part of collection setup and execution.",
+                    "text": "Set up collection",
+                    "id": "4.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Agency-wide future state priorities",
+            "description": "\u201cAll data and metadata are standardized, richly described, and machine-actionable\u2014built for interoperability and reuse across tools, systems, and organizations. Discovery, understanding, and use are seamless for all types of users\u2014whether human or machine\u2014through APIs, metadata tagging, and open formats.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Searchable, Usable, Actionable Data Assets",
+                "Modular, Reusable Architecture and Tools & services"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly concerns data and metadata standardization, rich description, interoperability, and reuse across the lifecycle.",
+                    "text": "Design",
+                    "id": "2"
+                },
+                {
+                    "justification": "Variable definitions and metadata are foundational for machine-actionable interoperable data.",
+                    "text": "Design variables",
+                    "id": "2.2"
+                },
+                {
+                    "justification": "Workflow and system design must support APIs, metadata tagging, open formats, and interoperability.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Dissemination output systems need data and metadata linked and published for human and machine use.",
+                    "text": "Update output systems",
+                    "id": "7.1"
+                },
+                {
+                    "justification": "Open formats and machine-consumable outputs directly affect dissemination product design and production.",
+                    "text": "Produce dissemination products",
+                    "id": "7.2"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Agency-wide future state priorities",
+            "description": "\u201cThe organization has modular tools and microservices to increase agility, maintainability, and reuse across programs. Business areas are empowered to prototype and develop smart solutions using supported self-service environments, with guardrails and shared libraries. Open-source tools are the default, and employees openly share their code.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "Modular, Reusable Architecture and Tools & services",
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly calls for modular tools, microservices, self-service environments, shared libraries, and code sharing.",
+                    "text": "Build",
+                    "id": "3"
+                },
+                {
+                    "justification": "Microservices and reusable smart solutions directly affect the building of processing and analysis components.",
+                    "text": "Reuse or build processing and analysis components",
+                    "id": "3.2"
+                },
+                {
+                    "justification": "Supported self-service environments and guardrails require workflow and system design choices.",
+                    "text": "Design production systems and workflows",
+                    "id": "2.6"
+                },
+                {
+                    "justification": "Because reuse is stated \u201cacross programs,\u201d dissemination and collection components may also be reused under the same modular principle.",
+                    "text": "Reuse or build collection instruments",
+                    "id": "3.1"
+                },
+                {
+                    "justification": "Because the same modular principle extends to downstream output tooling, dissemination components are also implicated.",
+                    "text": "Reuse or build dissemination components",
+                    "id": "3.3"
+                }
+            ]
+        }
+    },
+    {
+        "update": {
+            "reference": "Agency-wide future state priorities",
+            "description": "\u201cAnalysts and researchers focus on value-add insight, not operational tasks\u2014spending more time understanding context, building relationships, and generating actionable analysis. Teams are curious, agile, and versatile\u2014fluent in open-source tools, data science methods, and collaborative problem-solving across disciplines.\u201d \u30104:2\u20201. A glimpse of the future - Tier 2 Committee Visions for the future of the agency (2) - Copy.pptx\u3011",
+            "strategic priorities": [
+                "A Modern, Insight-Driven Workforce"
+            ],
+            "implicated phases and subphases": [
+                {
+                    "justification": "The quote explicitly shifts analysts and researchers toward insight and actionable analysis.",
+                    "text": "Analyse",
+                    "id": "6"
+                },
+                {
+                    "justification": "Understanding context and generating actionable analysis most directly align with interpretation and explanation.",
+                    "text": "Interpret and explain outputs",
+                    "id": "6.3"
+                },
+                {
+                    "justification": "Moving staff away from operational tasks implies increased automation in processing.",
+                    "text": "Process",
+                    "id": "5"
+                }
+            ]
+        }
+    }
+]

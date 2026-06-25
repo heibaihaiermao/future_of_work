@@ -6,5 +6,5 @@ INDEX($raw[0].data[]; .title) as $raw_dict |
  	 #topic?
 	 "competencies": .proficiency |
 				[(.[]? | {"competency": .SA, "proficiency": .PL} ) //
-				 	 {"competency": ., "proficieny": "unknown"}]
+				 	 {"competency": ., "proficiency": "unknown"}]
 }
