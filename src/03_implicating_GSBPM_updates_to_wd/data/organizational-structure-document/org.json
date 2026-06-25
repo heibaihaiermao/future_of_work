@@ -1,0 +1,1947 @@
+[
+    {
+        "field number": "80000 - Social, Health and Labour Statistics Field",
+        "branches": [
+            {
+                "branch name": "88000 - Social, Justice and Indigenous Statistics Branch",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "81000 - Canadian Centre for Justice and Community Safety Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "84900 - Centre for Indigenous Statistics and Partnerships",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900211",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900999",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "84500 - Centre for Population and Social Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900208",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "88000 - Social, Justice and Indigenous Statistics Branch",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900995",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "branch name": "85000 - Socioeconomic Statistics and Social Data Integration Branch",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "85600 - Centre for Labour Market Information",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-01",
+                                "job family": "900200",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900208",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "84010 - Census Subject Matter Secretariat",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "85400 - Centre for Housing and Income Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "540002",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "85300 - Centre for Social Data Development and Insights",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900208",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900211",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "82200 - Canadian Centre For Education Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "85000 - Socioeconomic Statistics and Social Data Integration Branch",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900995",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "84400 - Centre for Social Data Insights and Innovation",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "branch name": "82000 - Health Statistics and Demography Branch",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "82400 - Centre for Health Data Integration and Direct Measures",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "540003",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "82300 - Centre for Population Health Data",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900217",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "84200 - Centre for Demography",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900211",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900214",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "82000 - Health Statistics and Demography Branch",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900995",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "branch name": "80000 - Social, Health and Labour Statistics Field",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "80000 - Social, Health and Labour Statistics Field",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "field number": "50000 - Economic Statistics Field",
+        "branches": [
+            {
+                "branch name": "55000 - Agriculture, Energy, Environment, Transportation and Tourism Statistics Branch Management",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "55100 - Agriculture Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900208",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "700202",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "55001 - Centre for Energy and Transportation Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900209",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900999",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "540002",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "55200 - Centre for Special Business Projects",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900211",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "55400 - Environment Accounts and Statistics Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900211",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "540003",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900214",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "branch name": "42000 - Macroeconomic Accounts Branch",
+                "branch level training": [
+                    {
+                        "name": "National Accounts Statistics (NASx)",
+                        "when should an employee take this training": "Ongoing",
+                        "sme": "Yes",
+                        "competencies": "national accounting conceptual and measurement knowledge",
+                        "target learners": "analysts and managers",
+                        "target group and level": "EC 02-08",
+                        "prerequisite": "No",
+                        "cost": "No",
+                        "delivery method": "Online Self-Directed",
+                        "link_en": "https://www.imf.org/en/capacity-development/training/icdtc/schedule/ol/2026/nasxol26-187",
+                        "bilingual": "Yes",
+                        "offered_by": "International Monetary Fund",
+                        "requirement": "Recommended",
+                        "link_fr": ""
+                    },
+                    {
+                        "name": "Institutional Sector Accounts (ISAx)",
+                        "when should an employee take this training": "Ongoing",
+                        "sme": "Yes",
+                        "competencies": "national accounting conceptual and measurement knowledge",
+                        "target learners": "analysts and managers",
+                        "target group and level": "EC 02-08",
+                        "prerequisite": "No",
+                        "cost": "No",
+                        "delivery method": "Online Self-Directed",
+                        "link_en": "https://www.imf.org/en/capacity-development/training/icdtc/schedule/ol/2025/isaxol25-236",
+                        "bilingual": "Yes",
+                        "offered_by": "International Monetary Fund",
+                        "requirement": "Recommended",
+                        "link_fr": ""
+                    }
+                ],
+                "divisions": [
+                    {
+                        "division name": "42500 - International Accounts and Trade Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900214",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "42700 - Industry Accounts Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "700201",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "42200 - National Economic Accounts Division",
+                        "division level training": [
+                            {
+                                "name": "FAME",
+                                "when should an employee take this training": "Early",
+                                "sme": "Yes",
+                                "competencies": "FAME programming skills",
+                                "target learners": "analysts and managers",
+                                "target group and level": "EC 02-08",
+                                "prerequisite": "No",
+                                "cost": "No",
+                                "delivery method": "Online Self-Directed",
+                                "link_en": "http://nead-dcen/systems-systemes/FAME/training-formation/start-debut-eng.htm",
+                                "bilingual": "Yes",
+                                "offered_by": "National Economic Accounts Division",
+                                "requirement": "Required",
+                                "link_fr": "http://nead-dcen/systems-systemes/FAME/training-formation/start-debut-fra.htm"
+                            }
+                        ],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "540002",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "42600 - Public Sector Statistics Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "700202",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "42000 - Macroeconomic Accounts Branch",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "branch name": "53000 - Industry Statistics Branch",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "54300 - Producer Prices Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900214",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "540003",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-01",
+                                "job family": "900200",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "540002",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "541235",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900209",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "54800 - Centre for Innovation, Technology and Enterprise Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900994",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "540003",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "500007",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "540002",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-01",
+                                "job family": "900218",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "54100 - Consumer Prices Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900213",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900208",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "700202",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900212",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "540002",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900999",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900003",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "540003",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "679106",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "541235",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "53100 - Centre for Production, Distribution and Investment Statistics",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "500001",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "53300 - Retail and Service Industries Division",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900210",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900215",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900221",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-02",
+                                "job family": "900218",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900222",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "900216",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-04",
+                                "job family": "900220",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "700204",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-03",
+                                "job family": "900219",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-06",
+                                "job family": "679022",
+                                "position training": []
+                            }
+                        ]
+                    },
+                    {
+                        "division name": "53000 - Industry Statistics Branch",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-07",
+                                "job family": "900217",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "branch name": "50000 - Economic Statistics Field",
+                "branch level training": [],
+                "divisions": [
+                    {
+                        "division name": "50000 - Economic Statistics Field",
+                        "division level training": [],
+                        "positions": [
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900999",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-08",
+                                "job family": "900206",
+                                "position training": []
+                            },
+                            {
+                                "group and level": "EC-05",
+                                "job family": "900998",
+                                "position training": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

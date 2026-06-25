@@ -24,13 +24,15 @@ warnings.filterwarnings("ignore", category=UserWarning, module="AzureOpenAI.beta
 
 
 
-def setup_azure(system_prompt, dotenv_path=""):
-    load_dotenv()
+def setup_azure(system_prompt, dotenv_path="../../py.env"):
+    load_dotenv(dotenv_path)
+
     # Setup assistant.
     client = AzureOpenAI(
       azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
       api_key= os.getenv("AZURE_OPENAI_API_KEY"),
-      api_version= os.getenv("AZURE_OPENAI_API_VERSION"))
+    #   api_version="2024-05-01-preview")
+      api_version="2025-01-01-preview")
     
     assistant = client.beta.assistants.create(
       model="gpt-4.1", # replace with model deployment name.
@@ -129,10 +131,7 @@ class Assistant():
     def wait_after_error(self):
         error_message = str(self.err_run.last_error)
         time_req = error_message.split("Please retry after ")[-1].split()[0]
-        try: 
-            time_req = int(time_req)
-        except:
-            time_req = 5
+        time_req = int(time_req)
         print(f"sleeping: {time_req:.1f}")
         sleep(time_req)
 
