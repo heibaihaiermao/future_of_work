@@ -1169,7 +1169,40 @@
             },
             {
                 "branch name": "42000 - Macroeconomic Accounts Branch",
-                "branch level training": [],
+                "branch level training": [
+                    {
+                        "name": "National Accounts Statistics (NASx)",
+                        "when should an employee take this training": "Ongoing",
+                        "sme": "Yes",
+                        "competencies": "national accounting conceptual and measurement knowledge",
+                        "target learners": "analysts and managers",
+                        "target group and level": "EC 02-08",
+                        "prerequisite": "No",
+                        "cost": "No",
+                        "delivery method": "Online Self-Directed",
+                        "link_en": "https://www.imf.org/en/capacity-development/training/icdtc/schedule/ol/2026/nasxol26-187",
+                        "bilingual": "Yes",
+                        "offered_by": "International Monetary Fund",
+                        "requirement": "Recommended",
+                        "link_fr": ""
+                    },
+                    {
+                        "name": "Institutional Sector Accounts (ISAx)",
+                        "when should an employee take this training": "Ongoing",
+                        "sme": "Yes",
+                        "competencies": "national accounting conceptual and measurement knowledge",
+                        "target learners": "analysts and managers",
+                        "target group and level": "EC 02-08",
+                        "prerequisite": "No",
+                        "cost": "No",
+                        "delivery method": "Online Self-Directed",
+                        "link_en": "https://www.imf.org/en/capacity-development/training/icdtc/schedule/ol/2025/isaxol25-236",
+                        "bilingual": "Yes",
+                        "offered_by": "International Monetary Fund",
+                        "requirement": "Recommended",
+                        "link_fr": ""
+                    }
+                ],
                 "divisions": [
                     {
                         "division name": "42500 - International Accounts and Trade Division",
@@ -1295,7 +1328,24 @@
                     },
                     {
                         "division name": "42200 - National Economic Accounts Division",
-                        "division level training": [],
+                        "division level training": [
+                            {
+                                "name": "FAME",
+                                "when should an employee take this training": "Early",
+                                "sme": "Yes",
+                                "competencies": "FAME programming skills",
+                                "target learners": "analysts and managers",
+                                "target group and level": "EC 02-08",
+                                "prerequisite": "No",
+                                "cost": "No",
+                                "delivery method": "Online Self-Directed",
+                                "link_en": "http://nead-dcen/systems-systemes/FAME/training-formation/start-debut-eng.htm",
+                                "bilingual": "Yes",
+                                "offered_by": "National Economic Accounts Division",
+                                "requirement": "Required",
+                                "link_fr": "http://nead-dcen/systems-systemes/FAME/training-formation/start-debut-fra.htm"
+                            }
+                        ],
                         "positions": [
                             {
                                 "group and level": "EC-06",
