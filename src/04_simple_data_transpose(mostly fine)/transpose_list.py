@@ -22,7 +22,7 @@ def today():
     return date.today().isoformat()
 
 if __name__ == "__main__":
-    with open("../03_implicating_GSBPM_updates_to_wd/data/results/mapping/2025-10-01_-_direct_mapping_-_GSBPM_updates_to_work-descriptions.json", 'r', encoding="utf-8") as fil:
+    with open("../03_implicating_GSBPM_updates_to_wd/data/results/mapping_results/2025-10-01_-_direct_mapping_-_GSBPM_updates_to_work-descriptions.json", 'r', encoding="utf-8") as fil:
         gsbpm_updates = json.load(fil)
     
     
