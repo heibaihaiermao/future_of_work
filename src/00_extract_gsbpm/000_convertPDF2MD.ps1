@@ -56,7 +56,7 @@ foreach ($doc in $inputDocs) {
 
     # Then convert to Strict Markdown.
     $txtOutputPath = $documentPath.Replace("$extensionEnd", ".md").replace("0000_raw", "0002_output")
-    & "$HOME\.conda\envs\dsBase\Library\bin\pandoc.exe" -t markdown_strict -o $txtOutputPath $wordOutputPath
+    pandoc -t markdown_strict -o $txtOutputPath $wordOutputPath
 
     # Optional clean-up
     #rm $wordOutputPath

@@ -2,7 +2,7 @@ from itertools import filterfalse, combinations, starmap, tee, repeat, chain
 from operator import itemgetter
 from functools import partial
 from collections import defaultdict
-from json import load, dump, dumps, loads, JSONDecodeError
+from json import load, dumps, loads, JSONDecodeError
 from tqdm import tqdm
 from threading import Thread
 
@@ -64,12 +64,10 @@ reshape_dict = lambda ddijk: {"name": ddijk["name"],
  
 if __name__ == "__main__":
 
-    wd_file_name = "Junior_Evaluation_Officer_-_proposed_updates.json"
-    input_file_path = "../05_forecast_skill_gaps_of_wd/data/updated_wd_with_skills/" + wd_file_name
-
-    with open(input_file_path, 'r') as fil:
+    with open("data/updated_wd_with_skills/Economist_-_Sociologist_2_-_proposed_updates.json", 'r') as fil:
         d = load(fil)
 
+   
    
     flat_gaps = flatten_json(d)
     #flat_gaps = pd.DataFrame.from_dict(flat_gaps)
@@ -151,10 +149,8 @@ if __name__ == "__main__":
     # Get name from each item, in each tuple (pair).
     skill_names = chain.from_iterable(skill_pair_iter)
     skill_names = map(get_names, skill_names)
-    skill_name_pairs = (
-            (a["name"], b["name"])
-            for a, b in skill_pair_iter
-        )
+    skill_name_pairs = batched(skill_names, n=2)
+
 
 
     # bundle pair with response.
@@ -169,8 +165,7 @@ if __name__ == "__main__":
 
     # skills set, memory for set of skills.
     skills_set = set()
-    for all_items in tqdm(labeled_determinations, total=276):   # total = num of skills choose 2
-        print(all_items)
+    for all_items in tqdm(labeled_determinations, total=791):
         (s1, s2), determination = all_items
         skills_set.update({s1, s2})
         if determination.startswith("json"):
@@ -211,11 +206,6 @@ if __name__ == "__main__":
 
         except JSONDecodeError:
             det_history[unique_id] = det
-
-    # Write determination history to file
-    history_file_path = "det_history-" + wd_file_name + ".json"
-    with open(history_file_path, 'w', encoding='utf-8') as fil:
-            dump(det_history, fil, indent=2, ensure_ascii=False)
 
 
 #class cluster():

@@ -30,11 +30,10 @@ def setup_azure(system_prompt, dotenv_path="../py.env"):
     client = AzureOpenAI(
       azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
       api_key= os.getenv("AZURE_OPENAI_API_KEY"),
-    #   api_version="2024-05-01-preview")
-      api_version="2025-01-01-preview")
+      api_version="2024-05-01-preview")
     
     assistant = client.beta.assistants.create(
-      model="gpt-4.1", # replace with model deployment name.
+      model="gpt-4.1-standard", # replace with model deployment name.
       instructions=system_prompt,
       tools=[{"type":"file_search"}],
       temperature=0.2,

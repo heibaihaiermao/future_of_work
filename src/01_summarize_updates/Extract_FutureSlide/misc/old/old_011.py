@@ -93,23 +93,12 @@ if __name__ == "__main__":
     assert api_version, "API version NOT loaded"
 
     #endpoint = "https://evan-mfsqg9b6-eastus2.cognitiveservices.azure.com/"
-<<<<<<< HEAD:src/01_summarize_updates/Extract_FutureSlide/misc/old/old_011.py
     #endpoint = "https://futureofwork-aifoundry-resource.cognitiveservices.azure.com/"
     #deployment = "gpt-4.1-standard"
     #deployment = "gpt-5-mini"
     #api_version = "2024-12-01-preview"
     deployment = "gpt-4.1"
     #api_version = "2024-12-01-preview"
-=======
-    endpoint = "https://futureofwork-aifoundry-resource.cognitiveservices.azure.com/"
-    endpoint = getenv("AZURE_EXTRACT_ENDPOINT")
-    #deployment = "gpt-4.1-standard"
-    #deployment = "gpt-5-mini"
-    #api_version = "2024-12-01-preview"
-    deployment = "o3-mini"
-    api_version = "2024-12-01-preview"
-    api_version = "2025-01-01-preview"
->>>>>>> origin/main:src/01_summarize_updates/011_extract_updates.py
 
     raw_data_dir = "data/raw/"
     #raw_data_paths = map(raw_data_dir.__add__,
@@ -165,7 +154,6 @@ if __name__ == "__main__":
 #                         role="user",
 #                         content="Follow the instructions provided")
 
-<<<<<<< HEAD:src/01_summarize_updates/Extract_FutureSlide/misc/old/old_011.py
 #         run = client.beta.threads.runs.create_and_poll(
 #                         thread_id = thread.id,
 #                         assistant_id = assistant.id)
@@ -184,49 +172,6 @@ if __name__ == "__main__":
         
 #         print("MODEL OUTPUT:")
 #         print(response_text)
-=======
-        run = client.beta.threads.runs.create_and_poll(
-                        thread_id = thread.id,
-                        assistant_id = assistant.id)
-        response = client.beta.threads.messages.list(
-                        thread_id = thread.id,
-                        run_id = run.id)
-        # 1/0
-        #TODO add code
-        #reponse = messages[0].content[0].text
-        response = response[0].content[0].text
-
-#        response = client.chat.completions.create(
-#                        messages = [system_prompt, user_prompt],
-#                        #max_completion_tokens=13107,
-#                        #temperature=1.0,
-#                        #top_p=1.0,
-#                        #frequency_penalty=0.0,
-#                        #presence_penalty=0.0,
-#                        model=deployment,
-#                        tools=[{"type": "file_search"}])
-#                        #tool_resources={"file_search": {"vector_store_ids": [vs.id]}})
-#
-#
-    # Save full response
-    output_path = "data/output/deck_updates_response.pkl"
-    with open(output_path, 'wb') as fil:
-        pdump(message, fil)
-
-    # Save response content in JSON
-    #response_content = response.choices[0].message.content
-    response_content = response[0].content[0].text.value
-    response_content = response_content.lstrip("`json\n").rstrip("`\n")
-    response_content = json.loads(response_content)
-
-    #from json import dump as jdump, 
-    #json_path = markdown_path.rstrip(".md")+".json"
-    json_path = "data/output/deck_updates_o3.json"
-    with open(json_path, 'w') as fil:
-        json.dump(response_content,
-                  fil,
-                  indent=4)
->>>>>>> origin/main:src/01_summarize_updates/011_extract_updates.py
 
 
 
