@@ -40,12 +40,7 @@ if __name__ == "__main__":
     subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")]) #itemsized it
 
     deployment = "gpt-4.1"
-<<<<<<< HEAD
     api_version = "2025-04-01-preview"
-=======
-    # api_version = "2024-12-01-preview"
-    api_version = "2025-01-01-preview"
->>>>>>> origin/main
 
 
     with AzureOpenAI(api_version=api_version,
