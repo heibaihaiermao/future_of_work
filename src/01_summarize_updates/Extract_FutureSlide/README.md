@@ -10,4 +10,6 @@ APPROACH:
  5) Successively prompt the LLM to identify points from the document, progressing by slide, page, or section.
  6) Collate updates into a single JSON file.
 
+Required:
+- requests
 
