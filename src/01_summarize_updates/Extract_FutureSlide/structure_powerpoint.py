@@ -1,3 +1,5 @@
+# preferred
+
 from sys import path
 path.append("../05_forecast_skill_gaps_of_wd")
 from assistant import Assistant
@@ -18,7 +20,8 @@ def load_prompt(path):
         content  = fil.read()
     return content
 
-
+# TODO: makefile use pandoc in a bash shell script to convert ppt to MD file
+#       MD file is one of the 2 inputs here
 
 if __name__ == "__main__":
     # Load prompt, gsbpm 
@@ -82,113 +85,7 @@ if __name__ == "__main__":
     m = buddy.send_fresh("Proceed with the task!")
     print(m)
 
-
-
-
-#    load_dotenv("../py.env")
-#
-#    system_prompt = {"role": "system",
-#                     "content": "search the vector store. If there is no vector store then state so."}
-#
-#    user_prompt = {"role": "user",
-#                   "content": ""}
-#
-#    buddy = Assistant(json.dumps([system_prompt,
-#                                  user_prompt]))
-#    atexit.register(buddy.delete)
-#
-#    vs = buddy.client.vector_stores.create()
-#    def delete_vector_store():
-#        buddy.client.vector_stores.delete(vs.id)
-#    atexit.register(delete_vector_store)
-#
-#    file_paths = ["data/raw/briefing.txt"]
-#
-#    file_streams = [open(p, 'rb') for p in file_paths]
-#
-#
-#        # NEED TO MAKE FILE-LOOKUP TO AVOID REUPLOADING FILES.
-#    file_batch = buddy.client.vector_stores.file_batches.upload_and_poll(vector_store_id = vs.id,
-#                                                                         files = file_streams)
-#    
-#
-#    buddy.assistant = buddy.client.beta.assistants.update(assistant_id=buddy.assistant.id,
-#                                              tools=[{"type": "file_search"}],
-#                                              tool_resources={"file_search":{"vector_store_ids":[vs.id]}})
-#
-#    m = buddy.send_message("Search the vector store. Tell me about you find.")
-
-    #m == 'There is no vector store present. I can only search the files you have uploaded using keyword-based search. If you have specific questions or topics you want to know about from your files, please let me know!'
-#
-#    endpoint = getenv("AZURE_OPENAI_ENDPOINT")
-#    subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")])
-#    endpoint = "https://futureofwork-aifoundry-resource.cognitiveservices.azure.com/"
-#    #deployment = "gpt-4.1-standard"
-#    #deployment = "gpt-5-mini"
-#    #api_version = "2024-12-01-preview"
-#    deployment = "o3-mini"
-#    api_version = "2024-12-01-preview"
-#
-#    client = AzureOpenAI(api_version=api_version,
-#                         azure_endpoint=endpoint,
-#                         api_key=next(subscription_key))
-#
-#
-#    atexit.register(delete_vector_store)
-#    
-
-#
-#
-#    thread = client.beta.threads.create()
-#    message = client.beta.threads.messages.create(
-#                        thread_id=thread.id,
-#                        role="user",
-#                        content="Follow the instructions provided")
-#
-#        run = client.beta.threads.runs.create_and_poll(
-#                        thread_id = thread.id,
-#                        assistant_id = assistant.id)
-#        response = client.beta.threads.messages.list(
-#                        thread_id = thread.id,
-#                        run_id = run.id)
-#        1/0
-#        #reponse = messages[0].content[0].text
-#        response  = message[0].content[0].text
-#
-#
-#
-##        response = client.chat.completions.create(
-##                        messages = [system_prompt, user_prompt],
-##                        #max_completion_tokens=13107,
-##                        #temperature=1.0,
-##                        #top_p=1.0,
-##                        #frequency_penalty=0.0,
-##                        #presence_penalty=0.0,
-##                        model=deployment,
-##                        tools=[{"type": "file_search"}])
-##                        #tool_resources={"file_search": {"vector_store_ids": [vs.id]}})
-##
-##
-#    # Save full response
-#    output_path = "data/output/deck_updates_response.pkl"
-#    with open(output_path, 'wb') as fil:
-#        pdump(message, fil)
-#
-#    # Save response content in JSON
-#    #response_content = response.choices[0].message.content
-#    response_content = response[0].content[0].text.value
-#    response_content = response_content.lstrip("`json\n").rstrip("`\n")
-#    response_content = json.loads(response_content)
-#
-#    #from json import dump as jdump, 
-#    #json_path = markdown_path.rstrip(".md")+".json"
-#    json_path = "data/output/deck_updates_o3.json"
-#    with open(json_path, 'w') as fil:
-#        json.dump(response_content,
-#                  fil,
-#                  indent=4)
-#
-#
-#
-#
-#    print(response.choices[0].message.content)
+# Final output as JSON
+# refresh context window
+# the entire slide + GSBPM content as system prompt, then loop through each sub process / phase
+# 02 - implicated work description 

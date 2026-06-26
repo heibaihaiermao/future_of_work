@@ -44,7 +44,8 @@ if __name__ == "__main__":
     subscription_key = iter([getenv("AZURE_OPENAI_API_KEY")])
 
     deployment = "gpt-4.1-standard"
-    api_version = "2024-12-01-preview"
+    # api_version = "2024-12-01-preview"
+    api_version = "2025-01-01-preview"
 
     raw_data_paths = listdir("data/raw")
     file_paths = map(glob, raw_data_paths)

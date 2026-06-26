@@ -67,6 +67,11 @@ if __name__ == "__main__":
     #lr_dir = "data/0731_inputs/learning-resources"
     with open("data/0732_embeddings/learning-resources_-_embedding_memory.json", 'r', encoding="utf-8") as fil:
         lre = json.load(fil)
+
+    lr_metadata = pd.DataFrame.from_dict(
+            {k:v["data"] for k,v in lre.items()},
+            orient="index"
+        )
     lrdf = pd.DataFrame.from_dict(lre).T["vec"].apply(np.array)
 
     gaps_path = argv[1]
@@ -106,10 +111,26 @@ if __name__ == "__main__":
     output_path = gaps_path.replace("0732_embeddings", "0733_recommendations").replace(os.altsep+"gaps", "")
     output_path = output_path.split("_-_proposed_updates_-_embedding_memory.json")[0] + "_-_recommendations.json"
 
-    output_recommendations = {k:list(v.keys()) for k,v in standard_recommendations.items()}
-#    with open(output_path, 'w', encoding="utf-8") as fil:
-#        json.dump(output_recommendations,
-#                  fil,
-#                  ensure_ascii=False,
-#                  indent=4)
+    # output_recommendations = {k:list(v.keys()) for k,v in standard_recommendations.items()}
+    
+    output_recommendations = {}
+
+    for gap_name, resources in standard_recommendations.items():
+
+        output_recommendations[gap_name] = []
+
+        for resource_title, score in resources.items():
+
+            metadata = lre[resource_title]["data"]
+
+            output_recommendations[gap_name].append({
+                "score": float(score),
+                **metadata
+            })
+
+    with open(output_path, 'w', encoding="utf-8") as fil:
+        json.dump(output_recommendations,
+                 fil,
+                 ensure_ascii=False,
+                 indent=4)
 #
