@@ -20,14 +20,27 @@ Step 1) are accomplished with the "000_convertPDF2MD.ps1" powershell script. Thi
 
 Step 2) leverages an LLM to extract the text of structured portion of the GSBPM into a JSON format. The non-structured part can be summarized by an LLM and captured in the "preamble" attribute of the above JSON schema.
 
-## Requirements
- - Powershell7
- - Microsoft Word.
- - Python3
+# required file structure to run:
+0000_raw\
+	└── data\
+		└── 0000_raw\
+			└── GSBPM_v5_1.pdf
+	000_convertPDF2MD.ps1
+	001_LLM_extract_updates_into_json.py
 
-## Required Python packages
- - openai
- - dotenv
+# RUNNING STEP - Step 1
+*prerun: 
+ replace the location within marker:$pandocExe = "" 
+	in 000_convertPDF2MD.ps1 with the location of pandoc.exe in ur os.
+ 1) go into miniforge
+ 2) step 1: extracting md from pdf
+ 	2.1) run: cd ..\00_extract_gsbpm  *ps: ..\ is where the folder located
+ 	2.2) run: pwsh .\000_convertPDF2MD.ps1
 
-## Required AI
- - LLM useful for abstraction (e.g. GPT4.1 through Azure AI Foundry API)
+
+# RUNNING STEP - Step 2
+
+ 1) go into miniforge
+ 2) run: cd ..\00_extract_gsbpm  *ps: ..\ is where the folder located 
+ 3) enter into conda enviroment. run: conda activate dsBase
+ 4) run: python 001_LLM_extract_updates_into_json.py
