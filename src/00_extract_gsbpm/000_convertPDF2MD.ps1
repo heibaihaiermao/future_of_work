@@ -45,7 +45,7 @@ foreach ($doc in $inputDocs) {
     # Create staging path.
     $documentPath = $doc.FullName
     $wordOutputPath = $documentPath.Replace("$extensionEnd", "$extensionIntermediate").replace("0000_raw", "0001_staging")
-
+    $pandocExe = "C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools\pandoc.exe"
 
     # Open input file using Microsoft Word/Powerpoint/Etc., save-as output type.
     $document = $word.Documents.Open("$documentPath")
@@ -55,8 +55,11 @@ foreach ($doc in $inputDocs) {
     echo $wordOutputPath
 
     # Then convert to Strict Markdown.
-    $txtOutputPath = $documentPath.Replace("$extensionEnd", ".md").replace("0000_raw", "0002_output")
-    & "$HOME\.conda\envs\dsBase\Library\bin\pandoc.exe" -t markdown_strict -o $txtOutputPath $wordOutputPath
+    $txtOutputPath = $documentPath.Replace("$extensionEnd", ".md").replace("0000_raw", "0002_output") 
+    & $pandocExe `
+    -t markdown_strict `
+    -o $txtOutputPath `
+    $wordOutputPath
 
     # Optional clean-up
     #rm $wordOutputPath

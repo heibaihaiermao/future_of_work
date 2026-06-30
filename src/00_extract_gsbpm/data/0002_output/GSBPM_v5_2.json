@@ -243,7 +243,7 @@
             {
                 "id": "7.1",
                 "text": "Update output systems",
-                "description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: ● Formatting data and metadata ready to be put into output systems; ● Loading data and metadata into output systems; ● Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination."
+                "description": "This sub-process manages the update of systems (e.g. databases) where data and metadata are stored ready for dissemination purposes, including: Formatting data and metadata ready to be put into output systems; Loading data and metadata into output systems; Ensuring data are linked to the relevant metadata. Formatting, loading and linking of metadata should preferably mostly take place in earlier phases, but this sub-process includes a final check that all of the necessary metadata are in place ready for dissemination."
             },
             {
                 "id": "7.2",
