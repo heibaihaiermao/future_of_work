@@ -1,0 +1,47 @@
+[
+  {
+    "driver_id": "D001",
+    "driver": "AI and Automation",
+    "sources": [
+      "mandate_letter",
+      "departmental_plan",
+      "future_vision"
+    ],
+    "evidence_count": 27,
+    "evidence": [
+      "...",
+      "...",
+      "..."
+    ]
+  },
+
+  {
+    "driver_id": "D002",
+    "driver": "Alternative and Administrative Data"
+  },
+
+  {
+    "driver_id": "D003",
+    "driver": "Enterprise Infrastructure and Self-Service Platforms"
+  },
+
+  {
+    "driver_id": "D004",
+    "driver": "Metadata, FAIR and Interoperability"
+  },
+
+  {
+    "driver_id": "D005",
+    "driver": "Workforce Transformation and Upskilling"
+  },
+
+  {
+    "driver_id": "D006",
+    "driver": "Efficiency and Cost Reduction"
+  },
+
+  {
+    "driver_id": "D007",
+    "driver": "Trust, Governance and Responsible AI"
+  }
+]
