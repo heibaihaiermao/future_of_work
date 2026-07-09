@@ -1,253 +1,1700 @@
 [
   {
-    "driver": "AI and Automation",
-    "description": "Enterprise-wide adoption of artificial intelligence, machine learning and automation to reduce manual effort, improve efficiency, and embed intelligent capabilities directly into production workflows.",
+    "driver": "AI and Automation in Statistical Production",
+    "description": "Enterprise adoption of AI, machine learning, chatbots, automated coding, and automated workflows across statistical production and dissemination.",
+    "why_this_is_a_driver": "AI and automation recur across strategic priorities, production modernization plans, census delivery, future-state process design, and field mandates as core mechanisms to reduce manual effort, improve speed, and scale production.",
+    "technology_themes": [
+      "AI assistants",
+      "AI chatbots",
+      "AI-enabled automated coding",
+      "Generic Statistical Business Process Model",
+      "artificial intelligence",
+      "artificial intelligence (AI)",
+      "automation",
+      "chatbot",
+      "cloud technology",
+      "cyber security",
+      "data extraction from unstructured sources",
+      "data security",
+      "documentation",
+      "enterprise platforms",
+      "governance",
+      "monitoring",
+      "shared solutions",
+      "statistical workflows",
+      "website search"
+    ],
+    "capability_themes": [
+      "clarifying handoffs across programs",
+      "process streamlining",
+      "production workflow integration",
+      "public trust",
+      "quality",
+      "reducing duplication",
+      "reliable and repeatable production",
+      "sustainability and consistency of production",
+      "transparency"
+    ],
+    "workforce_implications": [
+      "agency staff will integrate AI assistants into their daily work to increase efficiency",
+      "clarify handoffs across programs",
+      "developing skills to support the adoption of modern, open-source technologies and AI",
+      "enhancing executives' skills in all areas, from AI upskilling and strengthening leadership competencies, to promoting their change leadership capacity",
+      "extensive coordination across the agency's collection, communications, analysis and dissemination teams",
+      "involve the recruitment of thousands of employees—including enumerators who conduct in-person data collection",
+      "reduce manual effort",
+      "requires extensive preparation to ensure that Statistics Canada's infrastructure, systems and workforce ready to deliver Canada's largest statistical undertaking",
+      "work embedded directly into production workflows"
+    ],
     "evidence": [
       {
         "source": "departmental_plan",
+        "source_id": "SP1",
+        "source_section": "evidence_quote",
+        "quote": "Emerging technologies such as AI are central to addressing many of the challenges faced by national statistical organizations and will enable Statistics Canada to build the next generation of statistical programs and operations."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "2026 Census of Population",
+        "source_section": "transformation_initiative",
+        "quote": "The 2026 Census of Population will introduce new questions on sexual orientation, homelessness and mobility and will mark the first use of cloud technology in a Canadian census. The agency will introduce a new chatbot that provides real-time assistance throughout the collection process."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "2026 Census of Population",
+        "source_section": "evidence_quote",
+        "quote": "To further support respondents, the agency will introduce a new chatbot that provides real-time assistance throughout the collection process."
+      },
+      {
+        "source": "departmental_plan",
         "source_id": "Responsible integration of AI",
+        "source_section": "transformation_initiative",
+        "quote": "The agency will continue to build on its adoption of AI by developing and supporting scalable, secure and sustainable digital infrastructure. AI will be applied to enhance the search function on the Statistics Canada website, support chatbots, automated coding, and data extraction from unstructured sources."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Responsible integration of AI",
+        "source_section": "evidence_quote",
+        "quote": "The agency's responsible integration of AI will improve the website search and power the new chatbot functionality, making it easier for Canadians to access and benefit from high-quality statistics, while boosting operational efficiency."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Responsible integration of AI",
+        "source_section": "evidence_quote",
         "quote": "Aligned with the objectives of the Statistics Canada AI strategy, by the end of 2026-27, agency staff will integrate AI assistants into their daily work to increase efficiency use AI-enabled automated coding for standard classifications such as NAICS and NAPCS expand the use of AI for data extraction from unstructured sources such as satellite images and PDF files."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Comprehensive Expenditure Review response",
+        "source_section": "evidence_quote",
+        "quote": "These changes will build on the agency's prior strategic investments in technology, particularly in artificial intelligence, machine learning and automation, which have already been shown to improve operational efficiency and responsiveness."
       },
       {
         "source": "future_vision_deck",
         "source_id": "Slide unknown - Key priorities of the future state",
+        "source_section": "slide_update",
         "quote": "“End-to-End Process Automation with Minimal Manual Intervention … Automated, AI-powered data pipelines—from acquisition to dissemination— reduce manual effort, increase speed and quality, and enable real-time responsiveness across all stages of the statistical business process. Employee input focuses on higher value work, innovation, and interpretation, not execution.”"
       },
       {
-        "source": "mandate_letter",
-        "source_id": "Economic Statistics Field_All staff_P1",
-        "quote": "We will continue to integrate artificial intelligence and automation into statistical workflows and to streamline processes across the Generic Statistical Business Process Model."
-      }
-    ]
-  },
-  {
-    "driver": "Integrated Data Pipelines and Process Orchestration",
-    "description": "Transformation toward integrated, orchestrated, auditable and reproducible end-to-end statistical pipelines that streamline production across collection, processing, analysis and dissemination.",
-    "evidence": [
-      {
         "source": "future_vision_deck",
         "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
         "quote": "“By 2030, Process (GSBPM 5.0) will operate infrastructure leveraging AI, ML, and advanced technologies to provide programs with rules for their Data Pipelines. Resilient, auditable, and adaptive workflows will produce timely, trustworthy, and reproducible statistical outputs across all subject-matter areas.”"
       },
       {
         "source": "future_vision_deck",
         "source_id": "Slide unknown - Business Vision - Process",
-        "quote": "“GSBPM 5 sub-processes are orchestrated in modular, event-driven frameworks that are automated and version-controlled by design.”"
+        "source_section": "slide_update",
+        "quote": "“AI-enabled modules handle 50% of manual interventions for activities such as classification, edits and imputation for administrative and survey data.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Analyse",
+        "source_section": "slide_update",
+        "quote": "“The Analyse process will use orchestration and embed Technology (AI and automation) throughout, supporting an event-driven creation of outputs, validation, user-friendly and robust disclosure control, and preparation of tables and reports for dissemination in a timely way.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Publication preparation time is reduced by 50% leveraging AI and automation to facilitate output creation (e.g. Daily text) or validation.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Automated Outputs: Implement AI-supported pipelines for auto-generated descriptive and exploratory analysis including daily write-ups, dashboards, and standardized analytical products.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Transparency and Trust in AI: Implement AI frameworks and ethical review processes to ensure human oversight, fairness, and trust in automated analysis.”"
       },
       {
         "source": "mandate_letter",
         "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
         "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "priority",
+        "quote": "Integrating artificial intelligence and automation into statistical workflows"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "evidence_quote",
+        "quote": "We will continue to integrate artificial intelligence and automation into statistical workflows and to streamline processes across the Generic Statistical Business Process Model."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "evidence_quote",
+        "quote": "Automation and advanced methods, including artificial intelligence where it demonstrably adds value, will be applied to support reliable and repeatable production rather than experimentation alone."
       }
     ]
   },
   {
-    "driver": "Administrative and Alternative Data",
-    "description": "Growing reliance on administrative, linked and alternative data sources to reduce respondent burden, improve timeliness, and support new insights with surveys used more selectively.",
-    "evidence": [
-      {
-        "source": "departmental_plan",
-        "source_id": "Modern statistical methods",
-        "quote": "The agency will also continue to leverage data linkages and alternative data to produce new insights without increasing the burden on respondents."
-      },
-      {
-        "source": "departmental_plan",
-        "source_id": "2026 Census of Agriculture modernization",
-        "quote": "The agency will also expand the use of administrative data to reduce response burden while maintaining the high-quality agricultural information that Canadians, businesses and governments rely on."
-      },
-      {
-        "source": "future_vision_deck",
-        "source_id": "Slide unknown - Key priorities of the future state",
-        "quote": "“Surveys as a last resort, not first response … Exploiting existing data holdings is the first response for new/existing data needs. Admin data and alternative data is the second response for new/existing data needs. Surveys are only used if necessary and are optimized dynamically based on cost-benefit analysis.”"
-      }
-    ]
-  },
-  {
-    "driver": "Digital Platforms and Cloud Infrastructure",
-    "description": "Modernization of enterprise digital foundations through cloud, shared platforms, centralized repositories and enabling infrastructure that support agility, scalability and operational efficiency.",
+    "driver": "Enterprise Digital Platforms and Cloud Infrastructure",
+    "description": "Modernization of enterprise digital infrastructure, cloud environments, platforms, tooling, and architecture to support scalable delivery.",
+    "why_this_is_a_driver": "Multiple records point to enabling infrastructure, enterprise architecture, cloud adoption, modern platforms, and secure tooling as foundational enablers for transformation across programs.",
+    "technology_themes": [
+      "IT infrastructure",
+      "Target Enterprise Architecture",
+      "authorizations",
+      "centralized data repository",
+      "chatbot",
+      "cloud",
+      "cloud technology",
+      "cyber security",
+      "data platforms",
+      "data security",
+      "digital infrastructure",
+      "new data platforms",
+      "platforms",
+      "privacy",
+      "scalable, secure and sustainable digital infrastructure",
+      "secure access",
+      "self-serve platforms",
+      "tooling"
+    ],
+    "capability_themes": [
+      "data accessibility and usability",
+      "digital readiness",
+      "faster delivery",
+      "modern tools, systems and processes",
+      "operational efficiency",
+      "resilience against cyber threats",
+      "safer innovation"
+    ],
+    "workforce_implications": [
+      "empower employees to access the IT systems and resources they need, when they need them",
+      "extensive coordination across the agency's collection, communications, analysis and dissemination teams",
+      "involve the recruitment of thousands of employees—including enumerators who conduct in-person data collection",
+      "make it easier for employees to locate, analyze and use the data and tools they need",
+      "make it easier for employees to locate, analyze and use the data and tools they need to deliver results efficiently",
+      "providing robust information technology (IT) infrastructure, advanced IT tools and strengthened cyber security",
+      "requires extensive preparation to ensure that Statistics Canada's infrastructure, systems and workforce ready to deliver Canada's largest statistical undertaking",
+      "self-serve platforms will also empower employees to access the IT systems and resources they need, when they need them",
+      "supports digital readiness and modern infrastructure for employees"
+    ],
     "evidence": [
       {
         "source": "departmental_plan",
         "source_id": "SP2",
+        "source_section": "strategic_priority",
+        "quote": "Build and adopt a complete enabling infrastructure."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP2",
+        "source_section": "evidence_quote",
         "quote": "An updated digital infrastructure and new data platforms will make it easier for employees to locate, analyze and use the data and tools they need to deliver results efficiently."
       },
       {
         "source": "departmental_plan",
-        "source_id": "Transition of IT infrastructure from data centres to the cloud",
-        "quote": "The agency successfully completed the transition of its IT infrastructure from data centres to the cloud."
+        "source_id": "SP2",
+        "source_section": "evidence_quote",
+        "quote": "In 2026-27, Statistics Canada will leverage new digital tools and infrastructure to become a more agile and innovative agency, advancing its key priorities to build the next generation of statistical programs and operations build and adopt a complete enabling infrastructure."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP2",
+        "source_section": "evidence_quote",
+        "quote": "These initiatives align with the agency's Target Enterprise Architecture—Statistics Canada's long-term digital roadmap that guides the future development of its systems, processes and infrastructure."
       },
       {
         "source": "departmental_plan",
         "source_id": "2026 Census of Population",
+        "source_section": "transformation_initiative",
+        "quote": "The 2026 Census of Population will introduce new questions on sexual orientation, homelessness and mobility and will mark the first use of cloud technology in a Canadian census. The agency will introduce a new chatbot that provides real-time assistance throughout the collection process."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "2026 Census of Population",
+        "source_section": "evidence_quote",
         "quote": "This large-scale effort will represent the first use of cloud technology and chatbots for the census, supporting the collection of millions of questionnaires to address evolving data needs."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "2026 Census of Population",
+        "source_section": "evidence_quote",
+        "quote": "It will also mark the first use of cloud technology in a Canadian census, enhancing data security and resilience against cyber threats."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Updated digital infrastructure and new data platforms",
+        "source_section": "transformation_initiative",
+        "quote": "An updated digital infrastructure and new data platforms will make it easier for employees to locate, analyze and use the data and tools they need to deliver results efficiently."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Updated digital infrastructure and new data platforms",
+        "source_section": "evidence_quote",
+        "quote": "An updated digital infrastructure and new data platforms will make it easier for employees to locate, analyze and use the data and tools they need to deliver results efficiently."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Responsible integration of AI",
+        "source_section": "evidence_quote",
+        "quote": "The agency will continue to build on its adoption of AI by developing and supporting scalable, secure and sustainable digital infrastructure."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Transition of IT infrastructure from data centres to the cloud",
+        "source_section": "transformation_initiative",
+        "quote": "The agency successfully completed the transition of its IT infrastructure from data centres to the cloud."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Transition of IT infrastructure from data centres to the cloud",
+        "source_section": "evidence_quote",
+        "quote": "The agency successfully completed the transition of its IT infrastructure from data centres to the cloud."
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Real-Time Analysis: Build infrastructure and tooling that enable real-time analytical workflows with intelligent validation and anomaly detection.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - What is Business Development / GSBPM Roadmap Business Development",
+        "source_section": "slide_update",
+        "quote": "“Within StatCan, Business Development is defined as a program where employees outside of IT (programs, methodology, operations) are enabled to develop solutions using approved low-code/no-code platforms (e.g. PowerAutomate, PowerApps) and/or approved sets of tools within IT supported, security assessed, AI-enabled business platforms … ‘Business Development’ replaces the concept of ‘Citizen Development’ (TBS) … Business Development is bound to the same security postures and digital guardrails as the usual software development – business development life cycle”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Processing and Analysis Activity Groups – Corporate vs. Business Development",
+        "source_section": "slide_update",
+        "quote": "“Develop data analytics solutions (business logic) within IT supported, security assessed, AI-enabled production platforms (the Zone, Fabric) while following the Standard on Managing Data Analytics Solutions Create data pipelines, R/Python scripts, modules and packages, visualizations and dashboards incl. use of AI methods Create data edit / capture interfaces within security assessed platforms to allow for manual edits and overrides Business process automation through established platforms - PowerApps, RPA etc. Only allow access to what the user needs access to Follow corporate guidelines, policies, directives and Statistical Reproducible Framework practices - Data Analytics Solution development process (e.g., no security assessment before putting developed business logic in production- attestation and automatic approvals)”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Dissemination",
+        "source_section": "slide_update",
+        "quote": "“Disseminating outputs – for user consumption: Programs / operations will use corporate platform / toolkits to create and post outputs on the website – e.g., Drupal toolkit to create and post pages; data visualization platforms such as PowerBI”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Dissemination",
+        "source_section": "slide_update",
+        "quote": "“Mission-critical dissemination processes – e.g., posting market moving data using embargo – will be done through platforms developed and maintained by IT”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P3",
+        "source_section": "priority",
+        "quote": "Modernizing and securing the agency’s digital foundations"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P3",
+        "source_section": "priority_description",
+        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P3",
+        "source_section": "evidence_quote",
+        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P3",
+        "source_section": "priority",
+        "quote": "Modernizing and securing the agency’s digital foundations"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P3",
+        "source_section": "priority_description",
+        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "The field will transition programs to modern corporate platforms to enable integrated, metadata-driven pipelines that support automation and enterprise best practices, while maintaining the rigour and reliability of monthly production."
+      }
+    ]
+  },
+  {
+    "driver": "Integrated Data Pipelines and Process Orchestration",
+    "description": "Shift to integrated, orchestrated, end-to-end statistical pipelines with reduced manual intervention and stronger operational flow across production stages.",
+    "why_this_is_a_driver": "Evidence repeatedly emphasizes integrated pipelines, orchestration, event-driven workflows, and end-to-end automation as the future operating model for production and analysis.",
+    "technology_themes": [],
+    "capability_themes": [],
+    "workforce_implications": [],
+    "evidence": [
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key priorities of the future state",
+        "source_section": "slide_update",
+        "quote": "“End-to-End Process Automation with Minimal Manual Intervention … Automated, AI-powered data pipelines—from acquisition to dissemination— reduce manual effort, increase speed and quality, and enable real-time responsiveness across all stages of the statistical business process. Employee input focuses on higher value work, innovation, and interpretation, not execution.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“By 2030, Process (GSBPM 5.0) will operate infrastructure leveraging AI, ML, and advanced technologies to provide programs with rules for their Data Pipelines. Resilient, auditable, and adaptive workflows will produce timely, trustworthy, and reproducible statistical outputs across all subject-matter areas.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“GSBPM 5 sub-processes are orchestrated in modular, event-driven frameworks that are automated and version-controlled by design.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“Every processing pipeline is auditable, reproducible, and deployable across subject-matter domains.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“Data processing turnaround time has reduced by 50% across survey programs through automation and orchestration.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Process",
+        "source_section": "slide_update",
+        "quote": "“Self-Service Platforms: Discussion on the role of self-service platforms and tools, making data pipelines transparent and user-friendly.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Analyse",
+        "source_section": "slide_update",
+        "quote": "“The Analyse process will use orchestration and embed Technology (AI and automation) throughout, supporting an event-driven creation of outputs, validation, user-friendly and robust disclosure control, and preparation of tables and reports for dissemination in a timely way.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Reproducible, standardized analytical pipelines are the norm.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Automated Outputs: Implement AI-supported pipelines for auto-generated descriptive and exploratory analysis including daily write-ups, dashboards, and standardized analytical products.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Real-Time Analysis: Build infrastructure and tooling that enable real-time analytical workflows with intelligent validation and anomaly detection.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Quality Assurance: Standardize pipelines with embedded validation rules.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Data Access and Discovery: Develop a unified, searchable metadata-supported platform to find and access the best available data for analytical questions.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Processing and Analysis Activity Groups – Corporate vs. Business Development",
+        "source_section": "slide_update",
+        "quote": "“Develop data analytics solutions (business logic) within IT supported, security assessed, AI-enabled production platforms (the Zone, Fabric) while following the Standard on Managing Data Analytics Solutions Create data pipelines, R/Python scripts, modules and packages, visualizations and dashboards incl. use of AI methods Create data edit / capture interfaces within security assessed platforms to allow for manual edits and overrides Business process automation through established platforms - PowerApps, RPA etc. Only allow access to what the user needs access to Follow corporate guidelines, policies, directives and Statistical Reproducible Framework practices - Data Analytics Solution development process (e.g., no security assessment before putting developed business logic in production- attestation and automatic approvals)”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Dissemination",
+        "source_section": "slide_update",
+        "quote": "“Preparation of Dissemination outputs – activity groups for business development: Dissemination vision calls for a set of rules what dissemination outputs should be created for the web-site – using corporate tools Production of dissemination outputs will be the last step in the data pipelines – programs / operations will use activity groups for processing / analysis, incl. retrieval of external data for confrontation Processing / analysis activity groups will also be used to produce custom tabulations - design, certification, and production PUMP creation will be done with the use of corporate tools and business development will use processing / analysis activity groups if custom PUMF production is required”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "priority_description",
+        "quote": "We will continue to integrate artificial intelligence and automation into statistical workflows and to streamline processes across the Generic Statistical Business Process Model. This work is intended to improve efficiency, reduce manual effort, and better support the ongoing production of core statistical programs. Emphasis will be placed on approaches that can be embedded directly into production workflows, reduce duplication, and clarify handoffs across programs. Automation and advanced methods, including artificial intelligence where it demonstrably adds value, will be applied to support reliable and repeatable production rather than experimentation alone. This work will continue to align with enterprise platforms and shared solutions and will be supported by appropriate governance, documentation, and monitoring. The objective is to strengthen the sustainability and consistency of production while maintaining quality, transparency, and public trust."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "evidence_quote",
+        "quote": "We will continue to integrate artificial intelligence and automation into statistical workflows and to streamline processes across the Generic Statistical Business Process Model."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "evidence_quote",
+        "quote": "Emphasis will be placed on approaches that can be embedded directly into production workflows, reduce duplication, and clarify handoffs across programs."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_2",
+        "source_section": "evidence_quote",
+        "quote": "As a field, we will also strengthen dissemination, analysis, and data discoverability through the Quality-of-Life Hub, including improvements to automation, data pipelines and interoperability."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "priority_description",
+        "quote": "The field will advance transformation initiatives to modernize statistical production and support efficient, high-quality delivery in line with the December 2028 deadline. This will be achieved through your work in the transition to open-source environments by coordinating field activities, providing technical support, and managing milestones and risks in collaboration with enterprise partners. The field will transition programs to modern corporate platforms to enable integrated, metadata-driven pipelines that support automation and enterprise best practices, while maintaining the rigour and reliability of monthly production. As part of this work, Field 8 will deliver on the modernization of the Survey of Employment, Payrolls and Hours and the Labour Force Survey, simplifying and streamlining processing, improving data quality, reducing manual intervention, and strengthening program stewardship. Our field will advance the redesign of the General Social Statistics Program to meet the ever-increasing data needs. These efforts are expected to contribute to more efficient production processes, including reducing manual steps, supporting timelier outputs, and increasing opportunities for reuse through enterprise approaches."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "The field will transition programs to modern corporate platforms to enable integrated, metadata-driven pipelines that support automation and enterprise best practices, while maintaining the rigour and reliability of monthly production."
+      }
+    ]
+  },
+  {
+    "driver": "Administrative, Alternative and Linked Data Expansion",
+    "description": "Greater use of administrative, alternative, linked, and unstructured data sources to reduce burden and improve relevance and timeliness.",
+    "why_this_is_a_driver": "The records consistently highlight a move away from survey-first approaches toward broader use of administrative, alternative, linked, and extracted data sources across programs.",
+    "technology_themes": [
+      "SDLE",
+      "adaptive collection design",
+      "administrative data",
+      "alternative data",
+      "data linkages",
+      "gridded data",
+      "online response",
+      "online-first strategy"
+    ],
+    "capability_themes": [],
+    "workforce_implications": [
+      "collection, analysis and dissemination workload",
+      "parallel census operations across the agency",
+      "provide employees with the tools and training they need",
+      "support a skilled and adaptable workforce"
+    ],
+    "evidence": [
+      {
+        "source": "departmental_plan",
+        "source_id": "2026 Census of Agriculture modernization",
+        "source_section": "transformation_initiative",
+        "quote": "Statistics Canada will continue to modernize the Census of Agriculture to reduce its burden on respondents and better reflect emerging agricultural trends through greater use of administrative data and information on new products and practices in the sector."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "2026 Census of Agriculture modernization",
+        "source_section": "evidence_quote",
+        "quote": "The agency will also expand the use of administrative data to reduce response burden while maintaining the high-quality agricultural information that Canadians, businesses and governments rely on."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Modern statistical methods",
+        "source_section": "transformation_initiative",
+        "quote": "Statistics Canada will continue to investigate new methods to produce high-quality data in the face of declining response rates, including adaptive collection design, data linkages, alternative data, gridded data and expansion of the SDLE."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Modern statistical methods",
+        "source_section": "evidence_quote",
+        "quote": "The agency will also continue to leverage data linkages and alternative data to produce new insights without increasing the burden on respondents."
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key priorities of the future state",
+        "source_section": "slide_update",
+        "quote": "“Surveys as a last resort, not first response … Exploiting existing data holdings is the first response for new/existing data needs. Admin data and alternative data is the second response for new/existing data needs. Surveys are only used if necessary and are optimized dynamically based on cost-benefit analysis. Designing, rendering and fielding a questionnaire is done using AI and takes no more than X time”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Collection",
+        "source_section": "slide_update",
+        "quote": "“Secondary Data Collection (alternative data sources) – activity groups for business development: Entry point for processing and analytical pipelines Business development will follow patterns established for processing / analysis – including AI enablement”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P4",
+        "source_section": "priority_description",
+        "quote": "At the centre of this mandate is our responsibility to deliver high‑quality, trusted core economic statistics in a timely manner. This responsibility is non‑negotiable and remains the primary consideration in setting priorities and allocating resources. This includes responsible data stewardship and ongoing efforts to improve how diverse forms of economic activity are reflected in official statistics. In 2026/2027, this includes the successful delivery of the 2026 Census of Agriculture. This major operation requires secure collection, processing, and dissemination; systems stability and operational resilience; and sustained public and stakeholder confidence. Its delivery will require careful management of fiscal, workforce and operational resources, as well as close coordination across the agency. We will continue to streamline operations and identify opportunities to strengthen quality, coherence, and consistency in cross-field collaboration. We will also advance implementation of the 2025 System of National Accounts to ensure comprehensive data and international relevance. The delivery of core outputs that support legislation, monetary policy, fiscal transfers, and economic decision‑making will remain the field’s foremost priority. Programs will continue to adapt to emerging analytical and policy needs. This includes strengthening measurement of artificial intelligence and emerging technologies through TechStat; providing timely and relevant insights on Canada–U.S. economic relations, including trade, tourism, investment, and ownership; and supporting key policy domains such as defense, energy, critical minerals, environmental and ecosystem accounting, and northern economic development. Increased use of administrative and alternative data sources will continue to support these efforts while managing respondent burden. Where capacity constraints require trade-offs, they will be made explicitly and transparently, with resources focused on protecting mission critical programs and maintaining public trust in Canada’s economic statistics."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P4",
+        "source_section": "evidence_quote",
+        "quote": "Increased use of administrative and alternative data sources will continue to support these efforts while managing respondent burden."
+      }
+    ]
+  },
+  {
+    "driver": "Metadata-Driven Data Management and Discoverability",
+    "description": "Development of searchable, standardized, metadata-rich data assets and repositories to improve access, interoperability, reuse, and analytical productivity.",
+    "why_this_is_a_driver": "Searchable repositories, metadata-driven discovery, FAIR principles, and standardized data assets appear repeatedly as enterprise capabilities needed for reuse and integration.",
+    "technology_themes": [],
+    "capability_themes": [],
+    "workforce_implications": [],
+    "evidence": [
+      {
+        "source": "departmental_plan",
+        "source_id": "Updated digital infrastructure and new data platforms",
+        "source_section": "evidence_quote",
+        "quote": "A centralized data repository will make it easier for employees to find and use data, supporting the production of high-quality, timely statistics for Canadians."
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key priorities of the future state",
+        "source_section": "slide_update",
+        "quote": "“Searchable, Usable, Actionable Data Assets … All data and metadata are standardized, richly described, and machine-actionable—built for interoperability and reuse across tools, systems, and organizations. Discovery, understanding, and use are seamless for all types of users—whether human or machine—through APIs, metadata tagging, and open formats. Our data ecosystem empowers internal and external users to find, consume, and transform data into new insights, products, and services.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“Meta-data driven and standardization are default by design.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Process",
+        "source_section": "slide_update",
+        "quote": "“Data Integration: Focus on facilitating integration, with architecture and FAIR principles playing a key role.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Analyse",
+        "source_section": "slide_update",
+        "quote": "“FAIR-aligned data discovery platform enables better access and reuse. A searchable, metadata-driven data discovery platform is available to all analysts, enabling them to easily locate and access appropriate data sources.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Privacy and Metadata Management: Use metadata repositories and FAIR standards for optimal integration into analytical pipelines.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Data Access and Discovery: Develop a unified, searchable metadata-supported platform to find and access the best available data for analytical questions.”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_2",
+        "source_section": "evidence_quote",
+        "quote": "As a field, we will also strengthen dissemination, analysis, and data discoverability through the Quality-of-Life Hub, including improvements to automation, data pipelines and interoperability."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "The field will transition programs to modern corporate platforms to enable integrated, metadata-driven pipelines that support automation and enterprise best practices, while maintaining the rigour and reliability of monthly production."
+      }
+    ]
+  },
+  {
+    "driver": "Modular Architecture, Reusable Components and Self-Service Development",
+    "description": "Adoption of modular architectures, microservices, reusable components, self-service platforms, and business-led development within enterprise guardrails.",
+    "why_this_is_a_driver": "The evidence repeatedly points to modular tools, microservices, reusable services, self-service environments, and approved low-code/no-code development as a target enterprise model.",
+    "technology_themes": [
+      "enterprise architecture",
+      "governance",
+      "interoperability",
+      "open-source environments",
+      "open‑source tools",
+      "reusable solutions",
+      "scalable solutions",
+      "secure and stable production environments",
+      "shared components",
+      "validation"
+    ],
+    "capability_themes": [
+      "accountability",
+      "capacity required to support solutions over time",
+      "collaborative development practices",
+      "long-term sustainability",
+      "secure, stable, and reliable delivery",
+      "sustaining previous progress",
+      "upskilling"
+    ],
+    "workforce_implications": [
+      "Teams will be supported as they continue to adopt open‑source tools while meeting ongoing production responsibilities",
+      "greater emphasis on validation, upskilling and governance",
+      "including through training and collaborative development practices"
+    ],
+    "evidence": [
+      {
+        "source": "departmental_plan",
+        "source_id": "Updated digital infrastructure and new data platforms",
+        "source_section": "evidence_quote",
+        "quote": "New functionality, such as self-serve platforms, will also empower employees to access the IT systems and resources they need, when they need them."
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key priorities of the future state",
+        "source_section": "slide_update",
+        "quote": "“Modular, Reusable Architecture and Tools & services … The organization has modular tools and microservices to increase agility, maintainability, and reuse across programs. Business areas are empowered to prototype and develop smart solutions using supported self-service environments, with guardrails and shared libraries. Open-source tools are the default, and employees openly share their code.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“Microservices are used to manage each processing function (e.g. integrate data, edit, derive new variables, aggregate), with clear input/output standards across surveys and subject-matter areas.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Process",
+        "source_section": "slide_update",
+        "quote": "“Self-Service Platforms: Discussion on the role of self-service platforms and tools, making data pipelines transparent and user-friendly.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Process",
+        "source_section": "slide_update",
+        "quote": "“Redefine roles and responsibilities: centralized versus decentralized systems, modular approaches, and standardization.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - What is Business Development / GSBPM Roadmap Business Development",
+        "source_section": "slide_update",
+        "quote": "“Within StatCan, Business Development is defined as a program where employees outside of IT (programs, methodology, operations) are enabled to develop solutions using approved low-code/no-code platforms (e.g. PowerAutomate, PowerApps) and/or approved sets of tools within IT supported, security assessed, AI-enabled business platforms … ‘Business Development’ replaces the concept of ‘Citizen Development’ (TBS) … Business Development is bound to the same security postures and digital guardrails as the usual software development – business development life cycle”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Collection",
+        "source_section": "slide_update",
+        "quote": "“Primary Data Collection – activity groups for business development: Prototyping and exploration with business utilities Once reached the operationalization stage – use corporate development to ensure operational rigor, repeatability, stability and support Paradata research and analysis Business process automation through established platforms - PowerApps, RPA etc. AI-enabled solutions within corporate AI environments / platforms / tools”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Development: Processing and Analysis Activity Groups – Corporate vs. Business Development",
+        "source_section": "slide_update",
+        "quote": "“Develop data analytics solutions (business logic) within IT supported, security assessed, AI-enabled production platforms (the Zone, Fabric) while following the Standard on Managing Data Analytics Solutions Create data pipelines, R/Python scripts, modules and packages, visualizations and dashboards incl. use of AI methods Create data edit / capture interfaces within security assessed platforms to allow for manual edits and overrides Business process automation through established platforms - PowerApps, RPA etc. Only allow access to what the user needs access to Follow corporate guidelines, policies, directives and Statistical Reproducible Framework practices - Data Analytics Solution development process (e.g., no security assessment before putting developed business logic in production- attestation and automatic approvals)”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P3",
+        "source_section": "priority",
+        "quote": "Advancing the transition to open‑source environments"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P3",
+        "source_section": "priority_description",
+        "quote": "The transition to open-source environments will continue as an important component of transformation across the field. In 2026/2027, this transition will focus on sustaining previous progress with greater emphasis on validation, upskilling and governance. Work will continue to prioritize reusable solutions and shared components, with development aligned to enterprise architecture to support interoperability, scalable solutions and long-term sustainability. Teams will be supported as they continue to adopt open‑source tools while meeting ongoing production responsibilities, including through training and collaborative development practices. This work will be guided by the need to maintain secure and stable production environments and the capacity required to support solutions over time. Decisions will reflect accountability for secure, stable, and reliable delivery."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P3",
+        "source_section": "evidence_quote",
+        "quote": "Work will continue to prioritize reusable solutions and shared components, with development aligned to enterprise architecture to support interoperability, scalable solutions and long-term sustainability."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P3",
+        "source_section": "evidence_quote",
+        "quote": "Teams will be supported as they continue to adopt open‑source tools while meeting ongoing production responsibilities, including through training and collaborative development practices."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "This will be achieved through your work in the transition to open-source environments by coordinating field activities, providing technical support, and managing milestones and risks in collaboration with enterprise partners."
+      }
+    ]
+  },
+  {
+    "driver": "Workforce Skills Transition and Leadership Capacity",
+    "description": "Reskilling, training, workforce adjustment support, and leadership development to enable modernization and new ways of working.",
+    "why_this_is_a_driver": "Transformation is repeatedly tied to employee tools, training, skills transition, workforce sustainability, and stronger leadership capacity to manage change.",
+    "technology_themes": [
+      "AI",
+      "advanced IT tools",
+      "data",
+      "digital tools",
+      "methods",
+      "modern, open-source technologies",
+      "new data sources",
+      "new programming and analytical tools",
+      "new tools"
+    ],
+    "capability_themes": [
+      "accessibility, equity, diversity and inclusion",
+      "analytical expertise",
+      "change leadership capacity",
+      "clarity of roles, responsibilities, and priorities",
+      "clear communication",
+      "consistent performance management",
+      "cultural change associated with modernization",
+      "disciplined decision‑making",
+      "employee well‑being",
+      "interpersonal skills",
+      "leadership capacity",
+      "management competencies",
+      "mental health and wellness",
+      "mentorship",
+      "ownership of decisions",
+      "realistic sequencing of work",
+      "safe, respectful, and supportive work environments",
+      "supporting employees through transitions",
+      "training",
+      "values and ethics",
+      "workforce sustainability"
+    ],
+    "workforce_implications": [
+      "Issues should be resolved at the appropriate level, with leaders taking ownership of decisions within their accountabilities",
+      "Managers are expected to work within prescribed timelines and to exercise disciplined decision‑making",
+      "a decrease of approximately 900 full-time equivalents by 2028-29",
+      "cultural change associated with modernization and evolving ways of working",
+      "embed accessibility and inclusive design principles into its digital platforms",
+      "enhancing employee development so employees feel confident in leveraging new programming and analytical tools and methods",
+      "equipping managers to effectively guide and support employees as they advance their work and navigate change",
+      "invest in employee well-being through training, engagement and awareness initiatives",
+      "maintaining safe, respectful, and supportive work environments",
+      "skills transition in data, methods, and digital tools",
+      "strengthen leadership capacity among managers and supervisors",
+      "supporting employees and equipping managers to lead teams effectively through transitions",
+      "supporting employees and leaders through workforce adjustment pressures",
+      "sustained attention to training, mentorship, and realistic sequencing of work alongside production demands"
+    ],
+    "evidence": [
+      {
+        "source": "departmental_plan",
+        "source_id": "SP1",
+        "source_section": "evidence_quote",
+        "quote": "In 2026-27, Statistics Canada will continue to modernize its statistical programs and provide its employees with the tools and training they need to deliver on its core responsibility of providing trustworthy, objective, high-quality information for Canadians."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP3",
+        "source_section": "strategic_priority",
+        "quote": "Shape a healthy, diverse and skilled workforce to meet the current and future needs of Canadians."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP3",
+        "source_section": "evidence_quote",
+        "quote": "Shape a healthy, diverse and skilled workforce to meet the current and future needs of Canadians."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP3",
+        "source_section": "evidence_quote",
+        "quote": "Aligned with Statistics Canada's key priority to shape a healthy, diverse and skilled workforce to meet the current and future needs of Canadians, the agency will provide employees with the resources necessary to respond to government priorities"
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Modern statistical methods",
+        "source_section": "evidence_quote",
+        "quote": "This work will be supported by a skilled and adaptable workforce and by partnerships that promote collaboration, learning and continuous improvement."
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Process",
+        "source_section": "slide_update",
+        "quote": "“Wider adoption: Create role-based training for orchestration and automation (pipeline creation, usage and maintenance). Embed knowledge-sharing practices (community of practice).”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Adapt hiring and redesign training: Redesign the Analysis 101 curriculum to proactively meet modern analytical profiles.”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Workforce adjustment, skills transition, and modernization efforts require steady leadership grounded in fairness and clarity."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P4",
+        "source_section": "priority_description",
+        "quote": "Support employees and leaders through workforce adjustment, skills transition (data, methods, digital), and cultural change—while sustaining engagement, clarity, and trust."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P4",
+        "source_section": "evidence_quote",
+        "quote": "Support employees and leaders through workforce adjustment, skills transition (data, methods, digital), and cultural change—while sustaining engagement, clarity, and trust."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "Workforce adjustment, skills transition, and modernization efforts require steady leadership grounded in fairness and clarity."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P4",
+        "source_section": "priority_description",
+        "quote": "Support employees and leaders through workforce adjustment, skills transition (data, methods, digital), and cultural change—while sustaining engagement, clarity, and trust."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P4",
+        "source_section": "evidence_quote",
+        "quote": "Support employees and leaders through workforce adjustment, skills transition (data, methods, digital), and cultural change—while sustaining engagement, clarity, and trust."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "priority",
+        "quote": "Strengthening workforce sustainability and leadership capacity"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "priority_description",
+        "quote": "Our people are central to delivering on this mandate. We will continue to strengthen workforce sustainability by supporting employees and equipping managers to lead teams effectively through transitions while maintaining safe, respectful, and supportive work environments. In 2026/2027, this includes supporting employees and leaders through workforce adjustment pressures, skills transition in data, methods, and digital tools, and cultural change associated with modernization and evolving ways of working. The transition to new tools, methods, and data sources will require sustained attention to training, mentorship, and realistic sequencing of work alongside production demands. We will continue to strengthen leadership capacity among managers and supervisors, with emphasis on clarity of roles, responsibilities, and priorities in a constrained and changing environment. Clear communication, consistent performance management, and attention to employee well‑being will be essential to sustaining engagement, clarity, and trust. Managers are expected to work within prescribed timelines and to exercise disciplined decision‑making, fostering a culture of action over prolonged deliberation. Issues should be resolved at the appropriate level, with leaders taking ownership of decisions within their accountabilities."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "evidence_quote",
+        "quote": "We will continue to strengthen workforce sustainability by supporting employees and equipping managers to lead teams effectively through transitions while maintaining safe, respectful, and supportive work environments."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "evidence_quote",
+        "quote": "In 2026/2027, this includes supporting employees and leaders through workforce adjustment pressures, skills transition in data, methods, and digital tools, and cultural change associated with modernization and evolving ways of working."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "evidence_quote",
+        "quote": "The transition to new tools, methods, and data sources will require sustained attention to training, mentorship, and realistic sequencing of work alongside production demands."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "evidence_quote",
+        "quote": "We will continue to strengthen leadership capacity among managers and supervisors, with emphasis on clarity of roles, responsibilities, and priorities in a constrained and changing environment."
       }
     ]
   },
   {
     "driver": "Cyber Security, Privacy and Secure Access",
-    "description": "Strengthening cyber security, privacy protections, secure access and resilient systems as foundational requirements for modernization and trusted digital operations.",
+    "description": "Strengthening cyber security, privacy protections, secure access, and resilient operations as digital modernization expands.",
+    "why_this_is_a_driver": "Security, privacy, secure access, and resilience are explicitly identified as enterprise priorities and are linked to cloud adoption, platform modernization, and safe innovation.",
+    "technology_themes": [
+      "authorizations",
+      "cyber security",
+      "platforms",
+      "privacy",
+      "secure access",
+      "tooling"
+    ],
+    "capability_themes": [
+      "faster delivery",
+      "safer innovation"
+    ],
+    "workforce_implications": [],
     "evidence": [
       {
         "source": "departmental_plan",
         "source_id": "2026 Census of Population",
+        "source_section": "evidence_quote",
         "quote": "It will also mark the first use of cloud technology in a Canadian census, enhancing data security and resilience against cyber threats."
-      },
-      {
-        "source": "departmental_plan",
-        "source_id": "SP2",
-        "quote": "Build and adopt a complete enabling infrastructure."
-      },
-      {
-        "source": "mandate_letter",
-        "source_id": "Economic Statistics Field_Jennifer Withington_P3",
-        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
-      }
-    ]
-  },
-  {
-    "driver": "Metadata, Data Standards and Discoverability",
-    "description": "Enterprise emphasis on standardized, metadata-driven, interoperable and searchable data assets to improve discovery, reuse, integration and machine-actionable access.",
-    "evidence": [
-      {
-        "source": "future_vision_deck",
-        "source_id": "Slide unknown - Key priorities of the future state",
-        "quote": "“Searchable, Usable, Actionable Data Assets … All data and metadata are standardized, richly described, and machine-actionable—built for interoperability and reuse across tools, systems, and organizations.”"
-      },
-      {
-        "source": "future_vision_deck",
-        "source_id": "Slide unknown - Business Vision - Analyse",
-        "quote": "“FAIR-aligned data discovery platform enables better access and reuse. A searchable, metadata-driven data discovery platform is available to all analysts, enabling them to easily locate and access appropriate data sources.”"
-      },
-      {
-        "source": "departmental_plan",
-        "source_id": "Updated digital infrastructure and new data platforms",
-        "quote": "A centralized data repository will make it easier for employees to find and use data, supporting the production of high-quality, timely statistics for Canadians."
-      }
-    ]
-  },
-  {
-    "driver": "Modular Reusable Architecture and Self-Service Tools",
-    "description": "Shift to modular architectures, microservices, reusable components and supported self-service environments to increase agility, reuse and scalable solution development.",
-    "evidence": [
-      {
-        "source": "future_vision_deck",
-        "source_id": "Slide unknown - Key priorities of the future state",
-        "quote": "“Modular, Reusable Architecture and Tools & services … The organization has modular tools and microservices to increase agility, maintainability, and reuse across programs.”"
-      },
-      {
-        "source": "future_vision_deck",
-        "source_id": "Slide unknown - Business Vision - Process",
-        "quote": "“Microservices are used to manage each processing function (e.g. integrate data, edit, derive new variables, aggregate), with clear input/output standards across surveys and subject-matter areas.”"
-      },
-      {
-        "source": "departmental_plan",
-        "source_id": "Updated digital infrastructure and new data platforms",
-        "quote": "New functionality, such as self-serve platforms, will also empower employees to access the IT systems and resources they need, when they need them."
-      }
-    ]
-  },
-  {
-    "driver": "Workforce Transformation and Skills Transition",
-    "description": "Reshaping the workforce through upskilling, training, leadership development, cultural change and support for employees adapting to new tools, methods and operating models.",
-    "evidence": [
-      {
-        "source": "departmental_plan",
-        "source_id": "SP3",
-        "quote": "Shape a healthy, diverse and skilled workforce to meet the current and future needs of Canadians."
       },
       {
         "source": "future_vision_deck",
         "source_id": "Slide unknown - Key Changes Required - Analyse",
-        "quote": "“Adapt hiring and redesign training: Redesign the Analysis 101 curriculum to proactively meet modern analytical profiles.”"
-      },
-      {
-        "source": "mandate_letter",
-        "source_id": "Economic Statistics Field_Jennifer Withington_P4",
-        "quote": "Support employees and leaders through workforce adjustment, skills transition (data, methods, digital), and cultural change—while sustaining engagement, clarity, and trust."
-      }
-    ]
-  },
-  {
-    "driver": "Open-Source and Business Development Enablement",
-    "description": "Expansion of open-source tools and governed low-code/no-code business development so programs can build solutions within approved, supported and secure enterprise environments.",
-    "evidence": [
-      {
-        "source": "mandate_letter",
-        "source_id": "Economic Statistics Field_All staff_P3",
-        "quote": "The transition to open-source environments will continue as an important component of transformation across the field."
+        "source_section": "slide_update",
+        "quote": "“Transparency and Trust in AI: Implement AI frameworks and ethical review processes to ensure human oversight, fairness, and trust in automated analysis.”"
       },
       {
         "source": "future_vision_deck",
         "source_id": "Slide unknown - What is Business Development / GSBPM Roadmap Business Development",
-        "quote": "“Within StatCan, Business Development is defined as a program where employees outside of IT (programs, methodology, operations) are enabled to develop solutions using approved low-code/no-code platforms (e.g. PowerAutomate, PowerApps) and/or approved sets of tools within IT supported, security assessed, AI-enabled business platforms”"
+        "source_section": "slide_update",
+        "quote": "“Within StatCan, Business Development is defined as a program where employees outside of IT (programs, methodology, operations) are enabled to develop solutions using approved low-code/no-code platforms (e.g. PowerAutomate, PowerApps) and/or approved sets of tools within IT supported, security assessed, AI-enabled business platforms … ‘Business Development’ replaces the concept of ‘Citizen Development’ (TBS) … Business Development is bound to the same security postures and digital guardrails as the usual software development – business development life cycle”"
       },
       {
         "source": "future_vision_deck",
-        "source_id": "Slide unknown - Key priorities of the future state",
-        "quote": "“Open-source tools are the default, and employees openly share their code.”"
+        "source_id": "Slide unknown - Business Development: Processing and Analysis Activity Groups – Corporate vs. Business Development",
+        "source_section": "slide_update",
+        "quote": "“Develop data analytics solutions (business logic) within IT supported, security assessed, AI-enabled production platforms (the Zone, Fabric) while following the Standard on Managing Data Analytics Solutions Create data pipelines, R/Python scripts, modules and packages, visualizations and dashboards incl. use of AI methods Create data edit / capture interfaces within security assessed platforms to allow for manual edits and overrides Business process automation through established platforms - PowerApps, RPA etc. Only allow access to what the user needs access to Follow corporate guidelines, policies, directives and Statistical Reproducible Framework practices - Data Analytics Solution development process (e.g., no security assessment before putting developed business logic in production- attestation and automatic approvals)”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P1",
+        "source_section": "priority_description",
+        "quote": "Ensure the successful delivery of the 2026 Census of Population and Census of Agriculture, including secure collection, processing and dissemination, systems stability, operational resilience, and public and stakeholder confidence—while managing heightened fiscal, workforce, and reputational risk."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P1",
+        "source_section": "evidence_quote",
+        "quote": "Ensure the successful delivery of the 2026 Census of Population and Census of Agriculture, including secure collection, processing and dissemination, systems stability, operational resilience, and public and stakeholder confidence—while managing heightened fiscal, workforce, and reputational risk."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P3",
+        "source_section": "priority_description",
+        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P3",
+        "source_section": "evidence_quote",
+        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P1",
+        "source_section": "priority_description",
+        "quote": "Ensure the successful delivery of the 2026 Census of Population and Census of Agriculture, including secure collection, processing and dissemination, systems stability, operational resilience, and public and stakeholder confidence—while managing heightened fiscal, workforce, and reputational risk."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P1",
+        "source_section": "evidence_quote",
+        "quote": "Ensure the successful delivery of the 2026 Census of Population and Census of Agriculture, including secure collection, processing and dissemination, systems stability, operational resilience, and public and stakeholder confidence—while managing heightened fiscal, workforce, and reputational risk."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P3",
+        "source_section": "priority",
+        "quote": "Modernizing and securing the agency’s digital foundations"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P3",
+        "source_section": "evidence_quote",
+        "quote": "Strengthen cyber security, privacy, and secure access while modernizing platforms, authorizations, and tooling to support faster delivery and safer innovation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P3",
+        "source_section": "evidence_quote",
+        "quote": "This work will be guided by the need to maintain secure and stable production environments and the capacity required to support solutions over time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P3",
+        "source_section": "evidence_quote",
+        "quote": "Decisions will reflect accountability for secure, stable, and reliable delivery."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P4",
+        "source_section": "evidence_quote",
+        "quote": "This major operation requires secure collection, processing, and dissemination; systems stability and operational resilience; and sustained public and stakeholder confidence."
       }
     ]
   },
   {
-    "driver": "Modern Statistical Methods and Methodological Innovation",
-    "description": "Continuous modernization of statistical methods, including adaptive collection, advanced estimation, linkage and new analytical techniques to sustain quality under changing response and data conditions.",
-    "evidence": [
-      {
-        "source": "departmental_plan",
-        "source_id": "SP1",
-        "quote": "Underpinning Statistics Canada's efforts to maintain relevant economic and social statistics is its commitment to refining and updating its statistical methods to build the next generation of statistical programs and operations."
-      },
-      {
-        "source": "departmental_plan",
-        "source_id": "Modern statistical methods",
-        "quote": "In 2026-27, Statistics Canada will continue to investigate new methods to produce high-quality data in the face of declining response rates."
-      },
-      {
-        "source": "mandate_letter",
-        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
-        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
-      }
-    ]
-  },
-  {
-    "driver": "Operational Efficiency and Cost Discipline",
-    "description": "Enterprise pressure to improve productivity, reduce costs, streamline operations and realign resources while maintaining high-quality mission-critical outputs.",
-    "evidence": [
-      {
-        "source": "departmental_plan",
-        "source_id": "Comprehensive Expenditure Review response",
-        "quote": "To meet CER savings targets over three years, Statistics Canada will increase the efficiency of its statistical programs by adopting new tools and methods to reduce costs while continuing to deliver relevant and high-quality data for Canadians."
-      },
-      {
-        "source": "mandate_letter",
-        "source_id": "Economic Statistics Field_Jennifer Withington",
-        "quote": "At the same time, fiscal realities require thoughtful stewardship and sharper alignment of resources to outcomes."
-      },
-      {
-        "source": "mandate_letter",
-        "source_id": "Social, Health and Labour Statistics Field_All staff",
-        "quote": "Fiscal constraints, evolving data sources, and increasing expectations for timely, disaggregated, and policy-relevant information require deliberate prioritization, explicit trade-offs, and strong program stewardship."
-      }
-    ]
-  },
-  {
-    "driver": "Governance, Prioritization and Execution Discipline",
-    "description": "Stronger enterprise governance, clearer accountabilities, transparent trade-offs and faster decision-making to support scaled implementation and delivery against fixed timelines.",
+    "driver": "Governance, Prioritization and Decision Discipline",
+    "description": "Clearer enterprise governance, prioritization, accountability, and decision rights to focus scarce resources and support scaled implementation.",
+    "why_this_is_a_driver": "Governance reform and decision discipline recur across future-state design and mandate priorities as necessary to accelerate implementation and manage trade-offs.",
+    "technology_themes": [],
+    "capability_themes": [
+      "accountability",
+      "cross-field decision-making",
+      "prioritization",
+      "transparent trade-offs"
+    ],
+    "workforce_implications": [
+      "scarce resources are focused on the highest-value outcomes"
+    ],
     "evidence": [
       {
         "source": "future_vision_deck",
         "source_id": "Slide unknown - Key Changes Required - Process",
+        "source_section": "slide_update",
         "quote": "“Agile governance: Current governance structure is rigid, risk averse and slow for iterative digital innovation.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Key Changes Required - Analyse",
+        "source_section": "slide_update",
+        "quote": "“Transparency and Trust in AI: Implement AI frameworks and ethical review processes to ensure human oversight, fairness, and trust in automated analysis.”"
       },
       {
         "source": "mandate_letter",
         "source_id": "Economic Statistics Field_Jennifer Withington_P5",
+        "source_section": "priority_description",
+        "quote": "Strengthen prioritization, accountability, and cross-field decision-making so scarce resources are focused on the highest-value outcomes and trade-offs are transparent."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P5",
+        "source_section": "evidence_quote",
         "quote": "Strengthen prioritization, accountability, and cross-field decision-making so scarce resources are focused on the highest-value outcomes and trade-offs are transparent."
       },
       {
         "source": "mandate_letter",
         "source_id": "Economic Statistics Field_Jennifer Withington_P6",
-        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines. Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes."
+        "source_section": "priority_description",
+        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines. Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes. Foster a culture of action over prolonged deliberation—while maintaining sound stewardship and risk management."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P6",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P6",
+        "source_section": "evidence_quote",
+        "quote": "Foster a culture of action over prolonged deliberation—while maintaining sound stewardship and risk management."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P5",
+        "source_section": "priority",
+        "quote": "Clarifying enterprise governance and reinforcing decision discipline"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P5",
+        "source_section": "priority_description",
+        "quote": "Strengthen prioritization, accountability, and cross-field decision-making so scarce resources are focused on the highest-value outcomes and trade-offs are transparent."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P5",
+        "source_section": "evidence_quote",
+        "quote": "Strengthen prioritization, accountability, and cross-field decision-making so scarce resources are focused on the highest-value outcomes and trade-offs are transparent."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P6",
+        "source_section": "priority_description",
+        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines. Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes. Foster a culture of action over prolonged deliberation—while maintaining sound stewardship and risk management."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P6",
+        "source_section": "evidence_quote",
+        "quote": "Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P6",
+        "source_section": "evidence_quote",
+        "quote": "Foster a culture of action over prolonged deliberation—while maintaining sound stewardship and risk management."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P1",
+        "source_section": "evidence_quote",
+        "quote": "This work will continue to align with enterprise platforms and shared solutions and will be supported by appropriate governance, documentation, and monitoring."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "evidence_quote",
+        "quote": "Managers are expected to work within prescribed timelines and to exercise disciplined decision‑making, fostering a culture of action over prolonged deliberation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P2",
+        "source_section": "evidence_quote",
+        "quote": "Issues should be resolved at the appropriate level, with leaders taking ownership of decisions within their accountabilities."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P5",
+        "source_section": "priority_description",
+        "quote": "Delivering on this mandate will require focus, discipline, and collective effort. It will also require strong critical thinking to ensure clarity about what we will not do, where simplification is necessary, and how resources are aligned in support of successful outcomes. Leaders at all levels are expected to manage actively to achieve timelines and delivery milestones, strengthen prioritization and accountability, and support timely decision‑making. This includes maintaining alignment with agreed priorities and ensuring decisions and actions support delivery. As we do so, we will maintain sound risk management and accountability for delivery while continuing to produce the high-quality statistics that Canadians rely on."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P5",
+        "source_section": "evidence_quote",
+        "quote": "It will also require strong critical thinking to ensure clarity about what we will not do, where simplification is necessary, and how resources are aligned in support of successful outcomes."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P5",
+        "source_section": "evidence_quote",
+        "quote": "Leaders at all levels are expected to manage actively to achieve timelines and delivery milestones, strengthen prioritization and accountability, and support timely decision‑making."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P5",
+        "source_section": "evidence_quote",
+        "quote": "This includes maintaining alignment with agreed priorities and ensuring decisions and actions support delivery."
+      }
+    ]
+  },
+  {
+    "driver": "Agility, Timelines and Execution Discipline",
+    "description": "Operating with fixed timelines, delivery milestones, faster implementation, and active management of execution across transformation initiatives.",
+    "why_this_is_a_driver": "Many records stress speed, disciplined execution, milestone management, and time-bound delivery as enterprise expectations for modernization and program delivery.",
+    "technology_themes": [],
+    "capability_themes": [
+      "accelerated decision-making",
+      "aligning resources to time-critical outcomes",
+      "clarifying authorities",
+      "clear delivery milestones",
+      "culture of action",
+      "fixed timelines",
+      "implementation",
+      "removing barriers",
+      "risk management",
+      "sound stewardship"
+    ],
+    "workforce_implications": [
+      "aligning resources to time-critical outcomes",
+      "clarifying authorities",
+      "foster a culture of action over prolonged deliberation",
+      "manage actively to those deadlines",
+      "removing barriers"
+    ],
+    "evidence": [
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Across Canada and within the federal public service, there is a clear expectation that institutions deliver tangible results with focus, discipline, and speed."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Leaders are being called upon to strengthen productivity, make explicit choices about priorities, and demonstrate value in practical terms."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "For Statistics Canada, this context demands an agenda that is both ambitious and deliberate—one that reinforces operational excellence, accelerates modernization, strengthens our digital and methodological foundations, and equips our people to execute with clarity and confidence."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "I encourage you to insist on clarity, maintain focus on outcomes, and model disciplined execution."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Where timelines are set, manage actively to them."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Perfection is not the objective—timely, high-quality delivery is."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P6",
+        "source_section": "priority",
+        "quote": "Increasing enterprise agility and execution discipline"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P6",
+        "source_section": "priority_description",
+        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines. Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes. Foster a culture of action over prolonged deliberation—while maintaining sound stewardship and risk management."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P6",
+        "source_section": "evidence_quote",
+        "quote": "Increasing enterprise agility and execution discipline"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P6",
+        "source_section": "evidence_quote",
+        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "Across Canada and within the federal public service, there is a clear expectation that institutions deliver tangible results with focus, discipline, and speed."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "Leaders are being called upon to strengthen productivity, make explicit choices about priorities, and demonstrate value in practical terms."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "For Statistics Canada, this context demands an agenda that is both ambitious and deliberate—one that reinforces operational excellence, accelerates modernization, strengthens our digital and methodological foundations, and equips our people to execute with clarity and confidence."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P6",
+        "source_section": "priority",
+        "quote": "Increasing enterprise agility and execution discipline"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P6",
+        "source_section": "priority_description",
+        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines. Accelerate decision-making and implementation by clarifying authorities, removing barriers, and aligning resources to time-critical outcomes. Foster a culture of action over prolonged deliberation—while maintaining sound stewardship and risk management."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P6",
+        "source_section": "evidence_quote",
+        "quote": "Commit to fixed timelines and clear delivery milestones and manage actively to those deadlines."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P5",
+        "source_section": "evidence_quote",
+        "quote": "Delivering on this mandate will require focus, discipline, and collective effort."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff_P5",
+        "source_section": "evidence_quote",
+        "quote": "Leaders at all levels are expected to manage actively to achieve timelines and delivery milestones, strengthen prioritization and accountability, and support timely decision‑making."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff",
+        "source_section": "strategic_context",
+        "quote": "In this context, we will continue to focus on timely decision-making, clear priorities, and managing our work against defined timelines, while making thoughtful trade-offs to concentrate efforts where they will have the greatest impact."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_1",
+        "source_section": "evidence_quote",
+        "quote": "This work will be supported by ongoing monitoring of progress against timelines and a clear focus on delivery at each stage."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "The field will advance transformation initiatives to modernize statistical production and support efficient, high-quality delivery in line with the December 2028 deadline."
+      }
+    ]
+  },
+  {
+    "driver": "Operational Efficiency and Cost Realignment",
+    "description": "Program realignment, streamlined processes, flatter structures, and cost-saving efficiencies to sustain delivery under fiscal constraint.",
+    "why_this_is_a_driver": "Fiscal pressure and efficiency expectations appear repeatedly, with explicit references to savings targets, process modernization, internal service modernization, and resource trade-offs.",
+    "technology_themes": [
+      "artificial intelligence",
+      "automation",
+      "machine learning",
+      "new tools and methods"
+    ],
+    "capability_themes": [],
+    "workforce_implications": [
+      "decrease of approximately 900 full-time equivalents by 2028-29",
+      "flatten management structures",
+      "prioritize services and programs, while also finding new efficiencies"
+    ],
+    "evidence": [
+      {
+        "source": "departmental_plan",
+        "source_id": "Comprehensive Expenditure Review response",
+        "source_section": "transformation_initiative",
+        "quote": "Statistics Canada will increase the efficiency of its statistical programs to meet savings targets through program realignment, targeted reductions and rescoping, implementation of program cost-saving efficiencies, modernized processes, flattened management structures and modernized internal services."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Comprehensive Expenditure Review response",
+        "source_section": "evidence_quote",
+        "quote": "Statistics Canada will achieve these reductions by doing the following: Program realignment through targeted reductions and rescoping. Implementation of program cost-saving efficiencies."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Comprehensive Expenditure Review response",
+        "source_section": "evidence_quote",
+        "quote": "To meet CER savings targets over three years, Statistics Canada will increase the efficiency of its statistical programs by adopting new tools and methods to reduce costs while continuing to deliver relevant and high-quality data for Canadians."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Comprehensive Expenditure Review response",
+        "source_section": "evidence_quote",
+        "quote": "The agency will also modernize processes, flatten management structures and modernize internal services."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Across Canada and within the federal public service, there is a clear expectation that institutions deliver tangible results with focus, discipline, and speed."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "At the same time, fiscal realities require thoughtful stewardship and sharper alignment of resources to outcomes."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "Delivering on these priorities will require explicit alignment of resources—including funding, workforce, and executive attention—with enterprise priorities, and disciplined trade-offs where activities do not support scaled implementation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "In a context of fiscal constraint, evolving data sources, and increasing demand for timely insight, this means continuing to deliver mission-critical programs that directly inform monetary policy, fiscal transfers, and economic stability."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "Leaders are being called upon to strengthen productivity, make explicit choices about priorities, and demonstrate value in practical terms."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "At the same time, fiscal realities require thoughtful stewardship and sharper alignment of resources to outcomes."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "Delivering on these priorities will require explicit alignment of resources—including funding, workforce, and executive attention—with enterprise priorities, and disciplined trade-offs where activities do not support scaled implementation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "In a context of fiscal constraint, evolving data sources, and increasing demand for disaggregated and timely information, this includes the continued delivery of mission-critical programs such as labour market indicators, demographic estimates, and health and social statistics that inform key policy decisions."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff",
+        "source_section": "strategic_context",
+        "quote": "In a context of fiscal restraint, heightened delivery expectations, shifting trade and geopolitical conditions, and accelerating technological change, our responsibility remains clear: to sustain trusted, high‑quality core outputs while continuing to modernize how we produce them."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_All staff",
+        "source_section": "strategic_context",
+        "quote": "They require us to make explicit choices, so effort and resources are aligned to the highest value outcomes."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff",
+        "source_section": "strategic_context",
+        "quote": "Fiscal constraints, evolving data sources, and increasing expectations for timely, disaggregated, and policy-relevant information require deliberate prioritization, explicit trade-offs, and strong program stewardship."
+      }
+    ]
+  },
+  {
+    "driver": "Modern Statistical Methods and Next-Generation Production",
+    "description": "Modernization of statistical methods, production models, and program designs to sustain quality, timeliness, and relevance under changing conditions.",
+    "why_this_is_a_driver": "The evidence consistently references next-generation statistical programs, updated methods, adaptive collection, redesigned programs, and enterprise-scale production modernization.",
+    "technology_themes": [
+      "AI-enabled automated coding",
+      "SDLE",
+      "adaptive collection design",
+      "administrative and alternative data",
+      "advanced methods",
+      "alternative data",
+      "artificial intelligence",
+      "artificial intelligence (AI)",
+      "automation",
+      "chatbots",
+      "cloud technology",
+      "corporate platforms",
+      "data extraction from unstructured sources",
+      "data linkages",
+      "enhanced Social Data Linkage Environment (SDLE)",
+      "enterprise best practices",
+      "gridded data",
+      "integrated data pipelines",
+      "integrated, metadata-driven pipelines",
+      "modern corporate platforms",
+      "modern data management practices",
+      "modern statistical methods",
+      "online-first strategy",
+      "small area estimation",
+      "transition to open-source environments"
+    ],
+    "capability_themes": [
+      "adopting new methodologies",
+      "advance the redesign of the General Social Statistics Program",
+      "advance transformation initiatives to modernize statistical production",
+      "collaborating with partners across the data landscape",
+      "coordinating field activities",
+      "core statistical program delivery",
+      "deliver on the modernization of the Survey of Employment, Payrolls and Hours and the Labour Force Survey",
+      "delivering trustworthy, objective, high-quality information",
+      "enterprise adoption",
+      "enterprise-scale implementation",
+      "improving data quality",
+      "increasing opportunities for reuse through enterprise approaches",
+      "managing milestones and risks in collaboration with enterprise partners",
+      "modernize its statistical programs",
+      "more efficient production processes",
+      "providing technical support",
+      "reducing manual intervention",
+      "reductions in cycle time",
+      "reductions in manual effort",
+      "reductions in respondent burden",
+      "refining and updating its statistical methods",
+      "responding to emerging issues",
+      "simplifying and streamlining processing",
+      "strengthening program stewardship",
+      "support efficient, high-quality delivery",
+      "supporting timelier outputs"
+    ],
+    "workforce_implications": [
+      "advance the redesign of the General Social Statistics Program",
+      "agency staff will integrate AI assistants into their daily work to increase efficiency",
+      "coordinate field activities",
+      "deliver on the modernization of the Survey of Employment, Payrolls and Hours and the Labour Force Survey",
+      "manage milestones and risks in collaboration with enterprise partners",
+      "measurable reductions in manual effort",
+      "move beyond pilots to sustained, enterprise-scale implementation",
+      "provide employees with the tools and training they need",
+      "provide its employees with the tools and training they need to deliver on its core responsibility",
+      "provide technical support",
+      "recruitment of thousands of employees—including enumerators who conduct in-person data collection",
+      "support a skilled and adaptable workforce",
+      "transition programs to modern corporate platforms"
+    ],
+    "evidence": [
+      {
+        "source": "departmental_plan",
+        "source_id": "SP1",
+        "source_section": "strategic_priority",
+        "quote": "Build the next generation of statistical programs and operations."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP1",
+        "source_section": "evidence_quote",
+        "quote": "In 2026-27, Statistics Canada will continue to modernize its statistical programs and provide its employees with the tools and training they need to deliver on its core responsibility of providing trustworthy, objective, high-quality information for Canadians."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "SP1",
+        "source_section": "evidence_quote",
+        "quote": "Underpinning Statistics Canada's efforts to maintain relevant economic and social statistics is its commitment to refining and updating its statistical methods to build the next generation of statistical programs and operations."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Modern statistical methods",
+        "source_section": "transformation_initiative",
+        "quote": "Statistics Canada will continue to investigate new methods to produce high-quality data in the face of declining response rates, including adaptive collection design, data linkages, alternative data, gridded data and expansion of the SDLE."
+      },
+      {
+        "source": "departmental_plan",
+        "source_id": "Modern statistical methods",
+        "source_section": "evidence_quote",
+        "quote": "In 2026-27, Statistics Canada will continue to investigate new methods to produce high-quality data in the face of declining response rates."
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Process",
+        "source_section": "slide_update",
+        "quote": "“By 2030, Process (GSBPM 5.0) will operate infrastructure leveraging AI, ML, and advanced technologies to provide programs with rules for their Data Pipelines. Resilient, auditable, and adaptive workflows will produce timely, trustworthy, and reproducible statistical outputs across all subject-matter areas.”"
+      },
+      {
+        "source": "future_vision_deck",
+        "source_id": "Slide unknown - Business Vision - Analyse",
+        "source_section": "slide_update",
+        "quote": "“By 2030, the Analyse (GSBPM 6.0) process will be modernized where analysts focus on delivering high-value outputs by leveraging their analytical expertise and subject matter knowledge.”"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "For Statistics Canada, this context demands an agenda that is both ambitious and deliberate—one that reinforces operational excellence, accelerates modernization, strengthens our digital and methodological foundations, and equips our people to execute with clarity and confidence."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington",
+        "source_section": "strategic_context",
+        "quote": "This includes advancing key initiatives such as the implementation of the System of National Accounts 2025 and the development of the TechStats program."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "priority",
+        "quote": "Advancing next-generation statistical production"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
+        "quote": "Advancing next-generation statistical production"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
+        "quote": "Move beyond pilots to sustained, enterprise-scale implementation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Economic Statistics Field_Jennifer Withington_P2",
+        "source_section": "evidence_quote",
+        "quote": "Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin",
+        "source_section": "strategic_context",
+        "quote": "This includes continued work on the Quality of Life Framework and the continued development of an integrated system of population and social statistics."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "priority",
+        "quote": "Advancing next-generation statistical production"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "priority_description",
+        "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value. Move beyond pilots to sustained, enterprise-scale implementation. Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "evidence_quote",
+        "quote": "Move beyond pilots to sustained, enterprise-scale implementation."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_Josée Bégin_P2",
+        "source_section": "evidence_quote",
+        "quote": "Continue delivering the agency’s core statistical programs that support legislation and policy direction, with measurable reductions in manual effort, respondent burden, and cycle time."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "priority",
+        "quote": "Advance transformation initiatives"
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "priority_description",
+        "quote": "The field will advance transformation initiatives to modernize statistical production and support efficient, high-quality delivery in line with the December 2028 deadline. This will be achieved through your work in the transition to open-source environments by coordinating field activities, providing technical support, and managing milestones and risks in collaboration with enterprise partners. The field will transition programs to modern corporate platforms to enable integrated, metadata-driven pipelines that support automation and enterprise best practices, while maintaining the rigour and reliability of monthly production. As part of this work, Field 8 will deliver on the modernization of the Survey of Employment, Payrolls and Hours and the Labour Force Survey, simplifying and streamlining processing, improving data quality, reducing manual intervention, and strengthening program stewardship. Our field will advance the redesign of the General Social Statistics Program to meet the ever-increasing data needs. These efforts are expected to contribute to more efficient production processes, including reducing manual steps, supporting timelier outputs, and increasing opportunities for reuse through enterprise approaches."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "As part of this work, Field 8 will deliver on the modernization of the Survey of Employment, Payrolls and Hours and the Labour Force Survey, simplifying and streamlining processing, improving data quality, reducing manual intervention, and strengthening program stewardship."
+      },
+      {
+        "source": "mandate_letter",
+        "source_id": "Social, Health and Labour Statistics Field_All staff_3",
+        "source_section": "evidence_quote",
+        "quote": "Our field will advance the redesign of the General Social Statistics Program to meet the ever-increasing data needs."
       }
     ]
   }
