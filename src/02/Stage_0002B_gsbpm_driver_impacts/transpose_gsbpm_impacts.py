@@ -35,10 +35,6 @@ gsbpm_map = {}
 
 for driver_record in driver_impacts:
 
-    driver_id = driver_record.get(
-        "driver_id",
-        ""
-    )
 
     driver_name = driver_record.get(
         "driver",
@@ -97,14 +93,40 @@ for driver_record in driver_impacts:
             "drivers"
         ].append(
             {
-                "driver_id":
-                    driver_id,
-
                 "driver":
                     driver_name,
 
+                "description":
+                    driver_record.get(
+                        "description",
+                        ""
+                    ),
+
+                "why_this_is_a_driver":
+                    driver_record.get(
+                        "why_this_is_a_driver",
+                        ""
+                    ),
+
+                "technology_themes":
+                    driver_record.get(
+                        "technology_themes",
+                        []
+                    ),
+
+                "capability_themes":
+                    driver_record.get(
+                        "capability_themes",
+                        []
+                    ),
+
+                "workforce_implications":
+                    driver_record.get(
+                        "workforce_implications",
+                        []
+                    ),
+
                 "impact_strength":
-                
                     subprocess.get(
                         "impact_strength",
                         ""
@@ -114,6 +136,12 @@ for driver_record in driver_impacts:
                     subprocess.get(
                         "impact",
                         ""
+                    ),
+
+                "impact_mechanisms":
+                    subprocess.get(
+                        "impact_mechanisms",
+                        []
                     )
             }
         )
@@ -127,7 +155,7 @@ for record in gsbpm_map.values():
 
     record["drivers"] = sorted(
         record["drivers"],
-        key=lambda x: x["driver_id"]
+        key=lambda x: x["driver"]
     )
 
 

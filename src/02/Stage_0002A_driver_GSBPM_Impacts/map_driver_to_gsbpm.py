@@ -25,11 +25,12 @@ AZURE_OPENAI_DEPLOYMENT = os.getenv(
     "AZURE_OPENAI_DEPLOYMENT"
 )
 
-INPUT_DRIVERS = "input/consolidated_drivers.json"
+INPUT_DRIVERS = "input/drivers.json"
 INPUT_GSBPM = "input/GSBPM_v5_2.json"
 
-OUTPUT_FILE = "output/driver_gsbpm_impacts.json"
-
+OUTPUT_FILE = (
+    "output/driver_gsbpm_impacts.json"
+)
 
 # ==================================================
 # Azure OpenAI Client
@@ -41,26 +42,31 @@ client = AzureOpenAI(
     api_version=AZURE_OPENAI_API_VERSION
 )
 
-
 # ==================================================
 # Load Drivers
 # ==================================================
 
-with open(INPUT_DRIVERS, encoding="utf-8") as f:
+with open(
+    INPUT_DRIVERS,
+    encoding="utf-8"
+) as f:
+
     drivers = json.load(f)
 
 print(
     f"Loaded {len(drivers)} drivers."
 )
 
-
 # ==================================================
 # Load GSBPM
 # ==================================================
 
-with open(INPUT_GSBPM, encoding="utf-8") as f:
-    gsbpm = json.load(f)
+with open(
+    INPUT_GSBPM,
+    encoding="utf-8"
+) as f:
 
+    gsbpm = json.load(f)
 
 # ==================================================
 # Flatten GSBPM
@@ -98,37 +104,54 @@ for phase_record in gsbpm:
 print(
     f"Loaded {len(flat_gsbpm)} GSBPM subprocesses."
 )
-
 # ==================================================
-# Process Drivers
+# System Prompt
 # ==================================================
 
-results = []
+SYSTEM_PROMPT = """
+You are an expert in:
 
-for driver in drivers:
+- Statistics Canada
+- Workforce Transformation
+- GSBPM
+- Statistical Modernization
 
-    print(
-        f"Processing {driver['driver_id']} "
-        f"- {driver['driver']}"
-    )
+TASK
 
-    driver_context = {
-        "driver_id": driver["driver_id"],
-        "driver": driver["driver"],
-        "description": driver.get(
-            "description",
-            ""
-        )
-    }
+Given a strategic driver and a collection of
+GSBPM subprocesses:
 
-    prompt = f"""
-You are a Statistics Canada and GSBPM expert.
+Identify which subprocesses are materially
+affected by the driver.
 
-Given a strategic driver and a list of GSBPM
-subprocesses, identify which subprocesses are
-materially affected.
+The driver contains:
 
-Only include affected subprocesses.
+- description
+- technology themes
+- capability themes
+- workforce implications
+
+These explain HOW the driver creates change.
+
+Use all of these fields when assessing
+GSBPM impacts.
+
+RULES
+
+1. Only return affected subprocesses.
+2. Consider direct and significant impacts.
+3. Ignore weak or unrelated impacts.
+4. Impact strength must be:
+   - High
+   - Medium
+   - Low
+
+5. Use technology themes,
+   capability themes,
+   and workforce implications
+   when explaining impacts.
+
+6. Be specific.
 
 For each affected subprocess provide:
 
@@ -139,95 +162,172 @@ For each affected subprocess provide:
 - gsbpm_description
 - impact_strength
 - impact
+- impact_mechanisms
 
-impact_strength must be:
-High, Medium, or Low.
+impact_mechanisms should identify the
+specific technologies, capabilities,
+or workforce implications causing
+the impact.
 
 Return JSON only.
 
-Driver:
+Schema:
 
-{json.dumps(driver_context, indent=2, ensure_ascii=False)}
+{
+  "driver": "...",
+  "technology_themes": [...],
+  "capability_themes": [...],
+  "workforce_implications": [...],
+  "affected_subprocesses": [
+    {
+      "phase_id": "...",
+      "phase_name": "...",
 
-GSBPM:
+      "gsbpm_id": "...",
+      "gsbpm_name": "...",
+      "gsbpm_description": "...",
 
-{json.dumps(flat_gsbpm, ensure_ascii=False)}
+      "impact_strength":
+        "High|Medium|Low",
 
-Return:
+      "impact":
+        "...",
 
-{{
-    "driver_id": "{driver['driver_id']}",
-    "driver": "{driver['driver']}",
-    "affected_subprocesses": [
-        {{
-            "phase_id": "...",
-            "phase_name": "...",
-            "gsbpm_id": "...",
-            "gsbpm_name": "...",
-            "gsbpm_description": "...",
-            "impact_strength": "High|Medium|Low",
-            "impact": "..."
-        }}
-    ]
-}}
+      "impact_mechanisms": [
+        "..."
+      ]
+    }
+  ]
+}
 """
 
-    response = client.chat.completions.create(
-        model=AZURE_OPENAI_DEPLOYMENT,
-        temperature=0,
-        response_format={"type": "json_object"},
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You are an expert in GSBPM, "
-                    "statistical modernization, "
-                    "and organizational transformation. "
-                    "Return valid JSON only."
-                )
-            },
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
+# ==================================================
+# Process Drivers
+# ==================================================
+
+results = []
+
+for driver in drivers:
+
+    print(
+        f"Processing "
+        f"- "
+        f"{driver['driver']}"
     )
 
-    content = (
-        response
-        .choices[0]
-        .message
-        .content
-        .strip()
-    )
+    driver_context = {
+
+
+        "driver":
+            driver["driver"],
+
+        "description":
+            driver.get(
+                "description",
+                ""
+            ),
+
+        "why_this_is_a_driver":
+            driver.get(
+                "why_this_is_a_driver",
+                ""
+            ),
+
+        "technology_themes":
+            driver.get(
+                "technology_themes",
+                []
+            ),
+
+        "capability_themes":
+            driver.get(
+                "capability_themes",
+                []
+            ),
+
+        "workforce_implications":
+            driver.get(
+                "workforce_implications",
+                []
+            )
+    }
+
+    USER_PROMPT = f"""
+Driver:
+
+{json.dumps(
+    driver_context,
+    indent=2,
+    ensure_ascii=False
+)}
+
+GSBPM Subprocesses:
+
+{json.dumps(
+    flat_gsbpm,
+    indent=2,
+    ensure_ascii=False
+)}
+"""
 
     try:
 
-        result = json.loads(content)
+        response = (
+            client.chat.completions.create(
+                model=AZURE_OPENAI_DEPLOYMENT,
+                temperature=0,
+                messages=[
+                    {
+                        "role": "system",
+                        "content":
+                            SYSTEM_PROMPT
+                    },
+                    {
+                        "role": "user",
+                        "content":
+                            USER_PROMPT
+                    }
+                ]
+            )
+        )
 
-        results.append(result)
+        content = (
+            response
+            .choices[0]
+            .message
+            .content
+        )
+
+        result = json.loads(
+            content
+        )
+
+        results.append(
+            result
+        )
 
         print(
             f"✓ Completed "
-            f"{driver['driver_id']}"
+            f"{driver['driver']}"
         )
 
-    except json.JSONDecodeError:
+    except Exception as e:
 
         print(
-            f"✗ Failed parsing JSON for "
-            f"{driver['driver_id']}"
+            f"✗ Failed "
+            f"{driver['driver']}"
         )
 
-        print(content)
-
+        print(str(e))
 
 # ==================================================
 # Save Results
 # ==================================================
 
 os.makedirs(
-    os.path.dirname(OUTPUT_FILE),
+    os.path.dirname(
+        OUTPUT_FILE
+    ),
     exist_ok=True
 )
 
@@ -250,6 +350,6 @@ print(
 )
 
 print(
-    f"Saved to: {OUTPUT_FILE}"
+    f"Saved to: "
+    f"{OUTPUT_FILE}"
 )
-
