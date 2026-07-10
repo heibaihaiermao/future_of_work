@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-JSON_PATH = Path("./data/organizational-structure-document/org.json")
+JSON_PATH = Path("organizational-structure-document/org.json")
 
 TRAINING_FIELDS = [
     "name",

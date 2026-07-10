@@ -30,8 +30,8 @@ INPUT_GSBPM_DRIVER_FILE = (
     "input/gsbpm_driver_impacts.json"
 )
 
-INPUT_WD_FILE = (
-    "input/work_descriptions.json"
+INPUT_WORK_DESCRIPTIONS_DIR = (
+"data/work-descriptions-raw"
 )
 
 OUTPUT_FILE = (
@@ -60,30 +60,68 @@ with open(
 
     gsbpm_driver_impacts = json.load(f)
 
-with open(
-    INPUT_WD_FILE,
-    "r",
-    encoding="utf-8"
-) as f:
-
-    work_descriptions = json.load(f)
-
 print(
     f"Loaded {len(gsbpm_driver_impacts)} "
     f"GSBPM subprocesses."
 )
+
+# ==================================================
+# Load Work Descriptions
+# ==================================================
+
+work_descriptions = []
+
+for filename in sorted(
+    os.listdir(
+        INPUT_WORK_DESCRIPTIONS_DIR
+    )
+):
+
+    if not filename.endswith(
+        ".json"
+    ):
+        continue
+
+    filepath = os.path.join(
+        INPUT_WORK_DESCRIPTIONS_DIR,
+        filename
+    )
+
+    try:
+
+        with open(
+            filepath,
+            encoding="utf-8"
+        ) as f:
+
+            wd = json.load(f)
+
+        work_descriptions.append(
+            wd
+        )
+
+    except Exception as e:
+
+        print(
+            f"Failed to load "
+            f"{filename}: {e}"
+        )
 
 print(
     f"Loaded {len(work_descriptions)} "
     f"work descriptions."
 )
 
+
 # ==================================================
 # System Prompt
 # ==================================================
 
 SYSTEM_PROMPT = """
-TASK:
+You are a Statistics Canada workforce transformation,
+work description, and GSBPM expert.
+
+TASK
 
 Identify work descriptions that are implicated by
 a GSBPM subprocess and its associated strategic
@@ -94,29 +132,74 @@ statistical production.
 
 The associated drivers represent transformation
 forces that are expected to influence how that
-subprocess will be performed.
+subprocess will be performed in the future and
+provide evidence of emerging technologies,
+capabilities, workforce changes, and new ways
+of working.
 
-Determine which work descriptions are materially
-connected to this subprocess.
+Each driver includes:
+
+- description
+- technology themes
+- capability themes
+- workforce implications
+- impact assessment
+- impact mechanisms
+
+These fields explain what is changing,
+why it is changing, and how work is
+expected to evolve.
+
+Determine which work descriptions are
+materially connected to this subprocess
+and are most likely to experience changes
+in responsibilities, activities, tools,
+methods, knowledge requirements, or
+skill requirements because of the associated
+drivers.
 
 For each implicated work description:
 
 - explain what aspect of the subprocess is relevant
 - explain what capability or responsibility is needed
 - explain how the work description satisfies that need
+- explain how the associated drivers are expected to affect the work
 - reference evidence from the work description
+- where applicable, identify technologies, capabilities,
+  workforce implications, or impact mechanisms that are
+  expected to influence how the work is performed in the future
 
-RULES:
+RULES
 
 - Include ALL relevant work descriptions.
 - Do not invent work descriptions.
 - Use only supplied work descriptions.
 - Consider:
+
     - key activities
     - responsibilities
     - knowledge requirements
     - communication requirements
     - contextual knowledge
+    - technology requirements
+    - future operating models
+    - workforce implications
+
+- Consider the cumulative effect of multiple drivers.
+- Focus on future-state impacts, not only
+  current responsibilities.
+- Use technology themes, capability themes,
+  workforce implications, and impact mechanisms
+  as evidence of future change.
+- Be explicit about why a work description
+  will be affected.
+- Do not identify a work description solely because
+  it currently supports the subprocess.
+  There must be a plausible connection between the
+  work description and the future-state changes
+  described by the associated drivers.
+
+RELEVANCE
 
 Relevance must be:
 
@@ -124,7 +207,27 @@ Relevance must be:
 - Medium
 - Low
 
-Return valid JSON only.
+Definitions:
+
+High:
+The work description directly performs,
+manages, designs, governs, or is heavily
+affected by the subprocess and associated
+drivers.
+
+Medium:
+The work description regularly contributes
+to the subprocess or will experience
+meaningful changes because of the associated
+drivers.
+
+Low:
+The work description has limited but
+plausible involvement in the subprocess
+or may be indirectly affected by the
+associated drivers.
+
+RETURN JSON ONLY
 
 JSON Schema:
 
@@ -134,13 +237,61 @@ JSON Schema:
   "drivers": [...],
   "implicated_work_descriptions": [
     {
-      "title": "...",
-      "classification": "...",
-      "relevance": "...",
-      "justification": "..."
-    }
+      "title": "<title of work-description>",
+
+      "classification":
+        "<classification of role>",
+
+      "relevance":
+        "High|Medium|Low",
+
+      "justification":
+        "<explanation of the implicated aspect of the subprocess, \
+articulation of the capability or responsibility required, \
+justification for why this particular work description is relevant, \
+description of how the associated drivers are expected to affect \
+the work, and reference to relevant evidence from the work description>"
+    },
+
+    "<additional implicated work descriptions>"
   ]
 }
+
+JUSTIFICATION REQUIREMENTS:
+
+The justification is the primary analytical field.
+ 
+For each implicated work description, the
+justification should:
+ 
+
+1. Identify the relevant aspect of the GSBPM subprocess.
+
+2. Explain the capability, responsibility, expertise,
+
+or operational need involved.
+
+3. Explain why the specific work description is relevant.
+
+4. Explain how the associated drivers contribute to
+
+future changes in the work.
+
+themes, capability themes, workforce implications,
+
+and impact mechanisms.
+
+5. Where applicable, reference relevant technology
+themes, capability themes, workforce implications,
+and impact mechanisms.
+
+6. Reference supporting evidence from the work description.
+
+7. Be specific, detailed, and evidence-based.
+
+
+
+
 """
 
 # ==================================================

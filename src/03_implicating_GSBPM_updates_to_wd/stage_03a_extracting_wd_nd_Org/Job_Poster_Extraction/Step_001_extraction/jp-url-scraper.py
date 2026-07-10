@@ -10,12 +10,12 @@ from playwright.sync_api import sync_playwright
 BASE = "https://psjobs-emploisfp.psc-cfp.gc.ca/psrs-srfp/applicant/"
 START_URL = "https://psjobs-emploisfp.psc-cfp.gc.ca/psrs-srfp/applicant/page2440?tab=5&mode=archive&title=&departments=125&classificationInfos=EC640&levels=0&referenceNumber=&selectionProcessNumber=&fromDate=2025-06-17&toDate=2026-06-17&search=Search%20archives&log=false"
 
-STATE_FILE = "storage_state.json"
+STATE_FILE = "input/storage_state.json"
 
-OUTPUT_DIR = "data/job-posters-html"
+OUTPUT_DIR = "output/job-posters-html"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-POSTER_FILE = "poster_urls.json"
+POSTER_FILE = "input/poster_urls.json"
 
 def extract_page_urls(page):
     """Extract pagination URLs from pagelinks"""
