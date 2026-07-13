@@ -1,0 +1,44 @@
+[
+    {
+    "gsbpm_id": "1.1",
+    "gsbpm_name": "Identify needs",
+    "impact_assessment": {
+        "is_impacted": true,
+        "impact_level": "High",
+        "reasoning": "StatCan2030 outlines a foundational shift in how statistical needs are identified and prioritized, moving from a survey-centric approach to a model that first exploits existing data holdings, administrative and alternative data, with surveys as a last resort. In addition, automation, AI-driven approaches, and dynamic, cost-benefit-based assessment are embedded at the earliest conceptual stage. These changes profoundly alter decision-making, required expertise, and the activation of downstream subprocesses."
+    },
+    "change_summary": {
+        "description": "The 'Identify needs' subprocess shifts from a primarily program- or user-driven investigation into statistical requirements toward a more systematized, technology-enabled triage. Rather than defaulting to new surveys or direct data collection, the future-state approach evaluates and prioritizes user needs through a hierarchy: existing data holdings first, administrative/alternative data second, and new survey data only when other options are insufficient. Automated tools and AI-driven assessments scrutinize feasibility, cost, and data availability at the outset, making the determination of needs less about initiating new primary collection and more about orchestrating reuse, integration, and rapid cost-benefit decision-making."
+    },
+    "future_expectation": {
+        "description": "By 2030, the identification of needs will be highly automated, data-driven, and oriented towards maximizing reuse and minimizing manual collection. Stakeholder data requests and environmental signals are triaged using AI-enabled systems that cross-reference needs with available assets, producing recommendations and options that favor existing or alternate data sources. The process is tightly linked with enterprise resource constraints, and incorporates real-time assessment of administrative, open, and big data sources. Surveys are considered only if automated triage deems all other avenues inadequate, and even then, are designed for rapid deployment and minimal footprint.",
+        "reasoning": "StatCan2030 is explicit that 'Surveys as a last resort, not first response' will be the standard, and that automation and AI will underpin the assessment and triage of new data requirements. This redefines the purpose and practice of 'Identify needs,' turning it from a manual, deliberative activity into a continuous, technology-supported, resource-aware function closely coupled to enterprise data architecture and ongoing data integration initiatives."
+    },
+    "operational_implications": {
+        "description": "Roles shift from manually investigating and scoping potential data needs to managing and interpreting the output of automated systems and AI-driven triage tools. Business processes are redesigned to support rapid scanning of internal and external data assets before opening new programs. Workforce emphasis moves to expertise in data integration, metadata assessment, cost-benefit analysis, and oversight of ethical and methodological implications of automated decision-making. Collaboration with IT and enterprise architecture becomes essential, and processes are standardized and documented to ensure transparency and reproducibility. The business case for new initiatives must convincingly demonstrate that existing and alternate data sources are inadequate and that the survey option is both justified and optimized for efficiency.",
+        "reasoning": "The operationalization of StatCan2030's directives necessitates new workflows, toolchains, and workforce skills. Automated matching, AI-driven validation, and integration with metadata/catalogue systems require statisticians and program managers to become stewards of data triage, rather than merely initiators of new statistical production programs. The focus on enterprise resource optimization and evidence-based, rapid decisions requires a fundamental rethinking of process and culture."
+    },
+    "evidence": [
+        {
+            "document": "StatCan2030",
+            "section": "Key priorities of the future state",
+            "quote": "Surveys as a last resort, not first response … Exploiting existing data holdings is the first response for new/existing data needs. Admin data and alternative data is the second response for new/existing data needs. Surveys are only used if necessary and are optimized dynamically based on cost-benefit analysis. Designing, rendering and fielding a questionnaire is done using AI and takes no more than X time."
+        },
+        {
+            "document": "StatCan2030",
+            "section": "Key priorities of the future state",
+            "quote": "End-to-End Process Automation with Minimal Manual Intervention … Automated, AI-powered data pipelines—from acquisition to dissemination—reduce manual effort, increase speed and quality, and enable real-time responsiveness across all stages of the statistical business process. Employee input focuses on higher value work, innovation, and interpretation, not execution."
+        },
+        {
+            "document": "Departmental Plan 2026-27",
+            "section": "Key priorities",
+            "quote": "Statistics Canada will achieve these reductions by doing the following: Program realignment through targeted reductions and rescoping. Implementation of program cost-saving efficiencies."
+        },
+        {
+            "document": "Field 5 2026 mandate letter",
+            "section": "Advancing next-generation statistical production",
+            "quote": "Accelerate enterprise adoption of corporate platforms, integrated data pipelines, modern data management practices, administrative and alternative data, automation, and advanced methods—including artificial intelligence where it demonstrably adds value."
+        }
+    ]
+}
+]
