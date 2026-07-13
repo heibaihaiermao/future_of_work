@@ -252,24 +252,24 @@ ix\. Cataloguing, tagging and discoverability of statistical outputs.
 11\. The GSBPM considers a number of different entities to be considered
 by a statistical business process, such as:
 
-- **Users**: Consumers of statistical outputs (e.g., policymakers,
-  researchers, businesses, and the public).
+-   **Users**: Consumers of statistical outputs (e.g., policymakers,
+    researchers, businesses, and the public).
 
-- **Respondents**: Entities providing information about themselves or
-  others (primary data) to statistical organisations or other producers
-  of official statistics through forms, surveys, or polls.
+-   **Respondents**: Entities providing information about themselves or
+    others (primary data) to statistical organisations or other
+    producers of official statistics through forms, surveys, or polls.
 
-- **Data holders**: Custodians of datasets generated or collected for
-  non-statistical purposes, such as government agencies, private
-  companies, or registry managers, who may or may not provide data to
-  NSOs.
+-   **Data holders**: Custodians of datasets generated or collected for
+    non-statistical purposes, such as government agencies, private
+    companies, or registry managers, who may or may not provide data to
+    NSOs.
 
-- **Data suppliers**: Data holders supplying data to NSOs, including
-  administrative, geospatial, or other non-survey data.
+-   **Data suppliers**: Data holders supplying data to NSOs, including
+    administrative, geospatial, or other non-survey data.
 
-- **Stakeholders**: A broad category encompassing users, respondents,
-  data suppliers, data holders, and other parties involved in or
-  affected by the statistical process.
+-   **Stakeholders**: A broad category encompassing users, respondents,
+    data suppliers, data holders, and other parties involved in or
+    affected by the statistical process.
 
 ## Structure 
 
@@ -278,11 +278,11 @@ by a statistical business process, such as:
 
 > “tasks” that are described in Annex I, as follows:
 
-- **Level 0**, the statistical business process;
+-   **Level 0**, the statistical business process;
 
-- **Level 1**, the eight phases of the statistical business process; ●
-  **Level 2**, the sub-processes within each phase; ● **Level 3**, the
-  tasks within each sub-process.
+-   **Level 1**, the eight phases of the statistical business process; ●
+    **Level 2**, the sub-processes within each phase; ● **Level 3**, the
+    tasks within each sub-process.
 
 1.  A diagram showing the phases (level 1) and sub-processes (level 2)
     is included in Section IV (Figure 5). The sub-processes are
@@ -293,39 +293,40 @@ by a statistical business process, such as:
     “Overarching Activities” in the model. These overarching activities
     are listed below and elaborated further in Section V:
 
-    - **Quality Management** - This overarching activity includes
-      quality assessment and control mechanisms. It recognises the
-      importance of evaluation and feedback throughout the statistical
-      business process;
+    -   **Quality Management** - This overarching activity includes
+        quality assessment and control mechanisms. It recognises the
+        importance of evaluation and feedback throughout the statistical
+        business process;
 
-    - **Metadata Management** - Metadata are created/reused and
-      processed within each phase, so there is a strong requirement for
-      metadata management to ensure the appropriate metadata retain
-      their links with data throughout the GSBPM. This includes
-      process-independent considerations such as metadata custodianship
-      and ownership, quality, archiving rules, preservation, retention
-      and disposal;
+    -   **Metadata Management** - Metadata are created/reused and
+        processed within each phase, so there is a strong requirement
+        for metadata management to ensure the appropriate metadata
+        retain their links with data throughout the GSBPM. This includes
+        process-independent considerations such as metadata
+        custodianship and ownership, quality, archiving rules,
+        preservation, retention and disposal;
 
-    - **Data Management** - This includes process-independent
-      considerations such as general data security, custodianship, and
-      ownership, data quality, archiving rules, preservation, retention
-      and disposal;
+    -   **Data Management** - This includes process-independent
+        considerations such as general data security, custodianship, and
+        ownership, data quality, archiving rules, preservation,
+        retention and disposal;
 
-    - **Process Data Management** - This includes activities of
-      registering, systematising and using data about the implementation
-      of the statistical business process. Process data can aid in
-      detecting and understanding patterns in the data collected, as
-      well as in evaluating the execution of the statistical business
-      process as such;
+    -   **Process Data Management** - This includes activities of
+        registering, systematising and using data about the
+        implementation of the statistical business process. Process data
+        can aid in detecting and understanding patterns in the data
+        collected, as well as in evaluating the execution of the
+        statistical business process as such;
 
-    - **Knowledge Management** - An ongoing activity that mainly
-      involves maintaining the documentation of recurring statistical
-      business processes, ensuring that they are repeatable;
+    -   **Knowledge Management** - An ongoing activity that mainly
+        involves maintaining the documentation of recurring statistical
+        business processes, ensuring that they are repeatable;
 
-    - **Data Supplier Management** - This includes cross-process burden
-      management, as well as topics such as profiling and management of
-      contact information (and thus has particularly close links with
-      statistical business processes that maintain registers).
+    -   **Data Supplier Management** - This includes cross-process
+        burden management, as well as topics such as profiling and
+        management of contact information (and thus has particularly
+        close links with statistical business processes that maintain
+        registers).
 
 ## Applicability 
 
@@ -341,21 +342,21 @@ by a statistical business process, such as:
     statistical production, including the following (non-exclusive)
     types:
 
-    - **Administrative data**: Data generated through routine
-      administrative operations by public entities, such as tax records,
-      health registries, or school enrolments.
+    -   **Administrative data**: Data generated through routine
+        administrative operations by public entities, such as tax
+        records, health registries, or school enrolments.
 
-    - **Privately held data:** Data generated through routine operations
-      by private entities, such as commercial transactions, digital
-      platform records, or social media interactions.
+    -   **Privately held data:** Data generated through routine
+        operations by private entities, such as commercial transactions,
+        digital platform records, or social media interactions.
 
-    - “**Big Data**”: High-volume, high-velocity, and high-variety data
-      derived from digital technologies, such as social media activity,
-      mobile device usage, and sensor networks.
+    -   “**Big Data**”: High-volume, high-velocity, and high-variety
+        data derived from digital technologies, such as social media
+        activity, mobile device usage, and sensor networks.
 
-    - **Geospatial data**: Data containing geographic or locational
-      attributes, including satellite imagery, GPS data, and mapping
-      systems, which GSBPM considers in a statistical context.[2]
+    -   **Geospatial data**: Data containing geographic or locational
+        attributes, including satellite imagery, GPS data, and mapping
+        systems, which GSBPM considers in a statistical context.[2]
 
 3.  Whilst typical statistical business processes include collecting and
     processing data to produce statistical outputs, the GSBPM also
@@ -448,26 +449,23 @@ have a strong link to the GSBPM.
     nested within GAMSO and comprises its “production” activity area, as
     depicted in Figure 3.
 
-<table style="width:93%;">
+<table>
 <colgroup>
-<col style="width: 47%" />
-<col style="width: 45%" />
+<col style="width: 50%" />
+<col style="width: 49%" />
 </colgroup>
 <thead>
-<tr>
-<th colspan="2" style="text-align: center;"><strong>Strategy and
-Leadership</strong></th>
+<tr class="header">
+<th colspan="2"><strong>Strategy and Leadership</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: center;"><strong>Capability
-Development</strong></td>
-<td style="text-align: center;"><strong>Corporate Support</strong></td>
+<tr class="odd">
+<td><strong>Capability Development</strong></td>
+<td><strong>Corporate Support</strong></td>
 </tr>
-<tr>
-<td colspan="2"
-style="text-align: center;"><strong>Production</strong></td>
+<tr class="even">
+<td colspan="2"><strong>Production</strong></td>
 </tr>
 </tbody>
 </table>
@@ -515,8 +513,8 @@ style="text-align: center;"><strong>Production</strong></td>
 
 GSIM Information Classes Transformed (or new)
 
-> ![](media/image70.png)(e.g. Data Set, Conceptual Sub-process GSIM
-> Information Class Variable, Parameter Input) (e.g. Process Metric)
+> (e.g. Data Set, Conceptual Sub-process GSIM Information Class
+> Variable, Parameter Input) (e.g. Process Metric)
 >
 > **Figure 4. The GSIM information classes as input and output of the
 > GSBPM sub-process**
@@ -561,184 +559,183 @@ GSIM Information Classes Transformed (or new)
 <col style="width: 0%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>Specify needs</strong></p>
 </blockquote></th>
-<th rowspan="2" style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th rowspan="2"></th>
+<th><blockquote>
 <p><strong>Design</strong></p>
 </blockquote></th>
-<th colspan="2" rowspan="2" style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th colspan="2" rowspan="2"></th>
+<th><blockquote>
 <p><strong>Build</strong></p>
 </blockquote></th>
-<th rowspan="2" style="text-align: left;"></th>
-<th colspan="4" style="text-align: center;"><blockquote>
+<th rowspan="2"></th>
+<th colspan="4"><blockquote>
 <p><strong>Collect</strong></p>
 </blockquote></th>
-<th rowspan="2" style="text-align: left;"></th>
-<th colspan="2" style="text-align: center;"><blockquote>
+<th rowspan="2"></th>
+<th colspan="2"><blockquote>
 <p><strong>Process</strong></p>
 </blockquote></th>
-<th colspan="2" rowspan="2" style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th colspan="2" rowspan="2"></th>
+<th><blockquote>
 <p><strong>Analyse</strong></p>
 </blockquote></th>
-<th rowspan="2" style="text-align: left;"></th>
-<th colspan="2" style="text-align: center;"><blockquote>
+<th rowspan="2"></th>
+<th colspan="2"><blockquote>
 <p><strong>Disseminate</strong></p>
 </blockquote></th>
-<th rowspan="2" style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th rowspan="2"></th>
+<th><blockquote>
 <p><strong>Evaluate</strong></p>
 </blockquote></th>
 </tr>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="odd">
+<th><blockquote>
 <p><strong>1.1</strong></p>
 <p><strong>Identify needs</strong></p>
 </blockquote></th>
-<th style="text-align: center;"><blockquote>
+<th><blockquote>
 <p><strong>2.1</strong></p>
 <p><strong>Design outputs</strong> <strong>and
 dissemination</strong></p>
 </blockquote></th>
-<th style="text-align: center;"><blockquote>
+<th><blockquote>
 <p><strong>3.1</strong></p>
 <p><strong>Reuse or build collection instruments</strong></p>
 </blockquote></th>
-<th colspan="4" style="text-align: center;"><blockquote>
+<th colspan="4"><blockquote>
 <p><strong>4.1</strong></p>
 <p><strong>Create frame and select sample</strong></p>
 </blockquote></th>
-<th colspan="2" style="text-align: center;"><blockquote>
+<th colspan="2"><blockquote>
 <p><strong>5.1</strong></p>
 <p><strong>Integrate data</strong></p>
 </blockquote></th>
-<th style="text-align: center;"><blockquote>
+<th><blockquote>
 <p><strong>6.1</strong></p>
 <p><strong>Prepare draft outputs</strong></p>
 </blockquote></th>
-<th colspan="2" style="text-align: center;"><blockquote>
+<th colspan="2"><blockquote>
 <p><strong>7.1</strong></p>
 <p><strong>Update output systems</strong></p>
 </blockquote></th>
-<th style="text-align: center;"><blockquote>
+<th><blockquote>
 <p><strong>8.1</strong> <strong>Gather evaluation inputs</strong></p>
 </blockquote></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: center;"><strong>1.2</strong> <strong>Consult and
-confirm needs</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>2.2</strong></p>
+<tr class="odd">
+<td><strong>1.2</strong> <strong>Consult and confirm needs</strong></td>
+<td></td>
+<td><p><strong>2.2</strong></p>
 <p><strong>Design variables</strong></p></td>
-<td colspan="2" style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>3.2</strong></p>
+<td colspan="2"></td>
+<td><p><strong>3.2</strong></p>
 <p><strong>Reuse or build processing and analysis
 components</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="4" style="text-align: center;"><p><strong>4.2</strong></p>
+<td></td>
+<td colspan="4"><p><strong>4.2</strong></p>
 <p><strong>Set up collection</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="2" style="text-align: center;"><p><strong>5.2</strong></p>
+<td></td>
+<td colspan="2"><p><strong>5.2</strong></p>
 <p><strong>Classify and code</strong></p></td>
-<td colspan="2" style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>6.2</strong></p>
+<td colspan="2"></td>
+<td><p><strong>6.2</strong></p>
 <p><strong>Validate outputs</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="2" style="text-align: center;"><p><strong>7.2</strong></p>
+<td></td>
+<td colspan="2"><p><strong>7.2</strong></p>
 <p><strong>Produce dissemination products</strong></p></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>8.2</strong></p>
+<td></td>
+<td><p><strong>8.2</strong></p>
 <blockquote>
 <p><strong>Conduct evaluation</strong></p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: center;"><p><strong>1.3</strong></p>
+<tr class="even">
+<td><p><strong>1.3</strong></p>
 <p><strong>Establish output objectives</strong></p></td>
-<td style="text-align: left;"></td>
-<td style="text-align: right;"><blockquote>
+<td></td>
+<td><blockquote>
 <p><strong>2.3</strong></p>
 </blockquote>
 <p><strong>Design collection</strong></p></td>
-<td colspan="2" style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>3.3</strong></p>
+<td colspan="2"></td>
+<td><p><strong>3.3</strong></p>
 <p><strong>Reuse or build dissemination components</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="4" style="text-align: center;"><p><strong>4.3</strong></p>
+<td></td>
+<td colspan="4"><p><strong>4.3</strong></p>
 <p><strong>Run collection</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="2" style="text-align: center;"><p><strong>5.3</strong></p>
+<td></td>
+<td colspan="2"><p><strong>5.3</strong></p>
 <p><strong>Review and validate</strong></p></td>
-<td colspan="2" style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>6.3</strong></p>
+<td colspan="2"></td>
+<td><p><strong>6.3</strong></p>
 <p><strong>Interpret and explain outputs</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="2" style="text-align: center;"><p><strong>7.3</strong></p>
+<td></td>
+<td colspan="2"><p><strong>7.3</strong></p>
 <blockquote>
 <p><strong>Release dissemination products</strong></p>
 </blockquote></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>8.3</strong></p>
+<td></td>
+<td><p><strong>8.3</strong></p>
 <blockquote>
 <p><strong>Agree an action plan</strong></p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: center;"><p><strong>1.4</strong></p>
+<tr class="odd">
+<td><p><strong>1.4</strong></p>
 <p><strong>Identify concepts</strong></p></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><blockquote>
+<td></td>
+<td><blockquote>
 <p><strong>2.4</strong> <strong>Design frame and sample</strong></p>
 </blockquote></td>
-<td colspan="2" style="text-align: left;"></td>
-<td style="text-align: center;"><p><strong>3.4</strong></p>
+<td colspan="2"></td>
+<td><p><strong>3.4</strong></p>
 <p><strong>Configure workflows</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="4" style="text-align: center;"><p><strong>4.4</strong></p>
+<td></td>
+<td colspan="4"><p><strong>4.4</strong></p>
 <p><strong>Finalise collection</strong></p></td>
-<td style="text-align: left;"></td>
-<td colspan="2" style="text-align: center;"><p><strong>5.4</strong></p>
+<td></td>
+<td colspan="2"><p><strong>5.4</strong></p>
 <p><strong>Edit and impute</strong></p></td>
-<td colspan="2" style="text-align: left;"></td>
-<td style="text-align: center;"><blockquote>
+<td colspan="2"></td>
+<td><blockquote>
 <p><strong>6.4</strong> <strong>Apply disclosure control</strong></p>
 </blockquote></td>
-<td style="text-align: left;"></td>
-<td colspan="2" style="text-align: center;"><p><strong>7.4</strong></p>
+<td></td>
+<td colspan="2"><p><strong>7.4</strong></p>
 <blockquote>
 <p><strong>Promote dissemination products</strong></p>
 </blockquote></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
 </tr>
-<tr>
-<td colspan="10" style="text-align: left;"><table style="width:52%;">
+<tr class="even">
+<td colspan="10"><table>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 2%" />
-<col style="width: 15%" />
-<col style="width: 2%" />
-<col style="width: 15%" />
+<col style="width: 30%" />
+<col style="width: 4%" />
+<col style="width: 30%" />
+<col style="width: 4%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><p><strong>1.5</strong></p>
+<tr class="header">
+<th><p><strong>1.5</strong></p>
 <blockquote>
 <p><strong>Check data availability and suitability</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>2.5</strong></p>
 <p><strong>Design processing and analysis</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>3.5</strong></p>
 </blockquote>
 <p><strong>Test production systems</strong></p></th>
@@ -747,23 +744,23 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></td>
-<td colspan="10" style="text-align: left;"><table style="width:52%;">
+<td colspan="10"><table>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 2%" />
-<col style="width: 15%" />
-<col style="width: 2%" />
-<col style="width: 16%" />
+<col style="width: 30%" />
+<col style="width: 4%" />
+<col style="width: 29%" />
+<col style="width: 4%" />
+<col style="width: 31%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><p><strong>5.5</strong></p>
+<tr class="header">
+<th><p><strong>5.5</strong></p>
 <p><strong>Derive new variables and units</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>6.5</strong></p>
+<th></th>
+<th><p><strong>6.5</strong></p>
 <p><strong>Finalise outputs</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: right;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>7.5</strong></p>
 </blockquote>
 <p><strong>Provide user support</strong></p></th>
@@ -772,29 +769,29 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
 </tr>
-<tr>
-<td colspan="11" style="text-align: left;"><table style="width:52%;">
+<tr class="odd">
+<td colspan="11"><table>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 2%" />
-<col style="width: 15%" />
-<col style="width: 2%" />
-<col style="width: 15%" />
+<col style="width: 30%" />
+<col style="width: 4%" />
+<col style="width: 30%" />
+<col style="width: 4%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><p><strong>1.6</strong></p>
+<tr class="header">
+<th><p><strong>1.6</strong></p>
 <p><strong>Prepare and submit business case</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>2.6</strong></p>
 <p><strong>Design production systems and workflows</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>3.6</strong></p>
 <p><strong>Test statistical</strong></p>
 <p><strong>business process</strong></p>
@@ -804,13 +801,13 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></td>
-<td colspan="5" style="text-align: left;"><table style="width:16%;">
+<td colspan="5"><table>
 <colgroup>
-<col style="width: 16%" />
+<col style="width: 100%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>5.6</strong></p>
 </blockquote>
 <p><strong>Calculate weights</strong></p></th>
@@ -819,21 +816,21 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-<tr>
-<td colspan="4" style="text-align: left;"><table style="width:16%;">
+<tr class="even">
+<td colspan="4"><table>
 <colgroup>
-<col style="width: 16%" />
+<col style="width: 100%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>3.7</strong></p>
 </blockquote>
 <p><strong>Finalise production systems</strong></p></th>
@@ -842,13 +839,13 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></td>
-<td colspan="5" style="text-align: left;"><table style="width:16%;">
+<td colspan="5"><table>
 <colgroup>
-<col style="width: 16%" />
+<col style="width: 100%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>5.7</strong></p>
 </blockquote>
 <p><strong>Calculate aggregates</strong></p></th>
@@ -857,19 +854,19 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -964,41 +961,41 @@ components</strong></p></td>
     that reinforces the approach to continuous improvements and
     organisational learning. The Quality loop has four main stages:
 
-    - **Plan**: The Plan stage refers mainly to the first three phases
-      of GSBPM. Selecting a quality framework or designing one must be
-      part of the design of the production process, to have the means of
-      producing information needed to manage quality of the process and
-      of the statistical products;
+    -   **Plan**: The Plan stage refers mainly to the first three phases
+        of GSBPM. Selecting a quality framework or designing one must be
+        part of the design of the production process, to have the means
+        of producing information needed to manage quality of the process
+        and of the statistical products;
 
-    - **Run**: When running the process, care must be taken to compile
-      data and metadata for quality management, with updated data and
-      metadata coming from performing each phase of GSBPM;
+    -   **Run**: When running the process, care must be taken to compile
+        data and metadata for quality management, with updated data and
+        metadata coming from performing each phase of GSBPM;
 
-    - **Evaluate**: Assessment of quality indicators must be made
-      throughout the process to make any needed correction on time.
-      During the Evaluate phase, a summary and analysis of the quality
-      information gathered together with any change made during the
-      process will generate conclusions about any improvements that may
-      be needed;
+    -   **Evaluate**: Assessment of quality indicators must be made
+        throughout the process to make any needed correction on time.
+        During the Evaluate phase, a summary and analysis of the quality
+        information gathered together with any change made during the
+        process will generate conclusions about any improvements that
+        may be needed;
 
-    - **Improve**: In response to the quality assessment, any needed
-      improvements to the process can be applied, and then reflected
-      during the Plan stage of the cycle.
+    -   **Improve**: In response to the quality assessment, any needed
+        improvements to the process can be applied, and then reflected
+        during the Plan stage of the cycle.
 
-<table style="width:27%;">
+<table>
 <colgroup>
-<col style="width: 19%" />
-<col style="width: 7%" />
+<col style="width: 70%" />
+<col style="width: 29%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: left;"><table style="width:18%;">
+<tr class="header">
+<th><table>
 <colgroup>
-<col style="width: 17%" />
+<col style="width: 100%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>Plan</strong></p>
 </blockquote></th>
 </tr>
@@ -1006,46 +1003,46 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></th>
-<th style="text-align: left;"></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-<table style="width:58%;">
+<table>
 <colgroup>
-<col style="width: 17%" />
-<col style="width: 22%" />
-<col style="width: 17%" />
+<col style="width: 30%" />
+<col style="width: 38%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>Improve</strong></p>
 </blockquote></th>
-<th style="text-align: center;"></th>
-<th style="text-align: center;"><strong>Run</strong></th>
+<th></th>
+<th><strong>Run</strong></th>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-<table style="width:32%;">
+<table>
 <colgroup>
-<col style="width: 19%" />
-<col style="width: 12%" />
+<col style="width: 59%" />
+<col style="width: 40%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: left;"><table style="width:18%;">
+<tr class="header">
+<th><table>
 <colgroup>
-<col style="width: 17%" />
+<col style="width: 100%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>Evaluate</strong></p>
 </blockquote></th>
 </tr>
@@ -1053,7 +1050,7 @@ components</strong></p></td>
 <tbody>
 </tbody>
 </table></th>
-<th style="text-align: left;"></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -1064,18 +1061,18 @@ components</strong></p></td>
 
 1.  Examples of quality management activities include:
 
-    - Assessing risks and implementing risk treatments to ensure
-      fit-for-purpose quality;
+    -   Assessing risks and implementing risk treatments to ensure
+        fit-for-purpose quality;
 
-    - Setting quality criteria to be used in the process;
+    -   Setting quality criteria to be used in the process;
 
-    - Setting process quality targets and monitoring compliance;
+    -   Setting process quality targets and monitoring compliance;
 
-    - Seeking and analysing user feedback;
+    -   Seeking and analysing user feedback;
 
-    - Reviewing operations and documenting lessons learned; ● Examining
-      process metadata and quality indicators; ● Internal or external
-      auditing on the process.
+    -   Reviewing operations and documenting lessons learned; ●
+        Examining process metadata and quality indicators; ● Internal or
+        external auditing on the process.
 
 2.  Quality indicators support a process-oriented quality management. A
     suggested list of quality indicators for phases and sub-processes of
@@ -1137,30 +1134,30 @@ components</strong></p></td>
 
 3.  Examples of data management activities include:
 
-    - Designing data structures and associated data sets, and the
-      provenance and flow of data through the statistical business
-      process;
+    -   Designing data structures and associated data sets, and the
+        provenance and flow of data through the statistical business
+        process;
 
-    - Identifying database (repositories) to store the data and
-      administration of the database;
+    -   Identifying database (repositories) to store the data and
+        administration of the database;
 
-    - Documenting the data (e.g. registering and inventorying data,
-      classifying data according to content, retention or other required
-      classification);
+    -   Documenting the data (e.g. registering and inventorying data,
+        classifying data according to content, retention or other
+        required classification);
 
-    - Determining retention periods of data and archiving;
+    -   Determining retention periods of data and archiving;
 
-    - Securing data against unauthorised access and use;
+    -   Securing data against unauthorised access and use;
 
-    - Safeguarding data against technological change, physical media
-      degradation, data corruption;
+    -   Safeguarding data against technological change, physical media
+        degradation, data corruption;
 
-    - Performing data integrity checks (e.g. periodic checks providing
-      assurance about the accuracy and consistency of data over its
-      entire lifecycle);
+    -   Performing data integrity checks (e.g. periodic checks providing
+        assurance about the accuracy and consistency of data over its
+        entire lifecycle);
 
-    - Performing disposition activities once the retention period of the
-      data is expired.
+    -   Performing disposition activities once the retention period of
+        the data is expired.
 
 **Process Data Management**
 
@@ -1241,17 +1238,17 @@ components</strong></p></td>
 
 3.  This overarching activity can include:
 
-    - Requiring specific information about the input data when metadata
-      and/or documentation are scarce;
+    -   Requiring specific information about the input data when
+        metadata and/or documentation are scarce;
 
-    - Asking for assistance from the data supplier to overcome technical
-      or operational issues; and/or
+    -   Asking for assistance from the data supplier to overcome
+        technical or operational issues; and/or
 
-    - Requesting additional information in case of unexpected changes in
-      the data received.
+    -   Requesting additional information in case of unexpected changes
+        in the data received.
 
-    - Cross-process burden management, profiling and management of
-      contact information (e.g.
+    -   Cross-process burden management, profiling and management of
+        contact information (e.g.
 
 > within registers).
 
@@ -1264,7 +1261,7 @@ sub-processes within that phase and describing their contents.
 
 ## Specify Needs 
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 14%" />
 <col style="width: 2%" />
@@ -1279,31 +1276,31 @@ sub-processes within that phase and describing their contents.
 <col style="width: 14%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><p><strong>1.1</strong></p>
+<tr class="header">
+<th><p><strong>1.1</strong></p>
 <blockquote>
 <p><strong>Identify needs</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>1.2</strong></p>
+<th></th>
+<th><p><strong>1.2</strong></p>
 <p><strong>Consult and</strong></p>
 <p><strong>confirm needs</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>1.3</strong></p>
 <p><strong>Establish output objectives</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>1.4</strong></p>
+<th></th>
+<th><p><strong>1.4</strong></p>
 <p><strong>Identify</strong></p>
 <blockquote>
 <p><strong>concepts</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>1.5</strong></p>
+<th></th>
+<th><p><strong>1.5</strong></p>
 <p><strong>Check data availability and suitability</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>1.6</strong></p>
 </blockquote>
 <p><strong>Prepare and submit business case</strong></p></th>
@@ -1383,20 +1380,20 @@ concepts and variables to be used, takes place in sub-process 2.2
     administrative or other non-statistical sources of data (e.g.
     privately-held data or “Big Data”), to:
 
-    - Determine whether they would be suitable for use for statistical
-      purposes (e.g. the extent to which administrative concepts match
-      data requirements, and whether the timeliness and quality of the
-      data, security, and continuity of data supply are suitable);
+    -   Determine whether they would be suitable for use for statistical
+        purposes (e.g. the extent to which administrative concepts match
+        data requirements, and whether the timeliness and quality of the
+        data, security, and continuity of data supply are suitable);
 
-    - Assess the division of responsibilities between data suppliers and
-      the statistical organisation;
+    -   Assess the division of responsibilities between data suppliers
+        and the statistical organisation;
 
-    - Check necessary ICT resources (e.g. data storage, technology
-      required to handle incoming data and data processing) as well as
-      any provision agreements with data suppliers (which could be legal
-      or other agreements such as memoranda of understanding) for
-      accessing and sharing the data (e.g. formats, delivery,
-      accompanying metadata and quality check).
+    -   Check necessary ICT resources (e.g. data storage, technology
+        required to handle incoming data and data processing) as well as
+        any provision agreements with data suppliers (which could be
+        legal or other agreements such as memoranda of understanding)
+        for accessing and sharing the data (e.g. formats, delivery,
+        accompanying metadata and quality check).
 
 2.  When existing sources have been assessed, a strategy for filling any
     remaining gaps in the data requirement is prepared. This may include
@@ -1415,17 +1412,17 @@ concepts and variables to be used, takes place in sub-process 2.2
     business case would need to conform to the requirements of the
     approval body, but would typically include elements such as:
 
-    - A description of the “As-Is” business process (if it already
-      exists), with information on how the current statistics are
-      produced, highlighting any inefficiencies and issues to be
-      addressed;
+    -   A description of the “As-Is” business process (if it already
+        exists), with information on how the current statistics are
+        produced, highlighting any inefficiencies and issues to be
+        addressed;
 
-    - The proposed “To-Be” solution, detailing how the statistical
-      business process will be developed to produce the new or revised
-      statistics;
+    -   The proposed “To-Be” solution, detailing how the statistical
+        business process will be developed to produce the new or revised
+        statistics;
 
-    - An assessment of costs and benefits against objectives and any
-      external constraints.
+    -   An assessment of costs and benefits against objectives and any
+        external constraints.
 
 2.  The business case describes options and makes recommendations. It
     may include the benefits, costs, deliverables, time frame, budget,
@@ -1442,7 +1439,7 @@ concepts and variables to be used, takes place in sub-process 2.2
 
 ## Design 
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 14%" />
 <col style="width: 2%" />
@@ -1457,34 +1454,34 @@ concepts and variables to be used, takes place in sub-process 2.2
 <col style="width: 14%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>2.1</strong> <strong>Design outputs</strong>
 <strong>and</strong></p>
 <p><strong>dissemination</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>2.2</strong></p>
+<th></th>
+<th><p><strong>2.2</strong></p>
 <p><strong>Design</strong></p>
 <p><strong>variables</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>2.3</strong></p>
 <p><strong>Design</strong></p>
 <p><strong>collection</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>2.4</strong></p>
+<th></th>
+<th><p><strong>2.4</strong></p>
 <blockquote>
 <p><strong>Design frame and sample</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>2.5</strong></p>
+<th></th>
+<th><p><strong>2.5</strong></p>
 <blockquote>
 <p><strong>Design processing and analysis</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>2.6</strong></p>
 </blockquote>
 <p><strong>Design production</strong></p>
@@ -1655,7 +1652,7 @@ responsible for what and when.
 
 ## Build 
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 11%" />
 <col style="width: 2%" />
@@ -1672,33 +1669,33 @@ responsible for what and when.
 <col style="width: 12%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><p><strong>3.1</strong></p>
+<tr class="header">
+<th><p><strong>3.1</strong></p>
 <p><strong>Reuse or build</strong></p>
 <p><strong>collection instruments</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>3.2</strong></p>
+<th></th>
+<th><p><strong>3.2</strong></p>
 <p><strong>Reuse or build</strong></p>
 <p><strong>processing</strong></p>
 <p><strong>and analysis components</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>3.3</strong></p>
+<th></th>
+<th><p><strong>3.3</strong></p>
 <p><strong>Reuse or build</strong></p>
 <p><strong>dissemination components</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"><p><strong>3.4</strong></p>
+<th></th>
+<th><p><strong>3.4</strong></p>
 <p><strong>Configure</strong></p>
 <p><strong>workflows</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>3.5</strong></p>
 </blockquote>
 <p><strong>Test production systems</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>3.6</strong></p>
+<th></th>
+<th><p><strong>3.6</strong></p>
 <p><strong>Test statistical business process</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>3.7</strong></p>
 </blockquote>
 <p><strong>Finalise production systems</strong></p></th>
@@ -1821,20 +1818,20 @@ several iterations until the process is working satisfactorily.
 configured processes and services, including modified and newly-created
 services, into production ready for use. The activities include:
 
-- Producing documentation about the process components, including
-  technical documentation and user manuals;
+-   Producing documentation about the process components, including
+    technical documentation and user manuals;
 
-- Training the users of the system on how to operate the process;
+-   Training the users of the system on how to operate the process;
 
-- Moving the process components into the production environment and
-  ensuring they work as expected in that environment (this activity may
-  also be part of sub-process 3.5 (Test production systems).
+-   Moving the process components into the production environment and
+    ensuring they work as expected in that environment (this activity
+    may also be part of sub-process 3.5 (Test production systems).
 
 **Collect Phase**
 
 ## Collect 
 
-<table style="width:99%;">
+<table>
 <colgroup>
 <col style="width: 22%" />
 <col style="width: 2%" />
@@ -1845,21 +1842,21 @@ services, into production ready for use. The activities include:
 <col style="width: 22%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>4.1</strong></p>
 </blockquote>
 <p><strong>Create frame and select sample</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>4.2</strong></p>
+<th></th>
+<th><p><strong>4.2</strong></p>
 <p><strong>Set up collection</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>4.3</strong></p>
 <p><strong>Run collection</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>4.4</strong></p>
 <p><strong>Finalise collection</strong></p>
 </blockquote></th>
@@ -1917,57 +1914,57 @@ auxiliary variables in the construction of sampling design.
     processes, these activities can be lengthy. For survey data, this
     sub-process includes:
 
-<table style="width:97%;">
+<table>
 <colgroup>
 <col style="width: 4%" />
-<col style="width: 92%" />
+<col style="width: 95%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: left;">●</th>
-<th style="text-align: left;"><blockquote>
+<tr class="header">
+<th>●</th>
+<th><blockquote>
 <p>Training collection staff;</p>
 </blockquote></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;"><blockquote>
+<tr class="odd">
+<td>●</td>
+<td><blockquote>
 <p>Training system using supervised machine learning techniques;</p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;"><blockquote>
+<tr class="even">
+<td>●</td>
+<td><blockquote>
 <p>Ensuring collection resources are available (e.g. collection devices,
 apps, APIs);</p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;"><blockquote>
+<tr class="odd">
+<td>●</td>
+<td><blockquote>
 <p>Agreeing on terms with any intermediate collection bodies, (e.g.
 sub-contractors for computer assisted telephone interviewing, web
 service providers);</p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;"><blockquote>
+<tr class="even">
+<td>●</td>
+<td><blockquote>
 <p>Configuring collection systems to request and receive the data,
 including location data;</p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;"><blockquote>
+<tr class="odd">
+<td>●</td>
+<td><blockquote>
 <p>Ensuring the security of data to be collected;</p>
 </blockquote></td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;"><blockquote>
+<tr class="even">
+<td>●</td>
+<td><blockquote>
 <p>Preparing collection instruments (e.g. printing questionnaires,
 pre-filling them with existing data, loading questionnaires and data
 onto interviewers' devices/computers, APIs, web scraping tools);</p>
@@ -1976,27 +1973,27 @@ onto interviewers' devices/computers, APIs, web scraping tools);</p>
 </tbody>
 </table>
 
-- Providing information for respondents (e.g. drafting letters/emails to
-  respondents, credentials, guidance or tailored information to address
-  questions they may have, or notifying respondents when online
-  reporting instruments will be made available);
+-   Providing information for respondents (e.g. drafting letters/emails
+    to respondents, credentials, guidance or tailored information to
+    address questions they may have, or notifying respondents when
+    online reporting instruments will be made available);
 
-- Translation of materials (e.g. into the different languages spoken or
-  used in the country).
+-   Translation of materials (e.g. into the different languages spoken
+    or used in the country).
 
 1.  For non-survey sources, this sub-process ensures that the necessary
     processes, systems and confidentiality procedures are in place, to
     receive or extract the necessary information from the source. This
     includes:
 
-    - Evaluating requests to obtain the data and logging the request in
-      a centralised inventory;
+    -   Evaluating requests to obtain the data and logging the request
+        in a centralised inventory;
 
-    - Initiating contacts with organisations providing the data, and
-      sending an introductory package with details on the process of
-      obtaining the data;
+    -   Initiating contacts with organisations providing the data, and
+        sending an introductory package with details on the process of
+        obtaining the data;
 
-    - Routine checks that the system is working as expected.
+    -   Routine checks that the system is working as expected.
 
 ### 4.3. Run collection 
 
@@ -2007,23 +2004,23 @@ onto interviewers' devices/computers, APIs, web scraping tools);</p>
 
 2.  For survey or census data, it can include:
 
-    - Initial contact with respondents to request data and any
-      subsequent follow-up or reminder actions, recording when and how
-      they were contacted, and whether they have reacted;
+    -   Initial contact with respondents to request data and any
+        subsequent follow-up or reminder actions, recording when and how
+        they were contacted, and whether they have reacted;
 
-    - Management of the relationship between the statistical
-      organisation and respondents, so that it remains positive, and
-      recording and responding to comments, queries and complaints.
-      (Minimisation of the number of non-respondents contributes
-      significantly to higher quality of the collected data.);
+    -   Management of the relationship between the statistical
+        organisation and respondents, so that it remains positive, and
+        recording and responding to comments, queries and complaints.
+        (Minimisation of the number of non-respondents contributes
+        significantly to higher quality of the collected data.);
 
-    - Manual data entry at the point of contact, or fieldwork
-      management, depending on the source and collection approach;
+    -   Manual data entry at the point of contact, or fieldwork
+        management, depending on the source and collection approach;
 
-    - Georeferencing[12] at the same time as collection of the data
-      (using inputs from location-enabled systems such as GPS), or
-      recording location by putting a mark on a map, etc., depending on
-      the geographical frame and the technology used.
+    -   Georeferencing[12] at the same time as collection of the data
+        (using inputs from location-enabled systems such as GPS), or
+        recording location by putting a mark on a map, etc., depending
+        on the geographical frame and the technology used.
 
 3.  Automated logical checks on data at the point of collection (i.e.
     validation-on-entry for survey response data) are considered to take
@@ -2070,7 +2067,7 @@ variables received from other
 
 ## Process 
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 2%" />
@@ -2089,40 +2086,40 @@ variables received from other
 <col style="width: 10%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>5.1</strong> <strong>Integrate data</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>5.2</strong></p>
+<th></th>
+<th><p><strong>5.2</strong></p>
 <blockquote>
 <p><strong>Classify and code</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>5.3</strong></p>
 <p><strong>Review and validate</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>5.4</strong> <strong>Edit and impute</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>5.5</strong></p>
+<th></th>
+<th><p><strong>5.5</strong></p>
 <p><strong>Derive new variables and units</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>5.6</strong></p>
 </blockquote>
 <p><strong>Calculate weights</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>5.7</strong></p>
 </blockquote>
 <p><strong>Calculate</strong></p>
 <p><strong>aggregates</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>5.8</strong></p>
 </blockquote>
 <p><strong>Finalise</strong></p>
@@ -2178,22 +2175,22 @@ variables received from other
     figures that agree between sources of data. The result is a
     consolidated set of data. Data integration can include:
 
-    - Combining data from multiple sources, as part of the creation of
-      integrated statistics such as national accounts;
+    -   Combining data from multiple sources, as part of the creation of
+        integrated statistics such as national accounts;
 
-    - Combining geospatial data and statistical data or other
-      non-statistical data;
+    -   Combining geospatial data and statistical data or other
+        non-statistical data;
 
-    - Data pooling, with the aim of increasing the effective number of
-      observations of some phenomena;
+    -   Data pooling, with the aim of increasing the effective number of
+        observations of some phenomena;
 
-    - Matching or record linkage routines, with the aim of linking micro
-      or macro data from different sources;
+    -   Matching or record linkage routines, with the aim of linking
+        micro or macro data from different sources;
 
-    - Data fusion - integration followed by reduction or replacement;
+    -   Data fusion - integration followed by reduction or replacement;
 
-    - Prioritising, when two or more sources contain data for the same
-      variable, with potentially different values.
+    -   Prioritising, when two or more sources contain data for the same
+        variable, with potentially different values.
 
 2.  Data integration may take place at any point in this phase, before
     or after any of the other subprocesses. There may also be several
@@ -2239,14 +2236,15 @@ may be removed in this sub-process. The terms editing and
 > imputation cover a variety of methods to do this, often using a
 > rule-based approach. Specific steps typically include:
 
-- Determining whether to add or change data;
+-   Determining whether to add or change data;
 
-- Selecting the method to be used;
+-   Selecting the method to be used;
 
-- Adding/changing data values;
+-   Adding/changing data values;
 
-- Writing the new data values back to the data set, and flagging them as
-  changed; ● Producing metadata on the editing and imputation process.
+-   Writing the new data values back to the data set, and flagging them
+    as changed; ● Producing metadata on the editing and imputation
+    process.
 
 ### 5.5. Derive new variables and units 
 
@@ -2299,7 +2297,7 @@ produce both preliminary and final estimates.
 
 ## Analyse 
 
-<table style="width:99%;">
+<table>
 <colgroup>
 <col style="width: 18%" />
 <col style="width: 2%" />
@@ -2312,27 +2310,27 @@ produce both preliminary and final estimates.
 <col style="width: 18%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><blockquote>
+<tr class="header">
+<th><blockquote>
 <p><strong>6.1</strong></p>
 <p><strong>Prepare draft outputs</strong></p>
 </blockquote></th>
-<th style="text-align: right;"></th>
-<th style="text-align: center;"><p><strong>6.2</strong></p>
+<th></th>
+<th><p><strong>6.2</strong></p>
 <p><strong>Validate outputs</strong></p></th>
-<th style="text-align: right;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>6.3</strong></p>
 <p><strong>Interpret and</strong></p>
 <p><strong>explain outputs</strong></p>
 </blockquote></th>
-<th style="text-align: right;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>6.4</strong></p>
 <p><strong>Apply disclosure control</strong></p>
 </blockquote></th>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"><p><strong>6.5</strong></p>
+<th></th>
+<th><p><strong>6.5</strong></p>
 <blockquote>
 <p><strong>Finalise outputs</strong></p>
 </blockquote></th>
@@ -2391,24 +2389,24 @@ current collection, in the current environment, to identify any
 divergence from expectations and to allow informed analyses. Validation
 activities can include:
 
-- Comparing the statistics with previous cycles (if applicable);
+-   Comparing the statistics with previous cycles (if applicable);
 
-- Checking that the associated metadata, paradata and quality indicators
-  are present and in line with expectations;
+-   Checking that the associated metadata, paradata and quality
+    indicators are present and in line with expectations;
 
-- Checking geospatial consistency of the data;
+-   Checking geospatial consistency of the data;
 
-- Confronting the statistics against other relevant data (both internal
-  and external);
+-   Confronting the statistics against other relevant data (both
+    internal and external);
 
-- Investigating inconsistencies in the statistics;
+-   Investigating inconsistencies in the statistics;
 
-- Performing macro editing;
+-   Performing macro editing;
 
-- Checking aggregates as a validation for a microdata set;
+-   Checking aggregates as a validation for a microdata set;
 
-- Validating the statistics against expectations and domain
-  intelligence.
+-   Validating the statistics against expectations and domain
+    intelligence.
 
 ### 6.3. Interpret and explain outputs 
 
@@ -2443,48 +2441,45 @@ challenges in terms of personal data protection and disclosure risk.
 are fit for purpose and reach the required quality level and are thus
 ready for use. It includes:
 
-<table style="width:97%;">
+<table>
 <colgroup>
 <col style="width: 4%" />
-<col style="width: 92%" />
+<col style="width: 95%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: left;">●</th>
-<th style="text-align: left;">Completing consistency checks;</th>
+<tr class="header">
+<th>●</th>
+<th>Completing consistency checks;</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;">Determining the level of release, and
-applying caveats;</td>
+<tr class="odd">
+<td>●</td>
+<td>Determining the level of release, and applying caveats;</td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;">Collating supporting information,
-including interpretation, commentary, technical notes, briefings,
-measures of uncertainty and any other necessary metadata;</td>
+<tr class="even">
+<td>●</td>
+<td>Collating supporting information, including interpretation,
+commentary, technical notes, briefings, measures of uncertainty and any
+other necessary metadata;</td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;">Producing the supporting internal
-documents;</td>
+<tr class="odd">
+<td>●</td>
+<td>Producing the supporting internal documents;</td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;">Conducting pre-release discussion with
-appropriate internal subject matter experts;</td>
+<tr class="even">
+<td>●</td>
+<td>Conducting pre-release discussion with appropriate internal subject
+matter experts;</td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;">Translating the statistical outputs in
-countries with multilingual dissemination;</td>
+<tr class="odd">
+<td>●</td>
+<td>Translating the statistical outputs in countries with multilingual
+dissemination;</td>
 </tr>
-<tr>
-<td style="text-align: left;">●</td>
-<td style="text-align: left;">Approving the statistical content for
-release.</td>
+<tr class="even">
+<td>●</td>
+<td>Approving the statistical content for release.</td>
 </tr>
 </tbody>
 </table>
@@ -2493,7 +2488,7 @@ release.</td>
 
 ## Disseminate 
 
-<table style="width:99%;">
+<table>
 <colgroup>
 <col style="width: 17%" />
 <col style="width: 2%" />
@@ -2506,20 +2501,20 @@ release.</td>
 <col style="width: 18%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: center;"><p><strong>7.1</strong></p>
+<tr class="header">
+<th><p><strong>7.1</strong></p>
 <p><strong>Update output systems</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>7.2</strong></p>
+<th></th>
+<th><p><strong>7.2</strong></p>
 <p><strong>Produce dissemination products</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>7.3</strong></p>
+<th></th>
+<th><p><strong>7.3</strong></p>
 <p><strong>Release dissemination products</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: center;"><p><strong>7.4</strong></p>
+<th></th>
+<th><p><strong>7.4</strong></p>
 <p><strong>Promote dissemination products</strong></p></th>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>7.5</strong></p>
 </blockquote>
 <p><strong>Provide user support</strong></p></th>
@@ -2583,15 +2578,15 @@ open data and downloadable files. When the final products
 > be considered and applied via sub-process 6.4 (Apply disclosure
 > control). Typical steps include:
 
-- Preparing the product components (explanatory texts, tables, charts,
-  maps, quality statements
+-   Preparing the product components (explanatory texts, tables, charts,
+    maps, quality statements
 
 > etc.);
 
-- Assembling the components into products;
+-   Assembling the components into products;
 
-- Editing the products and checking that they meet publication
-  standards.
+-   Editing the products and checking that they meet publication
+    standards.
 
 ### 7.3. Release dissemination products 
 
@@ -2634,7 +2629,7 @@ the products.
 
 ## Evaluate 
 
-<table style="width:99%;">
+<table>
 <colgroup>
 <col style="width: 31%" />
 <col style="width: 2%" />
@@ -2643,16 +2638,16 @@ the products.
 <col style="width: 31%" />
 </colgroup>
 <thead>
-<tr>
-<th style="text-align: left;"><p><strong>8.1</strong></p>
+<tr class="header">
+<th><p><strong>8.1</strong></p>
 <p><strong>Gather evaluation inputs</strong></p></th>
-<th style="text-align: right;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>8.2</strong></p>
 <p><strong>Conduct evaluation</strong></p>
 </blockquote></th>
-<th style="text-align: right;"></th>
-<th style="text-align: center;"><blockquote>
+<th></th>
+<th><blockquote>
 <p><strong>8.3</strong></p>
 <p><strong>Agree an action plan</strong></p>
 </blockquote></th>

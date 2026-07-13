@@ -1,0 +1,38 @@
+name,description,why_recommend,score_of_content,link
+OpenClassrooms – Apprenez les bases du langage Python,"Cours Python pour débutants couvrant les variables, boucles, fonctions et structures de données.","Excellent point de départ en français pour apprendre Python étape par étape.",9,https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python
+
+Tutoriel Python Officiel (FR),"Documentation officielle Python en français couvrant les concepts fondamentaux du langage.","Source la plus fiable et complète pour apprendre les bases correctement.",9,https://docs.python.org/fr/3/tutorial/
+
+Playlist Python Débutant (YouTube),"Playlist vidéo Python en français avec exercices et explications pratiques.","Bon support visuel pour l’apprentissage progressif et pratique.",8.5,https://www.youtube.com/playlist?list=PLMS9Cy4Enq5JmIZtKE5OHJCI3jZfpASb
+
+Introduction à R (YouTube),"Cours complet R en français couvrant les bases du langage et l’analyse de données.","Bonne introduction pratique à R pour débutants.",8.5,https://www.youtube.com/playlist?list=PLrSOXFDHBtfGqOK0slilcWpMdlJe7HGSw
+
+Débuter avec R (CRAN),"Introduction au langage R avec exemples simples et statistiques.","Très bon guide PDF gratuit pour apprendre R progressivement.",9,https://cran.r-project.org/doc/contrib/Paradis-rdebuts_fr.pdf
+
+Guide R Commander,"Guide pour utiliser R Commander avec analyses statistiques et interface graphique.","Utile pour apprendre les statistiques avec une interface simplifiée.",8.5,https://cran.r-project.org/doc/contrib/Gaudron-GuideRcmdr.pdf
+
+Aide‑Mémoire Statistique R,"Résumé pratique des commandes statistiques courantes dans R.","Excellent document de référence rapide pour les analyses statistiques.",8.5,https://cran.r-project.org/doc/contrib/Herve-Aide-memoire-statistique.pdf
+
+OpenClassrooms – Requêtez une base de données avec SQL,"Cours SQL couvrant les requêtes, jointures et manipulations de bases de données.","Très bon cours SQL francophone pour débutants.",9,https://openclassrooms.com/fr/courses/7818671-requetez-une-base-de-donnees-avec-sql
+
+SQLBolt Français,"Tutoriel SQL interactif avec exercices pratiques.","Excellent pour pratiquer SQL rapidement directement dans le navigateur.",9.5,https://sqlbolt.com/fr/
+
+Formation Git (Grafikart),"Formation Git couvrant versionnage, commits, branches et fusion.","Très bonne introduction pratique à Git en français.",9,https://grafikart.fr/formations/git
+
+Pro Git (Français),"Livre officiel Git en français couvrant concepts de base et workflows avancés.","Ressource de référence pour maîtriser Git sérieusement.",10,https://git-scm.com/book/fr/v2
+
+Documentation GitLab,"Documentation officielle GitLab couvrant dépôts, CI/CD et workflows collaboratifs.","Meilleure ressource pour apprendre GitLab et les pipelines DevOps.",9,https://docs.gitlab.com/
+
+Documentation Microsoft Fabric,"Documentation officielle Microsoft Fabric couvrant OneLake, Lakehouse, Data Factory et analytics.","Ressource principale pour apprendre l’écosystème Fabric.",9.5,https://learn.microsoft.com/fr-fr/fabric/
+
+Parcours Microsoft Learn Fabric,"Parcours Microsoft Learn contenant modules et exercices Fabric.","Excellent apprentissage structuré avec laboratoires pratiques.",9.5,https://learn.microsoft.com/fr-fr/training/browse/?products=fabric&terms=Fabric
+
+Microsoft Learn Power BI,"Official Microsoft learning path covering Power BI dashboards, reports, visualization, data modeling, and analytics.","Excellent structured introduction to Power BI and business intelligence workflows used in industry.",9.5,https://learn.microsoft.com/fr-fr/training/powerplatform/power-bi
+
+Power BI – Outils et Fonctions,"Cours gratuit Power BI couvrant tableaux de bord, DAX, visualisations, modélisation et collaboration.","Bon cours Power BI en français pour débutants/intermédiaires avec approche pratique et PDF téléchargeable.",8.5,https://formationsgratuites.com/power-bi-outils-et-fonctions
+
+Tutoriel Shiny (L. Rouvière),"Tutoriel en français expliquant la création d’applications interactives avec Shiny, incluant interface utilisateur, widgets, graphiques et programmation réactive.","Très bon tutoriel académique francophone avec explications progressives et exemples pratiques.",9,https://lrouviere.github.io/TUTO_VISU/shiny.html
+
+Dashboards Interactifs avec Shiny (Datanovia),"Guide en français couvrant les tableaux de bord interactifs avec Shiny, les composants UI, réactivité, graphiques et déploiement.","Excellente ressource pratique et moderne pour apprendre à construire des dashboards analytiques avec R Shiny.",9.5,https://www.datanovia.com/fr/learn/programming/r/tools/interactive-dashboards-with-shiny.html
+
+Cours Complet R Shiny,"Cours complet en français couvrant la création d’applications web interactives avec Shiny, incluant UI, serveur, widgets, graphiques et réactivité.","Excellent cours francophone structuré avec approche pédagogique progressive et nombreux exemples pratiques.",9.5,https://universdesdonnees.github.io/R-Shiny/cours/cours.html
