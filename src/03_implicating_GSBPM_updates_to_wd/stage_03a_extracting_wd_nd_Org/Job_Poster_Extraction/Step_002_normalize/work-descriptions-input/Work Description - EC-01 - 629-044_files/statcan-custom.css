@@ -1,0 +1,114 @@
+.wb-sec-def [data-role="list-divider"] {
+	background: none repeat scroll 0 0 #DDDDDD;
+	color: #333333;
+	display: block;
+	font-weight: 700;
+	padding: 2px 4px;
+}
+/* Sets table default background colour to white*/
+.mb-menu [data-role="list-divider"] {
+	color: #000000;
+	display: block;
+	font-weight: 700;
+	padding: 0.45em 1.17em 0.45em 0.79em;
+	text-align: left;
+	text-decoration: none;
+}
+/* Sets table default background colour to white*/
+table {
+	background-color: #FFFFFF;
+}
+/* STEPH_CUSTOM-START */
+h3 a.nodeco, a.nodeco:active, a.nodeco:visited {
+	font-size: 110%!important;
+	text-decoration: none!important;
+	background: none!important;
+	background-attachment: none!important;
+	background-color: none!important;
+	border: none!important;
+}
+h3 a.nodeco:hover {
+	font-size: 110%!important;
+	color: #FFF!important;
+	text-decoration: underline!important;
+	background: none!important;
+	background-attachment: none!important;
+	background-color: none!important;
+	border: none!important;
+}
+h4 a.nodeco, a.nodeco:active, a.nodeco:visited {
+	font-size: 110%!important;
+	text-decoration: none!important;
+	background: none!important;
+	background-attachment: none!important;
+	background-color: none!important;
+	border: none!important;
+}
+h4 a.nodeco:hover {
+	font-size: 110%!important;
+	color: #FFF!important;
+	text-decoration: underline!important;
+	background: none!important;
+	background-attachment: none!important;
+	background-color: none!important;
+	border: none!important;
+}
+.h4 {
+	font-size: 11pt;
+}
+
+.srch-inline .srch-group {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block;
+}
+/* STEPH_CUSTOM-END */
+
+/* CARRIE-ANN_CUSTOM-START */
+.billboard-20170329{background-image:url(/03/03_2017/img/40d_20170329_01.gif);}
+
+/* CARRIE-ANN_CUSTOM-END */
+/* LYDIA_CUSTOM-START */
+	/* FIXING SUMMARY Remove the default triangle */
+summary {
+  display: block;
+}
+
+/* Create a new custom triangle on the right side */
+summary::before {
+  margin-left: 1ch;  margin-right: 1ch;
+  display: inline-block;
+  content: '▷';
+  transition: 0.2s;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+ 
+
+/* Sets linked FIP margin back to 0 when set to -13px but -1 for printing to PDF */
+.nodeco-fip { 
+    display: block;
+    margin-left: -13px;
+}
+
+/* Print-only override */
+@media print {
+    .nodeco-fip { 
+        margin-left: -1px;
+    }
+}
+/* Sets marquee under date*/
+.marquee-move {
+ display: block;
+ margin-top: -50px
+		
+		/* Force active links in the secondary menu to look like normal links */
+#wb-sec-no .active, 
+#wb-sec-no .active > a,
+#wb-sec-no a[href*="#"] {
+    background-color: transparent !important;
+    color: #333333 !important; /* Set to your theme's default link color */
+    font-weight: normal !important;
+}
+}
+/* LYDIA_CUSTOM-END */
