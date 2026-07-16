@@ -24,17 +24,24 @@ warnings.filterwarnings("ignore", category=UserWarning, module="AzureOpenAI.beta
 
 
 
-def setup_azure(system_prompt, dotenv_path="../py.env"):
+def setup_azure(system_prompt, dotenv_path=".env"):
+    from os.path import abspath
+    print("DOTENV PATH:", abspath(dotenv_path))
+
     load_dotenv(dotenv_path)
+    print("KEY:", os.getenv("AZURE_OPENAI_API_KEY"))
+    print("ENDPOINT:", os.getenv("AZURE_OPENAI_ENDPOINT"))
+    print("VERSION:", os.getenv("AZURE_OPENAI_API_VERSION"))
+    print("DEPLOYMENT:", os.getenv("AZURE_OPENAI_DEPLOYMENT"))
     # Setup assistant.
     client = AzureOpenAI(
       azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
       api_key= os.getenv("AZURE_OPENAI_API_KEY"),
     #   api_version="2024-05-01-preview")
-      api_version="2025-01-01-preview")
+      api_version= os.getenv("AZURE_OPENAI_API_VERSION"))
     
     assistant = client.beta.assistants.create(
-      model="gpt-4.1", # replace with model deployment name.
+      model=os.getenv("AZURE_OPENAI_DEPLOYMENT"), # replace with model deployment name.
       instructions=system_prompt,
       tools=[{"type":"file_search"}],
       temperature=0.2,
@@ -44,7 +51,7 @@ def setup_azure(system_prompt, dotenv_path="../py.env"):
 
 
 class Assistant():
-    def __init__(self, system_prompt, dotenv_path="../py.env"):
+    def __init__(self, system_prompt, dotenv_path=".env"):
         self.message_history = [{"system": system_prompt}]
         self.response_history = []
         self.system_prompt = system_prompt

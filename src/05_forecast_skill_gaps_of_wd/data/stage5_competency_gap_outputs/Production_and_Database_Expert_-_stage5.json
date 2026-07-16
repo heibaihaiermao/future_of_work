@@ -1,0 +1,382 @@
+{
+  "position_title": "Production and Database Expert",
+  "classification": "",
+  "activities_reduced": [
+    {
+      "activity": "Manual execution of repetitive production, validation, and dissemination steps",
+      "reason": "Integrated pipelines, workflow orchestration, and automation reduce the need for hands-on execution of routine production tasks."
+    },
+    {
+      "activity": "Program-specific bespoke workflow and component development",
+      "reason": "Enterprise architecture, reusable components, and shared services shift work away from one-off builds toward standardized enterprise patterns."
+    },
+    {
+      "activity": "Manual coordination of handoffs between production stages",
+      "reason": "Automated handoffs, event-driven workflows, and centralized orchestration reduce manual stage-to-stage coordination."
+    },
+    {
+      "activity": "Standalone database maintenance focused mainly on storage and retrieval",
+      "reason": "Modern data platforms and metadata-driven environments expand the role beyond traditional database administration toward integrated production architecture."
+    },
+    {
+      "activity": "Manual quality checks based primarily on local procedures",
+      "reason": "Automated monitoring, reusable validation services, and enterprise quality controls reduce reliance on ad hoc manual checking."
+    }
+  ],
+  "activities_expanded": [
+    {
+      "activity": "Design of end-to-end production systems and enterprise workflows",
+      "reason": "Cloud platforms, integrated pipelines, and enterprise architecture increase the need for reusable, cross-phase workflow design."
+    },
+    {
+      "activity": "Configuration and monitoring of automated production pipelines",
+      "reason": "The role increasingly supports orchestration, exception handling, and operational oversight of automated runs."
+    },
+    {
+      "activity": "Cross-functional coordination across collection, processing, analysis, dissemination, and platform teams",
+      "reason": "Modernized production depends on tighter integration across business and technical teams."
+    },
+    {
+      "activity": "Design and governance of reusable processing, database, and metadata services",
+      "reason": "Modular architecture and self-service development increase demand for shared, supportable enterprise components."
+    },
+    {
+      "activity": "Integration and harmonization of administrative, alternative, linked, and geospatial data",
+      "reason": "Multi-source production is becoming central to statistical delivery and database design."
+    },
+    {
+      "activity": "Security, privacy, authorization, and controlled-access design in production environments",
+      "reason": "Secure-by-design workflows and protected integrated data environments are now core operational requirements."
+    },
+    {
+      "activity": "Documentation, traceability, and governance of production methods and components",
+      "reason": "AI-enabled and reusable enterprise services require stronger documentation, transparency, and lifecycle control."
+    }
+  ],
+  "activities_transformed": [
+    {
+      "activity": "Developing and maintaining production and dissemination processes",
+      "future_state": "Designing and operating orchestrated, cloud-enabled, metadata-driven enterprise workflows with automated monitoring and reusable services",
+      "reason": "Production work is shifting from maintaining local processes to managing integrated enterprise production architectures."
+    },
+    {
+      "activity": "Designing applications for manipulation, storage, and retrieval of statistical data",
+      "future_state": "Designing interoperable data services, metadata-aware repositories, and scalable platform components for integrated statistical production",
+      "reason": "Modern data platforms require service-oriented, reusable, and metadata-linked designs rather than isolated database applications."
+    },
+    {
+      "activity": "Coordinating partners to process, validate, and disseminate data",
+      "future_state": "Coordinating cross-functional teams around shared platforms, standardized workflows, automated handoffs, and governed exceptions",
+      "reason": "Coordination becomes more enterprise-wide and workflow-centric as production is standardized and automated."
+    },
+    {
+      "activity": "Providing consultative expertise on production systems and processes",
+      "future_state": "Advising on enterprise workflow design, reusable component strategy, secure platform adoption, and modernization sequencing",
+      "reason": "Consultation shifts from local process support to strategic modernization and enterprise design guidance."
+    },
+    {
+      "activity": "Leading technical projects for new or modified processing systems",
+      "future_state": "Leading modernization initiatives that implement reusable components, integrated pipelines, metadata services, and secure cloud-based production capabilities",
+      "reason": "Technical projects increasingly focus on enterprise transformation rather than isolated system changes."
+    }
+  ],
+  "activities_new": [
+    {
+      "activity": "Configuring and supervising integrated data pipelines and workflow orchestration tools",
+      "reason": "End-to-end automation and process orchestration make pipeline configuration and monitoring a core responsibility."
+    },
+    {
+      "activity": "Designing reusable processing, transformation, metadata, and database services for enterprise use",
+      "reason": "Modular architecture and shared solutions require enterprise-grade reusable components."
+    },
+    {
+      "activity": "Embedding metadata capture, lineage, discoverability, and stewardship into production workflows",
+      "reason": "Metadata-driven management makes metadata an operational asset that must be designed into systems and processes."
+    },
+    {
+      "activity": "Building and governing secure-by-design production patterns, including role-based access and controlled data handling",
+      "reason": "Cyber security, privacy, and secure access are now integral to workflow and database design."
+    },
+    {
+      "activity": "Designing ingestion and harmonization workflows for administrative, alternative, linked, and geospatial data",
+      "reason": "Expanded use of non-survey sources requires new integration and source-management capabilities."
+    },
+    {
+      "activity": "Supporting AI-enabled production components and human-in-the-loop exception processes",
+      "reason": "AI and automation introduce new component types and oversight responsibilities."
+    },
+    {
+      "activity": "Supporting self-service and business-led configuration within enterprise guardrails",
+      "reason": "Self-service development models require technical experts to define standards, controls, and support patterns."
+    }
+  ],
+  "skills_declining": [
+    {
+      "skill": "Manual execution of routine production runs",
+      "reason": "Automation and orchestration reduce the need for direct hands-on operation of repetitive workflows."
+    },
+    {
+      "skill": "Bespoke SAS-centric development as the dominant implementation model",
+      "reason": "Open-source environments, enterprise platforms, and reusable services broaden the technical stack beyond legacy tool specialization."
+    },
+    {
+      "skill": "Local point-to-point workflow coordination",
+      "reason": "Integrated enterprise pipelines reduce reliance on manually managed handoffs between isolated teams or systems."
+    },
+    {
+      "skill": "Standalone database administration without workflow and metadata integration",
+      "reason": "Modern production requires database expertise to be combined with orchestration, metadata, and platform design."
+    }
+  ],
+  "skills_growing": [
+    {
+      "skill": "Workflow orchestration and pipeline supervision",
+      "reason": "The role increasingly depends on configuring, monitoring, and optimizing automated end-to-end production flows."
+    },
+    {
+      "skill": "Enterprise architecture and reusable component design",
+      "reason": "Production systems are moving toward modular, interoperable, and shared enterprise services."
+    },
+    {
+      "skill": "Metadata-driven data management and lineage design",
+      "reason": "Metadata is becoming a core operational input for discoverability, reuse, and integration."
+    },
+    {
+      "skill": "Multi-source data integration and harmonization",
+      "reason": "Administrative, alternative, linked, and geospatial data are becoming central to production databases and outputs."
+    },
+    {
+      "skill": "Cloud and platform-based production design",
+      "reason": "Enterprise digital platforms and cloud infrastructure are reshaping how systems are built, deployed, and operated."
+    },
+    {
+      "skill": "Security, privacy, and controlled-access design",
+      "reason": "Secure-by-design production environments require stronger technical understanding of access, confidentiality, and resilience controls."
+    },
+    {
+      "skill": "Validation automation and production monitoring",
+      "reason": "Reusable validation services and automated telemetry increase the importance of operational monitoring and exception management."
+    },
+    {
+      "skill": "Cross-functional technical leadership and modernization coordination",
+      "reason": "The role must increasingly align subject matter, platform, security, and production teams around shared enterprise solutions."
+    }
+  ],
+  "skills_new": [
+    {
+      "skill": "AI-enabled production component oversight",
+      "driver": "AI and Automation in Statistical Production",
+      "reason": "The role must support AI-assisted coding, transformation, monitoring, and human-in-the-loop production controls."
+    },
+    {
+      "skill": "Workflow orchestration configuration and event-driven pipeline design",
+      "driver": "Integrated Data Pipelines and Process Orchestration",
+      "reason": "Modern production requires explicit configuration of triggers, dependencies, automated handoffs, and exception paths."
+    },
+    {
+      "skill": "Metadata service design and lineage management",
+      "driver": "Metadata-Driven Data Management and Discoverability",
+      "reason": "Production systems increasingly need metadata-aware services that preserve discoverability and interoperability."
+    },
+    {
+      "skill": "Secure-by-design workflow and database architecture",
+      "driver": "Cyber Security, Privacy and Secure Access",
+      "reason": "The role must embed authorizations, privacy controls, and resilient operating patterns into production systems."
+    },
+    {
+      "skill": "Administrative, alternative, linked, and geospatial data integration design",
+      "driver": "Administrative, Alternative and Linked Data Expansion",
+      "reason": "Expanded source diversity requires new ingestion, harmonization, and linkage capabilities."
+    },
+    {
+      "skill": "Cloud-native and enterprise platform deployment literacy",
+      "driver": "Enterprise Digital Platforms and Cloud Infrastructure",
+      "reason": "Production components and workflows are increasingly deployed on shared cloud and enterprise platforms."
+    },
+    {
+      "skill": "Reusable service and self-service guardrail design",
+      "driver": "Modular Architecture, Reusable Components and Self-Service Development",
+      "reason": "The role must help define standards and controls for reusable components and business-led configuration."
+    },
+    {
+      "skill": "Open-source production engineering",
+      "driver": "Modern Statistical Methods and Next-Generation Production",
+      "reason": "Transition to open-source environments changes how production components are built, tested, and maintained."
+    }
+  ],
+  "competency_gaps": [
+    {
+      "gap": "Limited experience with workflow orchestration platforms and event-driven pipeline management",
+      "driver": "Integrated Data Pipelines and Process Orchestration",
+      "reason": "The role has strong production expertise but future work requires deeper capability in orchestration tooling and automated flow control."
+    },
+    {
+      "gap": "Insufficient capability in cloud-native and enterprise platform architecture",
+      "driver": "Enterprise Digital Platforms and Cloud Infrastructure",
+      "reason": "Legacy production and database expertise may not fully cover scalable cloud deployment, platform services, and enterprise architecture patterns."
+    },
+    {
+      "gap": "Need for stronger metadata service, lineage, and discoverability design capability",
+      "driver": "Metadata-Driven Data Management and Discoverability",
+      "reason": "Metadata is becoming an operational design requirement rather than a secondary documentation concern."
+    },
+    {
+      "gap": "Limited experience with AI-enabled production components and governance controls",
+      "driver": "AI and Automation in Statistical Production",
+      "reason": "AI-assisted production introduces new requirements for monitoring, transparency, and controlled deployment."
+    },
+    {
+      "gap": "Need for deeper expertise in linked-data, administrative-data, and geospatial integration methods",
+      "driver": "Administrative, Alternative and Linked Data Expansion",
+      "reason": "The role increasingly requires sophisticated source harmonization, linkage, and multi-source database design."
+    },
+    {
+      "gap": "Operational knowledge gap in secure-by-design architecture, privacy engineering, and authorization models",
+      "driver": "Cyber Security, Privacy and Secure Access",
+      "reason": "Integrated and reusable production services require stronger embedded security and confidentiality design capability."
+    },
+    {
+      "gap": "Limited experience designing reusable components and self-service guardrails at enterprise scale",
+      "driver": "Modular Architecture, Reusable Components and Self-Service Development",
+      "reason": "The role is moving from program-specific solutions toward governed enterprise reuse and business-led configuration."
+    },
+    {
+      "gap": "Need for stronger change leadership and modernization sequencing capability",
+      "driver": "Workforce Skills Transition and Leadership Capacity",
+      "reason": "The role must help teams adopt new tools and workflows while maintaining ongoing production commitments."
+    }
+  ],
+  "upskilling_requirements": [
+    {
+      "skill": "Workflow orchestration, pipeline configuration, and automated monitoring",
+      "priority": "High",
+      "reason": "This is central to the future operating model of integrated, automated production."
+    },
+    {
+      "skill": "Cloud platforms, enterprise architecture, and modern data platform design",
+      "priority": "High",
+      "reason": "Production systems are increasingly built and operated in shared cloud and enterprise environments."
+    },
+    {
+      "skill": "Metadata management, lineage, and discoverability engineering",
+      "priority": "High",
+      "reason": "Metadata-driven production is foundational to reuse, interoperability, and integrated workflows."
+    },
+    {
+      "skill": "Multi-source integration, linkage, and harmonization methods",
+      "priority": "High",
+      "reason": "Administrative, alternative, linked, and geospatial data are becoming core inputs to production databases."
+    },
+    {
+      "skill": "Security, privacy, authorization, and secure-by-design production patterns",
+      "priority": "High",
+      "reason": "Protected integrated environments and reusable services require stronger embedded controls."
+    },
+    {
+      "skill": "AI literacy, AI-enabled component oversight, and governance",
+      "priority": "High",
+      "reason": "AI and automation are entering production workflows and require informed technical oversight."
+    },
+    {
+      "skill": "Reusable component engineering and self-service guardrail design",
+      "priority": "Medium",
+      "reason": "Modular architecture and business-led configuration require new design and governance approaches."
+    },
+    {
+      "skill": "Open-source production tooling and collaborative development practices",
+      "priority": "Medium",
+      "reason": "Transition to modern open-source environments changes implementation and maintenance practices."
+    },
+    {
+      "skill": "Change leadership, cross-functional coordination, and modernization planning",
+      "priority": "Medium",
+      "reason": "The role must help sequence change realistically and support adoption across multiple partners."
+    }
+  ],
+  "automation_exposure": "High",
+  "future_work_impacts": [
+    {
+      "impact": "The role shifts from maintaining production systems to architecting and governing enterprise production ecosystems",
+      "severity": "High",
+      "reason": "Enterprise platforms, reusable services, and integrated workflows expand the role from technical maintenance to strategic production design."
+    },
+    {
+      "impact": "Routine operational work declines while exception handling, monitoring, and design oversight increase",
+      "severity": "High",
+      "reason": "Automation reduces repetitive manual effort but increases the need for supervision of automated runs and intervention on failures."
+    },
+    {
+      "impact": "Technical complexity increases significantly",
+      "severity": "High",
+      "reason": "The role must combine database expertise with orchestration, metadata, cloud, security, AI, and multi-source integration capabilities."
+    },
+    {
+      "impact": "Cross-team dependency management becomes more central",
+      "severity": "High",
+      "reason": "Integrated production requires sustained coordination across subject matter, IT, platform, security, and dissemination partners."
+    },
+    {
+      "impact": "Pressure for reuse and standardization reduces tolerance for bespoke local solutions",
+      "severity": "High",
+      "reason": "Governance, efficiency, and enterprise architecture priorities favor shared components and standard workflow patterns."
+    },
+    {
+      "impact": "Workforce adjustment pressures may broaden accountability and reduce support capacity",
+      "severity": "Medium",
+      "reason": "Efficiency targets and flatter structures imply more responsibility for sustaining production with fewer resources."
+    },
+    {
+      "impact": "Continuous learning becomes essential to remain effective",
+      "severity": "High",
+      "reason": "Rapid modernization of tools, methods, and platforms requires ongoing upskilling rather than periodic retraining."
+    }
+  ],
+  "proposed_work_description_updates": [
+    {
+      "section": "Current work description",
+      "proposed_update": "Update the role to emphasize enterprise design, implementation, and governance of integrated production systems, databases, and workflows for high-impact statistical programs, including cloud-enabled, metadata-driven, and automated production environments.",
+      "reason": "The role is evolving from production/database expertise in local systems to enterprise production architecture and workflow leadership."
+    },
+    {
+      "section": "Current activities",
+      "proposed_update": "Add responsibility for configuring and monitoring integrated data pipelines, workflow orchestration tools, automated handoffs, and exception-management processes across production stages.",
+      "reason": "Workflow configuration and pipeline supervision are becoming core operational responsibilities."
+    },
+    {
+      "section": "Current activities",
+      "proposed_update": "Add responsibility for designing reusable processing, transformation, metadata, and database services aligned with enterprise architecture, shared platforms, and self-service models.",
+      "reason": "Modular architecture and reusable components are central future-state requirements."
+    },
+    {
+      "section": "Current activities",
+      "proposed_update": "Add responsibility for designing and maintaining ingestion, harmonization, and integration workflows for administrative, alternative, linked, and geospatial data sources.",
+      "reason": "Multi-source integration is becoming a core production capability."
+    },
+    {
+      "section": "Technical responsibilities",
+      "proposed_update": "Include responsibility for embedding metadata capture, lineage, discoverability, and interoperability requirements into production systems, databases, and dissemination workflows.",
+      "reason": "Metadata-driven management is now an operational design requirement."
+    },
+    {
+      "section": "Technical responsibilities",
+      "proposed_update": "Add responsibility for applying secure-by-design principles, including privacy, confidentiality, authorization, cyber security, and controlled-access requirements, in production and database architectures.",
+      "reason": "Security and privacy are now core architectural constraints for integrated production systems."
+    },
+    {
+      "section": "Technical responsibilities",
+      "proposed_update": "Add responsibility for supporting AI-enabled production components, automated validation services, and monitoring frameworks, including documentation and governance controls.",
+      "reason": "AI and automation are increasingly embedded in production workflows and require technical oversight."
+    },
+    {
+      "section": "Leadership and operational management",
+      "proposed_update": "Strengthen language on cross-functional coordination, modernization sequencing, enterprise prioritization, and support for workforce transition to new tools, platforms, and ways of working.",
+      "reason": "The role increasingly operates across teams and must help implement modernization under constrained capacity."
+    },
+    {
+      "section": "Specialized knowledge",
+      "proposed_update": "Expand knowledge requirements to include workflow orchestration, cloud and enterprise data platforms, metadata management, reusable component design, linked-data integration, open-source production tooling, and AI-enabled production methods.",
+      "reason": "These capabilities are increasingly necessary for future performance."
+    }
+  ],
+  "summary": "The Production and Database Expert role is being substantially transformed from a primarily program-focused production and database specialist into an enterprise production architect and workflow expert. Routine manual production work and bespoke local development will decline, while integrated pipeline design, reusable component engineering, metadata-driven production, secure cloud/platform deployment, and multi-source data integration will expand. Automation exposure is high because many repetitive production and validation tasks will be automated, but the role itself grows in strategic importance through design, governance, monitoring, and modernization leadership. Future success will depend on strong upskilling in orchestration, cloud platforms, metadata, security, AI-enabled production, reusable services, and change leadership."
+}
