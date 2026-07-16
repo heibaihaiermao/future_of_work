@@ -1,0 +1,62 @@
+{
+  "Classification": "EC-04",
+  "Positions": [
+    {
+      "Job Family Number": "629-139 (previously 622-054)",
+      "Group/Level": "EC-04",
+      "Position Title": "Metadata Development, Dissemination and Evaluation Coordinator",
+      "Supervisor Position": "",
+      "Branch/Division": "Statistical Infrastructure Branch, Standards Division",
+      "Key Activities": [
+        "HR A to Z index",
+        "HR service standards",
+        "Wellness at Statistics Canada",
+        "HR committees",
+        "HR contact list",
+        "Corporate service providers"
+      ],
+      "technical activities, skills, responsibilities, or efforts": {
+        "1. Decision Making": [
+          "Plans, prioritizes, coordinates and undertakes the development and preparation of statistical metadata for storage and dissemination, reviewing, editing and validating statistical metadata.",
+          "Evaluates corporate and client metadata requirements, estimates the time required to complete tasks and assesses issues related to the production, storage, dissemination and evaluation of statistical metadata in order to provide direction to clients and management with respect to possible approaches, priorities, target dates and training needs and to resolve conceptual and technical problems.",
+          "Evaluates the methods, procedures and systems used in the production, storage, dissemination and evaluation of statistical metadata, determining the need for, recommending, implementing and testing modifications; participates in the development of new specifications; advises clients of changes to methods and procedures; and advises clients and management of potential impacts and results.",
+          "Compiles, writes, edits and approves reports, documentation, procedures manuals and training materials which are related to the production, storage dissemination and evaluation of statistical metadata and which are distributed internally.",
+          "Undertakes quality evaluations in accordance with documented standards and relevant policies, directives and guidelines, reviews and verifies the results of quality evaluations undertaken by subordinates and colleagues, compiles results and writes reports for clients and management.",
+          "Provides input to management decisions and recommendations designed to develop or improve divisional and program initiatives covering areas such as recruitment, training, official languages, wellness and information management."
+        ],
+        "2. Leadership And Operational Management": [
+          "Leads project teams or work units. Determines goals, priorities and milestones, sets objectives, plans and schedules work, resolves conflicting priorities. Assesses human resources needs, recommends appropriate selection methods (internal and external resources), recruits staff, determines training requirements and recommends and approves training plans. Evaluates employee performance and motivates and maintains morale of employees.",
+          "Monitors and tracks time spent on activities for the purposes of reporting to management and informing planning activities.",
+          "Plans and budgets for special projects. Provides input to budgets based on operational needs and by obtaining/providing cost estimates for personnel, supplies, equipment purchases and travel for use in developing section or division budgets."
+        ],
+        "3. Communication": [
+          "Provides advice and training with respect to the policies, directives, guidelines, methods, procedures and systems used in the production, storage, dissemination and evaluation of statistical metadata to subordinates, other statistical metadata specialists, clients and managers who use the information as input to on-going operations and to decisions concerning the management of statistical metadata at Statistics Canada.",
+          "Liaises with other statistical metadata specialists, subject matter specialists, survey managers and management in order to develop and translate requirements into specifications for the production, storage, dissemination and evaluation of statistical metadata; to establish project plans, priorities and target dates; to negotiate modifications to methods, procedures and timelines; to provide training, and to suggest improvements to methods, procedures and systems.",
+          "Writes and presents detailed documents, procedures manuals and training manuals which explain, clarify and make recommendations with respect to the methods, procedures and systems used to produce, store and disseminate statistical metadata and which are used by other statistical metadata specialists, systems specialists, clients, and management in the operation and enhancement of statistical metadata management programs.",
+          "Writes reports which describe policy requirements related to the development, production, storage, dissemination and evaluation of high quality metadata, which describe the results of metadata quality evaluations and which make recommendations for procedures and tools that could be developed to evaluate the quality of statistical metadata. These reports are used by clients and management to ensure the quality and consistency of statistical metadata disseminated by Statistics Canada."
+        ],
+        "4. Knowledge of specialized fields": [
+          "Knowledge of statistical metadata concepts and frameworks used within Statistics Canada, the Government of Canada and internationally, and knowledge of how those concepts and frameworks are used and reflected in policies, methods and procedures relating to the production, storage, dissemination and evaluation of statistical metadata in order to plan, prioritize, coordinate and undertake the preparation, editing, validation and quality evaluation of statistical metadata, to ensure that colleagues and clients understand the importance of adhering to policies, methods and procedures in the preparation, storage and dissemination of metadata and to assess the need for modifications to methods and procedures.",
+          "Knowledge of methods, procedures and systems used for producing, storing, disseminating and evaluating the quality of statistical metadata and the potential impacts of new or modified methods, procedures and systems on workloads, outputs and clients in order to establish project plans, priorities, timelines and training plans; to recommend improvements to methods, procedures and training; to participate in the development of procedures and tools for evaluating the quality of statistical metadata and to explain the results of metadata quality evaluations.",
+          "Knowledge of survey and statistical program subject matter concepts, methods and techniques relevant to the collection, processing, certification and dissemination of data in order to evaluate client requirements for metadata production, storage and dissemination; to implement plans for the production, storage, dissemination and evaluation of statistical metadata; and to more accurately and efficiently assess the quality of statistical metadata.",
+          "Knowledge of management techniques and principles to manage financial and human resources, either directly or within a matrix management environment.",
+          "Knowledge of software, statistical packages and programming languages used in the production, dissemination and evaluation of statistical metadata."
+        ],
+        "5. Contextual knowledge": [
+          "Knowledge of policies, directives and guidelines directly and specifically related to the production, storage, dissemination and evaluation of statistical metadata in order to plan and prioritize the preparation, editing and validation of statistical metadata; to provide assistance, advice, direction, project plans and training to clients; to assist in the development of procedures and tools for evaluating metadata quality; and to effectively undertake evaluations of the quality of statistical metadata.",
+          "Knowledge of contacts within key client Divisions in order to establish a liaison, to evaluate and understand program statistical metadata requirements, provide assistance, advice and direction with respect to policy requirements, methods, procedures, systems, training, priorities and timelines relevant to the production, storage, dissemination and quality evaluation of statistical metadata.",
+          "Knowledge of surveys and statistical programs within Statistics Canada in order to locate, analyze and compare related statistical metadata and to identify, evaluate and ensure consistency in the methods of processing, storing, disseminating and evaluating the quality of metadata across programs, identifying and evaluating any conflicts, gaps or duplication of effort.",
+          "Knowledge of the Statistics Act and of Statistics Canada policies, directives and guidelines in order to ensure understanding and application of the Act and these policies, directives and guidelines in the production, storage, dissemination and quality evaluation of statistical metadata.",
+          "The position must have an awareness of the Statistics and Privacy Acts with respect to the security and confidentiality of statistical information to ensure that actions are in compliance."
+        ],
+        "6. Research and analysis": [
+          "Analyses client requirements in order to determine the feasibility, procedural options, priorities, and target dates relevant to the production, storage, dissemination and evaluation of statistical metadata, ensuring that approaches and results are consistent within and across surveys and statistical programs.",
+          "Provides assistance, advice and direction to internal clients with respect to statistical metadata, documented standards and relevant policies, directives and guidelines, negotiating procedural modifications and establishing target dates, project plans and priorities.",
+          "Analyzes current production, storage, dissemination and evaluation methods, procedures and systems to ascertain their relevancy and to determine the need for changes or alternative methods, procedures and systems which would result in operational efficiencies and/or improvements in the quality of statistical metadata.",
+          "Analyzes changes in methods, procedures and systems used to produce, store, disseminate and evaluate the quality of statistical metadata in order to determine the need to update statistical metadata or adapt it to new formats; to determine where updates are required to existing documentation, procedures manuals and training manuals; and to determine potential short-term and long-term impacts on clients.",
+          "Analyzes and evaluates statistical metadata with respect to policy and procedural requirements and consistency across survey and statistical programs. Evaluates current and proposed methods, procedures and tools for evaluating the quality of statistical metadata in order to suggest potential improvements."
+        ]
+      }
+    }
+  ]
+}

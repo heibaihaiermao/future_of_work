@@ -1,0 +1,372 @@
+{
+  "position_title": "Chief- Training and Strategic Development",
+  "classification": "EC-03",
+  "activities_reduced": [
+    {
+      "activity": "Manual updating of static classroom materials and handouts",
+      "reason": "Modern platforms, reusable learning assets, and AI-assisted content support reduce reliance on fully manual revision of training documents."
+    },
+    {
+      "activity": "One-size-fits-all classroom delivery of standard content",
+      "reason": "Digital tools, self-service environments, and varied learner needs shift training toward modular, role-based, and adaptive delivery."
+    },
+    {
+      "activity": "Manual collection of anecdotal feedback on participant issues",
+      "reason": "Automated monitoring, digital learning tools, and richer operational metrics increase the use of structured evidence on readiness and adoption."
+    },
+    {
+      "activity": "Training focused mainly on stable legacy business practices",
+      "reason": "Modernization, AI adoption, and changing production methods reduce the share of effort devoted to long-settled procedures."
+    }
+  ],
+  "activities_expanded": [
+    {
+      "activity": "Continuous refresh of training content to reflect changing methods, tools, and business practices",
+      "reason": "AI adoption, enterprise platforms, and modernized workflows require more frequent updates to learning materials and guidance."
+    },
+    {
+      "activity": "Coaching and readiness support for staff operating modernized production environments",
+      "reason": "The role increasingly supports workforce readiness for AI-assisted, automated, secure, and platform-based work."
+    },
+    {
+      "activity": "Monitoring training effectiveness, performance gaps, and adoption barriers",
+      "reason": "Modernization increases the need for structured evidence on learner readiness, confidence, and operational performance."
+    },
+    {
+      "activity": "Cross-functional collaboration with subject matter experts, learning specialists, and operational teams",
+      "reason": "Training products must align with evolving business practices, enterprise systems, and modernization priorities."
+    },
+    {
+      "activity": "Development of targeted coaching and action plans",
+      "reason": "Observed deficiencies increasingly need to be translated into prioritized, monitored reskilling and support actions."
+    }
+  ],
+  "activities_transformed": [
+    {
+      "activity": "Developing training materials and tools",
+      "future_state": "Designing modular, digital, continuously updated learning assets, simulations, and job aids aligned to enterprise systems and modern workflows",
+      "reason": "Training content is shifting from static materials to reusable, digital, and operationally embedded learning products."
+    },
+    {
+      "activity": "Providing day-to-day coaching to course participants",
+      "future_state": "Delivering blended coaching through digital tools, role-based support, just-in-time guidance, and targeted intervention based on learner performance data",
+      "reason": "Learner support is becoming more personalized, data-informed, and integrated with digital work environments."
+    },
+    {
+      "activity": "Monitoring participant performance and identifying gaps",
+      "future_state": "Using structured metrics, workflow signals, and training analytics to assess readiness, adoption, and capability gaps",
+      "reason": "Evaluation inputs are becoming more continuous, standardized, and evidence-based."
+    },
+    {
+      "activity": "Ensuring training reflects current business practices",
+      "future_state": "Coordinating rapid updates across policies, methods, systems, security requirements, and modernization initiatives",
+      "reason": "Business practices are changing faster and require tighter alignment between training and operational change."
+    },
+    {
+      "activity": "Recommending coaching and training plans",
+      "future_state": "Developing prioritized workforce action plans tied to modernization, digital adoption, and operational readiness outcomes",
+      "reason": "Training planning is becoming more strategic and linked to enterprise transformation and workforce sustainability."
+    }
+  ],
+  "activities_new": [
+    {
+      "activity": "Developing training and guidance for AI assistants, automated workflows, and digital tools",
+      "reason": "AI and automation are entering daily work and require new user guidance, trust-building, and safe-use practices."
+    },
+    {
+      "activity": "Creating readiness materials for enterprise platforms, cloud-based tools, and self-service environments",
+      "reason": "Modernized production depends on staff being able to operate new platforms and access models effectively."
+    },
+    {
+      "activity": "Building training content on privacy, secure access, cyber security, and controlled use of systems",
+      "reason": "Operational readiness now includes secure and compliant use of digital systems."
+    },
+    {
+      "activity": "Using learning analytics and operational evidence to evaluate training effectiveness",
+      "reason": "Evaluation increasingly depends on structured metrics, telemetry, and standardized performance indicators."
+    },
+    {
+      "activity": "Supporting managers with change leadership resources and transition guidance",
+      "reason": "Leadership capacity is a major workforce requirement during modernization and workforce adjustment."
+    },
+    {
+      "activity": "Embedding accessibility and inclusive design into digital learning products",
+      "reason": "Digital platforms and workforce transition priorities require accessible and inclusive training design."
+    },
+    {
+      "activity": "Developing action plans for reskilling, curriculum updates, and targeted remediation",
+      "reason": "The role increasingly translates observed deficiencies into concrete corrective actions and monitored follow-up."
+    }
+  ],
+  "skills_declining": [
+    {
+      "skill": "Production of static paper-based training materials",
+      "reason": "Training is moving toward digital, modular, and continuously updated formats."
+    },
+    {
+      "skill": "Instructor-led delivery as the primary training mode",
+      "reason": "Blended, self-serve, and digitally supported learning models reduce reliance on classroom-only delivery."
+    },
+    {
+      "skill": "Manual issue tracking based mainly on observation and anecdotal feedback",
+      "reason": "Automated metrics and structured evaluation tools provide richer evidence on learner performance and readiness."
+    }
+  ],
+  "skills_growing": [
+    {
+      "skill": "Digital learning design and delivery",
+      "reason": "The role must support scalable, modular, and platform-based learning for modernized operations."
+    },
+    {
+      "skill": "Change management and workforce transition support",
+      "reason": "Modernization requires helping staff and managers adopt new tools, methods, and ways of working."
+    },
+    {
+      "skill": "Training evaluation and learning analytics",
+      "reason": "The role increasingly gathers and uses structured evidence on adoption, readiness, and training effectiveness."
+    },
+    {
+      "skill": "Cross-functional coordination and stakeholder alignment",
+      "reason": "Training content must reflect inputs from subject matter experts, operational teams, and enterprise modernization initiatives."
+    },
+    {
+      "skill": "Rapid curriculum governance and update management",
+      "reason": "Faster change cycles require quicker refresh of materials, clearer ownership, and stronger prioritization."
+    },
+    {
+      "skill": "Coaching and mentorship in digital work environments",
+      "reason": "Employees need more targeted support to build confidence with AI, digital tools, and new workflows."
+    },
+    {
+      "skill": "Operational literacy in modern production systems and workflows",
+      "reason": "Training must accurately reflect how modernized systems and methods are used in practice."
+    }
+  ],
+  "skills_new": [
+    {
+      "skill": "AI literacy for training design and user enablement",
+      "driver": "AI and Automation in Statistical Production",
+      "reason": "The role must create guidance for staff using AI assistants and automated tools in daily work."
+    },
+    {
+      "skill": "Training design for secure access, privacy, and cyber-safe operations",
+      "driver": "Cyber Security, Privacy and Secure Access",
+      "reason": "Operational learning products must now cover secure system use, authorizations, and confidentiality practices."
+    },
+    {
+      "skill": "Learning support for enterprise platforms and cloud-based tools",
+      "driver": "Enterprise Digital Platforms and Cloud Infrastructure",
+      "reason": "Staff need training to work effectively in modern digital environments and access models."
+    },
+    {
+      "skill": "Workflow and pipeline supervision literacy for training purposes",
+      "driver": "Integrated Data Pipelines and Process Orchestration",
+      "reason": "Training must prepare users to supervise automated flows and manage exceptions rather than only execute manual steps."
+    },
+    {
+      "skill": "Metadata-aware training development",
+      "driver": "Metadata-Driven Data Management and Discoverability",
+      "reason": "Users increasingly need guidance on metadata-rich processes, repositories, and stewardship practices."
+    },
+    {
+      "skill": "Training for administrative, alternative, and linked data operations",
+      "driver": "Administrative, Alternative and Linked Data Expansion",
+      "reason": "Mixed-source production introduces new procedures that require specialized learning content."
+    },
+    {
+      "skill": "Accessibility-centered digital learning design",
+      "driver": "Workforce Skills Transition and Leadership Capacity",
+      "reason": "Digital learning products must be inclusive, usable, and aligned with accessibility expectations."
+    },
+    {
+      "skill": "Action-planning and prioritization for workforce capability development",
+      "driver": "Governance, Prioritization and Decision Discipline",
+      "reason": "The role increasingly needs to convert observed gaps into prioritized, feasible, and monitored corrective actions."
+    }
+  ],
+  "competency_gaps": [
+    {
+      "gap": "Limited experience designing training for AI-assisted and automated work environments",
+      "driver": "AI and Automation in Statistical Production",
+      "reason": "Traditional training approaches may not fully address oversight, trust, escalation, and safe use of AI-enabled tools."
+    },
+    {
+      "gap": "Insufficient capability in digital learning architecture and modular content design",
+      "driver": "Enterprise Digital Platforms and Cloud Infrastructure",
+      "reason": "The role is moving from static materials toward scalable digital learning embedded in modern platforms."
+    },
+    {
+      "gap": "Need for stronger capability in learning analytics and evidence-based evaluation",
+      "driver": "Gather evaluation inputs",
+      "reason": "The role increasingly needs to use structured metrics, telemetry, and feedback to assess readiness and adoption."
+    },
+    {
+      "gap": "Limited operational knowledge of privacy, cyber security, and secure-access practices",
+      "driver": "Cyber Security, Privacy and Secure Access",
+      "reason": "Training products must now accurately reflect secure operational practices in live digital environments."
+    },
+    {
+      "gap": "Limited familiarity with mixed-source operational processes involving administrative and linked data",
+      "driver": "Administrative, Alternative and Linked Data Expansion",
+      "reason": "New source-ingestion and linkage workflows require training content grounded in unfamiliar operational practices."
+    },
+    {
+      "gap": "Need for stronger change leadership and manager-support capability",
+      "driver": "Workforce Skills Transition and Leadership Capacity",
+      "reason": "The role must help leaders and staff navigate modernization, workload pressure, and evolving work models."
+    },
+    {
+      "gap": "Limited understanding of metadata-driven workflows and stewardship requirements",
+      "driver": "Metadata-Driven Data Management and Discoverability",
+      "reason": "Metadata-centric operations introduce new concepts that must be translated into practical user guidance."
+    },
+    {
+      "gap": "Need for stronger prioritization and action-planning discipline",
+      "driver": "Governance, Prioritization and Decision Discipline",
+      "reason": "The role increasingly needs to recommend targeted, feasible, and monitored corrective actions under constrained capacity."
+    }
+  ],
+  "upskilling_requirements": [
+    {
+      "skill": "AI literacy and AI-enabled workflow training design",
+      "priority": "High",
+      "reason": "AI adoption is a major driver and directly changes what staff must learn and how training must be delivered."
+    },
+    {
+      "skill": "Digital learning design, simulation development, and modular content authoring",
+      "priority": "High",
+      "reason": "The role must scale training through digital and reusable formats rather than relying mainly on static materials."
+    },
+    {
+      "skill": "Change management, coaching, and leadership support",
+      "priority": "High",
+      "reason": "Workforce transition and modernization require stronger enablement of both staff and managers."
+    },
+    {
+      "skill": "Cyber security, privacy, and secure-access operational training",
+      "priority": "High",
+      "reason": "Secure use of systems is now a core readiness requirement for production environments."
+    },
+    {
+      "skill": "Learning analytics and training effectiveness measurement",
+      "priority": "High",
+      "reason": "The role increasingly gathers evaluation inputs and needs evidence-based methods to assess adoption and readiness."
+    },
+    {
+      "skill": "Administrative, alternative, and linked data operational literacy",
+      "priority": "Medium",
+      "reason": "Mixed-source operations require new training content and practical understanding of emerging workflows."
+    },
+    {
+      "skill": "Workflow orchestration and exception-handling concepts",
+      "priority": "Medium",
+      "reason": "Automated pipelines change user responsibilities and therefore training requirements."
+    },
+    {
+      "skill": "Metadata and discoverability practices",
+      "priority": "Medium",
+      "reason": "Metadata-driven operations require users to understand stewardship and metadata-rich workflows."
+    },
+    {
+      "skill": "Accessibility and inclusive digital learning design",
+      "priority": "Medium",
+      "reason": "Digital training products must be usable across diverse employee groups and aligned with inclusion expectations."
+    },
+    {
+      "skill": "Prioritization, action-planning, and monitored remediation design",
+      "priority": "Medium",
+      "reason": "The role increasingly needs to translate observed deficiencies into practical corrective actions under time and resource constraints."
+    }
+  ],
+  "automation_exposure": "Medium",
+  "future_work_impacts": [
+    {
+      "impact": "The role shifts from classroom training support to strategic workforce enablement for modernization",
+      "severity": "High",
+      "reason": "Training becomes a core mechanism for production readiness, digital adoption, and operational resilience."
+    },
+    {
+      "impact": "Demand for faster and more frequent curriculum updates will increase workload intensity",
+      "severity": "High",
+      "reason": "Modern platforms, AI tools, and changing workflows require continuous refresh rather than periodic revision."
+    },
+    {
+      "impact": "The role will require deeper technical understanding of modern production systems and digital tools",
+      "severity": "High",
+      "reason": "Training must accurately reflect AI-assisted, secure, metadata-driven, and platform-based workflows."
+    },
+    {
+      "impact": "Routine content production tasks may be partially automated",
+      "severity": "Medium",
+      "reason": "AI and digital authoring tools can reduce manual effort in drafting, formatting, and maintaining standard guidance."
+    },
+    {
+      "impact": "Cross-functional collaboration demands will increase significantly",
+      "severity": "High",
+      "reason": "Effective training now depends on coordination with subject matter experts, operational teams, and modernization partners."
+    },
+    {
+      "impact": "The role will become more data-driven through learning analytics and operational feedback loops",
+      "severity": "Medium",
+      "reason": "Evaluation inputs from platforms and workflows will increasingly shape training priorities and updates."
+    },
+    {
+      "impact": "Support for managers and employee well-being during transition will become more important",
+      "severity": "Medium",
+      "reason": "Workforce adjustment pressures and modernization create a need for supportive, well-sequenced learning and coaching."
+    },
+    {
+      "impact": "Action-planning responsibilities will become more visible and consequential",
+      "severity": "Medium",
+      "reason": "Observed training gaps will increasingly need to be translated into prioritized reskilling and remediation plans."
+    }
+  ],
+  "proposed_work_description_updates": [
+    {
+      "section": "Current work description",
+      "proposed_update": "Update the role to emphasize workforce readiness, operational training, and strategic learning support for modernized statistical production, including AI-enabled, automated, secure, and platform-based environments.",
+      "reason": "The role is evolving from maintaining training materials to enabling enterprise adoption of new operating models."
+    },
+    {
+      "section": "Key activities",
+      "proposed_update": "Replace generic administrative references with responsibilities for developing, updating, and delivering technical training, coaching, and readiness support for survey, subject matter, and statistical learning programs.",
+      "reason": "The listed key activities do not reflect the substantive training and strategic development work described elsewhere in the record."
+    },
+    {
+      "section": "Leadership and operational management",
+      "proposed_update": "Add responsibility for developing modular digital learning products, simulations, just-in-time guidance, and role-based training for enterprise platforms, automated workflows, and mixed-source operations.",
+      "reason": "Training delivery is shifting toward scalable digital formats and more technically complex subject matter."
+    },
+    {
+      "section": "Leadership and operational management",
+      "proposed_update": "Add responsibility for developing and monitoring coaching, reskilling, and remediation plans based on observed performance gaps, readiness risks, and modernization priorities.",
+      "reason": "The role increasingly translates evaluation inputs into targeted action plans."
+    },
+    {
+      "section": "Decision making",
+      "proposed_update": "Expand decision-making language to include prioritizing curriculum updates, selecting training interventions for digital and AI-enabled tools, and balancing readiness needs against timelines and resource constraints.",
+      "reason": "Modernization increases the need for disciplined prioritization and action-oriented training decisions."
+    },
+    {
+      "section": "Communication",
+      "proposed_update": "Add responsibility for producing guidance on AI use, secure access, privacy, metadata practices, and operation of modern digital tools and workflows.",
+      "reason": "These topics are becoming core operational knowledge areas that training must cover."
+    },
+    {
+      "section": "Research and analysis",
+      "proposed_update": "Add responsibility for using learning analytics, participant feedback, operational metrics, and readiness indicators to assess training effectiveness and identify capability gaps.",
+      "reason": "Evaluation input gathering is becoming more structured, continuous, and evidence-based."
+    },
+    {
+      "section": "Knowledge of specialized fields",
+      "proposed_update": "Expand knowledge requirements to include digital learning design, AI literacy, enterprise platforms, cloud-based tools, administrative and alternative data operations, metadata stewardship, cyber/privacy practices, and workflow orchestration concepts.",
+      "reason": "These capabilities are increasingly necessary for effective future performance."
+    },
+    {
+      "section": "Contextual knowledge",
+      "proposed_update": "Strengthen language on change leadership, accessibility and inclusive design, workforce transition support, and alignment with enterprise modernization priorities.",
+      "reason": "Future performance depends on supporting adoption, inclusion, and sustainable change across evolving work environments."
+    }
+  ],
+  "summary": "The Chief- Training and Strategic Development role is becoming more strategic, digital, and transformation-oriented. Static classroom materials and manual feedback collection will decline, while continuous workforce enablement, digital learning design, evidence-based evaluation, and targeted action planning will expand. The role will increasingly support adoption of AI, automated workflows, enterprise platforms, secure operations, and mixed-source production models. Automation exposure is medium: some content production and feedback collection tasks can be automated, but the role grows in importance as a change-enablement, readiness, and capability-development function."
+}
