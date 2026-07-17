@@ -99,7 +99,7 @@ stage04_records = loads(
 # Trim large records before prompting
 ###############################################################################
 
-TOP_IMPACTS = 5
+TOP_IMPACTS = 3
 
 
 def build_prompt_payload(record):
