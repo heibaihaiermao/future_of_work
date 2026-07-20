@@ -1,3 +1,8 @@
+"""
+Last modified by: Sophie
+Modify date: 2026-07-20
+"""
+
 from assistant import Assistant, persistent_send
 from json import loads, dumps, dump as jdump
 from operator import itemgetter
