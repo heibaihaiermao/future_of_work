@@ -1,3 +1,8 @@
+"""
+Last modified by: Sophie
+Modify date: 2026-07-20
+"""
+
 from assistant import Assistant, persistent_send
 
 from json import loads, dumps, dump as jdump
@@ -7,6 +12,8 @@ from os.path import exists
 from os import makedirs
 
 import warnings
+
+print("this is a testing message")
 
 warnings.filterwarnings(
     "ignore",
