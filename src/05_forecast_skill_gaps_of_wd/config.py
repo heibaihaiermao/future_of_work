@@ -20,9 +20,6 @@ Configuration:
         Path to the dataset containing GSBPM update implications for work
         descriptions.
 
-    ORG_INPUTS_FILE
-        Path to organizational input data used during processing.
-
     OUTPUT_DIR
         Directory where generated outputs and analysis results are stored.
 
