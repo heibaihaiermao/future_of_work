@@ -122,6 +122,8 @@ def main():
 
         title = implication["title"]
 
+        print(f"Processing: {title}")
+
         classification = (
             implication["classification"]
         )
@@ -138,6 +140,8 @@ def main():
 
             continue
 
+        print("Finding work description")
+
         work_description = (
             find_work_description(
                 work_descriptions,
@@ -146,11 +150,15 @@ def main():
             )
         )
 
+        print("Building prompt")
+
         system_prompt = (
             build_system_prompt(
                 work_description
             )
         )
+
+        print("Creating analyzer")
 
         analyzer = (
             FutureSkillsAnalyzer(
@@ -158,11 +166,15 @@ def main():
             )
         )
 
+        print("Analyzer created")
+
         results = []
 
         for update in implication[
             "implicated phases and sub-processes"
         ]:
+
+            print("Calling analyze_update")
 
             raw = (
                 analyzer
@@ -170,6 +182,8 @@ def main():
                     str(update)
                 )
             )
+
+            print("analyze_update finished")
 
             parsed = parse_response(raw)
 

@@ -57,11 +57,11 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 
 WORK_DESCRIPTIONS_FILE = (
-    DATA_DIR / "wd_update_input" / "work_descriptions.json"
+    DATA_DIR / "wd_update_input" / "test_work.json"
 )
 
 GSBPM_IMPACTS_FILE = (
-    DATA_DIR / "wd_update_input" / "implicated_GSBPM_updates_per_work-description_-_all.json"
+    DATA_DIR / "wd_update_input" / "test_implicated.json"
 )
 
 OUTPUT_DIR = DATA_DIR / "outputs"
