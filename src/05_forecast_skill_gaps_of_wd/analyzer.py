@@ -77,12 +77,18 @@ class FutureSkillsAnalyzer:
     ):
 
         prompt = f"""
-Analyze this business process update.
+        Analyze the following GSBPM update element.
 
-Return JSON only.
+        Apply the task instructions and JSON schema
+        provided in the system prompt.
 
-{update_element}
-"""
+        GSBPM UPDATE ELEMENT
+
+        ```json 
+        {update_element}
+
+
+        Return valid JSON only. """
 
         return persistent_send(
             self.assistant.send_message,

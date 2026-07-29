@@ -3,57 +3,64 @@
 File: prompt_builder.py
 
 Purpose:
-    Generates standardized system prompts for Large Language Model (LLM)
-    interactions related to workforce planning, skills forecasting, and
-    future competency analysis.
+    Builds the system prompt used for future skills forecasting and work
+    description impact analysis.
 
-Functions:
-    build_system_prompt(organizational_inputs, work_description)
-        Constructs a structured system prompt that provides organizational
-        context, work description details, and analysis requirements for
-        forecasting future skill needs and competency gaps.
+    The prompt is composed from reusable text fragments and the target
+    work description.
 
 Author:
-    Souroosh Memarian
+    Souroosh Memarian (Statistics Canada)
+
 Created:
     2026-07-21
 
 Last Modified:
-    2026-07-21
+    2026-07-29
 
 Version:
-    1.0.0
+    2.0.0
 
 Dependencies:
     - json.dumps
-
-Notes:
-    - Embeds organizational inputs and work description data directly into
-      the system prompt as formatted JSON.
-    - Guides the LLM to focus on future-state workforce requirements and
-      competency forecasting.
-    - Emphasizes identification of skill gaps rather than summarization of
-      current job responsibilities.
-    - Instructs the model to return responses in valid JSON format only.
-    - Designed to support workforce modernization, business transformation,
-      automation readiness, and AI-adoption initiatives.
-
-Analysis Areas:
-    - Business process changes
-    - Future-state operating models
-    - Critical skills forecasting
-    - Technical skills forecasting
-    - AI-related competencies
-    - Automation-related competencies
-    - Data competencies
-    - Governance competencies
-    - Metadata competencies
-    - Platform competencies
+    - config
+    - data_loader
 
 ===============================================================================
 """
 
 from json import dumps
+
+from config import ROOT
+
+from data_loader import (
+    load_text
+)
+
+
+PROMPTS_DIR = (
+    ROOT
+    /
+    "prompts"
+)
+
+background = load_text(
+    PROMPTS_DIR
+    /
+    "prompt_01_-_background_prompt.txt"
+)
+
+wd_intro = load_text(
+    PROMPTS_DIR
+    /
+    "prompt_03_-_work-description_context_intro.txt"
+)
+
+task = load_text(
+    PROMPTS_DIR
+    /
+    "prompt_04_-_task_and_schema.txt"
+)
 
 
 def build_system_prompt(
@@ -61,54 +68,16 @@ def build_system_prompt(
 ):
 
     return f"""
-You are an expert workforce planner,
-strategic HR analyst,
-future-of-work specialist,
-and skills forecasting consultant.
+{background}
 
-OBJECTIVE
+## Context
 
-Forecast future critical skills required
-for this role.
+### Targeted Work-description
 
-CONTEXT
+{wd_intro}
 
-WORK DESCRIPTION
-
+```json
 {dumps(work_description, indent=2)}
+{task}
 
-ANALYSIS REQUIREMENTS
-
-You must:
-
-1. Analyze business process changes.
-
-2. Analyze future-state operating model.
-
-3. Forecast future critical skills.
-
-4. Forecast future technical skills.
-
-5. Forecast AI-related skills.
-
-6. Forecast automation-related skills.
-
-7. Forecast data competencies.
-
-8. Forecast governance competencies.
-
-9. Forecast metadata competencies.
-
-10. Forecast platform competencies.
-
-Focus primarily on SKILL GAPS.
-
-Do not spend time rewriting the work description.
-
-A skill gap is present whenever future
-business processes require competencies
-that are absent or weakly represented in
-the current work description.
-
-Return valid JSON only.
-"""
+RESPOND IN VALID JSON ONLY. """
