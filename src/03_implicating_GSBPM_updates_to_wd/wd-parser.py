@@ -55,16 +55,46 @@ def extract_position_header(soup):
 
 
 def extract_key_activities(section):
-    """Extract raw <li> under Key Activities"""
-    ul = section.find_next("ul")
-    if not ul:
-        return []
+    """
+    Extract all content belonging to an h2 section.
+    Supports:
+    - <ul><li>
+    - <p>
+    - mixed structures
 
-    return [
-        clean_text(li.get_text(" ", strip=True))
-        for li in ul.find_all("li")
-        if clean_text(li.get_text())
-    ]
+    Stops at the next <h2>.
+    """
+
+    content = []
+
+    node = section.find_next_sibling()
+
+    while node:
+
+        print(node)
+
+        # next section starts
+        if node.name == "h2":
+            break
+
+        # Extract list items
+        if node.name == "ul":
+            for li in node.find_all("li"):
+                txt = clean_text(li.get_text(" ", strip=True))
+                if txt:
+                    content.append(txt)
+
+        # Extract paragraphs
+        elif node.name == "p":
+            print("P!!!")
+            print(node.get_text())
+            txt = clean_text(node.get_text(" ", strip=True))
+            if txt:
+                content.append(txt)
+
+        node = node.find_next_sibling()
+
+    return content
 
 
 def extract_technical_sections(work_characteristics):

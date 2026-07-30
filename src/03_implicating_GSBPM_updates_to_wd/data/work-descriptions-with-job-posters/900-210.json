@@ -1,0 +1,88 @@
+{
+  "Classification": "EC-04",
+  "Positions": [
+    {
+      "Job Family Number": "900-210",
+      "Group/Level": "EC-04",
+      "Position Title": "Economist/Sociologist 4",
+      "Supervisor Position": "",
+      "Branch/Division": "Various",
+      "Key Activities": [
+        "Undertakes the analysis of statistical program data and assists in the preparation of analytical material for internal use and publication purposes.",
+        "Participates in the analysis of socio-economic trends and developments to assess the feasibility and impact of new or modified statistical programs.",
+        "Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.",
+        "Provides assistance and subject matter advice to data users within and outside STC.",
+        "Undertakes subject matter studies/reviews in support of project teams or senior officers.",
+        "Leads project teams involved in special studies."
+      ],
+      "technical activities, skills, responsibilities, or efforts": {
+        "1. DECISION MAKING": [
+          "Identifies and assesses changes and developments in the subject area, determines the impact on program subject-matter content and recommends alternative statistical methods and approaches.",
+          "Modifies existing techniques and approaches to improve program coverage or to meet specific needs and develops subject-matter concepts and definitions. Develops operational plans and project priorities and identifies areas necessitating study at the local, regional or national levels.",
+          "Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.",
+          "Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff."
+        ],
+        "2. LEADERSHIP AND OPERATIONAL MANAGEMENT": [
+          "Leads project teams, determines goals, priorities and milestones, sets objectives, and plans and schedules the work, resolves conflicting priorities; assesses human resources needs, recommends the appropriate selection methods (internal and external resources / contractors) to meet program objectives, recruits staff, provides feedback on employee performance, develops training plans, motivates and maintains morale of employees.",
+          "Plans and budgets for special projects, including estimates for salaries, professional fees and implementation costs, with authority to allocate funds within budget. Provides input to budgets based on operational needs and by obtaining/providing cost estimates for personnel, supplies, equipment purchases and travel for use in developing section or division budgets. Procures goods and services according to approved budget allocations."
+        ],
+        "3. COMMUNICATION": [
+          "Provides information and advice to managers, data users and clients on matters relating to subject-matter concepts used in the development and operation of a statistical database and to the data processing environment in general.",
+          "Discusses program subject-matter content requirements with operations managers, other subject matter and systems specialists, clients, service providers and others to comprehend and elaborate the framework and conditions within which statistical development and operations will occur. There is a requirement to understand the issues and resolve differences that can affect the efficiency of the division's operations and quality of outputs.",
+          "Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, to negotiate procedural modifications and to establish project plans, priorities and target dates.",
+          "Writes and presents detailed subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify divisional program content and applications.",
+          "Writes program information manuals, training packages, monitoring procedures and management reports for use by colleagues, operational staff and management in the development, implementation and assessment of statistical programs."
+        ],
+        "4. KNOWLEDGE OF SPECIALIZED FIELDS": [
+          "A thorough knowledge of the theories and principles of economics, econometric methods and techniques and of sampling theory are required, along with a working knowledge of survey design, time series and special analysis and forecasting.",
+          "Knowledge of current or emerging economic and social issues relating to the program area in order to identify and resolve existing and potential subject-matter conflicts, duplication and gaps.",
+          "Knowledge of the concepts, methods and techniques used in the collection, processing, editing, compilation and presentation of statistical data in order to coordinate and advise on subject-matter development and resolve subject-matter concept and definition issues.",
+          "Knowledge of system analysis and design, computer processing, generalized survey software packages to manage the design, development, testing, maintenance and implementation of processing systems; to design specifications for the testing of data, and to maintain and develop databases.",
+          "Knowledge of high level programming languages, utility programs or statistical packages to retrieve and manipulate data.",
+          "Knowledge of management techniques and principles to manage financial and human resources, either directly or within a matrix management environment."
+        ],
+        "5. CONTEXTUAL KNOWLEDGE": [
+          "Knowledge of statistical programs within Statistics Canada related to the area of expertise in order to identify and select sources of information for development and operations and/or special studies and to identify and evaluate data conflicts.",
+          "Knowledge of contacts within key client departments to establish a liaison; to understand need for statistical data, and to provide advice and guidance on subject-matter concepts, methods, techniques and results.",
+          "Knowledge of the divisional mandate, objectives, priorities, practices, standards, processes and procedures in order to coordinate and manage on-going operational activities and/or special projects.",
+          "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to explain legislative and policy requirements to data suppliers, users and others with respect to the manipulation, storage and retrieval of data. Knowledge of the Statistics and Privacy Acts is particulary important with respect to the security and confidentiality of information and data provided and to ensure that they and their subordinates do not release any information which may identify an individual or group without prior consent."
+        ],
+        "6. RESEARCH AND ANALYSIS": [
+          "Analyzes and synthesizes geographic, demographic, social, economic and/or labour market characteristics and prepares profiles and forecasts.",
+          "Reviews the development of new subject-matter methods, concepts and definitions and conducts studies and analytical projects to improve existing surveys and data.",
+          "Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.",
+          "Interprets program and user needs for statistical information, assesses the suitability of existing data products and services and translates them into a concrete, timely and affordable product.",
+          "Reviews the results of projects and surveys in order to provide interpretation and analysis on subject-matter concepts and definitions, survey methods, statistical applications and techniques used."
+        ],
+        "7. PHYSICAL Effort": [
+          "Frequent, extended periods of sitting at a work station while keyboarding, proofreading, telephoning, reviewing data, or writing text.",
+          "Occasional periods of physical exertion, such as bending and stretching to retrieve, organize and distribute publications, printouts, documents or files.",
+          "There may be an occasional requirement to carry equipment, presentation material and document cases to meetings or during travel."
+        ],
+        "8. SENSORY Effort": [
+          "There is an occasional requirement for sensory observation when comparing old and new versions of data."
+        ],
+        "9. WORKING CONDITIONS": [
+          "The work is performed in an open office environment with constant exposure to glare from a computer screen, noise from conversations, telephones, traffic and equipment in the immediate area.",
+          "Work is performed while facing multiple and sometimes competing demands from clients, frequent changes in methods, systems and approaches and competing priorities and changing deadlines.",
+          "There is a requirement to travel nationally and/or internationally, several times a year for several days at a time.",
+          "Encounters resistance from external clients or respondents who may be impatient, irritated or uncooperative, as well as program criticism from clients, the media, and members of the public and special interest groups."
+        ],
+        "Employee’s Statement – Déclaration de l’employé": [
+          "I have been given the opportunity to read and comment on the content of this work description. J’ai eu l’occasion de lire et commenter le contenu de cette description de travail.",
+          "Name of Employee – Nom de l’employé",
+          "___________________________ ________ Signature Date"
+        ],
+        "Supervisor’s Statement – Déclaration du surveillant": [
+          "This work description accurately describes the work assigned to this position. Cette description de travail décrit adéquatement le travail assigné à ce poste.",
+          "Name of Supervisor – Nom du surveillant:",
+          "_________________________________________ ___________ Signature of Supervisor – Signature du surveillant Date"
+        ],
+        "Authorization – Authorisation": [
+          "Name of Manager – Nom du gestionnaire: _________________________________________ ___________ Manager’s Signature – Signature du gestionnaire Date"
+        ]
+      },
+      "Job Poster": {}
+    }
+  ]
+}

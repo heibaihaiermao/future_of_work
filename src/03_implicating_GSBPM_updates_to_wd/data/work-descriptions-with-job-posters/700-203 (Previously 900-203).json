@@ -1,0 +1,47 @@
+{
+  "Classification": "EC-04",
+  "Positions": [
+    {
+      "Job Family Number": "700-203 (Previously 900-203)",
+      "Group/Level": "EC-04",
+      "Position Title": "Operations Development Officer",
+      "Supervisor Position": "",
+      "Branch/Division": "Various",
+      "Key Activities": [
+        "Develops and coordinates the implementation, conduct and maintenance of manual and automated operations for the collection, capture, coding and processing of data.",
+        "Reviews data inconsistency and integrity problems, recommends new approaches and resolves reporting and respondent relations issues.",
+        "Evaluates changes in statistical needs of clients, as well as trends and developments in data collection, capture, coding and processing.",
+        "Provides advisory and consultative services to users regarding collection and production efficiency and/or quality.",
+        "Participates as a statistical operations representative on teams and working groups throughout the department.",
+        "Leads project teams involved in the collection, capture, coding and processing of statistical data."
+      ],
+      "technical activities, skills, responsibilities, or efforts": {},
+      "Job Poster": {
+        "Education": [
+          "Successful completion of two years of a post secondary program with acceptable specialization in social sciences, statistics, library/archival work, or a law related field.",
+          "An acceptable combination of education, training and/or experience.",
+          "Successful completion of 1 year post secondary education and statistical related work experience normally acquired over 1 year (full time).",
+          "Successful completion of high school (or the General Competency Test: Level 1 (GCT1 207) and statistical related work experience normally acquired over 2 years (full time)."
+        ],
+        "Experience": [
+          "Experience in developing, updating or testing workflows, processes or applications.",
+          "Experience in business analysis which would include investigating business systems and processes; evaluating actions to improve operations, documenting business requirements.",
+          "Experience in documenting workflows or procedures or developing training material."
+        ],
+        "Knowledge": [],
+        "Technical Skills": [],
+        "Competencies": [
+          "Thinking things through",
+          "Working effectively with others",
+          "Showing initiative and being action oriented",
+          "Demonstrating integrity and respect"
+        ],
+        "Abilities": [
+          "Ability to communicate effectively orally.",
+          "Ability to communicate effectively in writing."
+        ],
+        "Assets": []
+      }
+    }
+  ]
+}
