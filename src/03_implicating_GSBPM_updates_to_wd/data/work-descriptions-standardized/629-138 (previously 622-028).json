@@ -59,7 +59,10 @@
           "Analyses the quality of statistical metadata produced by surveys and statistical programs at Statistics Canada; analyses gaps and inconsistencies in metadata quality and determines reasons for variances among program areas; reviews the comparability of metadata over time in light of changing policy requirements, systems functionality and changing methodologies used by statistical programs; provides senior management with interpretations and recommendations affecting policies, directives, guidelines, methods, procedures and systems used for the production, storage and dissemination of statistical metadata."
         ]
       }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 27a223123af760f597a56c2a9bab3653cce2890f
     }
   ]
 }

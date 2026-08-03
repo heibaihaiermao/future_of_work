@@ -1,0 +1,20 @@
+{
+  "Classification": null,
+  "Positions": [
+    {
+      "Job Family Number": "EC‑06 - 679‑022",
+      "Group/Level": "EC‑06",
+      "Position Title": "Lead Data Scientist",
+      "Supervisor Position": "",
+      "Branch/Division": "Data Science Division",
+      "Key Activities": [
+        "Manages a complex and/or a number of data science projects and is responsible for the delivery of data science prototypes and their transition to production. Manages the financial, computing and any other resources attached to each project.",
+        "Prototypes, develops and produces data from alternative non-traditional data sources, large volumes of data, unstructured data (administrative, web, remote sensing, etc); applies algorithms and statistical techniques in support of statistical analysis and statistical production.",
+        "Represents departmental interests when presenting analytical research and modelling studies to a variety of stakeholders. Evaluates options for partnerships with academics, other GoC departments, or external data science service providers. Liaises with international partner data science teams. Participates in data science communities of practice, working groups and conferences. Represents the division in discussion forums. Presents project work at conferences and events.",
+        "Works collaboratively with other fields, and other data science groups in the organization to share and utilize any advancements made. Promotes the spreading of data science skills.",
+        "Provides expert advice for the use of machine learning methods, the data processing with leading edge data science frameworks, open source software and high capacity platforms. Participates in data science projects technical reviews."
+      ],
+      "technical activities, skills, responsibilities, or efforts": {}
+    }
+  ]
+}
