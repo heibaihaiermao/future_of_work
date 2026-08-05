@@ -62,33 +62,14 @@ Notes:
 ===============================================================================
 """
 
+
+from analyzer import FutureSkillsAnalyzer
 from config import *
-
-from data_loader import (
-    load_json
-)
-
-from work_description_finder import (
-    find_work_description
-)
-
-from prompt_builder import (
-    build_system_prompt
-)
-
-from analyzer import (
-    FutureSkillsAnalyzer
-)
-
-from response_parser import (
-    parse_response
-)
-
-from output_writer import (
-    save_json
-)
-
-from pathlib import Path
+from data_loader import load_json
+from output_writer import save_json
+from prompt_builder import build_system_prompt
+from response_parser import parse_response
+from work_description_finder import find_work_description
 
 
 def make_output_path(title):

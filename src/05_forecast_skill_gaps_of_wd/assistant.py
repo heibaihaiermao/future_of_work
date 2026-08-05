@@ -90,10 +90,12 @@ import os
 import time
 
 from dotenv import load_dotenv
-
 from openai import (
+    APIConnectionError,
+    APITimeoutError,
     AzureOpenAI,
-    RateLimitError
+    InternalServerError,
+    RateLimitError,
 )
 
 
@@ -195,7 +197,12 @@ def persistent_send(
 
             return send_func(prompt)
 
-        except Exception as e:
+        except (
+            RateLimitError,
+            APIConnectionError,
+            APITimeoutError,
+            InternalServerError
+              ) as e:
 
             print(
                 f"Attempt {attempt + 1}/{max_retries} failed:"

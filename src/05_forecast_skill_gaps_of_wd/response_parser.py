@@ -48,8 +48,7 @@ def strip_markdown(text):
     elif text.startswith("```"):
         text = text[3:]
 
-    if text.endswith("```"):
-        text = text[:-3]
+    text = text.removesuffix("```")
 
     return text.strip()
 

@@ -1,23 +1,18 @@
 import os
-import json
-import requests
 import time
-from openai import AzureOpenAI, RateLimitError
-from dotenv import load_dotenv
-
 from datetime import date, datetime
+
+from dotenv import load_dotenv
+from openai import AzureOpenAI, RateLimitError
+
 today = date.today().isoformat()
-
-from time import sleep
-
-
-from datetime import datetime, timedelta
-from time import sleep
-from collections import deque
-
 
 # diable Azure warnings about assistants deprication
 import warnings
+from collections import deque
+from datetime import timedelta
+from time import sleep
+
 warnings.filterwarnings("ignore", category=UserWarning, module="AzureOpenAI.beta.assistants")
 warnings.filterwarnings("ignore", category=UserWarning, module="AzureOpenAI.beta.threads")
 
@@ -43,7 +38,7 @@ def setup_azure(system_prompt, dotenv_path="../py.env"):
     return client, assistant
 
 
-class Assistant():
+class Assistant:
     def __init__(self, system_prompt, dotenv_path="../py.env"):
         self.message_history = [{"system": system_prompt}]
         self.response_history = []
@@ -78,7 +73,7 @@ class Assistant():
                                                                content=user_prompt)
         except RateLimitError as e:
             self.err_response = e.response
-            raise IOError
+            raise OSError
 
 
 
@@ -114,7 +109,7 @@ class Assistant():
           # the assistant requires calling some functions
           # and submit the tool outputs back to the run
           self.response_history.append(run)
-          raise IOError
+          raise OSError
         
         else:
           #time.sleep(1)

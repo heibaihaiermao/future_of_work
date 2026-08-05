@@ -32,11 +32,7 @@ Dependencies:
 from json import dumps
 
 from config import ROOT
-
-from data_loader import (
-    load_text
-)
-
+from data_loader import load_text
 
 PROMPTS_DIR = (
     ROOT

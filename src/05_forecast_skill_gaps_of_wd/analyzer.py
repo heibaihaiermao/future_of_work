@@ -59,8 +59,7 @@ Workflow:
 ===============================================================================
 """
 
-from assistant import Assistant
-from assistant import persistent_send
+from assistant import Assistant, persistent_send
 
 
 class FutureSkillsAnalyzer:

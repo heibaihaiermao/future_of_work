@@ -1,14 +1,16 @@
-from assistant import Assistant, persistent_send
-from json import loads, dumps, dump as jdump
-from operator import itemgetter
-from tqdm import tqdm
-from time import sleep
-from os.path import exists, basename
 import itertools as itt
-
 
 # diable Azure warnings about assistants deprication
 import warnings
+from json import dump as jdump
+from json import dumps, loads
+from operator import itemgetter
+from os.path import basename, exists
+
+from tqdm import tqdm
+
+from assistant import Assistant, persistent_send
+
 warnings.filterwarnings("ignore", category=UserWarning, module="AzureOpenAI.beta.assistants")
 warnings.filterwarnings("ignore", category=UserWarning, module="AzureOpenAI.beta.threads")
 
