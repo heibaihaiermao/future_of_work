@@ -50,6 +50,7 @@ for field in org_data:
                 key = (
                     f'{position.get("group and level", "")}'
                     f' | Job Family: {position.get("job family", "")}'
+                    f' | Position Title: {position.get("position title", "")}'
                 )
 
                 field_index[field_num]["branches"][branch_name]["divisions"][division_name]["positions"][key] = position
