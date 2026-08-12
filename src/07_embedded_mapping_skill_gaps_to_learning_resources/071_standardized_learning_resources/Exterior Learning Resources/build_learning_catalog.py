@@ -1,24 +1,3 @@
-"""
-build_learning_catalog.py
-
-Replaces the old scrapper.py -> FormattingToSchema.py pipeline.
-
-The new source excel already contains name / description / why_recommend /
-Language of Training / Time to complete / Target Learner / Cost per row, so
-there is nothing left to scrape. This script goes straight from the excel
-to the final CSPS-schema JSON in two LLM stages (profile extraction, then
-competency mapping) plus a French-translation stage that only runs for rows
-whose "Language of Training" is French.
-
-Dependencies: openai, python-dotenv, pandas, openpyxl
-    pip install openai python-dotenv pandas openpyxl
-
-Usage:
-    python build_learning_catalog.py
-
-Resumable: progress is checkpointed to OUTPUT_FILE after every row, keyed by
-link. Re-running skips rows whose link is already in the output file.
-"""
 
 import json
 import os
@@ -30,9 +9,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from openai import AzureOpenAI
 
-# =====================================================
-# CONFIG
-# =====================================================
+
 
 load_dotenv()
 
@@ -44,53 +21,53 @@ client = AzureOpenAI(
 
 MODEL_NAME = os.getenv("AZURE_OPENAI_MODEL", "gpt-4.1")
 
-INPUT_XLSX = "External_Learning_Resource_in.xlsx"   # <- point at your file
+INPUT_XLSX = "External_Learning_Resource.xlsx"   # <- point at your file
 SHEET_NAME = "in"
 
 INDICATOR_MAP_FILE = "indicator_map.json"
-CSPS_EXAMPLE_FILE = "csps_examples.json"
 
 OUTPUT_FILE = "external_output.json"
 
 MAX_RETRIES = 3
 RETRY_DELAY_SECONDS = 5
 
-# Azure OpenAI GPT-4.1 pay-as-you-go pricing (per 1M tokens) — update if your
-# deployment uses a different model or pricing changes.
+
 PRICE_PER_1M_INPUT = 2.00
+PRICE_PER_1M_CACHED_INPUT = 0.50  # ~75% off — applies automatically to the
+                                   # repeated framework portion of the stage-2
+                                   # prompt once Azure's prompt cache warms up
 PRICE_PER_1M_OUTPUT = 8.00
 
-usage_totals = {"input_tokens": 0, "output_tokens": 0, "calls": 0}
+usage_totals = {
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "output_tokens": 0,
+    "calls": 0,
+}
 
 
 def print_running_cost():
+    uncached_input = usage_totals["input_tokens"] - usage_totals["cached_input_tokens"]
     cost = (
-        usage_totals["input_tokens"] * PRICE_PER_1M_INPUT / 1_000_000
+        uncached_input * PRICE_PER_1M_INPUT / 1_000_000
+        + usage_totals["cached_input_tokens"] * PRICE_PER_1M_CACHED_INPUT / 1_000_000
         + usage_totals["output_tokens"] * PRICE_PER_1M_OUTPUT / 1_000_000
+    )
+    cache_rate = (
+        usage_totals["cached_input_tokens"] / usage_totals["input_tokens"] * 100
+        if usage_totals["input_tokens"] else 0
     )
     print(
         f"  [usage so far: {usage_totals['calls']} calls, "
-        f"{usage_totals['input_tokens']:,} in / {usage_totals['output_tokens']:,} out "
-        f"tokens, ~${cost:.2f}]"
+        f"{usage_totals['input_tokens']:,} in ({cache_rate:.0f}% cached) / "
+        f"{usage_totals['output_tokens']:,} out tokens, ~${cost:.2f}]"
     )
 
-# =====================================================
-# GENERIC HELPERS
-# =====================================================
+
 
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
-
-
-def load_jsonl(path):
-    items = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line:
-                items.append(json.loads(line))
-    return items
 
 
 def save_json(data, path):
@@ -133,6 +110,10 @@ def llm_call(system_prompt, user_prompt):
                 usage_totals["output_tokens"] += response.usage.completion_tokens
                 usage_totals["calls"] += 1
 
+                details = getattr(response.usage, "prompt_tokens_details", None)
+                cached = getattr(details, "cached_tokens", 0) if details else 0
+                usage_totals["cached_input_tokens"] += cached or 0
+
             content = response.choices[0].message.content
             return json.loads(clean_json_response(content))
 
@@ -145,18 +126,11 @@ def llm_call(system_prompt, user_prompt):
     raise last_error
 
 
-# =====================================================
-# LOAD REFERENCE DATA
-# =====================================================
 
 indicator_map = load_json(INDICATOR_MAP_FILE)
-csps_examples = load_jsonl(CSPS_EXAMPLE_FILE)
-example_output = csps_examples[0]
 
 
-# =====================================================
-# EXCEL LOADING
-# =====================================================
+
 
 def load_rows(path, sheet):
     df = pd.read_excel(path, sheet_name=sheet)
@@ -181,9 +155,7 @@ def load_rows(path, sheet):
     return df.to_dict(orient="records")
 
 
-# =====================================================
-# DETERMINISTIC FIELDS (no LLM — cheap, reliable)
-# =====================================================
+
 
 DOMAIN_TO_ORG = {
     "www.kaggle.com": "Kaggle",
@@ -301,90 +273,55 @@ DELIVERY_METHOD_EN = "Online"
 DELIVERY_METHOD_FR = "En ligne"
 
 
-# =====================================================
-# STAGE 1 — COURSE PROFILE EXTRACTION (from sheet text)
-# =====================================================
 
-EXTRACTION_SYSTEM_PROMPT = """
-You are an expert learning-content analyzer.
-
-Analyze a learning resource and extract:
-
-{
-  "summary": "",
-  "skills": [],
-  "tools": [],
-  "topics": [],
-  "learning_outcomes": [],
-  "difficulty": "",
-  "estimated_duration": ""
-}
-
-Rules:
-
-- Use semantic understanding.
-- Infer information from the title, description, and the reviewer's
-  "why_recommend" note. The target learner level and stated duration
-  are already known — use them as context, don't re-derive them.
-- Keep skills concise.
-- Rewrite text into clean language.
-- Return JSON only.
-"""
-
-
-def extract_course_profile(row):
-    resource = {
-        "title": row["title"],
-        "description": row["description"],
-        "why_recommend": row["why_recommend"],
-        "target_learner": row["target_learner"],
-        "duration": row["duration"],
-    }
-
-    prompt = f"""
-RESOURCE
-
-{json.dumps(resource, indent=2, ensure_ascii=False)}
-"""
-
-    return llm_call(EXTRACTION_SYSTEM_PROMPT, prompt)
-
-
-# =====================================================
-# STAGE 2 — COMPETENCY MAPPING
-# =====================================================
+# STAGE 1 — PROFILE + COMPETENCY MAPPING (merged into one call)
+# Profile extraction and competency mapping used to be two separate LLM
+# round trips. They're merged here: it's the same reasoning chain, and
+# splitting it only meant paying for two system-prompt sends and two
+# generations per row instead of one. The framework dump below is the
+# expensive, repeated part of this prompt — it's what Azure's automatic
+# prompt caching (1024+ token identical prefix) should be discounting
+# after the first call. See print_running_cost() for the real hit rate.
 
 MAPPING_SYSTEM_PROMPT = f"""
-You are an expert Government of Canada competency
-mapping engine.
+You are an expert learning-content analyzer and Government of Canada
+competency mapping engine.
 
 COMPETENCY FRAMEWORK
 
 {json.dumps(indicator_map, indent=2, ensure_ascii=False)}
 
-OUTPUT EXAMPLE (for the "competencies" array shape only)
-
-{json.dumps(example_output.get("competencies", example_output), indent=2, ensure_ascii=False)}
-
 Instructions:
 
-1. Analyze the course profile.
-2. Use semantic reasoning.
+1. Analyze the resource's title, description, why_recommend note,
+   target learner level, and stated duration.
+2. Build a short internal profile (skills, tools, topics, learning
+   outcomes) — return it under "profile" for traceability, but don't
+   over-invest here; it's a means to competency selection, not the
+   final product.
 3. Rewrite the description into 2-4 sentences of professional,
    catalog-ready language, grounded only in the given inputs — do not
    invent details the source material doesn't support.
-4. Select the most relevant competencies.
-5. Select the most appropriate proficiency level for each.
-6. Select ONLY indicators supported by evidence.
-7. Indicators MUST come from the competency framework.
-8. Use between 1 and 3 competencies.
-9. Each competency object has ONLY "competency", "proficiency", and
+4. Select the most relevant competencies (1-3 of them).
+5. Select the most appropriate proficiency level for each — proficiency
+   levels are competency-specific; some competencies only have one
+   level defined, don't invent others.
+6. Select ONLY indicators supported by evidence, copied verbatim from
+   the framework — never paraphrase an indicator.
+7. Each competency object has ONLY "competency", "proficiency", and
    "indicators" — no per-competency description field.
-10. Return valid JSON only.
+8. Return valid JSON only.
 
 Required Output:
 
 {{
+  "profile": {{
+    "summary": "",
+    "skills": [],
+    "tools": [],
+    "topics": [],
+    "learning_outcomes": []
+  }},
   "description": "",
   "competencies": [
     {{
@@ -397,9 +334,9 @@ Required Output:
 """
 
 
-def map_competencies(row, profile):
+def map_competencies(row):
     prompt = f"""
-ORIGINAL RESOURCE
+RESOURCE
 
 {json.dumps({
     "title": row["title"],
@@ -409,19 +346,15 @@ ORIGINAL RESOURCE
     "duration": row["duration"],
 }, indent=2, ensure_ascii=False)}
 
-COURSE PROFILE
-
-{json.dumps(profile, indent=2, ensure_ascii=False)}
-
-Generate the final competency record as specified.
+Generate the profile + competency record as specified.
 """
 
     return llm_call(MAPPING_SYSTEM_PROMPT, prompt)
 
 
-# =====================================================
-# STAGE 3 — FRENCH TRANSLATION (French-taught rows only)
-# =====================================================
+
+# STAGE 2 — FRENCH TRANSLATION (French-taught rows only)
+
 
 TRANSLATION_SYSTEM_PROMPT = """
 You are a professional EN->FR translator for a Government of Canada
@@ -443,10 +376,8 @@ description: {description_en}
     return llm_call(TRANSLATION_SYSTEM_PROMPT, prompt)
 
 
-# =====================================================
-# VALIDATION
-# =====================================================
 
+# VALIDATION
 def validate_output(record):
     """Checks the model's competency selections against the real
     framework structure: indicator_map[competency][proficiency] = list
@@ -486,15 +417,11 @@ def validate_output(record):
     return record
 
 
-# =====================================================
 # RECORD ASSEMBLY
-# =====================================================
-
 def build_record(row):
     is_french_taught = str(row["language_of_training"]).strip().lower() == "french"
 
-    profile = extract_course_profile(row)
-    mapped = map_competencies(row, profile)
+    mapped = map_competencies(row)
     mapped = validate_output(mapped)
 
     description_en = mapped.get("description") or row["description"]
@@ -528,10 +455,8 @@ def build_record(row):
     }
 
 
-# =====================================================
-# PIPELINE (resumable, checkpointed after every row)
-# =====================================================
 
+# PIPELINE (resumable, checkpointed after every row)
 def load_existing_results():
     if os.path.exists(OUTPUT_FILE):
         try:
