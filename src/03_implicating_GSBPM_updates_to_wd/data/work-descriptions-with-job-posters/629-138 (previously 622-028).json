@@ -58,11 +58,28 @@
           "Analyses new methods, techniques and practices of managing statistical metadata and the associated costs and limitations. Identifies the availability of alternate means of producing, storing, disseminating and evaluating statistical metadata in order to evaluate the suitability of methods, procedures and systems with respect to the short-term and long-term program impacts and benefits.",
           "Analyses the quality of statistical metadata produced by surveys and statistical programs at Statistics Canada; analyses gaps and inconsistencies in metadata quality and determines reasons for variances among program areas; reviews the comparability of metadata over time in light of changing policy requirements, systems functionality and changing methodologies used by statistical programs; provides senior management with interpretations and recommendations affecting policies, directives, guidelines, methods, procedures and systems used for the production, storage and dissemination of statistical metadata."
         ]
+      },
+      "Job Poster": {
+        "Education": [
+          "Graduation with a degree from a recognized post secondary institution with acceptable specialization in economics, sociology or statistics."
+        ],
+        "Experience": [
+          "Extensive and relevant experience managing a complex project or statistical process related to production, analysis or dissemination using statistical methods to produce outputs.",
+          "Extensive and relevant subject matter experience consulting with internal or external stakeholders to develop statistical programs or projects.",
+          "Extensive and relevant subject matter experience providing expert advice to internal or external data users or clients.",
+          "Extensive and relevant subject matter experience analyzing data for data validation, data integration or analytical publications.",
+          "Extensive and relevant subject matter experience preparing, editing and evaluating analytical material for publication purposes."
+        ],
+        "Competencies": [
+          "Create vision and strategy",
+          "Mobilize people",
+          "Uphold integrity and respect",
+          "Collaborate with partners and stakeholders",
+          "Achieve results",
+          "Promote innovation and guide change"
+        ],
+        "Abilities": []
       }
-<<<<<<< HEAD
-
-=======
->>>>>>> 27a223123af760f597a56c2a9bab3653cce2890f
     }
   ]
 }

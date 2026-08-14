@@ -1,0 +1,55 @@
+{
+  "Classification": "EC-01",
+  "Positions": [
+    {
+      "Job Family Number": "900-200",
+      "Group/Level": "EC-01",
+      "Position Title": "Recruit",
+      "Supervisor Position": "",
+      "Branch/Division": "Various",
+      "Key Activities": [],
+      "technical activities, skills, responsibilities, or efforts": {
+        "1. Decision making": [
+          "Assesses the capabilities of data systems to meet user requests, maintains and updates a statistical database, manipulates and processes data to generate tables, charts and data files.",
+          "Creates test data, sets up testing processes, identifies and corrects errors and problems, documents the inputs and presents the results for review.",
+          "Applies existing techniques and approaches to incorporate changes in subject-matter content and definitions and selects the appropriate software to be used for the preparation of reports, tables and charts.",
+          "Reviews specifications, identifies inconsistencies, recommends improvements and incorporates changes into procedures manuals. Provides support in the development and review of information manuals and training packages.",
+          "Identifies options for improvements to processing systems and implements enhancements or modifications to systems and applications used in the editing, validation, marketing and dissemination of statistical data.",
+          "Assesses trends and developments in the subject area and identifies the potential impact on concepts, methods, techniques and procedures."
+        ],
+        "2. Leadership and operational management": [
+          "Participates in project teams, work groups, meetings and conferences in order to develop and improve work methods and practices, share knowledge and contribute to skill development.",
+          "Monitors and tracks time spent on activities for the purposes of recording and recovering such costs from the client. Incurs and accounts for petty cash, credit card, taxi voucher, bus pass, and other expenditures."
+        ],
+        "3. Communication": [
+          "Drafts reports on survey process, data quality and reliability for review by a project leader or supervisor.",
+          "Drafts reference and training material for data collection operations.",
+          "Responds to requests from subject matter specialists and clients for custom tabulations and liaises with survey officers, respondents and data users to understand and obtain clarifications on concepts, data collection and processing requirements.",
+          "Explains requirements and procedures for obtaining the information in the appropriate format.",
+          "Responds to inquiries from managers, employees and the general public on the availability, consistency and application of statistical data and on the methods and techniques used."
+        ],
+        "4. Knowledge of specialized fields": [
+          "Knowledge of the methods, techniques and practices required for the collection, capture, processing, editing, validation, marketing and dissemination of data.",
+          "Knowledge of statistical survey concepts and quantitative analytical techniques involved in the development, conduct and monitoring of statistical programs.",
+          "Knowledge of methods and practices of operating personal computers in a network environment and of using databases and software packages (word processing, statistical analysis, graphics, spreadsheets, etc.) to prepare correspondence, reports and presentations."
+        ],
+        "5. Contextual knowledge": [
+          "Knowledge of a variety of commercial software tools and of customized production applications to regularly process data and/or to produce specified statistical outputs.",
+          "Knowledge of automated collection software and data capture applications to test applications and prepare reference material and training for the applications.",
+          "Knowledge of divisional mandates, objectives, programs, policies and activities to adhere to the various statistical and administrative practices and procedures involved in the collection, capture, processing, editing, validation, marketing and dissemination of statistical data.",
+          "Knowledge of program context, program sponsors and participants to identify and resolve specific data production and dissemination issues.",
+          "Knowledge of data sources and contacts within STC in order to locate, analyze and compare statistical output to ensure consistency and reliability; and external to STC to obtain collaboration in the provision of statistical information and verify the accuracy of data.",
+          "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to ensure understanding and application in the collection, capture, processing, editing, validation, marketing and dissemination of data. The position must have a particular awareness of the Statistics and Privacy Acts with respect to the security and confidentiality of data to ensure their own actions are in compliance."
+        ],
+        "6. Research and analysis": [
+          "Reviews reported data and prepares reports outlining data quality and any problems encountered in the implementation of established guidelines and results.",
+          "Compiles data from a number of different but easily identifiable sources to produce statistical tables and charts.",
+          "Analyses outputs with other related data sources or by making calculations to ensure no errors exist due to programming and classification of the original data, that it is in an acceptable format, and that the data is reasonable in relation to similar data for other periods.",
+          "Reviews user requests to determine the nature, feasibility, and options for providing the information required.",
+          "Adapts data to new definitions or presentation formats, depending on the complexity of the subject matter or the number of different sources."
+        ]
+      },
+      "Job Poster": {}
+    }
+  ]
+}
