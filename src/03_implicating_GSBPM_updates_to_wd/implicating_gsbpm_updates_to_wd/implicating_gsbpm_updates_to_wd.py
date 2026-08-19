@@ -215,9 +215,10 @@ if __name__ == "__main__":
 
             results.append(
                 {
-                    "gsbpm_id": gsbpm["gsbpm_id"],
-                    "gsbpm_name": gsbpm["gsbpm_name"],
-                    "error": str(e)
+                    "id": gsbpm["gsbpm_id"],
+                    "title": gsbpm["gsbpm_name"],
+                    "error": str(e),
+                    "implicated work-descriptions":[]
                 }
             )
 
