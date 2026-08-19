@@ -19,5 +19,5 @@ configs/*
 misc/configsOld*
 py.env
 tmp.*
-*/0732_embeddings/*
-*_-_embedding_memory.json
+# */0732_embeddings/*
+# *_-_embedding_memory.json
