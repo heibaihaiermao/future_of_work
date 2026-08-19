@@ -65,7 +65,7 @@ if __name__ == "__main__":
     import os
 
     #lr_dir = "data/0731_inputs/learning-resources"
-    with open("data/0732_embeddings/learning-resources_-_embedding_memory.json", 'r', encoding="utf-8") as fil:
+    with open("data/0732_embeddings/learning-resources/csps_-_embedding_memory.json", 'r', encoding="utf-8") as fil:
         lre = json.load(fil)
 
     lr_metadata = pd.DataFrame.from_dict(

@@ -87,7 +87,7 @@ def extract_position_title(filename):
         Data Production and Dissemination Officer
     """
 
-    suffix = "_-_recommendations.json"
+    suffix = "_future_skills_-_embedding_memory.json_-_recommendations.json"
 
     if not filename.endswith(suffix):
         return None
@@ -313,12 +313,19 @@ def append_training(position, recommendation_data, source_file):
                 continue
 
             # Keep only the requested fields that actually exist.
-            filtered_recommendation = {
-                key: recommendation[key]
-                for key in fields_to_keep
-                if key in recommendation
-            }
+            # filtered_recommendation = {
+            #     key: recommendation[key]
+            #     for key in fields_to_keep
+            #     if key in recommendation
+            # }
 
+            # Keep all keys
+            filtered_recommendation = {
+                            key: recommendation[key]
+                            for key in recommendation
+                            # if key in recommendation
+                        }
+            
             # Don't append an empty object.
             if not filtered_recommendation:
                 logger.warning(
@@ -346,7 +353,7 @@ def append_training(position, recommendation_data, source_file):
 
             logger.info(
                 f"Added course "
-                f"'{filtered_recommendation.get('title', '<unknown>')}' "
+                f"'{filtered_recommendation.get('title_en', '<unknown>')}' "
                 f"to '{position.get('position title', '<unknown>')}'."
             )
 

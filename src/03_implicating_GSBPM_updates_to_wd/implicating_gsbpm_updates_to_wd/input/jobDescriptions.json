@@ -1,240 +1,57 @@
 [
     {
-        "Classification": "EC-03",
+        "Classification": "EC-08",
         "Positions": [
             {
-                "Job Family Number": "900-219",
-                "Group/Level": "EC-03",
-                "Position Title": "Data Production and Dissemination Coordinator",
+                "Job Family Number": "900-206",
+                "Group/Level": "EC-08",
+                "Position Title": "Assistant Director",
                 "Supervisor Position": "",
                 "Branch/Division": "Various",
                 "Key Activities": [
-                    "(Key activities are reflective of general responsibilities. Not all activities are performed by all positions on a continuous basis.)",
-                    "Coordinates and organizes the retrieval, editing, validation, marketing and dissemination of data.",
-                    "Provides custom tabulations and time-series information for ad-hoc client requests.",
-                    "Recommends improvements to statistical methods and procedures and implements changes to processing systems and applications to manipulate, store and retrieve statistical data.",
-                    "Provides subject matter advice and direction to users on matters relating to subject-matter concepts.",
-                    "Participates as a subject area representative on various teams and working groups.",
-                    "Leads work groups established to coordinate and implement program activities."
+                    "Directs, through subordinates, the work of a sub-division involved in statistical program operations, analysis, interpretation, marketing and dissemination."
                 ],
                 "technical activities, skills, responsibilities, or efforts": {
                     "1. Decision making": [
-                        "Identifies and assesses trends and developments in the subject area; reviews the potential impact on program subject-matter content and determines the implications for statistical methods and procedures.",
-                        "Develops new statistical methods, concepts and procedures or modifies existing techniques and approaches to incorporate changes in subject-matter content and definitions.",
-                        "Identifies and evaluates problems related to the retrieval, editing, validation, marketing and dissemination of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems.",
-                        "Determines the need for and implements enhancements or modifications to computer systems and applications used to retrieve, edit, validate, market and disseminate statistical data.",
-                        "Develops or modifies statistical methods, concepts, definitions and approaches to improve existing surveys or to meet specific new needs.",
-                        "Writes reports and articles on the interpretation and use of statistical data and the concepts, methods and techniques used. These reports and articles are reviewed by program managers and included in publications."
+                        "Reviews strategic directions for the management of significant surveys and recommends innovative solutions to address departmental goals and objectives. Approves survey content and design; sample estimation and imputation methods; data integration from different sources; sample sizes and allocations to maximize efficiency within resource constraints.",
+                        "Provides expert recommendations and advice to senior officials and policy makers at all levels of government, business and national social agencies and academics on the socio-economic implications of surveys and studies and the effect of their results on policies, programs and regulations, on the practical application and interpretation of statistical data and information, on advanced analytical methods and techniques and the relevancy of their use in order to develop research or analytical projects.",
+                        "Directs the conduct of in-depth and unique surveys in an area of specialization or wide-ranging and extensive reviews extending across a number of subject matter areas and determines the broad objectives and content of projects and develops solutions to complex methodology issues.",
+                        "Defends proposals for the development of new surveys and negotiates the allocation of funding for the conduct of projects.",
+                        "Directs the review and assessment of the overall quality and completeness of statistical program results. Develops recommendations for senior management on the objectives, content, and approaches of survey programs in order to develop new statistical information or programs or expand existing programs, and data concepts and definitions to be included in the programs."
                     ],
                     "2. Leadership and operational management": [
-                        "Leads work groups established to conduct and implement program activities: assigns work; provides feedback on performance of working group members; monitors progress against objectives and provides guidance and direction to working group members; identifies financial and human resource needs.",
-                        "Monitors and tracks time spent on activities for the purposes of recording and recovering such costs from the client. Responsible for identifying costs and fees associated with cost recovery activities and preparing estimates for special requests and tabulations based upon established fee schedules. Arranges for the acquisition of goods and services according to approved budget allocations. Incurs and accounts for petty cash, credit card, taxi voucher, bus pass, and other expenditures."
+                        "Directs, through subordinates, the work of a sub-division involved in high profile surveys and projects. Reviews strategic directions for the management of significant surveys and determines the parameters, priorities, broad objectives and extent of such surveys.",
+                        "Develops long term plans and objectives and allocates human resources requirements to ensure that these goals are met. Directs recruitment activities for both, permanent and project team staff, and approves training and development plans. Prepares performance appraisals for subordinate staff, reviews performance appraisals prepared by subordinate supervisors, and resolves performance and disciplinary matters.",
+                        "Plans, develops and manages budgets for projects, including estimates for salaries, professional fees and implementation costs, with authority to allocate/reallocate funds as needed. Submits cost estimates and projections to senior management and authorises expenditures in accordance with approved budgets.",
+                        "Negotiates and approves contracts with consulting firms and for the acquisition of services. Selects contractors for specific projects, assigns, directs, manages and evaluates the work according to contract specifications."
                     ],
                     "3. Communication": [
-                        "Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, and to establish project plans and target dates.",
-                        "Writes and presents detailed subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify divisional systems and applications.",
-                        "Provides advice to data users and clients on matters relating to subject-matter concepts used in the development and operation of a statistical database and to the data processing environment in general.",
-                        "Writes program information manuals, training packages, monitoring procedures and management reports for use by colleagues, operational staff and management in the development, implementation and assessment of statistical programs.",
-                        "Delivers specialized training to colleagues and other data users within the department."
+                        "Mediates with senior executives of major Canadian corporations, representatives of private sector associations, federal, provincial and municipal government departments, unions and universities to establish joint survey agreements, to maintain good relations and cooperation with the user community and data suppliers, to promote an understanding of programs, to market statistical products and services, and to monitor relevant concepts and practices related to the use and application of program results.",
+                        "As a departmental representative, explains the results and statistical methods and approaches used in the conduct of studies and surveys to all levels of government, international organizations, the media and public. At this level, there is a particular requirement to deal with sensitive and political issues that could embarrass the department.",
+                        "Defends proposals for the development of new surveys to address current socio-economic trends and developments at the national and international levels, and negotiates the allocation of funding for the conduct of such surveys and projects. Presents arguments and options and negotiates resources and timeframes for large-scale projects requiring the participation of data suppliers. It is not unusual to encounter resistance on the part of data suppliers. Major difficulties can be encountered as the projects involve the negotiation of significant resources and services with multiple milestones.",
+                        "Writes analytical papers and articles on the interpretation of statistical surveys or projects and their application to the area of specialization and presents analytical material to media representatives to maintain the department’s reputation where there is a particular requirement to deal with sensitive and political issues that could embarrass the department.",
+                        "Chairs intra-departmental meetings and participates in inter-departmental meetings, conferences and groups to develop consensus or share knowledge in a particular field."
                     ],
                     "4. Knowledge of specialized fields": [
-                        "Knowledge of current or emerging economic and social issues relating to the program area in order to identify subject-matter concept and definition requirements, and to conduct studies.",
-                        "Knowledge of the concepts, methods and techniques used in the retrieval, editing, validation and dissemination of statistical data in order to advise on subject-matter development.",
-                        "Knowledge of system analysis and design, computer processing, generalized survey software packages to design, develop, test, maintain and implement processing systems; to design specifications for the editing and validation of data, and to maintain and use databases.",
-                        "Knowledge of high level programming languages, utility programs or statistical packages to retrieve and manipulate data."
+                        "Expert knowledge of advanced economic or sociology theories and principles relating to a specialized subject area to provide authoritative and expert advice to senior officials and policy advisors within and outside Statistics Canada on the results of unique economic and socio-economic studies and their impact on major program, policy or regulatory issues and to define the objectives, content and approaches of unique and complex analytical projects covering a broad area of specialization or a range of departmental statistical programs, to improve existing concepts or develop new concepts, to extend the application of statistics and to analyze data.",
+                        "A deep understanding of the underlying theoretical concepts of economics, sociology and statistics as they relate to a group of specialized areas to develop and implement programs to produce statistics covering a wide range of issues.",
+                        "A comprehensive knowledge of economic and social information to develop and implement programs to produce statistics depicting Canada’s population, labour force, economic life, education, housing, transportation and social and cultural life.",
+                        "Knowledge of writing and editing skills and techniques to write and review papers, articles and reports and to determine and assess the design and content of studies, articles and reports that will be disseminated widely or published.",
+                        "Knowledge of the principles and practices of management with regards to human and financial resources in order to direct the work of a sub-division through subordinate section chiefs, and/or multi-disciplinary departmental and interdepartmental project teams, working groups and committees."
                     ],
                     "5. Contextual knowledge": [
-                        "Knowledge of statistical programs within Statistics Canada related to the area of expertise in order to identify potential sources of information for development and operations and/or special studies and to identify and evaluate data conflicts.",
-                        "Knowledge of contacts within key client departments to establish a liaison; to understand need for statistical data, and to provide advice and guidance on subject-matter concepts, methods, techniques and results.",
-                        "Knowledge of the divisional mandate, objectives, priorities, practices, standards, processes and procedures to order to coordinate and organize on-going operational activities and/or special projects.",
-                        "Knowledge of statistical programs within Statistics Canada in order to identify potential sources of information for operations and/or special studies and to identify and evaluate possible subject-matter conflicts.",
-                        "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to ensure understanding and application in the retrieval, editing, validation and dissemination of data. The position must have a particular awareness of the Statistics and Privacy Acts with respect to the security and confidentiality of data to ensure their own actions are in compliance."
-                    ],
-                    "6. Research and analysis": [
-                        "Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to propose changes or alternative systems.",
-                        "Assesses and determines the impact and the constraints on results of the different concepts, definitions and conditions under which the data was collected, processed and stored.",
-                        "Compiles data from diverse sources to produce statistical charts, tables and other output. Summarizes and describes meaning of data. Analyzes and evaluates data for consistency, reliability and appropriateness.",
-                        "Examines operational system concepts and methods as well as new or revised processing specifications in order to determine their effect on the integration and co-ordination of the data capture and processing functions with other divisional systems.",
-                        "Interprets user requests to determine the nature, feasibility, and options for providing the information required."
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "Classification": "EC-04",
-        "Positions": [
-            {
-                "Job Family Number": "900-220",
-                "Group/Level": "EC-04",
-                "Position Title": "Data Production and Dissemination Development Officer",
-                "Supervisor Position": "",
-                "Branch/Division": "Various",
-                "Key Activities": [
-                    "Develops processing systems and applications used to manipulate, store and retrieve statistical data.",
-                    "Designs specifications for the testing of data and for the maintenance and development of databases.",
-                    "Assesses changes in the subject area and determines the need to modify or replace processing systems and applications for the manipulation, storage and retrieval of statistical data",
-                    "Provides subject matter advice and direction to users, negotiates procedural modifications and establishes project plans, priorities and target dates.",
-                    "Participates as a subject area representative on teams and working groups throughout the department.",
-                    "Leads project teams or supervises work units in the development and implementation of new or modified statistical processing systems."
-                ],
-                "technical activities, skills, responsibilities, or efforts": {
-                    "1. Decision making": [
-                        "Identifies and assesses changes and developments in the subject area; determines the impact on program subject-matter content and the implication for statistical methods and procedures and the dissemination of program results.",
-                        "Develops subject-matter concepts and definitions; proposes new statistical methods, techniques and approaches or the modification of existing techniques and approaches to improve program coverage or to meet specific needs.",
-                        "Identifies and evaluates problems in the manipulation, storage and retrieval of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.",
-                        "Implements enhancements or modifications to processing systems and applications used to manipulate, store and retrieve statistical data."
-                    ],
-                    "2. Leadership and operational management": [
-                        "Leads project teams or work units. Determines goals, priorities and milestones, sets objectives, and plans and schedules the work, resolves conflicting priorities; assesses human resources needs, recommends the appropriate selection methods (internal and external resources / contractors) to meet program objectives, recruits staff, evaluates employee performance, develops training plans, motivates and maintains morale of employees.",
-                        "Plans and budgets for special projects, including estimates for salaries, professional fees and implementation costs, with authority to allocate funds within budget. Provides input to budgets based on operational needs and by obtaining/providing cost estimates for personnel, supplies, equipment purchases and travel for use in developing section or division budgets. Procures goods and services within approved budget allocations."
-                    ],
-                    "3. Communication": [
-                        "Discusses program subject-matter content requirements with operations managers, other subject matter and systems specialists, clients, service providers and others to comprehend and elaborate the framework and conditions within which statistical development and operations will occur. There is a requirement to understand the issues and resolve differences that can affect the efficiency of the division's operations and quality of outputs.",
-                        "Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, to negotiate procedural modifications and to establish project plans, priorities and target dates. Writes and presents detailed subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify divisional program content and applications.",
-                        "Writes analytical reports and articles on the interpretation of surveys, statistical applications or project findings and the methodology used. These reports and articles are to be reviewed by program managers and included into publications. Exchanges information and provides advice to professionals from the private sector or from other statistical agencies abroad on subject-matter concepts and definitions, statistical survey methods and techniques. This information is used to develop similar surveys or analytical projects.",
-                        "Provides guidance to other STC professionals on subject-matter concepts and definitions, survey methods, statistical applications and techniques used. This information is used to implement similar surveys or projects."
-                    ],
-                    "4. Knowledge of specialized fields": [
-                        "Knowledge of current or emerging economic and social issues relating to the program area in order to identify and resolve existing and potential subject-matter conflicts, duplication and gaps.",
-                        "Knowledge of the concepts, methods and techniques used in the manipulation, storage and retrieval of statistical data in order to coordinate and advise on subject-matter development and resolve subject-matter concept and definition issues.",
-                        "Knowledge of system analysis and design, computer processing, generalized survey software packages to manage the design, development, testing, maintenance and implementation of processing systems; to design specifications for the testing of data, and to maintain and develop databases.",
-                        "Knowledge of high level programming languages, utility programs or statistical packages to retrieve and manipulate data.",
-                        "Knowledge of management techniques and principles to manage financial and human resources, either directly or within a matrix management environment."
-                    ],
-                    "5. Contextual knowledge": [
-                        "Knowledge of statistical programs within Statistics Canada related to the area of expertise in order to identify and select sources of information for development and operations and/or special studies and to identify and evaluate data conflicts.",
-                        "Knowledge of contacts within key client departments to establish a liaison; to understand need for statistical data, and to provide advice and guidance on subject-matter concepts, methods, techniques and results.",
-                        "Knowledge of the divisional mandate, objectives, priorities, practices, standards, processes and procedures in order to coordinate and manage on-going operational activities and/or special projects.",
-                        "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to explain legislative and policy requirements to data suppliers, users and others with respect to the manipulation, storage and retrieval of data. Knowledge of the Statistics and Privacy Acts is particulary important with respect to the security and confidentiality of information and data provided and to ensure that they and their subordinates do not release any information which may identify an individual or group without prior consent."
-                    ],
-                    "6. Research and analysis": [
-                        "Plans and implements the review and development of new subject-matter methods, concepts and definitions and conducts studies and analytical projects to improve existing surveys and data.",
-                        "Analyzes current manipulation, storage and retrieval methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.",
-                        "Conducts feasibility studies concerning new system and product requirements by examining existing, proposed or new software programs and systems to determine their feasibility and adaptability to the needs of the statistical program.",
-                        "Provides subject-matter interpretation and analysis to media representatives on the results of surveys or projects, and the interpretation of statistical data. This information is disseminated to the Canadian population for information and decision making purposes."
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "Classification": "EC-05",
-        "Positions": [
-            {
-                "Job Family Number": "900-221",
-                "Group/Level": "EC-05",
-                "Position Title": "Production and Dissemination Specialist",
-                "Supervisor Position": "",
-                "Branch/Division": "Various",
-                "Key Activities": [
-                    "Develops data bases for the provision of time-series information as well as data for special studies and requests.",
-                    "Coordinates and controls the activities of staff involved in manipulating, storing and retrieving statistical data.",
-                    "Provides subject-matter expertise and consultative services to users within and outside STC.",
-                    "Represents subject matter divisions on development projects, task forces or committees in various roles.",
-                    "Leads project teams or supervises work units in the development and implementation of new or modified statistical processing systems."
-                ],
-                "technical activities, skills, responsibilities, or efforts": {
-                    "1. Decision making": [
-                        "Investigates client requirements for statistical information, defines the nature and scope of special studies, determines the sources of data for special requests as well as the methods and approaches to be used. Modifies existing techniques or develops new approaches to meet specific needs.",
-                        "Defines project objectives and priorities, prepares work plans and summaries outlining approaches, time-frames and resources. Each project is unique in nature and decisions impact on other ongoing studies.",
-                        "Develops guidelines for the design, evaluation and testing of processing systems and applications and recommends modifications and improvements to existing procedures.",
-                        "Develops data bases for the provision of time-series information, interprets preliminary results, reviews and modifies approaches and techniques as necessary.",
-                        "Reviews and approves detailed processing parameters, devises criteria and methods to rectify inconsistencies and recommends modifications to ensure the continuity and compatibility of data."
-                    ],
-                    "2. Leadership and operational management": [
-                        "Plans, organizes and coordinates the work of a unit or project team involved in the conduct of special studies, surveys and projects. Determines goals, priorities and milestones, sets objectives, plans and schedules the work, resolves conflicting priorities; identifies human resources needs, determines the appropriate selection methods (internal and external resources / contractors) to meet program or project objectives, participates in the recruitment of staff, provides input to employee performance, develops training plans, motivates and maintains morale of employees.",
-                        "Plans and budgets for on-going studies and/or special projects, including estimates for salaries, professional fees and implementation costs, with authority to allocate/reallocate funds within the budget. Provides input to budgets based on operational needs and by obtaining/providing cost estimates for personnel, supplies, equipment purchases and travel for use in developing section or division budgets. Establishes and negotiates contracts for projects. Responsible for the acquisition of goods and services, according to the budget allocated."
-                    ],
-                    "3. Communication": [
-                        "Provides expert advice and guidance to all levels of government, business and national social agencies and academics, on statistical program results, methods, concepts and techniques applied and on trends and developments in economic, sociological or related data programs. This often requires the adaptation and presentation of complex information in basic, understandable formats. This information is used as input to decision making for a vast array of economic and social policies, programs and other activities.",
-                        "Presents arguments and options and negotiates resources, timeframes and costs with service providers (e.g. system specialists, regional office staff, survey methodologists, contractors, etc.) and clients within and outside the department.",
-                        "Writes and presents subject matter concepts and technical definitions in common terminology in order to explain and clarify current developments, to explain the results of studies and to resolve differences that can affect the efficiency of the manipulation, storage and retrieval of data and the quality of outputs.",
-                        "Chairs intra-departmental meetings and participates in inter-departmental meetings, conferences and groups to develop consensus or share knowledge within the area of expertise."
-                    ],
-                    "4. Knowledge of specialized fields": [
-                        "Knowledge of economic/sociologic principles and practices as they relate to a specialized area as well as specific knowledge of the area to initiate and conduct projects to improve existing concepts or develop new approaches to extend the application of divisional statistics, and to analyze, review and present survey findings. This knowledge is also required to provide subject-matter expertise, advice and consultative services to users, within and outside STC, as well as to provide related advice to other professionals.",
-                        "Knowledge of statistical theories, methods, concepts and practices used in the manipulation, storage and retrieval of statistical data.",
-                        "Knowledge of the principles and practices of human and financial resource management to plan and budget for on-going studies, surveys and/or special projects carried out by project teams."
-                    ],
-                    "5. Contextual knowledge": [
-                        "Knowledge of the divisional mandate, activities, priorities, practices, standards and procedures applicable to the work to incorporate them into the conduct and management of studies, surveys and projects.",
-                        "Knowledge of the mandate, objectives and organization of Statistics Canada to manage subject matter studies, surveys and projects. Knowledge of other statistical programs (concepts, methods, and databases) related to the area of expertise to plan and implement statistical activities, to integrate conceptually different data from other programs, to explain variances and to recommend changes to other statistical programs.",
-                        "Knowledge of departmental publication, marketing and dissemination policies and practices in order to establish common divisional policies and practices in the preparation of statistical tables, charts, explanatory notes etc. for dissemination to user and/or subject matter clients.",
-                        "Knowledge of Statistics Canada policies (confidentiality of data, security, respondent relations, data quality), practices and classification systems to ensure that they are applied in the conduct of statistical projects and activities.",
-                        "Knowledge of data suppliers to discuss data reporting agreements. Knowledge of data users from governments and from the private sector to identify potential new markets, to understand client needs for complex statistical data or studies, to negotiate contracts and to provide advice on program results.",
-                        "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to explain legislative and policy requirements to other departments, agencies, industry, members of the public and the media. Knowledge of the Statitstics and Privacy Acts is particulary important with respect to the security and confidentiality of information and data provided and to ensure that they and their subordinates do not release any information which may identify an individual or group without prior consent."
-                    ],
-                    "6. Research and analysis": [
-                        "Interprets the results of tests, procedural investigations and feasibility studies to produce data bases and data retrieval packages used for the production of integrated statistical information.",
-                        "Reviews and approves detailed processing parameters, classification, coding systems and report formats or develops new ones to meet specific needs. Some studies may involve a combination of statistical techniques and methods and the integration of data from a variety of sources (e.g. financial statements, tax files, other administrative sources, surveys, censuses). Often, the data have been collected for other purposes using different definitions or concepts and must be translated into common concepts.",
-                        "Reviews new and revised processing systems and procedures to ensure compatibility with other statistical programs, assesses technical and conceptual problems and inconsistencies in the manipulation, storage and retrieval of statistical data and develops specifications for new and existing data compilation programs.",
-                        "Evaluates the impact of technological developments on respondent operation and production procedures and prepares reports recommending appropriate approaches and guidelines.",
-                        "Research and analysis are required to evaluate the effectiveness of processing systems, to formulate computer systems specifications, to design and create test procedures and acceptance criteria to ensure that processing systems yield the desired outputs."
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "Classification": "EC-06",
-        "Positions": [
-            {
-                "Job Family Number": "900-222",
-                "Group/Level": "EC-06",
-                "Position Title": "Head, Production and Dissemination",
-                "Supervisor Position": "",
-                "Branch/Division": "Various",
-                "Key Activities": [
-                    "Plans and implements long term strategies for the development, enhancement and operation of divisional statistical programs.",
-                    "Plans and controls the development, implementation and operation of new or modified statistical systems and processes.",
-                    "Defines, coordinates and evaluates the cost of statistical system development work.",
-                    "Reviews and certifies the overall quality and completeness of program results.",
-                    "Identifies and researches trends and developments in mass data processing concepts, methods and techniques.",
-                    "Provides expert advisory and consultative services to users within and outside Statistics Canada.",
-                    "Participates in or leads task forces or committees as an expert in statistical production and dissemination systems.",
-                    "Manages a unit and project teams involved in systems design. Manages the financial resources attached to the statistical program."
-                ],
-                "technical activities, skills, responsibilities, or efforts": {
-                    "1. Decision making": [
-                        "Prepares program proposals outlining options and recommendations on the statistical framework, strategies, resource implications and impact of new or modified statistical programs.",
-                        "Develops policies, guidelines, instructions and procedures for the development, use and evaluation of systems and processes.",
-                        "Defines processing and production specifications and guidelines for the contracting of development work to internal service areas, outside agencies and contractors.",
-                        "Determines the methods, concepts, techniques and practices to be applied in the development and operation of statistical programs regarding the acquisition, production and dissemination of data.",
-                        "Establishes policies and procedures for the security and confidentiality of data and the maintenance and protection of computer systems, equipment, databases and files.",
-                        "Reviews trends and developments in data processing concepts, methods and techniques in order to present options and recommendations to management on the use and application of new technology to mass data capture, conversion and dissemination applications."
-                    ],
-                    "2. Leadership and operational management": [
-                        "Manages a unit and leads project teams for special projects. Assesses program requirements and determines objectives and priorities. Plans and schedules the work, resolves conflicting priorities, ascertains human resource needs, determines the appropriate selection methods (internal and external resources / contractors) to meet program and project objectives, recruits staff, evaluates employee performance or reviews performance evaluations prepared by subordinates and approves training plans.",
-                        "Plans, develops and manages a budget for the unit in accordance with departmental policy and procedures. Exercises direct authority and accountability for allocated funds to meet planned objectives. Authorises, commits and approves expenditures in accordance with approved budgets with the authority to reallocate funds among line objects.",
-                        "Negotiates cost reductions and arranges contracts with consulting firms and for the acquisition of services. Selects contractors for specific projects, assigns, directs, manages and evaluates the work according to contract specifications."
-                    ],
-                    "3. Communication": [
-                        "Provides expert advisory and consultative services to policy makers at all levels of government, business and national social agencies and academia. Explains and elaborates on statistical program findings and their practical application and interpretation of statistical data and information. This information is used as input to decision making for a vast array of economic and social policies, programs and other activities.",
-                        "Writes and presents subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify developmental projects and operational systems and processes or program results. When findings are challenged or misinterpreted, it is necessary to present logical arguments to justify the results and to defend the validity of statistical methods and approaches used in order to maintain the department’s reputation for producing high quality data.",
-                        "Chairs intra-departmental meetings and participates in inter-departmental meetings, conferences and groups to develop understanding, consensus and share knowledge of the program area."
-                    ],
-                    "4. Knowledge of specialized fields": [
-                        "Knowledge of economic or sociology principles and theory to provide expert advisory and consultative services to clients on program results and on the concepts and methods used in mass data processing.",
-                        "Extensive knowledge of current and emerging socio-economic issues in Canada and internationally, such as the changing social context and the globalization of markets, particularly as they relate to all the aspects of a statistical program. This knowledge is required to analyze program outputs, anticipate and understand needs for new data, and assess the impact on the area of specialization.",
-                        "Advanced knowledge of systems analysis and design and of new and emerging computer technology and applications in order to establish and manage mass statistical data collection, production and dissemination environments.",
-                        "Knowledge of the principles and practices of project management including the management of human and financial resources."
-                    ],
-                    "5. Contextual knowledge": [
-                        "Knowledge of the departmental and divisional mandate, activities, priorities, practices, standards and procedures applicable to the work to incorporate them into the management of a statistical program and to recommend changes to management.",
-                        "Knowledge of other statistical programs (concepts, methods, and databases) related to the area of expertise to plan and implement statistical activities, to integrate conceptually different data from other programs, to explain variances and to recommend changes to other statistical programs.",
-                        "Knowledge of Statistics Canada policies, (e.g. confidentiality of data, security, respondent relations, and data quality), practices and classification systems is required to ensure that they are applied in the conduct of production and dissemination activities.",
-                        "Knowledge of the policies and programs of key client departments is needed to determine their information requirements.",
-                        "Knowledge of data users from governments and from the private sector to identify potential new markets, to understand client needs for statistical data or studies, to negotiate contracts and to provide expert advice on program results.",
-                        "Knowledge of the Statistics Act is needed to explain the legislative requirements to data suppliers/users, and to negotiate special agreements. This knowledge, along with knowledge of the Privacy Act is also required to ensure that the organization meets its commitment to ensuring the confidentiality of all information provided to them and does not release any information that identifies an individual or group without prior consent.",
+                        "Knowledge of current and emerging socio-economic and political issues in Canada in relation to that of other industrialized countries such as the changed social context and the globalization of markets, particularly as they relate to all the aspects of a variety of statistical programs. This knowledge is necessary to defend proposals for the development of new surveys.",
+                        "Knowledge of governmental policies, programs and regulatory issues in order to provide expert advice to senior officials and policy advisors, within and outside Statistics Canada, on the results and impact of unique economic and socio-economic studies.",
+                        "Knowledge of the division mandate and priorities as well as subject-matter expertise is required to review strategic directions in the management of significant surveys.",
+                        "Knowledge of the policies and programs of key client departments in order to mediate with their representatives to reach a consensus on the major issues affecting departments, industries and special interest groups, and to recommend priorities for new surveys and studies.",
+                        "Knowledge of the Statistics Act is needed to explain the legislative requirements to other departments, agencies, industry, members of the public and the media. This knowledge, along with knowledge of the Privacy Act is also required to ensure that the organization meets its commitment to ensuring the confidentiality of all information provided to them and does not release any information that identifies an individual or group without prior consent.",
                         "Knowledge of a variety of Acts related to the area of expertise such as the Income Tax Act, the Excise Sales Tax Act, the Employment Insurance Act, and the Corporate Returns Act."
                     ],
                     "6. Research and analysis": [
-                        "Reviews the conceptual framework of existing statistical programs and determines the need for development, modification and adaption. Programs involve a combination of statistical techniques and methods and the integration of data from a variety of sources (e.g. financial statements, tax files, other administrative sources, surveys, censuses). Source data have often been collected for other purposes using different definitions or concepts and must be translated into common concepts, taking into consideration the impact of the result on other statistical programs as well as departmental priorities.",
-                        "Assesses new statistical methods, techniques and practices and the associated costs and limitations and identifies the availability and reliability of new data sources to evaluate the suitability of new hardware and software and to determine the short and long term program impact and benefits.",
-                        "Analyses the relative quality of data produced by statistical programs, determines reasons for variances; reviews the comparability of data over time and relevance in light of trends, developments, changing requirements, policy issues and socio-economic conditions.",
-                        "Researches gaps and inconsistencies in the production and dissemination methods and procedures, reviews the conceptual framework used and the compatibility with other statistical programs. Problems to be resolved usually impact on other statistical programs.",
-                        "Investigates client requirements for statistical information and determines the capacity and ability of existing or modified systems to meet these requirements."
+                        "Analyses current socio-economic trends and developments at the national and international levels and determines the implications of proposed areas of study. Analyses user needs in relation to current socio-economic trends and developments at the national and international levels, translates them into a concrete, timely and affordable information request, determines the implications of proposed areas of study and defends proposals for the development of new surveys.",
+                        "Provides expert analysis and interpretation of program results, develops the overall conclusions and recommendations, reviews and approves analytical material and research papers for publication.",
+                        "Directs the development of new methods and techniques for unique studies, assesses the implications of new approaches and develops solutions to complex issues.",
+                        "Analyses the impact of study results on major program, policy and regulatory issues and provides authoritative and expert advice to senior officials and policy advisors within and outside Statistics Canada."
                     ]
                 }
             }
