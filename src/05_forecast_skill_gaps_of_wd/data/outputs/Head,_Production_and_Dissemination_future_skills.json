@@ -1,0 +1,846 @@
+[
+    {
+        "id": "1.1",
+        "update description": "The revised 'Identify needs' phase becomes a strategic enterprise-wide gatekeeper requiring proactive scanning of all data assets for reusability, assessment of operational feasibility of new collections, dynamic cost/timeliness/risk trade-offs, standardized and auditable needs-identification procedures, digital-first cross-program data asset utilization, and early digitally-enabled stakeholder engagement.",
+        "interdependencies": [
+            "2.1 Design",
+            "2.2 Build",
+            "4.1 Collect",
+            "5.1 Integrate data",
+            "6.1 Prepare draft outputs",
+            "8.1 Evaluate"
+        ],
+        "impact reasoning": "This update materially expands the role from managing divisional production and dissemination strategies within a program area to acting as an enterprise-facing decision authority at the front end of statistical work. The current work-description already includes proposal development, conceptual review, source assessment, and client needs analysis, but the revised expectation requires these activities to be performed through standardized, digital, auditable, and cross-program mechanisms. The position will need to systematically examine reusable internal and external data assets before approving or recommending new collection activity; explicitly assess feasibility, automation-readiness, and operational sustainability; and apply more formal cost, timeliness, and risk trade-off frameworks in decision making. The role also shifts toward culture change leadership by enforcing digital-first practices, supporting enterprise resource optimization, and ensuring that stakeholder engagement occurs earlier and through digital channels. This increases both operational accountability and strategic influence, while requiring stronger data asset governance, digital platform literacy, and change leadership capabilities.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - Plans and implements long term strategies for the development, enhancement and operation of divisional statistical programs.",
+                "element update reasoning": "Long-term strategies will need to incorporate enterprise-wide data asset reuse, digital-first needs identification, and standardized decision gates rather than focusing primarily on divisional program development. Strategy work will increasingly include prioritizing reuse over new collection, embedding auditable needs-assessment processes, and aligning program planning with organization-wide efficiency and automation objectives.",
+                "gaps": [
+                    {
+                        "justification": "The current element emphasizes program strategy but does not explicitly require enterprise data asset reuse or digital-first governance. The future expectation makes these central to strategy formation.",
+                        "type": "KNOWLEDGE",
+                        "name": "Strategic data asset management",
+                        "description": "Knowledge of enterprise data inventories, reusable administrative and statistical data assets, metadata-driven discovery, and principles for assessing fitness-for-use across programs."
+                    },
+                    {
+                        "justification": "The role must move from conventional planning toward digital-first strategic gatekeeping and organization-wide standardization.",
+                        "type": "SKILL",
+                        "name": "Digital strategy integration",
+                        "description": "Ability to embed digital platforms, workflow standardization, and automation-readiness criteria into long-term statistical program strategies."
+                    },
+                    {
+                        "justification": "The update explicitly requires the incumbent to drive culture change toward sustainable, digital production.",
+                        "type": "SKILL",
+                        "name": "Enterprise change leadership",
+                        "description": "Ability to lead cross-program behavioural and process change, promote adoption of standardized needs-identification practices, and reinforce digital-first operating models."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Plans and controls the development, implementation and operation of new or modified statistical systems and processes.",
+                "element update reasoning": "The planning and control function will now begin earlier, at needs identification, requiring formal validation that proposed systems or processes are justified after considering reusable assets, digital workflow compatibility, and automation potential. Control mechanisms will need to include auditable documentation and standardized feasibility review before proceeding to design or implementation.",
+                "gaps": [
+                    {
+                        "justification": "The future role requires pre-development assessment of automation and workflow compatibility, which is not explicit in the current element.",
+                        "type": "SKILL",
+                        "name": "Automation-readiness assessment",
+                        "description": "Ability to evaluate whether proposed collections, processes, or systems are suitable for automation, digital workflow integration, and scalable production."
+                    },
+                    {
+                        "justification": "Standardized and auditable front-end controls imply stronger procedural and platform-based process governance than currently stated.",
+                        "type": "KNOWLEDGE",
+                        "name": "Digital workflow governance",
+                        "description": "Knowledge of digital intake, tracking, approval, and documentation mechanisms used to govern needs identification and downstream implementation."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Defines, coordinates and evaluates the cost of statistical system development work.",
+                "element update reasoning": "Cost evaluation will broaden into a more structured trade-off analysis that weighs cost against timeliness, risk, feasibility, and opportunities for data reuse. The role will increasingly support enterprise resource trade-off decisions rather than only evaluating development costs for a specific system.",
+                "gaps": [
+                    {
+                        "justification": "The update explicitly adds dynamic cost/timeliness/risk trade-offs and resource optimization requirements beyond current cost evaluation.",
+                        "type": "KNOWLEDGE",
+                        "name": "Cost-risk-timeliness decision frameworks",
+                        "description": "Knowledge of structured frameworks for evaluating operational feasibility and balancing cost, timeliness, quality, and risk in needs-identification decisions."
+                    },
+                    {
+                        "justification": "Participation in resource trade-off decisions requires stronger comparative analysis across options, including reuse versus new collection.",
+                        "type": "SKILL",
+                        "name": "Option appraisal and prioritization",
+                        "description": "Ability to compare alternative data acquisition and production approaches using standardized criteria and to justify recommendations transparently."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Identifies and researches trends and developments in mass data processing concepts, methods and techniques.",
+                "element update reasoning": "Trend research will need to expand beyond general mass processing methods to include digital discovery tools, AI-enabled data asset search and classification, and technologies supporting automation and early needs assessment. The role will be expected to translate these trends into practical governance and investment choices.",
+                "gaps": [
+                    {
+                        "justification": "The current wording is broad, but the future state specifically requires awareness of digital and AI technologies for discovery and automation.",
+                        "type": "KNOWLEDGE",
+                        "name": "Digital and AI technology awareness",
+                        "description": "Knowledge of AI-enabled discovery tools, metadata search technologies, workflow automation tools, and related opportunities and limitations in statistical operations."
+                    },
+                    {
+                        "justification": "The role must connect technology scanning to practical implementation in gatekeeping and process redesign.",
+                        "type": "SKILL",
+                        "name": "Technology translation",
+                        "description": "Ability to assess emerging digital tools and convert technical possibilities into operationally feasible and policy-compliant recommendations."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Provides expert advisory and consultative services to users within and outside Statistics Canada.",
+                "element update reasoning": "Advisory services will increasingly focus on challenging or redirecting requests toward reusable assets, lower-burden alternatives, and digitally feasible options. Consultations will need to occur earlier in the process and be supported by documented, platform-enabled evidence about needs, alternatives, costs, and risks.",
+                "gaps": [
+                    {
+                        "justification": "The update requires earlier and digitally-enabled stakeholder engagement, changing both timing and method of consultation.",
+                        "type": "SKILL",
+                        "name": "Early-stage digital stakeholder engagement",
+                        "description": "Ability to engage stakeholders through digital channels at the problem-definition stage, document requirements, and guide them through alternative-data and feasibility discussions."
+                    },
+                    {
+                        "justification": "The role must be able to advise credibly on reuse and operational feasibility, not only on program outputs and processing.",
+                        "type": "KNOWLEDGE",
+                        "name": "Alternative data source assessment",
+                        "description": "Knowledge of how to identify, assess, and explain the suitability, limitations, and governance implications of alternative data sources."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Prepares program proposals outlining options and recommendations on the statistical framework, strategies, resource implications and impact of new or modified statistical programs.",
+                "element update reasoning": "Program proposals will need to become more standardized and auditable, explicitly documenting needs assessment, alternative data explorations, asset reuse decisions, cost/timeliness/risk trade-offs, and automation-readiness. Recommendations will need to demonstrate why a proposed initiative is justified relative to existing assets and organizational priorities.",
+                "gaps": [
+                    {
+                        "justification": "The future requirement for auditable documentation is a direct extension of proposal preparation and is not explicit in the current description.",
+                        "type": "SKILL",
+                        "name": "Auditable business case development",
+                        "description": "Ability to prepare standardized, traceable proposals that document needs, alternatives considered, decision criteria, feasibility findings, and rationale for recommended action."
+                    },
+                    {
+                        "justification": "The updated proposals must include reuse analysis and digital feasibility assessment, which exceed current expectations.",
+                        "type": "KNOWLEDGE",
+                        "name": "Needs assessment standardization",
+                        "description": "Knowledge of standardized intake, assessment, and documentation practices for needs identification in a digital operating environment."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Determines the methods, concepts, techniques and practices to be applied in the development and operation of statistical programs regarding the acquisition, production and dissemination of data.",
+                "element update reasoning": "Method determination will shift toward first deciding whether acquisition is needed at all, based on reusable assets and feasible alternatives. The decision space broadens from selecting techniques for production to governing whether and how new work should proceed within digital-first, low-burden, sustainable models.",
+                "gaps": [
+                    {
+                        "justification": "The updated function requires more than selecting methods; it requires deciding among reuse, integration, and new collection pathways.",
+                        "type": "SKILL",
+                        "name": "Data acquisition pathway evaluation",
+                        "description": "Ability to evaluate and choose among asset reuse, administrative data, integration, model-based approaches, or new collection based on strategic and operational criteria."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Reviews trends and developments in data processing concepts, methods and techniques in order to present options and recommendations to management on the use and application of new technology to mass data capture, conversion and dissemination applications.",
+                "element update reasoning": "Recommendations to management will need to cover technologies that support data discovery, needs triage, cost/risk tracking, and automation-readiness, not only downstream capture and dissemination applications.",
+                "gaps": [
+                    {
+                        "justification": "The future scope extends into front-end digital enablement and enterprise triage technologies.",
+                        "type": "KNOWLEDGE",
+                        "name": "Digital intake and decision-support tools",
+                        "description": "Knowledge of tools such as data inventories, metadata repositories, cost/risk tracking systems, and digital assessment platforms used to support strategic needs identification."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 2. Leadership and operational management - Manages a unit and leads project teams for special projects. Assesses program requirements and determines objectives and priorities. Plans and schedules the work, resolves conflicting priorities, ascertains human resource needs, determines the appropriate selection methods (internal and external resources / contractors) to meet program and project objectives, recruits staff, evaluates employee performance or reviews performance evaluations prepared by subordinates and approves training plans.",
+                "element update reasoning": "Leadership will increasingly involve embedding standardized needs-identification procedures into unit operations, realigning priorities around enterprise reuse and resource optimization, and building workforce capability in digital tools, alternative data assessment, and auditable decision processes. Team management will also include reinforcing new behavioural expectations and performance standards tied to digital-first practices.",
+                "gaps": [
+                    {
+                        "justification": "The leadership function must now drive adoption of new enterprise procedures and behaviours, not just manage current operations.",
+                        "type": "SKILL",
+                        "name": "Operational transformation leadership",
+                        "description": "Ability to redesign team practices, set new expectations, align staffing and training, and sustain adoption of standardized digital needs-identification processes."
+                    },
+                    {
+                        "justification": "The role must identify and close new workforce capability needs created by digital-first gatekeeping.",
+                        "type": "KNOWLEDGE",
+                        "name": "Workforce capability planning for digital operations",
+                        "description": "Knowledge of the competencies required for data asset reuse, digital workflow operation, automation-readiness assessment, and risk-based prioritization."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 2. Leadership and operational management - Plans, develops and manages a budget for the unit in accordance with departmental policy and procedures. Exercises direct authority and accountability for allocated funds to meet planned objectives. Authorises, commits and approves expenditures in accordance with approved budgets with the authority to reallocate funds among line objects.",
+                "element update reasoning": "Budget management will need to place greater emphasis on resource optimization across competing requests, including investments in reusable data assets, digital platforms, and early-stage assessment capacity. The incumbent will need to justify expenditures through formal trade-off analysis rather than mainly within established program envelopes.",
+                "gaps": [
+                    {
+                        "justification": "The update shifts financial management from unit budgeting toward strategic resource trade-off decisions linked to digital enablement and reuse.",
+                        "type": "SKILL",
+                        "name": "Strategic investment prioritization",
+                        "description": "Ability to allocate and justify resources based on enterprise value, reuse potential, operational risk, and long-term sustainability."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Provides expert advisory and consultative services to policy makers at all levels of government, business and national social agencies and academia.",
+                "element update reasoning": "The advisory role will evolve from explaining program findings and methods toward shaping demand, framing feasible options, and guiding clients toward reusable or lower-burden approaches. This includes documenting needs and constraints through structured digital engagement methods.",
+                "gaps": [
+                    {
+                        "justification": "The future role requires more consultative challenge and co-design at the problem-definition stage.",
+                        "type": "SKILL",
+                        "name": "Strategic client advisory for problem framing",
+                        "description": "Ability to help stakeholders clarify needs, assess alternatives, and accept evidence-based trade-offs involving scope, timeliness, burden, and feasibility."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Chairs intra-departmental meetings and participates in inter-departmental meetings, conferences and groups to develop understanding, consensus and share knowledge of the program area.",
+                "element update reasoning": "These forums will increasingly be used to negotiate cross-program data asset reuse, establish common needs-identification procedures, and build consensus on enterprise standards for digital gatekeeping and resource prioritization.",
+                "gaps": [
+                    {
+                        "justification": "Cross-program coordination becomes more central because the update requires enterprise-wide data asset utilization and standardized procedures.",
+                        "type": "SKILL",
+                        "name": "Cross-organizational facilitation and governance",
+                        "description": "Ability to convene stakeholders across programs, broker consensus on shared standards, and resolve competing interests in data reuse and resource allocation."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - Advanced knowledge of systems analysis and design and of new and emerging computer technology and applications in order to establish and manage mass statistical data collection, production and dissemination environments.",
+                "element update reasoning": "This knowledge base will need to extend from production systems into digital discovery, metadata platforms, workflow orchestration, and AI-enabled support for front-end needs assessment and asset identification.",
+                "gaps": [
+                    {
+                        "justification": "Current systems knowledge is oriented to collection, production, and dissemination; the update adds front-end digital platforms and AI-enabled discovery.",
+                        "type": "KNOWLEDGE",
+                        "name": "Metadata and discovery platform knowledge",
+                        "description": "Knowledge of data catalogues, metadata standards, searchable inventories, and platform capabilities that support locating and assessing reusable data assets."
+                    },
+                    {
+                        "justification": "AI awareness is explicitly identified in the update and is not directly present in the current specialized knowledge.",
+                        "type": "KNOWLEDGE",
+                        "name": "Applied AI in statistical operations",
+                        "description": "Knowledge of how AI can support discovery, triage, classification, and automation in needs identification, alongside associated risks and controls."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - Knowledge of the principles and practices of project management including the management of human and financial resources.",
+                "element update reasoning": "Project management knowledge will need to be supplemented by portfolio-style governance at the intake stage, where comparative prioritization, auditable gating, and enterprise trade-offs are made before projects are launched.",
+                "gaps": [
+                    {
+                        "justification": "The revised phase functions as a gatekeeper and requires broader intake and portfolio governance than traditional project management alone.",
+                        "type": "KNOWLEDGE",
+                        "name": "Portfolio and gate review governance",
+                        "description": "Knowledge of intake governance, stage-gating, prioritization models, and enterprise oversight practices for approving or redirecting statistical initiatives."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 5. Contextual knowledge - Knowledge of other statistical programs (concepts, methods, and databases) related to the area of expertise to plan and implement statistical activities, to integrate conceptually different data from other programs, to explain variances and to recommend changes to other statistical programs.",
+                "element update reasoning": "Cross-program knowledge becomes more central and must be broadened from awareness of related programs to systematic understanding of enterprise data holdings and their reusability for emerging needs before new collection is pursued.",
+                "gaps": [
+                    {
+                        "justification": "The update elevates cross-program asset utilization from useful context to a required first step in needs identification.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise data landscape awareness",
+                        "description": "Knowledge of available data assets across programs, including access conditions, metadata quality, reuse constraints, and typical use cases."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 5. Contextual knowledge - Knowledge of data users from governments and from the private sector to identify potential new markets, to understand client needs for statistical data or studies, to negotiate contracts and to provide expert advice on program results.",
+                "element update reasoning": "Understanding users will need to include their digital engagement expectations, tolerance for trade-offs, and openness to alternative products or reused data sources. The role will increasingly interpret user needs in operationally feasible and sustainable terms.",
+                "gaps": [
+                    {
+                        "justification": "The updated role requires translating client demand into standardized, digitally assessed options rather than primarily identifying needs and markets.",
+                        "type": "SKILL",
+                        "name": "Demand translation and service design",
+                        "description": "Ability to convert stakeholder requests into feasible statistical service options that reflect available assets, production constraints, and standardized assessment criteria."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Reviews the conceptual framework of existing statistical programs and determines the need for development, modification and adaption.",
+                "element update reasoning": "This review will need to be more explicitly comparative and evidence-based, asking whether existing programs or assets can satisfy a need through reuse, adaptation, or integration before recommending new development. The conceptual review becomes part of a formal gatekeeping process.",
+                "gaps": [
+                    {
+                        "justification": "The updated function requires more rigorous comparative assessment across existing assets and new proposals.",
+                        "type": "SKILL",
+                        "name": "Comparative reuse and feasibility analysis",
+                        "description": "Ability to assess whether existing frameworks, processes, and data assets can be adapted or reused to meet new needs more efficiently than launching new activity."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Assesses new statistical methods, techniques and practices and the associated costs and limitations and identifies the availability and reliability of new data sources to evaluate the suitability of new hardware and software and to determine the short and long term program impact and benefits.",
+                "element update reasoning": "Assessment activity will expand to include formal evaluation of alternative data availability, discovery tools, automation options, and risk-based operational feasibility. The analysis will need to support auditable intake decisions and enterprise optimization, not only program-specific method selection.",
+                "gaps": [
+                    {
+                        "justification": "The current element addresses costs and limitations, but the future state requires broader operational feasibility and auditable option assessment.",
+                        "type": "SKILL",
+                        "name": "Operational feasibility assessment",
+                        "description": "Ability to evaluate implementation practicality, sustainability, digital compatibility, and organizational impacts of proposed data acquisition or processing approaches."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Investigates client requirements for statistical information and determines the capacity and ability of existing or modified systems to meet these requirements.",
+                "element update reasoning": "Client requirement analysis will occur earlier and will require explicit examination of whether existing data assets, systems, or workflows can satisfy the need, alongside documented trade-offs if they cannot. Capacity analysis becomes part of a digital intake and triage process.",
+                "gaps": [
+                    {
+                        "justification": "The revised process requires structured intake and triage rather than more informal client requirement analysis alone.",
+                        "type": "SKILL",
+                        "name": "Digital intake and triage analysis",
+                        "description": "Ability to assess requests through standardized digital processes that capture needs, test against available assets and capacities, and record decision rationale."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.1",
+        "update description": "Program launch and needs confirmation become highly evidence-driven, reuse-first, automated where possible, and explicitly tied to resource alignment, cost efficiency, transparent prioritization, decision-logging, and metadata-driven consultation processes supported by shared digital platforms.",
+        "interdependencies": [
+            "2.2",
+            "2.3",
+            "4.1",
+            "5.1",
+            "7.1"
+        ],
+        "impact reasoning": "This update materially changes the EC-06 Head, Production and Dissemination role from primarily leading consultative program development and responding to evolving client demand toward governing a structured consultation and prioritization regime. The role will no longer rely mainly on iterative expert judgement and bespoke accommodation of user needs; instead, it must ensure that requests are assessed through standardized digital workflows, documented decision trails, reuse-first criteria, and explicit feasibility and resource tests before new collections or modifications proceed. The Head will be expected to oversee consultation infrastructure, monitor cycle times and outcomes, enforce transparency in trade-off decisions, and set boundary conditions for when new data collection is justified. This creates both operational changes in how consultations are run and strategic changes in how program proposals, priorities, and service decisions are defended and documented.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - Plans and implements long term strategies for the development, enhancement and operation of divisional statistical programs.",
+                "element update reasoning": "Long-term strategy will need to incorporate platform-enabled consultation, reuse-first service design, measurable prioritization criteria, and explicit decision governance. The activity shifts from general strategic planning toward stewardship of a transparent, evidence-based intake and prioritization model for program development.",
+                "gaps": [
+                    {
+                        "justification": "The current wording emphasizes strategic planning for statistical programs but does not explicitly require stewardship of digital consultation ecosystems, evidence-based intake governance, or reuse-first prioritization.",
+                        "type": "KNOWLEDGE",
+                        "name": "Digital consultation ecosystem governance",
+                        "description": "Knowledge of how shared digital platforms support stakeholder intake, needs tracking, commitments management, and transparent prioritization across statistical programs."
+                    },
+                    {
+                        "justification": "Future strategy decisions require formal balancing of demand, feasibility, resource availability, and reuse potential, which is not explicitly developed in the current work-description.",
+                        "type": "SKILL",
+                        "name": "Strategic resource optimization",
+                        "description": "Ability to align program choices with resource constraints, reuse opportunities, automation potential, and agency-wide priorities using defensible decision criteria."
+                    },
+                    {
+                        "justification": "The update requires strategic planning based on measurable process outcomes such as timeliness, reuse rates, and proposal acceptance or rejection patterns.",
+                        "type": "KNOWLEDGE",
+                        "name": "Performance analytics for consultation and intake cycles",
+                        "description": "Knowledge of operational metrics and analytic approaches used to assess consultation efficiency, responsiveness, reuse outcomes, and prioritization effectiveness."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Plans and controls the development, implementation and operation of new or modified statistical systems and processes.",
+                "element update reasoning": "This activity will expand to include control over digital consultation workflows and automated/AI-augmented support mechanisms used to confirm needs, assess feasibility, and document trade-offs before systems or collections are changed or launched.",
+                "gaps": [
+                    {
+                        "justification": "The update explicitly introduces digital tools and AI-augmented workflows into consultation and needs confirmation, which are not reflected in the current requirements.",
+                        "type": "KNOWLEDGE",
+                        "name": "Automated and AI-augmented consultation workflows",
+                        "description": "Knowledge of how automation and AI can support intake triage, needs categorization, routing, summarization, and decision support while preserving quality, transparency, and accountability."
+                    },
+                    {
+                        "justification": "The role must now govern implementation and operation of process tools, not only statistical production systems.",
+                        "type": "SKILL",
+                        "name": "Digital product and platform oversight",
+                        "description": "Ability to guide the implementation, adoption, and operational management of digital platforms that support consultation, prioritization, and decision-tracking."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Defines, coordinates and evaluates the cost of statistical system development work.",
+                "element update reasoning": "Cost evaluation will become more formalized and comparative, including assessment of whether needs can be met through reuse, adaptation, automation, or existing assets before approving new work. Cost-benefit and trade-off logging become core expectations.",
+                "gaps": [
+                    {
+                        "justification": "The future-state requires explicit justification for new data collection and transparent trade-off deliberations, extending beyond current cost evaluation language.",
+                        "type": "SKILL",
+                        "name": "Cost-benefit and trade-off analysis",
+                        "description": "Ability to assess and document comparative costs, benefits, reuse alternatives, and opportunity costs for proposed collections, modifications, and service commitments."
+                    },
+                    {
+                        "justification": "The new model requires costs to be tied to prioritization and decision logs across a shared process, not just evaluated project by project.",
+                        "type": "KNOWLEDGE",
+                        "name": "Portfolio-level prioritization methods",
+                        "description": "Knowledge of methods for comparing competing demands across a program portfolio using resource, value, feasibility, and timing criteria."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Provides expert advisory and consultative services to users within and outside Statistics Canada.",
+                "element update reasoning": "Consultative services will shift from primarily responsive expert advice toward structured facilitation of evidence-based needs discussions through transparent digital channels. Advice will include explaining reuse constraints, feasibility thresholds, prioritization logic, and reasons for acceptance, deferral, or rejection.",
+                "gaps": [
+                    {
+                        "justification": "The consultation model is moving from bespoke and iterative advisory support to transparent, documented, and platform-mediated engagement.",
+                        "type": "SKILL",
+                        "name": "Structured stakeholder consultation and facilitation",
+                        "description": "Ability to lead disciplined consultation processes that document needs, alternatives, constraints, and decisions in a transparent and standardized manner."
+                    },
+                    {
+                        "justification": "The role must support defensible discussions of prioritization and trade-offs with internal and external users.",
+                        "type": "SKILL",
+                        "name": "Trade-off communication and negotiation",
+                        "description": "Ability to explain prioritization decisions, resource constraints, reuse-first logic, and feasibility outcomes clearly and credibly to stakeholders."
+                    },
+                    {
+                        "justification": "Transparent consultation decisions depend on consistent definitions and metadata-backed alignment.",
+                        "type": "KNOWLEDGE",
+                        "name": "Metadata-driven alignment for consultation decisions",
+                        "description": "Knowledge of how metadata, standards, and documented requirements support consistent interpretation of needs and alignment with existing statistical assets."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Prepares program proposals outlining options and recommendations on the statistical framework, strategies, resource implications and impact of new or modified statistical programs.",
+                "element update reasoning": "Program proposals will need stronger evidence bases, explicit justification for new collection, documented reuse alternatives, and transparent records of trade-offs and prioritization decisions. Recommendations will be expected to show alignment with shared consultation evidence and resource constraints.",
+                "gaps": [
+                    {
+                        "justification": "Current proposal development includes options and resource implications, but future proposals require explicit evidence trails and justification thresholds for new collections.",
+                        "type": "SKILL",
+                        "name": "Evidence-based proposal design",
+                        "description": "Ability to formulate proposals using documented user needs, feasibility evidence, reuse assessments, resource alignment, and transparent decision records."
+                    },
+                    {
+                        "justification": "Future expectations include clear boundary conditions for when new collections are justified.",
+                        "type": "KNOWLEDGE",
+                        "name": "New collection justification criteria",
+                        "description": "Knowledge of decision criteria, policy constraints, and operational thresholds used to determine when new data collection is warranted versus reuse or adaptation."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Develops policies, guidelines, instructions and procedures for the development, use and evaluation of systems and processes.",
+                "element update reasoning": "Policies and procedures will need to formalize reuse-first consultation workflows, decision-logging standards, transparent prioritization, platform usage expectations, and performance monitoring for consultation cycles.",
+                "gaps": [
+                    {
+                        "justification": "The update requires operational rules for digital consultation, decision documentation, and prioritization transparency not explicitly covered in the current role profile.",
+                        "type": "SKILL",
+                        "name": "Process governance design",
+                        "description": "Ability to create and maintain policies, procedures, and controls for standardized digital consultation, intake governance, and decision accountability."
+                    },
+                    {
+                        "justification": "The role must ensure staff use shared tools consistently and effectively.",
+                        "type": "SKILL",
+                        "name": "Change management",
+                        "description": "Ability to lead adoption of new tools, workflows, and behavioural expectations across teams undergoing operational and cultural transition."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Determines the methods, concepts, techniques and practices to be applied in the development and operation of statistical programs regarding the acquisition, production and dissemination of data.",
+                "element update reasoning": "Method selection will increasingly depend on whether needs can be met through adaptation, reuse, automation, or metadata alignment before pursuing bespoke acquisition or new collection. The role will be expected to enforce feasibility-first methods selection.",
+                "gaps": [
+                    {
+                        "justification": "The current element focuses on methods for acquisition, production, and dissemination but not explicitly on reuse-first and feasibility-first screening.",
+                        "type": "KNOWLEDGE",
+                        "name": "Reuse-by-design approaches",
+                        "description": "Knowledge of methods for meeting new information needs through reuse, adaptation, integration, or automation rather than initiating new collection activity."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Reviews trends and developments in data processing concepts, methods and techniques in order to present options and recommendations to management on the use and application of new technology to mass data capture, conversion and dissemination applications.",
+                "element update reasoning": "This element broadens from production technologies to include technologies for consultation management, workflow automation, AI-supported triage, decision tracking, and process analytics. Recommendations to management will include how such tools improve timeliness, transparency, and prioritization discipline.",
+                "gaps": [
+                    {
+                        "justification": "The future-state explicitly requires oversight of digital product/platform development and automated consultation workflows.",
+                        "type": "KNOWLEDGE",
+                        "name": "Consultation platform and workflow technologies",
+                        "description": "Knowledge of digital technologies used for requirement intake, workflow orchestration, decision logging, collaboration, and service tracking."
+                    },
+                    {
+                        "justification": "Technology choices must now be assessed in relation to process performance and governance outcomes.",
+                        "type": "SKILL",
+                        "name": "Operational technology assessment",
+                        "description": "Ability to evaluate technologies based on their impact on cycle time, transparency, adoption, data quality, accountability, and reuse outcomes."
+                    }
+                ]
+            },
+            {
+                "element": "2. Leadership and operational management - Manages a unit and leads project teams for special projects. Assesses program requirements and determines objectives and priorities. Plans and schedules the work, resolves conflicting priorities, ascertains human resource needs, determines the appropriate selection methods (internal and external resources / contractors) to meet program and project objectives, recruits staff, evaluates employee performance or reviews performance evaluations prepared by subordinates and approves training plans.",
+                "element update reasoning": "Leadership will increasingly focus on governing shorter, more trackable consultation cycles, enforcing standardized digital ways of working, and building staff capability in structured intake, transparency, and reuse-first decision making. Priority setting will become more explicit, evidence-based, and visible across competing demands.",
+                "gaps": [
+                    {
+                        "justification": "The role evolution emphasizes shepherding the workforce through operational and cultural shifts.",
+                        "type": "SKILL",
+                        "name": "Workforce transformation leadership",
+                        "description": "Ability to lead teams through shifts toward digitally enabled, measurable, and standardized consultation and prioritization processes."
+                    },
+                    {
+                        "justification": "Managing consultation timeliness and trackability requires stronger operational oversight than currently stated.",
+                        "type": "SKILL",
+                        "name": "Cycle-time and workflow management",
+                        "description": "Ability to monitor and improve throughput, bottlenecks, service responsiveness, and adherence to consultation process standards."
+                    }
+                ]
+            },
+            {
+                "element": "2. Leadership and operational management - Plans, develops and manages a budget for the unit in accordance with departmental policy and procedures. Exercises direct authority and accountability for allocated funds to meet planned objectives. Authorises, commits and approves expenditures in accordance with approved budgets with the authority to reallocate funds among line objects.",
+                "element update reasoning": "Budget management will need to support portfolio-level choices between reuse, automation, adaptation, and new collection proposals, with clearer rationale for investment decisions and stronger links between operational metrics and resourcing choices.",
+                "gaps": [
+                    {
+                        "justification": "Future-state expectations require explicit resource alignment and defensible prioritization tied to program and consultation decisions.",
+                        "type": "SKILL",
+                        "name": "Evidence-based budget prioritization",
+                        "description": "Ability to allocate and reallocate resources based on demonstrable value, feasibility, reuse potential, service demand, and process performance evidence."
+                    }
+                ]
+            },
+            {
+                "element": "3. Communication - Provides expert advisory and consultative services to policy makers at all levels of government, business and national social agencies and academia. Explains and elaborates on statistical program findings and their practical application and interpretation of statistical data and information. This information is used as input to decision making for a vast array of economic and social policies, programs and other activities.",
+                "element update reasoning": "Communication will include explaining not only program outputs but also consultation pathways, prioritization rules, reuse limits, and why certain demands are accepted, modified, deferred, or declined. The role becomes more accountable for making decision processes understandable and defensible.",
+                "gaps": [
+                    {
+                        "justification": "Transparent and defensible prioritization is a core future expectation and requires a more procedural form of communication than currently emphasized.",
+                        "type": "SKILL",
+                        "name": "Transparent decision communication",
+                        "description": "Ability to communicate evidence, constraints, prioritization rationale, and consultation outcomes in a way that is clear, consistent, and trusted by stakeholders."
+                    }
+                ]
+            },
+            {
+                "element": "3. Communication - Writes and presents subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify developmental projects and operational systems and processes or program results. When findings are challenged or misinterpreted, it is necessary to present logical arguments to justify the results and to defend the validity of statistical methods and approaches used in order to maintain the department’s reputation for producing high quality data.",
+                "element update reasoning": "The role will also need to justify consultation and prioritization decisions using structured evidence, explain why reuse or automation was preferred over new collection, and defend process choices as well as statistical methods.",
+                "gaps": [
+                    {
+                        "justification": "The future role must defend not just outputs and methods but also intake and prioritization decisions backed by evidence and documented trade-offs.",
+                        "type": "SKILL",
+                        "name": "Decision-rationale documentation",
+                        "description": "Ability to document and present the reasoning behind consultation outcomes, feasibility determinations, and prioritization choices in accessible language."
+                    }
+                ]
+            },
+            {
+                "element": "4. Knowledge of specialized fields - Advanced knowledge of systems analysis and design and of new and emerging computer technology and applications in order to establish and manage mass statistical data collection, production and dissemination environments.",
+                "element update reasoning": "This knowledge base must extend beyond production environments to digital platforms supporting consultation, workflow orchestration, metadata alignment, AI-enabled support, and decision-tracking ecosystems.",
+                "gaps": [
+                    {
+                        "justification": "The current knowledge requirement is strong in production systems but does not explicitly encompass digital stakeholder platforms or consultation workflow tools.",
+                        "type": "KNOWLEDGE",
+                        "name": "Digital platform architecture for consultation services",
+                        "description": "Knowledge of the functional and governance design of platforms used to capture needs, manage commitments, support collaboration, and maintain auditable decision records."
+                    },
+                    {
+                        "justification": "The update introduces AI-augmented workflows as a capability implication.",
+                        "type": "KNOWLEDGE",
+                        "name": "AI oversight in operational decision support",
+                        "description": "Knowledge of how AI tools can be safely and effectively applied to consultation workflows, including limitations, controls, transparency, and human oversight requirements."
+                    }
+                ]
+            },
+            {
+                "element": "4. Knowledge of specialized fields - Knowledge of the principles and practices of project management including the management of human and financial resources.",
+                "element update reasoning": "Project management expectations will expand toward continuous process stewardship, platform adoption management, and use of performance indicators to refine consultation workflows rather than only managing discrete projects.",
+                "gaps": [
+                    {
+                        "justification": "The future-state requires continuous process improvement through feedback loops captured in shared tools, which extends beyond conventional project management.",
+                        "type": "SKILL",
+                        "name": "Continuous process improvement",
+                        "description": "Ability to use operational feedback, workflow data, and user experience insights to iteratively improve consultation and prioritization processes."
+                    }
+                ]
+            },
+            {
+                "element": "5. Contextual knowledge - Knowledge of the policies and programs of key client departments is needed to determine their information requirements.",
+                "element update reasoning": "This knowledge remains important but must now be paired with understanding how those needs are assessed through structured prioritization, feasibility criteria, and documented trade-offs rather than primarily relationship-based consultation.",
+                "gaps": [
+                    {
+                        "justification": "The current role already emphasizes client policy knowledge, but future effectiveness depends on linking those needs to transparent prioritization and justification mechanisms.",
+                        "type": "KNOWLEDGE",
+                        "name": "Strategic prioritization frameworks",
+                        "description": "Knowledge of frameworks used to weigh client needs against agency priorities, existing assets, delivery feasibility, and resource constraints."
+                    }
+                ]
+            },
+            {
+                "element": "5. Contextual knowledge - Knowledge of data users from governments and from the private sector to identify potential new markets, to understand client needs for statistical data or studies, to negotiate contracts and to provide expert advice on program results.",
+                "element update reasoning": "The orientation toward identifying potential new markets or exploratory expansion will narrow in favour of disciplined assessment of whether needs can be serviced within existing capabilities and priorities. Market and user knowledge will still matter, but more for structured filtering and service model decisions.",
+                "gaps": [
+                    {
+                        "justification": "Role evolution explicitly shifts away from supporting exploratory program expansions toward enforcing structured, feasibility-driven consultations.",
+                        "type": "KNOWLEDGE",
+                        "name": "Service eligibility and feasibility assessment",
+                        "description": "Knowledge of criteria for determining whether emerging user demands fit within mandate, available assets, delivery models, and resource constraints."
+                    }
+                ]
+            },
+            {
+                "element": "6. Research and analysis - Assesses new statistical methods, techniques and practices and the associated costs and limitations and identifies the availability and reliability of new data sources to evaluate the suitability of new hardware and software and to determine the short and long term program impact and benefits.",
+                "element update reasoning": "Assessment activities will now include evaluating consultation technologies, automation tools, AI-assisted workflows, and process analytics solutions for their ability to improve speed, traceability, consistency, and reuse outcomes.",
+                "gaps": [
+                    {
+                        "justification": "The scope of assessed methods and technologies expands beyond statistical production tools to consultation and governance-enabling technologies.",
+                        "type": "SKILL",
+                        "name": "Consultation process technology evaluation",
+                        "description": "Ability to assess tools for stakeholder intake, workflow automation, AI support, and performance monitoring against operational and governance objectives."
+                    }
+                ]
+            },
+            {
+                "element": "6. Research and analysis - Investigates client requirements for statistical information and determines the capacity and ability of existing or modified systems to meet these requirements.",
+                "element update reasoning": "This is one of the most directly affected elements. Investigation of client requirements will become more structured, digitally mediated, and explicitly tied to reuse-first and feasibility-first screening. The role will be accountable for ensuring requirements are captured in shared tools, assessed consistently, and resolved through transparent documentation of options, trade-offs, timelines, and resource implications.",
+                "gaps": [
+                    {
+                        "justification": "The current element supports iterative and consultative needs assessment, but the future-state requires standardization, digital tracking, and stronger evidence discipline.",
+                        "type": "SKILL",
+                        "name": "Requirements management in shared digital environments",
+                        "description": "Ability to capture, structure, track, and update stakeholder requirements in shared systems that support transparency, auditability, and coordinated decision-making."
+                    },
+                    {
+                        "justification": "Feasibility-driven consultations require stronger comparative assessment of reuse and adaptation pathways.",
+                        "type": "SKILL",
+                        "name": "Feasibility and reuse assessment",
+                        "description": "Ability to determine whether needs can be met through existing assets, modified systems, automated approaches, or only through new collection, and to document that assessment."
+                    },
+                    {
+                        "justification": "The update requires trackable consultation timelines and commitments.",
+                        "type": "KNOWLEDGE",
+                        "name": "Service workflow measurement",
+                        "description": "Knowledge of methods for monitoring consultation aging, throughput, backlog, responsiveness, and closure quality within shared operational tools."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.1",
+        "update description": "Output objective establishment is redefined to require that proposed outputs and program objectives prioritize asset reuse, automation-readiness, digital and resource efficiency, and interoperability by default. Any custom, manual, or survey-first approach must be explicitly justified. Approval shifts to an investment-style gate tied to enterprise architecture, automation pipelines, and digital resource constraints.",
+        "interdependencies": [
+            "2.1 dependent on downstream design, build, and production processes because early objective-setting now constrains acceptable methods, architectures, and resource models for development and operation.",
+            "Impacts future system development, production design, dissemination planning, and governance approval processes by requiring automation-first and interoperability-aligned choices at inception."
+        ],
+        "impact reasoning": "This update changes the role from primarily preparing and recommending statistical program frameworks and resource implications to formally governing whether proposed outputs are admissible under enterprise-wide reuse, automation, and interoperability expectations. The EC-06 Head, Production and Dissemination will no longer only assess whether a program is statistically sound and operationally feasible, but must also determine whether it aligns with enterprise architecture, uses existing assets where possible, is automation-ready, and represents an efficient use of scarce digital resources. This introduces a more formal gatekeeping and business-case function at the front end of program planning. The role must integrate IT architecture, automation pipeline feasibility, and data governance considerations into objective-setting before projects proceed. It also increases accountability for defining acceptance criteria, documenting exceptions, and coordinating cross-functional review with subject-matter, IT, and governance leads. As a result, operational adjustments include more structured proposal review processes, stronger architectural and digital feasibility analysis, and tighter challenge of bespoke or manual approaches. The role evolves toward strategic stewardship of statistical outputs as digital products operating within enterprise constraints.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - Plans and implements long term strategies for the development, enhancement and operation of divisional statistical programs.",
+                "element update reasoning": "Long-term strategies will need to be reframed to embed enterprise reuse, automation readiness, interoperability, and digital efficiency as default planning criteria rather than secondary implementation considerations. Strategic planning will include early-stage screening of whether desired outputs can be supported through existing assets, shared platforms, or automated pipelines, and whether exceptions can be justified.",
+                "gaps": [
+                    {
+                        "justification": "The current wording emphasizes long-term strategic planning for statistical programs, but does not explicitly require strategic stewardship of reusable data assets, automation-first planning, or interoperability-by-design. The future role requires these criteria to shape strategy formation itself.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise architecture and interoperability principles",
+                        "description": "Knowledge of enterprise architecture standards, shared platforms, interoperability requirements, and how these constrain or enable program strategy and output design."
+                    },
+                    {
+                        "justification": "The role must now assess strategic options against digital resource constraints and enterprise automation priorities, which goes beyond traditional program planning.",
+                        "type": "SKILL",
+                        "name": "Strategic digital investment analysis",
+                        "description": "Ability to evaluate strategic options using cost-benefit, reuse potential, automation feasibility, and resource-efficiency criteria to support investment-style decision making."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Plans and controls the development, implementation and operation of new or modified statistical systems and processes.",
+                "element update reasoning": "Planning and control of systems and processes will begin earlier, at objective acceptance stage, with explicit requirements that proposed systems be automation-ready, interoperable, and aligned with enterprise standards before development proceeds. Control functions will increasingly include gatekeeping over whether non-standard approaches are permissible.",
+                "gaps": [
+                    {
+                        "justification": "The current role manages development and operation, but the update requires stronger front-end control of system admissibility based on automation and interoperability criteria.",
+                        "type": "SKILL",
+                        "name": "Automation-readiness assessment",
+                        "description": "Ability to assess whether proposed processes, outputs, and data flows are suitable for automation pipelines and scalable digital operations."
+                    },
+                    {
+                        "justification": "The Head must challenge custom/manual process proposals and determine whether they can be supported within enterprise constraints.",
+                        "type": "SKILL",
+                        "name": "Design governance and standards enforcement",
+                        "description": "Ability to apply and enforce enterprise design standards, exception criteria, and governance controls during early planning and approval."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Defines, coordinates and evaluates the cost of statistical system development work.",
+                "element update reasoning": "Cost evaluation will expand from development expenditure estimation to full investment-style assessment including reuse opportunities, automation savings, interoperability benefits, digital resource consumption, and the comparative cost of bespoke or manual approaches.",
+                "gaps": [
+                    {
+                        "justification": "The current element includes costing but does not explicitly require value-for-investment analysis across reuse, automation, and architectural fit.",
+                        "type": "SKILL",
+                        "name": "Digital cost-benefit and option analysis",
+                        "description": "Ability to compare standard, reusable, automated, and custom options using full lifecycle costs, efficiency trade-offs, and enterprise value considerations."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Prepares program proposals outlining options and recommendations on the statistical framework, strategies, resource implications and impact of new or modified statistical programs.",
+                "element update reasoning": "Program proposals will need to systematically include evidence on reuse, automation-readiness, interoperability, architectural alignment, and digital feasibility. Recommendations will need to justify exceptions where manual, custom, or survey-first approaches are proposed.",
+                "gaps": [
+                    {
+                        "justification": "This is the most directly affected element because proposal preparation now becomes a formal investment-gate function requiring structured digital and architectural justification not currently specified.",
+                        "type": "SKILL",
+                        "name": "Business case development for automation-first proposals",
+                        "description": "Ability to build structured business cases showing alignment to reuse, automation, interoperability, and enterprise resource constraints, including defensible exception rationale."
+                    },
+                    {
+                        "justification": "The future proposal process requires an informed assessment of whether proposed outputs fit enterprise architecture and automation pipelines.",
+                        "type": "KNOWLEDGE",
+                        "name": "Agency automation pipelines and digital operating model",
+                        "description": "Knowledge of enterprise automation tools, delivery pipelines, platform constraints, and approval criteria relevant to proposal acceptance."
+                    },
+                    {
+                        "justification": "This gap recurs across strategy, costing, governance, and collaboration elements and is therefore cross-cutting.",
+                        "type": "SKILL",
+                        "name": "Cross-cutting: structured proposal gating and exception justification",
+                        "description": "Ability to apply standardized criteria to accept, reject, or conditionally approve output proposals, including documenting rationale for non-standard approaches."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Develops policies, guidelines, instructions and procedures for the development, use and evaluation of systems and processes.",
+                "element update reasoning": "Policies and procedures will need to be updated to formalize objective acceptance criteria, requiring explicit standards for reuse, automation, interoperability, digital efficiency, and exception handling at the earliest planning stages.",
+                "gaps": [
+                    {
+                        "justification": "The update requires the role not only to apply but also to formalize new acceptance criteria and governance processes for output objectives.",
+                        "type": "SKILL",
+                        "name": "Governance framework design",
+                        "description": "Ability to design and document decision criteria, approval gates, exception processes, and compliance mechanisms for automation-first objective setting."
+                    },
+                    {
+                        "justification": "Policy development must now reflect enterprise-wide digital and architectural standards rather than only program-specific operational needs.",
+                        "type": "KNOWLEDGE",
+                        "name": "Digital governance and standards frameworks",
+                        "description": "Knowledge of organizational governance models for architecture, data, automation, standards compliance, and resource prioritization."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Determines the methods, concepts, techniques and practices to be applied in the development and operation of statistical programs regarding the acquisition, production and dissemination of data.",
+                "element update reasoning": "Method determination will need to begin from a default assumption of reuse and automation, with method selection constrained by interoperability and enterprise platform considerations. Custom collection or manual processing methods will require stronger challenge and formal justification.",
+                "gaps": [
+                    {
+                        "justification": "The current element allows broad discretion in choosing methods; future expectations narrow acceptable choices through automation-first and interoperability-by-default principles.",
+                        "type": "KNOWLEDGE",
+                        "name": "Automation-enabled production methods",
+                        "description": "Knowledge of modern automated data acquisition, processing, integration, and dissemination methods suitable for scalable statistical production."
+                    },
+                    {
+                        "justification": "The Head must be able to compare methodological soundness with digital feasibility and platform constraints.",
+                        "type": "SKILL",
+                        "name": "Balancing statistical and architectural trade-offs",
+                        "description": "Ability to evaluate and explain trade-offs between statistical relevance, operational quality, enterprise standards, and technical feasibility."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Reviews trends and developments in data processing concepts, methods and techniques in order to present options and recommendations to management on the use and application of new technology to mass data capture, conversion and dissemination applications.",
+                "element update reasoning": "Trend analysis will shift from general awareness of new technology toward active evaluation of technologies that support asset reuse, interoperability, and automation at scale. Recommendations will need to consider enterprise adoption pathways and resource constraints.",
+                "gaps": [
+                    {
+                        "justification": "The role already scans technology trends, but future expectations require a more applied understanding of which technologies fit enterprise automation and reuse objectives.",
+                        "type": "KNOWLEDGE",
+                        "name": "Emerging automation and integration technologies",
+                        "description": "Knowledge of technologies supporting workflow automation, reusable data products, integration standards, and scalable dissemination."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 2. Leadership and operational management - Manages a unit and leads project teams for special projects. Assesses program requirements and determines objectives and priorities.",
+                "element update reasoning": "Determining objectives and priorities will now require explicit screening against enterprise acceptance criteria, and team leadership will increasingly involve coordinating program, IT, subject-matter, and governance actors in early-stage proposal assessment and challenge processes.",
+                "gaps": [
+                    {
+                        "justification": "The role evolution explicitly requires more structured collaboration across program, subject-matter, IT, and data governance leads.",
+                        "type": "SKILL",
+                        "name": "Cross-functional digital governance leadership",
+                        "description": "Ability to lead multidisciplinary decision processes spanning statistical programs, IT architecture, automation, and data governance stakeholders."
+                    },
+                    {
+                        "justification": "Objective-setting now depends on disciplined prioritization under digital resource constraints and enterprise standards.",
+                        "type": "SKILL",
+                        "name": "Portfolio prioritization under constrained digital capacity",
+                        "description": "Ability to prioritize outputs and initiatives based on enterprise capacity, platform suitability, strategic value, and automation potential."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 2. Leadership and operational management - Plans, develops and manages a budget for the unit in accordance with departmental policy and procedures.",
+                "element update reasoning": "Budget planning will need to account for enterprise platform usage, automation investments, and the higher scrutiny applied to bespoke or low-reuse outputs. Financial stewardship will be more tightly tied to digital efficiency and investment rationale.",
+                "gaps": [
+                    {
+                        "justification": "The future approval model is investment-style and linked to digital resource limitations, which changes how budgets must be justified and managed.",
+                        "type": "SKILL",
+                        "name": "Digital resource and investment planning",
+                        "description": "Ability to plan budgets in relation to automation investments, shared infrastructure use, enterprise platform costs, and expected efficiency gains."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Writes and presents subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify developmental projects and operational systems and processes or program results.",
+                "element update reasoning": "Communication demands will increase at the proposal stage, requiring clear articulation of automation, reuse, interoperability, and digital feasibility arguments to mixed audiences including executives, subject-matter experts, and technical governance bodies.",
+                "gaps": [
+                    {
+                        "justification": "The future role requires stronger synthesis and communication of cost-benefit and digital feasibility arguments at the program acceptance stage.",
+                        "type": "SKILL",
+                        "name": "Executive communication of digital feasibility and investment rationale",
+                        "description": "Ability to translate architectural, automation, and interoperability constraints into accessible decision-ready recommendations for non-technical and mixed audiences."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Chairs intra-departmental meetings and participates in inter-departmental meetings, conferences and groups to develop understanding, consensus and share knowledge of the program area.",
+                "element update reasoning": "These forums will increasingly serve as governance and challenge venues for objective acceptance, exception review, and alignment with enterprise standards, requiring stronger facilitation across diverse functional groups.",
+                "gaps": [
+                    {
+                        "justification": "Consensus building must now occur across program and technical governance domains, not solely within subject-matter or operational communities.",
+                        "type": "SKILL",
+                        "name": "Facilitation of architecture-informed governance discussions",
+                        "description": "Ability to chair and guide discussions where statistical needs, digital standards, and resource constraints must be reconciled into formal decisions."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - Advanced knowledge of systems analysis and design and of new and emerging computer technology and applications in order to establish and manage mass statistical data collection, production and dissemination environments.",
+                "element update reasoning": "This knowledge base will need to deepen from general systems analysis and technology awareness to practical understanding of enterprise architecture, interoperable design patterns, reusable services, and automation-oriented production environments.",
+                "gaps": [
+                    {
+                        "justification": "Current systems knowledge is relevant but insufficiently explicit regarding enterprise architecture, reusable assets, and automation pipelines now central to objective approval.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise-scale reusable and interoperable systems design",
+                        "description": "Knowledge of modular, interoperable, reusable system design approaches that support enterprise statistical production and dissemination."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 5. Contextual knowledge - Knowledge of the departmental and divisional mandate, activities, priorities, practices, standards and procedures applicable to the work to incorporate them into the management of a statistical program and to recommend changes to management.",
+                "element update reasoning": "Contextual knowledge must expand to include enterprise digital priorities, architecture standards, automation strategies, and agency-wide resource constraints as core determinants of acceptable program objectives.",
+                "gaps": [
+                    {
+                        "justification": "The future-state process explicitly ties output approval to enterprise architecture, automation pipelines, and digital resource limitations, which are not fully reflected in the current contextual knowledge statement.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise digital strategy and operating constraints",
+                        "description": "Knowledge of organizational digital transformation priorities, enterprise architecture direction, automation strategy, and capacity constraints affecting program approvals."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Assesses new statistical methods, techniques and practices and the associated costs and limitations and identifies the availability and reliability of new data sources to evaluate the suitability of new hardware and software and to determine the short and long term program impact and benefits.",
+                "element update reasoning": "Assessment work will need to incorporate formal evaluation of reuse potential, automation compatibility, interoperability implications, and enterprise fit, in addition to statistical merit, cost, and data-source reliability.",
+                "gaps": [
+                    {
+                        "justification": "The current analysis scope includes methods, costs, limitations, and technologies, but future evaluation criteria broaden to include enterprise architecture fit and automation-first admissibility.",
+                        "type": "SKILL",
+                        "name": "Multi-criteria feasibility assessment",
+                        "description": "Ability to assess proposals across statistical value, data availability, cost, automation compatibility, interoperability, reuse potential, and architectural compliance."
+                    },
+                    {
+                        "justification": "This analytical gap is systemic because it also underpins proposal preparation, strategic planning, and method selection.",
+                        "type": "SKILL",
+                        "name": "Cross-cutting: enterprise-aligned option appraisal",
+                        "description": "Ability to synthesize statistical, operational, and digital evidence into comparative recommendations aligned with agency-wide priorities."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Investigates client requirements for statistical information and determines the capacity and ability of existing or modified systems to meet these requirements.",
+                "element update reasoning": "Client requirement analysis will need to include stronger challenge of requested outputs where they do not align with reusable assets, standard architectures, or automation-first expectations. The role will need to distinguish between user need and supportable enterprise delivery options.",
+                "gaps": [
+                    {
+                        "justification": "The role must now balance client or subject-matter demands with enterprise digital constraints and justify where non-standard outputs are not viable or require exception approval.",
+                        "type": "SKILL",
+                        "name": "Requirements challenge and standardization negotiation",
+                        "description": "Ability to reframe client requirements into standardized, supportable, and reusable delivery options while managing expectations around exceptions."
+                    }
+                ]
+            }
+        ]
+    }
+]

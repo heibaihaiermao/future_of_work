@@ -102,6 +102,10 @@ def main():
 
         print(f"\nRole: {role_name}")
 
+        output_path = make_output_path(role_name)
+
+        results = []
+
         for implication in implication_list:
 
             title = implication["title"]
@@ -109,10 +113,6 @@ def main():
             print(f"Processing: {title}")
 
             classification = implication["group/level"]
-
-            output_path = (
-                make_output_path(title)
-            )
 
             if output_path.exists():
 
@@ -153,8 +153,6 @@ def main():
 
             print("Analyzer created")
 
-            results = []
-
             print("Calling analyze_update")
 
             raw = analyzer.analyze_update(
@@ -167,14 +165,14 @@ def main():
 
             results.append(parsed)
 
-            save_json(
-                results,
-                output_path
-            )
+        save_json(
+            results,
+            output_path
+        )
 
-            print(
-                f"Saved: {output_path.name}"
-            )
+        print(
+            f"Saved: {output_path.name}"
+        )
 
 
 if __name__ == "__main__":

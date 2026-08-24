@@ -41,50 +41,11 @@ Notes:
 """
 
 
-def get_job_family(
-    work_descriptions,
-    classification
-):
-
-    print("Looking for classification:", classification)
-
-    for family in work_descriptions:
-
-        print("Found classification:",
-              family.get("Classification"))
-
-        if family["Classification"].lower() == (
-            classification.lower()
-        ):
-            return family["Positions"]
-
-        available = [
-        family["Classification"]
-        for family in work_descriptions
-        ]
-
-        raise ValueError(
-        f"Classification not found: {classification}. "
-        f"Available classifications: {available}"
-        )       
-
-def select_position(
-    positions,
-    title
-):
-
-    matches = [
-        p
-        for p in positions
-        if p["Position Title"] == title
-    ]
-
-    if len(matches) != 1:
-        raise ValueError(
-            f"Position lookup failed: {title}"
-        )
-
-    return matches[0]
+"""
+===============================================================================
+File: work_description_finder.py
+===============================================================================
+"""
 
 
 def find_work_description(
@@ -93,12 +54,29 @@ def find_work_description(
     title
 ):
 
-    family = get_job_family(
-        work_descriptions,
-        classification
-    )
+    for family in work_descriptions:
 
-    return select_position(
-        family,
-        title
+        if (
+            family["Classification"].strip().lower()
+            !=
+            classification.strip().lower()
+        ):
+            continue
+
+        matches = [
+            position
+            for position in family["Positions"]
+            if (
+                position["Position Title"]
+                ==
+                title
+            )
+        ]
+
+        if len(matches) == 1:
+            return matches[0]
+
+    raise ValueError(
+        f"Position '{title}' not found "
+        f"for classification '{classification}'"
     )
