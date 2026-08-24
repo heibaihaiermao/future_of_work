@@ -98,70 +98,67 @@ def main():
         GSBPM_IMPACTS_FILE
     )
 
+    for role_name, implication_list in implications.items():
 
-    for implication in implications:
+        print(f"\nRole: {role_name}")
 
-        title = implication["title"]
+        for implication in implication_list:
 
-        print(f"Processing: {title}")
+            title = implication["title"]
 
-        classification = (
-            implication["classification"]
-        )
+            print(f"Processing: {title}")
 
-        output_path = (
-            make_output_path(title)
-        )
+            classification = implication["group/level"]
 
-        if output_path.exists():
-
-            print(
-                f"Skipping {title}"
+            output_path = (
+                make_output_path(title)
             )
 
-            continue
+            if output_path.exists():
 
-        print("Finding work description")
+                print(
+                    f"Skipping {title}"
+                )
 
-        work_description = (
-            find_work_description(
+                continue
+
+            print("Finding work description")
+
+            print("classification:", classification)
+            print("role_name:", role_name)
+
+            work_description = (
+                find_work_description(
                 work_descriptions,
                 classification,
-                title
+                role_name
+                )
             )
-        )
 
-        print("Building prompt")
+            print("Building prompt")
 
-        system_prompt = (
-            build_system_prompt(
-                work_description
+            system_prompt = (
+                build_system_prompt(
+                    work_description
+                )
             )
-        )
 
-        print("Creating analyzer")
+            print("Creating analyzer")
 
-        analyzer = (
-            FutureSkillsAnalyzer(
-                system_prompt
+            analyzer = (
+                FutureSkillsAnalyzer(
+                    system_prompt
+                )
             )
-        )
 
-        print("Analyzer created")
+            print("Analyzer created")
 
-        results = []
-
-        for update in implication[
-            "implicated phases and sub-processes"
-        ]:
+            results = []
 
             print("Calling analyze_update")
 
-            raw = (
-                analyzer
-                .analyze_update(
-                    str(update)
-                )
+            raw = analyzer.analyze_update(
+                implication["justification"]
             )
 
             print("analyze_update finished")
@@ -170,14 +167,14 @@ def main():
 
             results.append(parsed)
 
-        save_json(
-            results,
-            output_path
-        )
+            save_json(
+                results,
+                output_path
+            )
 
-        print(
-            f"Saved: {output_path.name}"
-        )
+            print(
+                f"Saved: {output_path.name}"
+            )
 
 
 if __name__ == "__main__":

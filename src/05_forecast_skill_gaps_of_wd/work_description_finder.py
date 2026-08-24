@@ -46,17 +46,27 @@ def get_job_family(
     classification
 ):
 
+    print("Looking for classification:", classification)
+
     for family in work_descriptions:
+
+        print("Found classification:",
+              family.get("Classification"))
 
         if family["Classification"].lower() == (
             classification.lower()
         ):
             return family["Positions"]
 
-    raise ValueError(
-        f"Classification not found: {classification}"
-    )
+        available = [
+        family["Classification"]
+        for family in work_descriptions
+        ]
 
+        raise ValueError(
+        f"Classification not found: {classification}. "
+        f"Available classifications: {available}"
+        )       
 
 def select_position(
     positions,

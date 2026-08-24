@@ -30,7 +30,7 @@ Created:
     2026-07-21
 
 Last Modified:
-    2026-07-21
+    2026-08-24
 
 Version:
     1.0.0
@@ -57,7 +57,7 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 
 WORK_DESCRIPTIONS_FILE = (
-    DATA_DIR / "wd_update_input" / "test_work.json"
+    DATA_DIR / "wd_update_input" / "test_JD.json"
 )
 
 GSBPM_IMPACTS_FILE = (
