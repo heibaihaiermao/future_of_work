@@ -8,14 +8,45 @@
       "Supervisor Position": null,
       "Branch/Division": null,
       "Key Activities": [
-        "HR A to Z index",
-        "HR service standards",
-        "Wellness at Statistics Canada",
-        "HR committees",
-        "HR contact list",
-        "Corporate service providers"
+        "Plans and conducts analysis of economic and financial statistical data and develops strategies, innovative methods and models to produce, evaluate, analyse and expand analytical outputs; evaluates analytical material for publication purposes.",
+        "Provides expert advisory and consultative services to data users, source data providers and other professionals on statistical and analytical outputs. The results of research provide input into the development of future standards,classifications and compilation methods.",
+        "Performs detailed analysis, evaluation and review of statistical methods and concepts to improve existing data and determines changes in the statistical needs of clients, assessing the impact on divisional programs and developing options and strategies to manage complex issues and multi-stakeholder relations.",
+        "Provides expert analysis and advice to senior managers in government and officials in industry, academia, other national and international institutions and special interest groups.",
+        "Line or matrix supervision of teams responsible for statistical outputs, research projects or studies and management of the financial resources attached to each project.",
+        "Represents departmental interests when presenting analytical research and modelling studies to a variety of stakeholders."
       ],
-      "technical activities, skills, responsibilities, or efforts": {},
+      "technical activities, skills, responsibilities, or efforts": {
+        "decision_making": [
+          "Plans and conducts comprehensive analyses and research covering multiple areas using economic and financial data based on industrial sectors, or geographical areas.",
+          "Analyses and assesses multiple data sources using various methods and techniques to determine their fitness for use and best utilization in the production of statistical program data. Uses in depth subject-matter knowledge to distill various sets of information into a coherent set of statistically robust indicators of economic performance.",
+          "Assesses client requirements for statistical information; recommends the conduct of feasibility studies or launching of projects; defines project objectives and scope; selects and evaluates research standards and techniques to be used in the conduct of studies and in the reporting of findings as well as the analytical techniques and quantitative analytical methods to be used to integrate and interpret large volumes of data.",
+          "Determines objectives and priorities for specific studies and provides expert advice and recommendations to senior management on course of action and outcomes or on significant issues affecting statistical programs.",
+          "Develops and procures in conformity to guidelines and policies new data sources, performs updates and modifications to program content and coverage to align to international frameworks or classifications and devises new concepts, definitions, methods and models to produce, evaluate, analyze, present and extend statistical information relating to the different subject matter domains (e.g. Energy, BOP, GFS, Environment, Prices)."
+        ],
+        "leadership_and_operational_management": [
+          "Manages project teams responsible for statistical analysis and studies. Plans and schedules the work, resolves conflicting priorities, ascertains human resource needs, determines the appropriate selection methods (internal and external resources / contractors) to meet program and project objectives, recruits staff, monitors progress towards achieving goals and deliverables, evaluates employee performance or reviews performance evaluations prepared by subordinates and approves training plans. Participates in, and/or contributes to, international work groups in the development, revision or updating of international frameworks, concepts or classifications relating to the different subject matter domains (e.g. Energy, BOP, GFS, Environment, Prices)."
+        ],
+        "communication": [
+          "Liaises with internal, external and international subject-matter experts to assess issues and new developments related concepts and measurements and proposes solutions. Chairs meetings with professionals from other divisions, departments, or international organizations, to discuss current trends and developments; to acquire up-to-date knowledge of subject matter, regulations and policies relating to statistical programs; and to develop consensus on the resolution of significant issues and the setting of priorities.",
+          "Provides expert advice and recommendations to senior management on the significant issues affecting the statistical programs and submits proposals and conceives initiatives addressing the areas of concern. Explains and elaborates on statistical program findings and their practical application and interpretation for data users. This information is used as input to decision making for a vast array of economic programs and other activities such as economic and social policy development and formulation. Interprets and adapts complex statistical data and information to provide decision makers at all levels of government, business and academics with relevant and timely statistics to support decision making regarding a vast array of economic programs and initiatives and for businesses to conduct their operations.",
+          "Provides guidance to internal, external and international subject-matter experts and data users, on methods of economic and statistical analysis.",
+          "Prepares, edits and evaluates analytical material to be published by Statistics Canada."
+        ],
+        "knowledge_of_specialized_fields": [
+          "In-depth knowledge of economic principles and theories, as they relate to a specialized area, to conduct comprehensive analysis of economic data for the purpose of producing reliable and relevant statistical program data and to provide expert advisory and consultative services to clients on program results and on the concepts and methods used.",
+          "Knowledge of advanced statistical theories, methods, concepts and practices which are used in the development, compilation, processing, analysis, marketing and dissemination of statistical data, in order to plan, develop and undertake research in specific areas of economic indicators.",
+          "In-depth knowledge of multiple related subject-matter areas, classification systems, concepts and international frameworks to integrate multiple data sources and ensure the overall coherence and soundness of the economic statistical program data produced.",
+          "Knowledge of quantitative analytical methods is required to integrate and interpret massive volumes of data and to provide technical advice to other professionals. Writing and editing skills to write papers, articles and reports and to determine and assess the design and content of studies, articles and reports that will be disseminated widely or published.",
+          "Knowledge of Statistics Canada's Departmental Project Management Framework (DPMF) and other methods, techniques and practices related to project management, human resources and financial management in order to plan projects/studies, manage staff, (either directly or within a matrix management environment) and administer a budget.",
+          "Knowledge of existing data bases, conceptual frameworks, and the statistical methods and procedures applicable to the work in order to plan, develop and direct a program of detailed analysis, evaluation and research, to improve existing data, develop new methods of producing, evaluating and analyzing data, develop new concepts and extend the application of divisional statistics. Knowledge is also required of other statistical programs (concepts, methods, and databases) related to the area of expertise to identify potential sources of information for special studies, to evaluate possible data conflicts, to integrate conceptually different data from other programs, to explain variances and to recommend changes to other statistical programs."
+        ],
+        "contextual_knowledge": [
+          "In-depth knowledge of the multiple related subject-matter areas and of the policies and programs of key client departments in order to assist them in identifying appropriate data to meet their needs and to provide expert advice and recommendations to senior management on the significant issues affecting the sector's programs. Knowledge of data users and suppliers from various levels of government and the private sector, to provide expert advice on statistical program data results, discuss data reporting agreements and ensure understanding of their needs.",
+          "Knowledge of current and emerging socio-economic issues in Canada and internationally as they relate to a statistical program (e.g. SNA, International Trade, BOP, GFS, Prices, etc.), to understand needs for new data, analyze the potential of new data sources and assess their burden for data providers and impact on the area of specialization and share expertise with international organizations.",
+          "Knowledge of international frameworks (e.g. Energy, SNA, GFS, Environment, Prices) and their conceptual building blocks to contribute in a meaningful way to the internal and international research agenda aimed at expanding and improving concepts and compilation methods.",
+          "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to explain legislative and policy requirements to other departments, agencies, industry, members of the public and the media. Knowledge of the Statistics and Privacy Acts is particularly important with respect to the security and confidentiality of information and data provided and to ensure that they and their subordinates do not release data or information in a form that would violate the provisions of the acts."
+        ]
+      },
       "Job Poster": {
         "Education": [
           "Graduation with a degree from a recognized post secondary institution with acceptable specialization in economics, sociology or statistics."

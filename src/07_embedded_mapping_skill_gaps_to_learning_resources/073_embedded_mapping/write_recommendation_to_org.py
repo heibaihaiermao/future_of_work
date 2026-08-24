@@ -13,7 +13,7 @@ RECOMMENDATIONS_DIR = Path(
 
 ORG_FILE = Path(
     r"..\..\03_implicating_GSBPM_updates_to_wd"
-    r"\data\organizational-structure-document\org.json"
+    r"\data\organizational-structure-document\org_updated.json"
 )
 
 OUTPUT_FILE = Path(
