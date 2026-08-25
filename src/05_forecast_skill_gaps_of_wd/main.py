@@ -98,70 +98,65 @@ def main():
         GSBPM_IMPACTS_FILE
     )
 
+    for role_name, implication_list in implications.items():
 
-    for implication in implications:
+        print(f"\nRole: {role_name}")
 
-        title = implication["title"]
-
-        print(f"Processing: {title}")
-
-        classification = (
-            implication["classification"]
-        )
-
-        output_path = (
-            make_output_path(title)
-        )
-
-        if output_path.exists():
-
-            print(
-                f"Skipping {title}"
-            )
-
-            continue
-
-        print("Finding work description")
-
-        work_description = (
-            find_work_description(
-                work_descriptions,
-                classification,
-                title
-            )
-        )
-
-        print("Building prompt")
-
-        system_prompt = (
-            build_system_prompt(
-                work_description
-            )
-        )
-
-        print("Creating analyzer")
-
-        analyzer = (
-            FutureSkillsAnalyzer(
-                system_prompt
-            )
-        )
-
-        print("Analyzer created")
+        output_path = make_output_path(role_name)
 
         results = []
 
-        for update in implication[
-            "implicated phases and sub-processes"
-        ]:
+        for implication in implication_list:
+
+            title = implication["title"]
+
+            print(f"Processing: {title}")
+
+            classification = implication["group/level"]
+
+            if output_path.exists():
+
+                print(
+                    f"Skipping {title}"
+                )
+
+                continue
+
+            print("Finding work description")
+
+            print("classification:", classification)
+            print("role_name:", role_name)
+
+            work_description = (
+                find_work_description(
+                work_descriptions,
+                classification,
+                role_name
+                )
+            )
+
+            print("Building prompt")
+
+            system_prompt = (
+                build_system_prompt(
+                    work_description
+                )
+            )
+
+            print("Creating analyzer")
+
+            analyzer = (
+                FutureSkillsAnalyzer(
+                    system_prompt
+                )
+            )
+
+            print("Analyzer created")
 
             print("Calling analyze_update")
 
-            raw = (
-                analyzer
-                .analyze_update(
-                    str(update)
-                )
+            raw = analyzer.analyze_update(
+                implication["justification"]
             )
 
             print("analyze_update finished")
