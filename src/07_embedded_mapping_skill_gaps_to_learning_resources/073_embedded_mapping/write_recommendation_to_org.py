@@ -13,7 +13,7 @@ RECOMMENDATIONS_DIR = Path(
 
 ORG_FILE = Path(
     r"..\..\03_implicating_GSBPM_updates_to_wd"
-    r"\data\organizational-structure-document\org_updated.json"
+    r"\data\organizational-structure-document\org.json"
 )
 
 OUTPUT_FILE = Path(
@@ -103,6 +103,9 @@ def extract_position_title(filename):
     # Normalize accidental whitespace.
     position_name = " ".join(position_name.split())
 
+    position_name.replace("economist sociologist", "sconomist - sociologist")
+
+
     return position_name
 
 
@@ -119,7 +122,8 @@ def normalize_title(title):
     if not isinstance(title, str):
         return ""
 
-    return " ".join(title.strip().lower().split())
+    # return " ".join(title.strip().lower().split())
+    return title.strip().lower()
 
 
 def find_position_training(org_data, target_title):
@@ -134,6 +138,8 @@ def find_position_training(org_data, target_title):
     matches = []
 
     normalized_target = normalize_title(target_title)
+    # print(normalized_target)
+    # print(target_title)
 
     if not isinstance(org_data, list):
         logger.error(
@@ -212,17 +218,21 @@ def find_position_training(org_data, target_title):
                     position_title = position.get("position title")
 
                     if position_title is None:
-                        logger.warning(
-                            f"Position is missing 'position title' at "
-                            f"field={field_index}, "
-                            f"branch={branch_index}, "
-                            f"division={division_index}, "
-                            f"position={position_index}"
-                        )
+                        # logger.warning(
+                        #     f"Position is missing 'position title' at "
+                        #     f"field={field_index}, "
+                        #     f"branch={branch_index}, "
+                        #     f"division={division_index}, "
+                        #     f"position={position_index}"
+                        # )
                         continue
 
                     if normalize_title(position_title) == normalized_target:
                         matches.append(position)
+
+                    if position_title == "Economist - Sociologist 4":
+                        print(normalize_title(position_title))
+                        print(normalized_target)
 
     return matches
 
@@ -351,11 +361,11 @@ def append_training(position, recommendation_data, source_file):
 
             appended = True
 
-            logger.info(
-                f"Added course "
-                f"'{filtered_recommendation.get('title_en', '<unknown>')}' "
-                f"to '{position.get('position title', '<unknown>')}'."
-            )
+            # logger.info(
+            #     f"Added course "
+            #     f"'{filtered_recommendation.get('title_en', '<unknown>')}' "
+            #     f"to '{position.get('position title', '<unknown>')}'."
+            # )
 
     return appended
 

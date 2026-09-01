@@ -3,7 +3,13 @@ import re
 from pathlib import Path
 
 from openpyxl import Workbook
-from openpyxl.styles import Font, Alignment
+from openpyxl.styles import (
+    Font,
+    Alignment,
+    PatternFill,
+    Border,
+    Side
+)
 from openpyxl.utils import get_column_letter
 
 
@@ -346,7 +352,7 @@ def training_to_excel_row(training, position):
 
         clean_url(training.get("link_en", "")),
 
-        "English" if training.get("title_en") else "",
+        "Both" if training.get("title_en") and training.get("title_fr") else "English",
 
         "Newly Recommended",
     ]
@@ -439,7 +445,16 @@ def format_position_sheet(ws):
 
     ws["A1"] = TEMPLATE_DESCRIPTION
 
-    ws["A1"].font = Font(bold=True)
+    ws["A1"].font = Font(
+        bold=True,
+        color="FF0000"
+    )
+
+    ws["A1"].fill = PatternFill(
+        fill_type="solid",
+        fgColor="D9D9D9"
+    )
+
     ws["A1"].alignment = Alignment(
         wrap_text=True,
         vertical="top"
@@ -467,7 +482,16 @@ def format_position_sheet(ws):
             value=header
         )
 
-        cell.font = Font(bold=True)
+        cell.font = Font(
+            bold=True,
+            color="FFFFFF"
+        )
+
+        cell.fill = PatternFill(
+            fill_type="solid",
+            fgColor="404040"
+        )
+
         cell.alignment = Alignment(
             wrap_text=True,
             vertical="top"
@@ -487,13 +511,44 @@ def format_position_sheet(ws):
             value=example
         )
 
-        cell.font = Font(italic=True)
+        cell.font = Font(
+            color="000000"
+        )
+
+        cell.fill = PatternFill(
+            fill_type="solid",
+            fgColor="D9D9D9"
+        )
+
         cell.alignment = Alignment(
             wrap_text=True,
             vertical="top"
         )
 
     ws.row_dimensions[4].height = 60
+
+    # --------------------------------------------------------
+    # Borders for template table cells
+    # --------------------------------------------------------
+
+    thin_black = Side(
+        style="thin",
+        color="000000"
+    )
+
+    border = Border(
+        left=thin_black,
+        right=thin_black,
+        top=thin_black,
+        bottom=thin_black
+    )
+
+    for row in range(3, 5):
+        for column in range(1, 14):
+            ws.cell(
+                row=row,
+                column=column
+            ).border = border
 
     # --------------------------------------------------------
     # Column widths
@@ -506,14 +561,14 @@ def format_position_sheet(ws):
     ]
 
     for column, width in enumerate(widths, start=1):
-        ws.column_dimensions[get_column_letter(column)].width = width
+        ws.column_dimensions[
+            get_column_letter(column)
+        ].width = width
 
-    # Freeze panes below the template.
-    ws.freeze_panes = "A5"
+    # No freeze panes.
 
     # Enable filters for the actual training table.
     ws.auto_filter.ref = "A3:M4"
-
 
 def add_training_rows(ws, position):
 
@@ -585,6 +640,306 @@ def add_training_rows(ws, position):
     if row_number > 5:
         ws.auto_filter.ref = f"A3:M{row_number - 1}"
 
+# ============================================================
+# General Onboarding Requirement Template
+# ============================================================
+
+GENERAL_ONBOARDING_DESCRIPTION = (
+    "This tab will summarize position-specific training that employees in each "
+    "position in the Division would need to take. One tab for each position in "
+    "the Division. This tab should include:\n"
+    "1) All required and recommended training that may be position specific, "
+    "as submitted by stakeholder responses AND\n"
+    "2) LLM-recommended training that can satisfy the observed skill gap\n\n"
+    'All AI recommended training should be coded as "Newly recommended" under column M.'
+)
+
+GENERAL_ONBOARDING_HEADERS = [
+    "Name of Training",
+    "Mandate Level",
+    "Training Category",
+    "Training Provider",
+    "When should an employee take this training?",
+    "What skills, knowledge or competency does this training target?",
+    "Classification and Levels of Target Learner",
+    "Are there pre-requistites to take it?",
+    "Is there a cost and if so, what is it?",
+    "How is this training delivered?",
+    "Where can Learners access this training?",
+    "Training Language of Delivery",
+    "Is this training required or recommended?",
+]
+
+GENERAL_ONBOARDING_EXAMPLES = [
+    "Name of courses, readings or onboarding requirements",
+    "Agency requirement, Branch requirement, Divisional requirement",
+    "Course/Training, Reading, Conference, Network",
+    "(Statcan,CSPS, Name of External Provider)",
+    "(Onboarding/Early/Ongoing)",
+    "(List Competencies in 5-6 words)",
+    "(List all Job Titles or grouping of positions that the training applies to)",
+    "(Yes/No)",
+    "",
+    "(Online Training, In-person Training, Reading, Conference, Networking Group, Seminar)",
+    "(Share link to the course registration OR course code if in LMS)",
+    "(English, French)",
+    "(Required/Currently Recommended/ Newly Recommended)",
+]
+
+
+def add_general_onboarding_requirement(ws):
+
+    # --------------------------------------------------------
+    # Row 1: Unique description
+    # --------------------------------------------------------
+
+    ws["A1"] = GENERAL_ONBOARDING_DESCRIPTION
+
+    ws.merge_cells(
+        start_row=1,
+        start_column=1,
+        end_row=1,
+        end_column=13
+    )
+
+    ws["A1"].font = Font(
+        bold=True,
+        color="FF0000"
+    )
+
+    ws["A1"].alignment = Alignment(
+        wrap_text=True,
+        vertical="top"
+    )
+
+    ws["A1"].fill = PatternFill(
+        fill_type="solid",
+        fgColor="D9D9D9"
+    )
+
+    ws.row_dimensions[1].height = 110
+
+    # --------------------------------------------------------
+    # Row 3: Unique headers
+    # --------------------------------------------------------
+
+    for column, header in enumerate(
+        GENERAL_ONBOARDING_HEADERS,
+        start=1
+    ):
+
+        cell = ws.cell(
+            row=3,
+            column=column,
+            value=header
+        )
+
+        cell.font = Font(
+            bold=True,
+            color="FFFFFF"
+        )
+
+        cell.fill = PatternFill(
+            fill_type="solid",
+            fgColor="404040"
+        )
+
+        cell.alignment = Alignment(
+            wrap_text=True,
+            vertical="top"
+        )
+
+    ws.row_dimensions[3].height = 60
+
+    # --------------------------------------------------------
+    # Row 4: Unique description/instruction row
+    # --------------------------------------------------------
+
+    for column, example in enumerate(
+        GENERAL_ONBOARDING_EXAMPLES,
+        start=1
+    ):
+
+        cell = ws.cell(
+            row=4,
+            column=column,
+            value=example
+        )
+
+        cell.font = Font(
+            color="000000"
+        )
+
+        cell.fill = PatternFill(
+            fill_type="solid",
+            fgColor="D9D9D9"
+        )
+
+        cell.alignment = Alignment(
+            wrap_text=True,
+            vertical="top"
+        )
+
+    ws.row_dimensions[4].height = 60
+
+    # --------------------------------------------------------
+    # Borders
+    # --------------------------------------------------------
+
+    thin_black = Side(
+        style="thin",
+        color="000000"
+    )
+
+    border = Border(
+        left=thin_black,
+        right=thin_black,
+        top=thin_black,
+        bottom=thin_black
+    )
+
+    for row in range(3, 5):
+
+        for column in range(1, 14):
+
+            ws.cell(
+                row=row,
+                column=column
+            ).border = border
+
+    # --------------------------------------------------------
+    # Column widths
+    # --------------------------------------------------------
+
+    widths = [
+        35, 25, 20, 25, 25,
+        40, 40, 25, 25, 30,
+        50, 25, 25
+    ]
+
+    for column, width in enumerate(
+        widths,
+        start=1
+    ):
+
+        ws.column_dimensions[
+            get_column_letter(column)
+        ].width = width
+
+    # Explicitly no freeze pane.
+    ws.freeze_panes = None
+
+    ws.auto_filter.ref = "A3:M4"
+    ws["A1"] = (
+        'This tab will summarize position-specific training that employees in each '
+        'position in the Division would need to take. One tab for each position in '
+        'the Division. This tab should include:\n\n'
+        '1. All required and recommended training that may be position specific, '
+        'as submitted by stakeholder responses AND\n\n'
+        '2. LLM-recommended training that can satisfy the observed skill gap\n\n'
+        'All AI recommended training should be coded as "Newly recommended" under column M.'
+    )
+
+    ws.merge_cells("A1:M1")
+
+    # Description formatting
+    ws["A1"].font = Font(
+        bold=True,
+        color="FF0000"
+    )
+    ws["A1"].fill = PatternFill(
+        fill_type="solid",
+        fgColor="D9D9D9"
+    )
+    ws["A1"].alignment = Alignment(
+        wrap_text=True,
+        vertical="top"
+    )
+
+    # Table headers
+    for column, header in enumerate(GENERAL_ONBOARDING_HEADERS, start=1):
+
+        cell = ws.cell(
+            row=3,
+            column=column,
+            value=header
+        )
+
+        cell.font = Font(
+            bold=True,
+            color="FFFFFF"
+        )
+
+        cell.fill = PatternFill(
+            fill_type="solid",
+            fgColor="404040"
+        )
+
+        cell.alignment = Alignment(
+            wrap_text=True,
+            vertical="top"
+        )
+
+    # Description/instruction row
+    for column, example in enumerate(GENERAL_ONBOARDING_EXAMPLES, start=1):
+
+        cell = ws.cell(
+            row=4,
+            column=column,
+            value=example
+        )
+
+        cell.font = Font(
+            color="000000"
+        )
+
+        cell.fill = PatternFill(
+            fill_type="solid",
+            fgColor="D9D9D9"
+        )
+
+        cell.alignment = Alignment(
+            wrap_text=True,
+            vertical="top"
+        )
+
+    # Borders
+    thin_black = Side(
+        style="thin",
+        color="000000"
+    )
+
+    border = Border(
+        left=thin_black,
+        right=thin_black,
+        top=thin_black,
+        bottom=thin_black
+    )
+
+    for row in range(3, 5):
+        for column in range(1, 14):
+            ws.cell(
+                row=row,
+                column=column
+            ).border = border
+
+    # Column widths
+    widths = [
+        35, 25, 20, 25, 25,
+        40, 40, 25, 25, 30,
+        50, 25, 25
+    ]
+
+    for column, width in enumerate(
+        widths,
+        start=1
+    ):
+        ws.column_dimensions[
+            get_column_letter(column)
+        ].width = width
+
+    # No freeze pane
+    ws.freeze_panes = None
 
 # ============================================================
 # Export Division
@@ -622,6 +977,7 @@ def export_division_to_xlsx(
     general_ws.title = "General Onboarding Requirement"
 
     # Blank for now, as requested.
+    add_general_onboarding_requirement(general_ws)
 
     # --------------------------------------------------------
     # Position sheets
