@@ -100,20 +100,26 @@ from openai import (
 
 
 def create_client(
-    dotenv_path="./model.env"
+    dotenv_path="../py.env"
 ):
 
-    load_dotenv(dotenv_path)
+    load_dotenv("../py.env")
+
+    endpoint = os.getenv(
+        "AZURE_OPENAI_ENDPOINT"
+    )
+
+    api_key = os.getenv(
+        "AZURE_OPENAI_API_KEY"
+    )
+
+    api_version = "2025-04-01-preview"
 
     client = AzureOpenAI(
-        azure_endpoint=os.getenv(
-            "AZURE_OPENAI_ENDPOINT"
-        ),
-        api_key=os.getenv(
-            "AZURE_OPENAI_API_KEY"
-        ),
-        api_version="2025-03-01-preview"
-    )
+            api_version=api_version,
+            azure_endpoint=endpoint,
+            api_key=api_key
+        )
 
     return client
 
@@ -136,9 +142,12 @@ class Assistant:
             )
         )
 
-        self.model = os.getenv(
-            "AZURE_OPENAI_DEPLOYMENT"
-        )
+        # self.model = os.getenv(
+        #     "AZURE_OPENAI_DEPLOYMENT"
+        # )
+
+        self.model = "gpt-4.1"
+
 
     def send_message(
         self,

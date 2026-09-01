@@ -1,0 +1,1386 @@
+{
+    "Knowledge of digital data inventories and metadata-driven discovery": [
+        {
+            "score": 0.3351868914527598,
+            "id": "DDN3-J04",
+            "title_en": "Principles for the Use of Disaggregated Data (DDN3-J04)",
+            "description_en": "This job aid serves as an introduction to disaggregated data, its sources and its applications, including dos and don'ts.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN3-J04&cm_locale=en",
+            "title_fr": "Principes d’utilisation des données désagrégées (DDN3-J04)",
+            "description_fr": "Cet outil de travail fournit une introduction aux données désagrégées, à leur provenance et à leurs applications, ainsi que les meilleures pratiques de leur utilisation.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN3-J04&cm_locale=fr ",
+            "topics": "\"Digital, data and design/Numérique, données et conception\",Working with others/Travailler ensemble",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Data/Données"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Artificial Intelligence Techniques",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+                        "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+                        "Use open-source libraries to build basic models.",
+                        "Perform effective prompt engineering.",
+                        "Evaluate the quality of LLM's."
+                    ]
+                },
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.33031656264089265,
+            "id": "COR4-J04",
+            "title_en": "Statement of Work Checklist (COR4-J04)",
+            "description_en": "This job aid identifies the questions to ask when reviewing a statement of work (SOW).",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=en",
+            "title_fr": "Liste de vérification de l'énoncé des travaux (COR4-J04)",
+            "description_fr": "Cet outil de travail présente les questions à poser lors de l'examen d'un énoncé des travaux (EDT).",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales,Communication/Communication",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Procurement, Materiel Management, and Real Property/Approvisionnement, gestion du matériel, et bien immobiliers"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Operational feasibility assessment": [
+        {
+            "score": 0.3244512848436693,
+            "id": "DDN2-J17",
+            "title_en": "Innovation Scorecard (DDN2-J17) ",
+            "description_en": "Use this job aid to assess an idea by assigning a score to each criterion. The best idea is developed further. \n\nThe scorecard is divided into sections that assess strategic fit, opportunity, desirability, feasibility and viability. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J17&cm_locale=en",
+            "title_fr": "Tableau de bord de l'innovation (DDN2-J17) ",
+            "description_fr": "Utilisez cet outil de travail pour évaluer une idée en attribuant une note pour chaque critère. La meilleure idée sera concrétisée.  \n\nLa fiche est divisée en sections qui permettent d’évaluer la concordance stratégique, la possibilité, la désirabilité, la faisabilité et la viabilité.  ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J17&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN246 - The Design Process: Ideation and Conceptualization/Le processus de conception : Idéation et conceptualisation ",
+            "competencies": [
+                {
+                    "competency": "Thinking Things Through (Create Vision and Strategy)",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Ask the right questions to identify relevant problems/issues.",
+                        "Frame questions explicitly for data to inform answers.",
+                        "Consult with appropriate authorities to identify what constitutes high-quality evidence.",
+                        "Recognize connections and develop short-term plans and recommendations.",
+                        "Use cause and effect relationships to analyze problems systematically.",
+                        "Resolve problems in a sound, logical and decisive manner."
+                    ]
+                },
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.3211361965579033,
+            "id": "FON1-J04",
+            "title_en": "Policy Development: Building an Implementation Strategy (FON1-J04)",
+            "description_en": "This job aid is a worksheet for estimating the overall time frame and effort required\nto successfully build a policy implementation strategy and gauge its viability. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J04&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Concevoir une stratégie de mise en œuvre (FON1-J04)",
+            "description_fr": "Cet outil de travail est une feuille de calcul permettant d'estimer l'échéancier général et les efforts requis pour concevoir une stratégie réussie de mise en œuvre d'une politique et évaluer sa viabilité. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J04&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "FON102 - Policy Implementation Case Study: The 2030 Agenda for Sustainable Development/Étude de cas sur la mise en œuvre des politiques : le Programme de développement durable à l'horizon 2030",
+            "competencies": [
+                {
+                    "competency": "Thinking Things Through (Create Vision and Strategy)",
+                    "proficiency": "Intermediate",
+                    "indicators": [
+                        "Respond to complex analytical issues.",
+                        "Develop short- and long-term plans and recommendations.",
+                        "Use cause and effect relationships to analyze problems, interpret information, and develop recommendations."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Intermediate",
+                    "indicators": [
+                        "Collaborate with business teams to identify key business objectives and tailor data science projects to align with those objectives.",
+                        "Assess the potential impact of data science solutions on business performance and communicate how the findings can influence business decisions.",
+                        "Conduct market research or competitive analysis to understand industry trends and incorporate relevant external data into business decisions.",
+                        "Work with cross-functional teams (e.g., marketing, finance, product) to ensure data projects are aligned with business priorities.",
+                        "Tie visualizations explicitly to business rationale and intended use."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Structured documentation for audit and design handover": [
+        {
+            "score": 0.29067348196487847,
+            "id": "FON1-J02",
+            "title_en": "Policy Development: Building Options and Recommendations (FON1-J02)",
+            "description_en": "This job aid explains the decision-making process of weighing options and making recommendations that support policy development. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Formuler des options et des recommandations (FON1-J02)",
+            "description_fr": "Cet outil de travail explique le processus décisionnel permettant de soupeser des options et de formuler des recommandations pour appuyer l'élaboration de politiques. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=fr",
+            "topics": "Communication/Communication,Project and product management/Gestion de produits et de projets,Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                },
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.28969717865858546,
+            "id": "COR5-V06",
+            "title_en": "Transfer Procedures for Government Records (COR5-V06)",
+            "description_en": "This event recording introduces Library and Archives Canada’s new operational metadata standards and procedures for the transfer of digital, physical and analogue government records.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR5-V06&cm_locale=en",
+            "title_fr": "Procédures pour le transfert des documents gouvernementaux (COR5-V06)",
+            "description_fr": "Cet enregistrement d’événement présente la nouvelle norme opérationnelle sur les métadonnées de Bibliothèque et Archives Canada et les procédures pour le transfert des documents gouvernementaux numériques, physiques et analogiques.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR5-V06&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Video",
+            "DeliveryMethod-fr": "Video",
+            "type": "Video/Vidéo",
+            "duration": "1 hour/1 h",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Information Management/Gestion de l'information"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Client needs diagnostics and request triage": [
+        {
+            "score": 0.3502086573256239,
+            "id": "TRN160",
+            "title_en": "Customer Service: Discovering Customer Needs (TRN160)",
+            "description_en": "Excellent client service begins with being curious about the needs of others. This online self-paced course explains the value of empathy and asking open-ended questions when interacting with customers or clients. Participants will learn techniques to help them clarify a client's stated needs, as well as their unstated needs, for a more responsive and satisfying client service experience.\n\n \n\nTopics include:\n\n \n\n·       offering clients your undivided time and attention\n\n·       asking follow-up questions\n\n·       listening to what is said and what is not said\n\n·       avoiding common pitfalls\n\n·       exceeding customer expectations through advocacy and education",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=TRN160&cm_locale=en",
+            "title_fr": "Service à la clientèle : cerner les besoins de la clientèle (TRN160)",
+            "description_fr": "Pour offrir un excellent service, il faut de prime abord faire preuve de curiosité à l'égard des besoins des clients. Ce cours en ligne à rythme libre souligne l'importance de l'empathie et des questions ouvertes dans le cadre des communications avec la clientèle. Les participants apprendront des méthodes pour mieux cerner les besoins énoncés et sous-jacents des clients afin d'offrir une expérience de service à la clientèle satisfaisante et concluante.\n\n\nSujets traités :\n\n\n·       offrir toute sa présence et toute son attention aux clients;\n\n·       formuler des questions de suivi;\n\n·       percevoir les énoncés et saisir les non-dits;\n\n·       éviter les pièges courants;\n\n·       dépasser les attentes des clients grâce à la défense des intérêts et l'éducation.\n\n",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=TRN160&cm_locale=fr ",
+            "topics": "Communication,Working with others/Travailler ensemble,Government operations/Opérations gouvernementales",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Online",
+            "DeliveryMethod-fr": "En ligne",
+            "type": "Online self-paced/En ligne à son propre rythme",
+            "duration": "1 hour/1 h ",
+            "domain": "Transferable Skills/Compétences transférables",
+            "subcategories": [
+                "Communications and Collaboration/Communications et collaboration"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "TRN236 - Rapport Building in Customer Service/Tisser des liens dans le cadre du service clientèle,TRN241 - Dealing with Customer Service Incidents and Complaints/Gestion des incidents et des réclamations dans le cadre du service à la clientèle",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Artificial Intelligence Techniques",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+                        "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+                        "Use open-source libraries to build basic models.",
+                        "Perform effective prompt engineering.",
+                        "Evaluate the quality of LLM's."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.33281890563566163,
+            "id": "COR5-J29",
+            "title_en": "Processing an Access to Information and Privacy Request: One Step at a Time (COR5-J29)",
+            "description_en": "This job aid outlines a step-by-step approach for responding to an access to information and privacy (ATIP) request.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR5-J29&cm_locale=en",
+            "title_fr": "Traiter une demande d'accès à l'information et de renseignements personnels : une étape à la fois (COR5-J29)",
+            "description_fr": "Cet outil de travail présente les étapes à suivre pour répondre à une demande d'accès à l'information et de protection des renseignements personnels (AIPRP).",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR5-J29&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales,\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Information Management/Gestion de l'information"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "COR502 - Access to Information and Privacy Fundamentals/Cours de base sur l'accès à l'information et la protection des renseignements personnels",
+            "competencies": [
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                },
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Cost and timeliness analysis": [
+        {
+            "score": 0.34869724804276114,
+            "id": "COR2-V09",
+            "title_en": "Financial Management Essentials Series: Credible Costing in Decision-Making (COR2-V09)",
+            "description_en": "This event recording examines the implications of costing in decision-making by outlining the roles and processes involved in producing credible cost estimates, and drawing on the Government of Canada’s Guide to Costing and Guide to Assessing Cost Estimates.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR2-V09&cm_locale=en",
+            "title_fr": "Série sur les principes fondamentaux de la gestion financière : S’appuyer sur des renseignements crédibles sur l’établissement des coûts pour la prise de décision (COR2-V09)",
+            "description_fr": "Cet enregistrement d’événement porte sur les implications de l’établissement des coûts dans la prise de décision, alors qu’on y décrit les principaux rôles et processus impliqués dans la production d’estimations de coûts fiables en s’appuyant sur le Guide d’établissement des coûts et le Guide d’évaluation des estimations de coûts du gouvernement du Canada.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR2-V09&cm_locale=fr ",
+            "topics": "Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Video",
+            "DeliveryMethod-fr": "Video",
+            "type": "Video/Vidéo",
+            "duration": "1.5 hours/1,5 h",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Finance"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.32357081517804687,
+            "id": "TRN305",
+            "title_en": "Develop the Project Schedule (PMBOK® Guide Sixth Edition) (TRN305)",
+            "description_en": "The role of an effective project manager is to ensure that a project progresses on time and according to a carefully planned schedule. This online self-paced course explores how to facilitate the management of a project schedule using the Estimate Activity Durations and Develop Schedule processes. Participants will learn how to estimate project activity durations and develop a project schedule using those estimates.\n\nTopics include:\n\n- planning, creating and using estimates to inform activity duration\n- creating a project schedule using different tools and techniques\n- stress testing a completed schedule using the critical path method\n\nNotes:\n\nThis course is designed help learners meet continuing education requirements for Project Management Institute (PMI®) credential holders. By completing this course, learners can obtain Professional Development Units (PDUs) for maintaining their PMI® certifications.\n\nThis course is aligned with the (Project Management Body of Knowledge) PMBOK® Guide – Sixth Edition, published by PMI, Incorporated, 2018. Copyright and all rights reserved. Material from this publication has been reproduced with the permission of PMI, Incorporated. PMBOK, PMI, PMP and CAPM are registered trademarks of the Project Management Institute, Incorporated.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=TRN305&cm_locale=en",
+            "title_fr": "Création de l'échéancier du projet (Guide PMBOK® Sixième édition) (TRN305)",
+            "description_fr": "Un gestionnaire de projet efficace veille à ce que le projet se déroule dans le respect des délais et d'un échéancier soigneusement établi. Ce cours en ligne à rythme libre explore la façon de faciliter la gestion de l'échéancier d'un projet au moyen des processus suivants : estimer la durée des activités et élaborer l'échéancier. Les participants apprendront à estimer la durée des activités d'un projet ainsi qu'à établir un échéancier de projet à partir de ces estimations.\n \nSujets traités :\n \n- planifier, établir et utiliser des estimations pour déterminer la durée des activités;\n- élaborer un échéancier de projet en utilisant divers outils et techniques;\n- soumettre l'échéancier à une simulation de crise à l'aide de la méthode du chemin critique.\n \nRemarques :\n \nCe cours vise à aider les apprenants à respecter les exigences relatives à la formation continue auxquelles doivent satisfaire les détenteurs de certifications du Project Management Institute (PMI®). En suivant ce cours, les apprenants peuvent obtenir des unités de perfectionnement professionnel (UPP) qui leur permettront de conserver leurs certifications du PMI®.\n \nCe cours est basé sur le (Guide du corpus des connaissances en management de projet) Guide PMBOK® - Sixième édition, publié par le PMI Incorporé, 2018. Protégé par les droits d'auteur et tous droits réservés. Le contenu tiré de cette publication a été reproduit avec l'autorisation du PMI, Incorporé. PMBOK, PMI, PMP et CAPM sont des marques déposées du Project Management Institute Incorporé.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=TRN305&cm_locale=fr",
+            "topics": "Project and product management/Gestion de produits et de projets",
+            "audience": "Employees/Employés,Supervisors/Superviseurs,Managers/Gestionnaires",
+            "DeliveryMethod": "Online",
+            "DeliveryMethod-fr": "En ligne",
+            "type": "Online self-paced/En ligne à son propre rythme",
+            "duration": "1 hour/1 h ",
+            "domain": "Transferable Skills/Compétences transférables",
+            "subcategories": [
+                "Project Management/Gestion de project"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Knowledge of automation capabilities and readiness criteria": [
+        {
+            "score": 0.3400128142663714,
+            "id": "DDN2-J10",
+            "title_en": "Research Planning Checklist (DDN2-J10)",
+            "description_en": "This job aid offers a checklist made up of questions that need to be answered before performing design research. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J10&cm_locale=en",
+            "title_fr": "Liste de vérification pour la planification de la recherche (DDN2-J10)",
+            "description_fr": "Cet outil de travail offre une liste de vérification constituée de questions auxquelles vous devez répondre avant d’effectuer une recherche en conception. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J10&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN244 - The Design Process: Design Research/Processus de conception : Recherche en conception",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Intermediate",
+                    "indicators": [
+                        "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+                        "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+                        "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+                        "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing).",
+                        "Specify needs regarding tools and infrastructure requirements (e.g., compute capacity).",
+                        "Create and maintain structured metadata; cleaning and manipulating structured metadata.",
+                        "Publish data in machine-readable format.",
+                        "Review and analyze outliers and their role as a potential root cause for quality issues.",
+                        "Retain/maintain original data for outcome comparison.",
+                        "Prioritize high-value datasets for interoperability.",
+                        "Provide transparent documentation and rationale for dataset fitness for use.",
+                        "Apply agentic AI tools (e.g., LLMs, workflow orchestrators) to automate data ingestion, cleaning, and transformation."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.3377285543090548,
+            "id": "COR4-J04",
+            "title_en": "Statement of Work Checklist (COR4-J04)",
+            "description_en": "This job aid identifies the questions to ask when reviewing a statement of work (SOW).",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=en",
+            "title_fr": "Liste de vérification de l'énoncé des travaux (COR4-J04)",
+            "description_fr": "Cet outil de travail présente les questions à poser lors de l'examen d'un énoncé des travaux (EDT).",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales,Communication/Communication",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Procurement, Materiel Management, and Real Property/Approvisionnement, gestion du matériel, et bien immobiliers"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Evidence-based process improvement analysis": [
+        {
+            "score": 0.31992423746355997,
+            "id": "DDN3-A13",
+            "title_en": "From Insights to Action: The Process of Data Driven Decision Making (DDN3-A13)",
+            "description_en": "This article offers a step-by-step guide to turning raw data into meaningful insights, helping organizations to make better informed, evidence-based decisions that drive real-world results.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN3-A13&cm_locale=en",
+            "title_fr": "Des conclusions à l’action : le processus de prise de décisions fondées sur des données (DDN3-A13)",
+            "description_fr": "L’article offre un guide étape par étape afin de convertir des données brutes en conclusions pertinentes, afin d’aider les organisations à prendre des décisions éclairées et fondées sur des données probantes pour atteindre des résultats concrets.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN3-A13&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Article",
+            "DeliveryMethod-fr": "Article",
+            "type": "Article/Article",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Data/Données"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN307 - Making Data-Driven Decisions/Prendre des décisions basées sur les données,DDN320 - Foundations of Data Analysis: The Analytical Process/Fondements de l’analyse des données : le processus analytique,DDN318 - Guiding Analysis for Effective Data-Driven Decision-Making/Guider l'analyse pour prendre des décisions efficaces fondées sur les données,TRN505 - Evidence-Informed Decision-Making: Weighing Evidence for Policy Decisions/Prise de décision fondée sur les données probantes : Pondération de la preuve dans la prise de décision stratégique,TRN504 - Evidence-Informed Decision-Making: Exploring Bias and Uncertainty/Prise de décision fondée sur les données probantes : exploration des biais et de l'incertitude",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.30987667009340863,
+            "id": "FON1-J02",
+            "title_en": "Policy Development: Building Options and Recommendations (FON1-J02)",
+            "description_en": "This job aid explains the decision-making process of weighing options and making recommendations that support policy development. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Formuler des options et des recommandations (FON1-J02)",
+            "description_fr": "Cet outil de travail explique le processus décisionnel permettant de soupeser des options et de formuler des recommandations pour appuyer l'élaboration de politiques. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=fr",
+            "topics": "Communication/Communication,Project and product management/Gestion de produits et de projets,Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                },
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Communication of operational constraints and digital readiness": [
+        {
+            "score": 0.34958463797691386,
+            "id": "FON1-J02",
+            "title_en": "Policy Development: Building Options and Recommendations (FON1-J02)",
+            "description_en": "This job aid explains the decision-making process of weighing options and making recommendations that support policy development. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Formuler des options et des recommandations (FON1-J02)",
+            "description_fr": "Cet outil de travail explique le processus décisionnel permettant de soupeser des options et de formuler des recommandations pour appuyer l'élaboration de politiques. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=fr",
+            "topics": "Communication/Communication,Project and product management/Gestion de produits et de projets,Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                },
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.3392420664013424,
+            "id": "DDN2-A31",
+            "title_en": "Navigating Complexity in the Digital Era (DDN2-A31)",
+            "description_en": "This article navigates through the challenges and opportunities brought on by digitization, with a focus on the development and implementation of policy and the delivery of new digital services. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-A31&cm_locale=en",
+            "title_fr": "Composer avec la complexité à l'ère du numérique (DDN2-A31)",
+            "description_fr": "Cet article porte sur les difficultés et les occasions qui découlent de la numérisation, et se penche plus précisément sur l'élaboration et la mise en œuvre de politiques ainsi que sur la prestation de nouveaux services numériques.  ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-A31&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Article",
+            "DeliveryMethod-fr": "Article",
+            "type": "Article/Article",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Intermediate",
+                    "indicators": [
+                        "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+                        "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+                        "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+                        "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing).",
+                        "Specify needs regarding tools and infrastructure requirements (e.g., compute capacity).",
+                        "Create and maintain structured metadata; cleaning and manipulating structured metadata.",
+                        "Publish data in machine-readable format.",
+                        "Review and analyze outliers and their role as a potential root cause for quality issues.",
+                        "Retain/maintain original data for outcome comparison.",
+                        "Prioritize high-value datasets for interoperability.",
+                        "Provide transparent documentation and rationale for dataset fitness for use.",
+                        "Apply agentic AI tools (e.g., LLMs, workflow orchestrators) to automate data ingestion, cleaning, and transformation."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Knowledge of cross-program data assets and reuse opportunities": [
+        {
+            "score": 0.3736923153025245,
+            "id": "FON1-J02",
+            "title_en": "Policy Development: Building Options and Recommendations (FON1-J02)",
+            "description_en": "This job aid explains the decision-making process of weighing options and making recommendations that support policy development. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Formuler des options et des recommandations (FON1-J02)",
+            "description_fr": "Cet outil de travail explique le processus décisionnel permettant de soupeser des options et de formuler des recommandations pour appuyer l'élaboration de politiques. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=fr",
+            "topics": "Communication/Communication,Project and product management/Gestion de produits et de projets,Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                },
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.34547350305990404,
+            "id": "COR4-J04",
+            "title_en": "Statement of Work Checklist (COR4-J04)",
+            "description_en": "This job aid identifies the questions to ask when reviewing a statement of work (SOW).",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=en",
+            "title_fr": "Liste de vérification de l'énoncé des travaux (COR4-J04)",
+            "description_fr": "Cet outil de travail présente les questions à poser lors de l'examen d'un énoncé des travaux (EDT).",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales,Communication/Communication",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Procurement, Materiel Management, and Real Property/Approvisionnement, gestion du matériel, et bien immobiliers"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Upstream request assessment and gatekeeping": [
+        {
+            "score": 0.33854257970084684,
+            "id": "DDN2-J02",
+            "title_en": "Identifying Common Product and Service Design Problems (DDN2-J02)",
+            "description_en": "This job aid presents the 5 Ws (who, what, when, where, why) plus how questioning technique to help identify and understand the root cause of common design problems when designing solutions, products or services.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J02&cm_locale=en",
+            "title_fr": "Recenser les problèmes courants de conception de produits et services (DDN2-J02)",
+            "description_fr": "Cet outil de travail présente les six questions (qui, quoi, quand, où, pourquoi et comment) aidant à trouver et à comprendre les principales causes de problèmes courants lors de la conception de solutions, de produits ou de services.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J02&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN237 - The Design Process: Understanding the Problem/Processus de conception : comprendre le problème",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.33233483066878383,
+            "id": "DDN2-J14",
+            "title_en": "Making an Elevator Pitch (DDN2-J14) ",
+            "description_en": "This job aid serves as a guide for developing a structured \"how might we\" question as a way to generate new ideas for solving known problems by reframing a user problem into an opportunity.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J14&cm_locale=en",
+            "title_fr": "Faire un présentation éclair (DDN2-J14) ",
+            "description_fr": "Cet outil de travail présente un modèle de présentation éclair, soit une explication brève, mais convaincante, visant à susciter l'intérêt et à obtenir un soutien pour une nouvelle idée, un nouveau produit ou un nouveau service.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J14&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN246 - The Design Process: Ideation and Conceptualization/Le processus de conception : Idéation et conceptualisation ",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Digital options analysis": [
+        {
+            "score": 0.36856046870841674,
+            "id": "DDN2-J10",
+            "title_en": "Research Planning Checklist (DDN2-J10)",
+            "description_en": "This job aid offers a checklist made up of questions that need to be answered before performing design research. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J10&cm_locale=en",
+            "title_fr": "Liste de vérification pour la planification de la recherche (DDN2-J10)",
+            "description_fr": "Cet outil de travail offre une liste de vérification constituée de questions auxquelles vous devez répondre avant d’effectuer une recherche en conception. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J10&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN244 - The Design Process: Design Research/Processus de conception : Recherche en conception",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Intermediate",
+                    "indicators": [
+                        "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+                        "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+                        "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+                        "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing).",
+                        "Specify needs regarding tools and infrastructure requirements (e.g., compute capacity).",
+                        "Create and maintain structured metadata; cleaning and manipulating structured metadata.",
+                        "Publish data in machine-readable format.",
+                        "Review and analyze outliers and their role as a potential root cause for quality issues.",
+                        "Retain/maintain original data for outcome comparison.",
+                        "Prioritize high-value datasets for interoperability.",
+                        "Provide transparent documentation and rationale for dataset fitness for use.",
+                        "Apply agentic AI tools (e.g., LLMs, workflow orchestrators) to automate data ingestion, cleaning, and transformation."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.3605924650405353,
+            "id": "FON1-J02",
+            "title_en": "Policy Development: Building Options and Recommendations (FON1-J02)",
+            "description_en": "This job aid explains the decision-making process of weighing options and making recommendations that support policy development. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Formuler des options et des recommandations (FON1-J02)",
+            "description_fr": "Cet outil de travail explique le processus décisionnel permettant de soupeser des options et de formuler des recommandations pour appuyer l'élaboration de politiques. ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J02&cm_locale=fr",
+            "topics": "Communication/Communication,Project and product management/Gestion de produits et de projets,Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                },
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Decision-support estimation": [
+        {
+            "score": 0.34436599435947773,
+            "id": "COR2-V09",
+            "title_en": "Financial Management Essentials Series: Credible Costing in Decision-Making (COR2-V09)",
+            "description_en": "This event recording examines the implications of costing in decision-making by outlining the roles and processes involved in producing credible cost estimates, and drawing on the Government of Canada’s Guide to Costing and Guide to Assessing Cost Estimates.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR2-V09&cm_locale=en",
+            "title_fr": "Série sur les principes fondamentaux de la gestion financière : S’appuyer sur des renseignements crédibles sur l’établissement des coûts pour la prise de décision (COR2-V09)",
+            "description_fr": "Cet enregistrement d’événement porte sur les implications de l’établissement des coûts dans la prise de décision, alors qu’on y décrit les principaux rôles et processus impliqués dans la production d’estimations de coûts fiables en s’appuyant sur le Guide d’établissement des coûts et le Guide d’évaluation des estimations de coûts du gouvernement du Canada.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR2-V09&cm_locale=fr ",
+            "topics": "Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Video",
+            "DeliveryMethod-fr": "Video",
+            "type": "Video/Vidéo",
+            "duration": "1.5 hours/1,5 h",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Finance"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.31849108605842413,
+            "id": "TRN305",
+            "title_en": "Develop the Project Schedule (PMBOK® Guide Sixth Edition) (TRN305)",
+            "description_en": "The role of an effective project manager is to ensure that a project progresses on time and according to a carefully planned schedule. This online self-paced course explores how to facilitate the management of a project schedule using the Estimate Activity Durations and Develop Schedule processes. Participants will learn how to estimate project activity durations and develop a project schedule using those estimates.\n\nTopics include:\n\n- planning, creating and using estimates to inform activity duration\n- creating a project schedule using different tools and techniques\n- stress testing a completed schedule using the critical path method\n\nNotes:\n\nThis course is designed help learners meet continuing education requirements for Project Management Institute (PMI®) credential holders. By completing this course, learners can obtain Professional Development Units (PDUs) for maintaining their PMI® certifications.\n\nThis course is aligned with the (Project Management Body of Knowledge) PMBOK® Guide – Sixth Edition, published by PMI, Incorporated, 2018. Copyright and all rights reserved. Material from this publication has been reproduced with the permission of PMI, Incorporated. PMBOK, PMI, PMP and CAPM are registered trademarks of the Project Management Institute, Incorporated.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=TRN305&cm_locale=en",
+            "title_fr": "Création de l'échéancier du projet (Guide PMBOK® Sixième édition) (TRN305)",
+            "description_fr": "Un gestionnaire de projet efficace veille à ce que le projet se déroule dans le respect des délais et d'un échéancier soigneusement établi. Ce cours en ligne à rythme libre explore la façon de faciliter la gestion de l'échéancier d'un projet au moyen des processus suivants : estimer la durée des activités et élaborer l'échéancier. Les participants apprendront à estimer la durée des activités d'un projet ainsi qu'à établir un échéancier de projet à partir de ces estimations.\n \nSujets traités :\n \n- planifier, établir et utiliser des estimations pour déterminer la durée des activités;\n- élaborer un échéancier de projet en utilisant divers outils et techniques;\n- soumettre l'échéancier à une simulation de crise à l'aide de la méthode du chemin critique.\n \nRemarques :\n \nCe cours vise à aider les apprenants à respecter les exigences relatives à la formation continue auxquelles doivent satisfaire les détenteurs de certifications du Project Management Institute (PMI®). En suivant ce cours, les apprenants peuvent obtenir des unités de perfectionnement professionnel (UPP) qui leur permettront de conserver leurs certifications du PMI®.\n \nCe cours est basé sur le (Guide du corpus des connaissances en management de projet) Guide PMBOK® - Sixième édition, publié par le PMI Incorporé, 2018. Protégé par les droits d'auteur et tous droits réservés. Le contenu tiré de cette publication a été reproduit avec l'autorisation du PMI, Incorporé. PMBOK, PMI, PMP et CAPM sont des marques déposées du Project Management Institute Incorporé.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=TRN305&cm_locale=fr",
+            "topics": "Project and product management/Gestion de produits et de projets",
+            "audience": "Employees/Employés,Supervisors/Superviseurs,Managers/Gestionnaires",
+            "DeliveryMethod": "Online",
+            "DeliveryMethod-fr": "En ligne",
+            "type": "Online self-paced/En ligne à son propre rythme",
+            "duration": "1 hour/1 h ",
+            "domain": "Transferable Skills/Compétences transférables",
+            "subcategories": [
+                "Project Management/Gestion de project"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Project Management",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+                        "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+                        "Understand and follow project timelines and task lists.",
+                        "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+                        "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Requirements elicitation using structured digital-first methods": [
+        {
+            "score": 0.34320806339658266,
+            "id": "COR407",
+            "title_en": "Developing a Statement of Work and Evaluation Criteria (COR407)",
+            "description_en": "Departments and agencies use a variety of solicitation methods to acquire goods and services through competitive contracts. This course covers two critical elements of the solicitation process: the statement of work and the evaluation criteria for bids submitted. Participants will learn how to write proper requirements to obtain their desired product or service and how to set evaluation criteria that will help select the appropriate bidder.\n\nTopics include:\n\n• identifying the components of a proper statement of work\n• understanding the implications of trade agreements\n• defining the requirements of the contract\n• assessing, managing and mitigating contract risks\n• selecting a contractor\n\nNotes:\n\nTo gain a better understanding of the subject matter, participants are strongly recommended to complete Overview of Procurement (COR403) or the combination of Procurement Fundamental (COR401) and The Procurement Process (COR402) before registering to COR407.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR407&cm_locale=en",
+            "title_fr": "Élaboration d'un énoncé de travail et des critères d'évaluation (COR407)",
+            "description_fr": "Les ministères et organismes fédéraux utilisent un éventail de méthodes d'invitation à soumissionner pour acquérir des biens et des services par l'entremise de contrats concurrentiels. Ce cours aborde deux éléments importants du processus d'invitation à soumissionner : l'énoncé de travail et les critères d'évaluation des soumissions reçues. Les participants apprendront à rédiger des exigences appropriées de manière à obtenir les produits et les services souhaités ainsi qu'à établir des critères d'évaluation qui faciliteront la sélection du meilleur soumissionnaire.\n\nSujets traités :\n\n• connaître les composantes d'un bon énoncé de travail;\n• comprendre les répercussions des accords commerciaux;\n• définir les exigences d'un contrat;\n• évaluer, gérer et atténuer les risques liés à un contrat;\n• sélectionner un entrepreneur.\n\nRemarques :\n\nAfin de mieux comprendre le sujet, il est fortement recommandé de terminer le cours Aperçu des acquisitions (COR403) ou les deux cours Principes fondamentaux de l'approvisionnement (COR401) et Le processus d'approvisionnement (COR402) avant de s'inscrire au cours Élaboration d'un énoncé de travail et des critères d'évaluation (COR407).",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR407&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Virtual Classroom",
+            "DeliveryMethod-fr": "Classe virtuelle",
+            "type": "Virtual instructor-led training/Formation en salle de classe virtuelle avec instructeur",
+            "duration": "12 hours/12 h",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Procurement, Materiel Management, and Real Property/Approvisionnement, gestion du matériel, et bien immobiliers"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.3357155267229927,
+            "id": "COR4-J04",
+            "title_en": "Statement of Work Checklist (COR4-J04)",
+            "description_en": "This job aid identifies the questions to ask when reviewing a statement of work (SOW).",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=en",
+            "title_fr": "Liste de vérification de l'énoncé des travaux (COR4-J04)",
+            "description_fr": "Cet outil de travail présente les questions à poser lors de l'examen d'un énoncé des travaux (EDT).",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR4-J04&cm_locale=fr",
+            "topics": "Government operations/Opérations gouvernementales,Communication/Communication",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Procurement, Materiel Management, and Real Property/Approvisionnement, gestion du matériel, et bien immobiliers"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Knowledge of documentation standards for automation and audit": [
+        {
+            "score": 0.3391883515255317,
+            "id": "FON1-J09",
+            "title_en": "Policy Development: Telling a Story When Submitting a Policy for Approval (FON1-J09)",
+            "description_en": "This job aid provides a helpful story-telling outline to use when submitting a Memorandum to Cabinet, making a Treasury Board submission, or submitting policy documents to senior management for approval. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J09&cm_locale=en",
+            "title_fr": "Élaboration de politiques : Raconter une histoire lorsqu'on soumet une politique pour approbation (FON1-J09)",
+            "description_fr": "Cet outil de travail fournit un aperçu utile de la communication narrative à utiliser lorsqu'on soumet un mémoire au Cabinet, une présentation au Conseil du Trésor ou des documents de politique à la haute direction à des fins d'approbation.  ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=FON1-J09&cm_locale=fr",
+            "topics": "Communication/Communication,Government operations/Opérations gouvernementales",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Public Sector Foundations/Fondements du secteur public",
+            "subcategories": [
+                "Policy and Programs/Politiques et programmes"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Technical Communication",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+                        "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+                        "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+                        "Use appropriate data/AI terms and concepts when communicating.",
+                        "Cite sources of information/AI-generated content in visuals."
+                    ]
+                },
+                {
+                    "competency": "Business Acumen",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+                        "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+                        "Understand key financial metrics (e.g., revenue, profit margins, cost structures) and how they impact business decisions.",
+                        "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+                        "Recognize various data types and value as an organizational asset."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.33555449858359676,
+            "id": "COR5-V06",
+            "title_en": "Transfer Procedures for Government Records (COR5-V06)",
+            "description_en": "This event recording introduces Library and Archives Canada’s new operational metadata standards and procedures for the transfer of digital, physical and analogue government records.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR5-V06&cm_locale=en",
+            "title_fr": "Procédures pour le transfert des documents gouvernementaux (COR5-V06)",
+            "description_fr": "Cet enregistrement d’événement présente la nouvelle norme opérationnelle sur les métadonnées de Bibliothèque et Archives Canada et les procédures pour le transfert des documents gouvernementaux numériques, physiques et analogiques.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=COR5-V06&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Functional Specialists/Spécialistes fonctionnels",
+            "DeliveryMethod": "Video",
+            "DeliveryMethod-fr": "Video",
+            "type": "Video/Vidéo",
+            "duration": "1 hour/1 h",
+            "domain": "Corporate Skills/Compétences organisationnelles ",
+            "subcategories": [
+                "Information Management/Gestion de l'information"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Knowledge of data suitability and reuse assessment": [
+        {
+            "score": 0.3513708589642356,
+            "id": "DDN3-J04",
+            "title_en": "Principles for the Use of Disaggregated Data (DDN3-J04)",
+            "description_en": "This job aid serves as an introduction to disaggregated data, its sources and its applications, including dos and don'ts.",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN3-J04&cm_locale=en",
+            "title_fr": "Principes d’utilisation des données désagrégées (DDN3-J04)",
+            "description_fr": "Cet outil de travail fournit une introduction aux données désagrégées, à leur provenance et à leurs applications, ainsi que les meilleures pratiques de leur utilisation.",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN3-J04&cm_locale=fr ",
+            "topics": "\"Digital, data and design/Numérique, données et conception\",Working with others/Travailler ensemble",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Data/Données"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "",
+            "competencies": [
+                {
+                    "competency": "Artificial Intelligence Techniques",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+                        "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+                        "Use open-source libraries to build basic models.",
+                        "Perform effective prompt engineering.",
+                        "Evaluate the quality of LLM's."
+                    ]
+                },
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        },
+        {
+            "score": 0.32690755717315784,
+            "id": "DDN2-J17",
+            "title_en": "Innovation Scorecard (DDN2-J17) ",
+            "description_en": "Use this job aid to assess an idea by assigning a score to each criterion. The best idea is developed further. \n\nThe scorecard is divided into sections that assess strategic fit, opportunity, desirability, feasibility and viability. ",
+            "link_en": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J17&cm_locale=en",
+            "title_fr": "Tableau de bord de l'innovation (DDN2-J17) ",
+            "description_fr": "Utilisez cet outil de travail pour évaluer une idée en attribuant une note pour chaque critère. La meilleure idée sera concrétisée.  \n\nLa fiche est divisée en sections qui permettent d’évaluer la concordance stratégique, la possibilité, la désirabilité, la faisabilité et la viabilité.  ",
+            "link_fr": "https://catalogue.csps-efpc.gc.ca/product?catalog=DDN2-J17&cm_locale=fr",
+            "topics": "\"Digital, data and design/Numérique, données et conception\"",
+            "audience": "Employees/Employés",
+            "DeliveryMethod": "Job aid",
+            "DeliveryMethod-fr": "outil de travail",
+            "type": "Job aid/Outil de travail",
+            "duration": "Less than 10 minutes/Moin de 10 minutes",
+            "domain": "Digital and Data/Numérique et données ",
+            "subcategories": [
+                "Digital/Numérique"
+            ],
+            "OfferedBy": "CSPS",
+            "OfferedBy-fr": "EFPC",
+            "related_courses": "DDN246 - The Design Process: Ideation and Conceptualization/Le processus de conception : Idéation et conceptualisation ",
+            "competencies": [
+                {
+                    "competency": "Thinking Things Through (Create Vision and Strategy)",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Ask the right questions to identify relevant problems/issues.",
+                        "Frame questions explicitly for data to inform answers.",
+                        "Consult with appropriate authorities to identify what constitutes high-quality evidence.",
+                        "Recognize connections and develop short-term plans and recommendations.",
+                        "Use cause and effect relationships to analyze problems systematically.",
+                        "Resolve problems in a sound, logical and decisive manner."
+                    ]
+                },
+                {
+                    "competency": "Data Processing",
+                    "proficiency": "Foundational",
+                    "indicators": [
+                        "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+                        "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+                        "Derive variables to enhance data analysis.",
+                        "Apply methods to handle missing data (e.g., drop missing records).",
+                        "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+                    ]
+                }
+            ]
+        }
+    ]
+}
