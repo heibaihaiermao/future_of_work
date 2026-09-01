@@ -20,3 +20,8 @@ def load_skill_gaps(input_file):
                 print("Skipping invalid line")
 
     return records
+
+def load_gsbpm_implications(input_file):
+
+    with open(input_file, "r", encoding="utf-8") as f:
+        return json.load(f)

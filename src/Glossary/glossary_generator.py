@@ -23,21 +23,55 @@ class GlossaryGenerator:
 
         self.deployment_name = deployment_name
 
-    def generate_entry(self, record):
+    def generate_entry(
+    self,
+    record,
+    matched_gsbpm
+    ):
+        gsbpm_context = "\n\n".join(
+        [
+        f"""
+        GSBPM Activity:
+        {item['gsbpm_id']} - {item['gsbpm_name']}
 
+        Future Expectation:
+        {item['future_expectation']['description']}
+
+        Operational Implications:
+        {item['operational_implications']['description']}
+        """
+        for item in matched_gsbpm
+    ]
+)
         user_prompt = f"""
-Skill Gap:
-{record["development area"]}
+        Skill Gap:
+        {record["development area"]}
 
-Description:
-{record["description"]}
+        Description:
+        {record["description"]}
 
-Change To Work:
-{record["change to work"]}
+        Change To Work:
+        {record["change to work"]}
 
-Justification:
-{record["justification"]}
-"""
+        Justification:
+        {record["justification"]}
+
+        Relevant GSBPM Activities:
+
+        {gsbpm_context}
+
+        Generate:
+
+        1. Explanation
+        (2-3 sentences)
+
+        2. Justification
+        (2-3 sentences)
+
+        The explanation and justification should
+        incorporate the implications of the relevant
+        GSBPM activities where appropriate.
+        """
 
         response = self.client.chat.completions.create(
             model=self.deployment_name,
