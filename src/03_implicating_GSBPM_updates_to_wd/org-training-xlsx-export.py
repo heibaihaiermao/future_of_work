@@ -38,6 +38,9 @@ HEADERS = [
     "When should an employee take this training?",
     "Does this training develop subject-matter expertise in a specific domain?",
     "What skills, knowledge or competency does this training target?",
+    "Matched Skill Gap",
+    "Skill Gap Explanation",
+    "Skill Gap Justification",
     "Classification and Levels of Target Learner",
     "Are there pre-requistites to take it?",
     "Is there a cost and if so, what is it?",
@@ -54,6 +57,10 @@ EXAMPLES = [
     "(Onboarding/Early/Ongoing)",
     "(Yes/No)",
     "(List Competencies in 5-6 words)",
+    "(Matched glossary skill gap)",
+    "(Glossary explanation)",
+    "(Glossary justification)",
+    "(Reason this future skill gap was identified)",
     "(List all Job Titles or grouping of positions that the training applies to)",
     "(Yes/No)",
     "",
@@ -342,6 +349,21 @@ def training_to_excel_row(training, position):
 
         get_competencies(training),
 
+        training.get(
+            "matched_skill_gap",
+            ""
+        ),
+
+        training.get(
+            "skill_gap_explanation",
+            ""
+        ),
+
+        training.get(
+            "skill_gap_justification",
+            ""
+        ),
+
         get_target_learner(position),
 
         "",  # Prerequisites
@@ -465,7 +487,7 @@ def format_position_sheet(ws):
         start_row=1,
         start_column=1,
         end_row=1,
-        end_column=13
+        end_column=16
     )
 
     ws.row_dimensions[1].height = 100
@@ -544,7 +566,7 @@ def format_position_sheet(ws):
     )
 
     for row in range(3, 5):
-        for column in range(1, 14):
+        for column in range(1, 17):
             ws.cell(
                 row=row,
                 column=column
@@ -555,9 +577,27 @@ def format_position_sheet(ws):
     # --------------------------------------------------------
 
     widths = [
-        35, 25, 20, 25, 25,
-        40, 40, 25, 25, 30,
-        50, 25, 25
+    35,
+    25,
+    20,
+    25,
+    25,
+    40,
+
+    40,
+
+    80,
+
+    100,
+
+    40,
+
+    25,
+    25,
+    30,
+    50,
+    25,
+    25
     ]
 
     for column, width in enumerate(widths, start=1):
@@ -568,7 +608,7 @@ def format_position_sheet(ws):
     # No freeze panes.
 
     # Enable filters for the actual training table.
-    ws.auto_filter.ref = "A3:M4"
+    ws.auto_filter.ref = "A3:P4"
 
 def add_training_rows(ws, position):
 
@@ -628,7 +668,7 @@ def add_training_rows(ws, position):
 
             link_cell = ws.cell(
                 row=row_number,
-                column=11
+                column=14
             )
 
             link_cell.hyperlink = url
@@ -638,7 +678,7 @@ def add_training_rows(ws, position):
 
     # Update filter to include actual training rows.
     if row_number > 5:
-        ws.auto_filter.ref = f"A3:M{row_number - 1}"
+        ws.auto_filter.ref = f"A3:P{row_number - 1}"
 
 # ============================================================
 # General Onboarding Requirement Template
@@ -699,7 +739,7 @@ def add_general_onboarding_requirement(ws):
         start_row=1,
         start_column=1,
         end_row=1,
-        end_column=13
+        end_column=16
     )
 
     ws["A1"].font = Font(
@@ -800,7 +840,7 @@ def add_general_onboarding_requirement(ws):
 
     for row in range(3, 5):
 
-        for column in range(1, 14):
+        for column in range(1, 17):
 
             ws.cell(
                 row=row,
@@ -829,7 +869,7 @@ def add_general_onboarding_requirement(ws):
     # Explicitly no freeze pane.
     ws.freeze_panes = None
 
-    ws.auto_filter.ref = "A3:M4"
+    ws.auto_filter.ref = "A3:P4"
     ws["A1"] = (
         'This tab will summarize position-specific training that employees in each '
         'position in the Division would need to take. One tab for each position in '
@@ -840,7 +880,7 @@ def add_general_onboarding_requirement(ws):
         'All AI recommended training should be coded as "Newly recommended" under column M.'
     )
 
-    ws.merge_cells("A1:M1")
+    ws.merge_cells("A1:P1")
 
     # Description formatting
     ws["A1"].font = Font(
@@ -917,7 +957,7 @@ def add_general_onboarding_requirement(ws):
     )
 
     for row in range(3, 5):
-        for column in range(1, 14):
+        for column in range(1, 17):
             ws.cell(
                 row=row,
                 column=column

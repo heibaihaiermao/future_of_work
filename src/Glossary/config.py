@@ -1,8 +1,11 @@
 from pathlib import Path
 
-INPUT_FILE = Path("./input/Data_Production_and_Dissemination_Officer_future_skills.json")
+INPUT_DIR = Path("../07_embedded_mapping_skill_gaps_to_learning_resources/072_articulate_skill_gap/data/0723_articulated")
 GSBPM_FILE = Path("../02/Implicate_on_GSBPM/output/gsbpm_implications.json")
-OUTPUT_FILE = Path("./output/skill_gap_glossary.xlsx")
+##OUTPUT_FILE = Path("./output/skill_gap_glossary.xlsx")
+OUTPUT_DIR = Path(
+    "./output"
+)
 
 # OpenAI / Azure OpenAI settings
 

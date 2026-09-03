@@ -2239,7 +2239,24 @@
                 "divisions": [
                     {
                         "division name": "50000 - Economic Statistics Field",
-                        "division level training": [],
+                        "division level training": [
+                            {
+                                "name": "",
+                                "when should an employee take this training": "",
+                                "sme": "",
+                                "competencies": "",
+                                "target learners": "",
+                                "target group and level": "",
+                                "prerequisite": "",
+                                "cost": "",
+                                "delivery method": "",
+                                "link_en": "",
+                                "bilingual": "",
+                                "offered_by": "",
+                                "requirement": "",
+                                "link_fr": ""
+                            }
+                        ],
                         "positions": [
                             {
                                 "group and level": "EC-05",

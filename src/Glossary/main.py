@@ -1,11 +1,12 @@
 import os
 from dotenv import load_dotenv
 
-from config import INPUT_FILE
+from config import INPUT_DIR
 from config import GSBPM_FILE
-from config import OUTPUT_FILE
+from config import OUTPUT_DIR
 from config import EMBEDDING_MODEL
 
+import json
 from glossary_parser import load_skill_gaps
 from glossary_parser import load_gsbpm_implications
 from glossary_generator import GlossaryGenerator
@@ -14,8 +15,6 @@ from gsbpm_matcher import GSBPMMatcher
 
 
 def main():
-
-    records = load_skill_gaps(INPUT_FILE)
 
     gsbpm_data = load_gsbpm_implications(GSBPM_FILE)
 
@@ -44,41 +43,88 @@ def main():
         gsbpm_data
     )
 
-    glossary_entries = []
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
-    for record in records:
+    for input_file in INPUT_DIR.glob("*.json"):
 
         print(
-            f"Generating: "
-            f"{record['development area']}"
+            f"\nProcessing {input_file.name}"
         )
 
-        matched_gsbpm = matcher.find_matches(
-                        record,
-                        )
-
-        result = generator.generate_entry(
-                        record,
-                        matched_gsbpm
-                        )
-
-        glossary_entries.append(
-            {
-                "skill_gap":
-                    record["development area"],
-
-                "explanation":
-                    result["explanation"],
-
-                "justification":
-                    result["justification"],
-            }
+        records = load_skill_gaps(
+            input_file
         )
 
-    export_glossary(
-        glossary_entries,
-        OUTPUT_FILE
-    )
+        glossary_entries = []
+
+        for record in records:
+
+            print(
+                f"Generating: "
+                f"{record['development area']}"
+            )
+
+            matched_gsbpm = matcher.find_matches(
+                record
+            )
+
+            result = generator.generate_entry(
+                record,
+                matched_gsbpm
+            )
+
+            glossary_entries.append(
+                {
+                    "skill_gap":
+                        record["development area"],
+
+                    "explanation":
+                        result["explanation"],
+
+                    "justification":
+                        result["justification"]
+                }
+            )
+
+        position_name = input_file.stem.replace(
+            "_future_skills",
+            ""
+        )
+
+        output_json = (
+            OUTPUT_DIR /
+            f"{position_name}_glossary.json"
+        )
+
+        with open(
+            output_json,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            json.dump(
+                glossary_entries,
+                f,
+                indent=2,
+                ensure_ascii=False
+            )
+
+        output_xlsx = (
+            OUTPUT_DIR /
+            f"{position_name}_glossary.xlsx"
+        )
+
+        export_glossary(
+            glossary_entries,
+            output_xlsx
+        )
+
+        print(
+            f"Created {position_name}"
+        )
 
     print("Done")
 
