@@ -1,4 +1,4 @@
-# **Onboarding – CSDDI Client Services Section:**
+# **Onboarding – CSDDI Client Services:**
 
 ## **OneNotes:**
 
