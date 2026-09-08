@@ -1,0 +1,1055 @@
+[
+    {
+        "id": "GSBPM-1.1-Needs-Identification",
+        "update description": "Systematic inventorying and scanning of existing data, alternative sources, and digital platforms. Transition from reactive adjustments to digital, metadata-driven, rapid triage using cost-benefit and risk criteria. Expanded role includes active participation in digital discovery, triaging feasibility against automation/reuse potential, and documenting justification for new collection only after rigorous evaluation.",
+        "interdependencies": [
+            "GSBPM-1.2-Program-Design",
+            "GSBPM-2.2-Build-Data-Processing",
+            "GSBPM-6.2-Analyze-Data"
+        ],
+        "impact reasoning": "The Economist/Sociologist 4, previously focused on reviewing and proposing changes based on necessity or subject-matter expertise, now must systematically scan digital platforms, catalogue data sources, and formally assess value via cost-benefit and risk frameworks. Recommendations must be documented, justified, and incorporate enterprise-level metrics including automation, reuse, and digital alternatives before new collections are initiated. This demands advanced technical skills in digital discovery, data platform navigation, and metadata interpretation, as well as cross-functional risk and automation awareness.",
+        "affected work-description elements": [
+            {
+                "element": "1. DECISION MAKING - Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.",
+                "element update reasoning": "Update from subjective/expert-driven review to systematic digital discovery using agency-wide data platforms, with decisions grounded in formal cost-benefit, risk, and automation/reuse criteria. Requirement to document findings and justification for decision-making.",
+                "gaps": [
+                    {
+                        "justification": "Digital discovery and metadata-driven scanning are not referenced in current decision-making tasks; skillset shift required.",
+                        "type": "SKILL",
+                        "name": "Digital discovery and data platform navigation",
+                        "description": "Ability to use enterprise digital platforms to systematically discover/catalogue data, evaluate metadata, and identify alternative sources."
+                    },
+                    {
+                        "justification": "Formal cost-benefit and risk analysis are mandated, but current role does not include explicit criteria-driven triage.",
+                        "type": "KNOWLEDGE",
+                        "name": "Cost-benefit and risk framework application",
+                        "description": "Understanding and consistent application of agency-approved cost-benefit and risk metrics to assess feasibility, impact, and opportunities for automation/reuse."
+                    },
+                    {
+                        "justification": "StatCan2030 vision emphasizes automation and reuse over bespoke solutions; current description lacks integration of these criteria.",
+                        "type": "KNOWLEDGE",
+                        "name": "StatCan2030 solution-first needs identification",
+                        "description": "Knowledge of StatCan2030 priorities, including reuse, automation, digital alternatives, and how they affect program design and recommendations."
+                    }
+                ]
+            },
+            {
+                "element": "6. RESEARCH AND ANALYSIS - Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.",
+                "element update reasoning": "Move from periodic/ad hoc analysis to continuous digital scanning and evaluation using metadata. Emphasis on identifying automation and reuse potential before recommending modification or replacement.",
+                "gaps": [
+                    {
+                        "justification": "Continuous digital evaluation requires ability to interpret metadata and platform analytics.",
+                        "type": "SKILL",
+                        "name": "Metadata analysis and digital evaluation",
+                        "description": "Skill in interpreting metadata from digital platforms to assess existing data quality, coverage, and reuse potential."
+                    },
+                    {
+                        "justification": "Decision process for modification/replacement must now include formal evaluation of automation and reuse.",
+                        "type": "KNOWLEDGE",
+                        "name": "Automation/reuse assessment",
+                        "description": "Ability to assess whether program requirements can be met through automation or reuse, and document limitations."
+                    }
+                ]
+            },
+            {
+                "element": "KEY ACTIVITIES - Participates in the analysis of socio-economic trends and developments to assess the feasibility and impact of new or modified statistical programs.",
+                "element update reasoning": "Expand participation to include evaluating digital and enterprise data alternatives, not only subject matter or statistical programs. Must synthesize findings from digital platforms and map to feasibility criteria.",
+                "gaps": [
+                    {
+                        "justification": "New expectation to scan agency-wide digital sources and alternatives in feasibility analysis.",
+                        "type": "SKILL",
+                        "name": "Enterprise digital source synthesis",
+                        "description": "Skill in synthesizing socio-economic trend analysis with digital data platform outputs to develop comprehensive feasibility recommendations."
+                    }
+                ]
+            },
+            {
+                "element": "KEY ACTIVITIES - Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.",
+                "element update reasoning": "Feedback now must be grounded in evidence from systematic scanning, cost-benefit, and risk evaluation. Recommendations justified and documented based on alternatives assessed.",
+                "gaps": [
+                    {
+                        "justification": "Moving recommendations to formal justification requires skill in documenting analytic triage and alternatives.",
+                        "type": "SKILL",
+                        "name": "Formal analytic documentation and justification",
+                        "description": "Ability to document program feedback, alternatives considered, and justification for recommendations based on digital discovery and risk/cost framework."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-VariableDesign-Update",
+        "update description": "Variable design will move from project-based definition toward stewardship of standardized, metadata-rich frameworks, requiring collaboration in maintaining enterprise variable and metadata repositories. The role will shift from bespoke, manual variable definition, toward supporting enterprise-reusable variable structures, standards alignment, and metadata-rich interoperability.",
+        "interdependencies": [
+            "GSBPM-MetadataManagement-Update",
+            "GSBPM-DataInteroperability-Update"
+        ],
+        "impact reasoning": "The work-description for Economist/Sociologist 4 (EC-04) will need to shift from independently defining and modifying statistical variables for each project to participating in an organization-wide process, stewarding standardized and reusable metadata-rich variables. This involves increased collaboration for maintaining enterprise repositories and ensuring alignment with interoperability and metadata standards.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "This activity will pivot from analyzing and recommending bespoke improvements to actively stewarding and applying standardized variable structures across projects, contributing to shared frameworks and enterprise metadata repositories.",
+                "gaps": [
+                    {
+                        "justification": "Current activity focuses on ad hoc recommendations without explicit requirement for metadata stewardship or alignment with enterprise frameworks.",
+                        "type": "SKILL",
+                        "name": "Metadata Management Skills",
+                        "description": "Ability to manage and maintain metadata-rich variable frameworks at an enterprise level."
+                    },
+                    {
+                        "justification": "Current role does not emphasize collaborative enterprise-wide repository maintenance.",
+                        "type": "SKILL",
+                        "name": "Collaboration in Metadata Stewardship",
+                        "description": "Skill in collaborating across teams to steward shared variable libraries and metadata repositories."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - 1. DECISION MAKING - 'Modifies existing techniques and approaches to improve program coverage or to meet specific needs and develops subject-matter concepts and definitions.'",
+                "element update reasoning": "Decision-making will transition from customizing definitions per project to selecting, adapting, and promoting reusable enterprise variable and metadata standards.",
+                "gaps": [
+                    {
+                        "justification": "Current decision-making is project-based rather than standards-driven.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise Variable Standardization",
+                        "description": "Understanding and promoting standardized, organization-wide variable and metadata frameworks."
+                    },
+                    {
+                        "justification": "Current description lacks explicit reference to FAIR-compliance and interoperability.",
+                        "type": "KNOWLEDGE",
+                        "name": "FAIR Principles & Interoperability",
+                        "description": "Knowledge of FAIR (Findable, Accessible, Interoperable, Reusable) principles and their application to metadata and data interoperability requirements."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - 4. KNOWLEDGE OF SPECIALIZED FIELDS - 'Knowledge of system analysis and design, computer processing, generalized survey software packages to manage the design, development, testing, maintenance and implementation of processing systems; to design specifications for the testing of data, and to maintain and develop databases.'",
+                "element update reasoning": "Greater emphasis will be placed on understanding and implementing metadata registries, variable libraries, and associated FAIR-compliance and interoperability.",
+                "gaps": [
+                    {
+                        "justification": "Description addresses database management but not explicit enterprise metadata stewardship.",
+                        "type": "KNOWLEDGE",
+                        "name": "Metadata Registries & Variable Libraries",
+                        "description": "Ability to use, maintain, and contribute to metadata registries and enterprise variable libraries."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - 3. COMMUNICATION - 'Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, to negotiate procedural modifications and to establish project plans, priorities and target dates.'",
+                "element update reasoning": "Communication will become more focused on alignment to standardized frameworks and metadata requirements, promoting enterprise-wide adoption, and resolving variable definition issues at the repository level.",
+                "gaps": [
+                    {
+                        "justification": "Current communication is focused on project or operational modifications, rather than enterprise metadata alignment.",
+                        "type": "SKILL",
+                        "name": "Enterprise Collaboration for Metadata",
+                        "description": "Skill in communicating and aligning subject-matter requirements with standardized, enterprise metadata and variable frameworks."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Design frame and sample",
+        "update description": "GSBPM's 'Design frame and sample' now leverages automated, metadata-driven frame/sample pipelines and prioritizes alternative data sources. The EC-04 role shifts from manual survey/sample design to oversight, interpretation, and troubleshooting of automated selections; validation of administrative/alternative data for frame/sample creation; collaboration to set requirements for automated processes; and resolution of exceptions. Capability implications include expertise with metadata-driven processes, administrative/alternative data integration, and oversight of AI outputs.",
+        "interdependencies": [
+            "Evaluate and validate statistical outputs (impacts how automated frames/samples affect analysis)",
+            "Collect and integrate data (reliance on administrative/alternative sources and metadata impacting downstream processes)"
+        ],
+        "impact reasoning": "The work-description will change in a manner that reduces emphasis on manual survey and sample design, instead focusing on understanding, validating, and improving metadata-driven frame/sample pipelines. The role will require more collaboration across technical and subject matter teams to define automated requirements, and a greater ability to interpret and troubleshoot AI/algorithmic outputs. The work will also include evaluating suitability and quality of administrative and alternative data sources, necessitating higher proficiency with metadata, data integration, and AI oversight techniques.",
+        "affected work-description elements": [
+            {
+                "element": "TECHNICAL ACTIVITIES, 1. DECISION MAKING: 'Modifies existing techniques and approaches to improve program coverage or to meet specific needs and develops subject-matter concepts and definitions. Develops operational plans and project priorities and identifies areas necessitating study at the local, regional or national levels.'",
+                "element update reasoning": "This bullet will need revision to emphasize oversight of automated, metadata-driven approaches; setting operational priorities related to automation and alternative data integration; and specifying exception handling and requirements for metadata quality and AI pipeline validation.",
+                "gaps": [
+                    {
+                        "justification": "Manual modification and improvement is replaced by oversight of automated and metadata solutions, requiring new skills.",
+                        "type": "SKILL",
+                        "name": "Metadata-driven process oversight",
+                        "description": "Ability to validate and improve automated frame/sample pipelines that rely on metadata, and to troubleshoot output exceptions."
+                    },
+                    {
+                        "justification": "Greater reliance on administrative and alternative data sources demands integration skills.",
+                        "type": "KNOWLEDGE",
+                        "name": "Administrative/alternative data integration",
+                        "description": "Familiarity with identifying, evaluating, and integrating non-survey data sources into statistical frames and samples."
+                    },
+                    {
+                        "justification": "Automated sample selection and AI output oversight are now responsibilities.",
+                        "type": "SKILL",
+                        "name": "AI pipeline oversight",
+                        "description": "Ability to interpret, validate, and troubleshoot AI-driven sample selection and frame construction outputs."
+                    }
+                ]
+            },
+            {
+                "element": "TECHNICAL ACTIVITIES, 1. DECISION MAKING: 'Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.'",
+                "element update reasoning": "Update this bullet to include review of metadata pipelines, assessing the suitability of administrative/alternative data for automated processes, and proposing improvements based on metadata quality and AI output reliability.",
+                "gaps": [
+                    {
+                        "justification": "New emphasis on assessing metadata quality and data suitability within automated pipelines.",
+                        "type": "KNOWLEDGE",
+                        "name": "Metadata specification and quality assurance",
+                        "description": "Understanding standards and best practices for metadata structure, quality assessment, and its role in automated statistical processes."
+                    },
+                    {
+                        "justification": "Administrative/alternative data sources are central to new frame/sample design processes.",
+                        "type": "KNOWLEDGE",
+                        "name": "Administrative/alternative data evaluation",
+                        "description": "Ability to assess the representativeness, accuracy, and fit-for-purpose criteria of non-survey data sources."
+                    }
+                ]
+            },
+            {
+                "element": "TECHNICAL ACTIVITIES, 1. DECISION MAKING: 'Identifies and assesses changes and developments in the subject area, determines the impact on program subject-matter content and recommends alternative statistical methods and approaches.'",
+                "element update reasoning": "Revise to emphasize identifying changes in automation and metadata frameworks, and recommending improvements to AI/automated frame/sample systems rather than traditional statistical approaches.",
+                "gaps": [
+                    {
+                        "justification": "Understanding current developments in AI, metadata, and alternative data as they affect frame/sample design.",
+                        "type": "KNOWLEDGE",
+                        "name": "Advances in automated survey/sample design",
+                        "description": "Knowledge of trends and best practices in AI-driven sample design, metadata frameworks, and use of alternative data."
+                    }
+                ]
+            },
+            {
+                "element": "TECHNICAL ACTIVITIES, 4. KNOWLEDGE OF SPECIALIZED FIELDS: 'Knowledge of system analysis and design, computer processing, generalized survey software packages to manage the design, development, testing, maintenance and implementation of processing systems; to design specifications for the testing of data, and to maintain and develop databases.'",
+                "element update reasoning": "Expand this bullet to include proficiency with metadata management systems, familiarity with automated processing and AI-driven pipelines for frame/sample design, and understanding data integration platforms.",
+                "gaps": [
+                    {
+                        "justification": "Modern frame/sample pipelines use specialized metadata management, automated integration, and AI-based platforms.",
+                        "type": "SKILL",
+                        "name": "Metadata management and automation platform proficiency",
+                        "description": "Ability to use and configure metadata-driven systems for automated frame/sample pipelines, understanding their architecture and troubleshooting issues."
+                    }
+                ]
+            },
+            {
+                "element": "TECHNICAL ACTIVITIES, 4. KNOWLEDGE OF SPECIALIZED FIELDS: 'Knowledge of high level programming languages, utility programs or statistical packages to retrieve and manipulate data.'",
+                "element update reasoning": "Include awareness of and experience with tools/languages that support metadata pipelines, automation scripts, and AI output review.",
+                "gaps": [
+                    {
+                        "justification": "Oversight and troubleshooting may require technical understanding of relevant programming and automation tools.",
+                        "type": "SKILL",
+                        "name": "Programming for metadata pipelines and automation",
+                        "description": "Ability to write, review, and understand code/scripts for metadata-driven automation and AI-powered statistical processes."
+                    }
+                ]
+            },
+            {
+                "element": "TECHNICAL ACTIVITIES, 6. RESEARCH AND ANALYSIS: 'Reviews the development of new subject-matter methods, concepts and definitions and conducts studies and analytical projects to improve existing surveys and data.'",
+                "element update reasoning": "Expand to include review and analysis of automated outputs from metadata-driven and AI-based frame/sample construction, and studies to improve these systems.",
+                "gaps": [
+                    {
+                        "justification": "Research and analysis now require evaluating automated and AI-driven frame/sample outputs and suggesting improvements.",
+                        "type": "SKILL",
+                        "name": "Automated output evaluation",
+                        "description": "Ability to assess results from automated frame/sample pipelines and identify areas for improvement or exceptional handling."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-Phase-Collect",
+        "update description": "Shift from manual/bespoke collection instrument improvement to operating, configuring, and validating automated, metadata-rich collection instruments within platform-driven, self-service pipelines.",
+        "interdependencies": [
+            "GSBPM-Phase-Process",
+            "GSBPM-Phase-Design"
+        ],
+        "impact reasoning": "The EC-04 'Economist/Sociologist 4' position will require less focus on manual or hands-on design of collection instruments and greater focus on understanding, configuring, and validating automated collection systems. Responsibilities will shift towards ensuring compliance with enterprise metadata schemas, enforcing enterprise standards, and managing digital guardrails within modular, platform-driven environments. Analytical expertise will need to be applied in system configuration and validation, rather than bespoke instrument design.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.",
+                "element update reasoning": "Will shift from recommending manual/bespoke improvements to directly configuring and validating automated platform-driven mechanisms for data collection, and enforcing enterprise metadata and compliance standards.",
+                "gaps": [
+                    {
+                        "justification": "Automated, modular systems require skills in platform configuration, metadata standards, and compliance protocols rather than just methodological feedback.",
+                        "type": "Skill",
+                        "name": "Platform Configuration and System Management",
+                        "description": "Ability to configure, manage, and validate automated data collection instrument components within self-service, modular survey platforms."
+                    },
+                    {
+                        "justification": "Metadata-rich environments require deeper understanding of enterprise metadata schemas for instrument validation and compliance.",
+                        "type": "Knowledge",
+                        "name": "Enterprise Metadata Schemas",
+                        "description": "Knowledge of enterprise-level metadata standards and schemas necessary for the validation and management of automated collection instruments."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - DECISION MAKING - Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.",
+                "element update reasoning": "Role transitions from manual review and proposal of changes to actively validating and configuring automated instrument pipelines, ensuring compliance with modular platform and metadata standards.",
+                "gaps": [
+                    {
+                        "justification": "Requires skill in validating automated data extraction routines and ensuring compliance with digital guardrails and paradata requirements.",
+                        "type": "Skill",
+                        "name": "Validation and Testing of Automated Instrument Creation",
+                        "description": "Ability to validate automated instrument creation routines and ensure compliance with enterprise standards for digital guardrails, paradata, and metadata."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - DECISION MAKING - Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.",
+                "element update reasoning": "Problem identification and resolution will focus on monitoring platform-driven processes (e.g., error logs, compliance warnings, metadata mismatches), and troubleshooting within automated, modular environments rather than hands-on data editing.",
+                "gaps": [
+                    {
+                        "justification": "Need for proactive troubleshooting skills in modular/automated environments and ability to interpret digital guardrail and paradata alerts.",
+                        "type": "Skill",
+                        "name": "Automated Platform Troubleshooting",
+                        "description": "Ability to monitor, detect, and resolve issues arising in automated, platform-driven instrument pipelines, and interpret system alerts relating to compliance and metadata."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - COMMUNICATION - Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, to negotiate procedural modifications and to establish project plans, priorities and target dates.",
+                "element update reasoning": "Communications will center on translating requirements into platform-compatible configuration specifications, advocating for enterprise-level standards in metadata and compliance within the automated environment.",
+                "gaps": [
+                    {
+                        "justification": "Requires ability to communicate technical specifications for automated instrument configuration and metadata enforcement to non-technical and technical stakeholders.",
+                        "type": "Skill",
+                        "name": "Technical Translation and Communication",
+                        "description": "Ability to translate subject-matter requirements into platform-specific configuration specifications, metadata standards, and digital compliance protocols."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-Quality-Assurance-System-Testing",
+        "update description": "System testing moves from manual or locally-developed approaches to automatic, integrated testing as a routine, governed requirement for any changes. The EC-04 must embed test suite design and attestation into operational plans, take responsibility for reproducibility, compliance, security, and translate analytical requirements into testable, enterprise-validated specifications. The role operationalizes enterprise test frameworks, documents evidence for attestation-based approval, and ensures audit-ready change practices.",
+        "interdependencies": [
+            "GSBPM-Data-Collection-Change-Management",
+            "GSBPM-Process-Design",
+            "GSBPM-Infrastructure-Security"
+        ],
+        "impact reasoning": "The change requires EC-04s to move beyond recommending improvements at a subject-matter or component level and actively operationalize system-wide testing and approval frameworks. Routine responsibilities extend into technical implementation of test suites, ensuring regulatory compliance, reproducibility, and security. Documentation and attestation become key deliverables. Analytical requirements must be translated not just into statistical designs but into testable IT specifications suitable for business-led development environments.",
+        "affected work-description elements": [
+            {
+                "element": "technical activities, skills, responsibilities, or efforts > DECISION MAKING > 'Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs'",
+                "element update reasoning": "This element will need to explicitly include designing and validating automated test suites for proposed changes, embedding evidence-based attestation, documenting regulatory compliance, and ensuring reproducibility. Decisions must accommodate not just the statistical soundness but also the technical and regulatory requirements of the enterprise.",
+                "gaps": [
+                    {
+                        "justification": "The move to automation and enterprise integration requires skills not previously expected; current EC-04s lack formal training in automated testing and IT compliance.",
+                        "type": "SKILL",
+                        "name": "Automated test suite development",
+                        "description": "Ability to design, specify, and operationalize automated tests (unit, regression, integration) for statistical changes, ensuring reproducibility and compliance."
+                    },
+                    {
+                        "justification": "Previous focus was on statistical/program feasibility; now requires regulatory understanding for attestation and audit.",
+                        "type": "KNOWLEDGE",
+                        "name": "Regulatory compliance and audit frameworks",
+                        "description": "Understanding relevant privacy, attestation, security, and audit requirements specific to statistical systems and integration with enterprise change controls."
+                    },
+                    {
+                        "justification": "Prior experience was limited to feedback and recommendations. Now would need to document reproducibility and attestation for enterprise-level approvals.",
+                        "type": "SKILL",
+                        "name": "Reproducibility documentation & attestation",
+                        "description": "Ability to prepare, maintain, and attest evidence of reproducible processes and outputs for compliance and approval."
+                    }
+                ]
+            },
+            {
+                "element": "technical activities, skills, responsibilities, or efforts > DECISION MAKING > 'Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.'",
+                "element update reasoning": "Problem-solving must integrate enterprise quality assurance and testing frameworks; solution proposals must include automated test plans, compliance checks, and clear attestation procedures. Recommendations evolve from conceptual/statistical fixes to fully-tested, audit-ready operational changes.",
+                "gaps": [
+                    {
+                        "justification": "Role must now articulate technical solutions that include test integration, compliance, and evidence trails.",
+                        "type": "SKILL",
+                        "name": "Enterprise QA and test integration",
+                        "description": "Ability to formulate solutions incorporating automated quality assurance, compliance, and attestation mechanisms, and to track problem resolution in enterprise systems."
+                    }
+                ]
+            },
+            {
+                "element": "technical activities, skills, responsibilities, or efforts > LEADERSHIP AND OPERATIONAL MANAGEMENT > 'Develops operational plans and project priorities and identifies areas necessitating study at the local, regional or national levels.'",
+                "element update reasoning": "Operational plans must embed testing, compliance checkpoints, and attestation milestones. EC-04s will need to manage the testing lifecycle within project management, and ensure audit-readiness at every step.",
+                "gaps": [
+                    {
+                        "justification": "Current plans lack explicit requirements for integrated testing and attestation; requires new project management competencies.",
+                        "type": "SKILL",
+                        "name": "Testing lifecycle management",
+                        "description": "Ability to plan, schedule, and manage automated testing and attestation activities within operational projects, ensuring compliance and readiness for enterprise approvals."
+                    }
+                ]
+            },
+            {
+                "element": "technical activities, skills, responsibilities, or efforts > KNOWLEDGE OF SPECIALIZED FIELDS > 'Knowledge of system analysis and design, computer processing, generalized survey software packages to manage the design, development, testing, maintenance and implementation of processing systems; to design specifications for the testing of data, and to maintain and develop databases.'",
+                "element update reasoning": "Expansion of this knowledge area to cover modern enterprise testing frameworks, test automation platforms, reproducibility tools, and low/no-code integration environments. EC-04s must be conversant with business-led development technologies.",
+                "gaps": [
+                    {
+                        "justification": "Current description doesn't fully address breadth of enterprise testing, automation, and low/no-code development.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise testing frameworks and platforms",
+                        "description": "Understanding of automated testing platforms, CI/CD pipelines, enterprise compliance tools, and integration with business-led development suites."
+                    }
+                ]
+            },
+            {
+                "element": "technical activities, skills, responsibilities, or efforts > RESEARCH AND ANALYSIS > 'Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.'",
+                "element update reasoning": "Analysis must consider testability, compliance, reproducibility, and integration requirements in proposed modifications, not just statistical efficiency.",
+                "gaps": [
+                    {
+                        "justification": "Traditional analysis focused on statistical feasibility; now must include operational test and compliance requirements.",
+                        "type": "SKILL",
+                        "name": "Testing feasibility and compliance analysis",
+                        "description": "Ability to assess the compatibility of proposed changes with automated testing and compliance regimes, and to articulate test requirements in modifications."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.4-Test Statistical Business Process",
+        "update description": "The 'Test statistical business process' sub-process within GSBPM will become more formalized and rigorous. The EC-04 Economist/Sociologist 4 role must transition from ad hoc feedback and improvement suggestions to structured, iterative test design, implementation, evaluation, and documentation of statistical business processes. This includes formal test plans, scenario-based evaluations, prototyping, and systematic reporting.",
+        "interdependencies": [
+            "5.3-Design Statistical Business Process",
+            "5.5-Implement Statistical Business Process"
+        ],
+        "impact reasoning": "While currently providing informal feedback and suggestions for improvements, the role must shift towards systematic, documented evaluation of statistical processes. The incumbent will actively contribute to and lead formal testing frameworks, ensuring rigorous assessment prior to operationalization. This will require new skills and workflows to support iterative testing and structured process improvement.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "This activity will evolve from informal suggestion and feedback to a formalized process of designing test plans, executing structured testing protocols, and documenting test outcomes in order to make evidence-based recommendations for process improvement.",
+                "gaps": [
+                    {
+                        "justification": "New expectation to develop formal test plans and engage in structured testing protocols identified in GSBPM update.",
+                        "type": "Skill",
+                        "name": "Process Testing Design",
+                        "description": "Ability to design structured, documented testing approaches for statistical processes, including scenario-based evaluations and pre-implementation assessments."
+                    },
+                    {
+                        "justification": "Need to track test outcomes and feed systematic observations into process improvement.",
+                        "type": "Skill",
+                        "name": "Test Documentation and Reporting",
+                        "description": "Capacity to systematically record testing results, document process validation, and communicate test findings for process improvement and risk mitigation."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.'",
+                "element update reasoning": "This responsibility shifts from analytic review to structured validation and testing, requiring a formal assessment of process effectiveness using defined testing frameworks, metrics, and criteria.",
+                "gaps": [
+                    {
+                        "justification": "Increased focus on systematic, scenario-based, and iterative testing implies requirement for proficiency with automated testing tools and test harnesses for statistical systems.",
+                        "type": "Skill",
+                        "name": "Automated Statistical Process Testing",
+                        "description": "Knowledge and application of automated testing techniques and tools for statistical business processes, including test harness creation and deployment."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Reviews the development of new subject-matter methods, concepts and definitions and conducts studies and analytical projects to improve existing surveys and data.'",
+                "element update reasoning": "The review activity will incorporate structured testing as a prerequisite, including designing, executing, and documenting prototype or scenario-based tests to validate new methods prior to adoption.",
+                "gaps": [
+                    {
+                        "justification": "Role evolution requires ability to design and execute prototype testing and evaluate results as part of review.",
+                        "type": "Skill",
+                        "name": "Prototype Testing and Evaluation",
+                        "description": "Skill in designing, implementing, and interpreting prototype tests for statistical survey methods, including evaluation of test outcomes and documentation for review cycles."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.'",
+                "element update reasoning": "Problem identification and evaluation will now be supported by evidence from formal, documented testing regimes, which require interpretation of structured test findings for problem-solving and solution development.",
+                "gaps": [
+                    {
+                        "justification": "Enhanced requirements for extracting actionable insights from formal test findings and integrating these insights into problem resolution.",
+                        "type": "Skill",
+                        "name": "Interpretation of Test Results for Process Improvement",
+                        "description": "Ability to interpret structured test results and apply findings to resolve problems and make evidence-based recommendations for statistical process enhancements."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Leads project teams involved in special studies.'",
+                "element update reasoning": "Leadership roles will include oversight of structured testing processes, requiring knowledge of test framework management, iterative test execution, and team coordination for formal evaluation cycles.",
+                "gaps": [
+                    {
+                        "justification": "Project leadership in formal testing setting requires new team management and process oversight skills specific to iterative testing and documentation.",
+                        "type": "Skill",
+                        "name": "Test Framework Leadership",
+                        "description": "Capability to lead project teams through structured statistical process testing, including planning iterative tests, managing documentation, ensuring compliance with test protocols, and synthesizing test outcomes."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM 4.1",
+        "update description": "Shift from manual/repetitive sampling and frame maintenance to monitoring and reviewing outputs from automated frame/sample creation modules, including issues identification, exception handling, evaluation of AI-enabled sampling, and recommendations for workflow refinements.",
+        "interdependencies": [
+            "GSBPM 4.2 Automated Sample Selection",
+            "GSBPM 4.3 AI-enabled Data Integration"
+        ],
+        "impact reasoning": "The EC-04 role will require greater technological literacy and analytical rigor, transitioning from hands-on manipulation of sample frames and survey methods to oversight, critique, and iterative improvement of automated systems. The position’s activities shift towards troubleshooting and evaluating algorithmic outputs, understanding integration logic, and participating in exception-driven workflow adaptation. This will add a layer of complexity to the analytical and feedback function, necessitating skills in auditing and AI/process evaluation, as well as broader awareness of system workflow automation.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "This activity will be re-oriented from subjective feedback on routine processes towards structured audit and evaluation of automated outputs and modules, including detection of process failures, documentation of exceptions, and data-driven recommendations for system improvement.",
+                "gaps": [
+                    {
+                        "justification": "The existing activity presumes familiarity with standard/manual survey methods, but the update requires specific expertise in reviewing automated module outputs and exception logs.",
+                        "type": "Skill",
+                        "name": "Auditing Automated Sampling Outputs",
+                        "description": "Ability to systematically review and validate outputs from automated frame/sample creation, including identifying anomalies and gaps."
+                    },
+                    {
+                        "justification": "Evaluation of AI or automation-driven processes demands basic understanding of algorithmic logic to provide relevant, actionable feedback and recommendations.",
+                        "type": "Knowledge",
+                        "name": "Algorithmic Logic in Sampling",
+                        "description": "Foundational understanding of how automated sampling modules function, coordination logic, and potential sources of error."
+                    },
+                    {
+                        "justification": "New task orientation towards evaluating composite data assets (e.g., as assembled by various automated and AI modules) for fitness and coverage requires advanced analytical capabilities.",
+                        "type": "Skill",
+                        "name": "Composite Data Asset Evaluation",
+                        "description": "Ability to assess data asset fitness for use, including coverage, timeliness, and quality, particularly in automated contexts."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: Decision Making: 'Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.'",
+                "element update reasoning": "This responsibility will expand to reviewing output from automated modules, proposing refinements for AI-driven approaches, and assessing program feasibility with respect to new workflow automation and exception handling procedures.",
+                "gaps": [
+                    {
+                        "justification": "Current scope focuses on system usefulness and changes; future context requires skills in system audit and workflow refinement via automation exception analysis.",
+                        "type": "Skill",
+                        "name": "Automated Workflow Exception Handling",
+                        "description": "Competence in identifying, documenting, and recommending resolutions for exceptions in automated module outputs, including coordination and coverage issues."
+                    },
+                    {
+                        "justification": "Broader strategic recommendations require familiarity with how AI-enabled and integrated modules influence sampling, burden management, and survey operations.",
+                        "type": "Knowledge",
+                        "name": "AI-enabled Data Integration Logic",
+                        "description": "Understanding how integration logic affects sample coordination and data burden, and how to evaluate such processes for improvement."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: Research and Analysis: 'Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.'",
+                "element update reasoning": "Analysis will be targeted at automated and AI-enabled processes, assessing their relevancy, efficiency, and reliability versus legacy systems, and identifying gaps or suitability criteria for new technologies.",
+                "gaps": [
+                    {
+                        "justification": "Analytical focus pivots from manual assessment to evaluation of automated/AI module functionality, including data fitness and technology suitability.",
+                        "type": "Skill",
+                        "name": "Advanced Technology Assessment for Statistical Operations",
+                        "description": "Ability to evaluate statistical technologies/processes, including AI-enabled sampling and integration, to determine suitability and operational impact."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-5.3-Coding-Classification-Automation",
+        "update description": "Automated, AI-enabled classification and coding will replace routine human coding and operational involvement in day-to-day coding tasks, except for monitoring, validation, and exception management. Feedback will focus on pipeline functionality, AI output quality, and revision of classification schemes.",
+        "interdependencies": [
+            "GSBPM-5.4-Data-Editing-Automation",
+            "GSBPM-6.2-Quality-Assurance-and-Validation"
+        ],
+        "impact reasoning": "The work-description for EC-04 will shift away from clerical or manual coding activities to oversight of automated, AI-enabled coding processes. The emphasis changes from hands-on collection processing and coding to supervising AI pipelines, ensuring quality output, interpreting exceptions, and updating classification frameworks. Direct subject-matter advice is now focused on anomaly detection, validation, and supporting updates to the classification schemes to suit evolving operational and data needs.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "Feedback and recommendations will focus on the functionality and quality of automated, AI-enabled coding/classification pipelines, rather than manual collection or coding processes. Interaction shifts towards validating AI output, suggesting updates to classification frameworks, and identifying exceptions for human review.",
+                "gaps": [
+                    {
+                        "justification": "Future activities require the ability to assess, validate, and monitor AI-based coding systems, which is not reflected in the current manual-focused feedback skillset.",
+                        "type": "KNOWLEDGE",
+                        "name": "AI-enabled Classification & Coding System Operation",
+                        "description": "Understanding the functional operations, performance metrics, and configuration of automated AI coding pipelines. Ability to evaluate and interpret system outputs, anomalies, and reliability."
+                    },
+                    {
+                        "justification": "The role needs to actively manage validation protocols and exception handling, which currently are not part of the manual coding review functions.",
+                        "type": "SKILL",
+                        "name": "Monitoring & Validation of Automated Systems",
+                        "description": "Ability to monitor real-time automated pipeline operation, validate outcomes, identify misclassifications, and perform exception management and reporting."
+                    },
+                    {
+                        "justification": "The focus of feedback has moved from process-level advice to classification scheme revision. This requires familiarity with classification standards and update mechanisms.",
+                        "type": "KNOWLEDGE",
+                        "name": "Classification Scheme Revision Procedures",
+                        "description": "Knowledge of the procedures and protocols for updating, documenting, and evolving standard classification schemes in response to operational and AI output requirements."
+                    },
+                    {
+                        "justification": "Future feedback and reporting is less about process improvements for manual tasks, and more about communicating AI outputs, exceptions, and updates to stakeholders.",
+                        "type": "SKILL",
+                        "name": "Communication of Technical AI Outputs & Exception Handling",
+                        "description": "Ability to translate technical AI results and exception cases into actionable feedback for stakeholders, including providing clear advice on anomaly resolution and system updates."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - DECISION MAKING: 'Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations...'",
+                "element update reasoning": "Problem identification and evaluation will focus on AI pipeline malfunctions, misclassifications, and exception management rather than manual process errors. Solution recommendations will target configuration of automated systems, validation protocols, and classification scheme maintenance.",
+                "gaps": [
+                    {
+                        "justification": "The current role emphasizes identification of manual and clerical issues; future role needs the skill to detect, interpret, and resolve technical anomalies in automated systems.",
+                        "type": "SKILL",
+                        "name": "Diagnosis of AI Pipeline Issues",
+                        "description": "Ability to identify and diagnose operational or output problems in automated AI coding/classification systems. Propose technical or procedural fixes."
+                    },
+                    {
+                        "justification": "Role will include evaluation of AI model performance metrics and output analysis, not just data product quality.",
+                        "type": "KNOWLEDGE",
+                        "name": "AI Model Performance Metrics",
+                        "description": "Understanding and application of metrics such as accuracy, precision, recall, and detection of systematic bias or error in automated classification pipelines."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - COMMUNICATION: 'Provides information and advice to managers, data users and clients on matters relating to subject-matter concepts...'",
+                "element update reasoning": "Advice will center on operational aspects and limitations of AI-enabled coding pipelines, reporting anomalies or performance issues, and communicating revisions to classification schemes rather than day-to-day manual operations.",
+                "gaps": [
+                    {
+                        "justification": "Requires ability to explain complex AI system results, validation outcomes, and exception handling to a variety of stakeholders.",
+                        "type": "SKILL",
+                        "name": "AI Output Explanation & Stakeholder Engagement",
+                        "description": "Skill in translating technical results from AI coding/classification systems into clear and actionable advice for managers, data users, and external clients."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - KNOWLEDGE OF SPECIALIZED FIELDS: 'Knowledge of system analysis and design, computer processing, generalized survey software packages...'",
+                "element update reasoning": "Expanded from survey software and general system analysis to include advanced understanding of AI-enabled coding, system monitoring, pipeline management, and classification scheme evolution.",
+                "gaps": [
+                    {
+                        "justification": "Requires the role to acquire knowledge of AI classification systems and operation in addition to previous IT/survey software skillsets.",
+                        "type": "KNOWLEDGE",
+                        "name": "AI Pipeline System Design & Operation",
+                        "description": "Knowledge of structures and workflows for automated coding pipelines including input preprocessing, AI classification, monitoring, and exception management."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-Phase-Edit-Impute-Update-01",
+        "update description": "Manual editing feedback loops for statistical program data are replaced by automated edit/impute routines; EC-04 responsibility shifts to oversight, validation, exception management, recommendations for AI-driven process improvements, performance review, and compliance.",
+        "interdependencies": [
+            "GSBPM-Phase-Report-Documentation-Update-01",
+            "GSBPM-Phase-Quality-Assurance-Update-01"
+        ],
+        "impact reasoning": "The EC-04 Economist/Sociologist role will transition from manually evaluating editing and compilation methods, and resolving process-related problems, to focusing on oversight and validation of automated editing/imputation pipelines. Hands-on editing will be supplanted by monitoring and reviewing AI outputs, managing exceptions, and documenting audit trails for reproducibility and regulatory compliance. Reports/manuals will now capture system traceability, describe intervention points, and ensure ethical management. This requires less manual proficiency and more familiarity with automation and AI oversight.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.",
+                "element update reasoning": "Replace hands-on feedback on manual procedures with monitoring, assessment, and feedback on automated edit/impute routines, focusing on performance review and exception management.",
+                "gaps": [
+                    {
+                        "justification": "The change to automated editing requires knowledge of AI-driven editing/imputation processes and performance monitoring.",
+                        "type": "Knowledge",
+                        "name": "Automated Edit/Impute Algorithms",
+                        "description": "Understanding of machine learning algorithms applied to automated editing and imputation of statistical data, including their operation and limitations."
+                    },
+                    {
+                        "justification": "Oversight of AI-driven processes requires skill in managing algorithmic performance and exception handling.",
+                        "type": "Skill",
+                        "name": "AI Process Oversight",
+                        "description": "Ability to monitor, evaluate, and provide informed feedback regarding the performance and compliance of automated pipelines."
+                    },
+                    {
+                        "justification": "Ethical, process, and auditability requirements are more prominent with automation.",
+                        "type": "Knowledge",
+                        "name": "Audit Trail and Traceability",
+                        "description": "Expertise in documenting, tracking, and ensuring the reproducibility and auditability of automated interventions and exception handling."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - DECISION MAKING: Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.",
+                "element update reasoning": "Shift from identifying technical problems in manual editing processes to identifying, validating, and managing exceptions and potential errors arising within automated edit/impute routines.",
+                "gaps": [
+                    {
+                        "justification": "Problem identification is now focused on algorithmic exceptions and error-handling protocols.",
+                        "type": "Skill",
+                        "name": "Exception Management in Automated Pipelines",
+                        "description": "Ability to interpret and resolve exceptions generated within AI-driven editing/imputation processes."
+                    },
+                    {
+                        "justification": "New focus on compliance and ethical management in automated environments.",
+                        "type": "Knowledge",
+                        "name": "Compliance and Ethics in Automated Editing",
+                        "description": "Understanding of standards, regulations, and ethical principles that must be monitored and applied to AI-driven edit/impute routines."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities - COMMUNICATION: Writes program information manuals, training packages, monitoring procedures and management reports for use by colleagues, operational staff and management in the development, implementation and assessment of statistical programs.",
+                "element update reasoning": "Reporting and documentation becomes more focused on system traceability, reproducibility, audit trail, and ethical management of automated edit/impute interventions rather than documentation for manual operations.",
+                "gaps": [
+                    {
+                        "justification": "System documentation requirements have shifted from manual procedures to describing AI pipeline operations, auditability, and exception logic.",
+                        "type": "Skill",
+                        "name": "Technical Documentation of Automated Processes",
+                        "description": "Skill in writing clear, comprehensive reports/manuals on AI-based editing/imputation pipelines, including performance logs, interventions, and compliance analysis."
+                    },
+                    {
+                        "justification": "Ensuring reproducibility and auditability of statistical programs is now vital.",
+                        "type": "Knowledge",
+                        "name": "Reproducibility and Audit Principles",
+                        "description": "Working knowledge of how to ensure and document reproducibility in automated data editing/imputation scenarios."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Finalise data files (GSBPM 6.6)",
+        "update description": "Manual steps in consolidation, cleaning, and custom file formatting are replaced by orchestrated, automated pipelines with rich metadata and strict version control. Exception handling, validation, and audit oversight are now central responsibilities.",
+        "interdependencies": [
+            "6.5 Validate and edit",
+            "7.1 Prepare outputs",
+            "6.3 Integrate data",
+            "6.7 Document data"
+        ],
+        "impact reasoning": "The role will shift away from providing feedback on manual and ad-hoc processes to ensuring pipeline configurations are correct, monitoring automated data processing, resolving automated exceptions, interpreting system-driven audit trails, and making analytical recommendations based on pipeline performance and compliance. The incumbent must be able to interact with automated workflows, understand metadata structure and governance, and act upon validation exceptions or audit findings. Analytical feedback will target automation logic and pipeline settings, rather than step-by-step manual operations.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "This activity will now encompass providing feedback on the operation and configuration of automated pipelines, suggesting metadata adjustments, and assessing pipeline outputs for compliance, quality, and reproducibility. Recommendations will be made through automated system parameters instead of manual procedural change.",
+                "gaps": [
+                    {
+                        "justification": "Manual feedback processes are replaced by system-driven and metadata-driven feedback; current skills do not cover configuration of automated pipelines.",
+                        "type": "Knowledge",
+                        "name": "Understanding of Automated Data Processing Pipelines",
+                        "description": "Ability to interpret, monitor, and adjust automated pipeline workflows, including their metadata configurations and audit trails."
+                    },
+                    {
+                        "justification": "System exception handling and audit oversight require new diagnostic and problem-solving approaches.",
+                        "type": "Skill",
+                        "name": "Exception Handling in Automated Environments",
+                        "description": "Skill in diagnosing and resolving exceptions flagged by automated systems, using audit logs and validation summaries."
+                    },
+                    {
+                        "justification": "Feedback and recommendations now must be translated into metadata and configuration changes, rather than manual procedures.",
+                        "type": "Skill",
+                        "name": "Metadata Governance and Adjustment",
+                        "description": "Ability to assess, edit, and implement metadata structures for automated processing pipelines to improve data quality and compliance."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.'",
+                "element update reasoning": "Problem identification now happens in the context of system-generated audit outputs, error logs, and pipeline exception reports. Solutions involve adjusting pipeline configurations or metadata, with greater focus on root-cause analysis within automated systems.",
+                "gaps": [
+                    {
+                        "justification": "Staff must interpret technical outputs of automated pipelines and audit trails.",
+                        "type": "Skill",
+                        "name": "Audit Trail Interpretation",
+                        "description": "Ability to interpret and act upon system-generated audit trails to identify source of data processing errors and compliance issues."
+                    },
+                    {
+                        "justification": "Solutions require systemic, rather than procedural, thinking regarding automated environments.",
+                        "type": "Skill",
+                        "name": "Systems Thinking in Data Processing",
+                        "description": "Ability to diagnose technical problems in automated environments, considering configuration, metadata, and systems dependencies."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.'",
+                "element update reasoning": "System reviews will now require assessment of automated pipeline design and logic, effectiveness of metadata-driven processes, and compliance with audit and validation standards.",
+                "gaps": [
+                    {
+                        "justification": "Feasibility and impact analysis must include knowledge of automated system capabilities and constraints.",
+                        "type": "Knowledge",
+                        "name": "Automated Processing Constraints and Capabilities",
+                        "description": "Knowledge of limitations, strengths, and compliance requirements of automated processing pipelines."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-5.5-Output-Generation-Automation",
+        "update description": "Transition from manual assembly of analytical outputs (tables, charts, publication materials) to automated generation, requiring staff to monitor, validate, and critically assess outputs produced by automated/AI-driven systems. Primary focus shifts from production to oversight, exception handling, and feedback within a digital workspace.",
+        "interdependencies": [
+            "GSBPM-5.6-Output-Review-and-Validation",
+            "GSBPM-5.7-Dissemination-and-Feedback"
+        ],
+        "impact reasoning": "The Economist/Sociologist 4 role shifts away from direct manual creation of tables, charts, and analytical materials, becoming more a reviewer and validator of outputs generated through automated systems. This demands familiarity with digital dashboards, automated tabulation tools, exception handling processes, and critical evaluation of AI-produced outputs rather than traditional manual assembly. Key activities around compiling/editing are replaced or supplemented by skills in overseeing automated production, troubleshooting outputs, and interpreting results in automated environments.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - 'Undertakes the analysis of statistical program data and assists in the preparation of analytical material for internal use and publication purposes.'",
+                "element update reasoning": "This activity will shift from direct assembly and preparation to interpretation, validation, and oversight of auto-generated output. The role will focus on ensuring the integrity and accuracy of automated results and escalating exceptions rather than producing the analytical material manually.",
+                "gaps": [
+                    {
+                        "justification": "Current skillset focuses on manual assembly and editing; shift to automated systems creates a need for understanding digital dashboards, AI-driven analytics, and exception review.",
+                        "type": "Knowledge",
+                        "name": "Automated Tabulation and Dashboard Production",
+                        "description": "Ability to understand, navigate, and operate tools that produce automated analytical outputs, including dashboards and tabulated reports."
+                    },
+                    {
+                        "justification": "Staff will be required to assess the quality and appropriateness of automated outputs, which differs from manual charting/editing.",
+                        "type": "Skill",
+                        "name": "Critical Output Assessment in Automated Environments",
+                        "description": "Competency in evaluating statistical and analytical content produced through automated means, identifying anomalies, inconsistencies, or errors requiring escalation."
+                    },
+                    {
+                        "justification": "Exception handling was not previously a core activity; now necessary due to reliance on automated systems.",
+                        "type": "Knowledge",
+                        "name": "Exception Handling in Automated Systems",
+                        "description": "Understanding of exception management processes in digital/AI-driven environments, including threshold-setting, escalation protocols, and resolution steps."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures following data analysis and assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "Feedback will now be focused on the effectiveness and accuracy of automated presentation/compilation systems, requiring expertise in digital workflows and output validation rather than manual editing methods.",
+                "gaps": [
+                    {
+                        "justification": "Shift from manual to automated means requires new feedback channels and criteria for system-based outputs.",
+                        "type": "Skill",
+                        "name": "System-Based Output Feedback",
+                        "description": "Ability to provide informed feedback on the functioning and accuracy of automated compilation and presentation tools, including suggesting improvements or flagging recurring issues."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities - 'Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.'",
+                "element update reasoning": "Review activities now extend to assessing the performance and appropriateness of automated output generation and information systems as part of overall program feasibility and integrity.",
+                "gaps": [
+                    {
+                        "justification": "Understanding the operational logic and limits of automated output systems is critical in proposing changes.",
+                        "type": "Knowledge",
+                        "name": "Automated Output System Performance",
+                        "description": "Knowledge of system functioning, workflow triggers, and validation checks in automated tabulation/presentation environments."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities - 'Identifies and evaluates problems in the collection, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems referred by staff.'",
+                "element update reasoning": "Problem identification and evaluation now include diagnosing and resolving issues specific to automated process failures, exceptions in output, and system errors.",
+                "gaps": [
+                    {
+                        "justification": "Current problem-solving orientation is toward manual processes. Transition requires diagnostic ability in automated systems.",
+                        "type": "Skill",
+                        "name": "Automated Process Troubleshooting",
+                        "description": "Skill in identifying, diagnosing, and addressing issues that arise in automated output generation, including handling exceptions, system errors, and unusual output patterns."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM-Validation-Update-2024",
+        "update description": "Shift from manual validation and quality assurance to oversight of automated, metadata-driven validation frameworks. EC-04 role to interpret exceptions, monitor automated checks, and engage in root cause analysis for anomalies flagged by AI/orchestration tools.",
+        "interdependencies": [
+            "GSBPM-Process-Design-Update",
+            "GSBPM-Data-Processing-Automation"
+        ],
+        "impact reasoning": "The work-description for EC-04 will transition from hands-on manual validation of statistical data to a supervisory role focused on ensuring automated validation systems are functioning correctly. EC-04 will be responsible for overseeing algorithmic quality assurance, interpreting system-generated exceptions, and leading investigation and mitigation for flagged data anomalies. This reduces the time spent performing routine checks, increases emphasis on systems thinking, auditing, and technical troubleshooting, and places a premium on understanding metadata, automation, and AI-driven validation.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: Undertakes the analysis of statistical program data and assists in the preparation of analytical material for internal use and publication purposes.",
+                "element update reasoning": "This activity will now encompass oversight of automated analysis and validation outputs, focusing on interpretation of flagged exceptions rather than manual output validation.",
+                "gaps": [
+                    {
+                        "justification": "Automation of core validation activities means EC-04 must interpret exceptions and explain system outputs.",
+                        "type": "Knowledge",
+                        "name": "Automated Validation Frameworks",
+                        "description": "Understanding how automated validation and quality assurance systems operate, including the principles of metadata-driven checks and configuration."
+                    },
+                    {
+                        "justification": "Role moves from manual review to system oversight; ability to audit data quality becomes central.",
+                        "type": "Skill",
+                        "name": "Auditability and Quality Indicator Interpretation",
+                        "description": "Ability to interpret metadata-driven quality indicators and audit automated outputs for trustworthiness."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: DECISION MAKING: Reviews data collection and information systems to determine the usefulness of the existing data sources, to propose changes to the system and to assess the feasibility and impact of new or modified statistical programs.",
+                "element update reasoning": "Moving from manual review to decision-making based on outputs from automated validation systems; emphasis on evaluating algorithms, interpreting flagged cases, and recommending algorithmic updates.",
+                "gaps": [
+                    {
+                        "justification": "Future process involves interpreting exceptions and explaining when automated systems fail or need adjustment.",
+                        "type": "Skill",
+                        "name": "Root-Cause Analysis for Automated Exceptions",
+                        "description": "Ability to conduct advanced root-cause analysis of anomalies flagged by automated validation, and synthesize findings for system improvement."
+                    },
+                    {
+                        "justification": "Role requires critical evaluation of algorithmic and system-generated findings.",
+                        "type": "Skill",
+                        "name": "Algorithmic Oversight and Governance",
+                        "description": "Skill in monitoring, maintaining, and governing automated validation systems for continuous operational trust."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: RESEARCH AND ANALYSIS: Reviews the results of projects and surveys in order to provide interpretation and analysis on subject-matter concepts and definitions, survey methods, statistical applications and techniques used.",
+                "element update reasoning": "Analysis will focus on interpreting results from automated checks, contextualizing exceptions, and guiding research to refine AI/automation tools.",
+                "gaps": [
+                    {
+                        "justification": "EC-04 needs to contextualize and interpret exceptions from system outputs for management and publication.",
+                        "type": "Skill",
+                        "name": "Contextual Interpretation of Automated Exception Cases",
+                        "description": "Skill in interpreting results generated by automated validation tools and contextualizing them within broader statistical or methodological frameworks."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM_ANALYSIS_1",
+        "update description": "Low-level analytic tasks (data cleaning, manipulation, descriptive statistics) will be automated. EC-04 analysts will shift focus to interpreting and contextualizing outputs from automated pipelines, ensuring relevance for end users, and communicating limitations and ethical concerns. Role evolves to require narrative building, policy/societal implication assessment, and oversight/transparency of automated analysis. Increased requirements for ethical/transparent interpretation, domain contextualization, and familiarity with AI-driven analytics.",
+        "interdependencies": [
+            "GSBPM_DATA_CLEANING_AUTOMATION",
+            "GSBPM_OUTPUT_INTERPRETATION",
+            "GSBPM_COMMUNICATION_AND_ETHICS"
+        ],
+        "impact reasoning": "The EC-04 Economist/Sociologist 4 role will shift away from manual data processing and basic statistical analysis toward higher-order interpretive responsibilities. The EC-04 will now provide nuanced, subject-matter-driven narratives based on outputs from automated analytics pipelines, emphasizing transparent communication of both strengths and limitations of automated methods. Responsibilities expand to include assessment of policy/societal impact, active oversight of analytic integrity, and ethical considerations regarding the use of analytics tools.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Undertakes the analysis of statistical program data and assists in the preparation of analytical material for internal use and publication purposes.'",
+                "element update reasoning": "This bullet transitions from focusing on manual, low-level analysis to oversight and interpretation of automated analysis outputs. Preparation of analytical materials now centers on translating complex automated outputs to user-relevant narratives.",
+                "gaps": [
+                    {
+                        "justification": "Current requirement focuses on manual analysis, but the update necessitates narrative construction and contextual framing from automated results.",
+                        "type": "Skill",
+                        "name": "Interpretative Narrative Construction",
+                        "description": "Ability to create meaningful, policy-relevant interpretations from automated analysis outputs, including identifying societal implications."
+                    },
+                    {
+                        "justification": "Current description does not explicitly require oversight of automated analytic pipelines or ethical interpretation.",
+                        "type": "Knowledge",
+                        "name": "Ethics and Transparency in Analytics",
+                        "description": "Understanding ethical implications of automated analytics, including bias, transparency, fairness, and communication of limitations."
+                    },
+                    {
+                        "justification": "Current description does not include knowledge of AI-driven analytics or automated workflows.",
+                        "type": "Knowledge",
+                        "name": "AI-Driven Analytics Familiarity",
+                        "description": "Ability to interpret strengths and limitations of automated and AI-driven analytics methods, including awareness of technical and societal risks."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Reviews the results of projects and surveys in order to provide interpretation and analysis on subject-matter concepts and definitions, survey methods, statistical applications and techniques used.'",
+                "element update reasoning": "Review responsibilities expand to include critical oversight of automated analytic outputs for transparency, reliability, and ethical concerns. Interpretation will require evaluating automated analysis against societal and policy frameworks.",
+                "gaps": [
+                    {
+                        "justification": "Responsibility shifts to reviewing automated outputs and verifying their reliability, bias, limitations, and ethical concerns.",
+                        "type": "Skill",
+                        "name": "Oversight of Automated Analytics",
+                        "description": "Competence in evaluating outputs from automated systems, identifying technical errors, risks, and ethical weaknesses, and improving analytic transparency."
+                    },
+                    {
+                        "justification": "Explicit requirement for policy and societal implications of automated outputs.",
+                        "type": "Knowledge",
+                        "name": "Policy/Societal Impact Assessment",
+                        "description": "Knowledge of frameworks and methodologies for assessing the real-world impact of automated analytics and resulting narratives."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Provides assistance and subject matter advice to data users within and outside STC.'",
+                "element update reasoning": "Advice now centers on helping users understand automated outputs, including limitations, ethical concerns, and potential impacts.",
+                "gaps": [
+                    {
+                        "justification": "Presently focuses on subject-matter guidance, but updated expectations require technical communication regarding automated analytics outputs and their limitations.",
+                        "type": "Skill",
+                        "name": "Communication of Automated Output Limitations",
+                        "description": "Ability to clearly communicate the strengths, weaknesses, and ethical considerations of automated analytics outputs to both internal and external stakeholders."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to determine the need for modification or replacement with alternative systems, methods and procedures.'",
+                "element update reasoning": "The new focus is less on updating manual processes and more on monitoring, evaluating, and improving automated analysis pipelines for reliability and ethical alignment.",
+                "gaps": [
+                    {
+                        "justification": "Shift from processes to automated systems requires new skills in auditing and evaluating automated workflow integrity.",
+                        "type": "Skill",
+                        "name": "Automated Pipeline Oversight",
+                        "description": "Skill in monitoring and evaluating automated analytic systems for bias, performance, and responsibility, including feedback to improve integrity."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities: 'Writes and presents detailed subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify divisional program content and applications.'",
+                "element update reasoning": "Writing and presentation now must include clear articulation of how automated analysis was conducted, potential impacts, and transparency about limitations and ethical considerations.",
+                "gaps": [
+                    {
+                        "justification": "Requires enhanced communication skills specifically for explaining outputs from automated analytics, including transparency and ethics.",
+                        "type": "Skill",
+                        "name": "Transparent Automated Analysis Communication",
+                        "description": "Skill in presenting technical details of automated processes and their results in user-accessible, transparent, and ethically-robust terms."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "GSBPM_Quality_Evaluation_Automation",
+        "update description": "Transition from periodic, human-led review and narrative report production to real-time, system-driven evaluation using automated dashboards, quality checks, and log-based actionable updates. Economist/Sociologist 4 will engage with machine-generated metrics, rapid issue identification, and continuous improvement cycles.",
+        "interdependencies": [
+            "GSBPM_Process_Improvement_Agility",
+            "GSBPM_Workflow_Management_Automation"
+        ],
+        "impact reasoning": "Much of the review, feedback, and recommendations regarding data processing, editing, compilation, and presentation will now require interpretation of dashboard alerts and automated logs rather than manual assessment. The role will shift to ongoing monitoring, triaging system-generated issues, and participating in agile, modular process improvements. Direct narrative reporting is replaced by log-based intervention records.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Suggests feedback on collection processing, editing, compilation and presentation methods and procedures...' and 'assists in the development of recommendations for improvements to survey methods and activities.'",
+                "element update reasoning": "This activity will now center on interpreting real-time system dashboards and responding to automated alerts. Recommendations will be data-driven, evidence-based, and provided in agile, log-based formats, often in collaborative or modular workflows.",
+                "gaps": [
+                    {
+                        "justification": "Current skillset centers on subjective feedback and after-the-fact recommendations, lacking real-time dashboard fluency and automated metric interpretation.",
+                        "type": "Skill",
+                        "name": "Automated Dashboard Fluency",
+                        "description": "Skill in navigating, interpreting, and triaging alerts generated by performance dashboards and automated quality-check systems."
+                    },
+                    {
+                        "justification": "Recommendations require justification using standardized, automated metrics, not narrative summaries.",
+                        "type": "Skill",
+                        "name": "Evidence-based Process Intervention",
+                        "description": "Ability to propose feedback and justifications using real-time, automated data streams and actionable log-level evidence."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: Decision Making - 'Reviews data collection and information systems to determine usefulness...' 'Identifies and evaluates problems in collection, processing, editing, compilation and presentation...'",
+                "element update reasoning": "Decision making will rely on continuous system monitoring, interpreting automated exception handling, and rapidly validating issues flagged by algorithms. This reduces the reliance on periodic, manual review.",
+                "gaps": [
+                    {
+                        "justification": "Current process relies on periodic human-led assessment and subjective evaluation of systems; new skills needed for real-time, automated analytics.",
+                        "type": "Knowledge",
+                        "name": "Algorithmically Generated Insights",
+                        "description": "Knowledge of how system-generated performance indicators are produced, flagged, and mapped to operational interventions."
+                    },
+                    {
+                        "justification": "Continuous decision-making will require understanding workflows and interventions tracked in digital logs.",
+                        "type": "Skill",
+                        "name": "Workflow Management in Automated Settings",
+                        "description": "Skill at managing, recording, and tracking interventions within automated workflow systems and logs."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: Communication - 'Writes and presents detailed subject matter and technical concepts...writes program information manuals, training packages, monitoring procedures and management reports...'",
+                "element update reasoning": "Communication moves from narrative reporting to log-based, actionable updates, short dashboard interpretations, and cross-functional incident management.",
+                "gaps": [
+                    {
+                        "justification": "Narrative reporting skills do not cover concise, log-driven communication and actionable dashboard reporting.",
+                        "type": "Skill",
+                        "name": "Log-based Reporting",
+                        "description": "Ability to distill and communicate key insights and interventions from automated logs and alert streams efficiently and appropriately."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: Knowledge of Specialized Fields - 'Knowledge of system analysis and design, computer processing, generalized survey software packages...'",
+                "element update reasoning": "There is an increased requirement for understanding metadata, exception handling, and practical workflow operations in highly automated environments.",
+                "gaps": [
+                    {
+                        "justification": "Current element only partially covers metadata and system operations; future role requires depth in exception handling and operational workflow automation.",
+                        "type": "Knowledge",
+                        "name": "Metadata and Exception Handling",
+                        "description": "Knowledge of how metadata is used in automated systems for exception detection, data lineage, operational quality assurance, and event-driven process management."
+                    }
+                ]
+            }
+        ]
+    }
+]

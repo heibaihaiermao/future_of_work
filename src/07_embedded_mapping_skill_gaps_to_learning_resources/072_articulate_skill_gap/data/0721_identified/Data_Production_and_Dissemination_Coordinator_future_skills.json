@@ -1,0 +1,931 @@
+[
+    {
+        "id": "1.1",
+        "update description": "Needs identification becomes an upfront, digital-first, and cross-program responsibility. The Data Production and Dissemination Coordinator is expected to proactively scan for data reuse, contribute to cost and timeliness analyses, rigorously document the rationale for new collections, and use digital tools to assess the feasibility and sustainability of meeting statistical needs before escalation to new projects.",
+        "interdependencies": [
+            "4.1 - Frame and source data selection activities may increasingly depend on documented data reuse scans and feasibility assessments produced at needs identification",
+            "2.1 - Design activities will rely on standardized rationale, operational feasibility, and automation-readiness documentation generated upfront",
+            "8.1 - Evaluation and audit functions will depend on traceable, standardized records of decision rationale and client needs assessment"
+        ],
+        "impact reasoning": "This update shifts the role from primarily responding to user requests and coordinating downstream retrieval/validation/dissemination activities toward an earlier-stage diagnostic and gatekeeping function. The incumbent will be expected to determine whether existing internal or external data assets can satisfy needs before new collection or major system change is pursued. This requires structured and evidence-based client engagement, use of digital inventories and metadata-driven discovery tools, and explicit assessment of operational feasibility, timeliness, sustainability, and automation-readiness. As a result, the role expands from interpreting requests and implementing improvements to systematically documenting business rationale, constraints, reuse options, and handoff-ready records that support auditability and downstream design work.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - Coordinates and organizes the retrieval, editing, validation, marketing and dissemination of data.",
+                "element update reasoning": "This activity will broaden to include pre-operational diagnostic work before retrieval and dissemination begin. Coordination will increasingly start with determining whether an identified need can be met through reuse of existing data assets, whether digital processes are available, and whether the request is operationally feasible and sustainable. The activity becomes less purely execution-focused and more intake-, triage-, and assessment-oriented.",
+                "gaps": [
+                    {
+                        "justification": "The current activity emphasizes coordinating established production steps, but the update requires earlier and more strategic assessment using digital-first methods before production activity proceeds.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of digital data inventories and metadata-driven discovery",
+                        "description": "Knowledge of how to search, interpret, and assess digital catalogues, metadata repositories, and data asset inventories to determine whether existing datasets can satisfy user needs."
+                    },
+                    {
+                        "justification": "To incorporate upfront feasibility and sustainability screening, the role must evaluate operational viability before coordinating downstream processing work.",
+                        "type": "SKILL",
+                        "name": "Operational feasibility assessment",
+                        "description": "Ability to assess feasibility, timeliness, sustainability, and constraints of meeting a statistical need using existing assets, available processes, and automation options."
+                    },
+                    {
+                        "justification": "The update requires standardized rationale capture that supports audit and downstream handoff, which is not explicit in the current coordination activity.",
+                        "type": "SKILL",
+                        "name": "Structured documentation for audit and design handover",
+                        "description": "Ability to document decisions, assumptions, reuse scans, constraints, and rationale in standardized formats that support traceability, automation, and handoff to later GSBPM phases."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Provides custom tabulations and time-series information for ad-hoc client requests.",
+                "element update reasoning": "Ad-hoc service provision will become more controlled and diagnostic. Instead of moving directly to fulfilling requests, the incumbent will first validate need, assess whether the request can be met from existing outputs or reusable assets, estimate cost and timeliness implications, and determine whether the request should proceed, be reframed, or be redirected. The role becomes more selective and evidence-based in responding to client demand.",
+                "gaps": [
+                    {
+                        "justification": "The current activity implies a responsive service model; the future state requires screening and reframing requests based on digital discovery and evidence.",
+                        "type": "SKILL",
+                        "name": "Client needs diagnostics and request triage",
+                        "description": "Ability to decompose user requests, distinguish underlying information needs from requested products, and triage options using structured criteria."
+                    },
+                    {
+                        "justification": "The update explicitly introduces cost and timeliness analysis as part of needs identification.",
+                        "type": "SKILL",
+                        "name": "Cost and timeliness analysis",
+                        "description": "Ability to estimate effort, turnaround time, operational impact, and sustainability of meeting requests using existing or new data processes."
+                    },
+                    {
+                        "justification": "This activity now depends on the same digital-first discovery capability required across multiple affected elements.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of digital data inventories and metadata-driven discovery",
+                        "description": "Knowledge of how to search, interpret, and assess digital catalogues, metadata repositories, and data asset inventories to determine whether existing datasets can satisfy user needs."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Recommends improvements to statistical methods and procedures and implements changes to processing systems and applications to manipulate, store and retrieve statistical data.",
+                "element update reasoning": "Recommendations for improvements will increasingly need to be justified using documented evidence from needs analysis, data reuse scans, feasibility assessments, and automation-readiness reviews. Changes to systems and procedures will be shaped not only by current processing problems but by whether digital-first approaches can avoid unnecessary new collection or reduce operational burden.",
+                "gaps": [
+                    {
+                        "justification": "The update adds explicit emphasis on automation readiness and reuse before changing methods or systems.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of automation capabilities and readiness criteria",
+                        "description": "Knowledge of how existing automated processes, digital tools, and standardized workflows can be leveraged or adapted to meet statistical needs."
+                    },
+                    {
+                        "justification": "Evidence-based gatekeeping requires stronger ability to connect business needs analysis to system/process recommendations.",
+                        "type": "SKILL",
+                        "name": "Evidence-based process improvement analysis",
+                        "description": "Ability to translate documented needs, operational constraints, and reuse findings into justified recommendations for process, method, or system change."
+                    },
+                    {
+                        "justification": "This element now also depends on standardized rationale capture to support downstream design and audit.",
+                        "type": "SKILL",
+                        "name": "Structured documentation for audit and design handover",
+                        "description": "Ability to document decisions, assumptions, reuse scans, constraints, and rationale in standardized formats that support traceability, automation, and handoff to later GSBPM phases."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - Provides subject matter advice and direction to users on matters relating to subject-matter concepts.",
+                "element update reasoning": "Advice to users will expand beyond subject-matter concepts to include structured guidance on what is operationally feasible, whether needs can be met from existing data, what trade-offs exist in timeliness and quality, and whether a request is digitally ready for automation-supported processing. Client interaction becomes more consultative, evidence-based, and standardized.",
+                "gaps": [
+                    {
+                        "justification": "The updated role requires communicating constraints, feasibility, and automation readiness in addition to subject-matter concepts.",
+                        "type": "SKILL",
+                        "name": "Communication of operational constraints and digital readiness",
+                        "description": "Ability to clearly explain feasibility, reuse opportunities, risks, limitations, and automation-readiness to clients and internal stakeholders in non-technical language."
+                    },
+                    {
+                        "justification": "To provide stronger guidance at intake, the incumbent must diagnose needs using structured methods and tools.",
+                        "type": "SKILL",
+                        "name": "Client needs diagnostics and request triage",
+                        "description": "Ability to decompose user requests, distinguish underlying information needs from requested products, and triage options using structured criteria."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Identifies and assesses trends and developments in the subject area; reviews the potential impact on program subject-matter content and determines the implications for statistical methods and procedures.",
+                "element update reasoning": "Trend assessment will now also include scanning for developments in data availability, digital reuse opportunities, and operational implications across programs. Decision making will extend beyond subject-matter change to whether identified needs justify new collection, can be served through reuse, or should be redesigned based on digital and operational constraints.",
+                "gaps": [
+                    {
+                        "justification": "The current bullet is subject-matter focused; the future role must also interpret data ecosystem and digital-operational trends.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of cross-program data assets and reuse opportunities",
+                        "description": "Knowledge of available datasets, linked assets, and related program outputs across the organization to identify alternatives to new collection."
+                    },
+                    {
+                        "justification": "Determining implications now requires assessing feasibility and sustainability alongside methodological considerations.",
+                        "type": "SKILL",
+                        "name": "Operational feasibility assessment",
+                        "description": "Ability to assess feasibility, timeliness, sustainability, and constraints of meeting a statistical need using existing assets, available processes, and automation options."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Identifies and evaluates problems related to the retrieval, editing, validation, marketing and dissemination of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems.",
+                "element update reasoning": "Problem identification will move upstream. In addition to diagnosing issues in retrieval and dissemination, the incumbent will assess whether requests themselves are appropriately framed, whether existing data can be reused, and whether operational or digital constraints should prevent or reshape the work before downstream processing starts.",
+                "gaps": [
+                    {
+                        "justification": "The future role includes gatekeeping and intake diagnostics, which are not explicit in the current problem-solving scope.",
+                        "type": "SKILL",
+                        "name": "Upstream request assessment and gatekeeping",
+                        "description": "Ability to identify issues at the intake stage, including weak rationale, duplication with existing assets, unsustainable demand, and insufficient digital readiness."
+                    },
+                    {
+                        "justification": "The role must support recommendations with standardized evidence and traceability.",
+                        "type": "SKILL",
+                        "name": "Structured documentation for audit and design handover",
+                        "description": "Ability to document decisions, assumptions, reuse scans, constraints, and rationale in standardized formats that support traceability, automation, and handoff to later GSBPM phases."
+                    }
+                ]
+            },
+            {
+                "element": "1. Decision making - Determines the need for and implements enhancements or modifications to computer systems and applications used to retrieve, edit, validate, market and disseminate statistical data.",
+                "element update reasoning": "Determining system enhancements will increasingly require assessing whether existing digital tools, automation capabilities, and reusable assets already meet the need. Requests for enhancement will need stronger rationale tied to documented feasibility and sustainability analysis, rather than proceeding primarily from immediate operational need.",
+                "gaps": [
+                    {
+                        "justification": "The update explicitly expects awareness of automation capabilities before escalating to new projects or modifications.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of automation capabilities and readiness criteria",
+                        "description": "Knowledge of how existing automated processes, digital tools, and standardized workflows can be leveraged or adapted to meet statistical needs."
+                    },
+                    {
+                        "justification": "The incumbent must compare existing digital options against requested changes in a structured way.",
+                        "type": "SKILL",
+                        "name": "Digital options analysis",
+                        "description": "Ability to evaluate whether a requirement can be met by existing systems, configurable tools, automation, or metadata-driven discovery before proposing system change."
+                    }
+                ]
+            },
+            {
+                "element": "2. Leadership and operational management - Monitors and tracks time spent on activities for the purposes of recording and recovering such costs from the client. Responsible for identifying costs and fees associated with cost recovery activities and preparing estimates for special requests and tabulations based upon established fee schedules.",
+                "element update reasoning": "This element will expand from post-hoc or service-specific costing into earlier analytical support for cost, timeliness, and sustainability decisions during needs identification. Estimation will need to inform whether requests should proceed and how they should be fulfilled, not only what to charge after work is accepted.",
+                "gaps": [
+                    {
+                        "justification": "Current costing appears oriented to recovery and fee schedules; the update requires broader analytical use of costing in decision making.",
+                        "type": "SKILL",
+                        "name": "Cost and timeliness analysis",
+                        "description": "Ability to estimate effort, turnaround time, operational impact, and sustainability of meeting requests using existing or new data processes."
+                    },
+                    {
+                        "justification": "To support gatekeeping, costing must be linked to feasibility and sustainability rather than only billing.",
+                        "type": "SKILL",
+                        "name": "Decision-support estimation",
+                        "description": "Ability to use cost, workload, and timing estimates to inform whether needs should be met through reuse, redesign, automation, or escalation."
+                    }
+                ]
+            },
+            {
+                "element": "3. Communication - Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, and to establish project plans and target dates.",
+                "element update reasoning": "Liaison responsibilities will begin earlier and become more structured. Before translating requirements into specifications, the incumbent will need to test whether the requirement is valid, reusable, feasible, and sustainable, using digital tools and standardized evidence. Communication will increasingly include documenting rationale, constraints, and readiness for handoff to design or project planning.",
+                "gaps": [
+                    {
+                        "justification": "The communication task now requires stronger intake analysis before specification development.",
+                        "type": "SKILL",
+                        "name": "Requirements elicitation using structured digital-first methods",
+                        "description": "Ability to capture, validate, and refine client and user requirements through structured templates, digital assessment tools, and evidence-based discussions."
+                    },
+                    {
+                        "justification": "The update adds explicit need to communicate automation readiness and constraints to internal and external parties.",
+                        "type": "SKILL",
+                        "name": "Communication of operational constraints and digital readiness",
+                        "description": "Ability to clearly explain feasibility, reuse opportunities, risks, limitations, and automation-readiness to clients and internal stakeholders in non-technical language."
+                    },
+                    {
+                        "justification": "Downstream design and project planning depend on standardized rationale captured at this stage.",
+                        "type": "SKILL",
+                        "name": "Structured documentation for audit and design handover",
+                        "description": "Ability to document decisions, assumptions, reuse scans, constraints, and rationale in standardized formats that support traceability, automation, and handoff to later GSBPM phases."
+                    }
+                ]
+            },
+            {
+                "element": "3. Communication - Provides advice to data users and clients on matters relating to subject-matter concepts used in the development and operation of a statistical database and to the data processing environment in general.",
+                "element update reasoning": "Advice will become broader and more diagnostic, including whether client needs can be met from existing assets, the implications of operational constraints, the sustainability of options, and the suitability of digital or automated pathways. The communication role becomes more formalized and evidence-backed.",
+                "gaps": [
+                    {
+                        "justification": "The future advisory role requires explaining operational and digital implications, not just subject-matter and processing concepts.",
+                        "type": "SKILL",
+                        "name": "Communication of operational constraints and digital readiness",
+                        "description": "Ability to clearly explain feasibility, reuse opportunities, risks, limitations, and automation-readiness to clients and internal stakeholders in non-technical language."
+                    },
+                    {
+                        "justification": "Effective advice depends on understanding available reusable assets across the organization.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of cross-program data assets and reuse opportunities",
+                        "description": "Knowledge of available datasets, linked assets, and related program outputs across the organization to identify alternatives to new collection."
+                    }
+                ]
+            },
+            {
+                "element": "3. Communication - Writes program information manuals, training packages, monitoring procedures and management reports for use by colleagues, operational staff and management in the development, implementation and assessment of statistical programs.",
+                "element update reasoning": "Written outputs will need to include standardized rationale records, feasibility findings, and process documentation that support automation, audit, and downstream design handoff. Documentation will likely become more template-based, structured, and reusable across programs.",
+                "gaps": [
+                    {
+                        "justification": "The update explicitly calls for standardized formats supporting automation and audit.",
+                        "type": "SKILL",
+                        "name": "Structured documentation for audit and design handover",
+                        "description": "Ability to document decisions, assumptions, reuse scans, constraints, and rationale in standardized formats that support traceability, automation, and handoff to later GSBPM phases."
+                    },
+                    {
+                        "justification": "Documentation now serves not only communication but machine-supported workflow and governance functions.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of documentation standards for automation and audit",
+                        "description": "Knowledge of organizational templates, metadata standards, and documentation practices that enable traceability, auditability, and downstream system use."
+                    }
+                ]
+            },
+            {
+                "element": "4. Knowledge of specialized fields - Knowledge of the concepts, methods and techniques used in the retrieval, editing, validation and dissemination of statistical data in order to advise on subject-matter development.",
+                "element update reasoning": "This knowledge base must expand to include the earlier needs-identification context: methods for locating reusable data, assessing metadata quality and suitability, and evaluating whether needs can be met digitally before traditional retrieval and processing work begins.",
+                "gaps": [
+                    {
+                        "justification": "The current knowledge statement is focused on downstream production methods, while the update adds digital-first discovery and assessment at the front end.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of digital data inventories and metadata-driven discovery",
+                        "description": "Knowledge of how to search, interpret, and assess digital catalogues, metadata repositories, and data asset inventories to determine whether existing datasets can satisfy user needs."
+                    },
+                    {
+                        "justification": "Assessing sustainability and fit requires evaluation of metadata, provenance, and usability beyond traditional processing knowledge.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of data suitability and reuse assessment",
+                        "description": "Knowledge of criteria for determining whether an existing dataset is fit for a new use case, including coverage, timeliness, quality, definitional alignment, and accessibility."
+                    }
+                ]
+            },
+            {
+                "element": "4. Knowledge of specialized fields - Knowledge of system analysis and design, computer processing, generalized survey software packages to design, develop, test, maintain and implement processing systems; to design specifications for the editing and validation of data, and to maintain and use databases.",
+                "element update reasoning": "System knowledge will need to extend from supporting processing design to understanding digital discovery environments, automation-enabling workflows, and how upfront requirement capture feeds into downstream design. The incumbent will need enough knowledge to assess digital readiness and produce better handoff material, not just support existing system development.",
+                "gaps": [
+                    {
+                        "justification": "The role evolution places greater emphasis on automation-readiness and digital-first assessment before development or change.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of automation capabilities and readiness criteria",
+                        "description": "Knowledge of how existing automated processes, digital tools, and standardized workflows can be leveraged or adapted to meet statistical needs."
+                    },
+                    {
+                        "justification": "The updated role requires better linkage between business need capture and system/design implications.",
+                        "type": "SKILL",
+                        "name": "Digital options analysis",
+                        "description": "Ability to evaluate whether a requirement can be met by existing systems, configurable tools, automation, or metadata-driven discovery before proposing system change."
+                    }
+                ]
+            },
+            {
+                "element": "5. Contextual knowledge - Knowledge of statistical programs within Statistics Canada related to the area of expertise in order to identify potential sources of information for development and operations and/or special studies and to identify and evaluate data conflicts.",
+                "element update reasoning": "This knowledge becomes more central and broader in scope. Instead of identifying sources mainly within a subject area, the incumbent will need stronger cross-program awareness to proactively locate reusable assets, avoid duplication, and support evidence-based decisions on whether new collection is warranted.",
+                "gaps": [
+                    {
+                        "justification": "The update explicitly makes needs identification cross-program and reuse-oriented, raising the required breadth of organizational knowledge.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of cross-program data assets and reuse opportunities",
+                        "description": "Knowledge of available datasets, linked assets, and related program outputs across the organization to identify alternatives to new collection."
+                    }
+                ]
+            },
+            {
+                "element": "5. Contextual knowledge - Knowledge of contacts within key client departments to establish a liaison; to understand need for statistical data, and to provide advice and guidance on subject-matter concepts, methods, techniques and results.",
+                "element update reasoning": "Client knowledge will need to support more formal intake and evidence-based engagement. Understanding client needs will involve structured diagnostics, sustainability discussions, and standardized recording of rationale and constraints, not only relationship-based liaison and guidance.",
+                "gaps": [
+                    {
+                        "justification": "The current liaison emphasis does not fully cover structured, evidence-based needs assessment expected in the future role.",
+                        "type": "SKILL",
+                        "name": "Client needs diagnostics and request triage",
+                        "description": "Ability to decompose user requests, distinguish underlying information needs from requested products, and triage options using structured criteria."
+                    },
+                    {
+                        "justification": "The role must communicate constraints and automation readiness as part of engagement with client departments.",
+                        "type": "SKILL",
+                        "name": "Communication of operational constraints and digital readiness",
+                        "description": "Ability to clearly explain feasibility, reuse opportunities, risks, limitations, and automation-readiness to clients and internal stakeholders in non-technical language."
+                    }
+                ]
+            },
+            {
+                "element": "6. Research and analysis - Analyzes current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to propose changes or alternative systems.",
+                "element update reasoning": "Analysis will move earlier in the lifecycle and include deciding whether collection is needed at all. The incumbent will compare existing assets, digital pathways, and automation options to proposed new or modified processes, using formal feasibility and sustainability criteria rather than focusing mainly on improving current production methods.",
+                "gaps": [
+                    {
+                        "justification": "The future state broadens analysis from improving current methods to testing whether work should proceed through reuse or redesign.",
+                        "type": "SKILL",
+                        "name": "Operational feasibility assessment",
+                        "description": "Ability to assess feasibility, timeliness, sustainability, and constraints of meeting a statistical need using existing assets, available processes, and automation options."
+                    },
+                    {
+                        "justification": "This expanded analytical role requires stronger awareness of reusable data assets and digital alternatives.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of digital data inventories and metadata-driven discovery",
+                        "description": "Knowledge of how to search, interpret, and assess digital catalogues, metadata repositories, and data asset inventories to determine whether existing datasets can satisfy user needs."
+                    }
+                ]
+            },
+            {
+                "element": "6. Research and analysis - Interprets user requests to determine the nature, feasibility, and options for providing the information required.",
+                "element update reasoning": "This is the most directly affected element. Interpretation of requests will become more formal, evidence-based, and digitally enabled. The incumbent will be expected to perform structured diagnostics, search for reusable assets, assess cost and timeliness, evaluate automation readiness, and document rationale for decisions in standard formats before recommending action.",
+                "gaps": [
+                    {
+                        "justification": "The current bullet already addresses feasibility and options, but the future expectation increases rigor, structure, and digital tooling.",
+                        "type": "SKILL",
+                        "name": "Client needs diagnostics and request triage",
+                        "description": "Ability to decompose user requests, distinguish underlying information needs from requested products, and triage options using structured criteria."
+                    },
+                    {
+                        "justification": "The update explicitly requires digital-first search and evaluation before escalation.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of digital data inventories and metadata-driven discovery",
+                        "description": "Knowledge of how to search, interpret, and assess digital catalogues, metadata repositories, and data asset inventories to determine whether existing datasets can satisfy user needs."
+                    },
+                    {
+                        "justification": "Feasibility now includes cost, timeliness, sustainability, and readiness for automation.",
+                        "type": "SKILL",
+                        "name": "Cost and timeliness analysis",
+                        "description": "Ability to estimate effort, turnaround time, operational impact, and sustainability of meeting requests using existing or new data processes."
+                    },
+                    {
+                        "justification": "The updated role requires explicit assessment of automation readiness as part of determining options.",
+                        "type": "KNOWLEDGE",
+                        "name": "Knowledge of automation capabilities and readiness criteria",
+                        "description": "Knowledge of how existing automated processes, digital tools, and standardized workflows can be leveraged or adapted to meet statistical needs."
+                    },
+                    {
+                        "justification": "The update requires rationale to be recorded in standardized formats supporting automation and audit.",
+                        "type": "SKILL",
+                        "name": "Structured documentation for audit and design handover",
+                        "description": "Ability to document decisions, assumptions, reuse scans, constraints, and rationale in standardized formats that support traceability, automation, and handoff to later GSBPM phases."
+                    }
+                ]
+            }
+        ]
+    },
+    [
+        {
+            "id": "2.1",
+            "update description": "Stakeholder needs consultation shifts from primarily person-to-person liaison and exploratory interpretation toward an evidence-based, digitally enabled consultation workflow using machine-actionable metadata and data discovery platforms. The Coordinator must first assess whether client needs can be met from existing assets, document decisions and trade-offs transparently, and only advance new tabulation or collection proposals when unmet needs are clearly demonstrated and justified through cost-benefit and burden considerations.",
+            "interdependencies": [
+                "2.2",
+                "4.1",
+                "5.1",
+                "7.1"
+            ],
+            "impact reasoning": "This update changes the role from a mainly consultative and request-translation function into a more structured gateway role for assessing need feasibility through digital discovery, metadata interrogation, and documented decision workflows. The Coordinator will still engage clients and subject matter specialists, but the first response to requests will increasingly be platform-enabled assessment of existing data assets, their fitness for purpose, reusability, and constraints. Ad-hoc requests will be screened more systematically against available holdings, agency priorities, cost, respondent burden, and operational feasibility. The role therefore becomes more accountable for transparent triage, rapid evidence-based recommendation making, and formal documentation of rationale. This also implies more frequent adjustment to changing standards, platforms, and feedback cycles, increasing the expectation for operational agility and continuous process realignment.",
+            "affected work-description elements": [
+                {
+                    "element": "Key Activities - Coordinates and organizes the retrieval, editing, validation, marketing and dissemination of data.",
+                    "element update reasoning": "This activity expands from coordinating downstream data handling to also coordinating upstream digital assessment of whether existing data assets can satisfy user needs before retrieval or dissemination work proceeds. The work becomes more metadata- and platform-driven, with stronger emphasis on asset discovery, reuse, and documented decision pathways.",
+                    "gaps": [
+                        {
+                            "justification": "The current wording emphasizes operational coordination of retrieval and dissemination but does not explicitly require machine-actionable metadata navigation or digital asset discovery as the primary intake mechanism.",
+                            "type": "SKILL",
+                            "name": "Metadata and data discovery platform navigation",
+                            "description": "Ability to use agency metadata, cataloguing, and data discovery tools to identify existing assets, determine suitability for reuse, and support rapid service decisions."
+                        },
+                        {
+                            "justification": "The future workflow requires structured assessment of whether available assets meet needs before initiating production work.",
+                            "type": "SKILL",
+                            "name": "Asset reusability and feasibility assessment",
+                            "description": "Ability to assess whether existing datasets, tabulations, or statistical products are fit for client purpose, including scope, quality, accessibility, and limitations."
+                        },
+                        {
+                            "justification": "The new expectation requires consistent recording of how decisions were reached, which is not explicit in the current activity.",
+                            "type": "SKILL",
+                            "name": "Decision logging and workflow documentation",
+                            "description": "Ability to document needs assessments, options considered, trade-offs, approvals, and rationale in structured systems for management review and auditability."
+                        }
+                    ]
+                },
+                {
+                    "element": "Key Activities - Provides custom tabulations and time-series information for ad-hoc client requests.",
+                    "element update reasoning": "Custom tabulations shift from being a relatively direct response activity to becoming a later-stage option after existing assets have been systematically checked and reuse options exhausted. The Coordinator will be expected to justify when custom production is warranted and explain trade-offs regarding effort, burden, and value.",
+                    "gaps": [
+                        {
+                            "justification": "The current role supports custom outputs, but the future state requires a stronger gatekeeping function to test reuse before producing new outputs.",
+                            "type": "SKILL",
+                            "name": "Value-based service triage",
+                            "description": "Ability to evaluate whether a custom tabulation request should proceed based on client need, available alternatives, cost, timeliness, and organizational value."
+                        },
+                        {
+                            "justification": "Future decisions must explicitly incorporate resource and burden considerations before advancing new work.",
+                            "type": "KNOWLEDGE",
+                            "name": "Cost-benefit and respondent burden principles",
+                            "description": "Knowledge of how to assess and communicate operational cost, respondent burden, and expected analytical value when considering new tabulations or collections."
+                        }
+                    ]
+                },
+                {
+                    "element": "Key Activities - Provides subject matter advice and direction to users on matters relating to subject-matter concepts.",
+                    "element update reasoning": "Advice to users will increasingly occur through digital consultation supported by automated results, metadata evidence, and transparent explanation of fit, limitations, and trade-offs. The Coordinator must guide users through available assets and interpret discovery outputs rather than relying only on interpersonal expertise.",
+                    "gaps": [
+                        {
+                            "justification": "The role currently emphasizes subject-matter advice, but the future state requires advising through digital outputs and metadata evidence.",
+                            "type": "SKILL",
+                            "name": "Digital consultation facilitation",
+                            "description": "Ability to guide clients through digital discovery results, metadata interpretations, and self-service or assisted-service consultation pathways."
+                        },
+                        {
+                            "justification": "Clients will need accessible explanations of why an asset is or is not suitable, including trade-offs and constraints.",
+                            "type": "SKILL",
+                            "name": "Plain-language trade-off communication",
+                            "description": "Ability to explain feasibility, reusability, quality limitations, burden, cost, and timing considerations in language accessible to non-technical stakeholders."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - Identifies and evaluates problems related to the retrieval, editing, validation, marketing and dissemination of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems.",
+                    "element update reasoning": "Problem identification will begin earlier in the workflow and include determining whether a request can be satisfied from existing assets, where the constraints lie, and whether escalation to new production is justified. Recommendations to management will need to be evidence-based and documented through standardized digital processes.",
+                    "gaps": [
+                        {
+                            "justification": "The current decision-making focus is operational problem solving, while the future state adds structured feasibility and reuse analysis as an early-stage decision function.",
+                            "type": "SKILL",
+                            "name": "Structured feasibility assessment",
+                            "description": "Ability to evaluate request feasibility using standardized criteria such as asset availability, metadata evidence, resource implications, and policy alignment."
+                        },
+                        {
+                            "justification": "Management-facing recommendations will require transparent audit trails and comparative rationale across options.",
+                            "type": "SKILL",
+                            "name": "Evidence-based recommendation development",
+                            "description": "Ability to prepare recommendations supported by documented options analysis, cost-benefit considerations, and clearly articulated decision rationale."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 2. Leadership and operational management - Leads work groups established to conduct and implement program activities: assigns work; provides feedback on performance of working group members; monitors progress against objectives and provides guidance and direction to working group members; identifies financial and human resource needs.",
+                    "element update reasoning": "Leadership expectations broaden to include coordinating digital consultation workflows, supporting frequent process feedback cycles, and helping teams adapt to changing intake and triage practices. The Coordinator may need to reinforce use of documentation standards and metadata-first assessment practices within work groups.",
+                    "gaps": [
+                        {
+                            "justification": "The future state requires adaptation leadership in addition to operational task leadership.",
+                            "type": "SKILL",
+                            "name": "Agile process adaptation",
+                            "description": "Ability to operate in shorter feedback cycles, adjust workflows quickly, and support continuous improvement in consultation and service delivery processes."
+                        },
+                        {
+                            "justification": "The role must help embed standardized digital workflows and documentation discipline across collaborative work.",
+                            "type": "SKILL",
+                            "name": "Digital workflow coordination",
+                            "description": "Ability to coordinate team activities within digital intake, tracking, and review processes, including adherence to standardized documentation and assessment checkpoints."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, and to establish project plans and target dates.",
+                    "element update reasoning": "This is the most directly affected element. Liaison remains important, but it is transformed from primarily exploratory interpersonal translation into a digitally supported consultation and requirements screening function. The Coordinator will need to use metadata and platform evidence to validate needs, redirect clients to existing assets where possible, and formalize the rationale for any system or production changes.",
+                    "gaps": [
+                        {
+                            "justification": "The current element emphasizes translation of requirements but not platform-based need validation prior to specification development.",
+                            "type": "SKILL",
+                            "name": "Metadata-enabled requirements elicitation",
+                            "description": "Ability to use metadata and discovery evidence to validate, refine, and narrow stakeholder requirements before converting them into specifications or project proposals."
+                        },
+                        {
+                            "justification": "The future state requires transparent discussions with clients about trade-offs and alternatives instead of only gathering requirements for delivery.",
+                            "type": "SKILL",
+                            "name": "Consultative triage and options facilitation",
+                            "description": "Ability to lead clients through available options, explain why some needs can be met through existing assets, and facilitate informed decisions on whether to pursue new outputs."
+                        },
+                        {
+                            "justification": "Documentation and management review become formal parts of the workflow.",
+                            "type": "SKILL",
+                            "name": "Consultation record management",
+                            "description": "Ability to capture stakeholder needs, decision points, option assessments, and approvals in structured systems to support transparency and downstream action."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Provides advice to data users and clients on matters relating to subject-matter concepts used in the development and operation of a statistical database and to the data processing environment in general.",
+                    "element update reasoning": "Advice expands beyond concepts and processing environment to include guidance on navigating metadata repositories, interpreting asset availability, and understanding why certain requests can or cannot proceed under modernization constraints.",
+                    "gaps": [
+                        {
+                            "justification": "The current advice function does not explicitly require proficiency with digital client-facing discovery and metadata interpretation.",
+                            "type": "KNOWLEDGE",
+                            "name": "Agency metadata ecosystem knowledge",
+                            "description": "Knowledge of the agency's metadata structures, discovery interfaces, asset catalogues, and their practical use in supporting client service."
+                        },
+                        {
+                            "justification": "The Coordinator must increasingly help users understand automated or system-generated outputs.",
+                            "type": "SKILL",
+                            "name": "Interpretation of automated discovery outputs",
+                            "description": "Ability to interpret platform-generated search, matching, and availability results and explain their implications for client requests."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - Knowledge of the concepts, methods and techniques used in the retrieval, editing, validation and dissemination of statistical data in order to advise on subject-matter development.",
+                    "element update reasoning": "Specialized knowledge must now include methods and techniques for metadata-driven asset discovery, reusability assessment, and digital service enablement in addition to traditional retrieval and dissemination processes.",
+                    "gaps": [
+                        {
+                            "justification": "Traditional statistical processing knowledge remains relevant but is insufficient for the future consultation workflow.",
+                            "type": "KNOWLEDGE",
+                            "name": "Machine-actionable metadata concepts",
+                            "description": "Knowledge of metadata standards, structures, and machine-actionable design principles that support automated discovery and reuse assessment."
+                        },
+                        {
+                            "justification": "The role must judge whether assets can be reused to meet needs, which goes beyond current retrieval and dissemination knowledge.",
+                            "type": "KNOWLEDGE",
+                            "name": "Data asset reuse principles",
+                            "description": "Knowledge of factors affecting reusability, including comparability, granularity, access conditions, timeliness, and suitability for secondary use."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - Knowledge of system analysis and design, computer processing, generalized survey software packages to design, develop, test, maintain and implement processing systems; to design specifications for the editing and validation of data, and to maintain and use databases.",
+                    "element update reasoning": "System-related knowledge will need to extend from operational processing systems to client-facing discovery and intake platforms, including how consultation outputs connect to downstream system or production changes.",
+                    "gaps": [
+                        {
+                            "justification": "The current emphasis is on processing and survey systems, whereas the future state requires familiarity with discovery and intake platforms that precede those systems.",
+                            "type": "KNOWLEDGE",
+                            "name": "Digital intake and discovery workflow architecture",
+                            "description": "Knowledge of how metadata platforms, client intake tools, tracking systems, and downstream production systems interact in the consultation-to-delivery chain."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 5. Contextual knowledge - Knowledge of contacts within key client departments to establish a liaison; to understand need for statistical data, and to provide advice and guidance on subject-matter concepts, methods, techniques and results.",
+                    "element update reasoning": "Relationship knowledge remains useful, but successful performance will rely less on personal networks alone and more on understanding standardized digital pathways through which client needs are assessed, documented, and aligned with agency assets and priorities.",
+                    "gaps": [
+                        {
+                            "justification": "The current element privileges interpersonal liaison, while the update requires combining relationship management with standardized digital consultation methods.",
+                            "type": "SKILL",
+                            "name": "Hybrid client engagement",
+                            "description": "Ability to combine stakeholder relationship management with structured digital consultation workflows, ensuring consistent and evidence-based service decisions."
+                        },
+                        {
+                            "justification": "Need assessments must now align with agency priorities and asset availability, which requires broader organizational judgment.",
+                            "type": "KNOWLEDGE",
+                            "name": "Priority-aligned service decision frameworks",
+                            "description": "Knowledge of organizational priorities, service principles, and governance expectations used to determine whether requests should proceed, be redirected, or be declined."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 5. Contextual knowledge - Knowledge of the divisional mandate, objectives, priorities, practices, standards, processes and procedures to order to coordinate and organize on-going operational activities and/or special projects.",
+                    "element update reasoning": "This knowledge area becomes more central because every consultation outcome must be aligned to agency and divisional priorities, process standards, and documented governance expectations before new work advances.",
+                    "gaps": [
+                        {
+                            "justification": "The future workflow requires stronger applied use of standards and governance in day-to-day service triage decisions.",
+                            "type": "KNOWLEDGE",
+                            "name": "Consultation governance and documentation standards",
+                            "description": "Knowledge of formal standards for documenting requests, recording rationale, applying intake criteria, and preparing cases for management review."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Interprets user requests to determine the nature, feasibility, and options for providing the information required.",
+                    "element update reasoning": "Interpretation of requests becomes more formalized and evidence-driven. Feasibility assessment will depend on rapid metadata review, existing asset availability, and comparative option analysis, with explicit documentation of why certain paths are recommended or rejected.",
+                    "gaps": [
+                        {
+                            "justification": "This existing duty aligns directly with the update, but the methods required to perform it are becoming substantially more digital and standardized.",
+                            "type": "SKILL",
+                            "name": "Digital feasibility triage",
+                            "description": "Ability to assess user requests through metadata-driven checks, standardized criteria, and option comparisons to determine whether needs can be met through existing assets or require escalation."
+                        },
+                        {
+                            "justification": "The future process requires transparent recording of decision logic, not only making the assessment.",
+                            "type": "SKILL",
+                            "name": "Option and rationale documentation",
+                            "description": "Ability to record feasible options, associated trade-offs, decision criteria, and final recommendations in a structured and reviewable manner."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Compiles data from diverse sources to produce statistical charts, tables and other output. Summarizes and describes meaning of data. Analyzes and evaluates data for consistency, reliability and appropriateness.",
+                    "element update reasoning": "This activity will be performed more selectively, since producing new outputs will increasingly require prior proof that existing assets are insufficient. When work proceeds, stronger justification and traceability of why compilation was necessary will be expected.",
+                    "gaps": [
+                        {
+                            "justification": "The work remains relevant, but the updated environment requires stronger front-end justification before undertaking new compilation.",
+                            "type": "KNOWLEDGE",
+                            "name": "Reuse-first production decision principles",
+                            "description": "Knowledge of the criteria and governance logic used to determine when new analytical or tabulation work is justified instead of reuse of existing outputs."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2.2",
+            "update description": "Needs assessment and service response cycles become shorter and more iterative, with more frequent process feedback, documentation, and realignment. The Coordinator must support rapid digital consultation cycles while maintaining transparency, consistency, and alignment with organizational priorities.",
+            "interdependencies": [
+                "2.1",
+                "5.1",
+                "7.1"
+            ],
+            "impact reasoning": "This update increases the speed and cadence of the role. The Coordinator will be expected to move quickly from request intake to evidence-based assessment while preserving quality and traceability. The role will need to operate within tighter turnaround expectations, adapt to ongoing process refinements, and maintain consistency across repeated review cycles. This introduces a stronger requirement for agility, disciplined documentation, and comfort working within evolving digital operating models rather than stable, manually mediated consultation patterns.",
+            "affected work-description elements": [
+                {
+                    "element": "Key Activities - Participates as a subject area representative on various teams and working groups.",
+                    "element update reasoning": "Participation will involve more frequent feedback loops on consultation processes, metadata usability, and service triage practices, not only subject-matter representation.",
+                    "gaps": [
+                        {
+                            "justification": "The role will need to contribute to ongoing process refinement cycles that are not explicit in the current activity.",
+                            "type": "SKILL",
+                            "name": "Continuous improvement participation",
+                            "description": "Ability to provide structured feedback on workflow effectiveness, identify bottlenecks in digital consultation processes, and contribute to iterative service improvements."
+                        }
+                    ]
+                },
+                {
+                    "element": "Key Activities - Leads work groups established to coordinate and implement program activities.",
+                    "element update reasoning": "Leading work groups will increasingly require managing shorter planning horizons, reprioritizing based on intake evidence, and reinforcing adaptation to revised procedures and standards.",
+                    "gaps": [
+                        {
+                            "justification": "Shorter cycles and more frequent realignment create a need for stronger adaptive leadership than the current wording implies.",
+                            "type": "SKILL",
+                            "name": "Short-cycle operational planning",
+                            "description": "Ability to organize and reprioritize work under compressed timelines and evolving process requirements while maintaining service quality."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 2. Leadership and operational management - Leads work groups established to conduct and implement program activities: assigns work; provides feedback on performance of working group members; monitors progress against objectives and provides guidance and direction to working group members; identifies financial and human resource needs.",
+                    "element update reasoning": "Operational management becomes more dynamic, requiring rapid reallocation of effort in response to intake outcomes, platform changes, or revised guidance from management.",
+                    "gaps": [
+                        {
+                            "justification": "The current management expectations emphasize monitoring and direction, but the update requires more fluid adjustment in response to changing workflows.",
+                            "type": "SKILL",
+                            "name": "Adaptive workload management",
+                            "description": "Ability to shift resources and sequence work in response to fast-moving consultation outcomes, revised priorities, and iterative management feedback."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Writes program information manuals, training packages, monitoring procedures and management reports for use by colleagues, operational staff and management in the development, implementation and assessment of statistical programs.",
+                    "element update reasoning": "Written materials will need more frequent updating to reflect changing digital workflows, standards, and lessons learned from ongoing feedback cycles.",
+                    "gaps": [
+                        {
+                            "justification": "More frequent process change creates a need for faster refresh of procedural and guidance materials than is explicit today.",
+                            "type": "SKILL",
+                            "name": "Dynamic procedural documentation",
+                            "description": "Ability to update guidance, training, and monitoring documents quickly and accurately as digital consultation processes evolve."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - Delivers specialized training to colleagues and other data users within the department.",
+                    "element update reasoning": "Training delivery will increasingly cover how to use metadata tools, interpret platform outputs, and follow standardized consultation and documentation practices under shorter change cycles.",
+                    "gaps": [
+                        {
+                            "justification": "The future environment requires new training content and more frequent refresh due to evolving tools and workflows.",
+                            "type": "SKILL",
+                            "name": "Training on digital consultation tools and practices",
+                            "description": "Ability to train colleagues and users on metadata platforms, discovery workflows, decision documentation, and client communication standards."
+                        }
+                    ]
+                },
+                {
+                    "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - Examines operational system concepts and methods as well as new or revised processing specifications in order to determine their effect on the integration and co-ordination of the data capture and processing functions with other divisional systems.",
+                    "element update reasoning": "This analysis will increasingly include understanding how revised intake and discovery processes affect downstream production, coordination, and system integration.",
+                    "gaps": [
+                        {
+                            "justification": "The updated role requires sensitivity to cascading operational effects from upstream consultation changes.",
+                            "type": "KNOWLEDGE",
+                            "name": "End-to-end workflow impact analysis",
+                            "description": "Knowledge of how changes in intake, metadata discovery, and triage processes affect downstream production, coordination, and service delivery systems."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    {
+        "id": "2.2",
+        "update description": "Shift from manual, expert-driven concept identification and user-needs interpretation to metadata-driven, AI-assisted concept discovery, enterprise standards alignment, and machine-actionable outputs. The role evolves toward validating, prioritizing, and arbitrating system-suggested concepts rather than generating concepts from scratch.",
+        "interdependencies": [
+            "2.1 - Specify Needs: user requirements capture becomes more structured and machine-readable to support automated concept identification",
+            "2.3 - Establish Output Objectives: concept harmonization and machine-actionable metadata influence output design and dissemination structures",
+            "4.3 - Classify and code: standardized concepts and metadata alignment affect downstream coding and classification consistency",
+            "5.2 - Integrate data: interoperability and enterprise metadata alignment support integration across sources",
+            "7.1 - Update output systems: machine-actionable concept definitions and metadata must be maintained in dissemination environments"
+        ],
+        "impact reasoning": "The work-description will change by reducing the relative emphasis on individually creating or informally refining concepts, definitions, and user-request interpretations through manual expert judgment alone. Instead, the position will increasingly work through enterprise metadata repositories and AI-assisted recommendation tools that surface candidate concepts, definitions, linkages, and standards. The EC-03 will still apply subject-matter expertise, but more as a validator, arbitrator, and harmonizer of system-generated suggestions. Operationally, this means requests for custom tabulations, retrieval, validation, and dissemination will begin with structured discovery of existing enterprise concepts and metadata assets before new concepts are proposed. The role will also need to ensure that selected concepts are interoperable, aligned with enterprise standards, and suitable for downstream machine use. Responsibilities will therefore expand to include evaluating AI-generated recommendations, resolving conflicts between local program requirements and enterprise standards, and documenting concept decisions in reusable, standardized formats. This also suggests future role evolution toward stewardship of concept quality, metadata coherence, and system-supported decision-making rather than predominantly manual subject-matter development.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities - \"Provides custom tabulations and time-series information for ad-hoc client requests.\"",
+                "element update reasoning": "Ad-hoc requests will increasingly require the use of enterprise metadata and AI-assisted concept discovery tools to identify already-defined concepts, comparable variables, and harmonized data structures before producing customized outputs. The activity shifts from interpreting requests primarily through personal expertise toward translating requests into structured, standards-aligned concept searches and validating the relevance of system-suggested options.",
+                "gaps": [
+                    {
+                        "justification": "The current activity emphasizes fulfilling ad-hoc requests but does not explicitly require use of metadata repositories, AI-assisted discovery, or standards-based concept matching. Future performance depends on the ability to work with these tools and assess their outputs.",
+                        "type": "SKILL",
+                        "name": "Metadata-enabled requirements interpretation",
+                        "description": "Ability to convert client requests into structured concept, variable, and metadata queries using enterprise repositories and standardized metadata models."
+                    },
+                    {
+                        "justification": "System-suggested concepts will need to be reviewed for appropriateness before outputs are produced; this exceeds the current manual interpretation focus.",
+                        "type": "SKILL",
+                        "name": "AI-assisted concept validation",
+                        "description": "Ability to evaluate, confirm, reject, or refine AI-recommended concepts, variables, and definitions based on program relevance and statistical coherence."
+                    },
+                    {
+                        "justification": "The update explicitly requires alignment with enterprise standards and interoperability, which is not fully reflected in the current ad-hoc service orientation.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise metadata standards and interoperability principles",
+                        "description": "Knowledge of enterprise concept registries, metadata standards, common models, and interoperability principles used to align requests and outputs across programs."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - \"Recommends improvements to statistical methods and procedures and implements changes to processing systems and applications to manipulate, store and retrieve statistical data.\"",
+                "element update reasoning": "Improvements to methods and procedures will increasingly include integrating metadata-driven concept identification, standards harmonization, and AI-supported recommendation logic into operational workflows. Changes to systems and applications will need to support machine-actionable concept definitions and reusable metadata assets rather than only local program-specific process adjustments.",
+                "gaps": [
+                    {
+                        "justification": "The current wording supports procedural improvement but does not explicitly require designing workflow changes around metadata-driven and AI-assisted concept management.",
+                        "type": "SKILL",
+                        "name": "Metadata-integrated process design",
+                        "description": "Ability to redesign operational and processing workflows so that concept identification, validation, and documentation are embedded in metadata-driven systems."
+                    },
+                    {
+                        "justification": "Future systems work depends on understanding how AI recommendations are produced and how they should be governed in production settings.",
+                        "type": "KNOWLEDGE",
+                        "name": "AI recommendation logic and limitations",
+                        "description": "Knowledge of how AI-assisted recommendation tools generate concept suggestions, including strengths, limitations, bias risks, and validation requirements."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities - \"Provides subject matter advice and direction to users on matters relating to subject-matter concepts.\"",
+                "element update reasoning": "Subject-matter advice will increasingly involve guiding users through enterprise-standard concepts, explaining AI-assisted matches or recommendations, and resolving cases where automated suggestions do not align cleanly with business needs. Advice becomes less about creating bespoke concepts and more about steering users toward harmonized and reusable conceptual assets.",
+                "gaps": [
+                    {
+                        "justification": "The advisory role now requires communicating the rationale behind standards-aligned, system-suggested concepts rather than only explaining program-specific concepts.",
+                        "type": "SKILL",
+                        "name": "Standards-based advisory communication",
+                        "description": "Ability to explain enterprise-standard concepts, metadata structures, and AI-assisted recommendation outcomes to users in clear operational terms."
+                    },
+                    {
+                        "justification": "The role evolution emphasizes arbitration and conflict resolution between system outputs and program needs, which extends beyond current advisory expectations.",
+                        "type": "SKILL",
+                        "name": "Concept arbitration and harmonization",
+                        "description": "Ability to resolve conflicts among user needs, local program concepts, and enterprise-standard or AI-suggested concepts while preserving coherence and usability."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - \"Identifies and assesses trends and developments in the subject area; reviews the potential impact on program subject-matter content and determines the implications for statistical methods and procedures.\"",
+                "element update reasoning": "Decision-making will expand beyond subject-matter trends to include evaluating changes in enterprise metadata standards, concept registries, and AI-enabled discovery capabilities. The position will need to determine not only methodological implications, but also whether existing concepts can be reused, harmonized, or require escalation for gap resolution.",
+                "gaps": [
+                    {
+                        "justification": "The current decision-making focus is on subject-area developments; future decisions must also account for metadata ecosystem changes and AI-enabled concept discovery methods.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise data holdings and concept landscape",
+                        "description": "Knowledge of available enterprise datasets, concept inventories, metadata assets, and their relationships to support reuse and harmonization decisions."
+                    },
+                    {
+                        "justification": "The update requires adjudicating among system-suggested concepts and identifying conceptual conflicts or gaps.",
+                        "type": "SKILL",
+                        "name": "Concept gap and conflict assessment",
+                        "description": "Ability to identify when AI-suggested or enterprise-standard concepts do not sufficiently meet program needs and to determine appropriate escalation or remediation."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - \"Develops new statistical methods, concepts and procedures or modifies existing techniques and approaches to incorporate changes in subject-matter content and definitions.\"",
+                "element update reasoning": "This element will shift from direct creation of concepts and definitions toward validation, selection, refinement, and controlled extension of system-discovered concepts. New concept development will become more exceptional and will likely occur only after enterprise assets and AI-suggested options have been reviewed and found insufficient.",
+                "gaps": [
+                    {
+                        "justification": "The current element centers on creating methods and concepts; future work requires knowing when not to create new concepts and how to manage reuse-first workflows.",
+                        "type": "SKILL",
+                        "name": "Reuse-first concept stewardship",
+                        "description": "Ability to prioritize reuse, extension, and alignment of existing enterprise concepts before proposing new definitions or methods."
+                    },
+                    {
+                        "justification": "Machine-actionable outputs are explicitly required in the future state, while the current element does not mention structured metadata expression.",
+                        "type": "KNOWLEDGE",
+                        "name": "Machine-actionable metadata representation",
+                        "description": "Knowledge of how concepts, definitions, and relationships must be documented in structured forms that support automation, discovery, and downstream system use."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 1. Decision making - \"Identifies and evaluates problems related to the retrieval, editing, validation, marketing and dissemination of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems.\"",
+                "element update reasoning": "Problem identification will increasingly include detecting failures or weaknesses in AI-assisted concept matching, metadata quality, standards alignment, and interoperability across systems. Recommendations to management will need to address governance and quality issues in automated concept processes, not only traditional operational issues.",
+                "gaps": [
+                    {
+                        "justification": "Current problem-solving language is broad, but future problems are specifically rooted in metadata quality and AI-supported concept identification processes.",
+                        "type": "SKILL",
+                        "name": "Metadata quality assessment",
+                        "description": "Ability to assess completeness, consistency, usability, and standards alignment of metadata used in concept discovery and dissemination processes."
+                    },
+                    {
+                        "justification": "AI-enabled operations create new technical and conceptual failure modes not explicitly covered in the current role description.",
+                        "type": "KNOWLEDGE",
+                        "name": "Governance risks in AI-assisted concept processes",
+                        "description": "Knowledge of governance, traceability, explainability, and quality assurance requirements for automated or AI-assisted concept identification workflows."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - \"Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, and to establish project plans and target dates.\"",
+                "element update reasoning": "Liaison activities will require translating user requirements into metadata specifications, concept mappings, and structured business rules that can be consumed by AI-assisted or metadata-driven systems. Collaboration will increasingly include enterprise data stewards, metadata specialists, and platform teams rather than only program subject-matter specialists.",
+                "gaps": [
+                    {
+                        "justification": "The current liaison role does not explicitly require expressing requirements in metadata-ready or machine-consumable forms.",
+                        "type": "SKILL",
+                        "name": "Machine-readable requirements specification",
+                        "description": "Ability to express business and subject-matter requirements as structured metadata, mappings, and rules suitable for automation and system integration."
+                    },
+                    {
+                        "justification": "The role now depends on engagement with enterprise-wide metadata and platform functions beyond traditional program contacts.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise metadata governance processes",
+                        "description": "Knowledge of organizational roles, approval pathways, stewardship models, and governance processes for enterprise concepts and metadata assets."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 3. Communication - \"Provides advice to data users and clients on matters relating to subject-matter concepts used in the development and operation of a statistical database and to the data processing environment in general.\"",
+                "element update reasoning": "Advice to users will expand to include explaining how metadata-driven systems identify concepts, what confidence or rationale sits behind AI-assisted recommendations, and when human arbitration is required. User support will therefore become more interpretive of system outputs and enterprise standards.",
+                "gaps": [
+                    {
+                        "justification": "The future role requires the incumbent to help users understand AI/metadata-assisted processes and limitations, which is not explicit in the current advisory requirement.",
+                        "type": "SKILL",
+                        "name": "Explainability-oriented user support",
+                        "description": "Ability to explain automated concept recommendations, their evidentiary basis, limitations, and implications for users' data requests and outputs."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - \"Knowledge of current or emerging economic and social issues relating to the program area in order to identify subject-matter concept and definition requirements, and to conduct studies.\"",
+                "element update reasoning": "Program-area knowledge remains important, but future performance requires combining domain knowledge with awareness of enterprise concepts, metadata assets, and standardized definitions. Identification of concept requirements will be less purely domain-derived and more mediated through enterprise discovery and harmonization mechanisms.",
+                "gaps": [
+                    {
+                        "justification": "The current knowledge requirement is domain-centric; the update adds a need to connect domain issues to enterprise metadata and standardized concepts.",
+                        "type": "KNOWLEDGE",
+                        "name": "Crosswalk between domain concepts and enterprise standards",
+                        "description": "Knowledge of how program-specific concepts relate to common enterprise definitions, classifications, and metadata structures."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - \"Knowledge of the concepts, methods and techniques used in the retrieval, editing, validation and dissemination of statistical data in order to advise on subject-matter development.\"",
+                "element update reasoning": "This knowledge area must now include metadata-driven retrieval, semantic discovery, standards-based concept alignment, and AI-assisted support for concept and output selection. Advising on subject-matter development becomes advising on how concept choices work across enterprise systems and dissemination channels.",
+                "gaps": [
+                    {
+                        "justification": "The current knowledge statement focuses on conventional retrieval/editing/validation/dissemination methods, but the update introduces metadata and AI-enabled methods.",
+                        "type": "KNOWLEDGE",
+                        "name": "Semantic and metadata-driven data discovery",
+                        "description": "Knowledge of metadata-based search, semantic relationships among concepts, and standards-supported retrieval approaches used to identify appropriate data assets."
+                    },
+                    {
+                        "justification": "The future role explicitly emphasizes FAIR alignment and interoperability, which are not explicitly present in the current knowledge requirements.",
+                        "type": "KNOWLEDGE",
+                        "name": "FAIR and interoperability principles",
+                        "description": "Knowledge of findability, accessibility, interoperability, and reusability principles as applied to concepts, metadata, and statistical data products."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 4. Knowledge of specialized fields - \"Knowledge of system analysis and design, computer processing, generalized survey software packages to design, develop, test, maintain and implement processing systems; to design specifications for the editing and validation of data, and to maintain and use databases.\"",
+                "element update reasoning": "System knowledge will need to extend beyond traditional processing systems to metadata platforms, concept registries, and AI-enabled recommendation services. Specifications for systems will increasingly require support for concept traceability, standards alignment, and machine-readable metadata outputs.",
+                "gaps": [
+                    {
+                        "justification": "Current system knowledge does not explicitly include metadata platforms or AI-enabled components that become central in the future process.",
+                        "type": "KNOWLEDGE",
+                        "name": "Metadata platforms and concept registry architecture",
+                        "description": "Knowledge of the structure, functions, and integration patterns of metadata repositories, concept registries, and related enterprise platforms."
+                    },
+                    {
+                        "justification": "Future system design must support concept traceability and machine-actionable outputs, which are not currently foregrounded.",
+                        "type": "SKILL",
+                        "name": "Traceability-aware specification design",
+                        "description": "Ability to define system requirements that preserve lineage, rationale, and structured representation of concept decisions across processes."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 5. Contextual knowledge - \"Knowledge of statistical programs within Statistics Canada related to the area of expertise in order to identify potential sources of information for development and operations and/or special studies and to identify and evaluate data conflicts.\"",
+                "element update reasoning": "The scope of contextual knowledge broadens from awareness of related statistical programs to awareness of enterprise-wide concept assets, shared metadata, and reusable standards across programs. Identifying conflicts will increasingly involve conceptual overlaps and incompatibilities surfaced by enterprise tools.",
+                "gaps": [
+                    {
+                        "justification": "The current statement is program-network focused, while the future role requires wider enterprise visibility and the ability to evaluate conceptual reuse opportunities.",
+                        "type": "KNOWLEDGE",
+                        "name": "Enterprise-wide data and metadata asset awareness",
+                        "description": "Knowledge of statistical programs, shared assets, metadata resources, and reusable concept stores across the organization."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - \"Assesses and determines the impact and the constraints on results of the different concepts, definitions and conditions under which the data was collected, processed and stored.\"",
+                "element update reasoning": "Analysis will increasingly include evaluating the downstream impact of choosing enterprise-standard versus locally tailored concepts, assessing interoperability constraints, and understanding how AI-recommended concept selections affect comparability and reuse. The role must analyze not only conceptual fit but also machine usability and cross-system implications.",
+                "gaps": [
+                    {
+                        "justification": "Current analytical expectations focus on concepts and definitions in a conventional sense; future analysis must also account for interoperability and machine-actionable consequences.",
+                        "type": "SKILL",
+                        "name": "Interoperability impact analysis",
+                        "description": "Ability to assess how concept and definition choices affect comparability, integration, downstream reuse, and cross-system functionality."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities, Skills, Responsibilities, or Efforts - 6. Research and analysis - \"Interprets user requests to determine the nature, feasibility, and options for providing the information required.\"",
+                "element update reasoning": "Interpreting requests will move from a predominantly manual analysis of user intent to a hybrid process in which requests are decomposed into metadata elements, matched against enterprise concepts, and assessed using AI-assisted recommendation tools. Feasibility assessment will increasingly depend on whether suitable standardized concepts already exist and how well they align with requested outputs.",
+                "gaps": [
+                    {
+                        "justification": "This element is directly transformed by the shift from manual interpretation to metadata-driven and AI-assisted matching.",
+                        "type": "SKILL",
+                        "name": "Structured request decomposition",
+                        "description": "Ability to break user requests into standardized conceptual, definitional, and metadata components that can be evaluated through enterprise systems."
+                    },
+                    {
+                        "justification": "The role evolution requires the incumbent to arbitrate among system-suggested options rather than simply interpret requests manually.",
+                        "type": "SKILL",
+                        "name": "Recommendation arbitration",
+                        "description": "Ability to compare and adjudicate among multiple system-suggested concepts or data options based on statistical validity, user needs, and enterprise alignment."
+                    }
+                ]
+            }
+        ]
+    }
+]

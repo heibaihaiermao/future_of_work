@@ -11,6 +11,10 @@ RECOMMENDATIONS_DIR = Path(
     r".\data\0733_recommendations"
 )
 
+GLOSSARY_DIR = Path(
+    r"..\..\Glossary\output"
+)
+
 ORG_FILE = Path(
     r"..\..\03_implicating_GSBPM_updates_to_wd"
     r"\data\organizational-structure-document\org.json"
@@ -32,7 +36,6 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-
 
 # ============================================================
 # Helper functions
@@ -75,6 +78,40 @@ def load_json(file_path):
         )
         return None
 
+def load_glossary_lookup():
+
+    lookup = {}
+
+    for file in GLOSSARY_DIR.glob(
+        "*_glossary.json"
+    ):
+
+        position_name = (
+            file.stem
+            .replace(
+                "_glossary",
+                ""
+            )
+            .replace("_", " ")
+        )
+
+        glossary_entries = load_json(
+            file
+        )
+
+        skill_gap_map = {}
+
+        for entry in glossary_entries:
+
+            skill_gap_map[
+                entry["skill_gap"]
+            ] = entry
+
+        lookup[
+            position_name
+        ] = skill_gap_map
+
+    return lookup
 
 def extract_position_title(filename):
     """
@@ -103,6 +140,9 @@ def extract_position_title(filename):
     # Normalize accidental whitespace.
     position_name = " ".join(position_name.split())
 
+    position_name.replace("economist sociologist", "sconomist - sociologist")
+
+
     return position_name
 
 
@@ -119,7 +159,8 @@ def normalize_title(title):
     if not isinstance(title, str):
         return ""
 
-    return " ".join(title.strip().lower().split())
+    # return " ".join(title.strip().lower().split())
+    return title.strip().lower()
 
 
 def find_position_training(org_data, target_title):
@@ -134,6 +175,8 @@ def find_position_training(org_data, target_title):
     matches = []
 
     normalized_target = normalize_title(target_title)
+    # print(normalized_target)
+    # print(target_title)
 
     if not isinstance(org_data, list):
         logger.error(
@@ -212,22 +255,32 @@ def find_position_training(org_data, target_title):
                     position_title = position.get("position title")
 
                     if position_title is None:
-                        logger.warning(
-                            f"Position is missing 'position title' at "
-                            f"field={field_index}, "
-                            f"branch={branch_index}, "
-                            f"division={division_index}, "
-                            f"position={position_index}"
-                        )
+                        # logger.warning(
+                        #     f"Position is missing 'position title' at "
+                        #     f"field={field_index}, "
+                        #     f"branch={branch_index}, "
+                        #     f"division={division_index}, "
+                        #     f"position={position_index}"
+                        # )
                         continue
 
                     if normalize_title(position_title) == normalized_target:
                         matches.append(position)
 
+                    if position_title == "Economist - Sociologist 4":
+                        print(normalize_title(position_title))
+                        print(normalized_target)
+
     return matches
 
 
-def append_training(position, recommendation_data, source_file):
+def append_training(
+    position,
+    recommendation_data,
+    source_file,
+    glossary_lookup,
+    position_title
+):
     """
     Append filtered course recommendations to the position's
     'position training' array.
@@ -295,6 +348,15 @@ def append_training(position, recommendation_data, source_file):
 
     for category, recommendations in recommendation_data.items():
 
+        glossary_entry = (
+            glossary_lookup
+                .get(
+                    position_title,
+                    {}
+                )
+                .get(category)
+        )
+        
         if not isinstance(recommendations, list):
             logger.warning(
                 f"Category '{category}' in '{source_file.name}' "
@@ -325,7 +387,26 @@ def append_training(position, recommendation_data, source_file):
                             for key in recommendation
                             # if key in recommendation
                         }
-            
+            if glossary_entry:
+
+                filtered_recommendation[
+                    "matched_skill_gap"
+                ] = glossary_entry[
+                    "skill_gap"
+                ]
+
+                filtered_recommendation[
+                    "skill_gap_explanation"
+                ] = glossary_entry[
+                    "explanation"
+                ]
+
+                filtered_recommendation[
+                    "skill_gap_justification"
+                ] = glossary_entry[
+                    "justification"
+                ]
+
             # Don't append an empty object.
             if not filtered_recommendation:
                 logger.warning(
@@ -351,11 +432,11 @@ def append_training(position, recommendation_data, source_file):
 
             appended = True
 
-            logger.info(
-                f"Added course "
-                f"'{filtered_recommendation.get('title_en', '<unknown>')}' "
-                f"to '{position.get('position title', '<unknown>')}'."
-            )
+            # logger.info(
+            #     f"Added course "
+            #     f"'{filtered_recommendation.get('title_en', '<unknown>')}' "
+            #     f"to '{position.get('position title', '<unknown>')}'."
+            # )
 
     return appended
 
@@ -395,6 +476,10 @@ def main():
     )
 
     org_data = load_json(ORG_FILE)
+
+    glossary_lookup = (
+    load_glossary_lookup()
+    )
 
     if org_data is None:
         logger.error(
@@ -517,7 +602,9 @@ def main():
             appended = append_training(
                 position,
                 recommendation_data,
-                recommendation_file
+                recommendation_file,
+                glossary_lookup,
+                position_title
             )
 
             if appended:
