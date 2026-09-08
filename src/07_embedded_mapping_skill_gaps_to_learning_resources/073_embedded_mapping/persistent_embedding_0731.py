@@ -115,39 +115,58 @@ class embedding_collector():
    
         ## OPPORUNITY FOR DOCUMENTATION HERE: 
         self.lr_dict = {}
+        is_stop_iteration = False  # Track how the loop terminated
+
         while True:
             try:
                 k, d = next(lr_embeddings)
+                self.lr_dict[k] = d
 
-            #except RateLimitError:
-            except (RateLimitError, StopIteration):
-        
-                #self.lr_memory = self.lr_memory.__or__(self.lr_dict)
-                self.lr_memory.update(self.lr_dict)
-                print(self.memory_path)
-                with open(self.memory_path, 'w', encoding="utf-8") as fil:
-                    json.dump(self.lr_memory, fil)
-        
+            except RateLimitError:
+                print("Rate limit reached. Saving progress and backing off...")
+                print(f"Embedding length {len(self.lr_dict)}")
+
                 break
 
-            self.lr_dict[k] = d 
+            except StopIteration:
+                print(f"StopIteration reached. Embedding length {len(self.lr_dict)}")
+                is_stop_iteration = True
+                break
+
+        # If we collected any new embeddings before hitting a limit or finishing
+        if self.lr_dict:
+            self.lr_memory.update(self.lr_dict)
+            
+            # FIX: Ensure parent directories exist before writing
+            os.makedirs(os.path.dirname(self.memory_path), exist_ok=True)
+            
+            print(f"Saving progress to: {self.memory_path}")
+            with open(self.memory_path, 'w', encoding="utf-8") as fil:
+                json.dump(self.lr_memory, fil)
+
+        # Clear out dictionary only if we finished completely, 
+        # otherwise keep it populated so the backoff loop knows to retry
+        if is_stop_iteration:
+            self.lr_dict = {}
+
+        return is_stop_iteration
 
 
 def collect_embeddings(dir_path, key_attribute="title"):
     ''' while loop, that collect embeddings, with an increasing cool-down time.'''
 
     embedder = embedding_collector(dir_path, key_attribute=key_attribute)
-    embedder.persistent_embed(dir_path)
+    is_stop_iteration = embedder.persistent_embed(dir_path)
 
-    backoff_wait_time = 1
+    backoff_wait_time = 4
     ## OPPORUNITY FOR DOCUMENTATION HERE: 
     #    - When/why does embedder.lr_memory be empty?
-    while bool(embedder.lr_dict):
+    while not is_stop_iteration:
         #print(len(embedder.lr_memory))
-        embedder.persistent_embed(dir_path)
+        is_stop_iteration = embedder.persistent_embed(dir_path)
         backoff_wait_time *=2
+        print(f"collect_embeddings sleep: {backoff_wait_time}")
         sleep(backoff_wait_time)
-
 
 
     lre = embedder.lr_memory

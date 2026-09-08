@@ -1,0 +1,53 @@
+{
+  "Classification": "EC-05",
+  "Positions": [
+    {
+      "Job Family Number": "841-150",
+      "Group/Level": "EC-05",
+      "Position Title": "Research Data Centre Analyst",
+      "Supervisor Position": null,
+      "Branch/Division": ": Research Data Centre",
+      "Key Activities": [
+        "HR A to Z index",
+        "HR service standards",
+        "Wellness at Statistics Canada",
+        "HR committees",
+        "HR contact list",
+        "Corporate service providers"
+      ],
+      "technical activities, skills, responsibilities, or efforts": {},
+      "Job Poster": {
+        "Education": [
+          "Degree from a recognized postsecondary institution with specialization in economics, sociology, or statistics."
+        ],
+        "Experience": [
+          "Analyzing administrative data and other data sources using statistical methods to produce outputs.",
+          "Developing and analyzing economic or social data products including publications, statistical linkages, quality assurance products, paradata, and statistical infrastructure improvements."
+        ],
+        "Competencies": [
+          "Thinking things through",
+          "Working effectively with others",
+          "Showing initiative and being action oriented",
+          "Demonstrating integrity and respect",
+          "Planning and organizing for results"
+        ],
+        "Abilities": [
+          "Communicating effectively in writing.",
+          "Communicating effectively orally."
+        ],
+        "Skills": [
+          "Statistical analysis",
+          "Administrative data analysis",
+          "Quality assurance",
+          "Statistical linkage",
+          "Data product development"
+        ],
+        "Domain Knowledge": [
+          "Statistical infrastructure",
+          "Administrative data",
+          "Economic and social statistics"
+        ]
+      }
+    }
+  ]
+}
