@@ -24,7 +24,7 @@ def create_cosine_similarity_df(column_series, row_series):
     return cosine_similarity_df
 
 
-def get_top_resources(name, series, N=10):
+def get_top_resources(name, series, N=2):
     return (name, series.sort_values(ascending=False)[:N].to_dict())
 
 def get_recommendations(score_df):

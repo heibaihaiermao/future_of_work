@@ -2,11 +2,11 @@ import json
 from pathlib import Path
 
 ORG_JSON = Path(
-    "../data/organizational-structure-document/org.json"
+    "../data/organizational-structure-document/org_updated.json"
 )
 
 WD_FOLDER = Path(
-    "../data/work-descriptions-standardized"
+    "../data/work-descriptions-with-job-posters"
 )
 
 OUTPUT_JSON = Path(
@@ -58,6 +58,14 @@ def find_work_description(job_family):
 def collect_position(position, files, missing):
     job_family = str(position.get("job family", "")).strip()
 
+    exist_position_training = position.get("position training", [])
+    print(f"position {position.get("position title")}: {exist_position_training}")
+
+    # If already has position training existed for the position, skip it
+    if exist_position_training:
+        print(f"Skipping position {position.get("position title")} - {position.get("job family", "")}")
+        return
+
     if not job_family:
         return
 
@@ -68,6 +76,8 @@ def collect_position(position, files, missing):
         return
 
     files.add(wd)
+    print(f"Adding position {position.get("position title")} - {position.get("job family", "")}")
+
 
 
 def collect_division(division, files, missing):
