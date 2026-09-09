@@ -1,0 +1,68 @@
+{
+  "Classification": "EC-05",
+  "Positions": [
+    {
+      "Job Family Number": "679-106",
+      "Group/Level": ": EC-07",
+      "Position Title": ": Manager, Data Science",
+      "Supervisor Position": "",
+      "Branch/Division": ": Data Science Division",
+      "Key Activities": [
+        "HR A to Z index",
+        "HR service standards",
+        "Wellness at Statistics Canada",
+        "HR committees",
+        "HR contact list",
+        "Corporate service providers"
+      ],
+      "technical activities, skills, responsibilities, or efforts": {},
+      "Job Poster": {
+        "Education": [
+          "Postsecondary education with specialization in social science, statistics, library/archival work, law-related fields, or equivalent combination of education, training and experience."
+        ],
+        "Experience": [
+          "Managing operational, technical, administrative, data, or multidisciplinary teams or business processes as a functional or project manager.",
+          "Leading data production and dissemination activities including data extraction, transformation, preparation of customized tables, metadata, statistical information products, and client services.",
+          "Analyzing and evaluating data requirements related to resources, systems, development, and operational activities.",
+          "Coordinating multiple simultaneous and interrelated activities.",
+          "Managing statistical survey projects, outputs, and deliverables.",
+          "Providing consultative services to internal and external users.",
+          "Supporting database or spreadsheet solutions using data manipulation software such as R, Python, or SQL.",
+          "Supporting data integration activities such as record linkage or combining multiple data sources.",
+          "Coordinating with corporate service providers including IT security, cloud, and accessibility teams."
+        ],
+        "Competencies": [
+          "Thinking things through",
+          "Working effectively with others",
+          "Showing initiative and being action oriented",
+          "Demonstrating integrity and respect",
+          "Leadership"
+        ],
+        "Abilities": [
+          "Communicating effectively orally.",
+          "Communicating effectively in writing."
+        ],
+        "Skills": [
+          "Project management",
+          "Team leadership",
+          "Data production and dissemination",
+          "Data transformation",
+          "Data integration",
+          "Database and spreadsheet development",
+          "Python",
+          "R",
+          "SQL",
+          "Stakeholder consultation",
+          "Risk management"
+        ],
+        "Domain Knowledge": [
+          "Statistical survey production",
+          "Statistical dissemination processes",
+          "Operational planning",
+          "Statistical infrastructure",
+          "Census operations"
+        ]
+      }
+    }
+  ]
+}

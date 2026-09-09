@@ -1,0 +1,56 @@
+{
+  "Classification": "EC-03",
+  "Positions": [
+    {
+      "Job Family Number": "900-209",
+      "Group/Level": "EC-03",
+      "Position Title": "Economist/Sociologist 3",
+      "Supervisor Position": "",
+      "Branch/Division": "Various",
+      "Key Activities": [
+        "Participates in the analysis of statistical program data and assists in the preparation of analytical material for internal use and publication purposes.",
+        "Identifies statistical trends and developments and reviews statistical survey and production results.",
+        "Assists in the analysis of data and suggests possible feedback on collection, processing, editing, compilation and presentation methods and procedures, and assists in the development of recommendations for improvements to survey methods and activities.",
+        "Provides data, assistance and advice to users within and outside Statistics Canada.",
+        "Assists in subject matter studies and reviews to support the work of project teams or senior officers."
+      ],
+      "technical activities, skills, responsibilities, or efforts": {
+        "1. DECISION MAKING": [
+          "Develops new statistical methods, concepts and procedures or modifies existing techniques and approaches to incorporate changes in subject-matter content and definitions.",
+          "Determines the need for and implements enhancements or modifications to processing systems and applications used to collect, capture, process, edit, compile and present statistical data.",
+          "Specifies sources of data to be used in the preparation of subject-matter statistics and forecasts, verifies the consistency and comparability of the various sets of data obtained and modifies the data to permit comparison.",
+          "Identifies and assesses trends and developments in the subject area; reviews the potential impact on program subject-matter content and determines the implications for statistical methods and procedures.",
+          "Identifies and evaluates problems in the collection, capture, processing, editing, compilation and presentation of statistical information to provide solutions or recommendations to management and to resolve subject-matter, conceptual and technical problems."
+        ],
+        "2. LEADERSHIP AND OPERATIONAL MANAGEMENT": [
+          "Coordinates the activities of work groups established to implement program activities: assigns work; provides feedback on performance of working group members; monitors progress against objectives and provides guidance and direction to working group members; identifies financial and human resource needs.",
+          "Monitors and tracks time spent on activities for the purposes of recording and recovering such costs from the client. Responsible for identifying costs and fees associated with cost recovery activities and preparing estimates for special requests and tabulations based upon established fee schedules. Arranges for the acquisition of goods and services according to approved budget allocations. Incurs and accounts for petty cash, credit card, taxi voucher, bus pass, and other expenditures."
+        ],
+        "3. COMMUNICATION": [
+          "Liaises with other subject matter specialists and users to develop and translate subject-matter requirements into specifications for system development, to suggest improvements to ongoing programs, to negotiate procedural modifications and to establish project plans, priorities and target dates. Writes and presents detailed subject matter and technical concepts, definitions and terms in common terminology in order to explain and clarify divisional systems and applications.",
+          "Provides advice to data users and clients on matters relating to subject-matter concepts used in the development and operation of a statistical database and to the data processing environment in general. Writes program information manuals, training packages, monitoring procedures and management reports for use by colleagues, operational staff and management in the development, implementation and assessment of statistical programs."
+        ],
+        "4. KNOWLEDGE OF SPECIALIZED FIELDS": [
+          "The conduct of special economic, demographic and technological studies requires a thorough knowledge of statistical theories and principles, a good understanding of econometrics and the application of such techniques as linear regression, mathematical programming and modeling.",
+          "Knowledge of current or emerging economic and social issues relating to the program area in order to identify and resolve subject-matter concept and definition requirements.",
+          "Knowledge of the concepts, methods and techniques used in the collection, processing, editing, compilation and presentation of statistical data in order to advise on subject-matter development and resolve subject-matter concept and definition issues.",
+          "Knowledge of system analysis and design, computer processing, generalized survey software packages to design, develop, test, maintain and implement processing systems; to design specifications for the testing of data, and to maintain and use databases.",
+          "Knowledge of high level programming languages, utility programs or statistical packages to retrieve and manipulate data."
+        ],
+        "5. CONTEXTUAL KNOWLEDGE": [
+          "Knowledge of statistical programs within Statistics Canada related to the area of expertise in order to identify potential sources of information for development and operations and/or special studies and to identify and evaluate data conflicts.",
+          "Knowledge of contacts within key client departments to establish a liaison; to understand need for statistical data, and to provide advice and guidance on subject-matter concepts, methods, techniques and results.",
+          "Knowledge of the divisional mandate, objectives, priorities, practices, standards, processes and procedures in order to coordinate on-going operational activities and/or special projects.",
+          "Knowledge of the Statistics Act and other pertinent acts such as the Corporate Returns Act and Income Tax Act, and of Statistics Canada policies to ensure understanding and application in the collection, processing, editing, compilation and presentation of data. The position must have a particular awareness of the Statistics and Privacy Acts with respect to the security and confidentiality of data to ensure their own actions are in compliance."
+        ],
+        "6. RESEARCH AND ANALYSIS": [
+          "Reviews current collection, processing, editing, compilation and presentation methods and procedures to ascertain their relevancy and to propose changes or alternative systems.",
+          "Researches and compiles data from diverse sources to produce statistical charts, tables and other output. Adapts data to new definitions or presentation formats, depending on the complexity of the subject matter or the number of different sources.",
+          "Assesses and determines the impact and the constraints on results of the different concepts, definitions and conditions under which the data was collected, processed and stored.",
+          "Examines operational system concepts and methods and new or revised processing specifications, to determine their effect on the integration and co-ordination of the data capture and processing functions with other divisional systems."
+        ]
+      },
+      "Job Poster": {}
+    }
+  ]
+}
