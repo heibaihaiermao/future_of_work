@@ -11,8 +11,8 @@
 *.swp
 *.tar.bz2
 *.ts
-*.txt
-*.xlsx
+# *.txt
+# *.xlsx
 *.zstd
 *__pycache__*
 configs/*
