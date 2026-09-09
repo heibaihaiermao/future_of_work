@@ -1,0 +1,788 @@
+[
+    {
+        "id": "1",
+        "update description": "Specify Needs phase is transformed by pervasive automation and AI; routine needs identification, stakeholder input synthesis, option evaluation, and business case drafting are all supported by digital/AI pipelines. Manual activities are minimized and realigned toward critical, context-based decision-making.",
+        "interdependencies": [],
+        "impact reasoning": "Junior Data Analysts\u2019 work in supporting needs specification will change from manual data gathering and documentation to engagement with AI/digital tools that synthesize, structure, and output needs data. Emphasis will shift to validating automated outputs, critical review, contextual interpretation, and higher-order analytic activities. The analyst is responsible for ensuring quality and meaningfulness of AI-driven deliverables and for surfacing nuanced considerations that automation may miss.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Instead of manually executing these data preparation activities for needs identification, the analyst will supervise, interact with, and validate AI-powered data pipelines as they extract, cleanse, transform, and synthesize stakeholder data. Focus moves to monitoring outputs, escalating exceptions, and tuning digital routines.",
+                "gaps": [
+                    {
+                        "justification": "Transition from manual data manipulation to operating, validating, and troubleshooting automated/AI-powered pipelines requires new technical proficiency.",
+                        "type": "Skill",
+                        "name": "AI-assisted Data Pipeline Operation",
+                        "description": "Ability to operate, validate, and intervene in AI-automated data preparation and synthesis pipelines, including tuning parameters, monitoring outputs, and handling exceptions."
+                    },
+                    {
+                        "justification": "Understanding how AI/automation translates stakeholder needs into structured data will demand knowledge of algorithmic limitations, bias, and quality assurance.",
+                        "type": "Knowledge",
+                        "name": "AI/Automation Limitations & Quality Assurance",
+                        "description": "Knowledge of how automated systems work, their biases, typical errors, and strategies for human-led validation and critical review."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Organizes and consolidates information relevant to the defined objectives of studies. Maintains work files.'",
+                "element update reasoning": "Analyst\u2019s role shifts from direct manual collation to ensuring automated outputs are properly organized, consolidated, versioned, and stored\u2014focusing on reviewing for completeness and correcting AI/system-generated gaps.",
+                "gaps": [
+                    {
+                        "justification": "File and information management becomes more about digital supervision, metadata control, and managing automated logs/version histories.",
+                        "type": "Skill",
+                        "name": "Digital Information Management & Metadata Stewardship",
+                        "description": "Ability to manage digital work files, metadata, and system outputs efficiently, including quality control of automated logs and documentation."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Data literacy skills are needed to derive meaningful information from data, including the knowledge needed to read, analyze, interpret, visualize and communicate data, as well as understand the use of data in decision-making. Data literacy includes data stewardship and the ability to assess the quality of data, protect and secure data, and safeguard their responsible use.'",
+                "element update reasoning": "The domain of data literacy expands to include automated/AI data literacy\u2014understanding both the strengths and caveats of machine-generated insights, limitations, and how to communicate/interpret outputs in partnership with AI.",
+                "gaps": [
+                    {
+                        "justification": "Need for applied skills in interpreting, validating, and communicating AI-generated data insights\u2014not simply classic analysis.",
+                        "type": "Skill",
+                        "name": "AI-Driven Data Literacy & Communication",
+                        "description": "Advanced skillset in understanding, explaining, and critiquing AI-generated outputs, including communicating uncertainty, error, and rationale to non-technical users."
+                    }
+                ]
+            },
+            {
+                "element": "Skills: 'Provides advice, information and guidance to data users and clients regarding governance concepts used to protect and optimize the utility of Statistics Canada\u2019s data assets.'",
+                "element update reasoning": "Role expands to offering advice on AI/digital governance\u2014how automation affects data stewardship, ethical concerns, and best practices for working with automated needs specification.",
+                "gaps": [
+                    {
+                        "justification": "Requires familiarity with new governance frameworks for AI-driven and automated data processes.",
+                        "type": "Knowledge",
+                        "name": "AI/Data Automation Governance",
+                        "description": "Knowledge of data governance frameworks and ethical practices as applied to AI-driven automation, including privacy, consent, traceability, and liability concerns."
+                    }
+                ]
+            },
+            {
+                "element": "Skills: 'Writing skills are necessary to draft clear and simple analytical reports, briefings and presentation material using data visualization tools for managers and clients with varying levels of knowledge and understanding of data science.'",
+                "element update reasoning": "Reporting increasingly involves explaining, interpreting, and critiquing AI-generated recommendations and business case materials, ensuring that machine-generated drafts are clear, impartial, and contextually valid.",
+                "gaps": [
+                    {
+                        "justification": "Requires skill in reviewing and revising automated report drafts and integrating critical contextual analysis.",
+                        "type": "Skill",
+                        "name": "AI-Assisted Reporting and Communication",
+                        "description": "Skill in reviewing, editing, and contextualizing AI-generated analytical reports and visualizations to ensure clarity, neutrality, and appropriateness for diverse audiences."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1.1",
+        "update description": "AI and automated tools now lead the scanning, aggregation, and benchmarking of stakeholder needs and information requests across multiple channels; Junior Data Analysts mainly validate, review, and contextualize synthesized outputs, focusing less on manual data gathering.",
+        "interdependencies": [
+            "1"
+        ],
+        "impact reasoning": "The analyst\u2019s operational involvement in needs identification becomes supervisory and interpretive. They review, validate, and contextualize AI-synthesized results, confirm if flagged needs are credible/significant, and ensure triggers from environmental changes are not missed by automation. Their data preparation role shifts toward confirming quality and significance, troubleshooting automation exceptions, and enhancing contextual interpretation.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Manual techniques for extracting or cleansing stakeholder input become oversight and validation of algorithmically-processed needs triggers. Analyst intervenes only when automated benchmarks or aggregations produce ambiguous, novel, or context-sensitive cases.",
+                "gaps": [
+                    {
+                        "justification": "Shift to AI data aggregation and benchmarking requires technical fluency in automation monitoring and exception handling rather than manual sourcing.",
+                        "type": "Skill",
+                        "name": "AI-driven Needs Identification Oversight",
+                        "description": "Ability to validate AI/automation-synthesized stakeholder needs, review automated benchmarking, and troubleshoot flags/exceptions in digital processes."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Organizes and consolidates information relevant to the defined objectives of studies. Maintains work files.'",
+                "element update reasoning": "Information organization is now performed via digital logs and AI-driven documentation. Analyst ensures completeness and contextual relevance of consolidated needs data and validates automated records.",
+                "gaps": [
+                    {
+                        "justification": "Requires knowledge of digital information management, version control, and automated aggregation documentation systems.",
+                        "type": "Knowledge",
+                        "name": "Digital Aggregation/Documentation Practices",
+                        "description": "Proficiency with digital logging, automated documentation, and metadata validation tools for AI-collected needs information."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Data literacy skills are needed to derive meaningful information from data...including the ability to assess the quality of data.'",
+                "element update reasoning": "Quality assessment expands to algorithmically-assembled stakeholder needs, demanding advanced skills in evaluating bias, completeness, and significance of machine-generated data.",
+                "gaps": [
+                    {
+                        "justification": "Data literacy must now encompass skills in evaluating, critiquing, and confirming quality of automated aggregations.",
+                        "type": "Skill",
+                        "name": "Automated Data Quality Evaluation",
+                        "description": "Skill in assessing completeness, accuracy, bias, and context in AI-driven stakeholder needs datasets."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1.5",
+        "update description": "Data availability and suitability checking is systematic and digital\u2014existing and administrative/alternative sources prioritized and exhaustively validated, subject matter sponsors solely certify adequacy, and a center of expertise collaborates in negotiating and acquiring external data. Manual survey is last resort. Analysts focus on technical validation and assessment of automated and alternative data sources\u2019 quality, coverage, and suitability.",
+        "interdependencies": [
+            "1",
+            "1.4",
+            "2.3"
+        ],
+        "impact reasoning": "Junior Data Analysts will move further away from manual assessment of classic survey data and toward digitally-enabled, AI-powered technical assessments of diverse administrative and alternative sources. Their role is to validate the completeness, relevance, and quality of AI-checked data holdings, document coverage, and propose gap-filling measures. They may also interact with the \u2018center of expertise\u2019\u2014supporting acquisition logistics, providing evidence for certification, and ensuring digital readiness of new sources. Legal and negotiation skills become marginally more relevant when working with new automated sources.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Analyst is now prioritizing technical validation\u2014confirming that AI/digital checks of source quality, coverage, timeliness, and compliance are robust and trustworthy. Expected to spot gaps or weaknesses in automated assessments, especially as new administrative and external sources grow in prominence.",
+                "gaps": [
+                    {
+                        "justification": "Automation- and AI-first data quality validation requires knowledge of how digital routines assess coverage, timeliness, and origin, and ability to intervene when outputs are non-standard.",
+                        "type": "Knowledge",
+                        "name": "AI-driven Data Source Assessment",
+                        "description": "Knowledge of digital/AI tools for automated assessment of source quality/timeliness, including ability to identify, critique, and supplement technical outputs."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Knowledge of techniques and methods of information collection and analysis, evolving information sources, survey methodologies, data risk assessment, impact and quantitative analysis in order to assess the quality of data and identify and mitigate risks to its integrity.'",
+                "element update reasoning": "The domain expands to include technical knowledge of administrative and alternative sources, their digital acquisition/validation, and digital risk assessment. Analysts now track, critique, and recommend strategies for automated coordination and negotiation with data suppliers.",
+                "gaps": [
+                    {
+                        "justification": "Must know best practices for digital acquisition logistics, risk analysis, negotiation documentation, and certification of novel sources.",
+                        "type": "Knowledge",
+                        "name": "Digital Data Acquisition & Supplier Coordination",
+                        "description": "Skill in supporting, validating, and documenting the automated acquisition, negotiation, and certification of external/alternative data sources\u2014including handling digital agreements, contracts, and compliance metrics."
+                    }
+                ]
+            },
+            {
+                "element": "Skills: 'As assigned, discusses data requirements with operations managers responsible for data collection, other subject matter and systems specialists, clients or service providers to comprehend and elaborate the conditions within which statistical development and operations will occur.'",
+                "element update reasoning": "Expanded to include technical support for digital sourcing and validation, including outlining gaps between automated/alternative data sources and requirements.",
+                "gaps": [
+                    {
+                        "justification": "Requires enhanced communication ability to explain digital/AI validation findings, needed improvements, and new supplier requirements.",
+                        "type": "Skill",
+                        "name": "Digital Source Quality Communication",
+                        "description": "Skill in translating findings from digital/AI data source checks into actionable advice, recommendations, and requests for both internal colleagues and external suppliers."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "update description": "Design activities are now automated and AI-powered; specifications, metadata, and configurations are generated by digital tools that comply with standards and enable interoperability. Analysts shift from manual artifact creation to validation, QA, contextualization, and enhancing innovation and calibration for AI-driven designs.",
+        "interdependencies": [
+            "1",
+            "2.1",
+            "2.2",
+            "3"
+        ],
+        "impact reasoning": "Junior Data Analysts\u2019 contribution transitions from manual drafting of data, metadata, and design documentation to verifying, auditing, and interpreting automated outputs in the design phase. They must ensure AI-generated specifications and metadata are contextually correct, standards-compliant, and high quality, and are expected to participate in the calibration and innovation of automated design practices, particularly as user requirements evolve or standards change.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Supports the conduct of studies and/or projects using established quantitative statistical data analysis methods and software such as Python, SAS, STATA, R, E-Views, SPSS or other similar software.'",
+                "element update reasoning": "Focus expands to include validation and QA of AI-generated design artifacts and ensuring compatibility/interoperability with analysis environments. Need to collaborate with automated design modules and systems.",
+                "gaps": [
+                    {
+                        "justification": "Competence in reviewing, testing, and validating outputs from automated design/metadata pipelines and ensuring technical and standards compatibility with downstream analysis tools.",
+                        "type": "Skill",
+                        "name": "Automated Design Output QA",
+                        "description": "Skill in testing, auditing, and validating AI-generated design documentation, metadata, and system specifications for compliance, interoperability, and analytic readiness."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Knowledge of data science and its life cycle...data extraction, warehousing, cleansing, processing, mining, clustering, modeling, summarization, reporting, visualization, business intelligence, and exploratory/ confirmatory, predictive analysis...' ",
+                "element update reasoning": "Knowledge must expand to include the automated/AI-powered design and specification tools, standards for machine-actionable metadata, and best practices for digital interoperability.",
+                "gaps": [
+                    {
+                        "justification": "Understanding of automation, APIs, machine-actionable metadata, and standards as they affect data system design and output configuration.",
+                        "type": "Knowledge",
+                        "name": "Digital Interoperability & Metadata Standards",
+                        "description": "Knowledge of automation in statistical design, machine-actionable metadata formats, APIs, and interoperability standards for effective collaboration and configuration in digital-first environments."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Data literacy skills are needed to derive meaningful information from data... Data literacy includes data stewardship and the ability to assess the quality of data, protect and secure data, and safeguard their responsible use.'",
+                "element update reasoning": "Stewardship responsibility now applies to automated and AI-generated designs; must be able to assess/make recommendations on the quality and digital stewardship of design artifacts and how they will propagate through the lifecycle.",
+                "gaps": [
+                    {
+                        "justification": "Skill in evaluating provenance, stewardship, and lifecycle management of AI-generated metadata and design outputs.",
+                        "type": "Skill",
+                        "name": "AI/Data Lifecycle Quality & Stewardship",
+                        "description": "Skill in critically appraising the stewardship, security, provenance, and long-term management of digital/automated design outputs and metadata."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.2",
+        "update description": "Variable definition and associated metadata management is now automated and reliant on AI/LLM-enabled tools for naming, description, compliance, and lifecycle management, with core requirements for standards (SDMX) and use of enterprise metadata tools (Aria, Colectica). Analysts shift to validation, enrichment, and technical QA of outputs, ensuring interoperability and discoverability.",
+        "interdependencies": [
+            "2",
+            "2.3",
+            "5.5"
+        ],
+        "impact reasoning": "Junior Data Analysts no longer manually define or document statistical variables and metadata. Their role pivots to technically validating the outputs of AI/LLM-driven tools for variable definition, description, and compliance (especially SDMX, Aria/Colectica formats), enriching where necessary, and ensuring machine-actionability and interoperability. Their expertise in data preparation is now used to critically assess the completeness, clarity, and reusability of automated metadata and variable products.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Preparation activities now focus on technical validation, enrichment, and troubleshooting of AI-generated variable sets and metadata, ensuring compliance with international standards and compatibility with enterprise metadata tools.",
+                "gaps": [
+                    {
+                        "justification": "Demands expertise in operating, validating, and troubleshooting outputs from AI/LLM-supported metadata and standards management systems (SDMX, Aria, Colectica).",
+                        "type": "Skill",
+                        "name": "AI/LLM-enabled Metadata & Standards Validation",
+                        "description": "Ability to interpret, validate, and troubleshoot automated variable/metadata outputs; apply global standards; update and enrich definitions in digital tools."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Knowledge of data science and its life cycle...warehousing, cleansing, processing, modeling, summarization, reporting, visualization.'",
+                "element update reasoning": "Life cycle knowledge now must include machine-actionable metadata formats, metadata repository practices, and interoperability requirements for variable management.",
+                "gaps": [
+                    {
+                        "justification": "Requires deeper knowledge of global data standards (especially SDMX), tool ecosystem (Aria/Colectica), and interoperable metadata structuring.",
+                        "type": "Knowledge",
+                        "name": "Metadata Standards and Tool Ecosystem Proficiency",
+                        "description": "In-depth understanding of SDMX/metadata standards and direct experience with enterprise metadata tools for lifecycle management and global interoperability."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Data literacy skills are needed to derive meaningful information from data...including quality assessment...stewardship.'",
+                "element update reasoning": "Now applies to AI/LLM-generated metadata/variable sets, requiring quality review, stewardship, and enhancement in a digital-first workflow.",
+                "gaps": [
+                    {
+                        "justification": "Advanced stewardship and QA skills for digital/automated products, continuously updating as tools and standards evolve.",
+                        "type": "Skill",
+                        "name": "Automated Metadata Stewardship & QA",
+                        "description": "Skill in managing, auditing, and continuously improving automated metadata and variable definitions to ensure ongoing relevance, clarity, and utility."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.3",
+        "update description": "Data collection strategies are built around automation, passive acquisition (administrative/digital sources), and AI-assisted survey/communication tools. Human staff design, validate, and support automated configuration and monitor for exceptions. Surveys are a last-resort, and rendered/deployed via automated channels.",
+        "interdependencies": [
+            "1.5",
+            "2.2",
+            "4"
+        ],
+        "impact reasoning": "Junior Data Analysts shift from manual design/setup of data collection instruments toward validating, supporting, and QA of passive/automated collection system configurations. They provide technical advice and exception monitoring, focusing QA on digital event/trigger-based collection pipelines, machine-to-machine data flow, and AI-driven survey logic when active collection is unavoidable.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Emphasis moves to QA and validation of automated collection systems, passive data pipelines, and AI-driven survey rendering, supporting exception identification, logic troubleshooting, and rapid feedback for system improvement.",
+                "gaps": [
+                    {
+                        "justification": "Requires technical skill in reviewing automated event-driven pipelines, machine-to-machine integrations, and digital collection QA.",
+                        "type": "Skill",
+                        "name": "Automated Collection QA & Support",
+                        "description": "Skill in examining, validating, and supporting digital collection systems, including passive APIs and AI-powered survey logic/tools."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Knowledge of techniques and methods of information collection and analysis, evolving information sources, survey methodologies, data risk assessment, impact and quantitative analysis...'",
+                "element update reasoning": "Knowledge must now include digital-first and passive data acquisition strategies, technical standards for APIs/machine integration, and AI/logics for survey generation.",
+                "gaps": [
+                    {
+                        "justification": "Expansion from classic survey methods to passive digital collection, machine-to-machine protocols, and automation standards.",
+                        "type": "Knowledge",
+                        "name": "Digital, Passive, and AI-Driven Collection Methods",
+                        "description": "Technical knowledge of passive digital data collection, machine/API integration, automation protocols, and AI-powered survey tools."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.4",
+        "update description": "Sampling frame design, integration, and quality control are now AI-enabled and digital-first\u2014partners pre-clean/validate administrative/alternative frames, and analysts supervise, QA, and support end-to-end digital pipelines. Flexible, adaptive sampling designs are standard, dynamically supported by digital tools for optimization.",
+        "interdependencies": [
+            "4.1"
+        ],
+        "impact reasoning": "Junior Data Analysts shift from manually preparing or reconciling sampling frames to QA, technical oversight, and support of AI-prepared (by partners or in-house) frames. They monitor for digital integration quality, support partner onboarding and best practices, and contribute to adoption and troubleshooting of dynamic sampling tools. Project workgroups increasingly focus on digital pipeline efficiency and configuration rather than legacy, manual frame/sampling methodologies.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Main responsibility becomes QA and validation of AI/partner-cleaned frames. Data transformation/validation skills are redeployed for checking automated quality control routines, integrating frames into digital sampling pipelines, and troubleshooting process issues.",
+                "gaps": [
+                    {
+                        "justification": "Requires ability to assess and certify AI-driven or partner-prepared frame cleaning/quality, and knowledge of pipeline integration within digital platforms.",
+                        "type": "Skill",
+                        "name": "Digital Sampling Frame QA & Integration",
+                        "description": "Skill in reviewing, validating, and enabling seamless integration of AI-cleaned/partner-prepared frames within automated sampling workflows."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Participates in project teams and working groups to support data management, research and analysis, and other unit activities.'",
+                "element update reasoning": "Project work now emphasises adoption/QA of adaptive sampling platforms and integration of best practices for digital frame development, including dynamic optimization and troubleshooting of digital process flows.",
+                "gaps": [
+                    {
+                        "justification": "Requires knowledge of adaptive sampling methodologies, digital collaboration platforms, and automated diagnostics.",
+                        "type": "Knowledge",
+                        "name": "Dynamic Sampling & Digital Teamwork Tools",
+                        "description": "Understanding of adaptive sampling methodologies, automated system dashboards, and technical project support for digital sampling ecosystems."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.5",
+        "update description": "Processing and analysis routines (coding, editing, imputation, validation, integration, and estimation) must be implemented by AI/ML-driven automated frameworks, using standard models (SDMX, .STAT, Aria/Colectica). Human analysts focus on testing, QA, exception review, and continuous improvement, with all components documented for audit, versioning, and interoperability.",
+        "interdependencies": [
+            "2.2",
+            "5",
+            "6"
+        ],
+        "impact reasoning": "Junior Data Analysts shift much of their effort away from manual design and execution toward supervising, testing, and documenting automated analytical routines. They are responsible for reviewing, evaluating, and proposing methodological improvements where non-standard or innovative analysis is required. They ensure digital traceability, full documentation, and standards compliance (especially for interoperability and downstream analysis), as well as rapid, secure, and scalable deployment of disclosure control and QA routines.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Supports the conduct of studies and/or projects using established quantitative statistical data analysis methods and software such as Python, SAS, STATA, R, E-Views, SPSS or other similar software.'",
+                "element update reasoning": "Analysts now interface with automated analysis platforms and QA digital routines, focusing on testing, exception review, and enhancement rather than building and executing scripts manually.",
+                "gaps": [
+                    {
+                        "justification": "Required ability to operate and critique automated/AI frameworks for processing, analysis, and QA, and to intervene in case of exceptions or report for continuous improvement.",
+                        "type": "Skill",
+                        "name": "Automated Analysis Routine Testing & Exception Handling",
+                        "description": "Skill in operating, testing, and reviewing automated AI-driven processing/analysis modules, including exception handling and feedback for iterative improvement."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Knowledge of data science and its life cycle..., modeling, summarization, reporting...'",
+                "element update reasoning": "Domain knowledge must include standards-based digital processing (SDMX, .STAT), interoperability protocols, audit/versioning mechanisms, and AI/ML analysis toolsets.",
+                "gaps": [
+                    {
+                        "justification": "Greater emphasis on API-centric, standards-based automation and audit/traceability procedures for digital analysis workflows.",
+                        "type": "Knowledge",
+                        "name": "Standards-Based Automated Analysis & Auditability",
+                        "description": "Knowledge of SDMX, .STAT, metadata frameworks, digital documentation standards, and traceability/versioning practices in automated analysis environments."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2.6",
+        "update description": "Production systems and workflows must be modular, seamlessly integrated, and event-driven, with automation and AI/ML handling orchestration, monitoring, and transitions to achieve touchless, continuous data pipelines. Analysts focus on oversight, exception management, and iterative improvement of automated workflows.",
+        "interdependencies": [
+            "2",
+            "3",
+            "3.4",
+            "4"
+        ],
+        "impact reasoning": "Junior Data Analysts\u2019 role evolves from manual, stepwise workflow configuration and troubleshooting to digital oversight and improvement of automated end-to-end statistical pipelines. They monitor system transitions, escalate issues detected by automated validation or error reporting, and participate in project teams focused on ongoing optimization of digital workflow design. Familiarity with modular platforms, orchestration tools, and exception-handling protocols becomes standard.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Participates in project teams and working groups to support data management, research and analysis, and other unit activities.'",
+                "element update reasoning": "Project participation now focuses on implementing, monitoring, and iteratively improving modular, automation-ready digital workflows rather than configuring or hand-off manual process steps.",
+                "gaps": [
+                    {
+                        "justification": "Requires technical understanding of digital orchestration, modular workflow design, and system-level monitoring/diagnostics.",
+                        "type": "Skill",
+                        "name": "Digital Workflow Oversight & Improvement",
+                        "description": "Skill in monitoring, analyzing, and iteratively improving digital workflow orchestration, event-driven process transitions, and exception handling within automated statistical pipelines."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Knowledge of data science and its life cycle...data management...' and 'Organizes and consolidates information relevant to the defined objectives of studies. Maintains work files.'",
+                "element update reasoning": "Managing and organizing process information/documentation is now performed in digital environments, with the analyst needing to understand process modularity, automation interfaces, and logging/version control platforms for seamless cross-phase transitions.",
+                "gaps": [
+                    {
+                        "justification": "Expanded knowledge of modular digital infrastructure, orchestration platforms, and system-level documentation.",
+                        "type": "Knowledge",
+                        "name": "Modular Automation Platforms & Digital Documentation",
+                        "description": "Familiarity with modular process design, orchestration tools, and digital logging/version control for managing automated and cross-phase data workflows."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "update description": "Building and testing production environments relies on modular, automated, AI-supported platforms. Outputs of design are configured and integrated through digital orchestration with auto-testing and rapid deployment. Analysts oversee automated assembly, validate successful integration, troubleshoot exceptions, and support continuous improvement.",
+        "interdependencies": [
+            "2.6",
+            "3.4",
+            "4"
+        ],
+        "impact reasoning": "Junior Data Analysts move away from manual configuration and routine build/test activities toward QA and oversight of automated build and test pipelines. They validate successful system integration, troubleshoot exceptions flagged by automation, and contribute to improvements in digital deployment, documentation, and modular service reuse.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Supports the conduct of studies and/or projects using established quantitative statistical data analysis methods and software such as Python, SAS, STATA, R, E-Views, SPSS or other similar software.'",
+                "element update reasoning": "Support shifts to monitoring performance, integration, and readiness of automated data analysis environments and orchestrated production systems, participating in QA checks and exception troubleshooting.",
+                "gaps": [
+                    {
+                        "justification": "Skills now required in automated deployment pipelines, integration monitoring, and troubleshooting digital/AI-driven build systems.",
+                        "type": "Skill",
+                        "name": "Automated Build System Oversight & QA",
+                        "description": "Skill in monitoring, evaluating, and troubleshooting AI-automated assembly and integration of production environments, supporting quality checks and seamless deployment."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Focuses on validating the results of automated build, configuration, and integration processes, including exception investigation and confirming operational readiness.",
+                "gaps": [
+                    {
+                        "justification": "Requires advanced understanding of digital orchestration, error-handling protocols, and standards for modular and automated production deployment.",
+                        "type": "Knowledge",
+                        "name": "Modular Automation & Deployment Practices",
+                        "description": "Knowledge of automated orchestration tools, error and exception handling for production environment build, and continuous improvement procedures tailored to digital-first workflows."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3.2",
+        "update description": "All processing and analytics components must be modular, automation-ready, and AI/ML-orchestrated for plug-and-play integration into digital workflows. Analysts shift to oversight, QA, configuration, and troubleshooting integration and technical interoperability issues, with automation handling routine and scalable operations.",
+        "interdependencies": [
+            "3",
+            "2.6",
+            "5"
+        ],
+        "impact reasoning": "Junior Data Analysts transition from manual or piecemeal component setup/testing to validating technical interoperability, overseeing automated self-testing/monitoring routines, and supporting dynamic integration of dashboard, analytic, and transformation modules. They participate in project teams tasked with analyzing effectiveness and troubleshooting issues across digital analytic infrastructure, helping iterate solutions and maintain seamless operation.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Now directs attention to technically evaluating, configuring, and validating outputs of automated dashboard/processing modules, such as analyzing API interoperability, monitoring automated self-test logs, and identifying exceptions for escalation.",
+                "gaps": [
+                    {
+                        "justification": "Requires practical skill in validating integration API endpoints, troubleshooting automation failures, and configuring modular analytics stacks.",
+                        "type": "Skill",
+                        "name": "Automated Component QA & Integration Troubleshooting",
+                        "description": "Skill in configuring, validating modular analytics components; analyzing integration API outputs; and troubleshooting failures/exceptions in AI/ML-driven environments."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Organizes and consolidates information relevant to the defined objectives of studies. Maintains work files.'",
+                "element update reasoning": "Task expands to monitoring digital trace/logs from automated analytics components, documenting technical issues, and maintaining version-controlled evidence of oversight and QA interventions.",
+                "gaps": [
+                    {
+                        "justification": "Demands technical documentation skill and digital workflow traceability expertise.",
+                        "type": "Skill",
+                        "name": "Digital QA Documentation & Traceability",
+                        "description": "Skill in documenting technical issues, maintaining version-controlled logs, and assembling evidence/outputs from automated analytics platforms."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Participates in project teams and working groups to support data management, research and analysis, and other unit activities.'",
+                "element update reasoning": "Project teamwork now means direct technical responsibility for configuration, QA, and troubleshooting digital analytics infrastructure, focusing on iterative improvement and rapid exception resolution.",
+                "gaps": [
+                    {
+                        "justification": "Requires team collaboration skills focused specifically on tech-oriented QA and digital diagnostics.",
+                        "type": "Skill",
+                        "name": "Technical Project Collaboration in Digital Analytics",
+                        "description": "Skill in collaborating with technical teams to configure, improve, and troubleshoot automated analytics/process modules and workflows."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3.4",
+        "update description": "Workflows are now modular, automation-ready, and digitally configured using process management platforms. AI/automation drives orchestration, monitoring, and triggering, with analysts in oversight, rapid configuration/adaptation, and exception management roles.",
+        "interdependencies": [
+            "2.6",
+            "3",
+            "5"
+        ],
+        "impact reasoning": "Junior Data Analysts transition from manual workflow configuration and routine process hand-off toward digital configuration, oversight, and monitoring of event-driven, automated workflow platforms. Their technical capabilities expand to include rapid assessment and adaptation of workflow parameters, real-time identification of process inefficiencies, and escalation of exceptions outside the scope of automation.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Prepares to validate and monitor automated workflow orchestration outputs, intervene for exception and inefficiency troubleshooting, and adapt configuration as required for workflow optimization.",
+                "gaps": [
+                    {
+                        "justification": "Requires workflow automation familiarity, digital monitoring, and rapid configuration/exception handling skills.",
+                        "type": "Skill",
+                        "name": "Digital Workflow Configuration & Oversight",
+                        "description": "Skill in configuring, monitoring, and rapidly troubleshooting event-driven, automation-ready workflow platforms for continuous, hands-free pipeline operation."
+                    }
+                ]
+            },
+            {
+                "element": "Key Activities: 'Participates in project teams and working groups to support data management, research and analysis, and other unit activities.'",
+                "element update reasoning": "Team role refocused toward technical support for automated workflow optimization, improvement, and documentation, including proactive adaptation during process changes.",
+                "gaps": [
+                    {
+                        "justification": "Requires tech-centered project collaboration and documentation abilities.",
+                        "type": "Skill",
+                        "name": "Technical Collaboration on Workflow Automation",
+                        "description": "Skill in collaborating and documenting optimization, adaptation, and process change management in digital workflow systems."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4.1",
+        "update description": "Frame creation and sample selection are automated through AI/LLM-powered record linkage, deduplication, and harmonization across multiple data sources, with humans validating outputs, resolving edge cases, and ensuring quality assurance.",
+        "interdependencies": [
+            "2.4",
+            "5"
+        ],
+        "impact reasoning": "Junior Data Analysts move from manual linkage and sampling frame construction to QA, technical review, and support for automated frame-building tools. Their primary responsibilities revolve around validating and interpreting outputs, resolving exceptions, supporting harmonization efforts, and continuously improving edge-case handling for automated sample design.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Skills now oriented toward reviewing and validating the outputs of AI/LLM linkage and harmonization algorithms, focusing on confirming the integrity and coverage of sampling frames and flagging data/model inconsistencies.",
+                "gaps": [
+                    {
+                        "justification": "Requires substantial knowledge of automated linkage/deduplication algorithms, digital harmonization routines, and QA protocols for sample frame quality.",
+                        "type": "Knowledge",
+                        "name": "Automated Frame Construction QA & Edge-case Handling",
+                        "description": "Technical expertise in validating outputs from AI-driven frame construction tools, reviewing harmonization decisions, and supporting exception and ambiguity resolution efforts."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "update description": "All processing of input data\u2014integrating, classifying, checking, cleaning, transforming\u2014is conducted in modular, event-driven, automated, and version-controlled AI/ML pipelines. Analysts' work centers on oversight, exception review, process innovation, standardization, and improvement rather than manual execution.",
+        "interdependencies": [
+            "3.2",
+            "3.4",
+            "5.1",
+            "5.2",
+            "5.3",
+            "5.4",
+            "5.5",
+            "5.6",
+            "5.7",
+            "5.8"
+        ],
+        "impact reasoning": "Junior Data Analysts transition from routine, manual manipulation of data to oversight, QA, and iterative improvement of modular AI/ML-enabled processing pipelines. They are responsible for reviewing event-driven outputs and exception logs, configuring audit and traceability systems, and supporting process improvements. Their technical proficiency must expand to cover digital orchestration, versioning, and cross-process standardization.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Now focuses on validating and overseeing automated processing routines, reviewing outputs, investigating exceptions, and supporting QA/configuration for modular digital pipelines.",
+                "gaps": [
+                    {
+                        "justification": "Requires advanced knowledge of digital QA for automated processing, event-driven exception management, and modular pipeline configuration.",
+                        "type": "Skill",
+                        "name": "Automated Pipeline Oversight & QA",
+                        "description": "Skill in monitoring, analyzing, and improving AI/ML-enabled modular data processing routines, including configuration and documentation in digital environments."
+                    }
+                ]
+            },
+            {
+                "element": "Technical Activities: 'Data literacy skills are needed to derive meaningful information from data...including the ability to assess the quality of data, protect and secure data, and safeguard their responsible use.'",
+                "element update reasoning": "Data literacy now emphasizes review and assurance of digital QA, auditability, reproducibility, process standardization, and exception escalation arising in automated environments.",
+                "gaps": [
+                    {
+                        "justification": "Skill in digital QA, audit trail tracking, and analysis of process exception/activity logs from automated processing workflows.",
+                        "type": "Skill",
+                        "name": "Digital Process QA & Auditability",
+                        "description": "Ability to analyze, validate, and document automated processing activities; maintain audit trails; and assess quality in digital, version-controlled environments."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.1",
+        "update description": "Automated, AI/LLM-powered pipelines handle integration\u2014record linkage, deduplication, and harmonization. Analysts validate integration outputs, resolve flagged exceptions, and optimize digital pipelines for reliable, comprehensive consolidated datasets.",
+        "interdependencies": [
+            "5",
+            "5.2",
+            "4.1"
+        ],
+        "impact reasoning": "Junior Data Analysts now focus on monitoring, validating, and troubleshooting automated integration routines, intervening for anomalies or complex harmonization issues identified by AI. Manual integration tasks all but disappear. Technical oversight, QA, and pipeline optimization become core responsibilities, requiring new digital and automation expertise.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Focuses on evaluating, validating, and performing QA on automated integration outputs\u2014particularly harmonization and linkage steps\u2014resolving only flagged exceptions and troubleshooting pipeline/algorithm issues.",
+                "gaps": [
+                    {
+                        "justification": "Requires digital QA and troubleshooting skills for AI/LLM-driven integration routines, plus understanding of audit logging and feedback into integration improvement cycles.",
+                        "type": "Skill",
+                        "name": "AI-driven Integration QA & Pipeline Optimization",
+                        "description": "Ability to interpret, validate, and optimize AI-powered integration outputs; resolve flagged anomalies; and manage digital integration process feedback."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.2",
+        "update description": "Classification and coding now run in modular, SDMX-compliant, AI/ML-driven pipelines\u2014with LLMs handling text/code assignments at scale. Analysts configure, validate, troubleshoot automated routines, review outputs, and escalate ambiguous cases for expert judgment.",
+        "interdependencies": [
+            "5",
+            "5.1",
+            "2.2"
+        ],
+        "impact reasoning": "Junior Data Analysts evolve from clerical or manual coding to oversight and configuration of automated AI/LLM classification pipelines, focusing on monitoring event-driven QA logs, troubleshooting exceptions, and ensuring outputs meet standards (SDMX, geospatial, statistical, etc.). Engagement is reserved for rare/ambiguous instances, and they drive continuous improvement, documentation, and QA.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Refocused to configuring SDMX/AI-powered classification flows, reviewing digital logs, validating results, and troubleshooting ambiguous or edge-case outputs.",
+                "gaps": [
+                    {
+                        "justification": "Skill demanded in configuring, monitoring, and troubleshooting automated and SDMX/AI-powered classification flows, plus escalation/communication for ambiguous cases.",
+                        "type": "Skill",
+                        "name": "Automated Classification Flow Configuration & QA",
+                        "description": "Ability to configure, validate, and troubleshoot modular, SDMX-compliant, AI-driven classification/coding routines; resolve edge cases; and produce digital documentation."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.3",
+        "update description": "Validation of data\u2014checking for missingness, inconsistencies, outliers, errors\u2014is performed by automated, modular digital routines with AI/LLM. Humans (including analysts) review exception logs, respond to escalations, and refine QA rules and validation approaches to improve automation.",
+        "interdependencies": [
+            "5",
+            "5.1",
+            "5.4"
+        ],
+        "impact reasoning": "Junior Data Analysts transition from manual detection and localization of data errors to oversight, monitoring, and tuning of automated validation routines. Their role involves reviewing digital audit logs, handling escalated cases of ambiguous or systemic anomalies, and suggesting changes to validation logic or QA protocols for increased accuracy and reduced manual burden.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Focus becomes digital oversight, QA of automated outputs, investigation of flagged anomalies, and iterative improvement of validation rules and system QA parameters.",
+                "gaps": [
+                    {
+                        "justification": "Requires skill in interpreting automated validation outputs, investigating digital audit logs, responding to exception escalations, and updating digital QA frameworks.",
+                        "type": "Skill",
+                        "name": "Automated Data Validation Oversight & QA Tuning",
+                        "description": "Skill in reviewing automated validation routines, handling AI/LLM escalations, and tuning QA rules for digital efficiency and accuracy."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.4",
+        "update description": "Edits and imputations for incorrect, missing, or unreliable data are now performed through automated, modular, and AI/LLM-powered pipelines; analysts review, validate, audit, and sign off only on complex, novel, or unresolved cases and ensure metadata integrity.",
+        "interdependencies": [
+            "5",
+            "5.3",
+            "5.5"
+        ],
+        "impact reasoning": "Junior Data Analysts shift from hands-on data cleansing and imputation to oversight and validation: reviewing AI/LLM-generated edits, ensuring proper audit logging, investigating exceptions or unresolved problems, and maintaining metadata trail quality and completeness for edits and imputations. Their manual intervention is reserved for non-standard, rare, or systemic issues.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Their role becomes reviewing and validating automated edit/impute routines, checking audit logs, troubleshooting outlier cases, and auditing the trail for correction and metadata completeness.",
+                "gaps": [
+                    {
+                        "justification": "Requires ability to audit, validate, and troubleshoot outputs from AI-driven correction routines and maintain comprehensive metadata documentation.",
+                        "type": "Skill",
+                        "name": "AI-driven Data Edit/Impute Audit & Troubleshooting",
+                        "description": "Skill in reviewing, validating, and troubleshooting automated corrections/imputations and ensuring integrity and completeness of process metadata."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.5",
+        "update description": "Variable and unit derivation is performed through modular, automated, and AI-powered digital pipelines, with manual analyst involvement only for complex or nonstandard cases and audit trail validation.",
+        "interdependencies": [
+            "5",
+            "2.2",
+            "5.4",
+            "5.8"
+        ],
+        "impact reasoning": "Junior Data Analysts move from manually performing and documenting variable/unit derivations to validating and reviewing automated outputs, troubleshooting exceptions, and ensuring correctness of logic/order. They must carefully audit the digital pipeline's transformation trail and intervene for unusual or model-intensive derivations.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Supports the conduct of studies and/or projects using established quantitative statistical data analysis methods and software such as Python, SAS, STATA, R, E-Views, SPSS or other similar software.'",
+                "element update reasoning": "Rather than coding derivation routines, analysts validate, QA, and troubleshoot automated outputs and logic, especially for derivations or transformations with exceptions or unusual cases.",
+                "gaps": [
+                    {
+                        "justification": "Requires proficiency with automated variable/unit derivation tools and audit trail validation in a digital context.",
+                        "type": "Skill",
+                        "name": "Automated Variable/Unit Derivation Validation & Audit",
+                        "description": "Skill in validating, troubleshooting, and documenting automated pipeline derivations, and in audit trail review for transformation correctness."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.6",
+        "update description": "Weight calculation for unit data records occurs in modular, event-driven automated workflows, with all steps logged. Staff review outputs and intervene only for diagnostics, exceptions, or innovative/nonstandard cases.",
+        "interdependencies": [
+            "5",
+            "5.7"
+        ],
+        "impact reasoning": "Junior Data Analysts\u2019 responsibilities shift from manual calculation and documentation of weights to validating results of automated routines, auditing operational logs, analyzing exceptions, and supporting experimentation for new or innovative weighting methods. Their expertise is needed when diagnostics flag inconsistencies or unexpected results.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Conducts data preparation techniques, for example in data extraction, data cleansing, data transformation, data validation, ascertaining data quality, conformity to standards, or data origin.'",
+                "element update reasoning": "Tasks center on sampling outputs from modular automation routines, conducting QA of result logs, investigating exceptions, and validating compliance with methodology and business rules.",
+                "gaps": [
+                    {
+                        "justification": "Requires ability to audit automated calculation routines, interpret diagnostic output, manage exception and innovation documentation, and enforce compliance.",
+                        "type": "Skill",
+                        "name": "Automated Weight Calculation QA & Diagnostics",
+                        "description": "Skill in auditing automated weighting routines, interpreting logs/diagnostics, handling exceptions, and validating methodological compliance for all digital calculations."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.7",
+        "update description": "Aggregations\u2014including summary statistics, weighted totals, and error calculations\u2014are performed by modular, automated digital pipelines, fully logged and traceable. Analysts validate aggregation outputs, review exceptions or advanced analytic requests, and ensure result reproducibility.",
+        "interdependencies": [
+            "5",
+            "5.6",
+            "5.8"
+        ],
+        "impact reasoning": "Junior Data Analysts transition from hands-on aggregation calculations to validating and monitoring outputs and audit trails from automation. Manual aggregation and summary statistic routines are replaced by oversight of automated processes, exception review, and reproducibility QA for advanced or nonroutine analytic extensions.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Supports the conduct of studies and/or projects using established quantitative statistical data analysis methods and software such as Python, SAS, STATA, R, E-Views, SPSS or other similar software.'",
+                "element update reasoning": "Rather than conducting manual aggregation, the analyst reviews and validates automated result outputs, handles flagged exceptions, and supports reproducibility and advanced analytic extensions.",
+                "gaps": [
+                    {
+                        "justification": "Requires advanced skill in automated result validation, audit trail analysis, and extension of analytic logic for complex or nonroutine aggregation cases.",
+                        "type": "Skill",
+                        "name": "Automated Aggregation Oversight & Exception Handling",
+                        "description": "Skill in monitoring, validating, and troubleshooting outcomes from automated aggregation pipelines, including handling exceptions and supporting advanced analytics."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5.8",
+        "update description": "Finalized data files are produced in standardized, machine-actionable formats\u2014with automated versioning and digital logging that enable immediate reproducibility and traceability. Technical staff (incl. Junior Data Analysts) ensure standards compliance and maintain automated documentation and audit trails.",
+        "interdependencies": [
+            "5",
+            "6",
+            "5.7"
+        ],
+        "impact reasoning": "Junior Data Analysts move from manual documentation and file assembly to overseeing, validating, and auditing automated digital outputs. They are responsible for confirming version control, digital audit readiness, standards compliance, and smooth technical transitions for downstream use in analytics and dissemination.",
+        "affected work-description elements": [
+            {
+                "element": "Key Activities: 'Organizes and consolidates information relevant to the defined objectives of studies. Maintains work files.'",
+                "element update reasoning": "Expanded to technical validation and QA of automated, machine-actionable datasets/documentation, confirming version control, digital traceability, and readiness for deployment or hand-off.",
+                "gaps": [
+                    {
+                        "justification": "Requires technical proficiency in standards validation, version control platforms, and digital audit/documentation practices.",
+                        "type": "Skill",
+                        "name": "Automated Data File QA & Digital Documentation",
+                        "description": "Skill in verifying automated dataset outputs, managing digital versioning, and maintaining comprehensive audit logs for reproducibility and interoperability."
+                    }
+                ]
+            }
+        ]
+    }
+]

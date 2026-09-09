@@ -1,0 +1,2554 @@
+[
+  {
+    "title": "Intro to Programming",
+    "description": "This introductory course develops foundational programming skills in Python. Learners are introduced to core concepts such as variables, data types, loops, functions, and basic syntax, enabling them to write simple programs and complete basic coding tasks.",
+    "duration": "1-2 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to complete structured data and automation tasks. At the foundational level, it involves using basic programming constructs and common data structures to build simple programs in an open-source language such as Python.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to approach problems logically, identify relevant questions, and develop clear, practical solutions. At the foundational level, it includes using structured reasoning and cause-and-effect thinking to solve straightforward problems effectively.",
+        "indicators": [
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Python",
+    "description": "This introductory course develops foundational Python programming skills for data science. Learners practice core syntax, variables, functions, conditionals, loops, lists, strings, dictionaries, and the use of external libraries through tutorials and exercises.",
+    "duration": "5 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to perform data-related tasks. At the foundational level, it includes using core language features, basic data structures, and common libraries to manipulate data and build simple programs.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to prepare and transform data so it can be used effectively for analysis. At the foundational level, it includes applying simple transformations and deriving variables to support basic analytical tasks.",
+        "indicators": [
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Cleaning",
+    "description": "This beginner-level course introduces practical techniques for cleaning messy real-world datasets in Python. It covers handling missing values, scaling and normalizing numeric variables, parsing dates, resolving character encoding issues, and correcting inconsistent data entries to prepare datasets for analysis.",
+    "duration": "4 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, clean, transform, and prepare data so it can be used reliably for analysis and downstream tasks. At the foundational level, it involves working with common file formats, addressing basic data quality issues, and applying straightforward transformations to improve dataset usability.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Apply methods to handle missing data (e.g., drop missing records)."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use code to manipulate data and perform analytical tasks efficiently. At the foundational level, it includes using an open-source language such as Python and applying common libraries and functions to clean and prepare data.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems logically, identify relevant issues, and determine appropriate actions based on evidence. In this context, it supports recognizing common data quality problems and selecting suitable cleaning approaches to improve the reliability of datasets.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Visualization",
+    "description": "This introductory course develops the ability to create charts and visualizations to explore datasets, identify patterns and trends, and communicate analytical insights clearly to others.",
+    "duration": "1-3 hours",
+    "technology": "statistics",
+    "competencies": [
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to present analytical results clearly and concisely using appropriate visuals and plain language so that both technical and non-technical audiences can understand key insights.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand."
+        ]
+      },
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics is the ability to summarize, interpret, and present the main features of data using basic statistical concepts and visual representations.",
+        "indicators": [
+          "Ability to summarize and describe the main features of a dataset using visualizations (e.g., histograms, box plots) and numerical summaries (e.g., mean, range).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to examine data systematically, recognize relevant patterns and relationships, and use that analysis to form clear, evidence-informed observations and recommendations.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Intro to SQL",
+    "description": "This introductory course teaches the fundamentals of querying relational databases using SQL. Learners develop basic skills in selecting columns, filtering rows with conditions, and using aggregate functions to summarize structured data.",
+    "duration": "1-3 hours",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, prepare, transform, and organize structured data so it can be used effectively for analysis. At the foundational level, it includes working with common data sources and applying basic transformations such as filtering, sorting, and aggregation.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to express data-related concepts and results clearly using appropriate terminology. At the foundational level, it includes using correct data language and communicating basic analytical outputs in a clear and understandable way.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Business Acumen is the ability to understand how data supports organizational objectives and operational decision-making. At the foundational level, it includes recognizing the value of different data types and understanding how structured data can support business needs.",
+        "indicators": [
+          "Recognize various data types and value as an organizational asset."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Intro to Machine Learning",
+    "description": "This introductory course develops foundational machine learning knowledge by explaining how models work, guiding learners through basic data exploration, building an initial predictive model, and validating model performance. It also introduces common issues such as underfitting and overfitting, applies a random forest approach, and encourages continued practice through machine learning competitions.",
+    "duration": "3 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves understanding core AI and machine learning concepts and applying basic algorithms and tools to build and assess simple models.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing involves loading, cleaning, transforming, and preparing data so it can be used effectively for analysis and model development.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through involves analyzing problems logically, asking relevant questions, and using evidence to develop sound conclusions and practical recommendations.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Intermediate Machine Learning",
+    "description": "This course develops practical machine learning skills for improving model quality and reliability. Learners build preprocessing and modeling pipelines, manage missing data, prevent data leakage, apply validation practices, and tune model parameters using Python and scikit-learn.",
+    "duration": "4-6 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves applying core machine learning concepts and tools to build, assess, and improve models for practical analytical tasks. It includes using established libraries and methods to develop solutions that are technically sound and fit for purpose.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, and manage data so it can be used effectively in analysis and modelling. It includes cleaning datasets, handling missing values, and applying structured transformations that support reliable machine learning workflows.",
+        "indicators": [
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Intermediate",
+        "description": "Thinking Things Through is the ability to analyze analytical issues systematically, interpret evidence, and develop practical recommendations. In this context, it includes identifying risks such as data leakage, selecting appropriate validation approaches, and improving model performance through logical, evidence-based decisions.",
+        "indicators": [
+          "Respond to complex analytical issues.",
+          "Use cause and effect relationships to analyze problems, interpret information, and develop recommendations."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Machine Learning Explainability",
+    "description": "This introductory course teaches learners how to understand and interpret machine learning model predictions and outputs. It focuses on explainability concepts such as feature influence, model behaviour analysis, and the use of interpretation techniques to debug models and communicate results more clearly.",
+    "duration": "1-2 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves applying core AI concepts and methods to build, assess, and use models appropriately. At the foundational level, it includes understanding key AI concepts and evaluating model outputs in order to support responsible and effective use.",
+        "indicators": [
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models."
+        ]
+      },
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Intermediate",
+        "description": "Demonstrating Integrity and Respect involves applying ethical and responsible practices when using data and AI. In this context, it includes recognizing fairness considerations and assessing how model behaviour and outputs may affect transparency, bias, and trust in AI use.",
+        "indicators": [
+          "Evaluate data and models for bias and ensure fairness in outcomes and use best practices to mitigate bias/discrimination in AI.",
+          "Use principles for responsible use of AI in government."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to explain analytical results and technical concepts in a clear, structured, and audience-appropriate way. For this course, it includes communicating model behaviour and interpretation results so that others can better understand predictions and their implications.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Intro to Deep Learning",
+    "description": "This introductory course provides a practical foundation in deep learning by teaching the core concepts of neural networks and how to build, train, and evaluate basic models using TensorFlow and Keras. Learners apply introductory deep learning techniques to prediction tasks on practical datasets.",
+    "duration": "1-2 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves understanding core AI concepts and applying basic machine learning methods and tools to build and assess models for practical use cases.",
+        "indicators": [
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming involves writing and using code to manipulate data, implement analytical workflows, and support model development with appropriate tools and libraries.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication involves clearly summarizing analytical results and model outputs in language that supports understanding by technical and non-technical audiences.",
+        "indicators": [
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Computer Vision",
+    "description": "This introductory course teaches learners how to apply deep learning techniques to image data using convolutional neural networks. It focuses on core computer vision concepts, image classification workflows, and practical model training in a hands-on Python-based learning environment.",
+    "duration": "1-2 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Intermediate",
+        "description": "Artificial Intelligence Techniques involves applying machine learning and deep learning methods to solve practical problems, selecting appropriate approaches, and evaluating model performance responsibly. In this course, learners build foundational capability in using deep learning methods for image-based tasks and applying AI techniques to real-world classification problems.",
+        "indicators": [
+          "Apply deep learning modeling approaches to solve problems.",
+          "Apply AI techniques to real-world business problems, demonstrating the ability to develop AI-powered solutions and research.",
+          "Fine-tune models and evaluate performance using appropriate metrics (e.g., accuracy, precision, recall, F1 score)."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write and use code to manipulate data, implement analytical workflows, and support model development. This course supports foundational programming through the use of Python and common libraries to train and apply computer vision models.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, prepare, transform, and organize data so it can be used effectively in analysis and modeling. In this course, learners work with image data and apply basic preparation steps needed to support computer vision model training.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Time Series",
+    "description": "This introductory course provides a practical foundation in time series analysis and forecasting using time-based datasets. Learners examine common temporal patterns such as trends and seasonality, prepare sequential data for analysis, build simple forecasting models, and evaluate model performance.",
+    "duration": "1 to 2 hours",
+    "technology": "statistics",
+    "competencies": [
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through involves analyzing problems in a structured way, identifying relevant patterns and relationships, and developing logical recommendations based on evidence. In this course, learners build this competency by examining temporal data, identifying forecasting problems, and interpreting time-based patterns to support sound analytical conclusions.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Frame questions explicitly for data to inform answers.",
+          "Use cause and effect relationships to analyze problems systematically."
+        ]
+      },
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics involves applying core statistical concepts to summarize data, identify patterns, and support analysis. This course strengthens foundational statistical capability through the interpretation of temporal trends, seasonality, and forecasting performance in time-based datasets.",
+        "indicators": [
+          "Understand and apply fundamental statistical concepts such as measures of central tendency (mean, median, mode), variance, and standard deviation.",
+          "Ability to summarize and describe the main features of a dataset using visualizations (e.g., histograms, box plots) and numerical summaries (e.g., mean, range).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to present analytical results clearly and in a way that supports understanding by different audiences. In this course, learners develop this competency by using basic visualizations and straightforward explanations to communicate trends, seasonality, and forecasting results.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Geospatial Analysis",
+    "description": "This beginner-level course introduces geospatial analysis using Python. Learners create maps, work with coordinate reference systems, build interactive visualizations, manipulate spatial datasets, perform spatial joins and geocoding, and analyze distance and proximity to identify geographic patterns.",
+    "duration": "4 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it can be used effectively for analysis. In this context, it includes working with spatial datasets, joining data from multiple sources, and transforming location-based information for geospatial analysis.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to present analytical results in a clear, structured, and audience-appropriate way. In this course, it is demonstrated through the creation of maps and interactive visualizations that communicate spatial patterns, relationships, and insights effectively.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use code to manipulate data and perform analytical tasks. In this course, learners apply Python and geospatial libraries to create maps, transform spatial data, and carry out introductory geospatial analysis workflows.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Intro to AI Ethics",
+    "description": "This introductory course examines the ethical design and use of artificial intelligence systems. It covers responsible AI principles, human-centered design, bias and fairness in machine learning, and the use of model cards to improve transparency and accountability.",
+    "duration": "4 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Intermediate",
+        "description": "This competency involves applying legal, ethical, and responsible practices in the use of data and artificial intelligence. It includes recognizing bias and fairness issues, assessing risks in models and data, and supporting transparent, respectful, and accountable AI use.",
+        "indicators": [
+          "Apply legal and ethical standards when using data, methods, and resources.",
+          "Explain ethical risks of using historical data in models or predictions.",
+          "Evaluate data and models for bias and ensure fairness in outcomes and use best practices to mitigate bias/discrimination in AI.",
+          "Use principles for responsible use of AI in government.",
+          "Assess source data for bias, representation, validity and accuracy."
+        ]
+      },
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Intermediate",
+        "description": "This competency involves applying artificial intelligence methods to practical problems while recognizing their limitations and ethical implications. It includes evaluating AI outputs, understanding fairness and trust considerations, and using AI techniques responsibly in real-world contexts.",
+        "indicators": [
+          "Recognize the ethical implications of AI, focusing on fairness, bias reduction, and trust in AI design.",
+          "Use AI-generated outputs responsibly by applying validation techniques and human-in-the-loop review."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "This competency involves communicating technical findings in a clear, structured, and audience-appropriate manner. It includes explaining model behaviour, risks, and implications through narratives and documentation that support understanding and transparency.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience.",
+          "Communicate risks of AI-generated content (e.g., copyright, bias, etc.)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50: Introduction to Computer Science",
+    "description": "This introductory course develops core computer science knowledge through hands-on learning in problem solving, programming, algorithms, data structures, memory, databases, and web development. Learners build foundational coding skills in C, Python, SQL, HTML, CSS, JavaScript, and Flask while applying principles of correctness, design, and style to practical exercises and a final project.",
+    "duration": "11 weeks",
+    "technology": "programming",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and improve code to solve structured problems using core programming concepts and common tools. At the foundational level, it includes using variables, control structures, functions, and basic data structures to perform programming and data-related tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems systematically, identify relevant relationships, and develop logical solutions. In this context, it is demonstrated through computational thinking, abstraction, and structured problem solving using code and algorithmic reasoning.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Foundational",
+        "description": "Project Management is the ability to organize work, follow structured tasks, and contribute to achieving defined deliverables. In this course, learners apply this competency by progressing through weekly modules and completing a final project that integrates multiple technical concepts.",
+        "indicators": [
+          "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+          "Understand and follow project timelines and task lists.",
+          "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50's Introduction to Programming with Python",
+    "description": "This beginner-level course introduces Python programming through hands-on practice in writing, testing, and debugging code. Learners build foundational skills in variables, functions, control flow, exceptions, file handling, regular expressions, libraries, and object-oriented programming, culminating in practical exercises and a final project.",
+    "duration": "10 weeks",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to solve practical problems. At the foundational level, it includes using core programming constructs, basic data structures, and common libraries to perform data and logic tasks in a language such as Python.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Foundational",
+        "description": "Project management is the ability to organize work, track progress, and contribute to the successful completion of defined tasks and deliverables. At the foundational level, it involves following timelines, supporting documentation, and helping ensure milestones are achieved within a structured learning or project environment.",
+        "indicators": [
+          "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+          "Understand and follow project timelines and task lists.",
+          "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing initiative and being action oriented is the ability to take responsibility for assigned work, adapt to changing circumstances, and organize tasks to achieve results. At the foundational level, it includes completing assigned work, adjusting to changes, planning for setbacks, and breaking work into manageable steps.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Respond to changes in organizational priority, revising own work when conditions change",
+          "Plan for contingencies to deal with unforeseen events or setbacks",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50's Introduction to Programming with Scratch",
+    "description": "This introductory course develops foundational programming and computational thinking skills through Scratch, a visual drag-and-drop programming environment. Learners create interactive projects such as animations, games, art, and stories while applying core concepts including functions, conditions, loops, variables, and abstraction. The course prepares beginners for further study in programming by building transferable logic and problem-solving skills.",
+    "duration": "9 weeks",
+    "technology": "Scratch visual programming",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to create and modify code to perform defined tasks using core logic structures and data handling techniques. At the foundational level, it involves using basic programming constructs, identifying common errors, and applying a programming language or environment to complete simple analysis or development tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems logically, identify relevant relationships, and develop practical solutions. At the foundational level, it includes asking relevant questions, recognizing connections, and using structured reasoning to solve problems in a clear and systematic way.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing Initiative and Being Action Oriented is the ability to organize work, respond to changing circumstances, and take practical steps to achieve results. At the foundational level, it involves completing assigned work, breaking tasks into manageable parts, and adjusting efforts when priorities or conditions change.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Respond to changes in organizational priority, revising own work when conditions change",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50's Introduction to Databases with SQL",
+    "description": "This course provides an introduction to relational databases and SQL. Learners develop practical skills in querying and managing data, designing normalized database schemas, modeling relationships with primary and foreign keys, applying constraints and triggers to support data integrity, improving performance with views and indexes, and connecting databases with programming languages such as Python and Java through hands-on work with real-world datasets and a final project.",
+    "duration": "7 weeks",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing involves preparing, transforming, and organizing data so it can be used reliably for analysis and operational purposes. At the foundational level, it includes loading data from common sources, applying basic cleaning and transformation methods, deriving variables, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems in a structured way, identify relevant relationships, and develop sound recommendations or solutions. In this context, it includes recognizing how data entities connect, framing database design decisions logically, and applying systematic reasoning to reduce redundancy and improve data quality.",
+        "indicators": [
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to explain technical concepts and analytical outputs clearly for intended audiences. At the foundational level, it includes using appropriate technical terminology and presenting data-related information in a clear and understandable way.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50's Web Programming with Python and JavaScript",
+    "description": "This intermediate course develops practical skills for designing, building, testing, and deploying full-stack web applications using Python, JavaScript, SQL, and modern frameworks such as Django and React. Through hands-on projects, learners strengthen their ability to develop APIs, create interactive user interfaces, manage databases, apply CI/CD practices, and improve applications for scalability, security, and deployment.",
+    "duration": "9 weeks",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Project Management",
+        "proficiency": "Intermediate",
+        "description": "Project Management is the ability to organize, monitor, and deliver work in a structured way while managing timelines, risks, stakeholder needs, and iterative improvements. In this course, learners apply these practices through project-based web application development, testing, deployment, and refinement.",
+        "indicators": [
+          "Independently manage smaller, less complex tasks within a project, ensuring deadlines and deliverables are met.",
+          "Identify and mitigate moderate risks in data science projects, including technical issues, resource shortages, or data availability concerns.",
+          "Engage with users to collect feedback/data during idea/solution implementation.",
+          "Adjust work based on continuous user feedback."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, manage, and document data so that it can be used effectively in applications and analysis. This course supports that competency through database design, SQL use, models and migrations, and the handling of structured data within web applications.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use version control and basic documentation practices to organize code changes and support collaborative software development. The course introduces these practices through the use of GitHub, testing workflows, and structured project development.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50's Introduction to Artificial Intelligence with Python",
+    "description": "This course provides an introduction to artificial intelligence using Python, combining foundational theory with hands-on programming projects. Learners explore core AI topics such as search, knowledge representation, uncertainty, optimization, machine learning, neural networks, natural language processing, and large language models, and apply these concepts to design simple intelligent systems.",
+    "duration": "7 weeks",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves understanding core AI concepts and applying basic methods and tools to build and evaluate intelligent systems. At the foundational level, it emphasizes familiarity with machine learning approaches, open-source libraries, and practical use of AI concepts in simple implementations.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models.",
+          "Perform effective prompt engineering.",
+          "Evaluate the quality of LLM's."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, troubleshoot, and use code to perform data and analytical tasks. In this context, it includes using Python to implement AI algorithms, manipulate data structures, and build simple intelligent applications.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Intermediate",
+        "description": "Thinking Things Through is the ability to analyze problems systematically, interpret information, and develop practical recommendations or solutions. In this course, learners apply structured reasoning to AI problem solving, including search, optimization, uncertainty, and model-based decision-making.",
+        "indicators": [
+          "Respond to complex analytical issues.",
+          "Develop short- and long-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems, interpret information, and develop recommendations."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50 for Lawyers",
+    "description": "This introductory course helps lawyers and law students understand core computer science concepts and their legal implications. Through case studies and hands-on exercises in Python and SQL, learners build the ability to analyze how technical design choices in areas such as privacy, cybersecurity, databases, networking, cloud computing, and AI affect legal reasoning, client advice, and technology-informed decision-making.",
+    "duration": "10 weeks",
+    "technology": "python, sql",
+    "competencies": [
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "This competency involves analyzing issues logically, identifying relevant questions, and developing sound recommendations based on evidence and context. In this course, learners strengthen their ability to examine technology-related problems and connect technical decisions to legal and client impacts.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Foundational",
+        "description": "This competency is the ability to recognize and address ethical, privacy, security, and legal considerations in professional work. The course supports this by emphasizing the legal implications of technological decisions and building awareness of privacy and cybersecurity considerations relevant to responsible practice.",
+        "indicators": [
+          "Discuss ethical concerns with appropriate individuals or channels and seek guidance for ethical/privacy issues.",
+          "Adhere to the organization's legal, privacy and ethical frameworks (Privacy Act, Policy on Privacy Protection, etc.) and follow disclosure procedures.",
+          "Identify and proactively flag privacy/security/accessibility implications.",
+          "Consult key policies/procedures on AI for decision-making."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "This competency involves using programming languages to perform basic data and analytical tasks. In this course, learners gain introductory hands-on experience with Python and SQL to explore data and better understand how technical systems operate.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CS50's Computer Science for Business",
+    "description": "This introductory course explains core computer science concepts for business professionals from a high-level, decision-making perspective. It helps learners understand how cloud computing, networking, data, APIs, web and mobile technologies, privacy, security, scalability, databases, and artificial intelligence influence organizational and product decisions.",
+    "duration": "9 weeks",
+    "technology": "theory",
+    "competencies": [
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Business acumen is the ability to understand how organizational goals, operations, and decision-making are influenced by technology, data, and business needs. In this context, it involves recognizing where computing concepts and digital systems support better business and product decisions.",
+        "indicators": [
+          "Demonstrate basic understanding of key business functions, such as marketing, finance, and operations, and how they relate to data science projects.",
+          "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+          "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+          "Recognize various data types and value as an organizational asset."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze issues logically, understand relationships between technical and organizational factors, and support sound decisions. In this course, it is demonstrated through evaluating technology trade-offs and understanding how computing concepts affect business strategy and implementation choices.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Foundational",
+        "description": "Demonstrating Integrity and Respect involves applying ethical, privacy, security, and legal considerations when assessing technology and data use. In this course, learners build awareness of responsible decision-making related to privacy, security, and the appropriate use of digital systems.",
+        "indicators": [
+          "Discuss ethical concerns with appropriate individuals or channels and seek guidance for ethical/privacy issues.",
+          "Adhere to the organization's legal, privacy and ethical frameworks (Privacy Act, Policy on Privacy Protection, etc.) and follow disclosure procedures.",
+          "Identify and proactively flag privacy/security/accessibility implications.",
+          "Ensure privacy/security is set at the right permission levels."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Data Science with Python",
+    "description": "This beginner-level course introduces Python programming through hands-on practice. Learners develop foundational coding skills, including variables, functions, control flow, debugging, unit testing, file handling, regular expressions, object-oriented programming, and the use of third-party libraries, culminating in a final project that applies core programming concepts to practical problems.",
+    "duration": "10 weeks",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and troubleshoot code to perform data and automation tasks. At the foundational level, it includes using core programming constructs, basic data structures, common libraries, and an open-source language such as Python to solve practical problems.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and maintain code in a structured and collaborative way. At the foundational level, it includes understanding version control concepts and applying basic practices that support reliable development workflows.",
+        "indicators": [
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing initiative and being action oriented involves taking responsibility for completing work, adapting to changing circumstances, and organizing tasks in a practical way to achieve results. At the foundational level, it emphasizes steady execution, responsiveness, and planning work into manageable steps.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science: R Basics",
+    "description": "This introductory course builds foundational skills in R for data science. Learners use R to write basic programs, manipulate and wrangle data, perform introductory analysis, and create simple visualizations with tools such as dplyr and ggplot2 using a real-world dataset.",
+    "duration": "8 weeks, 1-2 hours per week",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to perform data-related tasks. At the foundational level, it includes using core programming constructs, working with basic data structures, and applying an open-source language to manipulate and analyze data.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to prepare data for analysis through loading, cleaning, transforming, and deriving variables. At the foundational level, it involves working with common data formats and applying basic preparation techniques to support analysis.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication is the ability to present analytical results clearly and appropriately for different audiences. At the foundational level, it includes summarizing simple findings and using basic visualizations to make trends and insights understandable.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science: Wrangling",
+    "description": "This introductory course teaches learners how to import, clean, transform, and organize raw data in R so it can be used effectively for analysis. It covers core data wrangling tasks such as tidying datasets, manipulating data with dplyr, processing strings with regular expressions, scraping and parsing web data, handling dates and times, and applying basic text mining techniques.",
+    "duration": "8 weeks, 1-2 hours per week",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it is fit for analysis and operational use. This includes working with structured and unstructured data, automating cleaning tasks, and applying transformations that improve data quality, usability, and consistency.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write and use code to perform data-related tasks efficiently and accurately. At the foundational level, it includes using a programming language and common libraries to manipulate data, apply logic, and resolve routine coding issues.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to explain data-related concepts, methods, and outputs clearly for intended audiences. It includes using appropriate terminology and presenting analytical information in a way that supports understanding and effective use.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science: Linear Regression",
+    "description": "This introductory course teaches learners how to use linear regression to examine relationships between variables, detect confounding, and interpret statistical associations using R. Through practical examples, learners build foundational skills in applying regression methods to real-world data and assessing when linear regression is an appropriate analytical approach.",
+    "duration": "8 weeks, 1-2 hours per week",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics involves applying core statistical concepts to summarize data, understand relationships, and support evidence-based analysis. In this context, it includes using foundational statistical reasoning to interpret variable relationships and support regression-based analysis.",
+        "indicators": [
+          "Understand and apply fundamental statistical concepts such as measures of central tendency (mean, median, mode), variance, and standard deviation.",
+          "Ability to summarize and describe the main features of a dataset using visualizations (e.g., histograms, box plots) and numerical summaries (e.g., mean, range).",
+          "Understand basic probability concepts, including independent and dependent events, and apply basic probability distributions (e.g., normal distribution).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use a programming language to manipulate data and carry out analytical tasks. In this course, learners use R to perform basic data analysis and implement linear regression workflows.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems systematically, identify relevant relationships, and develop sound conclusions based on evidence. In this course, learners apply structured reasoning to examine statistical relationships, identify confounding factors, and determine when linear regression is an appropriate method.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science: Building Machine Learning Models",
+    "description": "This introductory course develops foundational knowledge of machine learning by teaching learners how to build predictive models with real-world data. It covers core machine learning concepts, model training, cross-validation, regularization, principal component analysis, and recommendation systems through the practical example of creating a movie recommendation engine.",
+    "duration": "8 weeks, 2-4 hours per week",
+    "technology": "machine learning",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves applying core AI and machine learning concepts, methods, and tools to develop basic predictive models and solve structured analytical problems.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems logically, identify relevant relationships in data, and develop sound recommendations or solutions based on evidence.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Frame questions explicitly for data to inform answers.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics involves applying basic statistical concepts and quantitative reasoning to understand datasets, support model development, and interpret analytical results.",
+        "indicators": [
+          "Understand and apply fundamental statistical concepts such as measures of central tendency (mean, median, mode), variance, and standard deviation.",
+          "Ability to summarize and describe the main features of a dataset using visualizations (e.g., histograms, box plots) and numerical summaries (e.g., mean, range).",
+          "Understand basic probability concepts, including independent and dependent events, and apply basic probability distributions (e.g., normal distribution).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science: Productivity Tools",
+    "description": "This introductory course develops practical skills for organizing and managing data science work using Unix/Linux, git, GitHub, RStudio, and R Markdown. Learners build foundational capability in version control, repository management, reproducible reporting, and collaborative workflow practices that support well-structured and maintainable analytical projects.",
+    "duration": "8 weeks, 1–2 hours per week",
+    "technology": "git, github, unix/linux, r, rstudio, r markdown",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to organize, document, and track changes to code in a structured way that supports reproducibility and collaboration. At the foundational level, it includes understanding the purpose of version control systems and using basic commands to manage code changes in shared project environments.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others is the ability to contribute to shared work through open information sharing, collaboration, and practical support for team objectives. In this context, the course supports foundational collaboration by promoting repository-based workflows and practices that make analytical work easier to share and coordinate with others.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Openly share data/findings to support other teams' work."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to present analytical work clearly and in formats that are understandable and reproducible for different audiences. At the foundational level, this includes summarizing results clearly and using tools such as R Markdown to combine code, narrative, and outputs into coherent reports.",
+        "indicators": [
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use appropriate data/AI terms and concepts when communicating.",
+          "Cite sources of information/AI-generated content in visuals."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Statistics and R",
+    "description": "This intermediate course introduces core statistical concepts and their implementation in R for analyzing life sciences data. Learners develop practical skills in statistical inference, exploratory data analysis, visualization, non-parametric methods, and reproducible analysis using R scripts.",
+    "duration": "4 weeks, 2-4 hours per week",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics involves applying core statistical concepts to summarize data, understand probability, and interpret analytical results. This competency supports evidence-based analysis through the use of descriptive statistics, probability concepts, and basic statistical reasoning.",
+        "indicators": [
+          "Understand and apply fundamental statistical concepts such as measures of central tendency (mean, median, mode), variance, and standard deviation.",
+          "Ability to summarize and describe the main features of a dataset using visualizations (e.g., histograms, box plots) and numerical summaries (e.g., mean, range).",
+          "Understand basic probability concepts, including independent and dependent events, and apply basic probability distributions (e.g., normal distribution).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to organize and present analytical findings in a clear, logical, and audience-appropriate manner. It includes using visualizations and structured narratives to explain data patterns, support interpretation, and connect findings to decision-making needs.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use code to manipulate data, automate analysis tasks, and support reproducible workflows. In this context, it involves using R to write scripts, apply functions, and perform basic analytical tasks on datasets.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Probability",
+    "description": "This introductory course develops foundational probability knowledge for data science. Learners examine random variables, independence, Monte Carlo simulation, expected values, standard errors, and the Central Limit Theorem, and apply these concepts in R to reason about uncertainty and chance in real-world data.",
+    "duration": "8 weeks, 1–2 hours per week",
+    "technology": "statistics",
+    "competencies": [
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics is the ability to understand and apply core statistical and probability concepts to summarize data, interpret uncertainty, and support evidence-based analysis.",
+        "indicators": [
+          "Understand and apply fundamental statistical concepts such as measures of central tendency (mean, median, mode), variance, and standard deviation.",
+          "Understand basic probability concepts, including independent and dependent events, and apply basic probability distributions (e.g., normal distribution).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use a programming language to perform basic data manipulation, computation, and analysis tasks in a structured and reproducible way.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Scientific Research Methods",
+        "proficiency": "Foundational",
+        "description": "Scientific Research Methods is the ability to understand basic principles of inquiry, interpret findings in context, and apply structured reasoning to analyze evidence and uncertainty.",
+        "indicators": [
+          "Interpret simple research findings and conclusions within the context."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "High-Dimensional Data Analysis",
+    "description": "This course provides an overview of Harvard's CS50 learning pathways and develops practical computer science skills through lectures, problem sets, and projects. Learners build foundational to intermediate capability in computational thinking, programming, algorithms, data structures, databases, web development, APIs, networks, and collaborative software development workflows.",
+    "duration": "Approximately 11 weeks; varies by course stream",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through involves analyzing problems logically, identifying relevant questions, and developing structured solutions based on evidence and clear reasoning. In this course, learners strengthen computational thinking and problem-solving by breaking down programming challenges and designing effective technical solutions.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and improve code to solve practical problems using appropriate languages, structures, and libraries. This course develops foundational programming capability across multiple languages and supports hands-on coding for data, web, and software tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use version control and documentation practices to organize, track, and collaborate on software development work. This course introduces learners to collaborative development workflows using GitHub and reinforces the importance of structured project practices.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Analysis: Basic Probability and Statistics",
+    "description": "This introductory course builds foundational knowledge in probability and statistics for data analysis. Learners develop basic quantitative reasoning skills, learn to summarize and interpret datasets using descriptive statistics, and apply introductory statistical concepts to support evidence-based analysis.",
+    "duration": "1 to 3 hours",
+    "technology": "statistics",
+    "competencies": [
+      {
+        "competency": "Mathematics and Statistics",
+        "proficiency": "Foundational",
+        "description": "Mathematics and Statistics is the ability to understand and apply core statistical and probability concepts to describe data, interpret patterns, and support basic analytical work.",
+        "indicators": [
+          "Understand and apply fundamental statistical concepts such as measures of central tendency (mean, median, mode), variance, and standard deviation.",
+          "Ability to summarize and describe the main features of a dataset using visualizations (e.g., histograms, box plots) and numerical summaries (e.g., mean, range).",
+          "Understand basic probability concepts, including independent and dependent events, and apply basic probability distributions (e.g., normal distribution).",
+          "Familiarity with summarizing data and presenting findings using basic charts and statistics."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to present analytical results clearly and concisely so that key findings from basic data analysis can be understood by a range of audiences.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to prepare and transform data for analysis through basic cleaning, organization, and simple transformations that support introductory statistical work.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Apply methods to handle missing data (e.g., drop missing records)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Principles",
+    "description": "This course provides a foundational introduction to computer science, programming, and computational problem-solving through lectures, hands-on assignments, and projects. Learners develop practical skills in programming, algorithms, data structures, SQL, web development, and collaborative coding workflows while applying structured approaches to designing efficient technical solutions.",
+    "duration": "approximately 11 weeks",
+    "technology": "programming",
+    "competencies": [
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "This competency involves analyzing problems systematically, identifying relevant questions, and developing logical solutions based on evidence and structured reasoning. In this course, learners build computational thinking skills by breaking down problems, recognizing relationships, and designing effective approaches to solve them.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "This competency reflects the ability to write, test, and troubleshoot basic code using core programming constructs and common data structures. The course supports this through practical work in multiple programming languages, introductory software development tasks, and hands-on coding exercises.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "This competency involves understanding and applying basic version control and documentation practices to support collaborative software development. The course introduces development workflows and the use of GitHub to manage code changes and work effectively with others on technical projects.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "MLOps for Scaling TinyML",
+    "description": "This course introduces core computer science and software development concepts through hands-on programming, problem solving, and project work. Learners build practical skills in programming languages, databases, APIs, networks, collaboration workflows, and designing solutions that scale and perform efficiently.",
+    "duration": "Approximately 11 weeks",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and improve code to solve practical problems using appropriate languages, structures, and libraries. It includes applying core programming constructs, working with data, and selecting suitable tools for analysis and development tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems logically, identify relevant relationships, and develop practical solutions. It includes structuring questions, using evidence to inform decisions, and translating analysis into clear recommendations and actions.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and track code changes in a structured way to support reliable development and collaboration. It includes understanding version control practices and maintaining consistent project files and documentation.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "R4DS: Data Transformation",
+    "description": "This course introduces data transformation in R using the tidyverse, with a focus on the dplyr package. Learners practice inspecting tibbles and transforming datasets by filtering, sorting, selecting, renaming, relocating, mutating, grouping, and summarizing data through pipe-based workflows applied to a real-world flights dataset.",
+    "duration": "1-2 hours",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, and organize data so it is fit for analysis and use. This includes combining, cleaning, restructuring, and documenting data in ways that support reliable analytical workflows.",
+        "indicators": [
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use code to perform data-related tasks efficiently and reproducibly. At the foundational level, it includes using a programming language and common libraries to manipulate data and execute basic analytical workflows.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze information systematically, identify relevant questions, and develop logical approaches to solving problems. In this context, it involves using structured data transformation steps to support analysis and answer practical questions from data.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Frame questions explicitly for data to inform answers.",
+          "Use cause and effect relationships to analyze problems systematically."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Automate the Boring Stuff with Python",
+    "description": "This beginner-friendly learning resource teaches Python through practical automation projects. Learners build foundational programming skills and apply them to real-world tasks such as file and text processing, web scraping, spreadsheet and database handling, document automation, notifications, and command-line scripting.",
+    "duration": "40-60 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and use code to solve practical problems. In this course, learners develop foundational Python skills by creating scripts that automate repetitive tasks, manipulate data, and interact with files and common software tools.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to load, clean, transform, and prepare data for use. This course introduces learners to handling common file and data formats, performing basic transformations, and preparing structured information for automation and analysis tasks.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing initiative and being action oriented is the ability to take practical steps to complete work efficiently and adapt to changing needs. Through automation projects, learners break tasks into manageable components and create solutions that reduce manual effort and improve productivity.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Respond to changes in organizational priority, revising own work when conditions change",
+          "Plan for contingencies to deal with unforeseen events or setbacks",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Back-End Development and APIs Certification",
+    "description": "This certification course develops practical skills in back-end development by teaching learners to build server-side applications with Node.js and Express, design and use APIs, and integrate databases into working solutions through project-based exercises and assessment.",
+    "duration": "40-60 hours",
+    "technology": "Node.js",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and maintain code to perform defined tasks and support software development activities. In this course, learners apply programming concepts to build server-side functionality, manipulate data, and create working back-end applications.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Intermediate",
+        "description": "Project management is the ability to organize, monitor, and deliver work in a structured way while managing timelines, risks, and stakeholder needs. This course requires learners to complete multiple practical projects and progress toward certification through defined deliverables and assessment milestones.",
+        "indicators": [
+          "Independently manage smaller, less complex tasks within a project, ensuring deadlines and deliverables are met.",
+          "Monitor the progress of data science projects, ensuring the team stays on track, and adjust when necessary (e.g., reallocating resources or extending deadlines).",
+          "Identify and mitigate moderate risks in data science projects, including technical issues, resource shortages, or data availability concerns.",
+          "Provide regular updates to stakeholders on the status of the project, ensuring clear communication of timelines, issues, and changes."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data processing is the ability to prepare, transform, and manage data so it can be used effectively in applications and analysis. In this course, learners work with APIs and databases, combine and transform data, and support back-end functionality through structured data handling practices.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Python Certification",
+    "description": "This hands-on course develops foundational to intermediate Python programming skills through theory lessons, labs, workshops, quizzes, and certification projects. Learners build practical programs while applying core concepts such as variables, data types, strings, conditionals, functions, loops, error handling, object-oriented programming, data structures, and algorithms to solve programming problems.",
+    "duration": "40-80 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and improve code to solve practical problems. At the foundational level, it includes using core language features, basic data structures, common libraries, and debugging techniques to complete straightforward programming tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems logically, identify relevant relationships, and develop practical solutions. At the foundational level, it involves asking the right questions, applying cause-and-effect reasoning, and resolving problems in a sound and structured manner.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and track changes to code in a structured way that supports maintainability and collaboration. At the foundational level, it includes understanding version control concepts, maintaining basic documentation, and using essential commands to manage code changes.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Relational Databases Certification",
+    "description": "This certification provides hands-on training in relational database fundamentals, including SQL querying, PostgreSQL, schema design, command-line workflows, and version control. Learners build practical database projects and use development tools to create, manage, and query structured data in realistic development environments.",
+    "duration": "40-60 hours",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, clean, transform, and prepare data so it can be stored, managed, and used effectively. At the foundational level, it includes working with common data formats, applying basic transformations, deriving variables, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to organize, document, and track changes to code in a structured and collaborative way. At the foundational level, it includes understanding the purpose of version control systems, maintaining basic documentation and file structures, and using core commands to manage code changes.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Foundational",
+        "description": "Project Management is the ability to organize work, track progress, and support delivery against defined tasks and timelines. At the foundational level, it includes contributing to task planning, maintaining documentation, recognizing simple risks, and helping ensure milestones are achieved.",
+        "indicators": [
+          "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+          "Help allocate resources (time, people, tools) for simple tasks or project phases.",
+          "Understand and follow project timelines and task lists.",
+          "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+          "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "React for Beginners Handbook",
+    "description": "This beginner-level handbook introduces the fundamentals of React for building interactive web interfaces. Learners set up a React development environment, create and structure applications with Vite, build reusable components with JSX, manage props and state, handle events and forms, apply styling approaches, and make network requests in a front-end application.",
+    "duration": "6-10 hours",
+    "technology": "React",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to build functional software solutions. At the foundational level, it includes using core programming constructs, working with common data structures and libraries, and applying an open-source language to complete practical development tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication is the ability to explain technical concepts clearly and accurately so that learners or stakeholders can understand how tools, components, and processes work. At the foundational level, it involves using appropriate terminology and presenting information in a simple, accessible manner.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and maintain code in a structured development environment. At the foundational level, it includes understanding the purpose of version control and basic documentation practices that support collaborative software development.",
+        "indicators": [
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Python Data Science Handbook",
+    "description": "This comprehensive handbook develops practical data science capability in Python through notebook-based instruction on interactive workflows, numerical computing, data manipulation, visualization, and introductory machine learning. Learners build skills in using Python libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn to clean, transform, analyze, visualize, and model data.",
+    "duration": "30-50 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, troubleshoot, and use code to perform data-related tasks efficiently. In this learning resource, learners use Python and common libraries to manipulate data, apply functions, and support analytical workflows.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data processing is the ability to prepare, transform, combine, and manage data so it can be used effectively for analysis. This course emphasizes practical techniques for cleaning datasets, handling missing values, merging sources, transforming variables, and working with both structured and time-based data in Python.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing).",
+          "Review and analyze outliers and their role as a potential root cause for quality issues.",
+          "Retain/maintain original data for outcome comparison.",
+          "Provide transparent documentation and rationale for dataset fitness for use."
+        ]
+      },
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial intelligence techniques involve applying core machine learning concepts and tools to develop and evaluate models for analytical tasks. This handbook introduces learners to common machine learning methods in Scikit-learn, along with model validation and feature engineering practices used in applied data science.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Use open-source libraries to build basic models."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Python Official Tutorial",
+    "description": "This official tutorial introduces programmers to the core concepts and features of the Python language. It covers interpreter use, syntax, data types, control flow, functions, modules, input and output, exceptions, classes, standard library features, and virtual environments to build a solid foundation for writing and organizing Python programs.",
+    "duration": "10-15 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to perform computational tasks. At the foundational level, it includes using core programming constructs, working with common data structures, and applying a programming language such as Python to basic data manipulation and analysis tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and maintain code in a structured and collaborative manner. At the foundational level, it includes understanding the role of version control and documentation in supporting consistent and reusable programming practices.",
+        "indicators": [
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Scikit-learn Documentation",
+    "description": "This resource provides comprehensive guidance on using the scikit-learn Python library for machine learning. It covers core predictive analytics workflows, including classification, regression, clustering, dimensionality reduction, preprocessing, model evaluation, and parameter tuning, enabling learners to build and assess machine learning models using open-source tools.",
+    "duration": "8-15 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves applying core machine learning concepts, methods, and tools to develop and evaluate models for practical analytical tasks. At the foundational level, this includes understanding key AI concepts, using open-source libraries, and applying basic supervised and unsupervised learning techniques.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use code to manipulate data, implement analytical workflows, and support model development. At the foundational level, this includes using an open-source programming language and relevant libraries to perform basic data manipulation and analysis tasks.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to prepare, transform, and organize data so it can be used effectively in analysis and machine learning workflows. At the foundational level, this includes loading data, performing basic cleaning, and applying transformations that support model development.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Apply methods to handle missing data (e.g., drop missing records)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "R for Data Science (R4DS)",
+    "description": "This course provides a comprehensive introduction to the end-to-end data science workflow in R. Learners develop practical skills in importing, cleaning, transforming, tidying, visualizing, and exploring data, while also building foundational programming ability, organizing reproducible analytical work, and communicating results through clear reports and visual narratives.",
+    "duration": "40-60 hours",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it can be used reliably for analysis and decision-making. This includes working with multiple data sources, cleaning and restructuring datasets, handling inconsistencies, and applying appropriate transformations to support analytical objectives.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to organize, present, and explain analytical findings in ways that are clear, structured, and appropriate for different audiences. It includes creating effective visualizations, building coherent data-driven narratives, and communicating insights through reproducible reports and presentations.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code that supports data analysis and workflow automation. At the foundational level, it includes using a programming language to manipulate data, create reusable functions, and apply basic control structures to solve common analytical tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hands-On Programming with R (HOPR)",
+    "description": "This beginner-friendly course introduces the R programming language through hands-on exercises and practical examples. Learners build foundational skills in working with objects, functions, scripts, packages, and core data structures, while applying R to simple simulations and data science problem solving.",
+    "duration": "15-25 hours",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, test, and use code to perform data-related tasks efficiently. At the foundational level, it includes using core programming constructs, working with common data structures, identifying errors, and applying an open-source language such as R to basic analysis and manipulation tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to prepare data for analysis by loading, cleaning, transforming, and organizing it appropriately. At the foundational level, it involves working with common file formats, applying basic transformations, deriving variables, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code management is the ability to organize, document, and maintain code in a way that supports reuse and collaboration. At the foundational level, it includes understanding the purpose of version control, maintaining clear file structures, and documenting code appropriately.",
+        "indicators": [
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "UCI Machine Learning Repository",
+    "description": "This resource introduces a large public collection of real-world datasets used for machine learning, predictive modelling, and statistical analysis. Learners explore datasets from multiple domains and build foundational skills in selecting appropriate data, understanding feature and instance structure, and matching datasets to common supervised learning tasks such as classification and prediction.",
+    "duration": "1-2 hours",
+    "technology": "machine learning",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves understanding core AI concepts and applying basic machine learning methods to practical problems using available datasets and tools.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing involves preparing and organizing data so it can be used effectively for analysis and modelling. This includes loading datasets, applying basic transformations, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to identify relevant analytical questions, recognize relationships in information, and make sound decisions about how data can be used to address practical problems.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Frame questions explicitly for data to inform answers.",
+          "Recognize connections and develop short-term plans and recommendations.",
+          "Use cause and effect relationships to analyze problems systematically."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "swirl (Learn R in R)",
+    "description": "This introductory learning resource guides learners through setting up an R environment and using the swirl package to begin learning R programming and data science through interactive console-based exercises. It covers installing R, optionally installing RStudio, installing and loading an R package, launching guided lessons, and accessing additional swirl courses.",
+    "duration": "15-30 minutes",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming at the foundational level involves using a core programming language to complete basic tasks, understand simple program structure, and work with common tools and functions for data-related activities.",
+        "indicators": [
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing at the foundational level involves understanding the basic stages of working with data and preparing data environments and inputs so that analysis activities can begin effectively.",
+        "indicators": [
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management at the foundational level involves understanding basic practices for organizing and using programming assets in a structured way, including awareness of tools and conventions that support reproducible coding work.",
+        "indicators": [
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Python Pandas Tutorial (Part 1): Getting Started with Data Analysis",
+    "description": "This beginner-level tutorial introduces learners to setting up a Python data analysis environment and using Pandas in Jupyter Notebook. It covers installing required tools, loading a dataset, creating and working with DataFrames, and inspecting the basic structure and contents of tabular data.",
+    "duration": "20-30 minutes",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming involves writing and using basic code structures to perform data-related tasks, manipulate information, and support analysis using an open-source language such as Python.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to load, clean, transform, and prepare datasets for analysis using common tools and formats while understanding the basic stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication involves explaining basic analytical work clearly and using appropriate technical terminology so that learners and stakeholders can understand the purpose and structure of the data being used.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Python Installation and Beginner Setup",
+    "description": "This beginner-level learning resource introduces the foundational steps required to start working with Python. It covers installing Python on Mac and Windows, setting up a basic development environment, using the interactive prompt, and creating and running a first script.",
+    "duration": "10 minutes or less",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming at the foundational level involves using a core programming language to complete simple tasks, understand basic program structure, and begin working with common tools and functions needed for analysis and scripting.",
+        "indicators": [
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Showing Initiative and Being Action Oriented (Achieve Results; Promote Innovation and Guide Change)",
+        "proficiency": "Foundational",
+        "description": "Showing initiative and being action oriented involves taking practical steps to begin work, organizing activities into manageable parts, and adapting effort to support progress toward learning or task completion.",
+        "indicators": [
+          "Accomplish own share of work",
+          "Break activities into smaller components to facilitate completion"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Git Tutorial for Beginners: Command-Line Fundamentals",
+    "description": "This beginner-level tutorial introduces Git as a version control system and demonstrates how to use it from the command line. Learners are shown how to install Git, verify the installation, configure global settings, access built-in help, and understand basic repository and workflow concepts for managing code changes.",
+    "duration": "20-30 minutes",
+    "technology": "Git",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use basic version control practices to organize, document, and track code changes in a consistent and collaborative manner. It includes understanding the purpose of version control systems and applying essential commands to manage code effectively.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming at the foundational level involves using core development tools and environments to support simple coding and data tasks. In this context, it includes working with command-line tools that support software development workflows and basic technical problem solving.",
+        "indicators": [
+          "Consider use of open source over commercial tools."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SQL Tutorial for Beginners 1: Installing PostgreSQL and Creating Your First Database",
+    "description": "This introductory lesson teaches learners how to install PostgreSQL, create an initial database, and connect to it. It builds foundational knowledge of database setup and the basic workflow required to begin working with SQL in a local environment.",
+    "duration": "10 minutes or less",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing involves preparing and handling data in structured environments so it can be accessed and used effectively. At the foundational level, this includes working with common data systems and understanding the basic steps required to load, organize, and prepare data for use.",
+        "indicators": [
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to explain technical concepts and procedures clearly so that learners and stakeholders can understand and apply them. At the foundational level, this includes presenting introductory technical information in simple, accessible language using appropriate terminology.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Analysis with Pandas (Data School)",
+    "description": "This beginner-to-intermediate video playlist introduces data analysis in Python using pandas. It develops practical skills in loading, cleaning, filtering, transforming, grouping, and analyzing tabular datasets, with an emphasis on applying pandas techniques to real-world data analysis tasks.",
+    "duration": "2-4 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it can be used effectively for analysis. This includes cleaning datasets, handling inconsistencies, performing structured transformations, and working with data in forms suitable for practical analytical tasks.",
+        "indicators": [
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to use code to manipulate data, automate tasks, and support analysis. In this context, it involves using Python and pandas to work with tabular data, apply functions, and carry out common data analysis operations.",
+        "indicators": [
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to explain analytical concepts and results clearly using appropriate terminology and simple representations. In this course context, it includes understanding and communicating basic data analysis concepts in a way that supports learning and practical application.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "R Programming 101 (GeeksforGeeks)",
+    "description": "This course provides a beginner-friendly introduction to R programming for data analysis and statistical computing. It covers the R and RStudio environment, core programming concepts, data structures, functions, control flow, package use, data manipulation, visualization, statistical analysis, and introductory exposure to advanced applications such as machine learning, reproducible reporting, and Shiny.",
+    "duration": "8-12 hours",
+    "technology": "R programming",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, understand, and troubleshoot code to perform data-related tasks. At the foundational level, it includes using core programming constructs, working with common data structures, and applying an open-source language such as R to basic analysis and manipulation tasks.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to prepare data for analysis through loading, cleaning, transforming, and organizing datasets. At the foundational level, it includes handling common file formats, applying basic transformations, deriving variables, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Apply methods to handle missing data (e.g., drop missing records).",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication is the ability to present analytical information clearly and appropriately for different audiences. At the foundational level, it includes summarizing results in straightforward language and using basic visualizations to communicate trends and findings effectively.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Data Scientist Career Path",
+    "description": "This structured learning path introduces the role of a data scientist and builds foundational to intermediate capability in data analysis, statistics, machine learning, and business problem-solving using Microsoft Learn and Azure-based resources. It emphasizes working with large and unstructured data, applying analytical and AI techniques, and preparing for certification through guided training and practice assessments.",
+    "duration": "Multi-week career path",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves understanding core AI concepts and applying basic machine learning methods and tools to solve practical problems. At this level, it includes building introductory models, using common libraries, and evaluating AI outputs appropriately.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Business Acumen is the ability to understand how analytical work supports organizational objectives and decision-making. In this context, it includes recognizing business problems, understanding how data science contributes to outcomes, and relating analytical findings to organizational goals.",
+        "indicators": [
+          "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+          "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+          "Recognize various data types and value as an organizational asset."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing involves preparing data for analysis by loading, cleaning, transforming, and organizing it in usable formats. At the foundational level, it includes handling common data sources, addressing basic quality issues, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Create Machine Learning Models (Microsoft Learn)",
+    "description": "This learning path introduces core machine learning concepts and provides practical experience creating machine learning models using Azure and Python. It covers data exploration and analysis, regression, classification, clustering, model training and evaluation, and an introductory overview of deep learning for predictive and AI solutions.",
+    "duration": "4-6 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves understanding core AI and machine learning concepts and applying common methods and tools to build and assess basic models. It includes using foundational algorithms, open-source libraries, and practical techniques to support predictive and analytical tasks.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, clean, transform, and prepare data so it can be used effectively for analysis and model development. It includes applying basic preparation techniques and understanding how data moves through the full lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to present analytical results clearly and simply so that both technical and non-technical audiences can understand key findings. It includes summarizing results and using basic visualizations to communicate trends and insights effectively.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Explore and Analyze Data with Python",
+    "description": "This introductory module teaches learners how to explore, manipulate, and visualize data using Python in a notebook-based workflow. It focuses on common analytical tasks and the practical use of core data science libraries such as NumPy, Pandas, and Matplotlib to inspect datasets, transform data, and communicate basic insights.",
+    "duration": "1-2 hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write and use code to perform data-related tasks efficiently and accurately. At the foundational level, it includes using a programming language such as Python to manipulate data, apply basic logic, and work with common libraries for analysis.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing is the ability to prepare data for analysis by loading, cleaning, transforming, and organizing it in usable formats. At the foundational level, it involves working with common file types, handling basic data quality issues, and applying simple transformations to support analysis.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Apply methods to handle missing data (e.g., drop missing records)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication is the ability to present analytical results clearly so that both technical and non-technical audiences can understand the main findings. At the foundational level, it includes summarizing simple analyses and using basic visualizations to communicate trends and relationships effectively.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pandas Official Documentation",
+    "description": "This resource provides comprehensive official guidance on using the pandas Python library for tabular data manipulation, cleaning, transformation, and analysis. It supports learners in understanding core pandas data structures, applying DataFrame and Series operations, and using the API effectively for practical data processing workflows.",
+    "duration": "20+ hours",
+    "technology": "python",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it can be used reliably for analysis and operational purposes. It includes cleaning datasets, performing structured transformations, and applying tools to manage data efficiently across common workflows.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing)."
+        ]
+      },
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write and use code to perform data-related tasks efficiently and accurately. It includes applying core programming constructs, using common data structures, and working with open-source languages and libraries to manipulate and analyze data.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Use basic data structures such as lists, arrays, and dictionaries to store and manipulate data.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to convey technical concepts, methods, and results clearly so that users can understand and apply them appropriately. In this context, it includes using correct data terminology and presenting information in a clear and accessible way through documentation and examples.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Create Machine Learning Models (Microsoft Learn)",
+    "description": "This learning path introduces core machine learning concepts and provides practical experience in exploring data, building predictive models, and evaluating model performance using Azure and Python. It covers regression, classification, clustering, and foundational deep learning concepts to support applied data science work.",
+    "duration": "6-8 hours",
+    "technology": "ai",
+    "competencies": [
+      {
+        "competency": "Artificial Intelligence Techniques",
+        "proficiency": "Foundational",
+        "description": "Artificial Intelligence Techniques involves applying core AI and machine learning concepts, methods, and tools to develop models and support practical analytical solutions. At the foundational level, it includes understanding key AI concepts, using common libraries and frameworks, and building basic machine learning models.",
+        "indicators": [
+          "Apply basic machine learning algorithms, including supervised and unsupervised techniques.",
+          "Define core AI concepts, such as machine learning, deep learning, large language models, and vision-language models.",
+          "Use open-source libraries to build basic models."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, clean, transform, and prepare data for analysis and modelling. At the foundational level, it includes working with common data formats, applying basic transformations, and preparing datasets for downstream analytical tasks.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to present analytical results clearly and appropriately for different audiences. At the foundational level, it includes summarizing findings, using simple visualizations, and communicating data insights in clear and understandable language.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Summarize the findings of simple analyses (e.g., descriptive statistics or basic trends) in a straightforward manner. Focus on clarity and conciseness.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Certified PL-300 Study Guide (Power BI Data Analyst)",
+    "description": "This study guide prepares learners for the Microsoft PL-300 certification by covering the core responsibilities of a Power BI Data Analyst. It focuses on preparing and transforming data, building semantic models, creating DAX calculations, designing accessible and interactive reports, analyzing trends and anomalies, optimizing performance, and managing security, refresh, and workspace governance in Power BI.",
+    "duration": "20-30 hours",
+    "technology": "Power BI",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Intermediate",
+        "description": "Data Processing is the ability to prepare, transform, combine, and document data so it can be used reliably for analysis and reporting. It includes cleaning data, handling inconsistencies, integrating multiple sources, performing structured transformations, and maintaining transparency about dataset fitness for use.",
+        "indicators": [
+          "Combine multiple datasets from different sources using joins or merges based on common keys, handling inconsistencies in data structure.",
+          "Write scripts to automate common data cleaning tasks, such as removing duplicates, correcting data types, and normalizing values.",
+          "Process both structured data (e.g., databases, spreadsheets) and unstructured data (e.g., text, logs) for analysis.",
+          "Perform complex data manipulations and transformations (e.g., data aggregation, time series processing).",
+          "Review and analyze outliers and their role as a potential root cause for quality issues.",
+          "Provide transparent documentation and rationale for dataset fitness for use."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to present analytical findings in a clear, structured, and audience-appropriate way. It includes building effective visualizations, organizing insights into coherent narratives, and linking analysis directly to operational or business decisions.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience.",
+          "Develop data-driven narratives that directly link findings to business objectives, demonstrating how the insights impact strategy and decision-making.",
+          "Communicate risks of AI-generated content (e.g., copyright, bias, etc.)."
+        ]
+      },
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Intermediate",
+        "description": "Demonstrating Integrity and Respect is the ability to apply legal, ethical, privacy, security, and accessibility requirements when working with data and analytics tools. It includes assessing risks, supporting fair and responsible use of data and AI, and ensuring outputs meet government standards for transparency and inclusion.",
+        "indicators": [
+          "Apply legal and ethical standards when using data, methods, and resources.",
+          "Assess source data for bias, representation, validity and accuracy.",
+          "Ensure all visuals meet accessibility/digital standards."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pro Git (Official Book)",
+    "description": "This comprehensive official book develops practical and advanced proficiency in Git as a distributed version control system. It covers repository setup and management, branching and merging, remote collaboration, GitHub workflows, server configuration, customization, migration from other systems, and Git internals to support reliable collaborative software development practices.",
+    "duration": "25-40 hours",
+    "technology": "git",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use version control practices to organize, document, and track changes to code in collaborative development environments. It includes understanding the purpose of version control systems, maintaining structured project files, and applying core commands to manage code changes effectively.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others is the ability to collaborate productively with team members and contributors to achieve shared outcomes. In this context, it includes sharing information, contributing to collective workflows, and supporting collaborative problem solving in distributed development environments.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Work with others to clearly define problems and identify suitable solutions.",
+          "Openly share data/findings to support other teams' work."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Foundational",
+        "description": "Project Management is the ability to support organized delivery of work through clear task tracking, documentation, and awareness of risks and dependencies. In this learning resource, it is reflected through structured workflows, change tracking, and maintaining records that support coordinated project execution.",
+        "indicators": [
+          "Understand and follow project timelines and task lists.",
+          "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+          "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "GitLab Official Tutorials",
+    "description": "This learning resource provides guided tutorials on core GitLab workflows, including version control, project planning, CI/CD pipelines, security and compliance scanning, deployment, infrastructure management, integrations, and AI-assisted development features. It helps learners build practical familiarity with collaborative software delivery and platform-based project execution.",
+    "duration": "4-8 hours",
+    "technology": "GitLab",
+    "competencies": [
+      {
+        "competency": "Project Management",
+        "proficiency": "Intermediate",
+        "description": "Project Management is the ability to organize, monitor, and adjust work to achieve defined objectives while maintaining clear communication, managing risks, and supporting delivery throughout the project lifecycle.",
+        "indicators": [
+          "Monitor the progress of data science projects, ensuring the team stays on track, and adjust when necessary (e.g., reallocating resources or extending deadlines).",
+          "Provide regular updates to stakeholders on the status of the project, ensuring clear communication of timelines, issues, and changes.",
+          "Engage with users to collect feedback/data during idea/solution implementation.",
+          "Adjust work based on continuous user feedback."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others is the ability to collaborate productively with team members and stakeholders by sharing information, contributing to joint work, and supporting inclusive problem solving to achieve common goals.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work.",
+          "Work with others to clearly define problems and identify suitable solutions.",
+          "Openly share data/findings to support other teams' work."
+        ]
+      },
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use version control practices and basic documentation approaches to organize code changes, support collaboration, and maintain consistent project structures.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Explain the need for basic code documentation and consistent file structures in projects that involve programming.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Learn Git Branching",
+    "description": "This interactive course develops practical Git version control skills through visual, hands-on exercises. Learners build proficiency in core concepts such as commits, branching, merging, rebasing, detached HEAD states, commit history navigation, and remote workflows used in collaborative software development.",
+    "duration": "2-6 hours",
+    "technology": "git",
+    "competencies": [
+      {
+        "competency": "Code Management",
+        "proficiency": "Foundational",
+        "description": "Code Management is the ability to use version control practices to organize, document, and track changes to code in a collaborative development environment. It includes understanding the purpose of version control systems and applying basic commands to manage code changes effectively.",
+        "indicators": [
+          "Recall the purpose of version control systems (e.g., Git) and their role in collaborative coding.",
+          "Execute basic version control commands (e.g., git commit, git push) to manage code changes."
+        ]
+      },
+      {
+        "competency": "Working Effectively with Others (Mobilize People; Collaborate with Partners and Stakeholders)",
+        "proficiency": "Foundational",
+        "description": "Working Effectively with Others involves contributing to shared work in ways that support coordination, transparency, and collaboration. In this context, learners develop an understanding of how Git workflows support team-based development by enabling people to share changes, integrate work, and coordinate contributions.",
+        "indicators": [
+          "Share relevant information to facilitate collaboration.",
+          "Accomplish independent tasks as part of one's own share of the work."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "W3Schools SQL Tutorial",
+    "description": "This beginner-level tutorial introduces SQL as a standard language for storing, retrieving, and manipulating data in relational databases. Through interactive examples, exercises, quizzes, and reference material, learners build practical skills in writing queries, filtering results, joining tables, understanding data types, and performing common database operations across platforms such as MySQL, SQL Server, Oracle, PostgreSQL, and MS Access.",
+    "duration": "8-12 hours",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing involves preparing, transforming, and working with data in structured formats so it can be retrieved, analyzed, and used effectively. At the foundational level, it includes loading data, applying basic transformations, and understanding how data moves through its lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to explain technical concepts, data, and results clearly so they are understandable to intended audiences. At the foundational level, it includes using correct terminology and communicating information in a clear, simple, and structured way.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Business Acumen is the ability to understand how data-related work supports organizational operations and decision-making. At the foundational level, it includes recognizing the value of data as an organizational asset and understanding where data work can contribute to business needs.",
+        "indicators": [
+          "Recognize various data types and value as an organizational asset."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Learn SQL Server Resources",
+    "description": "This learning collection introduces SQL Server and Azure SQL through tutorials, quickstarts, and guided training on querying, database administration, backup and restore, monitoring, security, performance tuning, and deployment across on-premises, Linux, and Azure environments. Learners build practical skills in writing T-SQL, connecting to databases, managing core operational tasks, and selecting appropriate SQL platform options for different implementation scenarios.",
+    "duration": "6-12 hours",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, prepare, transform, and manage data so it can be used reliably for analysis and operational purposes. At the foundational level, it includes working with common data sources, applying basic transformations, deriving variables, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Foundational",
+        "description": "Project Management is the ability to organize tasks, timelines, resources, and documentation to support successful delivery of technical work. At the foundational level, it includes following structured implementation steps, recognizing simple risks, and contributing to the orderly execution of operational activities.",
+        "indicators": [
+          "Assist in planning project tasks and timelines, and ensure milestones are met under direct supervision.",
+          "Understand and follow project timelines and task lists.",
+          "Identify simple project risks, such as timeline delays or resource shortages, and raise awareness with the team.",
+          "Contribute to maintaining project documentation (e.g., status reports, project timelines) and keep records updated."
+        ]
+      },
+      {
+        "competency": "Demonstrating Integrity and Respect (Upholds Integrity and Respect)",
+        "proficiency": "Foundational",
+        "description": "Demonstrating Integrity and Respect is the ability to apply ethical, legal, privacy, security, and accessibility expectations in technical work. At the foundational level, it involves following established frameworks and procedures, recognizing potential concerns, and seeking guidance when handling sensitive data or secure systems.",
+        "indicators": [
+          "Discuss ethical concerns with appropriate individuals or channels and seek guidance for ethical/privacy issues.",
+          "Adhere to the organization's legal, privacy and ethical frameworks (Privacy Act, Policy on Privacy Protection, etc.) and follow disclosure procedures.",
+          "Identify and proactively flag privacy/security/accessibility implications.",
+          "Ensure privacy/security is set at the right permission levels."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Oracle Dev Gym SQL Course",
+    "description": "This interactive course introduces core Oracle SQL and relational database concepts. Learners practice writing queries, combining tables with joins, understanding transactions, and applying foundational data modeling concepts to support structured data work.",
+    "duration": "4-8 hours",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, clean, transform, and prepare data for analysis across the data lifecycle. At the foundational level, it includes working with common data formats, applying basic transformations, deriving variables, and understanding how data is processed and used.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Thinking Things Through (Create Vision and Strategy)",
+        "proficiency": "Foundational",
+        "description": "Thinking Things Through is the ability to analyze problems in a structured and logical way, identify relevant relationships, and develop sound recommendations or solutions. At the foundational level, it involves asking relevant questions, using evidence to inform analysis, and applying cause-and-effect reasoning to resolve problems.",
+        "indicators": [
+          "Ask the right questions to identify relevant problems/issues.",
+          "Use cause and effect relationships to analyze problems systematically.",
+          "Resolve problems in a sound, logical and decisive manner."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Business Acumen is the ability to understand how data supports organizational operations and decision-making. At the foundational level, it includes recognizing the value of data as an organizational asset and understanding how data-related work connects to operational needs.",
+        "indicators": [
+          "Recognize various data types and value as an organizational asset."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Microsoft OneLake Documentation",
+    "description": "This documentation introduces Microsoft OneLake as the unified logical data lake within Microsoft Fabric. It explains core architecture, data storage concepts, shortcuts, Azure integration, and basic deployment and setup steps for managing and accessing organizational data with minimal infrastructure overhead.",
+    "duration": "1-2 hours",
+    "technology": "data",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, prepare, transform, and manage data through the stages of its lifecycle so that it can be accessed and used effectively. At the foundational level, it includes understanding common data formats, basic preparation methods, and the overall flow of data from planning to use and sharing.",
+        "indicators": [
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose).",
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Foundational",
+        "description": "Business Acumen is the ability to understand how data capabilities support organizational operations and objectives. In this context, it involves recognizing the value of unified data storage and explaining data-related concepts in ways that are relevant to organizational users and stakeholders.",
+        "indicators": [
+          "Recognize business problems and basic opportunities where data analysis can contribute to business goals.",
+          "Present data findings in simple terms, ensuring they are relevant and understandable for business stakeholders.",
+          "Recognize various data types and value as an organizational asset."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical Communication is the ability to explain technical concepts clearly and accurately for different audiences. At the foundational level, it includes using appropriate terminology and presenting technical information in straightforward language so that users can understand core platform concepts and capabilities.",
+        "indicators": [
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Fabric Learning Labs: Discover and Connect to Data in OneLake",
+    "description": "This hands-on beginner lab teaches learners how to discover, access, and analyze organizational data in Microsoft Fabric using OneLake. Participants create a workspace and lakehouse, ingest CSV data into a Delta table, inspect metadata and schema through the OneLake catalog, create cross-workspace shortcuts, query data with the SQL analytics endpoint, and build a semantic model for exploratory analysis.",
+    "duration": "30 minutes",
+    "technology": "sql",
+    "competencies": [
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data Processing is the ability to load, prepare, and structure data so it can be used reliably for analysis. At the foundational level, it includes importing common file formats, applying basic transformations, deriving variables, handling missing data, and understanding the stages of the data lifecycle.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Describe the stages of the full data lifecycle (plan, collect, process, use, share, dispose)."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical Communication is the ability to organize and present data insights in a clear, logical, and audience-appropriate way. It includes structuring findings, using visual and analytical outputs effectively, and connecting results to decision-making needs.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience.",
+          "Develop data-driven narratives that directly link findings to business objectives, demonstrating how the insights impact strategy and decision-making."
+        ]
+      },
+      {
+        "competency": "Business Acumen",
+        "proficiency": "Intermediate",
+        "description": "Business Acumen is the ability to connect data work to organizational objectives and operational needs. In this context, it involves understanding how shared data assets, semantic models, and analytical outputs support business intelligence, reporting, and decision-making across teams.",
+        "indicators": [
+          "Collaborate with business teams to identify key business objectives and tailor data science projects to align with those objectives.",
+          "Work with cross-functional teams (e.g., marketing, finance, product) to ensure data projects are aligned with business priorities.",
+          "Tie visualizations explicitly to business rationale and intended use."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "RShiny",
+    "description": "This introductory course teaches learners how to build a basic interactive web application in R using Shiny. It covers package installation, the structure of a Shiny app, creation of simple user interface and server components, use of reactive plot output, and running or modifying example applications in RStudio.",
+    "duration": "30-45 minutes",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming at the foundational level involves writing and modifying simple code to perform basic data and application tasks using an open-source language. It includes using core programming constructs, working with libraries, and correcting straightforward coding issues.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks.",
+          "Consider use of open source over commercial tools."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Foundational",
+        "description": "Technical communication at the foundational level involves presenting analytical outputs clearly and simply so that users can understand key information. It includes using basic visual outputs and appropriate technical terminology when explaining results.",
+        "indicators": [
+          "Present basic data analysis results in clear, simple terms using basic charts and graphs (e.g., bar charts, line plots), ensuring key insights are understandable to technical and non-technical audiences.",
+          "Use basic visual tools (e.g., Excel charts, basic Python/R plotting) to represent data in ways that make trends and relationships easy to understand.",
+          "Use appropriate data/AI terms and concepts when communicating."
+        ]
+      },
+      {
+        "competency": "Data Processing",
+        "proficiency": "Foundational",
+        "description": "Data processing at the foundational level involves loading data, applying simple transformations, and preparing datasets for analysis or visualization. It includes basic handling of data formats and straightforward preparation steps needed to support outputs in an application.",
+        "indicators": [
+          "Load datasets from common formats (CSV, Excel, SQL) and perform basic cleaning tasks such as handling missing values and formatting issues.",
+          "Apply data transformations such as filtering, aggregating, and sorting to prepare data for analysis.",
+          "Derive variables to enhance data analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "RShiny",
+    "description": "This course provides comprehensive instruction on building interactive web applications in R using Shiny. It covers foundational app development, reactive programming, user interface design, dynamic features, and production-oriented practices such as modular architecture, testing, security, and performance optimization for maintainable applications.",
+    "duration": "25-40 hours",
+    "technology": "R",
+    "competencies": [
+      {
+        "competency": "Programming",
+        "proficiency": "Foundational",
+        "description": "Programming is the ability to write, troubleshoot, and use code effectively to perform data-related tasks and build functional solutions. In this context, it includes using R to develop interactive applications, structure logic, and manipulate data in a maintainable way.",
+        "indicators": [
+          "Write basic programs that include variables, loops, conditionals, and functions to perform simple data tasks.",
+          "Recognize and correct common programming errors, such as syntax and logical mistakes.",
+          "Manipulate data using built-in functions and libraries (e.g., Python's Pandas or R's dplyr).",
+          "Use at least one open-source programming language, typically Python or R, for basic data manipulation and analysis tasks."
+        ]
+      },
+      {
+        "competency": "Project Management",
+        "proficiency": "Advanced",
+        "description": "Project management is the ability to plan, structure, test, and deliver technical solutions in a disciplined and user-focused manner. For Shiny application development, this includes setting goals, prototyping, incorporating feedback, and ensuring accessibility and quality throughout implementation.",
+        "indicators": [
+          "Head the planning and structuring of complex data science projects, setting clear goals, objectives, and deliverables.",
+          "Work in a multidisciplinary team to inform problem framing with data.",
+          "Set analysis goals collaboratively with stakeholders.",
+          "Prototype solutions for demonstration in customer environments.",
+          "Ensure that projects are accessible by design."
+        ]
+      },
+      {
+        "competency": "Technical Communication",
+        "proficiency": "Intermediate",
+        "description": "Technical communication is the ability to present technical concepts, analytical outputs, and data-driven insights in a clear and audience-appropriate way. In this course, it is reflected through the design of interactive interfaces, visual outputs, and structured communication of analytical results to users.",
+        "indicators": [
+          "Organize data insights into a clear, logical structure, ensuring the narrative flow is easy to follow and the key insights are highlighted.",
+          "Create complex visualizations (e.g., heatmaps, scatter plots, time series plots) to demonstrate trends, correlations, or distributions, providing more detailed insights for specific audiences.",
+          "Adapt communication approach for different stakeholders (e.g., technical team vs. business Leaders), ensuring that the level of complexity is appropriate for the audience."
+        ]
+      }
+    ]
+  }
+]
